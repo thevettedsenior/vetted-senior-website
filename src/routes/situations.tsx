@@ -33,7 +33,7 @@ function SituationsPage() {
           </p>
           <p className="mt-3 text-lg text-muted-foreground">
             Each guide explains what's happening, what to do first, what options
-            exist, and where to find real help — without the jargon.
+            exist, and where to find real help without the jargon.
           </p>
         </div>
       </section>
@@ -69,7 +69,7 @@ function SituationsPage() {
           <div className="mx-auto max-w-6xl px-6 py-12">
             <h2 className="font-serif text-2xl text-primary mb-2">More guides on the way</h2>
             <p className="text-base text-muted-foreground mb-6">
-              We're writing these carefully — they'll be ready soon.
+              We're writing these carefully. They'll be ready soon.
             </p>
             <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {soon.map((s) => (

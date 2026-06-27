@@ -8,7 +8,7 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "What 'vetted' means on The Vetted Senior — and what it doesn't. Our review process, our standards, and our commitment to honesty about both.",
+          "What 'vetted' means on The Vetted Senior, and what it doesn't. Our review process, our standards, and our commitment to honesty about both.",
       },
       { property: "og:title", content: "How We Vet | The Vetted Senior" },
     ],
@@ -30,7 +30,7 @@ const STEPS = [
   {
     n: "3",
     title: "References from real clients",
-    body: "We ask for references from senior clients or their family members — and we follow up. We're looking for honest accounts of real experiences, not curated testimonials.",
+    body: "We ask for references from senior clients or their family members, and we follow up. We're looking for honest accounts of real experiences, not curated testimonials.",
   },
   {
     n: "4",
@@ -54,7 +54,7 @@ function About() {
           </h1>
           <p className="mt-4 max-w-2xl text-xl text-foreground/85 leading-relaxed">
             The word "vetted" gets thrown around a lot online. Here's exactly
-            what it means when we use it — and what it doesn't.
+            what it means when we use it, and what it doesn't.
           </p>
         </div>
       </section>
@@ -92,7 +92,7 @@ function About() {
             What "vetted" doesn't mean
           </h2>
           <p className="text-lg text-foreground/85 leading-relaxed">
-            Vetting reduces risk — it doesn't eliminate it. A business that passes
+            Vetting reduces risk. It doesn't eliminate it. A business that passes
             our review is one we believe is worth considering. It is not a guarantee
             of a perfect experience.
           </p>
@@ -118,7 +118,7 @@ function About() {
           </h2>
           <p className="text-lg text-foreground/85 leading-relaxed">
             Tell us. We take every concern seriously. If a provider's conduct
-            doesn't meet the standard we hold them to, we investigate and act —
+            doesn't meet the standard we hold them to, we investigate and act,
             up to and including removing the listing.
           </p>
           <Link

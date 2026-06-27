@@ -9,7 +9,7 @@ export const Route = createFileRoute("/help")({
       {
         name: "description",
         content:
-          "Already know what kind of help you need? Browse by service type — home care, legal, mobility, transportation, and more. Guides, articles, and vetted local providers.",
+          "Already know what kind of help you need? Browse by service type: home care, legal, mobility, transportation, and more. Guides, articles, and vetted local providers.",
       },
     ],
   }),
@@ -28,8 +28,8 @@ function HelpPage() {
             Already know what you're looking for? Browse by service type.
           </p>
           <p className="mt-3 text-lg text-muted-foreground">
-            Each section has plain-language guides, practical articles, and —
-            as we vet them — trusted local providers you can contact directly.
+            Each section has plain-language guides, practical articles, and,
+            as we vet them, trusted local providers you can contact directly.
           </p>
         </div>
       </section>

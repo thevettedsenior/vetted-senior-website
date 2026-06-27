@@ -96,7 +96,7 @@ function SituationGuidePage() {
             funding considerations, and more.
           </p>
           <p className="mt-4 text-base text-muted-foreground">
-            In the meantime, if you have an urgent question —
+            In the meantime, if you have an urgent question,
           </p>
           <Link
             to="/contact"

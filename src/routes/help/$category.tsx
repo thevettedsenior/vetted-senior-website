@@ -69,7 +69,7 @@ function HelpCategoryPage() {
           Practical information to help you make confident decisions.
         </p>
 
-        {/* Placeholder — articles will be added by Hermes */}
+        {/* Placeholder: articles will be added by Hermes */}
         <div className="mt-8 rounded-2xl border border-border bg-secondary/40 p-8 text-center">
           <p className="font-serif text-xl text-primary">Articles coming soon</p>
           <p className="mt-2 text-base text-muted-foreground">
@@ -119,7 +119,7 @@ function HelpCategoryPage() {
               </p>
               <p className="text-base text-muted-foreground">
                 We're adding vetted {category.name.toLowerCase()} providers as they pass our
-                review process. No business can buy their way in — every listing is earned.
+                review process. No business can buy their way in. Every listing is earned.
               </p>
             </div>
           </div>

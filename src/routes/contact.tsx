@@ -8,7 +8,7 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Get in touch with The Vetted Senior — by phone, email, or mail. We're here to help seniors and their families find trusted services.",
+          "Get in touch with The Vetted Senior by email. We're here to help seniors and their families find trusted services.",
       },
     ],
   }),
@@ -24,8 +24,7 @@ function Contact() {
             Get in touch
           </h1>
           <p className="mt-4 text-xl text-foreground/85">
-            Prefer the phone? So do we. Real people answer Monday to Friday,
-            9am to 5pm Eastern.
+            Email us anytime. We respond within one business day.
           </p>
         </div>
       </section>
@@ -33,15 +32,8 @@ function Contact() {
       <section className="mx-auto grid max-w-4xl gap-6 px-6 py-12 md:grid-cols-2">
         <div className="rounded-2xl border border-border bg-card p-6">
           <h2 className="font-serif text-2xl text-primary">For seniors & families</h2>
-          <p className="mt-3 text-lg">Call our help line:</p>
-          <a
-            href="tel:18005550100"
-            className="mt-1 block font-serif text-3xl text-primary underline"
-          >
-            1-800-555-0100
-          </a>
           <p className="mt-4 text-base text-muted-foreground">
-            Email: <a className="underline" href="mailto:hello@vettedsenior.ca">hello@vettedsenior.ca</a>
+            Email: <a className="underline" href="mailto:info@thevettedsenior.com">info@thevettedsenior.com</a>
           </p>
         </div>
         <div className="rounded-2xl border border-border bg-card p-6">
