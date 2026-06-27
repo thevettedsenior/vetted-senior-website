@@ -35,11 +35,11 @@ function Home() {
           <div>
             <h1 className="font-serif text-5xl font-semibold leading-tight text-primary md:text-6xl">
               Getting older comes with questions.{" "}
+              <br />
               <span className="text-gold">We have answers.</span>
             </h1>
             <p className="mt-5 max-w-xl text-xl text-foreground/85 leading-relaxed">
-              Plain-language guidance on care, housing, safety, money, and support
-              — for seniors, adult children, and caregivers who need to know what to do next.
+              Plain-language guidance on care, housing, safety, money, and support for seniors, adult children, and caregivers who need to know what to do next.
             </p>
             <p className="mt-3 text-lg text-muted-foreground">
               No jargon. No pressure. No paid placements.
@@ -78,7 +78,7 @@ function Home() {
               </li>
               <li className="flex gap-3 items-start">
                 <span aria-hidden className="mt-0.5 text-gold font-bold">✓</span>
-                <span>We re-review every year. Standards slip — we notice.</span>
+                <span>We re-review every year. Standards slip. We notice.</span>
               </li>
             </ul>
             <p className="mt-5 text-sm text-muted-foreground border-t border-border pt-4">
@@ -153,8 +153,7 @@ function Home() {
             </h2>
             <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
               Already know what you're looking for? Browse by service type.
-              Each section has plain-language guides, useful articles, and
-              — as we vet them — trusted local providers.
+              Each section has plain-language guides, useful articles, and trusted local providers as we vet them.
             </p>
           </div>
 
@@ -189,15 +188,14 @@ function Home() {
           <div className="grid gap-10 md:grid-cols-[1fr_1.2fr] md:items-start">
             <div>
               <span className="inline-flex items-center gap-2 rounded-full bg-gold/20 px-4 py-1 text-sm font-semibold text-primary mb-4">
-                Directory — Building now
+                Directory — Coming Soon
               </span>
               <h2 className="font-serif text-3xl font-semibold text-primary md:text-4xl">
                 Find vetted services near you
               </h2>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
                 We're personally vetting senior-serving businesses across the
-                country. Every provider in the directory has been reviewed —
-                not paid to appear.
+                country. Every provider in the directory has been reviewed, not paid to appear.
               </p>
               <p className="mt-3 text-base text-muted-foreground">
                 Select your province to see what's available in your area,
@@ -257,7 +255,7 @@ function Home() {
 
             <ul className="space-y-4">
               {[
-                { stat: "0", label: "Paid placements — ever" },
+                { stat: "0", label: "Paid placements. Ever." },
                 { stat: "5-step", label: "Vetting process for every listing" },
                 { stat: "Annual", label: "Re-review of every provider" },
                 { stat: "Real", label: "References from senior clients" },
