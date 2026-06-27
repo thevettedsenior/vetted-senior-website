@@ -38,7 +38,7 @@ export function SiteHeader() {
               The Vetted Senior
             </span>
             <span className="text-sm text-muted-foreground">
-              Clarity during caregiving chaos
+              Trusted guidance for seniors and families
             </span>
           </span>
         </Link>
