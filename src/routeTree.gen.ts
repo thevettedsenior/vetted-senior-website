@@ -9,12 +9,26 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SituationsRouteImport } from './routes/situations'
+import { Route as HelpRouteImport } from './routes/help'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as SituationsSlugRouteImport } from './routes/situations/$slug'
 import { Route as ProvinceProvinceRouteImport } from './routes/province.$province'
+import { Route as HelpCategoryRouteImport } from './routes/help/$category'
 import { Route as ProvinceProvinceCityRouteImport } from './routes/province.$province.$city'
 
+const SituationsRoute = SituationsRouteImport.update({
+  id: '/situations',
+  path: '/situations',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HelpRoute = HelpRouteImport.update({
+  id: '/help',
+  path: '/help',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
@@ -30,10 +44,20 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SituationsSlugRoute = SituationsSlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => SituationsRoute,
+} as any)
 const ProvinceProvinceRoute = ProvinceProvinceRouteImport.update({
   id: '/province/$province',
   path: '/province/$province',
   getParentRoute: () => rootRouteImport,
+} as any)
+const HelpCategoryRoute = HelpCategoryRouteImport.update({
+  id: '/$category',
+  path: '/$category',
+  getParentRoute: () => HelpRoute,
 } as any)
 const ProvinceProvinceCityRoute = ProvinceProvinceCityRouteImport.update({
   id: '/$city',
@@ -45,14 +69,22 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/help': typeof HelpRouteWithChildren
+  '/situations': typeof SituationsRouteWithChildren
+  '/help/$category': typeof HelpCategoryRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
+  '/situations/$slug': typeof SituationsSlugRoute
   '/province/$province/$city': typeof ProvinceProvinceCityRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/help': typeof HelpRouteWithChildren
+  '/situations': typeof SituationsRouteWithChildren
+  '/help/$category': typeof HelpCategoryRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
+  '/situations/$slug': typeof SituationsSlugRoute
   '/province/$province/$city': typeof ProvinceProvinceCityRoute
 }
 export interface FileRoutesById {
@@ -60,7 +92,11 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/help': typeof HelpRouteWithChildren
+  '/situations': typeof SituationsRouteWithChildren
+  '/help/$category': typeof HelpCategoryRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
+  '/situations/$slug': typeof SituationsSlugRoute
   '/province/$province/$city': typeof ProvinceProvinceCityRoute
 }
 export interface FileRouteTypes {
@@ -69,21 +105,33 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/help'
+    | '/situations'
+    | '/help/$category'
     | '/province/$province'
+    | '/situations/$slug'
     | '/province/$province/$city'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
     | '/contact'
+    | '/help'
+    | '/situations'
+    | '/help/$category'
     | '/province/$province'
+    | '/situations/$slug'
     | '/province/$province/$city'
   id:
     | '__root__'
     | '/'
     | '/about'
     | '/contact'
+    | '/help'
+    | '/situations'
+    | '/help/$category'
     | '/province/$province'
+    | '/situations/$slug'
     | '/province/$province/$city'
   fileRoutesById: FileRoutesById
 }
@@ -91,11 +139,27 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ContactRoute: typeof ContactRoute
+  HelpRoute: typeof HelpRouteWithChildren
+  SituationsRoute: typeof SituationsRouteWithChildren
   ProvinceProvinceRoute: typeof ProvinceProvinceRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/situations': {
+      id: '/situations'
+      path: '/situations'
+      fullPath: '/situations'
+      preLoaderRoute: typeof SituationsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/help': {
+      id: '/help'
+      path: '/help'
+      fullPath: '/help'
+      preLoaderRoute: typeof HelpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/contact': {
       id: '/contact'
       path: '/contact'
@@ -117,12 +181,26 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/situations/$slug': {
+      id: '/situations/$slug'
+      path: '/$slug'
+      fullPath: '/situations/$slug'
+      preLoaderRoute: typeof SituationsSlugRouteImport
+      parentRoute: typeof SituationsRoute
+    }
     '/province/$province': {
       id: '/province/$province'
       path: '/province/$province'
       fullPath: '/province/$province'
       preLoaderRoute: typeof ProvinceProvinceRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/help/$category': {
+      id: '/help/$category'
+      path: '/$category'
+      fullPath: '/help/$category'
+      preLoaderRoute: typeof HelpCategoryRouteImport
+      parentRoute: typeof HelpRoute
     }
     '/province/$province/$city': {
       id: '/province/$province/$city'
@@ -133,6 +211,28 @@ declare module '@tanstack/react-router' {
     }
   }
 }
+
+interface HelpRouteChildren {
+  HelpCategoryRoute: typeof HelpCategoryRoute
+}
+
+const HelpRouteChildren: HelpRouteChildren = {
+  HelpCategoryRoute: HelpCategoryRoute,
+}
+
+const HelpRouteWithChildren = HelpRoute._addFileChildren(HelpRouteChildren)
+
+interface SituationsRouteChildren {
+  SituationsSlugRoute: typeof SituationsSlugRoute
+}
+
+const SituationsRouteChildren: SituationsRouteChildren = {
+  SituationsSlugRoute: SituationsSlugRoute,
+}
+
+const SituationsRouteWithChildren = SituationsRoute._addFileChildren(
+  SituationsRouteChildren,
+)
 
 interface ProvinceProvinceRouteChildren {
   ProvinceProvinceCityRoute: typeof ProvinceProvinceCityRoute
@@ -149,8 +249,20 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   ContactRoute: ContactRoute,
+  HelpRoute: HelpRouteWithChildren,
+  SituationsRoute: SituationsRouteWithChildren,
   ProvinceProvinceRoute: ProvinceProvinceRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
