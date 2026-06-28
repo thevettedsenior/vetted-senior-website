@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
 import { HELP_CATEGORIES } from "@/lib/directory-data";
 
-export const Route = createFileRoute("/help")({
+export const Route = createFileRoute("/help/")({
   head: () => ({
     meta: [
       { title: "Find Help | The Vetted Senior" },

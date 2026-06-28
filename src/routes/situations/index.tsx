@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
 import { SITUATIONS } from "@/lib/directory-data";
 
-export const Route = createFileRoute("/situations")({
+export const Route = createFileRoute("/situations/")({
   head: () => ({
     meta: [
       { title: "Find Your Situation | The Vetted Senior" },
