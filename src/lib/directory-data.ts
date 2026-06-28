@@ -97,6 +97,7 @@ export type HelpCategory = {
   description: string; // one-line for card
   icon: string;
   intro: string; // paragraph for the category page hero
+  image?: string; // optional hero image path for the category page
 };
 
 export const HELP_CATEGORIES: HelpCategory[] = [
@@ -108,6 +109,7 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     icon: "🏡",
     intro:
       "Home care helps seniors live safely and independently in the place they know best. Services range from a few hours of personal support each week to around-the-clock nursing care. Understanding what's available — and how to pay for it — is the first step.",
+    image: "/images/help/homecare-hero.jpeg",
   },
   {
     slug: "medical-alert-safety",
@@ -191,6 +193,44 @@ export const HELP_CATEGORIES: HelpCategory[] = [
       "Loneliness is one of the most serious health risks facing older adults. Companion services, volunteer visitor programs, and adult day programs exist precisely to address this — and many are free or subsidized. Here's what's available.",
   },
 ];
+
+// ─── ARTICLES ───────────────────────────────────────────────────────────────────
+// Guides & articles shown on each help category page, linking to /help/$category/$article.
+
+export type Article = {
+  slug: string;
+  categorySlug: string;
+  title: string;
+  description: string; // one-sentence summary for the card
+  image: string;
+};
+
+export const ARTICLES: Article[] = [
+  {
+    slug: "homecare-questions",
+    categorySlug: "home-care",
+    title: "What to Ask Before Hiring a Home Care Provider",
+    description:
+      "The questions to ask every agency or independent caregiver before you sign anything.",
+    image: "/images/help/homecare-questions.jpeg",
+  },
+  {
+    slug: "homecare-care-types",
+    categorySlug: "home-care",
+    title: "Personal Support, Nursing, or Companion Care: Which Type of Home Care Do You Actually Need?",
+    description:
+      "A plain-language comparison of the three main types of home care, what they cost, and which one fits your situation.",
+    image: "/images/help/homecare-care-types.jpeg",
+  },
+];
+
+export function articlesForCategory(categorySlug: string): Article[] {
+  return ARTICLES.filter((a) => a.categorySlug === categorySlug);
+}
+
+export function findArticle(categorySlug: string, articleSlug: string): Article | undefined {
+  return ARTICLES.find((a) => a.categorySlug === categorySlug && a.slug === articleSlug);
+}
 
 // ─── PROVINCES ──────────────────────────────────────────────────────────────────
 

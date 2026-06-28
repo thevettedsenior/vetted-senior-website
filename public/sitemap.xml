@@ -91,6 +91,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://thevettedsenior.com/help/home-care/homecare-questions</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thevettedsenior.com/help/home-care/homecare-care-types</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://thevettedsenior.com/help/medical-alert-safety</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>

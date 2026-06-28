@@ -16,8 +16,9 @@ import { Route as SituationsIndexRouteImport } from './routes/situations/index'
 import { Route as HelpIndexRouteImport } from './routes/help/index'
 import { Route as SituationsSlugRouteImport } from './routes/situations/$slug'
 import { Route as ProvinceProvinceRouteImport } from './routes/province.$province'
-import { Route as HelpCategoryRouteImport } from './routes/help/$category'
+import { Route as HelpCategoryIndexRouteImport } from './routes/help/$category/index'
 import { Route as ProvinceProvinceCityRouteImport } from './routes/province.$province.$city'
+import { Route as HelpCategoryArticleRouteImport } from './routes/help/$category/$article'
 
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
@@ -54,9 +55,9 @@ const ProvinceProvinceRoute = ProvinceProvinceRouteImport.update({
   path: '/province/$province',
   getParentRoute: () => rootRouteImport,
 } as any)
-const HelpCategoryRoute = HelpCategoryRouteImport.update({
-  id: '/help/$category',
-  path: '/help/$category',
+const HelpCategoryIndexRoute = HelpCategoryIndexRouteImport.update({
+  id: '/help/$category/',
+  path: '/help/$category/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProvinceProvinceCityRoute = ProvinceProvinceCityRouteImport.update({
@@ -64,40 +65,48 @@ const ProvinceProvinceCityRoute = ProvinceProvinceCityRouteImport.update({
   path: '/$city',
   getParentRoute: () => ProvinceProvinceRoute,
 } as any)
+const HelpCategoryArticleRoute = HelpCategoryArticleRouteImport.update({
+  id: '/help/$category/$article',
+  path: '/help/$category/$article',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
-  '/help/$category': typeof HelpCategoryRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help/': typeof HelpIndexRoute
   '/situations/': typeof SituationsIndexRoute
+  '/help/$category/$article': typeof HelpCategoryArticleRoute
   '/province/$province/$city': typeof ProvinceProvinceCityRoute
+  '/help/$category/': typeof HelpCategoryIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
-  '/help/$category': typeof HelpCategoryRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help': typeof HelpIndexRoute
   '/situations': typeof SituationsIndexRoute
+  '/help/$category/$article': typeof HelpCategoryArticleRoute
   '/province/$province/$city': typeof ProvinceProvinceCityRoute
+  '/help/$category': typeof HelpCategoryIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
-  '/help/$category': typeof HelpCategoryRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help/': typeof HelpIndexRoute
   '/situations/': typeof SituationsIndexRoute
+  '/help/$category/$article': typeof HelpCategoryArticleRoute
   '/province/$province/$city': typeof ProvinceProvinceCityRoute
+  '/help/$category/': typeof HelpCategoryIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -105,45 +114,49 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
-    | '/help/$category'
     | '/province/$province'
     | '/situations/$slug'
     | '/help/'
     | '/situations/'
+    | '/help/$category/$article'
     | '/province/$province/$city'
+    | '/help/$category/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
     | '/contact'
-    | '/help/$category'
     | '/province/$province'
     | '/situations/$slug'
     | '/help'
     | '/situations'
+    | '/help/$category/$article'
     | '/province/$province/$city'
+    | '/help/$category'
   id:
     | '__root__'
     | '/'
     | '/about'
     | '/contact'
-    | '/help/$category'
     | '/province/$province'
     | '/situations/$slug'
     | '/help/'
     | '/situations/'
+    | '/help/$category/$article'
     | '/province/$province/$city'
+    | '/help/$category/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ContactRoute: typeof ContactRoute
-  HelpCategoryRoute: typeof HelpCategoryRoute
   ProvinceProvinceRoute: typeof ProvinceProvinceRouteWithChildren
   SituationsSlugRoute: typeof SituationsSlugRoute
   HelpIndexRoute: typeof HelpIndexRoute
   SituationsIndexRoute: typeof SituationsIndexRoute
+  HelpCategoryArticleRoute: typeof HelpCategoryArticleRoute
+  HelpCategoryIndexRoute: typeof HelpCategoryIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -197,11 +210,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProvinceProvinceRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/help/$category': {
-      id: '/help/$category'
+    '/help/$category/': {
+      id: '/help/$category/'
       path: '/help/$category'
-      fullPath: '/help/$category'
-      preLoaderRoute: typeof HelpCategoryRouteImport
+      fullPath: '/help/$category/'
+      preLoaderRoute: typeof HelpCategoryIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/province/$province/$city': {
@@ -210,6 +223,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/province/$province/$city'
       preLoaderRoute: typeof ProvinceProvinceCityRouteImport
       parentRoute: typeof ProvinceProvinceRoute
+    }
+    '/help/$category/$article': {
+      id: '/help/$category/$article'
+      path: '/help/$category/$article'
+      fullPath: '/help/$category/$article'
+      preLoaderRoute: typeof HelpCategoryArticleRouteImport
+      parentRoute: typeof rootRouteImport
     }
   }
 }
@@ -229,11 +249,12 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   ContactRoute: ContactRoute,
-  HelpCategoryRoute: HelpCategoryRoute,
   ProvinceProvinceRoute: ProvinceProvinceRouteWithChildren,
   SituationsSlugRoute: SituationsSlugRoute,
   HelpIndexRoute: HelpIndexRoute,
   SituationsIndexRoute: SituationsIndexRoute,
+  HelpCategoryArticleRoute: HelpCategoryArticleRoute,
+  HelpCategoryIndexRoute: HelpCategoryIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

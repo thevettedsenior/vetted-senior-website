@@ -1,8 +1,8 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
-import { findHelpCategory, PROVINCES } from "@/lib/directory-data";
+import { articlesForCategory, findHelpCategory, PROVINCES } from "@/lib/directory-data";
 
-export const Route = createFileRoute("/help/$category")({
+export const Route = createFileRoute("/help/$category/")({
   loader: ({ params }) => {
     const category = findHelpCategory(params.category);
     if (!category) throw notFound();
@@ -36,29 +36,54 @@ export const Route = createFileRoute("/help/$category")({
 
 function HelpCategoryPage() {
   const { category } = Route.useLoaderData();
+  const articles = articlesForCategory(category.slug);
 
   return (
     <Page>
 
       {/* ── CATEGORY HERO ────────────────────────────────────────────────── */}
-      <section className="border-b border-border bg-card">
-        <div className="mx-auto max-w-4xl px-6 py-4 text-sm text-muted-foreground">
-          <Link to="/" className="hover:underline">Home</Link>
-          <span aria-hidden> / </span>
-          <Link to="/help" className="hover:underline">Find Help</Link>
-          <span aria-hidden> / </span>
-          <span>{category.name}</span>
-        </div>
-        <div className="mx-auto max-w-4xl px-6 pb-14">
-          <span aria-hidden className="text-5xl">{category.icon}</span>
-          <h1 className="mt-4 font-serif text-4xl font-semibold text-primary md:text-5xl">
-            {category.name}
-          </h1>
-          <p className="mt-4 max-w-2xl text-xl text-foreground/85 leading-relaxed">
-            {category.intro}
-          </p>
-        </div>
-      </section>
+      {category.image ? (
+        <section
+          className="relative flex h-[400px] flex-col justify-end bg-cover bg-center"
+          style={{ backgroundImage: `url(${category.image})` }}
+        >
+          <div className="absolute inset-0 bg-black/60" aria-hidden />
+          <div className="relative mx-auto w-full max-w-4xl px-6 py-4 text-sm text-white/80">
+            <Link to="/" className="hover:underline">Home</Link>
+            <span aria-hidden> / </span>
+            <Link to="/help" className="hover:underline">Find Help</Link>
+            <span aria-hidden> / </span>
+            <span>{category.name}</span>
+          </div>
+          <div className="relative mx-auto w-full max-w-4xl px-6 pb-10">
+            <h1 className="font-serif text-4xl font-semibold text-white md:text-5xl">
+              {category.name}
+            </h1>
+            <p className="mt-4 max-w-2xl text-xl text-white/90 leading-relaxed">
+              {category.intro}
+            </p>
+          </div>
+        </section>
+      ) : (
+        <section className="border-b border-border bg-card">
+          <div className="mx-auto max-w-4xl px-6 py-4 text-sm text-muted-foreground">
+            <Link to="/" className="hover:underline">Home</Link>
+            <span aria-hidden> / </span>
+            <Link to="/help" className="hover:underline">Find Help</Link>
+            <span aria-hidden> / </span>
+            <span>{category.name}</span>
+          </div>
+          <div className="mx-auto max-w-4xl px-6 pb-14">
+            <span aria-hidden className="text-5xl">{category.icon}</span>
+            <h1 className="mt-4 font-serif text-4xl font-semibold text-primary md:text-5xl">
+              {category.name}
+            </h1>
+            <p className="mt-4 max-w-2xl text-xl text-foreground/85 leading-relaxed">
+              {category.intro}
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* ── ARTICLES ─────────────────────────────────────────────────────── */}
       <section className="mx-auto max-w-4xl px-6 py-12">
@@ -69,18 +94,47 @@ function HelpCategoryPage() {
           Practical information to help you make confident decisions.
         </p>
 
-        {/* Placeholder: articles will be added by Hermes */}
-        <div className="mt-8 rounded-2xl border border-border bg-secondary/40 p-8 text-center">
-          <p className="font-serif text-xl text-primary">Articles coming soon</p>
-          <p className="mt-2 text-base text-muted-foreground">
-            We're writing plain-language guides for this section.
-            Check back shortly, or{" "}
-            <Link to="/contact" className="underline">
-              contact us
-            </Link>{" "}
-            if you have a specific question right now.
-          </p>
-        </div>
+        {articles.length > 0 ? (
+          <ul className="mt-8 grid gap-6 sm:grid-cols-2">
+            {articles.map((article) => (
+              <li key={article.slug}>
+                <Link
+                  to="/help/$category/$article"
+                  params={{ category: category.slug, article: article.slug }}
+                  className="group flex h-full flex-col overflow-hidden rounded-2xl border-2 border-border bg-card no-underline transition-all hover:border-gold hover:shadow-sm"
+                >
+                  <div
+                    className="h-40 w-full bg-cover bg-center"
+                    style={{ backgroundImage: `url(${article.image})` }}
+                  />
+                  <div className="flex flex-1 flex-col p-6">
+                    <span className="font-serif text-xl text-primary">
+                      {article.title}
+                    </span>
+                    <span className="mt-2 text-base text-foreground/75 flex-1">
+                      {article.description}
+                    </span>
+                    <span className="mt-4 text-sm font-semibold text-gold">
+                      Read more →
+                    </span>
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <div className="mt-8 rounded-2xl border border-border bg-secondary/40 p-8 text-center">
+            <p className="font-serif text-xl text-primary">Articles coming soon</p>
+            <p className="mt-2 text-base text-muted-foreground">
+              We're writing plain-language guides for this section.
+              Check back shortly, or{" "}
+              <Link to="/contact" className="underline">
+                contact us
+              </Link>{" "}
+              if you have a specific question right now.
+            </p>
+          </div>
+        )}
       </section>
 
       {/* ── DIRECTORY ────────────────────────────────────────────────────── */}
