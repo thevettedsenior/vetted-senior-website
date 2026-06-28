@@ -33,7 +33,7 @@ function Home() {
       <section className="border-b border-border bg-card">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-[1.3fr_1fr] md:items-center">
           <div>
-            <h1 className="font-serif text-3xl font-semibold leading-tight text-primary md:text-5xl lg:text-6xl">
+            <h1 className="font-serif text-4xl font-semibold leading-tight text-primary md:text-5xl lg:text-6xl">
               Getting older comes with questions.{" "}
               <br />
               <span className="text-gold">We have answers.</span>
@@ -91,7 +91,7 @@ function Home() {
       {/* ── FIND YOUR SITUATION ───────────────────────────────────────────── */}
       <section id="situations" className="mx-auto max-w-6xl px-6 py-16">
         <div className="mb-10">
-          <h2 className="font-serif text-3xl font-semibold text-primary md:text-4xl">
+          <h2 className="font-serif text-2xl font-semibold text-primary md:text-4xl">
             Find your situation
           </h2>
           <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
@@ -148,7 +148,7 @@ function Home() {
       <section id="find-help" className="border-t border-border bg-secondary/40">
         <div className="mx-auto max-w-6xl px-6 py-16">
           <div className="mb-10">
-            <h2 className="font-serif text-3xl font-semibold text-primary md:text-4xl">
+            <h2 className="font-serif text-2xl font-semibold text-primary md:text-4xl">
               Find help
             </h2>
             <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
