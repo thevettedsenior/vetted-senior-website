@@ -108,7 +108,7 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     description: "Personal support, nursing, and daily living help at home.",
     icon: "🏡",
     intro:
-      "Home care helps seniors live safely and independently in the place they know best. Services range from a few hours of personal support each week to around-the-clock nursing care. Understanding what's available — and how to pay for it — is the first step.",
+      "Home care helps seniors live safely and independently in the place they know best. Services range from a few hours of personal support each week to around-the-clock nursing care. Understanding what's available, and how to pay for it, is the first step.",
     image: "/images/help/homecare-hero.jpeg",
   },
   {
@@ -136,7 +136,7 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     description: "Independent living, assisted living, and memory care.",
     icon: "🏘️",
     intro:
-      "Choosing a retirement residence is one of the biggest decisions a family makes. The range of options — from active independent living to full memory care — is wider than most people realize. Knowing the right questions to ask makes all the difference.",
+      "Choosing a retirement residence is one of the biggest decisions a family makes. The range of options, from active independent living to full memory care, is wider than most people realize. Knowing the right questions to ask makes all the difference.",
   },
   {
     slug: "legal-financial",
@@ -145,7 +145,7 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     description: "Wills, powers of attorney, tax, and retirement planning.",
     icon: "⚖️",
     intro:
-      "Legal and financial planning for seniors isn't just about wills. Powers of attorney, trusts, benefit entitlements, and tax planning all matter — and the window to put things in order is often narrower than people expect. Start early.",
+      "Legal and financial planning for seniors isn't just about wills. Powers of attorney, trusts, benefit entitlements, and tax planning all matter, and the window to put things in order is often narrower than people expect. Start early.",
   },
   {
     slug: "transportation",
@@ -154,7 +154,7 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     description: "Accessible rides to appointments, shopping, and family visits.",
     icon: "🚐",
     intro:
-      "Losing the ability to drive is one of the most significant independence milestones for seniors. But it doesn't have to mean isolation. Accessible transportation options — from volunteer driver programs to medical transport — exist in most communities.",
+      "Losing the ability to drive is one of the most significant independence milestones for seniors. But it doesn't have to mean isolation. Accessible transportation options, from volunteer driver programs to medical transport, exist in most communities.",
   },
   {
     slug: "hearing-vision",
@@ -181,7 +181,7 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     description: "Trusted handypeople, snow removal, and seasonal help.",
     icon: "🔧",
     intro:
-      "A well-maintained home is a safe home. For seniors living independently, reliable help with repairs, snow removal, and seasonal tasks isn't a luxury — it's part of staying safe. Finding trustworthy tradespeople is harder than it should be. We make it easier.",
+      "A well-maintained home is a safe home. For seniors living independently, reliable help with repairs, snow removal, and seasonal tasks isn't a luxury, it's part of staying safe. Finding trustworthy tradespeople is harder than it should be. We make it easier.",
   },
   {
     slug: "companion-social",
@@ -190,7 +190,7 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     description: "Friendly visits, activities, and adult day programs.",
     icon: "☕",
     intro:
-      "Loneliness is one of the most serious health risks facing older adults. Companion services, volunteer visitor programs, and adult day programs exist precisely to address this — and many are free or subsidized. Here's what's available.",
+      "Loneliness is one of the most serious health risks facing older adults. Companion services, volunteer visitor programs, and adult day programs exist precisely to address this, and many are free or subsidized. Here's what's available.",
   },
 ];
 
