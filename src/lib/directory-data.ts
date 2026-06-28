@@ -42,7 +42,7 @@ export const SITUATIONS: Situation[] = [
     shortTitle: "Caregiver burnout",
     description: "When caring for someone else is wearing you down.",
     icon: "💛",
-    phase: "coming-soon",
+    phase: "live",
   },
   {
     slug: "parent-refuses-help",
@@ -50,7 +50,7 @@ export const SITUATIONS: Situation[] = [
     shortTitle: "Parent refuses help",
     description: "How to navigate pushback when help is clearly needed.",
     icon: "🤝",
-    phase: "coming-soon",
+    phase: "live",
   },
   {
     slug: "senior-living-alone",
@@ -58,7 +58,7 @@ export const SITUATIONS: Situation[] = [
     shortTitle: "Senior living alone",
     description: "Safety, connection, and peace of mind from a distance.",
     icon: "🔑",
-    phase: "coming-soon",
+    phase: "live",
   },
   {
     slug: "recently-widowed",
@@ -66,7 +66,7 @@ export const SITUATIONS: Situation[] = [
     shortTitle: "Recently widowed",
     description: "Practical next steps during an impossibly hard time.",
     icon: "🕊️",
-    phase: "coming-soon",
+    phase: "live",
   },
   {
     slug: "hospital-discharge-planning",
@@ -74,7 +74,7 @@ export const SITUATIONS: Situation[] = [
     shortTitle: "Hospital discharge",
     description: "What to arrange before and after a hospital stay.",
     icon: "🏥",
-    phase: "coming-soon",
+    phase: "live",
   },
 ];
 

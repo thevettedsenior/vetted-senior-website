@@ -1235,6 +1235,1823 @@ const GUIDES: Record<string, Section[]> = {
       ),
     },
   ],
+  "caregiver-burnout": [
+    {
+      part: "Part 1 of 10",
+      heading: "What you may be dealing with",
+      body: (
+        <>
+          <p>
+            Caregiver burnout is a state of physical, emotional, and mental
+            exhaustion caused by the ongoing demands of caring for someone
+            else. It does not arrive suddenly. It builds over months or
+            years as the caregiver&#x2019;s own needs go unmet while the
+            needs of the person they care for continue to grow.
+          </p>
+          <p>
+            Signs of burnout include: persistent fatigue that sleep does not
+            fix, feeling hopeless or trapped, withdrawing from people and
+            activities you used to enjoy, getting sick more often than
+            usual, feeling irritable or resentful toward the person you
+            care for, and a sense that nothing you do is ever enough.
+          </p>
+          <p>
+            Many caregivers feel guilty about these feelings. The guilt is
+            understandable but misplaced. Feeling burnt out does not mean
+            you love the person less. It means you have been giving more
+            than is sustainable for too long. The solution is not to try
+            harder. The solution is to get support.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 2 of 10",
+      heading: "What to do first",
+      body: (
+        <>
+          <p>
+            The first and hardest step is acknowledging that what you are
+            experiencing is real and serious. Burnout is not a personal
+            weakness. It is a condition with real health consequences, for
+            you and ultimately for the person you care for.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Tell someone</h3>
+          <p>
+            Keeping burnout private makes it worse. Talk to your doctor
+            about how you are feeling. Tell a trusted family member or
+            friend what you are carrying. If there are other people who
+            could be sharing the caregiving load, now is the time to have
+            that conversation honestly.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            Get a medical check-in for yourself
+          </h3>
+          <p>
+            Caregivers often neglect their own health entirely. When did
+            you last see a doctor for yourself? Chronic stress has physical
+            consequences. Your health matters, not only for your sake but
+            because your ability to continue caregiving depends on it.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            Identify what needs to change
+          </h3>
+          <p>
+            Burnout is a signal that the current situation is not
+            sustainable. Something needs to change. That might be getting
+            more help, taking regular time off, adjusting the level of care
+            you are providing, or reconsidering whether the person you care
+            for needs a different care arrangement. All of these are
+            legitimate options.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 3 of 10",
+      heading: "Common risks to know about",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            <strong>Your own health:</strong> Caregivers have significantly
+            higher rates of depression, anxiety, and physical illness than
+            non-caregivers. Ignoring your own health needs while caring for
+            someone else is a pattern that ends badly for both of you.
+          </li>
+          <li>
+            <strong>Isolation:</strong> Caregiving is isolating by nature.
+            Social withdrawal makes burnout worse. Maintaining some social
+            connection, even when it feels impossible, is genuinely
+            important.
+          </li>
+          <li>
+            <strong>Financial strain:</strong> Many caregivers reduce their
+            working hours or leave employment entirely to provide care. The
+            financial impact is real and often underestimated. Planning
+            ahead for this, where possible, matters.
+          </li>
+          <li>
+            <strong>Relationship damage:</strong> Burnout damages
+            relationships with the person being cared for, with other
+            family members, and with friends. Resentment that builds up
+            unaddressed causes lasting harm.
+          </li>
+          <li>
+            <strong>Delayed help-seeking:</strong> Many caregivers wait
+            until they are in crisis before asking for help. Getting
+            support earlier preserves more options and prevents more
+            damage.
+          </li>
+          <li>
+            <strong>Making poor care decisions under stress:</strong>{" "}
+            Exhausted caregivers are more likely to make rushed decisions
+            about care arrangements that they later regret. Getting support
+            before a crisis allows for better decisions.
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 4 of 10",
+      heading: "Care and support options",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">Respite care</h3>
+          <p>
+            Respite care gives the caregiver a break. It can take many
+            forms: a few hours of in-home support while you rest or run
+            errands, a day program that the person attends several times a
+            week, or a short residential stay of several days or weeks that
+            allows the caregiver to recover, travel, or address their own
+            needs.
+          </p>
+          <p>
+            Many caregivers resist respite care because they feel guilty
+            about taking a break. The evidence is clear: caregivers who
+            take regular respite are more effective, healthier, and able to
+            continue caregiving longer. A break is not abandonment. It is
+            maintenance.
+          </p>
+          <p className="italic">
+            Find vetted{" "}
+            <HelpLink category="home-care">
+              home care providers who offer respite services
+            </HelpLink>{" "}
+            in the directory, and find vetted{" "}
+            <HelpLink category="companion-social">day programs</HelpLink>{" "}
+            under Companion and Social.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Support groups</h3>
+          <p>
+            Connecting with other caregivers who understand the experience
+            is one of the most consistently helpful things a burnt-out
+            caregiver can do. Support groups exist for caregivers generally
+            and for specific situations such as caring for someone with
+            dementia. They are available in person and online.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            Counselling and therapy
+          </h3>
+          <p>
+            Individual counselling gives caregivers a space to process the
+            complex emotions that come with this role, including grief,
+            anger, guilt, and loss. It is not a sign of weakness. It is a
+            practical tool for managing an extremely difficult situation.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Sharing the load</h3>
+          <p>
+            If other family members could be contributing more, this
+            conversation needs to happen. A family meeting, sometimes
+            facilitated by a social worker or mediator, can help
+            redistribute responsibilities more equitably. Adult children
+            who live at a distance can often contribute financially or by
+            taking over specific tasks like managing appointments or
+            finances.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            Reconsidering the care arrangement
+          </h3>
+          <p>
+            Sometimes burnout is a signal that the current care arrangement
+            has reached its limits. If the person being cared for has
+            needs that exceed what one person can safely provide at home,
+            exploring other options including more intensive in-home
+            support or residential care is not failure. It is responsible
+            planning.
+          </p>
+          <p className="italic">
+            Find vetted{" "}
+            <HelpLink category="retirement-residences">
+              retirement and care residences
+            </HelpLink>{" "}
+            in the directory.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 5 of 10",
+      heading: "Government and community supports",
+      body: (
+        <>
+          <p>
+            Most regions have programs specifically designed to support
+            caregivers. These commonly include funded respite care,
+            caregiver education and training programs, support groups,
+            counselling services, and financial benefits or tax relief for
+            caregivers. Availability varies significantly by location.
+          </p>
+          <p>
+            A social worker or care coordinator is often the most efficient
+            starting point for finding out what is available in your
+            specific area. Many caregiver support organizations also offer
+            navigation help at no cost.
+          </p>
+          <p className="italic">
+            Check the{" "}
+            <Link to="/situations" className="text-primary underline">
+              directory under your province or region
+            </Link>{" "}
+            for local caregiver support programs and respite services.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 6 of 10",
+      heading: "Money and funding considerations",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            Respite care may be publicly funded in part or fully through
+            health or social services programs depending on location and
+            circumstances
+          </li>
+          <li>
+            Some regions offer caregiver allowances or tax credits that
+            recognize the financial contribution caregivers make
+          </li>
+          <li>
+            Private respite care, counselling, and support services have
+            costs that vary widely
+          </li>
+          <li>
+            If caregiving has affected your employment, understanding your
+            options around employment insurance, leave benefits, or
+            caregiver support programs is worth doing sooner rather than
+            later
+          </li>
+          <li>
+            Financial planning for the long term matters especially if you
+            anticipate caregiving responsibilities continuing or increasing
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 7 of 10",
+      heading: "Questions to ask",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">For yourself</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What specifically is most draining about my current situation?</li>
+            <li>
+              What would help most right now: more practical help, more
+              time off, more emotional support, or a different care
+              arrangement?
+            </li>
+            <li>Who else could realistically be contributing to this situation and is not?</li>
+            <li>What have I given up that I need to reclaim?</li>
+          </ul>
+          <h3 className="font-serif text-xl text-primary">For a respite care provider</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What services do you offer and how flexible is the scheduling?</li>
+            <li>How do you match care workers with clients?</li>
+            <li>What happens if the regular caregiver cannot come?</li>
+            <li>How do you handle difficult situations with the person being cared for?</li>
+          </ul>
+          <h3 className="font-serif text-xl text-primary">For a family conversation</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>
+              What are each person&#x2019;s actual constraints and what
+              could each person realistically contribute?
+            </li>
+            <li>What needs to change for the current caregiver to be sustainable?</li>
+            <li>Are there tasks that could be handled remotely or financially rather than in person?</li>
+            <li>What is our shared plan if the primary caregiver is no longer able to continue?</li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      part: "Part 8 of 10",
+      heading: "Helpful resources and forms",
+      body: (
+        <>
+          <p>
+            A caregiving task inventory listing everything the caregiver
+            currently does can be useful for family conversations about
+            redistributing responsibilities. Seeing the full list on paper
+            often surprises people who have not been closely involved.
+          </p>
+          <p>
+            A personal wellbeing check-in, a simple weekly assessment of
+            sleep, mood, energy, and social connection, helps track whether
+            things are improving or deteriorating over time.
+          </p>
+          <p>
+            A respite plan that schedules regular breaks in advance, rather
+            than waiting until crisis point, is one of the most practical
+            tools for sustainable caregiving.
+          </p>
+          <p className="italic">
+            Downloadable resources will be added to this section as the
+            site develops.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 9 of 10",
+      heading: "Services to find near you",
+      body: (
+        <>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>
+              <HelpLink category="home-care">Home Care</HelpLink> providers
+              who offer respite and relief caregiving
+            </li>
+            <li>
+              <HelpLink category="companion-social">Companion and Social</HelpLink>{" "}
+              programs for adult day programs
+            </li>
+            <li>
+              <HelpLink category="retirement-residences">Retirement Residences</HelpLink>{" "}
+              for short-stay respite or longer-term care options
+            </li>
+            <li>
+              <HelpLink category="legal-financial">Legal and Financial</HelpLink>{" "}
+              professionals if caregiving is affecting your work or finances
+            </li>
+          </ul>
+          <p className="italic">
+            Use the <Link to="/help" className="text-primary underline">Find Help</Link>{" "}
+            section of this site to browse vetted providers by category and
+            location.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 10 of 10",
+      heading: "Suggested next steps",
+      body: (
+        <ol className="list-decimal space-y-2 pl-6">
+          <li>
+            See your own doctor and be honest about how you are feeling.
+            Caregiver burnout has real physical and mental health
+            consequences that deserve medical attention.
+          </li>
+          <li>
+            Tell at least one other person what you are carrying. Keeping
+            burnout private makes it worse.
+          </li>
+          <li>
+            Identify one concrete change that would reduce your load in the
+            next two weeks. One hour of respite. One task redistributed.
+            One conversation had.
+          </li>
+          <li>
+            Look into what caregiver support programs are available in
+            your area. Many people are surprised by what exists.
+          </li>
+          <li>
+            If other family members could be contributing more, have that
+            conversation. A social worker can help facilitate it if it
+            feels too difficult to do alone.
+          </li>
+          <li>
+            Give yourself permission to consider all options, including
+            care arrangements that involve more support than you alone can
+            provide. Asking for help is not failure.
+          </li>
+        </ol>
+      ),
+    },
+  ],
+  "parent-refuses-help": [
+    {
+      part: "Part 1 of 10",
+      heading: "What you may be dealing with",
+      body: (
+        <>
+          <p>
+            Refusing help is rarely about stubbornness for its own sake,
+            though it can feel that way. Behind most refusals are real and
+            understandable fears: fear of losing independence, fear of
+            being seen as incapable, fear that accepting help is the first
+            step toward a nursing home, fear of burdening the people they
+            love, or simply discomfort with having strangers in the home.
+          </p>
+          <p>
+            Pride plays a role too, particularly for people who built their
+            lives around self-sufficiency. For many older adults, accepting
+            help feels like admitting defeat.
+          </p>
+          <p>
+            Sometimes refusal is also a symptom of something medical.
+            Depression can cause people to stop caring about their own
+            wellbeing. Cognitive changes can impair someone&#x2019;s
+            ability to accurately assess their own situation. Pain or
+            discomfort that has been normalized can make a person
+            underestimate how much they are struggling.
+          </p>
+          <p>
+            Understanding what is actually driving the refusal helps you
+            respond to the real issue rather than the surface resistance.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 2 of 10",
+      heading: "What to do first",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">
+            Start with listening, not convincing
+          </h3>
+          <p>
+            The instinct is to present evidence: here is what I have
+            noticed, here is why I am worried, here is what needs to
+            change. This approach almost always fails because it positions
+            the conversation as a debate, and nobody changes their mind
+            when they feel they are being argued with.
+          </p>
+          <p>
+            Instead, start by asking genuine questions and listening to the
+            answers. What does your parent most want to protect? What are
+            they most afraid of? What does independence mean to them?
+            Understanding their perspective does not mean agreeing with it,
+            but it opens doors that pushback closes.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Choose the right moment</h3>
+          <p>
+            Conversations about care go better when neither person is
+            tired, rushed, stressed, or in the middle of something else. A
+            relaxed moment, often during or after a shared meal, tends to
+            work better than a planned sit-down that feels like an
+            intervention.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            Lead with relationship, not concern
+          </h3>
+          <p>
+            Opening with &#x2018;I am worried about you&#x2019; often
+            triggers defensiveness. Opening with &#x2018;I want to figure
+            out how to make sure you can stay in your home as long as
+            possible&#x2019; speaks to what the person actually wants and
+            positions you as an ally rather than an adversary.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Accept that it may take time</h3>
+          <p>
+            Most people do not change their minds about accepting help
+            after one conversation. This is a process, not an event.
+            Repeated gentle conversations over time are more effective than
+            a single definitive discussion.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 3 of 10",
+      heading: "Common risks to know about",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            <strong>Safety risks going unaddressed:</strong> When someone
+            refuses help they genuinely need, real safety risks
+            accumulate. Falls, medication errors, poor nutrition, and
+            unmanaged health conditions all become more likely.
+          </li>
+          <li>
+            <strong>The refusal may mask something medical:</strong>{" "}
+            Cognitive impairment, depression, and pain can all affect a
+            person&#x2019;s willingness and ability to accept help
+            accurately. If the refusal seems out of character or is
+            accompanied by other changes, a medical assessment is worth
+            pursuing.
+          </li>
+          <li>
+            <strong>Family conflict:</strong> Disagreements about how to
+            handle a parent&#x2019;s refusal of help are a significant
+            source of conflict between adult siblings. Getting on the same
+            page as a family before approaching the parent reduces this
+            risk.
+          </li>
+          <li>
+            <strong>Waiting for a crisis:</strong> Many families wait until
+            a fall, a hospitalization, or another crisis forces the issue.
+            Crisis-driven decisions are often worse decisions. Addressing
+            the situation earlier, even imperfectly, is usually better.
+          </li>
+          <li>
+            <strong>Overriding autonomy:</strong> Adults have the right to
+            make decisions about their own lives, including decisions that
+            others disagree with. Unless a person lacks the cognitive
+            capacity to make decisions, overriding their wishes carries
+            serious ethical and relational consequences.
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 4 of 10",
+      heading: "Care and support options",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">Start small</h3>
+          <p>
+            The ask that gets refused is usually too big. Asking someone
+            who values independence to accept a home care worker five days
+            a week is almost certain to fail. Asking if you can arrange for
+            someone to help with the grocery shopping once a week is a
+            different conversation. Starting with something small and
+            low-stakes can open a door that a larger ask would close.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Let someone else raise it</h3>
+          <p>
+            The message is sometimes better received from someone other
+            than the family member who has been raising concerns. A
+            trusted friend, a family doctor, or a religious leader may be
+            able to say the same thing you have been saying and have it
+            land differently. It is not fair, but it is often true.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Frame help as being for you</h3>
+          <p>
+            &#x2018;I would feel so much better knowing someone was checking
+            in on you&#x2019; is a different ask than &#x2018;you need
+            help.&#x2019; Many people who refuse to accept help for
+            themselves will accept it to ease the worry of someone they
+            love.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Involve them in decisions</h3>
+          <p>
+            Resistance often increases when people feel that decisions are
+            being made for them. Involving the person in choosing who
+            comes, what tasks they help with, and when they come preserves
+            a sense of control and makes acceptance more likely.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Professional care navigation</h3>
+          <p>
+            A geriatric care manager or social worker who specializes in
+            elder care can sometimes achieve in one visit what family
+            members have been unable to achieve in months of conversations.
+            They are experienced at building trust with reluctant older
+            adults and at finding approaches that work for specific
+            personalities and situations.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            When safety is an immediate concern
+          </h3>
+          <p>
+            If a person is in immediate danger and refuses help, the
+            options narrow. A doctor who has concerns can conduct a
+            capacity assessment to determine whether the person has the
+            cognitive ability to make decisions about their own care.
+            Social services in most areas have the ability to conduct
+            welfare checks and, in extreme situations, to intervene. These
+            are serious steps that carry real consequences for the
+            relationship and should be considered carefully.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 5 of 10",
+      heading: "Government and community supports",
+      body: (
+        <>
+          <p>
+            In some situations, having a professional outside the family
+            raise concerns can be the most effective approach. A family
+            doctor who is aware of the situation can raise concerns during
+            a routine appointment. Social workers connected to health
+            systems can conduct assessments and make recommendations. Some
+            communities have elder care navigators who specialize in
+            exactly these situations.
+          </p>
+          <p className="italic">
+            Check the{" "}
+            <Link to="/situations" className="text-primary underline">
+              directory under your province or region
+            </Link>{" "}
+            for social workers, geriatric care managers, and elder care
+            navigation services.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 6 of 10",
+      heading: "Money and funding considerations",
+      body: (
+        <>
+          <p>
+            The financial dimension of refusing help is worth
+            understanding. Sometimes refusal is partly about not wanting
+            to spend money on support. Being clear about what things cost,
+            and about what funded options exist, can remove a barrier that
+            was never explicitly named.
+          </p>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>Some in-home support services are partially or fully funded through public programs</li>
+            <li>
+              Starting with lower-cost options such as volunteer visitor
+              programs, subsidized meal delivery, or community programs can
+              ease someone into accepting help without the cost feeling
+              prohibitive
+            </li>
+            <li>
+              A geriatric care manager or care navigator may charge for
+              their time but can save significant family conflict and
+              identify funded supports that offset their cost
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      part: "Part 7 of 10",
+      heading: "Questions to ask",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">
+            For the conversation with your parent
+          </h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What matters most to you about how you live right now?</li>
+            <li>What would have to change for you to feel like things were not working?</li>
+            <li>Is there anything that would make it easier to accept a bit of help with certain things?</li>
+            <li>If I arranged for someone to help with just one specific thing, would you be willing to try it?</li>
+          </ul>
+          <h3 className="font-serif text-xl text-primary">
+            For a geriatric care manager or social worker
+          </h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>How do you typically approach situations where an older adult is refusing help?</li>
+            <li>What tends to work with someone who strongly values independence?</li>
+            <li>What would you need to assess the situation?</li>
+            <li>At what point does refusal of help become a safety issue that requires a different kind of response?</li>
+          </ul>
+          <h3 className="font-serif text-xl text-primary">For a family conversation</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>Are we all seeing the same thing, or do different family members have different assessments of the situation?</li>
+            <li>Who does our parent trust most and might be best placed to raise this?</li>
+            <li>Are we willing to accept some risk in order to respect their autonomy?</li>
+            <li>
+              What is our shared line in the sand, the point at which we
+              would take more formal action?
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      part: "Part 8 of 10",
+      heading: "Helpful resources and forms",
+      body: (
+        <>
+          <p>
+            A written log of specific safety concerns with dates and
+            details is useful if the situation reaches the point where a
+            formal assessment or intervention is being considered.
+          </p>
+          <p>
+            A list of the small, specific things that would make the
+            biggest difference to safety and wellbeing can help focus
+            conversations on concrete asks rather than general concerns.
+          </p>
+          <p>
+            Resources on having difficult family conversations about aging
+            are available from many caregiver support organizations and
+            are worth reading before the next conversation.
+          </p>
+          <p className="italic">
+            Downloadable resources will be added to this section as the
+            site develops.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 9 of 10",
+      heading: "Services to find near you",
+      body: (
+        <>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>
+              <HelpLink category="home-care">Home Care</HelpLink> providers
+              for in-home support, starting small
+            </li>
+            <li>
+              <HelpLink category="companion-social">Companion and Social</HelpLink>{" "}
+              programs as a lower-stakes starting point for accepting
+              outside contact
+            </li>
+            <li>
+              <HelpLink category="legal-financial">Legal and Financial</HelpLink>{" "}
+              professionals if capacity or legal authority questions arise
+            </li>
+          </ul>
+          <p className="italic">
+            Use the <Link to="/help" className="text-primary underline">Find Help</Link>{" "}
+            section of this site to browse vetted providers by category and
+            location.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 10 of 10",
+      heading: "Suggested next steps",
+      body: (
+        <ol className="list-decimal space-y-2 pl-6">
+          <li>
+            Try to understand what is actually behind the refusal before
+            your next conversation. Fear of losing independence? Cost
+            concerns? Past bad experience? The real barrier is where to
+            focus.
+          </li>
+          <li>
+            Change your approach if the current one is not working. The
+            same conversation repeated the same way will produce the same
+            result.
+          </li>
+          <li>
+            Start smaller. Identify the one lowest-stakes thing that would
+            make the biggest safety difference and ask only about that.
+          </li>
+          <li>
+            Consider who else might raise the concern more effectively, a
+            doctor, a trusted friend, a faith community member.
+          </li>
+          <li>
+            Get other family members aligned before approaching the parent
+            again. A united, calm front is more effective than conflicting
+            messages from different family members.
+          </li>
+          <li>
+            If safety is an immediate concern, speak to a doctor or social
+            worker about what formal options exist and what the process
+            looks like.
+          </li>
+        </ol>
+      ),
+    },
+  ],
+  "senior-living-alone": [
+    {
+      part: "Part 1 of 10",
+      heading: "What you may be dealing with",
+      body: (
+        <>
+          <p>
+            The concerns around living alone in later life usually cluster
+            around three things: safety, health management, and
+            loneliness. Each is real, each is addressable, and none of
+            them require giving up independence to manage.
+          </p>
+          <p>
+            Safety concerns typically involve falls, what happens if
+            something goes wrong when no one is around, and whether the
+            home environment is still appropriate for the person living in
+            it. Health management concerns involve keeping on top of
+            medications, medical appointments, and noticing health changes
+            before they become serious. Loneliness is sometimes overlooked
+            but is among the most significant health risks facing older
+            adults who live alone.
+          </p>
+          <p>
+            The goal of this guide is not to be alarming. Most people who
+            live alone in later life manage well, especially with the right
+            supports in place. The point is to know what those supports
+            are and to put them in place proactively rather than
+            reactively.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 2 of 10",
+      heading: "What to do first",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">Do an honest safety assessment</h3>
+          <p>
+            Walk through the home and look at it with fresh eyes. Is the
+            bathroom safe? Are there fall hazards? Is the lighting
+            adequate, especially on stairs and in hallways? Are frequently
+            used items easy to reach? Are medications organized and managed
+            correctly?
+          </p>
+          <h3 className="font-serif text-xl text-primary">Check in on social connection</h3>
+          <p>
+            How often is the person in meaningful contact with other
+            people? A phone call a day, a weekly visit, and a community
+            activity or two each week is a reasonable baseline. If
+            isolation is already a problem, it tends to worsen gradually
+            unless something actively addresses it.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            Make sure there is a plan for emergencies
+          </h3>
+          <p>
+            Who knows to check if they have not heard from the person in a
+            day or two? Who has a key? Who would be called in an
+            emergency? Is there a medical alert device? These are basic
+            questions that are worth having clear answers to.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 3 of 10",
+      heading: "Common risks to know about",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            <strong>Falls with no one to help:</strong> A fall when alone
+            is more dangerous not because of the fall itself but because of
+            the time before help arrives. A medical alert device addresses
+            this risk directly.
+          </li>
+          <li>
+            <strong>Medication errors:</strong> Managing multiple
+            medications alone, without anyone checking, creates real risk
+            of missed doses, double doses, or dangerous interactions.
+          </li>
+          <li>
+            <strong>Isolation and loneliness:</strong> Social isolation is
+            associated with cognitive decline, depression, weakened immune
+            function, and increased falls risk. It develops gradually and
+            is easy to underestimate.
+          </li>
+          <li>
+            <strong>Delayed recognition of health changes:</strong> When
+            someone lives alone, gradual changes in health, cognition, or
+            function may go unnoticed longer. Regular contact with people
+            who know the person well is one of the best early warning
+            systems.
+          </li>
+          <li>
+            <strong>Vulnerability to scams:</strong> Older adults who live
+            alone and have limited social contact are at higher risk of
+            financial scams and exploitation. Awareness and trusted
+            contacts who can be consulted before major decisions matter.
+          </li>
+          <li>
+            <strong>Home maintenance falling behind:</strong> A home that
+            is not being maintained creates safety hazards. Small problems
+            become larger ones when they go unaddressed.
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 4 of 10",
+      heading: "Care and support options",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">Medical alert systems</h3>
+          <p>
+            A personal emergency response device is one of the most
+            impactful single things a person living alone can have. Modern
+            devices include automatic fall detection, GPS tracking for use
+            outside the home, and two-way communication. They are
+            discreet, effective, and provide genuine peace of mind for
+            everyone.
+          </p>
+          <p className="italic">
+            Find vetted{" "}
+            <HelpLink category="medical-alert-safety">medical alert providers</HelpLink>{" "}
+            in the directory.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Regular check-in systems</h3>
+          <p>
+            A daily phone call from a family member, a neighbour agreement
+            to check in, or a formal telephone reassurance program through
+            a community organization can mean the difference between a
+            problem being discovered quickly or hours later. Some people
+            also use automated check-in apps or devices that alert a
+            contact if no response is received by a certain time.
+          </p>
+          <h3 className="font-serif text-xl text-primary">In-home support</h3>
+          <p>
+            Help with housekeeping, grocery shopping, meal preparation, and
+            personal care does not diminish independence. It supports it.
+            Starting with a few hours of help each week can make staying
+            at home alone both safer and more manageable.
+          </p>
+          <p className="italic">
+            Find vetted <HelpLink category="home-care">home care providers</HelpLink>{" "}
+            in the directory.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Meal support</h3>
+          <p>
+            Meal delivery services and community meal programs address
+            both nutrition and social connection. Some are specifically
+            designed for older adults and provide a friendly visit
+            alongside the meal.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Social and community connection</h3>
+          <p>
+            Seniors centres, community programs, volunteer visitor
+            programs, and faith communities all provide opportunities for
+            regular social contact. Adult day programs offer structured
+            activities and connection several days a week. These are not
+            consolation prizes for people who cannot manage alone. They
+            are supports that make living alone more sustainable and more
+            enjoyable.
+          </p>
+          <p className="italic">
+            Find vetted{" "}
+            <HelpLink category="companion-social">companion and social programs</HelpLink>{" "}
+            in the directory.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Home safety modifications</h3>
+          <p>
+            Grab bars, improved lighting, non-slip surfaces, and other
+            modifications make the home safer for independent living. An
+            occupational therapist can assess the home and recommend the
+            most impactful changes.
+          </p>
+          <p className="italic">
+            Find vetted home modification services in the directory under{" "}
+            <HelpLink category="home-maintenance">Home Maintenance</HelpLink> and{" "}
+            <HelpLink category="mobility-equipment">Mobility and Equipment</HelpLink>.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 5 of 10",
+      heading: "Government and community supports",
+      body: (
+        <>
+          <p>
+            Many communities have programs specifically designed to
+            support older adults living independently. These can include
+            welfare check programs through local police or fire services,
+            telephone reassurance programs, subsidized home support, meal
+            programs, and transportation assistance. Availability varies
+            by location.
+          </p>
+          <p className="italic">
+            Check the{" "}
+            <Link to="/situations" className="text-primary underline">
+              directory under your province or region
+            </Link>{" "}
+            for local programs supporting seniors living independently.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 6 of 10",
+      heading: "Money and funding considerations",
+      body: (
+        <>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>Medical alert devices involve a monthly subscription that varies by provider and feature level</li>
+            <li>In-home support may be partially funded through public programs depending on location and assessed need</li>
+            <li>Meal delivery programs vary widely in cost; some community programs offer subsidized or free meals</li>
+            <li>
+              Home modifications range from minimal cost (non-slip mats,
+              better lighting) to more significant investment (grab bar
+              installation, bathroom modifications)
+            </li>
+            <li>Some regions offer grants or subsidized programs for home safety modifications for older adults</li>
+          </ul>
+          <p>
+            A social worker or community support organization can help
+            identify what publicly funded supports are available in your
+            area before you pay privately.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 7 of 10",
+      heading: "Questions to ask",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">For yourself or the person living alone</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>If something happened right now, who would know and how quickly?</li>
+            <li>Is there anything about the home that feels less safe than it used to?</li>
+            <li>How often are you in contact with people who would notice if something was wrong?</li>
+            <li>Is there anything you are avoiding or managing around because of a safety concern?</li>
+            <li>What would make you feel more comfortable staying here?</li>
+          </ul>
+          <h3 className="font-serif text-xl text-primary">For family members</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What is our check-in system and is it actually working?</li>
+            <li>Are we relying on the person to tell us if something is wrong, or do we have independent ways of knowing?</li>
+            <li>Have we actually walked through the home recently and looked at it from a safety perspective?</li>
+            <li>What is our plan if the current arrangement is no longer working?</li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      part: "Part 8 of 10",
+      heading: "Helpful resources and forms",
+      body: (
+        <>
+          <p>
+            An emergency information sheet kept in a visible location in
+            the home, listing medications, medical conditions, doctors,
+            emergency contacts, and insurance information, is one of the
+            simplest and most useful safety tools.
+          </p>
+          <p>
+            A home safety checklist covering each room helps identify
+            hazards that become familiar and therefore invisible over
+            time.
+          </p>
+          <p>
+            A social connection plan, a simple weekly schedule of phone
+            calls, visits, and community activities, helps ensure that
+            isolation does not develop by default.
+          </p>
+          <p className="italic">
+            Downloadable resources will be added to this section as the
+            site develops.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 9 of 10",
+      heading: "Services to find near you",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            <HelpLink category="medical-alert-safety">Medical Alert and Safety</HelpLink>{" "}
+            providers for emergency response devices
+          </li>
+          <li>
+            <HelpLink category="home-care">Home Care</HelpLink> providers
+            for in-home support
+          </li>
+          <li>
+            <HelpLink category="companion-social">Companion and Social</HelpLink>{" "}
+            programs for regular social connection and day programs
+          </li>
+          <li>
+            <HelpLink category="home-maintenance">Home Maintenance</HelpLink>{" "}
+            providers for safety modifications
+          </li>
+          <li>
+            <HelpLink category="transportation">Transportation</HelpLink>{" "}
+            services for appointments and community access
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 10 of 10",
+      heading: "Suggested next steps",
+      body: (
+        <ol className="list-decimal space-y-2 pl-6">
+          <li>
+            Set up or review your emergency plan. Who knows to check? Who
+            has a key? Is there a medical alert device?
+          </li>
+          <li>
+            Walk through the home and identify the three most important
+            safety changes to make. Start with those.
+          </li>
+          <li>
+            Assess social connection honestly. Is there enough regular
+            contact with people who would notice a change?
+          </li>
+          <li>
+            Look into a medical alert device if you do not already have
+            one. It is one of the highest-impact, lowest-cost safety
+            measures available.
+          </li>
+          <li>
+            Look into what home support services are available in your
+            area before you urgently need them.
+          </li>
+          <li>
+            Make sure someone has your emergency information and knows how
+            to find it.
+          </li>
+        </ol>
+      ),
+    },
+  ],
+  "recently-widowed": [
+    {
+      part: "Part 1 of 10",
+      heading: "What you may be dealing with",
+      body: (
+        <>
+          <p>
+            Grief after losing a spouse is not a linear process and it does
+            not follow a schedule. Numbness, disbelief, intense sadness,
+            anger, relief (especially after a long illness), loneliness,
+            and unexpected moments of something like normalcy can all
+            coexist. All of these are normal.
+          </p>
+          <p>
+            Alongside the grief, there are practical realities that
+            require attention. There may be financial and legal matters to
+            address. There may be decisions about housing and daily life.
+            There may be social isolation as the social world that existed
+            as part of a couple changes. There may be health concerns that
+            were being managed by the partner who has died.
+          </p>
+          <p>
+            One of the most important things to know about the period
+            immediately after losing a spouse is this: it is not the time
+            to make major irreversible decisions. Selling the house,
+            giving away possessions, making large financial moves: these
+            decisions made in the acute phase of grief are often regretted.
+            Give yourself time wherever you possibly can.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 2 of 10",
+      heading: "What to do first",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">In the first days and weeks</h3>
+          <p>
+            Funeral and memorial arrangements will take immediate priority.
+            Leaning on family and friends to help with logistics during
+            this time is appropriate and important. You do not have to
+            manage everything alone.
+          </p>
+          <p>
+            Notify the necessary parties of the death: government agencies
+            for benefits purposes, financial institutions, insurance
+            companies, professional and community organizations the person
+            belonged to. This list can feel overwhelming. Doing it in
+            stages over several weeks is fine.
+          </p>
+          <p>
+            If there is a will, locate it and ensure the executor is aware
+            of their role. If there is no will, get legal advice about
+            what the process looks like in your jurisdiction.
+          </p>
+          <h3 className="font-serif text-xl text-primary">In the months that follow</h3>
+          <p>
+            Update financial accounts and legal documents to reflect your
+            new situation. This includes bank accounts, investment
+            accounts, insurance policies, and any documents that listed
+            your spouse in a legal capacity.
+          </p>
+          <p>
+            Pay attention to your own health. Grief has physical as well
+            as emotional effects. Appetite, sleep, and immunity are all
+            commonly affected. Seeing your doctor in the months after a
+            loss is worthwhile.
+          </p>
+          <p>
+            Watch for signs that grief is becoming something more,
+            specifically depression. Grief and depression overlap but are
+            different. If you are not functioning, not caring for
+            yourself, or feeling hopeless for an extended period, talk to
+            a doctor.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 3 of 10",
+      heading: "Common risks to know about",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            <strong>Making major decisions too soon:</strong> Selling the
+            home, relocating to be near family, making large financial
+            changes: these decisions made in the first year of widowhood
+            are frequently regretted. Where possible, wait.
+          </li>
+          <li>
+            <strong>Financial vulnerability:</strong> Widowed people,
+            especially those who were not the primary financial manager in
+            the relationship, are at higher risk of financial errors,
+            scams, and exploitation. Getting trusted professional advice
+            before making significant financial decisions is important.
+          </li>
+          <li>
+            <strong>Social isolation:</strong> The social world of a couple
+            is different from the social world of a single person. Friends
+            and activities that were couple-oriented may fall away.
+            Building new social connections and maintaining existing ones
+            requires deliberate effort.
+          </li>
+          <li>
+            <strong>Health neglect:</strong> If your spouse managed
+            appointments, medications, or health-related decisions, those
+            things may now be going unattended. Getting on top of your own
+            health management matters.
+          </li>
+          <li>
+            <strong>Grief becoming depression:</strong> Extended inability
+            to function, persistent hopelessness, or not caring about
+            living are signs that professional support is needed. These
+            are not signs of weakness. They are symptoms of something
+            treatable.
+          </li>
+          <li>
+            <strong>Isolation of adult children:</strong> Adult children
+            sometimes become so focused on supporting a widowed parent
+            that they neglect to grieve themselves, or they try to manage
+            the parent&#x2019;s life in ways that undermine the
+            parent&#x2019;s autonomy. Good intentions need to be balanced
+            with respect for the parent as an adult.
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 4 of 10",
+      heading: "Care and support options",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">Grief support</h3>
+          <p>
+            Grief counselling, bereavement support groups, and peer support
+            programs for widowed people exist in most communities. They
+            are not only for people who are struggling severely. Talking
+            with others who understand the experience of losing a spouse
+            is valuable for most people going through it.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Practical support</h3>
+          <p>
+            In the early period, practical help with meals, errands, and
+            household tasks from family and friends is appropriate to
+            accept. As time passes, in-home support services can fill gaps
+            that family and friends cannot sustain long-term.
+          </p>
+          <p className="italic">
+            Find vetted <HelpLink category="home-care">home care providers</HelpLink>{" "}
+            in the directory.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Legal and financial guidance</h3>
+          <p>
+            A lawyer and a financial advisor or planner who work with
+            people navigating estate matters and post-bereavement
+            financial changes can provide essential guidance. This is
+            particularly important if the deceased managed most of the
+            financial and legal affairs of the household.
+          </p>
+          <p className="italic">
+            Find vetted{" "}
+            <HelpLink category="legal-financial">legal and financial professionals</HelpLink>{" "}
+            in the directory.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Social connection</h3>
+          <p>
+            Seniors centres, faith communities, volunteer programs, and
+            social clubs for widowed people provide structured ways to
+            maintain and build social connection. The transition from a
+            coupled social life to an independent one benefits from
+            deliberate effort.
+          </p>
+          <p className="italic">
+            Find vetted{" "}
+            <HelpLink category="companion-social">companion and social programs</HelpLink>{" "}
+            in the directory.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Housing decisions</h3>
+          <p>
+            The home question almost always arises after losing a spouse.
+            The first answer is usually: not yet. The second answer, when
+            enough time has passed, involves honestly assessing whether
+            the current home still makes sense in terms of size,
+            maintenance, location, and cost. This is a decision worth
+            taking time on and involving trusted people in.
+          </p>
+          <p className="italic">
+            Find vetted{" "}
+            <HelpLink category="retirement-residences">
+              retirement residence information
+            </HelpLink>{" "}
+            in the directory if the time comes to consider other living
+            arrangements.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 5 of 10",
+      heading: "Government and community supports",
+      body: (
+        <>
+          <p>
+            Survivor benefits and pensions that a widowed person may be
+            entitled to vary significantly by location and personal
+            circumstances. Understanding what you are entitled to from
+            government programs, former employers, and private insurance
+            is an important practical step that is often overlooked in the
+            immediate aftermath of loss.
+          </p>
+          <p>
+            Community bereavement programs, many offered at no cost
+            through hospices, hospitals, religious organizations, and
+            community centres, provide both support and connection.
+          </p>
+          <p className="italic">
+            Check the{" "}
+            <Link to="/situations" className="text-primary underline">
+              directory under your province or region
+            </Link>{" "}
+            for local bereavement support and senior services.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 6 of 10",
+      heading: "Money and funding considerations",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            Understanding what survivor benefits, pensions, and insurance
+            payments you are entitled to should be an early priority,
+            handled with professional help if needed
+          </li>
+          <li>Updating beneficiary designations on financial accounts and insurance policies is a legal and financial necessity</li>
+          <li>
+            Estate and tax matters related to the death of a spouse can be
+            complex; professional advice specific to your situation and
+            location is important
+          </li>
+          <li>Bereavement counselling may be covered by insurance or available at low or no cost through community programs</li>
+          <li>
+            Housing decisions have significant financial implications;
+            taking time to understand the full picture before acting is
+            worth doing
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 7 of 10",
+      heading: "Questions to ask",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">For a lawyer</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What needs to happen to settle the estate?</li>
+            <li>What documents do I need to update now that I am the surviving spouse?</li>
+            <li>Are there any time-sensitive legal matters I need to address?</li>
+          </ul>
+          <h3 className="font-serif text-xl text-primary">For a financial advisor</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What is my full financial picture now?</li>
+            <li>What benefits, pensions, or insurance payments am I entitled to?</li>
+            <li>What do I need to update and in what timeframe?</li>
+            <li>What are the financial implications of the housing decisions I am considering?</li>
+          </ul>
+          <h3 className="font-serif text-xl text-primary">For yourself, over time</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What do I actually want my life to look like in the next year? In five years?</li>
+            <li>What decisions can wait and what cannot?</li>
+            <li>Where do I want my social connection to come from?</li>
+            <li>Who are the people I trust to help me think through the big decisions?</li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      part: "Part 8 of 10",
+      heading: "Helpful resources and forms",
+      body: (
+        <>
+          <p>
+            A consolidated list of all financial accounts, insurance
+            policies, and legal documents, their locations and relevant
+            contact information, is something every couple should have and
+            is especially needed after a loss. Creating this list is a
+            practical first step that also helps clarify the full picture.
+          </p>
+          <p>
+            A benefits checklist covering government survivor programs,
+            pension plans, and insurance policies ensures nothing is
+            missed.
+          </p>
+          <p>
+            A simple daily or weekly structure during the early period of
+            widowhood provides some stability when everything else feels
+            uncertain. It does not need to be rigid. It just helps to have
+            a shape to the day.
+          </p>
+          <p className="italic">
+            Downloadable resources will be added to this section as the
+            site develops.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 9 of 10",
+      heading: "Services to find near you",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            <HelpLink category="legal-financial">Legal and Financial</HelpLink>{" "}
+            professionals for estate matters and financial reorganization
+          </li>
+          <li>
+            <HelpLink category="companion-social">Companion and Social</HelpLink>{" "}
+            programs for bereavement support and social connection
+          </li>
+          <li>
+            <HelpLink category="home-care">Home Care</HelpLink> providers
+            for practical help at home
+          </li>
+          <li>
+            <HelpLink category="retirement-residences">Retirement Residences</HelpLink>{" "}
+            if housing decisions become relevant in time
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 10 of 10",
+      heading: "Suggested next steps",
+      body: (
+        <ol className="list-decimal space-y-2 pl-6">
+          <li>
+            In the first weeks: focus on the immediate necessities.
+            Funeral arrangements, notifying key parties, and accepting
+            help from people who offer it.
+          </li>
+          <li>
+            In the first months: get legal and financial advice to
+            understand what needs to be settled and updated. Do not make
+            major irreversible decisions yet.
+          </li>
+          <li>
+            See your doctor. Grief affects physical health and it is worth
+            having someone monitoring yours.
+          </li>
+          <li>
+            Connect with bereavement support, whether a group, a
+            counsellor, or a trusted community. You do not have to do this
+            alone.
+          </li>
+          <li>
+            Pay attention to your social connection. Deliberately maintain
+            the relationships that matter and be open to building new
+            ones.
+          </li>
+          <li>
+            When enough time has passed, revisit the bigger questions like
+            housing with clearer eyes and trusted advisors.
+          </li>
+        </ol>
+      ),
+    },
+  ],
+  "hospital-discharge-planning": [
+    {
+      part: "Part 1 of 10",
+      heading: "What you may be dealing with",
+      body: (
+        <>
+          <p>
+            Hospital discharge can happen faster than families expect and
+            feel faster than the person being discharged is ready for.
+            Hospitals face real pressure on bed availability, and
+            discharge decisions are sometimes made before the family has
+            had time to arrange adequate support at home.
+          </p>
+          <p>
+            The period immediately after discharge is one of the
+            highest-risk periods for older adults. Research consistently
+            shows that readmission rates in the weeks following discharge
+            are significant, and that many of these readmissions are
+            preventable with better preparation and support during the
+            transition.
+          </p>
+          <p>
+            The good news is that most of the risks are known and
+            addressable. The key is knowing what they are and planning for
+            them before the person leaves the hospital, not after.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 2 of 10",
+      heading: "What to do first",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">Before discharge happens</h3>
+          <p>
+            As soon as a hospital admission occurs, begin thinking about
+            discharge. Ask the hospital team who is responsible for
+            discharge planning and make contact with that person early. In
+            most hospitals this is a social worker, a discharge planner,
+            or a case manager.
+          </p>
+          <p>
+            Ask directly: what does this person need to be able to go home
+            safely? What will they be able to do and not do in the first
+            days and weeks after discharge? What follow-up care will be
+            required?
+          </p>
+          <p>Do not wait to be told. Ask.</p>
+          <h3 className="font-serif text-xl text-primary">Understand what is being discharged to</h3>
+          <p>
+            Discharge home requires that the home is set up to receive the
+            person safely. Discharge to a rehabilitation facility, a
+            long-term care facility, or a transition care bed requires
+            understanding what each of these options involves and what the
+            plan is from there.
+          </p>
+          <p>
+            If discharge home is the plan, the questions to ask are: Can
+            this person manage safely at home with the current level of
+            support? What additional support is needed and can it be
+            arranged before discharge?
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 3 of 10",
+      heading: "Common risks to know about",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            <strong>Medication changes:</strong> Medications are frequently
+            added, removed, or adjusted during a hospital stay.
+            Understanding what has changed and why, and ensuring the
+            person can manage the new regimen correctly at home, is one of
+            the most important discharge tasks.
+          </li>
+          <li>
+            <strong>Premature discharge:</strong> People are sometimes
+            discharged before they are truly ready because of bed
+            pressures. Knowing your right to raise concerns about
+            premature discharge and how to do so matters.
+          </li>
+          <li>
+            <strong>Falls during recovery:</strong> Physical deconditioning
+            during a hospital stay increases fall risk during recovery.
+            The home environment needs to be assessed with this in mind.
+          </li>
+          <li>
+            <strong>Infection and wound care:</strong> If the
+            hospitalization involved surgery or infection, wound care
+            instructions need to be clearly understood and followed.
+            Infection after discharge is a common cause of readmission.
+          </li>
+          <li>
+            <strong>Follow-up appointment gaps:</strong> The period between
+            discharge and the first follow-up appointment is a gap where
+            problems can develop undetected. Knowing when the first
+            appointment is and how to reach someone if problems arise
+            before then is important.
+          </li>
+          <li>
+            <strong>Caregiver unpreparedness:</strong> Family members who
+            take on caregiving responsibilities after discharge are often
+            not given adequate information or training. Ask for what you
+            need to know.
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 4 of 10",
+      heading: "Care and support options",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">Home care after discharge</h3>
+          <p>
+            In-home support after discharge may include nursing visits for
+            wound care or medication management, physiotherapy or
+            occupational therapy to support recovery, and personal support
+            workers to help with daily activities during the recovery
+            period. Some of this may be arranged through the hospital;
+            some may need to be arranged independently.
+          </p>
+          <p className="italic">
+            Find vetted <HelpLink category="home-care">home care providers</HelpLink>{" "}
+            in the directory.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Rehabilitation</h3>
+          <p>
+            For many older adults after a significant hospitalization,
+            particularly following a fall, a fracture, a stroke, or
+            surgery, a period of rehabilitation is an important part of
+            recovery. This may happen in a dedicated rehabilitation
+            facility, in a long-term care facility with a rehabilitation
+            program, or at home through visiting therapists. Understanding
+            what the options are and which is most appropriate is worth
+            discussing with the hospital team.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            Home modifications for the recovery period
+          </h3>
+          <p>
+            Even a temporary recovery period may require temporary changes
+            to the home: a hospital bed on the main floor, a commode, grab
+            bars, or equipment to assist with bathing and mobility. Knowing
+            what equipment is needed before discharge, and having it in
+            place before the person arrives home, prevents problems.
+          </p>
+          <p className="italic">
+            Find vetted{" "}
+            <HelpLink category="mobility-equipment">mobility and equipment providers</HelpLink>{" "}
+            in the directory.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Medication management</h3>
+          <p>
+            If managing multiple medications at home is a concern, a
+            pharmacist can provide a medication review and packaging in
+            blister packs or other formats that make taking the right
+            medications at the right times easier. Some home care programs
+            include medication support.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            Transportation for follow-up appointments
+          </h3>
+          <p>
+            The person being discharged will need to get to follow-up
+            appointments during a period when they may not be able to
+            drive. Arranging this before discharge is better than
+            scrambling afterward.
+          </p>
+          <p className="italic">
+            Find vetted{" "}
+            <HelpLink category="transportation">transportation services</HelpLink>{" "}
+            in the directory.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 5 of 10",
+      heading: "Government and community supports",
+      body: (
+        <>
+          <p>
+            Most health systems include some level of funded transition
+            support after hospitalization. This may include nursing
+            visits, therapy, and personal support during the recovery
+            period. The amount of support, how it is accessed, and how
+            long it lasts varies significantly by location.
+          </p>
+          <p>
+            Ask the hospital discharge planner or social worker explicitly
+            what funded supports are available in your area and how to
+            access them. Do not assume that support will be automatically
+            arranged.
+          </p>
+          <p className="italic">
+            Check the{" "}
+            <Link to="/situations" className="text-primary underline">
+              directory under your province or region
+            </Link>{" "}
+            for transition care and home support services.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 6 of 10",
+      heading: "Money and funding considerations",
+      body: (
+        <>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>Some post-discharge home care and rehabilitation may be publicly funded; the amount and eligibility criteria vary by location</li>
+            <li>Equipment needed for the recovery period may be available through loan programs; ask the hospital occupational therapist or social worker</li>
+            <li>Private home care can be arranged to supplement publicly funded support if needed</li>
+            <li>Transportation to follow-up appointments may be covered by insurance or community programs for eligible individuals</li>
+          </ul>
+          <p>
+            Get clarity on what is funded and what is not as early as
+            possible so that private arrangements can be made in time if
+            needed.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 7 of 10",
+      heading: "Questions to ask",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">Before discharge, for the hospital team</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What exactly happened and what does recovery look like?</li>
+            <li>What can and cannot this person do when they go home?</li>
+            <li>What medications have changed and why? Can someone go through each one with us?</li>
+            <li>What home support has been arranged and what do we need to arrange ourselves?</li>
+            <li>What signs should we watch for that would mean coming back to the emergency room?</li>
+            <li>When is the first follow-up appointment and with whom?</li>
+            <li>Who do we call if we have questions or concerns after we get home?</li>
+          </ul>
+          <h3 className="font-serif text-xl text-primary">For the home care provider after discharge</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What exactly are you providing and how often?</li>
+            <li>What are you not providing that we need to arrange separately?</li>
+            <li>How do we reach someone if there is a problem between visits?</li>
+            <li>What should we watch for and report to you?</li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      part: "Part 8 of 10",
+      heading: "Helpful resources and forms",
+      body: (
+        <>
+          <p>
+            A discharge checklist that covers medications, follow-up
+            appointments, home care arrangements, equipment, and warning
+            signs to watch for helps ensure nothing is missed in what is
+            often a rushed transition.
+          </p>
+          <p>
+            A medication list with the current complete list of
+            medications including what each is for, the correct dose, and
+            the schedule is essential for the person, the caregiver, and
+            any home care providers.
+          </p>
+          <p>
+            An emergency contact list including the family doctor, the
+            specialist seen in hospital, the home care provider, and
+            after-hours contact numbers should be posted somewhere visible
+            at home.
+          </p>
+          <p className="italic">
+            Downloadable resources will be added to this section as the
+            site develops.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 9 of 10",
+      heading: "Services to find near you",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            <HelpLink category="home-care">Home Care</HelpLink> providers
+            for nursing, therapy, and personal support after discharge
+          </li>
+          <li>
+            <HelpLink category="mobility-equipment">Mobility and Equipment</HelpLink>{" "}
+            providers for recovery equipment
+          </li>
+          <li>
+            <HelpLink category="transportation">Transportation</HelpLink>{" "}
+            services for follow-up appointments
+          </li>
+          <li>
+            <HelpLink category="medical-alert-safety">Medical Alert and Safety</HelpLink>{" "}
+            providers if a device is now indicated
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 10 of 10",
+      heading: "Suggested next steps",
+      body: (
+        <ol className="list-decimal space-y-2 pl-6">
+          <li>
+            As soon as a hospital admission happens, ask to speak with the
+            discharge planner or social worker. Start planning before
+            discharge is imminent.
+          </li>
+          <li>
+            Get clear answers about what the person can and cannot do at
+            home and what support is needed before they leave the
+            hospital.
+          </li>
+          <li>
+            Get a complete medication list with explanations before
+            leaving the hospital. Have someone go through every change
+            with you.
+          </li>
+          <li>
+            Confirm what funded home support has been arranged and what
+            you need to arrange privately. Do not assume.
+          </li>
+          <li>
+            Make sure the home is ready before the person arrives: any
+            equipment needed should be in place, hazards addressed, and
+            the environment set up for the recovery period.
+          </li>
+          <li>
+            Know the warning signs that would mean returning to the
+            emergency room and write them down.
+          </li>
+          <li>
+            Confirm the first follow-up appointment before leaving the
+            hospital and arrange transportation for it.
+          </li>
+        </ol>
+      ),
+    },
+  ],
 };
 
 function SituationGuidePage() {
