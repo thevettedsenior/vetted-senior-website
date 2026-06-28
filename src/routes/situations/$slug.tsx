@@ -1270,10 +1270,7 @@ function SituationGuidePage() {
           <div className="space-y-12">
             {sections.map((section) => (
               <div key={section.part}>
-                <p className="text-sm font-semibold uppercase tracking-wide text-gold">
-                  {section.part}
-                </p>
-                <h2 className="mt-2 font-serif text-3xl font-semibold text-primary">
+                <h2 className="font-serif text-3xl font-semibold text-primary">
                   {section.heading}
                 </h2>
                 <div className="mt-4 space-y-4 text-lg leading-relaxed text-foreground/85">
