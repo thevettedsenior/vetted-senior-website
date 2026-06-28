@@ -3073,8 +3073,7 @@ function SituationGuidePage() {
           <span>{situation.title}</span>
         </div>
         <div className="relative mx-auto w-full max-w-4xl px-6 pb-10">
-          <span aria-hidden className="text-5xl">{situation.icon}</span>
-          <h1 className="mt-4 font-serif text-4xl font-semibold text-white md:text-5xl">
+          <h1 className="font-serif text-4xl font-semibold text-white md:text-5xl">
             {situation.title}
           </h1>
           <p className="mt-4 max-w-2xl text-xl text-white/90 leading-relaxed">
