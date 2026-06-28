@@ -5,11 +5,11 @@ import { SITUATIONS, HELP_CATEGORIES, PROVINCES } from "@/lib/directory-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "The Vetted Senior — Guidance for Seniors, Families, and Caregivers" },
+      { title: "The Vetted Senior: Guidance for Seniors, Families, and Caregivers" },
       {
         name: "description",
         content:
-          "Getting older comes with questions. We have answers. Plain-language guidance on care, housing, safety, money, and support — for seniors, adult children, and caregivers.",
+          "Getting older comes with questions. We have answers. Plain-language guidance on care, housing, safety, money, and support for seniors, adult children, and caregivers.",
       },
       { property: "og:title", content: "The Vetted Senior" },
       {
@@ -188,7 +188,7 @@ function Home() {
           <div className="grid gap-10 md:grid-cols-[1fr_1.2fr] md:items-start">
             <div>
               <span className="inline-flex items-center gap-2 rounded-full bg-gold/20 px-4 py-1 text-sm font-semibold text-primary mb-4">
-                Directory — Coming Soon
+                Directory: Coming Soon
               </span>
               <h2 className="font-serif text-3xl font-semibold text-primary md:text-4xl">
                 Find vetted services near you
@@ -236,7 +236,7 @@ function Home() {
                 Trust is the product
               </h2>
               <p className="mt-4 text-lg opacity-85 leading-relaxed">
-                There is no shortage of directories online. Most are link farms —
+                There is no shortage of directories online. Most are link farms:
                 businesses pay to appear, nobody checks anything, and families
                 end up calling providers who shouldn't be trusted with vulnerable people.
               </p>

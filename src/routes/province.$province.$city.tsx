@@ -25,7 +25,7 @@ export const Route = createFileRoute("/province/$province/$city")({
     meta: [
       {
         title: loaderData
-          ? `${loaderData.cityName}, ${loaderData.province.name} — Vetted Senior Services`
+          ? `${loaderData.cityName}, ${loaderData.province.name}: Vetted Senior Services`
           : "City",
       },
       {
@@ -100,7 +100,7 @@ function CityPage() {
           <div className="rounded-2xl border border-border bg-card p-8 text-lg">
             <p>
               We haven't vetted any local businesses in {cityName} yet. Check
-              back soon — or{" "}
+              back soon, or{" "}
               <Link
                 to="/province/$province"
                 params={{ province: province.code.toLowerCase() }}

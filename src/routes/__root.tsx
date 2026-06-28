@@ -77,8 +77,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "The Vetted Senior — Trusted Services for Canadian Seniors" },
-      { name: "description", content: "A Canadian directory of personally vetted services for seniors — by province and city." },
+      { title: "The Vetted Senior: Trusted Services for Canadian Seniors" },
+      { name: "description", content: "A Canadian directory of personally vetted services for seniors, by province and city." },
       { property: "og:title", content: "The Vetted Senior" },
       { property: "og:description", content: "A trusted directory of vetted services for seniors across Canada." },
       { property: "og:type", content: "website" },

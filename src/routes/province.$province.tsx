@@ -20,7 +20,7 @@ export const Route = createFileRoute("/province/$province")({
     meta: [
       {
         title: loaderData
-          ? `${loaderData.province.name} — Vetted Senior Services | The Vetted Senior`
+          ? `${loaderData.province.name}: Vetted Senior Services | The Vetted Senior`
           : "Province",
       },
       {

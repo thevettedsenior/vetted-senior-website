@@ -305,7 +305,34 @@ const ARTICLE_CONTENT: Record<string, Section[]> = {
             <li>Request written quotes, service agreements, and references before deciding.</li>
             <li>Ask to meet the caregiver before services begin.</li>
             <li>Check whether publicly funded home care is available in your area before committing to private-pay costs.</li>
+            <li>Download the checklists below and bring them to every call or meeting.</li>
           </ol>
+          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <a
+              href="/checklists/TVS_HC1_SupportTasksPlanner.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 text-base font-semibold text-primary no-underline transition-colors hover:bg-gold/80"
+            >
+              Download: Support Tasks Planner (PDF)
+            </a>
+            <a
+              href="/checklists/TVS_HC2_QuestionsForProviders.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 text-base font-semibold text-primary no-underline transition-colors hover:bg-gold/80"
+            >
+              Download: Questions for Home Care Providers (PDF)
+            </a>
+            <a
+              href="/checklists/TVS_HC3_ProviderComparison.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 text-base font-semibold text-primary no-underline transition-colors hover:bg-gold/80"
+            >
+              Download: Home Care Provider Comparison (PDF)
+            </a>
+          </div>
           <p className="italic">
             Find vetted <Link to="/help/$category" params={{ category: "home-care" }} className="text-primary underline">home care providers</Link>{" "}
             in the directory.
