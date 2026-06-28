@@ -3060,23 +3060,27 @@ function SituationGuidePage() {
 
   return (
     <Page>
-      <section className="border-b border-border bg-card">
-        <div className="mx-auto max-w-4xl px-6 py-4 text-sm text-muted-foreground">
+      <section
+        className="relative flex h-[400px] flex-col justify-end bg-cover bg-center"
+        style={{ backgroundImage: `url(/images/situations/${situation.slug}.jpeg)` }}
+      >
+        <div className="absolute inset-0 bg-black/60" aria-hidden />
+        <div className="relative mx-auto w-full max-w-4xl px-6 py-4 text-sm text-white/80">
           <Link to="/" className="hover:underline">Home</Link>
           <span aria-hidden> / </span>
           <Link to="/situations" className="hover:underline">Find Your Situation</Link>
           <span aria-hidden> / </span>
           <span>{situation.title}</span>
         </div>
-        <div className="mx-auto max-w-4xl px-6 pb-14">
+        <div className="relative mx-auto w-full max-w-4xl px-6 pb-10">
           <span aria-hidden className="text-5xl">{situation.icon}</span>
-          <h1 className="mt-4 font-serif text-4xl font-semibold text-primary md:text-5xl">
+          <h1 className="mt-4 font-serif text-4xl font-semibold text-white md:text-5xl">
             {situation.title}
           </h1>
-          <p className="mt-4 max-w-2xl text-xl text-foreground/85 leading-relaxed">
+          <p className="mt-4 max-w-2xl text-xl text-white/90 leading-relaxed">
             {situation.description}
           </p>
-          <p className="mt-3 text-base text-muted-foreground">
+          <p className="mt-3 text-base text-white/75">
             Plain-language guidance. No jargon. No pressure.
           </p>
         </div>
