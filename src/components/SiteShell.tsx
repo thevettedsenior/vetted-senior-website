@@ -33,7 +33,7 @@ export function SiteHeader() {
 
   return (
     <header className="border-b border-border bg-card">
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-4">
+      <div className="mx-auto flex max-w-6xl flex-nowrap items-center justify-between gap-4 px-6 py-4 md:flex-wrap">
         <Link to="/" className="flex items-center gap-3 no-underline">
           <ShieldLogo />
           <span className="flex flex-col leading-tight">
