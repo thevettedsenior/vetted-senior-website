@@ -3426,7 +3426,7 @@ const GUIDES: Record<string, Section[]> = {
             href="/checklists/TVS_ElderAbuse_WarningSigns_Checklist.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 inline-flex items-center gap-2 rounded-full border-2 border-primary px-6 py-3 text-base font-semibold text-primary no-underline transition-colors hover:bg-primary hover:text-primary-foreground"
+            className="mt-2 inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 text-base font-semibold text-primary no-underline transition-colors hover:bg-gold/80"
           >
             Download: Warning Signs of Elder Abuse Checklist (PDF)
           </a>
