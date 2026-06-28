@@ -76,6 +76,14 @@ export const SITUATIONS: Situation[] = [
     icon: "🏥",
     phase: "live",
   },
+  {
+    slug: "recognizing-elder-abuse",
+    title: "Recognizing Elder Abuse",
+    shortTitle: "Recognizing elder abuse",
+    description: "Understanding the signs and knowing what to do when something feels wrong",
+    icon: "🛡️",
+    phase: "live",
+  },
 ];
 
 // ─── HELP CATEGORIES ────────────────────────────────────────────────────────────

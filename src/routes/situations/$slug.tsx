@@ -3052,6 +3052,470 @@ const GUIDES: Record<string, Section[]> = {
       ),
     },
   ],
+  "recognizing-elder-abuse": [
+    {
+      part: "Part 1 of 10",
+      heading: "What you may be dealing with",
+      body: (
+        <>
+          <p>
+            Elder abuse is more common than most people expect, and more
+            varied than most people realize. It is not always dramatic. It
+            does not always leave visible marks. And it is often not
+            carried out by strangers.
+          </p>
+          <p>
+            Abuse can be physical, emotional, financial, or sexual. It can
+            also take the form of neglect: failing to provide someone with
+            the food, medication, hygiene, warmth, or medical care they
+            need. In many cases, the person causing harm is a family
+            member, a paid caregiver, a romantic partner, or someone in a
+            position of trust.
+          </p>
+          <p>
+            People experiencing abuse often do not report it. They may not
+            recognize what is happening as abuse. They may be afraid of
+            losing their caregiver, being placed in a facility, or not
+            being believed. They may feel ashamed, or they may love the
+            person who is harming them.
+          </p>
+          <p>
+            Elder abuse happens in private homes, in retirement
+            residences, in long-term care facilities, and online. It
+            happens across all income levels, all family structures, and
+            all cultural backgrounds. No community is exempt.
+          </p>
+          <p className="font-semibold text-primary">
+            If something feels wrong, that feeling is worth taking
+            seriously.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 2 of 10",
+      heading: "What to do first",
+      body: (
+        <>
+          <p>
+            If you believe someone is in immediate physical danger, call
+            emergency services now. Do not wait to gather more information
+            or build a case. Safety comes first.
+          </p>
+          <p>
+            If the situation is serious but not an immediate emergency, the
+            priority is safety first and documentation second.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            If you are concerned about someone else
+          </h3>
+          <p>
+            Try to speak with the person alone if you can, away from
+            whoever may be causing harm. Ask open, non-leading questions:
+            How are you feeling? Is there anything that has been worrying
+            you? Is there anyone who has been making you feel unsafe or
+            uncomfortable? Listen without pressure and without expressing
+            disbelief, even if what you hear is surprising.
+          </p>
+          <p>
+            If the person discloses abuse, believe them. Tell them clearly
+            that what is happening is not their fault, that they are not
+            alone, and that help exists. Do not pressure them to act
+            immediately. People need time to process what they have said
+            and to feel safe.
+          </p>
+          <p>
+            Contact adult protective services, your local health
+            authority, or a senior helpline if you are unsure what to do
+            next. You do not need proof. You do not need to be certain. A
+            concern is enough to make a call. In most areas, you can
+            report anonymously.
+          </p>
+          <h3 className="font-serif text-xl text-primary">
+            If you are experiencing this yourself
+          </h3>
+          <p>
+            What is happening to you is not your fault. You deserve to be
+            safe and treated with dignity. You have options, even if they
+            are not immediately obvious.
+          </p>
+          <p>
+            If you are afraid to talk to family, consider calling a senior
+            helpline anonymously to understand your options before making
+            any decisions. If your caregiver is also the person harming
+            you, help exists to arrange alternative care so that leaving
+            does not mean losing all support.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 3 of 10",
+      heading: "Common risks to know about",
+      body: (
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            <strong>Social isolation:</strong> People who are isolated
+            from friends, family, and community are significantly more
+            vulnerable to abuse. Isolation limits outside observation and
+            reduces the chance that abuse will be noticed or reported. It
+            also gives the person causing harm more control. Maintaining
+            regular contact with older adults who live alone or have
+            limited social connections matters.
+          </li>
+          <li>
+            <strong>Cognitive impairment:</strong> People living with
+            dementia or other forms of cognitive decline may not be able
+            to recognize abuse, report it accurately, or resist it. They
+            may not remember what happened, or they may be disbelieved
+            when they do report it. People with cognitive impairment are
+            disproportionately affected by elder abuse.
+          </li>
+          <li>
+            <strong>Caregiver stress and burnout:</strong> Many cases of
+            neglect and emotional abuse occur in the context of a family
+            caregiver who is overwhelmed, under-supported, and exhausted.
+            This does not excuse harm, but understanding the context
+            matters for finding the right response. Caregiver support is
+            sometimes the intervention that prevents further harm.
+          </li>
+          <li>
+            <strong>Financial dependency:</strong> When an older adult
+            depends financially on someone who also has access to their
+            accounts or assets, the opportunity for financial abuse is
+            significant. Financial abuse is the most commonly reported
+            form of elder abuse and is frequently carried out by people
+            the person trusts: family members, close friends, or paid
+            caregivers.
+          </li>
+          <li>
+            <strong>Fear of consequences:</strong> Many older adults fear
+            that if they report abuse, they will lose their only source of
+            care, be placed in a facility against their wishes, or not be
+            believed. These fears are real and should be acknowledged. The
+            most effective responses address the care need at the same
+            time as the abuse.
+          </li>
+          <li>
+            <strong>Fraud and digital scams:</strong> Financial abuse is
+            not always carried out by people in the home. Phone scams,
+            email fraud, fake online relationships, and fraudulent charity
+            solicitations targeting older adults are widespread and cause
+            serious financial harm. These forms of abuse are often not
+            recognized as abuse by the person experiencing them.
+          </li>
+          <li>
+            <strong>Abuse in care facilities:</strong> Abuse can occur in
+            retirement residences and long-term care facilities as well as
+            in private homes. It may be carried out by staff, by other
+            residents, or by visiting individuals. Underfunding,
+            understaffing, and inadequate supervision increase risk in
+            institutional settings.
+          </li>
+        </ul>
+      ),
+    },
+    {
+      part: "Part 4 of 10",
+      heading: "Care and support options",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">Report to the right authority</h3>
+          <p>
+            Every region has mechanisms for reporting suspected elder
+            abuse. Depending on where you are and the nature of the abuse,
+            the right reporting channel may be adult protective services,
+            a public guardian&#x2019;s office, a long-term care licensing
+            body, a professional regulatory body, local police, or a
+            combination. A call to a senior helpline can help you identify
+            the right channel for your specific situation.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Safety planning</h3>
+          <p>
+            If the abuser is also the caregiver, removing the abuse does
+            not automatically solve the care need. Planning a safe
+            response means thinking about alternative care arrangements
+            at the same time. A social worker experienced in elder abuse
+            can help coordinate this. Acting without a care plan in place
+            can leave the person without support, which is itself a risk.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Legal protection</h3>
+          <p>
+            In situations involving financial abuse, a lawyer with
+            experience in elder law can help freeze accounts, seek court
+            orders to reverse unauthorized transactions, and pursue
+            recovery of lost funds. If the person has lost the capacity to
+            make decisions about their own affairs, a legal process for
+            appointing a substitute decision-maker or guardian may be
+            needed.
+          </p>
+          <p>
+            Protective orders may be available in cases involving threats
+            or physical harm. In some jurisdictions, police can apply for
+            orders that remove the abuser from the home.
+          </p>
+          <p className="italic">
+            Find vetted{" "}
+            <HelpLink category="legal-financial">legal professionals</HelpLink>{" "}
+            in the directory.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Counselling and peer support</h3>
+          <p>
+            Being harmed by someone you depend on, live with, or love is
+            deeply damaging in ways that go beyond the immediate harm.
+            Counselling and peer support groups for older adults who have
+            experienced abuse exist in many communities and can be an
+            important part of recovery. Social workers, crisis
+            counsellors, and victim services can provide referrals.
+          </p>
+          <h3 className="font-serif text-xl text-primary">Caregiver support as prevention</h3>
+          <p>
+            Where abuse has arisen from caregiver burnout rather than
+            deliberate intent, connecting the caregiver with respite care,
+            mental health support, and community resources can reduce the
+            risk of further harm. This is only appropriate where the abuse
+            has been non-physical and the older adult wishes to maintain
+            the relationship.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 5 of 10",
+      heading: "Government and community supports",
+      body: (
+        <>
+          <p>
+            Most jurisdictions have publicly funded resources for elder
+            abuse prevention and response. These vary by location and may
+            include:
+          </p>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>
+              Adult protective services (Canada, United States) or
+              equivalent social services bodies
+            </li>
+            <li>Victim services programs that serve older adults as well as younger people</li>
+            <li>Senior safety programs through local police, including regular wellness check services</li>
+            <li>Legal aid for eligible individuals involved in elder abuse situations</li>
+            <li>Crisis lines specifically for older adults or their families</li>
+            <li>
+              Community elder abuse response teams in some areas, which
+              coordinate multi-agency responses
+            </li>
+          </ul>
+          <p>
+            Hospital social workers, family doctors, home care workers,
+            and many other regulated professionals are mandatory reporters
+            of known or suspected elder abuse in many jurisdictions. If
+            you are a professional with a concern, you likely have a legal
+            obligation to report.
+          </p>
+          <p className="italic">
+            Check the{" "}
+            <Link to="/situations" className="text-primary underline">
+              directory under your province or region
+            </Link>{" "}
+            for senior advocacy organizations, legal aid, and community
+            support services.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 6 of 10",
+      heading: "Money and funding considerations",
+      body: (
+        <>
+          <p>
+            Many of the most important responses to elder abuse involve
+            services that are publicly funded or provided at no cost.
+            Emergency response, police involvement, hospital social work,
+            adult protective services investigations, and legal aid for
+            eligible individuals are generally available without cost to
+            the person being abused.
+          </p>
+          <p>
+            <strong>Where financial abuse has occurred:</strong> Recovering
+            lost funds depends on the circumstances. Some money lost to
+            fraud or financial abuse can be recovered through legal
+            action. Some cannot. Early action significantly improves the
+            chances of recovery. A lawyer with experience in elder law or
+            estates can advise on what is realistic in your situation.
+          </p>
+          <p>
+            <strong>Contacting the bank promptly:</strong> Banks can
+            sometimes freeze accounts, reverse unauthorized transactions,
+            or flag suspicious activity if contacted quickly. Delay
+            reduces these options.
+          </p>
+          <p>
+            <strong>Private legal fees:</strong> If court proceedings are
+            involved, private legal fees can be significant. Legal aid
+            may be available depending on income and the nature of the
+            case. Some lawyers who specialize in elder law offer initial
+            consultations at reduced cost.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 7 of 10",
+      heading: "Questions to ask",
+      body: (
+        <>
+          <h3 className="font-serif text-xl text-primary">If you are concerned about someone</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>Is this person seeing other people regularly, or are they increasingly isolated from family and friends?</li>
+            <li>Have there been unexplained changes in their financial situation, living conditions, physical appearance, or mood?</li>
+            <li>Does the person seem afraid, anxious, or reluctant to speak freely, especially when a specific person is present?</li>
+            <li>Are there unexplained physical injuries, or is the explanation inconsistent?</li>
+            <li>
+              Does the caregiver seem controlling, dismissive of the
+              person&#x2019;s needs, evasive about their care, or
+              unwilling to let others speak with the person alone?
+            </li>
+            <li>Has the person mentioned being afraid, humiliated, or feeling like a burden?</li>
+          </ul>
+          <h3 className="font-serif text-xl text-primary">When speaking with a professional about your concerns</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What are my obligations if I suspect abuse? Am I a mandatory reporter?</li>
+            <li>Can I report this anonymously? What happens after I make a report?</li>
+            <li>How will the older adult be protected once a report is made? Will they be told who reported?</li>
+            <li>What legal options exist if financial abuse has occurred?</li>
+            <li>If the abuser is also the caregiver, what alternative care can be arranged?</li>
+          </ul>
+          <h3 className="font-serif text-xl text-primary">If you are an older adult who has experienced this</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>What help is available to me right now, without requiring me to make immediate decisions?</li>
+            <li>Can I speak with someone in confidence before deciding what to do?</li>
+            <li>
+              What are my options if the person who harmed me is also my
+              caregiver? Can care be arranged separately?
+            </li>
+            <li>What legal protections apply to my situation? Can any money that was taken be recovered?</li>
+            <li>Is there someone who can come with me to appointments or meetings so I do not have to face this alone?</li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      part: "Part 8 of 10",
+      heading: "Helpful resources and forms",
+      body: (
+        <>
+          <p>
+            A written record of incidents is one of the most important
+            things you can have if you decide to report. Write down
+            dates, descriptions of what happened, what was said, and the
+            names of anyone present. Notes made at the time are far more
+            useful than memories recalled weeks later.
+          </p>
+          <p>
+            A list of the older adult&#x2019;s accounts, regular bills,
+            assets, and typical financial transactions is helpful for
+            identifying unauthorized activity and establishing what
+            existed before the abuse began.
+          </p>
+          <p>
+            A record of the person&#x2019;s typical mood, behaviour, and
+            physical condition helps you identify changes over time that
+            may indicate escalating harm.
+          </p>
+          <a
+            href="/checklists/TVS_ElderAbuse_WarningSigns_Checklist.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 inline-flex items-center gap-2 rounded-full border-2 border-primary px-6 py-3 text-base font-semibold text-primary no-underline transition-colors hover:bg-primary hover:text-primary-foreground"
+          >
+            Download: Warning Signs of Elder Abuse Checklist (PDF)
+          </a>
+        </>
+      ),
+    },
+    {
+      part: "Part 9 of 10",
+      heading: "Services to find near you",
+      body: (
+        <>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>
+              <HelpLink category="legal-financial">Legal and Financial</HelpLink>{" "}
+              providers for elder law, power of attorney review, financial
+              protection advice, and estate planning
+            </li>
+            <li>
+              <HelpLink category="companion-social">Companion and Social</HelpLink>{" "}
+              programs for regular social connection and reducing
+              isolation in older adults who are at risk
+            </li>
+            <li>
+              <HelpLink category="home-care">Home Care</HelpLink> providers
+              for professional vetted in-home support as an alternative
+              when a current caregiver relationship is unsafe
+            </li>
+          </ul>
+          <p className="italic">
+            Use the <Link to="/help" className="text-primary underline">Find Help</Link>{" "}
+            section of this site to browse vetted providers by category and
+            location.
+          </p>
+        </>
+      ),
+    },
+    {
+      part: "Part 10 of 10",
+      heading: "Suggested next steps",
+      body: (
+        <>
+          <p>Start with the steps that address immediate safety first, then work through the rest.</p>
+          <ol className="list-decimal space-y-2 pl-6">
+            <li>
+              If someone is in immediate danger, call emergency services
+              now. Do not delay to gather more information.
+            </li>
+            <li>
+              If you suspect abuse but are not certain, contact a senior
+              helpline or adult protective services in your area. You do
+              not need proof to make a call, and you can often report
+              anonymously.
+            </li>
+            <li>
+              If possible, speak with the person alone, away from anyone
+              who may be causing harm. Listen without pressure or
+              disbelief.
+            </li>
+            <li>
+              Download the Warning Signs checklist and use it to document
+              what you have observed, with dates and details.
+            </li>
+            <li>
+              If financial abuse is suspected, contact the person&#x2019;s
+              bank and a lawyer experienced in elder law as soon as
+              possible. Early action significantly improves the chance of
+              recovery.
+            </li>
+            <li>
+              If the person causing harm is also the caregiver, begin
+              planning alternative care arrangements before taking action,
+              so that removing the abuser does not leave the person
+              without support.
+            </li>
+            <li>
+              Look into companion services or social programs to reduce
+              isolation, which is both a risk factor and a consequence of
+              abuse.
+            </li>
+            <li>
+              Look after yourself. Witnessing, discovering, or experiencing
+              abuse is distressing. Speaking with a counsellor, a trusted
+              person, or a support line helps.
+            </li>
+          </ol>
+        </>
+      ),
+    },
+  ],
 };
 
 function SituationGuidePage() {
