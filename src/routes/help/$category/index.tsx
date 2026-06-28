@@ -150,7 +150,7 @@ function HelpCategoryPage() {
 
           <div className="mt-8">
             <p className="text-sm font-semibold text-primary mb-4">Choose your province</p>
-            <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-3">
               {PROVINCES.filter(
                 (p) => !["NT", "NU", "YT"].includes(p.code)
               ).map((p) => (
