@@ -61,8 +61,8 @@ function Home() {
           </div>
 
           {/* Trust card */}
-          <div className="rounded-3xl border-2 border-gold/50 bg-background p-8">
-            <p className="font-serif text-2xl text-primary">What "vetted" means here</p>
+          <div className="rounded-3xl border-2 border-gold/50 bg-background p-5 md:p-8">
+            <p className="font-serif text-2xl text-primary">What "vetted" means</p>
             <ul className="mt-5 space-y-4 text-lg">
               <li className="flex gap-3 items-start">
                 <span aria-hidden className="mt-0.5 text-gold font-bold">✓</span>
