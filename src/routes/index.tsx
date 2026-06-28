@@ -33,7 +33,7 @@ function Home() {
       <section className="border-b border-border bg-card">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-[1.3fr_1fr] md:items-center">
           <div>
-            <h1 className="font-serif text-5xl font-semibold leading-tight text-primary md:text-6xl">
+            <h1 className="font-serif text-4xl font-semibold leading-tight text-primary md:text-6xl">
               Getting older comes with questions.{" "}
               <br />
               <span className="text-gold">We have answers.</span>

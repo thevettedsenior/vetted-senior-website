@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import { useState } from "react";
 import type { ReactNode } from "react";
 
 // Shield + checkmark logo as an inline SVG
@@ -28,6 +29,8 @@ function ShieldLogo() {
 }
 
 export function SiteHeader() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="border-b border-border bg-card">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-4">
@@ -43,7 +46,7 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav className="flex flex-wrap items-center gap-6 text-base">
+        <nav className="hidden items-center gap-6 text-base md:flex">
           <Link
             to="/"
             className="text-primary hover:underline"
@@ -80,7 +83,78 @@ export function SiteHeader() {
             Contact
           </Link>
         </nav>
+
+        <button
+          type="button"
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen((open) => !open)}
+          className="flex h-10 w-10 items-center justify-center text-primary md:hidden"
+        >
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M3 6h18M3 12h18M3 18h18"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+          </svg>
+        </button>
       </div>
+
+      {menuOpen && (
+        <nav className="w-full border-t border-border bg-card px-6 py-4 md:hidden">
+          <div className="flex flex-col gap-4 text-base">
+            <Link
+              to="/"
+              className="text-primary hover:underline"
+              activeOptions={{ exact: true }}
+              activeProps={{ className: "underline font-semibold" }}
+              onClick={() => setMenuOpen(false)}
+            >
+              Home
+            </Link>
+            <Link
+              to="/situations"
+              className="text-primary hover:underline"
+              activeProps={{ className: "underline font-semibold" }}
+              onClick={() => setMenuOpen(false)}
+            >
+              Find Your Situation
+            </Link>
+            <Link
+              to="/help"
+              className="text-primary hover:underline"
+              activeProps={{ className: "underline font-semibold" }}
+              onClick={() => setMenuOpen(false)}
+            >
+              Find Help
+            </Link>
+            <Link
+              to="/about"
+              className="text-primary hover:underline"
+              activeProps={{ className: "underline font-semibold" }}
+              onClick={() => setMenuOpen(false)}
+            >
+              How We Vet
+            </Link>
+            <Link
+              to="/contact"
+              className="text-primary hover:underline"
+              onClick={() => setMenuOpen(false)}
+            >
+              Contact
+            </Link>
+          </div>
+        </nav>
+      )}
     </header>
   );
 }
