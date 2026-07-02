@@ -236,7 +236,7 @@ export function SiteFooter() {
 
 export function Page({ children }: { children: ReactNode }) {
   return (
-    <div className="flex min-h-dvh flex-col">
+    <div className="flex min-h-svh flex-col">
       <SiteHeader />
       <main className="flex-1">{children}</main>
       <SiteFooter />

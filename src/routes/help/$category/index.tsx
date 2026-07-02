@@ -44,22 +44,22 @@ function HelpCategoryPage() {
       {/* ── CATEGORY HERO ────────────────────────────────────────────────── */}
       {category.image ? (
         <section
-          className="relative flex h-[400px] flex-col justify-end bg-cover bg-center"
+          className="relative flex h-[260px] flex-col justify-end bg-cover bg-center md:h-[400px]"
           style={{ backgroundImage: `url(${category.image})` }}
         >
           <div className="absolute inset-0 bg-black/60" aria-hidden />
-          <div className="relative mx-auto w-full max-w-4xl px-6 py-4 text-sm text-white/80">
+          <div className="relative mx-auto w-full max-w-4xl px-6 py-3 text-xs text-white/80 md:py-4 md:text-sm">
             <Link to="/" className="hover:underline">Home</Link>
             <span aria-hidden> / </span>
             <Link to="/help" className="hover:underline">Find Help</Link>
             <span aria-hidden> / </span>
             <span>{category.name}</span>
           </div>
-          <div className="relative mx-auto w-full max-w-4xl px-6 pb-10">
-            <h1 className="font-serif text-4xl font-semibold text-white md:text-5xl">
+          <div className="relative mx-auto w-full max-w-4xl px-6 pb-6 md:pb-10">
+            <h1 className="font-serif text-2xl font-semibold text-white md:text-4xl lg:text-5xl">
               {category.name}
             </h1>
-            <p className="mt-4 max-w-2xl text-xl text-white/90 leading-relaxed">
+            <p className="mt-2 line-clamp-3 max-w-2xl text-base text-white/90 leading-relaxed md:mt-4 md:line-clamp-none md:text-xl">
               {category.intro}
             </p>
           </div>
