@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import { Page } from "@/components/SiteShell";
+import { OntarioModule } from "@/components/OntarioModule";
 import { findSituation } from "@/lib/directory-data";
 
 export const Route = createFileRoute("/situations/$slug")({
@@ -3565,6 +3566,8 @@ function SituationGuidePage() {
           </div>
         </section>
       )}
+
+      <OntarioModule slug={situation.slug} />
 
       <section className="border-t border-border bg-secondary/40">
         <div className="mx-auto max-w-4xl px-6 py-12">
