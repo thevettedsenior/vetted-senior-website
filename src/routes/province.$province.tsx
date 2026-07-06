@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
 import { BusinessCard } from "@/components/BusinessCard";
+import { LaunchNotice } from "@/components/HandbookCTA";
 import {
   findProvince,
   provincialBusinesses,
@@ -110,10 +111,9 @@ function ProvincePage() {
           </p>
 
           {national.length === 0 ? (
-            <p className="mt-8 rounded-xl border border-border bg-card p-6 text-lg">
-              We're still vetting province-wide providers here. Check your city
-              for local businesses.
-            </p>
+            <div className="mt-8">
+              <LaunchNotice place={province.name} />
+            </div>
           ) : (
             <div className="mt-8 space-y-10">
               {Object.entries(grouped).map(([cat, items]) => (

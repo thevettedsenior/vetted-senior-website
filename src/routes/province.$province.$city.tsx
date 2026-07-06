@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
 import { BusinessCard } from "@/components/BusinessCard";
+import { LaunchNotice } from "@/components/HandbookCTA";
 import {
   findProvince,
   cityBusinesses,
@@ -97,20 +98,7 @@ function CityPage() {
 
       <section className="mx-auto max-w-6xl px-6 py-12">
         {businesses.length === 0 ? (
-          <div className="rounded-2xl border border-border bg-card p-8 text-lg">
-            <p>
-              We haven't vetted any local businesses in {cityName} yet. Check
-              back soon, or{" "}
-              <Link
-                to="/province/$province"
-                params={{ province: province.code.toLowerCase() }}
-                className="text-primary underline"
-              >
-                browse province-wide providers
-              </Link>{" "}
-              that serve {province.name}.
-            </p>
-          </div>
+          <LaunchNotice place={cityName} />
         ) : (
           <div className="space-y-12">
             {Object.entries(grouped).map(([cat, items]) => (

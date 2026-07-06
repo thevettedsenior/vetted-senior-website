@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
+import { HandbookCTA } from "@/components/HandbookCTA";
 import { SITUATIONS, HELP_CATEGORIES, PROVINCES } from "@/lib/directory-data";
 
 export const Route = createFileRoute("/")({
@@ -194,12 +195,15 @@ function Home() {
                 Find vetted services near you
               </h2>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-                We're personally vetting senior-serving businesses across the
-                country. Every provider in the directory has been reviewed, not paid to appear.
+                We're personally vetting senior-serving businesses, starting
+                with Toronto, Mississauga, and Durham Region and expanding
+                across the GTA, then the country. Every provider is reviewed,
+                never paid to appear.
               </p>
               <p className="mt-3 text-base text-muted-foreground">
-                Select your province to see what's available in your area,
-                or check back as we add more vetted listings.
+                Where we don't yet have vetted providers, we say so plainly
+                rather than pad the list. An empty category here is a promise
+                being kept, not a gap being hidden.
               </p>
             </div>
 
@@ -245,18 +249,26 @@ function Home() {
                 actually checking. We don't take paid placements. We don't rush
                 the process. We remove providers who slip.
               </p>
-              <Link
-                to="/about"
-                className="mt-6 inline-flex items-center gap-2 rounded-full border-2 border-primary-foreground px-6 py-3 text-base font-semibold text-primary-foreground no-underline hover:bg-primary-foreground/10 transition-colors"
-              >
-                How we vet every business →
-              </Link>
+              <div className="mt-6 flex flex-wrap items-center gap-4">
+                <Link
+                  to="/about"
+                  className="inline-flex items-center gap-2 rounded-full border-2 border-primary-foreground px-6 py-3 text-base font-semibold text-primary-foreground no-underline hover:bg-primary-foreground/10 transition-colors"
+                >
+                  How we vet every business →
+                </Link>
+                <Link
+                  to="/disclosure"
+                  className="text-base font-semibold text-primary-foreground/85 underline underline-offset-4 hover:text-primary-foreground transition-colors"
+                >
+                  How this site makes money
+                </Link>
+              </div>
             </div>
 
             <ul className="space-y-4">
               {[
                 { stat: "0", label: "Paid placements. Ever." },
-                { stat: "5-step", label: "Vetting process for every listing" },
+                { stat: "5", label: "Published criteria every listing is scored against" },
                 { stat: "Annual", label: "Re-review of every provider" },
                 { stat: "Real", label: "References from senior clients" },
               ].map((item) => (
@@ -272,6 +284,51 @@ function Home() {
               ))}
             </ul>
           </div>
+        </div>
+      </section>
+
+      {/* ── FOUNDER ───────────────────────────────────────────────────────── */}
+      <section className="border-t border-border bg-card">
+        <div className="mx-auto max-w-6xl px-6 py-16">
+          <div className="grid gap-10 md:grid-cols-[auto_1fr] md:items-center">
+            {/* Founder photo placeholder: swap for a real, warm photo of Ragini */}
+            <div
+              className="mx-auto flex h-40 w-40 shrink-0 flex-col items-center justify-center gap-1 rounded-full border-2 border-dashed border-gold/60 bg-secondary/50 text-center md:mx-0"
+              role="img"
+              aria-label="Placeholder for a photo of founder Ragini Domenichini"
+            >
+              <span aria-hidden className="text-3xl">📷</span>
+              <span className="px-4 text-xs text-muted-foreground">
+                Photo of Ragini
+              </span>
+            </div>
+            <div>
+              <p className="font-serif text-2xl font-semibold leading-snug text-primary md:text-3xl">
+                After twenty years verifying banks, she started verifying the
+                people who care for our parents.
+              </p>
+              <p className="mt-4 max-w-2xl text-lg text-foreground/80 leading-relaxed">
+                The Vetted Senior was built by Ragini Domenichini, who spent
+                two decades running compliance and verification programs
+                inside Canada's largest banks, and who built this site when she
+                could not find a single resource she trusted for her own
+                mother.
+              </p>
+              <Link
+                to="/founder"
+                className="mt-5 inline-flex items-center gap-2 rounded-full border-2 border-primary px-6 py-3 text-base font-semibold text-primary no-underline hover:bg-primary/5 transition-colors"
+              >
+                Read her story →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── HANDBOOK ──────────────────────────────────────────────────────── */}
+      <section className="border-t border-border bg-secondary/40">
+        <div className="mx-auto max-w-6xl px-6 py-16">
+          <HandbookCTA />
         </div>
       </section>
 

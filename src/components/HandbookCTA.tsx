@@ -8,6 +8,43 @@ export const SUBSCRIBE_MAILTO =
   "mailto:info@thevettedsenior.com?subject=Send%20me%20the%20handbook%20and%20the%20weekly%20briefing&body=Hi%20Ragini%2C%0A%0APlease%20add%20me%20to%20the%20weekly%20briefing.%0A%0AMy%20situation%2C%20if%20you%20want%20to%20tell%20me%20(optional)%3A%20";
 
 /**
+ * Dead-end converter for directory pages with no vetted listings yet.
+ * Every not-yet-covered area is a launch notice with a specific promise,
+ * not a disappointment.
+ */
+export function LaunchNotice({ place }: { place: string }) {
+  const mailto = `mailto:info@thevettedsenior.com?subject=${encodeURIComponent(
+    `Tell me when vetted providers go live in ${place}`,
+  )}&body=${encodeURIComponent(
+    `Hi Ragini,\n\nPlease let me know when The Vetted Senior lists vetted providers in ${place}.\n`,
+  )}`;
+  return (
+    <div className="rounded-2xl border-2 border-gold/50 bg-card p-8">
+      <p className="font-serif text-2xl text-primary">
+        No vetted providers in {place} yet, and we won't pretend otherwise.
+      </p>
+      <p className="mt-3 text-lg text-foreground/80 leading-relaxed">
+        Vetting takes six to nine hours per provider, and we publish nothing
+        we haven't checked. On this site, an empty page is a promise being
+        kept, not a gap being hidden. Leave your email and you'll hear the
+        day vetted listings go live in {place}.
+      </p>
+      <div className="mt-5 flex flex-wrap items-center gap-4">
+        <a
+          href={mailto}
+          className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-base font-semibold text-primary-foreground no-underline hover:opacity-90 transition-opacity"
+        >
+          Tell me when {place} is live →
+        </a>
+        <Link to="/handbook" className="text-base text-primary underline">
+          Meanwhile, the free Caregiver Handbook
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+/**
  * The site-wide email capture / handbook block. Used at the end of the founder
  * page, on guides, and on the homepage. The handbook download is free and
  * ungated; the subscribe ask sits beside it, never in front of it.

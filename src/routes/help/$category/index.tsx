@@ -173,7 +173,17 @@ function HelpCategoryPage() {
               </p>
               <p className="text-base text-muted-foreground">
                 We're adding vetted {category.name.toLowerCase()} providers as they pass our
-                review process. No business can buy their way in. Every listing is earned.
+                review process, starting with the Toronto area. No business can buy their
+                way in. Every listing is earned.{" "}
+                <a
+                  href={`mailto:info@thevettedsenior.com?subject=${encodeURIComponent(
+                    `Tell me when vetted ${category.name} providers go live`,
+                  )}`}
+                  className="text-primary underline"
+                >
+                  Ask to be notified when this category goes live
+                </a>
+                .
               </p>
             </div>
           </div>
