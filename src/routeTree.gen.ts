@@ -9,7 +9,9 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as HowWeVetRouteImport } from './routes/how-we-vet'
 import { Route as HandbookRouteImport } from './routes/handbook'
+import { Route as GetVettedRouteImport } from './routes/get-vetted'
 import { Route as FounderRouteImport } from './routes/founder'
 import { Route as DisclosureRouteImport } from './routes/disclosure'
 import { Route as ContactRouteImport } from './routes/contact'
@@ -23,9 +25,19 @@ import { Route as HelpCategoryIndexRouteImport } from './routes/help/$category/i
 import { Route as ProvinceProvinceCityRouteImport } from './routes/province.$province.$city'
 import { Route as HelpCategoryArticleRouteImport } from './routes/help/$category/$article'
 
+const HowWeVetRoute = HowWeVetRouteImport.update({
+  id: '/how-we-vet',
+  path: '/how-we-vet',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const HandbookRoute = HandbookRouteImport.update({
   id: '/handbook',
   path: '/handbook',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GetVettedRoute = GetVettedRouteImport.update({
+  id: '/get-vetted',
+  path: '/get-vetted',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FounderRoute = FounderRouteImport.update({
@@ -95,7 +107,9 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/disclosure': typeof DisclosureRoute
   '/founder': typeof FounderRoute
+  '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
+  '/how-we-vet': typeof HowWeVetRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help/': typeof HelpIndexRoute
@@ -110,7 +124,9 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/disclosure': typeof DisclosureRoute
   '/founder': typeof FounderRoute
+  '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
+  '/how-we-vet': typeof HowWeVetRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help': typeof HelpIndexRoute
@@ -126,7 +142,9 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/disclosure': typeof DisclosureRoute
   '/founder': typeof FounderRoute
+  '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
+  '/how-we-vet': typeof HowWeVetRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help/': typeof HelpIndexRoute
@@ -143,7 +161,9 @@ export interface FileRouteTypes {
     | '/contact'
     | '/disclosure'
     | '/founder'
+    | '/get-vetted'
     | '/handbook'
+    | '/how-we-vet'
     | '/province/$province'
     | '/situations/$slug'
     | '/help/'
@@ -158,7 +178,9 @@ export interface FileRouteTypes {
     | '/contact'
     | '/disclosure'
     | '/founder'
+    | '/get-vetted'
     | '/handbook'
+    | '/how-we-vet'
     | '/province/$province'
     | '/situations/$slug'
     | '/help'
@@ -173,7 +195,9 @@ export interface FileRouteTypes {
     | '/contact'
     | '/disclosure'
     | '/founder'
+    | '/get-vetted'
     | '/handbook'
+    | '/how-we-vet'
     | '/province/$province'
     | '/situations/$slug'
     | '/help/'
@@ -189,7 +213,9 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   DisclosureRoute: typeof DisclosureRoute
   FounderRoute: typeof FounderRoute
+  GetVettedRoute: typeof GetVettedRoute
   HandbookRoute: typeof HandbookRoute
+  HowWeVetRoute: typeof HowWeVetRoute
   ProvinceProvinceRoute: typeof ProvinceProvinceRouteWithChildren
   SituationsSlugRoute: typeof SituationsSlugRoute
   HelpIndexRoute: typeof HelpIndexRoute
@@ -200,11 +226,25 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/how-we-vet': {
+      id: '/how-we-vet'
+      path: '/how-we-vet'
+      fullPath: '/how-we-vet'
+      preLoaderRoute: typeof HowWeVetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/handbook': {
       id: '/handbook'
       path: '/handbook'
       fullPath: '/handbook'
       preLoaderRoute: typeof HandbookRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/get-vetted': {
+      id: '/get-vetted'
+      path: '/get-vetted'
+      fullPath: '/get-vetted'
+      preLoaderRoute: typeof GetVettedRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/founder': {
@@ -311,7 +351,9 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   DisclosureRoute: DisclosureRoute,
   FounderRoute: FounderRoute,
+  GetVettedRoute: GetVettedRoute,
   HandbookRoute: HandbookRoute,
+  HowWeVetRoute: HowWeVetRoute,
   ProvinceProvinceRoute: ProvinceProvinceRouteWithChildren,
   SituationsSlugRoute: SituationsSlugRoute,
   HelpIndexRoute: HelpIndexRoute,

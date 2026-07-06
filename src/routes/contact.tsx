@@ -40,7 +40,11 @@ function Contact() {
           <h2 className="font-serif text-2xl text-primary">For businesses</h2>
           <p className="mt-3 text-lg">
             Want to apply to be vetted? We'd love to hear about your work with
-            seniors.
+            seniors. Read{" "}
+            <Link to="/get-vetted" className="text-primary underline">
+              how to get vetted
+            </Link>{" "}
+            first.
           </p>
           <p className="mt-3 text-base">
             Email: <a className="underline" href="mailto:apply@thevettedsenior.com">apply@thevettedsenior.com</a>

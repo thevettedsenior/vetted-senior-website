@@ -187,6 +187,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://thevettedsenior.com/get-vetted</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://thevettedsenior.com/contact</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>

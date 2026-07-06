@@ -228,14 +228,15 @@ export function SiteFooter() {
           <div>
             <p className="font-semibold text-sm uppercase tracking-wide opacity-60 mb-3">For Businesses</p>
             <p className="text-sm opacity-90 leading-relaxed">
-              Want to be considered for the directory? We vet every provider personally.
+              Want to be considered for the directory? We vet every provider
+              personally. No cost, no catch.
             </p>
-            <a
-              href="mailto:info@thevettedsenior.com"
+            <Link
+              to="/get-vetted"
               className="mt-3 inline-block text-sm underline opacity-90 hover:opacity-100"
             >
-              info@thevettedsenior.com
-            </a>
+              How to get vetted
+            </Link>
           </div>
         </div>
 

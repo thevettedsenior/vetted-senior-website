@@ -2,6 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import { Page } from "@/components/SiteShell";
 import { OntarioModule } from "@/components/OntarioModule";
+import { HandbookCTA } from "@/components/HandbookCTA";
 import { findSituation } from "@/lib/directory-data";
 
 export const Route = createFileRoute("/situations/$slug")({
@@ -3568,6 +3569,10 @@ function SituationGuidePage() {
       )}
 
       <OntarioModule slug={situation.slug} />
+
+      <section className="mx-auto max-w-4xl px-6 pb-12">
+        <HandbookCTA compact />
+      </section>
 
       <section className="border-t border-border bg-secondary/40">
         <div className="mx-auto max-w-4xl px-6 py-12">
