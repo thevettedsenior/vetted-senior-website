@@ -9,6 +9,9 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as HandbookRouteImport } from './routes/handbook'
+import { Route as FounderRouteImport } from './routes/founder'
+import { Route as DisclosureRouteImport } from './routes/disclosure'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
@@ -20,6 +23,21 @@ import { Route as HelpCategoryIndexRouteImport } from './routes/help/$category/i
 import { Route as ProvinceProvinceCityRouteImport } from './routes/province.$province.$city'
 import { Route as HelpCategoryArticleRouteImport } from './routes/help/$category/$article'
 
+const HandbookRoute = HandbookRouteImport.update({
+  id: '/handbook',
+  path: '/handbook',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FounderRoute = FounderRouteImport.update({
+  id: '/founder',
+  path: '/founder',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DisclosureRoute = DisclosureRouteImport.update({
+  id: '/disclosure',
+  path: '/disclosure',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
@@ -75,6 +93,9 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/disclosure': typeof DisclosureRoute
+  '/founder': typeof FounderRoute
+  '/handbook': typeof HandbookRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help/': typeof HelpIndexRoute
@@ -87,6 +108,9 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/disclosure': typeof DisclosureRoute
+  '/founder': typeof FounderRoute
+  '/handbook': typeof HandbookRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help': typeof HelpIndexRoute
@@ -100,6 +124,9 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/disclosure': typeof DisclosureRoute
+  '/founder': typeof FounderRoute
+  '/handbook': typeof HandbookRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help/': typeof HelpIndexRoute
@@ -114,6 +141,9 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/disclosure'
+    | '/founder'
+    | '/handbook'
     | '/province/$province'
     | '/situations/$slug'
     | '/help/'
@@ -126,6 +156,9 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/disclosure'
+    | '/founder'
+    | '/handbook'
     | '/province/$province'
     | '/situations/$slug'
     | '/help'
@@ -138,6 +171,9 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/disclosure'
+    | '/founder'
+    | '/handbook'
     | '/province/$province'
     | '/situations/$slug'
     | '/help/'
@@ -151,6 +187,9 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ContactRoute: typeof ContactRoute
+  DisclosureRoute: typeof DisclosureRoute
+  FounderRoute: typeof FounderRoute
+  HandbookRoute: typeof HandbookRoute
   ProvinceProvinceRoute: typeof ProvinceProvinceRouteWithChildren
   SituationsSlugRoute: typeof SituationsSlugRoute
   HelpIndexRoute: typeof HelpIndexRoute
@@ -161,6 +200,27 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/handbook': {
+      id: '/handbook'
+      path: '/handbook'
+      fullPath: '/handbook'
+      preLoaderRoute: typeof HandbookRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/founder': {
+      id: '/founder'
+      path: '/founder'
+      fullPath: '/founder'
+      preLoaderRoute: typeof FounderRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/disclosure': {
+      id: '/disclosure'
+      path: '/disclosure'
+      fullPath: '/disclosure'
+      preLoaderRoute: typeof DisclosureRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/contact': {
       id: '/contact'
       path: '/contact'
@@ -249,6 +309,9 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   ContactRoute: ContactRoute,
+  DisclosureRoute: DisclosureRoute,
+  FounderRoute: FounderRoute,
+  HandbookRoute: HandbookRoute,
   ProvinceProvinceRoute: ProvinceProvinceRouteWithChildren,
   SituationsSlugRoute: SituationsSlugRoute,
   HelpIndexRoute: HelpIndexRoute,

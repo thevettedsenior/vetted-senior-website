@@ -43,7 +43,7 @@ function Contact() {
             seniors.
           </p>
           <p className="mt-3 text-base">
-            Email: <a className="underline" href="mailto:apply@vettedsenior.ca">apply@vettedsenior.ca</a>
+            Email: <a className="underline" href="mailto:apply@thevettedsenior.com">apply@thevettedsenior.com</a>
           </p>
           <p className="mt-3 text-base text-muted-foreground">
             We do not accept paid placements. Every applicant goes through the

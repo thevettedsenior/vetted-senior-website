@@ -77,6 +77,13 @@ export function SiteHeader() {
             How We Vet
           </Link>
           <Link
+            to="/handbook"
+            className="text-primary hover:underline"
+            activeProps={{ className: "underline font-semibold" }}
+          >
+            Free Handbook
+          </Link>
+          <Link
             to="/contact"
             className="rounded-full border-2 border-primary px-4 py-1.5 text-sm font-semibold text-primary no-underline transition-colors hover:bg-primary hover:text-primary-foreground"
           >
@@ -146,6 +153,14 @@ export function SiteHeader() {
               How We Vet
             </Link>
             <Link
+              to="/handbook"
+              className="text-primary hover:underline"
+              activeProps={{ className: "underline font-semibold" }}
+              onClick={() => setMenuOpen(false)}
+            >
+              Free Handbook
+            </Link>
+            <Link
               to="/contact"
               className="text-primary hover:underline"
               onClick={() => setMenuOpen(false)}
@@ -202,7 +217,10 @@ export function SiteFooter() {
             <ul className="space-y-2 text-sm opacity-90">
               <li><Link to="/situations" className="hover:underline">Find Your Situation</Link></li>
               <li><Link to="/help" className="hover:underline">Find Help</Link></li>
+              <li><Link to="/handbook" className="hover:underline">Free Caregiver Handbook</Link></li>
               <li><Link to="/about" className="hover:underline">How We Vet</Link></li>
+              <li><Link to="/founder" className="hover:underline">The Person Behind This Site</Link></li>
+              <li><Link to="/disclosure" className="hover:underline">How This Site Makes Money</Link></li>
               <li><Link to="/contact" className="hover:underline">Contact</Link></li>
             </ul>
           </div>
@@ -226,7 +244,7 @@ export function SiteFooter() {
             © {new Date().getFullYear()} The Vetted Senior. Serving seniors and families.
           </p>
           <p className="text-sm opacity-60">
-            No pay to play. Businesses can't buy their way in.
+            Nobody pays to be recommended by us.
           </p>
         </div>
       </div>
