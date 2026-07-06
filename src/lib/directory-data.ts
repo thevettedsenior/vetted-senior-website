@@ -222,6 +222,30 @@ export const ARTICLES: Article[] = [
       "A plain-language comparison of the three main types of home care, what they cost, and which one fits your situation.",
     image: "/images/help/homecare-care-types.jpeg",
   },
+  {
+    slug: "choosing-a-medical-alert-system",
+    categorySlug: "medical-alert-safety",
+    title: "How to Choose a Medical Alert System: The Questions That Actually Matter",
+    description:
+      "What these devices do, what they cost, the questions to ask any provider before signing, and who helps pay in Ontario.",
+    image: "/images/help/medical-alert-hero.svg",
+  },
+  {
+    slug: "paying-for-care",
+    categorySlug: "legal-financial",
+    title: "Paying for Care: The Money Conversation Without the Sales Pitch",
+    description:
+      "The six layers families should use in order, from public programs to the family home, and the honest case for and against each.",
+    image: "/images/help/paying-for-care-hero.svg",
+  },
+  {
+    slug: "five-legal-documents",
+    categorySlug: "legal-financial",
+    title: "The Five Legal Documents Every Family Needs, in Plain Language",
+    description:
+      "Wills, powers of attorney, and written wishes, why early is everything, and what to do if it already feels too late.",
+    image: "/images/help/legal-documents-hero.svg",
+  },
 ];
 
 export function articlesForCategory(categorySlug: string): Article[] {
