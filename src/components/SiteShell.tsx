@@ -70,6 +70,13 @@ export function SiteHeader() {
             Find Help
           </Link>
           <Link
+            to="/directory"
+            className="text-primary hover:underline"
+            activeProps={{ className: "underline font-semibold" }}
+          >
+            Directory
+          </Link>
+          <Link
             to="/about"
             className="text-primary hover:underline"
             activeProps={{ className: "underline font-semibold" }}
@@ -145,6 +152,14 @@ export function SiteHeader() {
               Find Help
             </Link>
             <Link
+              to="/directory"
+              className="text-primary hover:underline"
+              activeProps={{ className: "underline font-semibold" }}
+              onClick={() => setMenuOpen(false)}
+            >
+              Directory
+            </Link>
+            <Link
               to="/about"
               className="text-primary hover:underline"
               activeProps={{ className: "underline font-semibold" }}
@@ -217,6 +232,7 @@ export function SiteFooter() {
             <ul className="space-y-2 text-sm opacity-90">
               <li><Link to="/situations" className="hover:underline">Find Your Situation</Link></li>
               <li><Link to="/help" className="hover:underline">Find Help</Link></li>
+              <li><Link to="/directory" className="hover:underline">Directory</Link></li>
               <li><Link to="/handbook" className="hover:underline">Free Caregiver Handbook</Link></li>
               <li><Link to="/resources" className="hover:underline">Checklists &amp; Printables</Link></li>
               <li><Link to="/about" className="hover:underline">How We Vet</Link></li>

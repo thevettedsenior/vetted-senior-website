@@ -15,6 +15,7 @@ import { Route as HandbookRouteImport } from './routes/handbook'
 import { Route as GetVettedRouteImport } from './routes/get-vetted'
 import { Route as FounderRouteImport } from './routes/founder'
 import { Route as DisclosureRouteImport } from './routes/disclosure'
+import { Route as DirectoryRouteImport } from './routes/directory'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
@@ -54,6 +55,11 @@ const FounderRoute = FounderRouteImport.update({
 const DisclosureRoute = DisclosureRouteImport.update({
   id: '/disclosure',
   path: '/disclosure',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DirectoryRoute = DirectoryRouteImport.update({
+  id: '/directory',
+  path: '/directory',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactRoute = ContactRouteImport.update({
@@ -111,6 +117,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/directory': typeof DirectoryRoute
   '/disclosure': typeof DisclosureRoute
   '/founder': typeof FounderRoute
   '/get-vetted': typeof GetVettedRoute
@@ -129,6 +136,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/directory': typeof DirectoryRoute
   '/disclosure': typeof DisclosureRoute
   '/founder': typeof FounderRoute
   '/get-vetted': typeof GetVettedRoute
@@ -148,6 +156,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/directory': typeof DirectoryRoute
   '/disclosure': typeof DisclosureRoute
   '/founder': typeof FounderRoute
   '/get-vetted': typeof GetVettedRoute
@@ -168,6 +177,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/directory'
     | '/disclosure'
     | '/founder'
     | '/get-vetted'
@@ -186,6 +196,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/directory'
     | '/disclosure'
     | '/founder'
     | '/get-vetted'
@@ -204,6 +215,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/directory'
     | '/disclosure'
     | '/founder'
     | '/get-vetted'
@@ -223,6 +235,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ContactRoute: typeof ContactRoute
+  DirectoryRoute: typeof DirectoryRoute
   DisclosureRoute: typeof DisclosureRoute
   FounderRoute: typeof FounderRoute
   GetVettedRoute: typeof GetVettedRoute
@@ -279,6 +292,13 @@ declare module '@tanstack/react-router' {
       path: '/disclosure'
       fullPath: '/disclosure'
       preLoaderRoute: typeof DisclosureRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/directory': {
+      id: '/directory'
+      path: '/directory'
+      fullPath: '/directory'
+      preLoaderRoute: typeof DirectoryRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact': {
@@ -369,6 +389,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   ContactRoute: ContactRoute,
+  DirectoryRoute: DirectoryRoute,
   DisclosureRoute: DisclosureRoute,
   FounderRoute: FounderRoute,
   GetVettedRoute: GetVettedRoute,

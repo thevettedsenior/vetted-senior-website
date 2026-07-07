@@ -473,6 +473,41 @@ export function categoryBusinesses(provinceCode: string, categorySlug: string): 
   );
 }
 
+export type DirectoryFilters = {
+  q?: string; // free-text search
+  category?: string; // HelpCategory slug
+  province?: string; // province code, any case
+  city?: string; // city name, any case (matches Business.city)
+};
+
+/**
+ * The one query the directory UI runs. Reads straight from BUSINESSES, so a
+ * listing added to the array is searchable with zero further code changes.
+ * A business with no city is province-wide and matches any city filter in
+ * its province.
+ */
+export function searchBusinesses(filters: DirectoryFilters): Business[] {
+  const q = filters.q?.trim().toLowerCase();
+  const category = filters.category
+    ? HELP_CATEGORIES.find((c) => c.slug === filters.category)?.name
+    : undefined;
+  const province = filters.province?.toLowerCase();
+  const city = filters.city?.toLowerCase();
+
+  return BUSINESSES.filter((b) => {
+    if (category && b.category !== category) return false;
+    if (province && b.province.toLowerCase() !== province) return false;
+    if (city && b.city && b.city.toLowerCase() !== city) return false;
+    if (q) {
+      const haystack = [b.name, b.description, b.category, b.city ?? "", b.province]
+        .join(" ")
+        .toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
 export function groupByCategory(list: Business[]): Record<string, Business[]> {
   const out: Record<string, Business[]> = {};
   for (const b of list) {
