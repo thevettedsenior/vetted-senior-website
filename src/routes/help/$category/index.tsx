@@ -44,7 +44,7 @@ function HelpCategoryPage() {
       {/* ── CATEGORY HERO ────────────────────────────────────────────────── */}
       {category.image ? (
         <section
-          className="relative flex h-[260px] flex-col justify-end bg-cover bg-center md:h-[400px]"
+          className="relative flex min-h-[260px] flex-col justify-end bg-cover bg-center md:min-h-[400px]"
           style={{ backgroundImage: `url(${category.image})` }}
         >
           <div className="absolute inset-0 bg-black/60" aria-hidden />

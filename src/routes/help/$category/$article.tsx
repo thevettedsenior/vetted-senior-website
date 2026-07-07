@@ -45,11 +45,11 @@ function ArticlePage() {
     <Page>
       {article.affiliate && <AffiliateDisclosure />}
       <section
-        className="relative flex h-[300px] flex-col justify-end bg-cover bg-center md:h-[400px]"
+        className="relative flex min-h-[300px] flex-col justify-end bg-cover bg-center md:min-h-[400px]"
         style={{ backgroundImage: `url(${article.image})` }}
       >
         <div className="absolute inset-0 bg-black/60" aria-hidden />
-        <div className="relative mx-auto w-full max-w-4xl px-6 py-4 text-sm text-white/80">
+        <div className="relative mx-auto w-full max-w-4xl px-6 py-3 text-xs text-white/80 md:py-4 md:text-sm">
           <Link to="/" className="hover:underline">Home</Link>
           <span aria-hidden> / </span>
           <Link to="/help" className="hover:underline">Find Help</Link>
@@ -57,14 +57,12 @@ function ArticlePage() {
           <Link to="/help/$category" params={{ category: category.slug }} className="hover:underline">
             {category.name}
           </Link>
-          <span aria-hidden> / </span>
-          <span>{article.title}</span>
         </div>
-        <div className="relative mx-auto w-full max-w-4xl px-6 pb-10">
-          <h1 className="font-serif text-3xl font-semibold text-white md:text-5xl">
+        <div className="relative mx-auto w-full max-w-4xl px-6 pb-6 md:pb-10">
+          <h1 className="font-serif text-2xl font-semibold text-white md:text-4xl lg:text-5xl">
             {article.title}
           </h1>
-          <p className="mt-4 max-w-2xl text-xl text-white/90 leading-relaxed">
+          <p className="mt-3 max-w-2xl text-base text-white/90 leading-relaxed md:mt-4 md:text-xl">
             {article.description}
           </p>
         </div>
