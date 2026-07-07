@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Pre-planning illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="170" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.5"/>
+  <circle cx="920" cy="250" r="220" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.3"/>
+  <circle cx="920" cy="250" r="270" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.18"/>
+
+  <rect x="890" y="230" width="60" height="130" rx="10" fill="#f5efdf" opacity="0.92"/>
+  <path d="M920 200 q-20 -25 0 -45 q20 20 0 45z" fill="#c9a84c"/>
+  <path d="M920 212 v18" stroke="#c9a84c" stroke-width="6" stroke-linecap="round"/>
+  <path d="M855 360 h130" stroke="#c9a84c" stroke-width="8" stroke-linecap="round"/>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>

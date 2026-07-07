@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { ONELINK_SCRIPT_SRC } from "../lib/affiliates";
 
 function NotFoundComponent() {
   return (
@@ -91,6 +92,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap" },
       { rel: "stylesheet", href: appCss },
     ],
+    // Amazon OneLink: routes affiliate links to each visitor's local Amazon
+    // store. Injected only once ONELINK_INSTANCE_ID is set in lib/affiliates.ts.
+    scripts: ONELINK_SCRIPT_SRC
+      ? [{ src: ONELINK_SCRIPT_SRC, async: true }]
+      : [],
   }),
   shellComponent: RootShell,
   component: RootComponent,

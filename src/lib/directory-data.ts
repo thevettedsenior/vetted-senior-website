@@ -203,6 +203,7 @@ export type Article = {
   title: string;
   description: string; // one-sentence summary for the card
   image: string;
+  affiliate?: boolean; // true = page shows the affiliate disclosure banner at the top
 };
 
 export const ARTICLES: Article[] = [
@@ -245,6 +246,130 @@ export const ARTICLES: Article[] = [
     description:
       "Wills, powers of attorney, and written wishes, why early is everything, and what to do if it already feels too late.",
     image: "/images/help/legal-documents-hero.svg",
+  },
+  {
+    slug: "fall-proofing-the-home",
+    categorySlug: "medical-alert-safety",
+    title: "Fall-Proofing a Home, Room by Room, for Under $300",
+    description:
+      "The highest-value safety fixes in every room, what each one costs, and the order to do them in.",
+    image: "/images/help/fallproofing-home-hero.svg",
+    affiliate: true,
+  },
+  {
+    slug: "choosing-a-walker-or-rollator",
+    categorySlug: "mobility-equipment",
+    title: "Canes, Walkers, and Rollators: Choosing the Right One, and Getting Ontario to Pay Most of the Bill",
+    description:
+      "Which device fits which need, why the assessment must come before the purchase, and how the Assistive Devices Program covers 75 percent.",
+    image: "/images/help/walker-rollator-hero.svg",
+    affiliate: true,
+  },
+  {
+    slug: "stairlifts-and-home-modifications",
+    categorySlug: "mobility-equipment",
+    title: "Stairlifts, Ramps, and Bathroom Renovations: The Big Modifications, Honestly Priced",
+    description:
+      "What major accessibility work really costs, the funding that exists, and how to buy it without being taken.",
+    image: "/images/help/stairlift-hero.svg",
+  },
+  {
+    slug: "touring-retirement-residences",
+    categorySlug: "retirement-residences",
+    title: "How to Tour a Retirement Residence: What to Ask, What to Watch, What They Hope You Miss",
+    description:
+      "A former bank compliance professional's guide to seeing past the lobby, with a printable tour checklist.",
+    image: "/images/help/residence-tour-hero.svg",
+  },
+  {
+    slug: "independent-assisted-memory-care",
+    categorySlug: "retirement-residences",
+    title: "Independent Living, Assisted Living, Memory Care, or Long-Term Care: What the Labels Actually Mean",
+    description:
+      "The four levels explained in plain language, what each costs in Ontario, and the crucial difference between retirement homes and long-term care.",
+    image: "/images/help/residence-levels-hero.svg",
+  },
+  {
+    slug: "when-driving-ends",
+    categorySlug: "transportation",
+    title: "When Driving Has to End: The Conversation, the Rules, and What Comes After",
+    description:
+      "The warning signs, Ontario's licence renewal system at 80, and how to have the hardest conversation without destroying trust.",
+    image: "/images/help/driving-retirement-hero.svg",
+  },
+  {
+    slug: "getting-to-appointments",
+    categorySlug: "transportation",
+    title: "Getting There Without a Car: Every Ride Option for Seniors, from Free to Full Service",
+    description:
+      "Community transport, para-transit, volunteer drivers, and private options, what each costs, and how to actually book them.",
+    image: "/images/help/rides-appointments-hero.svg",
+  },
+  {
+    slug: "hearing-aids-without-overpaying",
+    categorySlug: "hearing-vision",
+    title: "Hearing Aids Without Overpaying: How the Market Works and Where the Money Goes",
+    description:
+      "Why hearing aids cost thousands, what Ontario's Assistive Devices Program covers, and the questions that protect you in the clinic.",
+    image: "/images/help/hearing-aids-hero.svg",
+    affiliate: true,
+  },
+  {
+    slug: "vision-care-after-65",
+    categorySlug: "hearing-vision",
+    title: "Vision Care After 65: What OHIP Covers, What It Doesn't, and Living Well with Low Vision",
+    description:
+      "Eye exams, cataracts, glasses, and the practical supports that keep low vision from becoming lost independence.",
+    image: "/images/help/vision-care-hero.svg",
+    affiliate: true,
+  },
+  {
+    slug: "funeral-preplanning-guide",
+    categorySlug: "funeral-estate-planning",
+    title: "Pre-Planning a Funeral: The Kindest Paperwork You Will Ever Do",
+    description:
+      "Recording wishes, comparing funeral homes, and the truth about prepaying, with a printable worksheet.",
+    image: "/images/help/funeral-preplanning-hero.svg",
+  },
+  {
+    slug: "what-executors-actually-do",
+    categorySlug: "funeral-estate-planning",
+    title: "What an Executor Actually Does: The Job Nobody Explains Until You Have It",
+    description:
+      "The first two weeks, the first year, probate in plain language, and when to pay for help.",
+    image: "/images/help/executor-guide-hero.svg",
+  },
+  {
+    slug: "hiring-trades-seniors-can-trust",
+    categorySlug: "home-maintenance",
+    title: "Hiring Trades and Handypeople a Senior Can Trust: The Verification Habit",
+    description:
+      "Licence checks, insurance proof, quotes in writing, and the door-knocker scams that target seniors' homes.",
+    image: "/images/help/hiring-trades-hero.svg",
+  },
+  {
+    slug: "aging-in-place-maintenance-plan",
+    categorySlug: "home-maintenance",
+    title: "The Aging-in-Place Maintenance Plan: Keeping the Home an Asset, Not a Hazard",
+    description:
+      "The seasonal rhythm that keeps a senior's home safe, which tasks to hand off first, and the printable walkthrough.",
+    image: "/images/help/seasonal-maintenance-hero.svg",
+  },
+  {
+    slug: "loneliness-is-a-health-risk",
+    categorySlug: "companion-social",
+    title: "Loneliness Is a Health Risk, and Canada Has Programs for It: Here They Are",
+    description:
+      "Adult day programs, seniors' centres, friendly visiting, and phone lines, most free or subsidized, and how to get in.",
+    image: "/images/help/social-programs-hero.svg",
+  },
+  {
+    slug: "hiring-a-companion",
+    categorySlug: "companion-social",
+    title: "Hiring a Paid Companion: What They Do, What They Cost, and How to Choose Well",
+    description:
+      "The most flexible service in senior care, the agency-versus-independent decision, and the questions that matter.",
+    image: "/images/help/companionship-hero.svg",
   },
 ];
 

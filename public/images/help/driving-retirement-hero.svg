@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Driving retirement illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="170" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.5"/>
+  <circle cx="920" cy="250" r="220" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.3"/>
+  <circle cx="920" cy="250" r="270" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.18"/>
+
+  <path d="M810 320 q0 -25 25 -25 l20 -40 q8 -15 25 -15 h140 q17 0 25 15 l20 40 q25 0 25 25 v25 h-280 z" fill="#f5efdf" opacity="0.9"/>
+  <circle cx="860" cy="352" r="20" fill="#22315e" stroke="#c9a84c" stroke-width="6"/>
+  <circle cx="1040" cy="352" r="20" fill="#22315e" stroke="#c9a84c" stroke-width="6"/>
+  <rect x="885" y="255" width="60" height="30" rx="6" fill="#22315e"/>
+  <rect x="960" y="255" width="55" height="30" rx="6" fill="#22315e"/>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>

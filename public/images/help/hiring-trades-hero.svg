@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Trusted trades illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="170" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.5"/>
+  <circle cx="920" cy="250" r="220" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.3"/>
+  <circle cx="920" cy="250" r="270" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.18"/>
+
+  <path d="M850 340 l120 -120" stroke="#f5efdf" stroke-width="14" stroke-linecap="round"/>
+  <path d="M955 205 a30 30 0 1 1 20 20 l-15 15 -20 -20z" fill="#c9a84c"/>
+  <path d="M990 340 l-120 -120" stroke="#f5efdf" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+  <rect x="852" y="192" width="46" height="34" rx="6" fill="#c9a84c" transform="rotate(45 875 209)"/>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>

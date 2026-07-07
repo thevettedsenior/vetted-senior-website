@@ -1,5 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
+import { AffiliateDisclosure } from "@/components/Affiliate";
 import { findArticle, findHelpCategory } from "@/lib/directory-data";
 import { ARTICLE_CONTENT } from "@/content/articles";
 export const Route = createFileRoute("/help/$category/$article")({
@@ -42,8 +43,9 @@ function ArticlePage() {
 
   return (
     <Page>
+      {article.affiliate && <AffiliateDisclosure />}
       <section
-        className="relative flex h-[400px] flex-col justify-end bg-cover bg-center"
+        className="relative flex h-[300px] flex-col justify-end bg-cover bg-center md:h-[400px]"
         style={{ backgroundImage: `url(${article.image})` }}
       >
         <div className="absolute inset-0 bg-black/60" aria-hidden />

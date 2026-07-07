@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Rollator walker illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="170" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.5"/>
+  <circle cx="920" cy="250" r="220" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.3"/>
+  <circle cx="920" cy="250" r="270" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.18"/>
+
+  <circle cx="860" cy="345" r="26" fill="none" stroke="#f5efdf" stroke-width="8"/>
+  <circle cx="985" cy="345" r="26" fill="none" stroke="#f5efdf" stroke-width="8"/>
+  <path d="M860 340 v-150 M985 340 v-150" stroke="#c9a84c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M845 190 h45 M970 190 h45" stroke="#c9a84c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M860 260 h125" stroke="#f5efdf" stroke-width="10" stroke-linecap="round"/>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>

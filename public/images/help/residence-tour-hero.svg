@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Retirement residence building illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="170" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.5"/>
+  <circle cx="920" cy="250" r="220" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.3"/>
+  <circle cx="920" cy="250" r="270" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.18"/>
+
+  <rect x="830" y="160" width="180" height="200" rx="8" fill="#f5efdf" opacity="0.92"/>
+  <rect x="855" y="190" width="34" height="34" rx="4" fill="#22315e"/>
+  <rect x="951" y="190" width="34" height="34" rx="4" fill="#22315e"/>
+  <rect x="855" y="250" width="34" height="34" rx="4" fill="#22315e"/>
+  <rect x="951" y="250" width="34" height="34" rx="4" fill="#22315e"/>
+  <rect x="898" y="300" width="44" height="60" rx="4" fill="#c9a84c"/>
+  <path d="M815 160 l105 -55 105 55" stroke="#c9a84c" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>
