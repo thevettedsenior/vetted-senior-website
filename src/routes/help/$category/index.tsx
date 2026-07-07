@@ -1,6 +1,11 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
-import { articlesForCategory, findHelpCategory, PROVINCES } from "@/lib/directory-data";
+import { SignupForm } from "@/components/SignupForm";
+import {
+  articlesForCategory,
+  findHelpCategory,
+  PROVINCES,
+} from "@/lib/directory-data";
 
 export const Route = createFileRoute("/help/$category/")({
   loader: ({ params }) => {
@@ -40,7 +45,6 @@ function HelpCategoryPage() {
 
   return (
     <Page>
-
       {/* ── CATEGORY HERO ────────────────────────────────────────────────── */}
       {category.image ? (
         <section
@@ -49,9 +53,13 @@ function HelpCategoryPage() {
         >
           <div className="absolute inset-0 bg-black/60" aria-hidden />
           <div className="relative mx-auto w-full max-w-4xl px-6 py-3 text-xs text-white/80 md:py-4 md:text-sm">
-            <Link to="/" className="hover:underline">Home</Link>
+            <Link to="/" className="hover:underline">
+              Home
+            </Link>
             <span aria-hidden> / </span>
-            <Link to="/help" className="hover:underline">Find Help</Link>
+            <Link to="/help" className="hover:underline">
+              Find Help
+            </Link>
             <span aria-hidden> / </span>
             <span>{category.name}</span>
           </div>
@@ -67,14 +75,20 @@ function HelpCategoryPage() {
       ) : (
         <section className="border-b border-border bg-card">
           <div className="mx-auto max-w-4xl px-6 py-4 text-sm text-muted-foreground">
-            <Link to="/" className="hover:underline">Home</Link>
+            <Link to="/" className="hover:underline">
+              Home
+            </Link>
             <span aria-hidden> / </span>
-            <Link to="/help" className="hover:underline">Find Help</Link>
+            <Link to="/help" className="hover:underline">
+              Find Help
+            </Link>
             <span aria-hidden> / </span>
             <span>{category.name}</span>
           </div>
           <div className="mx-auto max-w-4xl px-6 pb-14">
-            <span aria-hidden className="text-5xl">{category.icon}</span>
+            <span aria-hidden className="text-5xl">
+              {category.icon}
+            </span>
             <h1 className="mt-4 font-serif text-4xl font-semibold text-primary md:text-5xl">
               {category.name}
             </h1>
@@ -124,10 +138,12 @@ function HelpCategoryPage() {
           </ul>
         ) : (
           <div className="mt-8 rounded-2xl border border-border bg-secondary/40 p-8 text-center">
-            <p className="font-serif text-xl text-primary">Articles coming soon</p>
+            <p className="font-serif text-xl text-primary">
+              Articles coming soon
+            </p>
             <p className="mt-2 text-base text-muted-foreground">
-              We're writing plain-language guides for this section.
-              Check back shortly, or{" "}
+              We're writing plain-language guides for this section. Check back
+              shortly, or{" "}
               <Link to="/contact" className="underline">
                 contact us
               </Link>{" "}
@@ -144,15 +160,18 @@ function HelpCategoryPage() {
             Find vetted providers near you
           </h2>
           <p className="mt-2 text-base text-muted-foreground">
-            We're personally vetting {category.name.toLowerCase()} providers across the country.
-            Select your province to see what's available in your area.
+            We're personally vetting {category.name.toLowerCase()} providers
+            across the country. Select your province to see what's available in
+            your area.
           </p>
 
           <div className="mt-8">
-            <p className="text-sm font-semibold text-primary mb-4">Choose your province</p>
+            <p className="text-sm font-semibold text-primary mb-4">
+              Choose your province
+            </p>
             <ul className="grid grid-cols-1 gap-3 sm:grid-cols-3">
               {PROVINCES.filter(
-                (p) => !["NT", "NU", "YT"].includes(p.code)
+                (p) => !["NT", "NU", "YT"].includes(p.code),
               ).map((p) => (
                 <li key={p.code}>
                   <Link
@@ -161,7 +180,9 @@ function HelpCategoryPage() {
                     className="flex items-center justify-between rounded-xl border border-border bg-card px-4 py-3 text-base font-medium text-primary no-underline transition-colors hover:border-gold hover:bg-gold/10"
                   >
                     <span>{p.name}</span>
-                    <span aria-hidden className="text-gold text-sm">→</span>
+                    <span aria-hidden className="text-gold text-sm">
+                      →
+                    </span>
                   </Link>
                 </li>
               ))}
@@ -172,24 +193,23 @@ function HelpCategoryPage() {
                 Directory building in progress
               </p>
               <p className="text-base text-muted-foreground">
-                We're adding vetted {category.name.toLowerCase()} providers as they pass our
-                review process, starting with the Toronto area. No business can buy their
-                way in. Every listing is earned.{" "}
-                <a
-                  href={`mailto:info@thevettedsenior.com?subject=${encodeURIComponent(
-                    `Tell me when vetted ${category.name} providers go live`,
-                  )}`}
-                  className="text-primary underline"
-                >
-                  Ask to be notified when this category goes live
-                </a>
-                .
+                We're adding vetted {category.name.toLowerCase()} providers as
+                they pass our review process, starting with the Toronto area. No
+                business can buy their way in. Every listing is earned.
               </p>
+              <div className="mt-4 max-w-xl">
+                <SignupForm
+                  compact
+                  intent={`notify me: ${category.name}`}
+                  signupFor={`one email the day vetted ${category.name.toLowerCase()} listings go live`}
+                  buttonLabel="Notify me when this goes live"
+                  successMessage={`Done. The day vetted ${category.name.toLowerCase()} listings go live, you'll hear it from us first.`}
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
-
     </Page>
   );
 }

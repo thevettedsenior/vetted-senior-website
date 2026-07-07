@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
-import { HANDBOOK_PDF, SUBSCRIBE_MAILTO } from "@/components/HandbookCTA";
+import { HANDBOOK_PDF } from "@/components/HandbookCTA";
+import { SignupForm } from "@/components/SignupForm";
 
 export const Route = createFileRoute("/handbook")({
   head: () => ({
@@ -92,7 +93,8 @@ const SECTIONS = [
   {
     n: "11",
     title: "The 2am Pages",
-    blurb: "Short answers for the panicked hours. Save them for when you need them.",
+    blurb:
+      "Short answers for the panicked hours. Save them for when you need them.",
   },
   {
     n: "12",
@@ -221,16 +223,13 @@ function HandbookPage() {
             emails, no countdown timers. If a week has nothing worth your time,
             we skip the week.
           </p>
-          <div className="mt-6 flex flex-wrap items-center gap-4">
-            <a
-              href={SUBSCRIBE_MAILTO}
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-base font-semibold text-primary-foreground no-underline hover:opacity-90 transition-opacity"
-            >
-              Email me the briefing →
-            </a>
-            <p className="text-sm text-muted-foreground">
-              Leaving is one click, no hard feelings.
-            </p>
+          <div className="mt-6 max-w-xl">
+            <SignupForm
+              intent="handbook and briefing"
+              signupFor="the weekly briefing, one email on Thursdays"
+              buttonLabel="Email me the briefing →"
+              successMessage="You're on the list. The next briefing goes out Thursday morning, and leaving is one click, no hard feelings."
+            />
           </div>
         </div>
       </section>

@@ -2,6 +2,7 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
 import { BusinessCard } from "@/components/BusinessCard";
 import { LaunchNotice } from "@/components/HandbookCTA";
+import { SignupForm } from "@/components/SignupForm";
 import {
   BUSINESSES,
   HELP_CATEGORIES,
@@ -168,9 +169,7 @@ function DirectoryPage() {
             {hasFilters && (
               <button
                 type="button"
-                onClick={() =>
-                  navigate({ search: {}, replace: true })
-                }
+                onClick={() => navigate({ search: {}, replace: true })}
                 className="rounded-xl border-2 border-primary px-4 py-3 text-base font-semibold text-primary transition-colors hover:bg-primary/5"
               >
                 Clear
@@ -199,11 +198,7 @@ function DirectoryPage() {
           </>
         ) : (
           <NoMatches
-            place={
-              filters.city ??
-              activeProvince?.name ??
-              "your area"
-            }
+            place={filters.city ?? activeProvince?.name ?? "your area"}
             onClear={() => navigate({ search: {}, replace: true })}
           />
         )}
@@ -250,8 +245,8 @@ function EmptyDirectory() {
             <Link to="/help" className="text-primary underline">
               Find Help guides
             </Link>{" "}
-            cover every category the directory will, with the questions to
-            ask any provider you find on your own.
+            cover every category the directory will, with the questions to ask
+            any provider you find on your own.
           </li>
           <li>
             • The{" "}
@@ -271,33 +266,27 @@ function EmptyDirectory() {
 }
 
 /** Shown when listings exist but the current filters match none of them. */
-function NoMatches({
-  place,
-  onClear,
-}: {
-  place: string;
-  onClear: () => void;
-}) {
+function NoMatches({ place, onClear }: { place: string; onClear: () => void }) {
   return (
     <div className="mx-auto max-w-3xl rounded-2xl border-2 border-gold/50 bg-card p-8">
       <p className="font-serif text-2xl text-primary">
         No vetted providers match those filters yet.
       </p>
       <p className="mt-3 text-lg text-foreground/80 leading-relaxed">
-        That's the honest answer, not a search problem. We list only
-        providers we have personally vetted, and coverage is growing region
-        by region. Leave your email and you'll hear when vetted listings go
-        live in {place}.
+        That's the honest answer, not a search problem. We list only providers
+        we have personally vetted, and coverage is growing region by region.
+        Leave your email and you'll hear when vetted listings go live in {place}
+        .
       </p>
-      <div className="mt-5 flex flex-wrap items-center gap-4">
-        <a
-          href={`mailto:info@thevettedsenior.com?subject=${encodeURIComponent(
-            `Tell me when vetted providers go live in ${place}`,
-          )}`}
-          className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-base font-semibold text-primary-foreground no-underline hover:opacity-90 transition-opacity"
-        >
-          Tell me when {place} is live →
-        </a>
+      <div className="mt-5 max-w-xl">
+        <SignupForm
+          intent={`notify me: ${place}`}
+          signupFor={`one email the day vetted listings go live in ${place}`}
+          buttonLabel={`Tell me when ${place} is live →`}
+          successMessage={`Done. The day vetted listings go live in ${place}, you'll hear it from us first.`}
+        />
+      </div>
+      <div className="mt-4">
         <button
           type="button"
           onClick={onClear}
