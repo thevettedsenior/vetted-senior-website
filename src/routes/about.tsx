@@ -105,7 +105,7 @@ function About() {
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
             The methodology was designed by our founder,{" "}
             <Link to="/founder" className="text-primary underline">
-              Ragini Domenichini
+              Ragini
             </Link>
             , the way she designed compliance programs for Canada's largest
             banks for twenty years: documented, repeatable, and checked against

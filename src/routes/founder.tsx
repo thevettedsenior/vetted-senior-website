@@ -5,11 +5,11 @@ import { HandbookCTA } from "@/components/HandbookCTA";
 export const Route = createFileRoute("/founder")({
   head: () => ({
     meta: [
-      { title: "The Person Behind The Vetted Senior | Ragini Domenichini" },
+      { title: "The Person Behind The Vetted Senior | Ragini" },
       {
         name: "description",
         content:
-          "Ragini Domenichini spent twenty years running verification and compliance programs for Canada's largest banks. Now she applies that discipline to the businesses that care for our parents. This is her story, in her own words.",
+          "Ragini spent twenty years running verification and compliance programs for Canada's largest banks. Now she applies that discipline to the businesses that care for our parents. This is her story, in her own words.",
       },
       {
         property: "og:title",
@@ -30,7 +30,7 @@ export const Route = createFileRoute("/founder")({
             {
               "@type": "Person",
               "@id": "https://thevettedsenior.com/founder#ragini",
-              name: "Ragini Domenichini",
+              name: "Ragini",
               jobTitle: "Founder",
               worksFor: { "@id": "https://thevettedsenior.com/#org" },
               description:
@@ -95,7 +95,7 @@ function FounderPage() {
           <div
             className="flex aspect-[4/5] w-full flex-col items-center justify-center gap-3 rounded-2xl border-2 border-dashed border-gold/60 bg-secondary/50 p-6 text-center"
             role="img"
-            aria-label="Placeholder for a photograph of Ragini Domenichini with her mother"
+            aria-label="Placeholder for a photograph of Ragini with her mother"
           >
             <span aria-hidden className="text-5xl">📷</span>
             <p className="font-serif text-lg text-primary">
@@ -112,7 +112,7 @@ function FounderPage() {
 
         <div className="space-y-5 text-lg text-foreground/90 leading-relaxed">
           <p>
-            My name is Ragini Domenichini. I built The Vetted Senior for one
+            My name is Ragini. I built The Vetted Senior for one
             reason: when it was my turn to find help for my own mother, I could
             not find a single resource I actually trusted. Not one.
           </p>
@@ -142,8 +142,8 @@ function FounderPage() {
             ever verifies anything.
           </p>
           <p>
-            Then my mother turned 80, and I became the person responsible for
-            her wellbeing and her finances. She lives in a retirement home in
+            Then came the point in my mother's life when I became the person
+            responsible for her wellbeing and her finances. She lives in a retirement home in
             Mississauga. I am the one who evaluates her care, questions the
             invoices, and makes the decisions when something changes. And when
             I went looking for the services every family eventually needs,
@@ -239,7 +239,7 @@ function FounderPage() {
           </p>
           <div className="pt-2">
             <p className="font-serif text-xl text-primary">
-              Ragini Domenichini
+              Ragini
             </p>
             <p className="text-base text-muted-foreground">
               Founder, The Vetted Senior
@@ -262,7 +262,7 @@ function FounderPage() {
             anti-money-laundering programs, know-your-client verification,
             enterprise risk assessment. Licensed Ontario mortgage agent (BRX
             Mortgage Inc., FSRA #13549). Primary caregiver and decision-maker
-            for her 80-year-old mother.
+            for her mother.
           </p>
         </div>
       </section>

@@ -124,7 +124,7 @@ function DisclosurePage() {
           <p>
             The Vetted Senior was founded by{" "}
             <Link to="/founder" className="text-primary underline">
-              Ragini Domenichini
+              Ragini
             </Link>
             , who is a licensed mortgage agent in Ontario operating under BRX
             Mortgage Inc. (FSRA licence #13549). Some content on this site

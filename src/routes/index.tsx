@@ -295,7 +295,7 @@ function Home() {
             <div
               className="mx-auto flex h-40 w-40 shrink-0 flex-col items-center justify-center gap-1 rounded-full border-2 border-dashed border-gold/60 bg-secondary/50 text-center md:mx-0"
               role="img"
-              aria-label="Placeholder for a photo of founder Ragini Domenichini"
+              aria-label="Placeholder for a photo of founder Ragini"
             >
               <span aria-hidden className="text-3xl">📷</span>
               <span className="px-4 text-xs text-muted-foreground">
@@ -308,7 +308,7 @@ function Home() {
                 people who care for our parents.
               </p>
               <p className="mt-4 max-w-2xl text-lg text-foreground/80 leading-relaxed">
-                The Vetted Senior was built by Ragini Domenichini, who spent
+                The Vetted Senior was built by Ragini, who spent
                 two decades running compliance and verification programs
                 inside Canada's largest banks, and who built this site when she
                 could not find a single resource she trusted for her own
