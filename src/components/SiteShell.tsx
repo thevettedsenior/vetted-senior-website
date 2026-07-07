@@ -218,6 +218,7 @@ export function SiteFooter() {
               <li><Link to="/situations" className="hover:underline">Find Your Situation</Link></li>
               <li><Link to="/help" className="hover:underline">Find Help</Link></li>
               <li><Link to="/handbook" className="hover:underline">Free Caregiver Handbook</Link></li>
+              <li><Link to="/resources" className="hover:underline">Checklists &amp; Printables</Link></li>
               <li><Link to="/about" className="hover:underline">How We Vet</Link></li>
               <li><Link to="/founder" className="hover:underline">The Person Behind This Site</Link></li>
               <li><Link to="/disclosure" className="hover:underline">How This Site Makes Money</Link></li>

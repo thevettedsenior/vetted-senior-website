@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as ResourcesRouteImport } from './routes/resources'
 import { Route as HowWeVetRouteImport } from './routes/how-we-vet'
 import { Route as HandbookRouteImport } from './routes/handbook'
 import { Route as GetVettedRouteImport } from './routes/get-vetted'
@@ -25,6 +26,11 @@ import { Route as HelpCategoryIndexRouteImport } from './routes/help/$category/i
 import { Route as ProvinceProvinceCityRouteImport } from './routes/province.$province.$city'
 import { Route as HelpCategoryArticleRouteImport } from './routes/help/$category/$article'
 
+const ResourcesRoute = ResourcesRouteImport.update({
+  id: '/resources',
+  path: '/resources',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const HowWeVetRoute = HowWeVetRouteImport.update({
   id: '/how-we-vet',
   path: '/how-we-vet',
@@ -110,6 +116,7 @@ export interface FileRoutesByFullPath {
   '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
+  '/resources': typeof ResourcesRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help/': typeof HelpIndexRoute
@@ -127,6 +134,7 @@ export interface FileRoutesByTo {
   '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
+  '/resources': typeof ResourcesRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help': typeof HelpIndexRoute
@@ -145,6 +153,7 @@ export interface FileRoutesById {
   '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
+  '/resources': typeof ResourcesRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help/': typeof HelpIndexRoute
@@ -164,6 +173,7 @@ export interface FileRouteTypes {
     | '/get-vetted'
     | '/handbook'
     | '/how-we-vet'
+    | '/resources'
     | '/province/$province'
     | '/situations/$slug'
     | '/help/'
@@ -181,6 +191,7 @@ export interface FileRouteTypes {
     | '/get-vetted'
     | '/handbook'
     | '/how-we-vet'
+    | '/resources'
     | '/province/$province'
     | '/situations/$slug'
     | '/help'
@@ -198,6 +209,7 @@ export interface FileRouteTypes {
     | '/get-vetted'
     | '/handbook'
     | '/how-we-vet'
+    | '/resources'
     | '/province/$province'
     | '/situations/$slug'
     | '/help/'
@@ -216,6 +228,7 @@ export interface RootRouteChildren {
   GetVettedRoute: typeof GetVettedRoute
   HandbookRoute: typeof HandbookRoute
   HowWeVetRoute: typeof HowWeVetRoute
+  ResourcesRoute: typeof ResourcesRoute
   ProvinceProvinceRoute: typeof ProvinceProvinceRouteWithChildren
   SituationsSlugRoute: typeof SituationsSlugRoute
   HelpIndexRoute: typeof HelpIndexRoute
@@ -226,6 +239,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/resources': {
+      id: '/resources'
+      path: '/resources'
+      fullPath: '/resources'
+      preLoaderRoute: typeof ResourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/how-we-vet': {
       id: '/how-we-vet'
       path: '/how-we-vet'
@@ -354,6 +374,7 @@ const rootRouteChildren: RootRouteChildren = {
   GetVettedRoute: GetVettedRoute,
   HandbookRoute: HandbookRoute,
   HowWeVetRoute: HowWeVetRoute,
+  ResourcesRoute: ResourcesRoute,
   ProvinceProvinceRoute: ProvinceProvinceRouteWithChildren,
   SituationsSlugRoute: SituationsSlugRoute,
   HelpIndexRoute: HelpIndexRoute,
