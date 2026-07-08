@@ -93,26 +93,70 @@ export const SITUATIONS: Situation[] = [
 // "Find Help" — service domains and topic areas.
 // User already knows what category of help they need.
 
+// Visual grouping for the Find Help nav menu only. Categories stay flat in
+// routing and data; the group never appears in a URL.
+export type CategoryGroup = "Medical & Health" | "Practical & Legal";
+
+export const CATEGORY_GROUPS: CategoryGroup[] = [
+  "Medical & Health",
+  "Practical & Legal",
+];
+
 export type HelpCategory = {
   slug: string;
   name: string;
   shortName: string; // for cards
   description: string; // one-line for card
   icon: string;
+  group: CategoryGroup;
   intro: string; // paragraph for the category page hero
   image?: string; // optional hero image path for the category page
 };
 
 export const HELP_CATEGORIES: HelpCategory[] = [
+  // ── Medical & Health ──────────────────────────────────────────────────────
   {
     slug: "home-care",
-    name: "Home Care",
+    name: "Home Care & Nursing",
     shortName: "Home Care",
     description: "Personal support, nursing, and daily living help at home.",
     icon: "🏡",
+    group: "Medical & Health",
     intro:
       "Home care helps seniors live safely and independently in the place they know best. Services range from a few hours of personal support each week to around-the-clock nursing care. Understanding what's available, and how to pay for it, is the first step.",
     image: "/images/help/homecare-hero.jpeg",
+  },
+  {
+    slug: "doctors-pharmacy-medication",
+    name: "Doctors, Pharmacy & Medication",
+    shortName: "Doctors & Pharmacy",
+    description:
+      "Finding a doctor, managing prescriptions, and medication reviews.",
+    icon: "🩺",
+    group: "Medical & Health",
+    intro:
+      "Staying on top of medical care gets harder as prescriptions pile up and family doctors get scarcer. From finding a doctor who takes new patients to blister packs and pharmacist medication reviews, this section covers the practical side of managing health care.",
+  },
+  {
+    slug: "mobility-equipment",
+    name: "Mobility, Physio & Falls Prevention",
+    shortName: "Mobility & Physio",
+    description:
+      "Walkers, stairlifts, physiotherapy, and falls-prevention programs.",
+    icon: "🦽",
+    group: "Medical & Health",
+    intro:
+      "The right equipment and the right therapy can keep a senior safe at home for years longer than they might otherwise manage. From grab bars and stairlifts to physiotherapy and falls-prevention assessments, this category covers both the gear and the services that make a real difference.",
+  },
+  {
+    slug: "hearing-vision",
+    name: "Vision, Hearing, Dental & Foot Care",
+    shortName: "Vision & Hearing",
+    description: "Eye exams, hearing aids, dental care, and foot care.",
+    icon: "👂",
+    group: "Medical & Health",
+    intro:
+      "Vision, hearing, dental health, and foot care affect quality of life in ways that are easy to underestimate. They're also among the most treatable problems seniors face. Regular assessment and the right support can make an enormous difference.",
   },
   {
     slug: "medical-alert-safety",
@@ -120,35 +164,62 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     shortName: "Medical Alert",
     description: "Emergency pendants, fall detection, and monitoring systems.",
     icon: "🚨",
+    group: "Medical & Health",
     intro:
       "A medical alert system can be the difference between a fall becoming a tragedy and a fall becoming a bad afternoon. Modern devices range from simple pendants to GPS-enabled wearables with automatic fall detection. Here's what to look for.",
   },
   {
-    slug: "mobility-equipment",
-    name: "Mobility & Equipment",
-    shortName: "Mobility",
-    description: "Walkers, wheelchairs, stairlifts, and home modifications.",
-    icon: "🦽",
+    slug: "dementia-memory-support",
+    name: "Dementia & Memory Support",
+    shortName: "Dementia Support",
+    description:
+      "Memory clinics, day programs, and support for families living with dementia.",
+    icon: "🧠",
+    group: "Medical & Health",
     intro:
-      "The right equipment can keep a senior safe at home for years longer than they might otherwise manage. From grab bars in the bathroom to stairlift installations, this category covers the practical modifications that make a real difference.",
+      "A dementia diagnosis changes life for the whole family, but nobody has to navigate it alone. Memory clinics, adult day programs, caregiver support, and home care designed for cognitive change all exist. Knowing what's available, and when to reach for it, makes the road ahead less frightening.",
   },
   {
-    slug: "retirement-residences",
-    name: "Retirement Residences",
-    shortName: "Retirement Homes",
-    description: "Independent living, assisted living, and memory care.",
-    icon: "🏘️",
+    slug: "mental-health-counselling",
+    name: "Mental Health & Counselling",
+    shortName: "Mental Health",
+    description: "Counselling for late-life depression, grief, and isolation.",
+    icon: "💬",
+    group: "Medical & Health",
     intro:
-      "Choosing a retirement residence is one of the biggest decisions a family makes. The range of options, from active independent living to full memory care, is wider than most people realize. Knowing the right questions to ask makes all the difference.",
+      "Depression and anxiety are not a normal part of aging, and they are treatable at any age. From grief counselling to therapists who understand late-life transitions, real help exists. Asking for it is a sign of strength, not weakness.",
   },
+  {
+    slug: "palliative-hospice-care",
+    name: "Palliative & Hospice Care",
+    shortName: "Palliative Care",
+    description:
+      "Comfort-focused care at the end of life, at home or in hospice.",
+    icon: "🕊️",
+    group: "Medical & Health",
+    intro:
+      "Palliative care is about comfort and dignity, not giving up. It covers far more than most families realize, and starting earlier almost always means better care. This section explains what hospice and palliative services actually provide, and how to access them.",
+  },
+  // ── Practical & Legal ─────────────────────────────────────────────────────
   {
     slug: "legal-financial",
     name: "Legal & Financial",
     shortName: "Legal & Financial",
     description: "Wills, powers of attorney, tax, and retirement planning.",
     icon: "⚖️",
+    group: "Practical & Legal",
     intro:
       "Legal and financial planning for seniors isn't just about wills. Powers of attorney, trusts, benefit entitlements, and tax planning all matter, and the window to put things in order is often narrower than people expect. Start early.",
+  },
+  {
+    slug: "funeral-estate-planning",
+    name: "Funeral & Estate Planning",
+    shortName: "Funeral Planning",
+    description: "Pre-planning and compassionate end-of-life services.",
+    icon: "🕯️",
+    group: "Practical & Legal",
+    intro:
+      "Pre-planning a funeral is one of the most generous things a person can do for their family. It removes impossible decisions from an impossibly hard moment. This guide covers what to think about, what to ask, and how to find providers you can trust.",
   },
   {
     slug: "transportation",
@@ -157,26 +228,9 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     description:
       "Accessible rides to appointments, shopping, and family visits.",
     icon: "🚐",
+    group: "Practical & Legal",
     intro:
       "Losing the ability to drive is one of the most significant independence milestones for seniors. But it doesn't have to mean isolation. Accessible transportation options, from volunteer driver programs to medical transport, exist in most communities.",
-  },
-  {
-    slug: "hearing-vision",
-    name: "Hearing & Vision",
-    shortName: "Hearing & Vision",
-    description: "Hearing aids, eyewear, and in-home assessments.",
-    icon: "👂",
-    intro:
-      "Hearing and vision changes affect quality of life in ways that are easy to underestimate. They're also among the most treatable conditions seniors face. Regular assessment and the right support can make an enormous difference.",
-  },
-  {
-    slug: "funeral-estate-planning",
-    name: "Funeral & Estate Planning",
-    shortName: "Funeral Planning",
-    description: "Pre-planning and compassionate end-of-life services.",
-    icon: "🕯️",
-    intro:
-      "Pre-planning a funeral is one of the most generous things a person can do for their family. It removes impossible decisions from an impossibly hard moment. This guide covers what to think about, what to ask, and how to find providers you can trust.",
   },
   {
     slug: "home-maintenance",
@@ -184,6 +238,7 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     shortName: "Home Maintenance",
     description: "Trusted handypeople, snow removal, and seasonal help.",
     icon: "🔧",
+    group: "Practical & Legal",
     intro:
       "A well-maintained home is a safe home. For seniors living independently, reliable help with repairs, snow removal, and seasonal tasks isn't a luxury, it's part of staying safe. Finding trustworthy tradespeople is harder than it should be. We make it easier.",
   },
@@ -193,8 +248,39 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     shortName: "Companionship",
     description: "Friendly visits, activities, and adult day programs.",
     icon: "☕",
+    group: "Practical & Legal",
     intro:
       "Loneliness is one of the most serious health risks facing older adults. Companion services, volunteer visitor programs, and adult day programs exist precisely to address this, and many are free or subsidized. Here's what's available.",
+  },
+  {
+    slug: "meals-nutrition",
+    name: "Meals & Nutrition",
+    shortName: "Meals & Nutrition",
+    description: "Meal delivery, Meals on Wheels, and help eating well at home.",
+    icon: "🍲",
+    group: "Practical & Legal",
+    intro:
+      "Good nutrition is one of the strongest predictors of staying healthy and independent at home. From national meal delivery companies to local Meals on Wheels kitchens, there are more options than most families realize, at every budget.",
+  },
+  {
+    slug: "downsizing-moving",
+    name: "Downsizing & Moving",
+    shortName: "Downsizing",
+    description: "Senior move managers, downsizing help, and estate sales.",
+    icon: "📦",
+    group: "Practical & Legal",
+    intro:
+      "Leaving a long-time family home is as emotional as it is practical. Senior move managers are a real, certified profession most families have never heard of, and they can turn an overwhelming move into a managed process. Here's how it works.",
+  },
+  {
+    slug: "retirement-residences",
+    name: "Retirement Residences",
+    shortName: "Retirement Homes",
+    description: "Independent living, assisted living, and memory care.",
+    icon: "🏘️",
+    group: "Practical & Legal",
+    intro:
+      "Choosing a retirement residence is one of the biggest decisions a family makes. The range of options, from active independent living to full memory care, is wider than most people realize. Knowing the right questions to ask makes all the difference.",
   },
 ];
 
@@ -451,16 +537,22 @@ export const PROVINCES: Province[] = [
 // Data lives in src/lib/data/businesses.json and is validated below.
 
 export type ServiceCategory =
-  | "Home Care"
+  | "Home Care & Nursing"
+  | "Doctors, Pharmacy & Medication"
+  | "Mobility, Physio & Falls Prevention"
+  | "Vision, Hearing, Dental & Foot Care"
   | "Medical Alert & Safety"
-  | "Mobility & Equipment"
-  | "Retirement Residences"
+  | "Dementia & Memory Support"
+  | "Mental Health & Counselling"
+  | "Palliative & Hospice Care"
   | "Legal & Financial"
-  | "Transportation"
-  | "Hearing & Vision"
   | "Funeral & Estate Planning"
+  | "Transportation"
   | "Home Maintenance"
-  | "Companion & Social";
+  | "Companion & Social"
+  | "Meals & Nutrition"
+  | "Downsizing & Moving"
+  | "Retirement Residences";
 
 /**
  * GOVERNING RULE: a listing represents ONE contact point (one phone number,
