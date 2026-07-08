@@ -301,6 +301,7 @@ export function SiteFooter() {
               <li><Link to="/about" className="hover:underline">How We Vet</Link></li>
               <li><Link to="/founder" className="hover:underline">The Person Behind This Site</Link></li>
               <li><Link to="/disclosure" className="hover:underline">How This Site Makes Money</Link></li>
+              <li><Link to="/privacy" className="hover:underline">Privacy Policy</Link></li>
               <li><Link to="/contact" className="hover:underline">Contact</Link></li>
             </ul>
           </div>
