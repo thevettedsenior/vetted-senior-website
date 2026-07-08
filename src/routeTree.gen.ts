@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as ResourcesRouteImport } from './routes/resources'
+import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as HowWeVetRouteImport } from './routes/how-we-vet'
 import { Route as HandbookRouteImport } from './routes/handbook'
 import { Route as GetVettedRouteImport } from './routes/get-vetted'
@@ -30,6 +31,11 @@ import { Route as HelpCategoryArticleRouteImport } from './routes/help/$category
 const ResourcesRoute = ResourcesRouteImport.update({
   id: '/resources',
   path: '/resources',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
   getParentRoute: () => rootRouteImport,
 } as any)
 const HowWeVetRoute = HowWeVetRouteImport.update({
@@ -123,6 +129,7 @@ export interface FileRoutesByFullPath {
   '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
+  '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
@@ -142,6 +149,7 @@ export interface FileRoutesByTo {
   '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
+  '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
@@ -162,6 +170,7 @@ export interface FileRoutesById {
   '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
+  '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
@@ -183,6 +192,7 @@ export interface FileRouteTypes {
     | '/get-vetted'
     | '/handbook'
     | '/how-we-vet'
+    | '/privacy'
     | '/resources'
     | '/province/$province'
     | '/situations/$slug'
@@ -202,6 +212,7 @@ export interface FileRouteTypes {
     | '/get-vetted'
     | '/handbook'
     | '/how-we-vet'
+    | '/privacy'
     | '/resources'
     | '/province/$province'
     | '/situations/$slug'
@@ -221,6 +232,7 @@ export interface FileRouteTypes {
     | '/get-vetted'
     | '/handbook'
     | '/how-we-vet'
+    | '/privacy'
     | '/resources'
     | '/province/$province'
     | '/situations/$slug'
@@ -241,6 +253,7 @@ export interface RootRouteChildren {
   GetVettedRoute: typeof GetVettedRoute
   HandbookRoute: typeof HandbookRoute
   HowWeVetRoute: typeof HowWeVetRoute
+  PrivacyRoute: typeof PrivacyRoute
   ResourcesRoute: typeof ResourcesRoute
   ProvinceProvinceRoute: typeof ProvinceProvinceRouteWithChildren
   SituationsSlugRoute: typeof SituationsSlugRoute
@@ -257,6 +270,13 @@ declare module '@tanstack/react-router' {
       path: '/resources'
       fullPath: '/resources'
       preLoaderRoute: typeof ResourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/how-we-vet': {
@@ -395,6 +415,7 @@ const rootRouteChildren: RootRouteChildren = {
   GetVettedRoute: GetVettedRoute,
   HandbookRoute: HandbookRoute,
   HowWeVetRoute: HowWeVetRoute,
+  PrivacyRoute: PrivacyRoute,
   ResourcesRoute: ResourcesRoute,
   ProvinceProvinceRoute: ProvinceProvinceRouteWithChildren,
   SituationsSlugRoute: SituationsSlugRoute,
