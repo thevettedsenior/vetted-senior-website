@@ -1,3 +1,5 @@
+import BUSINESSES_JSON from "./data/businesses.json";
+
 // ─── SITUATIONS ────────────────────────────────────────────────────────────────
 // "Find Your Situation" — life events and emotional states.
 // User does NOT yet know what kind of help they need.
@@ -5,7 +7,7 @@
 export type Situation = {
   slug: string;
   title: string;
-  shortTitle: string;  // for cards
+  shortTitle: string; // for cards
   description: string; // one-line for card
   icon: string;
   phase: "live" | "coming-soon";
@@ -80,7 +82,8 @@ export const SITUATIONS: Situation[] = [
     slug: "recognizing-elder-abuse",
     title: "Recognizing Elder Abuse",
     shortTitle: "Recognizing elder abuse",
-    description: "Understanding the signs and knowing what to do when something feels wrong",
+    description:
+      "Understanding the signs and knowing what to do when something feels wrong",
     icon: "🛡️",
     phase: "live",
   },
@@ -151,7 +154,8 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     slug: "transportation",
     name: "Transportation",
     shortName: "Transportation",
-    description: "Accessible rides to appointments, shopping, and family visits.",
+    description:
+      "Accessible rides to appointments, shopping, and family visits.",
     icon: "🚐",
     intro:
       "Losing the ability to drive is one of the most significant independence milestones for seniors. But it doesn't have to mean isolation. Accessible transportation options, from volunteer driver programs to medical transport, exist in most communities.",
@@ -218,7 +222,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "homecare-care-types",
     categorySlug: "home-care",
-    title: "Personal Support, Nursing, or Companion Care: Which Type of Home Care Do You Actually Need?",
+    title:
+      "Personal Support, Nursing, or Companion Care: Which Type of Home Care Do You Actually Need?",
     description:
       "A plain-language comparison of the three main types of home care, what they cost, and which one fits your situation.",
     image: "/images/help/homecare-care-types.jpeg",
@@ -226,7 +231,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "choosing-a-medical-alert-system",
     categorySlug: "medical-alert-safety",
-    title: "How to Choose a Medical Alert System: The Questions That Actually Matter",
+    title:
+      "How to Choose a Medical Alert System: The Questions That Actually Matter",
     description:
       "What these devices do, what they cost, the questions to ask any provider before signing, and who helps pay in Ontario.",
     image: "/images/help/medical-alert-hero.svg",
@@ -259,7 +265,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "choosing-a-walker-or-rollator",
     categorySlug: "mobility-equipment",
-    title: "Canes, Walkers, and Rollators: Choosing the Right One, and Getting Ontario to Pay Most of the Bill",
+    title:
+      "Canes, Walkers, and Rollators: Choosing the Right One, and Getting Ontario to Pay Most of the Bill",
     description:
       "Which device fits which need, why the assessment must come before the purchase, and how the Assistive Devices Program covers 75 percent.",
     image: "/images/help/walker-rollator-hero.svg",
@@ -268,7 +275,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "stairlifts-and-home-modifications",
     categorySlug: "mobility-equipment",
-    title: "Stairlifts, Ramps, and Bathroom Renovations: The Big Modifications, Honestly Priced",
+    title:
+      "Stairlifts, Ramps, and Bathroom Renovations: The Big Modifications, Honestly Priced",
     description:
       "What major accessibility work really costs, the funding that exists, and how to buy it without being taken.",
     image: "/images/help/stairlift-hero.svg",
@@ -276,7 +284,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "touring-retirement-residences",
     categorySlug: "retirement-residences",
-    title: "How to Tour a Retirement Residence: What to Ask, What to Watch, What They Hope You Miss",
+    title:
+      "How to Tour a Retirement Residence: What to Ask, What to Watch, What They Hope You Miss",
     description:
       "A former bank compliance professional's guide to seeing past the lobby, with a printable tour checklist.",
     image: "/images/help/residence-tour-hero.svg",
@@ -284,7 +293,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "independent-assisted-memory-care",
     categorySlug: "retirement-residences",
-    title: "Independent Living, Assisted Living, Memory Care, or Long-Term Care: What the Labels Actually Mean",
+    title:
+      "Independent Living, Assisted Living, Memory Care, or Long-Term Care: What the Labels Actually Mean",
     description:
       "The four levels explained in plain language, what each costs in Ontario, and the crucial difference between retirement homes and long-term care.",
     image: "/images/help/residence-levels-hero.svg",
@@ -292,7 +302,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "when-driving-ends",
     categorySlug: "transportation",
-    title: "When Driving Has to End: The Conversation, the Rules, and What Comes After",
+    title:
+      "When Driving Has to End: The Conversation, the Rules, and What Comes After",
     description:
       "The warning signs, Ontario's licence renewal system at 80, and how to have the hardest conversation without destroying trust.",
     image: "/images/help/driving-retirement-hero.svg",
@@ -300,7 +311,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "getting-to-appointments",
     categorySlug: "transportation",
-    title: "Getting There Without a Car: Every Ride Option for Seniors, from Free to Full Service",
+    title:
+      "Getting There Without a Car: Every Ride Option for Seniors, from Free to Full Service",
     description:
       "Community transport, para-transit, volunteer drivers, and private options, what each costs, and how to actually book them.",
     image: "/images/help/rides-appointments-hero.svg",
@@ -308,7 +320,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "hearing-aids-without-overpaying",
     categorySlug: "hearing-vision",
-    title: "Hearing Aids Without Overpaying: How the Market Works and Where the Money Goes",
+    title:
+      "Hearing Aids Without Overpaying: How the Market Works and Where the Money Goes",
     description:
       "Why hearing aids cost thousands, what Ontario's Assistive Devices Program covers, and the questions that protect you in the clinic.",
     image: "/images/help/hearing-aids-hero.svg",
@@ -317,7 +330,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "vision-care-after-65",
     categorySlug: "hearing-vision",
-    title: "Vision Care After 65: What OHIP Covers, What It Doesn't, and Living Well with Low Vision",
+    title:
+      "Vision Care After 65: What OHIP Covers, What It Doesn't, and Living Well with Low Vision",
     description:
       "Eye exams, cataracts, glasses, and the practical supports that keep low vision from becoming lost independence.",
     image: "/images/help/vision-care-hero.svg",
@@ -334,7 +348,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "what-executors-actually-do",
     categorySlug: "funeral-estate-planning",
-    title: "What an Executor Actually Does: The Job Nobody Explains Until You Have It",
+    title:
+      "What an Executor Actually Does: The Job Nobody Explains Until You Have It",
     description:
       "The first two weeks, the first year, probate in plain language, and when to pay for help.",
     image: "/images/help/executor-guide-hero.svg",
@@ -342,7 +357,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "hiring-trades-seniors-can-trust",
     categorySlug: "home-maintenance",
-    title: "Hiring Trades and Handypeople a Senior Can Trust: The Verification Habit",
+    title:
+      "Hiring Trades and Handypeople a Senior Can Trust: The Verification Habit",
     description:
       "Licence checks, insurance proof, quotes in writing, and the door-knocker scams that target seniors' homes.",
     image: "/images/help/hiring-trades-hero.svg",
@@ -350,7 +366,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "aging-in-place-maintenance-plan",
     categorySlug: "home-maintenance",
-    title: "The Aging-in-Place Maintenance Plan: Keeping the Home an Asset, Not a Hazard",
+    title:
+      "The Aging-in-Place Maintenance Plan: Keeping the Home an Asset, Not a Hazard",
     description:
       "The seasonal rhythm that keeps a senior's home safe, which tasks to hand off first, and the printable walkthrough.",
     image: "/images/help/seasonal-maintenance-hero.svg",
@@ -358,7 +375,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "loneliness-is-a-health-risk",
     categorySlug: "companion-social",
-    title: "Loneliness Is a Health Risk, and Canada Has Programs for It: Here They Are",
+    title:
+      "Loneliness Is a Health Risk, and Canada Has Programs for It: Here They Are",
     description:
       "Adult day programs, seniors' centres, friendly visiting, and phone lines, most free or subsidized, and how to get in.",
     image: "/images/help/social-programs-hero.svg",
@@ -366,7 +384,8 @@ export const ARTICLES: Article[] = [
   {
     slug: "hiring-a-companion",
     categorySlug: "companion-social",
-    title: "Hiring a Paid Companion: What They Do, What They Cost, and How to Choose Well",
+    title:
+      "Hiring a Paid Companion: What They Do, What They Cost, and How to Choose Well",
     description:
       "The most flexible service in senior care, the agency-versus-independent decision, and the questions that matter.",
     image: "/images/help/companionship-hero.svg",
@@ -377,8 +396,13 @@ export function articlesForCategory(categorySlug: string): Article[] {
   return ARTICLES.filter((a) => a.categorySlug === categorySlug);
 }
 
-export function findArticle(categorySlug: string, articleSlug: string): Article | undefined {
-  return ARTICLES.find((a) => a.categorySlug === categorySlug && a.slug === articleSlug);
+export function findArticle(
+  categorySlug: string,
+  articleSlug: string,
+): Article | undefined {
+  return ARTICLES.find(
+    (a) => a.categorySlug === categorySlug && a.slug === articleSlug,
+  );
 }
 
 // ─── PROVINCES ──────────────────────────────────────────────────────────────────
@@ -391,14 +415,30 @@ export type Province = {
 
 export const PROVINCES: Province[] = [
   { code: "AB", name: "Alberta", cities: ["Calgary", "Edmonton", "Red Deer"] },
-  { code: "BC", name: "British Columbia", cities: ["Vancouver", "Victoria", "Kelowna"] },
+  {
+    code: "BC",
+    name: "British Columbia",
+    cities: ["Vancouver", "Victoria", "Kelowna"],
+  },
   { code: "MB", name: "Manitoba", cities: ["Winnipeg", "Brandon"] },
-  { code: "NB", name: "New Brunswick", cities: ["Moncton", "Fredericton", "Saint John"] },
+  {
+    code: "NB",
+    name: "New Brunswick",
+    cities: ["Moncton", "Fredericton", "Saint John"],
+  },
   { code: "NL", name: "Newfoundland and Labrador", cities: ["St. John's"] },
   { code: "NS", name: "Nova Scotia", cities: ["Halifax", "Sydney"] },
-  { code: "ON", name: "Ontario", cities: ["Toronto", "Ottawa", "Mississauga", "Hamilton", "London"] },
+  {
+    code: "ON",
+    name: "Ontario",
+    cities: ["Toronto", "Ottawa", "Mississauga", "Hamilton", "London"],
+  },
   { code: "PE", name: "Prince Edward Island", cities: ["Charlottetown"] },
-  { code: "QC", name: "Quebec", cities: ["Montreal", "Quebec City", "Laval", "Gatineau"] },
+  {
+    code: "QC",
+    name: "Quebec",
+    cities: ["Montreal", "Quebec City", "Laval", "Gatineau"],
+  },
   { code: "SK", name: "Saskatchewan", cities: ["Saskatoon", "Regina"] },
   { code: "NT", name: "Northwest Territories", cities: ["Yellowknife"] },
   { code: "NU", name: "Nunavut", cities: ["Iqaluit"] },
@@ -408,6 +448,7 @@ export const PROVINCES: Province[] = [
 // ─── BUSINESSES ─────────────────────────────────────────────────────────────────
 // Empty until real vetted listings are added.
 // Directory shows "Coming soon — we're vetting providers" state.
+// Data lives in src/lib/data/businesses.json and is validated below.
 
 export type ServiceCategory =
   | "Home Care"
@@ -421,19 +462,81 @@ export type ServiceCategory =
   | "Home Maintenance"
   | "Companion & Social";
 
+/**
+ * GOVERNING RULE: a listing represents ONE contact point (one phone number,
+ * one inbox), and its tier is whatever territory that specific contact point
+ * actually covers, not what the company claims to cover on its own website.
+ * When a single company has different contact points for different
+ * territories, that is multiple rows sharing a brandGroup, not one row with
+ * a wide territory.
+ *
+ * Examples:
+ * - One company, one phone/email serving all of Canada: one row,
+ *   tier="national", provinces=[all provinces], cities=[].
+ * - One company with a separate phone number per province: one row PER
+ *   province, each tier="provincial", sharing a brandGroup. NOT one
+ *   national row.
+ * - A provincial number plus a separate local number in one city: a
+ *   tier="provincial" row plus a tier="city" row, same brandGroup.
+ * - One contact point covering multiple cities in one province: one row,
+ *   tier="city", with both cities listed in cities[].
+ *
+ * tier meanings:
+ * - "national": this contact point covers all of Canada. provinces should
+ *   list every province code; cities is [].
+ * - "provincial": this contact point covers one or more whole provinces
+ *   (every city in them). provinces lists those province codes; cities
+ *   is [].
+ * - "city": this contact point covers specific cities only. cities lists
+ *   those city names; provinces lists the province code(s) those cities
+ *   are in (for lookups/breadcrumbs), but the row does NOT match a
+ *   province-wide search, only its listed cities.
+ *
+ * brandGroup is an optional shared identifier (e.g. a slug) linking
+ * multiple rows that belong to the same underlying company, so the UI can
+ * display them together without merging them into a single row.
+ */
 export type Business = {
   id: string;
   name: string;
   category: ServiceCategory;
-  province: string;
-  city?: string;
+  tier: "national" | "provincial" | "city";
+  provinces: string[];
+  cities: string[];
+  brandGroup?: string;
   phone: string;
   website?: string;
   description: string;
   vettedSince: string;
 };
 
-export const BUSINESSES: Business[] = [];
+function loadBusinesses(): Business[] {
+  const data = BUSINESSES_JSON as Business[];
+  for (const b of data) {
+    if (!b.id || !b.name || !b.tier || !b.provinces || !b.cities) {
+      throw new Error(
+        `Invalid business entry in businesses.json: ${JSON.stringify(b)}`,
+      );
+    }
+    if (b.tier === "city" && b.cities.length === 0) {
+      throw new Error(
+        `Business "${b.name}" has tier="city" but no cities listed.`,
+      );
+    }
+    if (b.tier !== "city" && b.cities.length > 0) {
+      throw new Error(
+        `Business "${b.name}" has tier="${b.tier}" but lists cities; ` +
+          `only tier="city" rows should populate cities[].`,
+      );
+    }
+    if (b.provinces.length === 0) {
+      throw new Error(`Business "${b.name}" has no provinces listed.`);
+    }
+  }
+  return data;
+}
+
+export const BUSINESSES: Business[] = loadBusinesses();
 // Listings will be added as providers are vetted.
 
 // ─── HELPER FUNCTIONS ────────────────────────────────────────────────────────────
@@ -450,41 +553,79 @@ export function findHelpCategory(slug: string): HelpCategory | undefined {
   return HELP_CATEGORIES.find((c) => c.slug === slug);
 }
 
+function hasProvince(b: Business, provinceCode: string): boolean {
+  const code = provinceCode.toLowerCase();
+  return b.provinces.some((p) => p.toLowerCase() === code);
+}
+
+function hasCity(b: Business, city: string): boolean {
+  const target = city.toLowerCase();
+  return b.cities.some((c) => c.toLowerCase() === target);
+}
+
+/** National and provincial providers covering a given province (no city-tier rows). */
 export function provincialBusinesses(provinceCode: string): Business[] {
   return BUSINESSES.filter(
-    (b) => b.province.toLowerCase() === provinceCode.toLowerCase() && !b.city,
+    (b) => b.tier !== "city" && hasProvince(b, provinceCode),
   );
 }
 
+/**
+ * Every business that serves a given city: city-tier rows listing that
+ * city, plus provincial-tier rows covering its province, plus national
+ * rows. Sorted city-tier first, then provincial, then national, per the
+ * directory's "never hide broader results" rule.
+ */
 export function cityBusinesses(provinceCode: string, city: string): Business[] {
-  return BUSINESSES.filter(
-    (b) =>
-      b.province.toLowerCase() === provinceCode.toLowerCase() &&
-      b.city?.toLowerCase() === city.toLowerCase(),
-  );
+  const matches = BUSINESSES.filter((b) => {
+    if (b.tier === "city") return hasCity(b, city);
+    return hasProvince(b, provinceCode);
+  });
+  return sortByTier(matches);
 }
 
-export function categoryBusinesses(provinceCode: string, categorySlug: string): Business[] {
+export function categoryBusinesses(
+  provinceCode: string,
+  categorySlug: string,
+): Business[] {
   const category = HELP_CATEGORIES.find((c) => c.slug === categorySlug);
   if (!category) return [];
   return BUSINESSES.filter(
-    (b) => b.province.toLowerCase() === provinceCode.toLowerCase() &&
-      b.category === category.name,
+    (b) => hasProvince(b, provinceCode) && b.category === category.name,
   );
+}
+
+const TIER_ORDER: Record<Business["tier"], number> = {
+  city: 0,
+  provincial: 1,
+  national: 2,
+};
+
+function sortByTier(list: Business[]): Business[] {
+  return [...list].sort((a, b) => TIER_ORDER[a.tier] - TIER_ORDER[b.tier]);
 }
 
 export type DirectoryFilters = {
   q?: string; // free-text search
   category?: string; // HelpCategory slug
   province?: string; // province code, any case
-  city?: string; // city name, any case (matches Business.city)
+  city?: string; // city name, any case (matches Business.cities)
 };
 
 /**
  * The one query the directory UI runs. Reads straight from BUSINESSES, so a
  * listing added to the array is searchable with zero further code changes.
- * A business with no city is province-wide and matches any city filter in
- * its province.
+ *
+ * Tier matching:
+ * - national rows match any province/city filter.
+ * - provincial rows match a province filter against provinces[], and match
+ *   a city filter as long as the city's province is in provinces[].
+ * - city rows match only a city filter against cities[] (and a province
+ *   filter against provinces[]).
+ *
+ * When a city filter is active, results are sorted city-tier first, then
+ * provincial, then national, so narrower matches lead without hiding
+ * broader ones.
  */
 export function searchBusinesses(filters: DirectoryFilters): Business[] {
   const q = filters.q?.trim().toLowerCase();
@@ -494,18 +635,45 @@ export function searchBusinesses(filters: DirectoryFilters): Business[] {
   const province = filters.province?.toLowerCase();
   const city = filters.city?.toLowerCase();
 
-  return BUSINESSES.filter((b) => {
+  // Resolve the filtered city to its province code, so a provincial row can
+  // be matched by "does this row cover the city's province" even when the
+  // UI didn't also pass an explicit province filter.
+  const cityProvince = city
+    ? PROVINCES.find((p) =>
+        p.cities.some((c) => c.toLowerCase() === city),
+      )?.code.toLowerCase()
+    : undefined;
+
+  const matches = BUSINESSES.filter((b) => {
     if (category && b.category !== category) return false;
-    if (province && b.province.toLowerCase() !== province) return false;
-    if (city && b.city && b.city.toLowerCase() !== city) return false;
+
+    if (b.tier === "national") {
+      // National rows always satisfy province/city filters.
+    } else if (b.tier === "provincial") {
+      if (province && !hasProvince(b, province)) return false;
+      if (city && !(cityProvince && hasProvince(b, cityProvince))) return false;
+    } else {
+      // city tier
+      if (province && !hasProvince(b, province)) return false;
+      if (city && !hasCity(b, city)) return false;
+    }
+
     if (q) {
-      const haystack = [b.name, b.description, b.category, b.city ?? "", b.province]
+      const haystack = [
+        b.name,
+        b.description,
+        b.category,
+        ...b.cities,
+        ...b.provinces,
+      ]
         .join(" ")
         .toLowerCase();
       if (!haystack.includes(q)) return false;
     }
     return true;
   });
+
+  return city ? sortByTier(matches) : matches;
 }
 
 export function groupByCategory(list: Business[]): Record<string, Business[]> {
