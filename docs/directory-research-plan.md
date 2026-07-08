@@ -62,18 +62,18 @@ Medical & Health:
 5. medical-alert-safety
 6. **dementia-memory-support** (new: memory clinics, day programs, dementia home care)
 7. **mental-health-counselling** (new: late-life depression, grief counselling, isolation)
-8. **palliative-hospice-care** (new: hospice, palliative home care; complements funeral-estate-planning, does not duplicate it)
+8. retirement-residences
+9. **palliative-hospice-care** (new: hospice, palliative home care; complements funeral-estate-planning, does not duplicate it)
 
 Practical & Legal:
 
-9. legal-financial
-10. funeral-estate-planning
-11. transportation
-12. home-maintenance (tech-help articles live here, not their own category)
-13. companion-social
-14. **meals-nutrition** (new: meal delivery, Meals on Wheels, grocery help, dietitians)
-15. **downsizing-moving** (new: senior move managers, downsizing, estate sales, junk removal)
-16. retirement-residences
+10. legal-financial
+11. funeral-estate-planning
+12. transportation
+13. home-maintenance (tech-help articles live here, not their own category)
+14. companion-social
+15. **meals-nutrition** (new: meal delivery, Meals on Wheels, grocery help, dietitians)
+16. **downsizing-moving** (new: senior move managers, downsizing, estate sales, junk removal)
 
 A standalone "specialist clinics" category was considered and rejected:
 memory clinics belong to dementia-memory-support, falls clinics to

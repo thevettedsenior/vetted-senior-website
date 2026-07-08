@@ -190,6 +190,16 @@ export const HELP_CATEGORIES: HelpCategory[] = [
       "Depression and anxiety are not a normal part of aging, and they are treatable at any age. From grief counselling to therapists who understand late-life transitions, real help exists. Asking for it is a sign of strength, not weakness.",
   },
   {
+    slug: "retirement-residences",
+    name: "Retirement Residences",
+    shortName: "Retirement Homes",
+    description: "Independent living, assisted living, and memory care.",
+    icon: "🏘️",
+    group: "Medical & Health",
+    intro:
+      "Choosing a retirement residence is one of the biggest decisions a family makes. The range of options, from active independent living to full memory care, is wider than most people realize. Knowing the right questions to ask makes all the difference.",
+  },
+  {
     slug: "palliative-hospice-care",
     name: "Palliative & Hospice Care",
     shortName: "Palliative Care",
@@ -271,16 +281,6 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     group: "Practical & Legal",
     intro:
       "Leaving a long-time family home is as emotional as it is practical. Senior move managers are a real, certified profession most families have never heard of, and they can turn an overwhelming move into a managed process. Here's how it works.",
-  },
-  {
-    slug: "retirement-residences",
-    name: "Retirement Residences",
-    shortName: "Retirement Homes",
-    description: "Independent living, assisted living, and memory care.",
-    icon: "🏘️",
-    group: "Practical & Legal",
-    intro:
-      "Choosing a retirement residence is one of the biggest decisions a family makes. The range of options, from active independent living to full memory care, is wider than most people realize. Knowing the right questions to ask makes all the difference.",
   },
 ];
 
