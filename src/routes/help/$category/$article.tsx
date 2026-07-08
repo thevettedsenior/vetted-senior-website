@@ -2,6 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
 import { AffiliateDisclosure } from "@/components/Affiliate";
 import { findArticle, findHelpCategory } from "@/lib/directory-data";
+import { articleJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ARTICLE_CONTENT } from "@/content/articles";
 export const Route = createFileRoute("/help/$category/$article")({
   loader: ({ params }) => {
@@ -23,6 +24,9 @@ export const Route = createFileRoute("/help/$category/$article")({
         content: loaderData ? loaderData.article.description : "",
       },
     ],
+    scripts: loaderData
+      ? [jsonLdScript(articleJsonLd(loaderData.article, loaderData.category))]
+      : [],
   }),
   component: ArticlePage,
   notFoundComponent: () => (

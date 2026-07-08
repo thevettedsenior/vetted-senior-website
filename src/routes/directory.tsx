@@ -11,6 +11,7 @@ import {
   findProvince,
   searchBusinesses,
 } from "@/lib/directory-data";
+import { directoryJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 // Filters live entirely in the URL, so every filtered view is shareable and
 // bookmarkable. Unknown or empty params are dropped so URLs stay clean.
@@ -45,6 +46,10 @@ export const Route = createFileRoute("/directory")({
           "Search the directory of personally vetted senior services by category, province, and city. Every listing is earned through our published vetting process. Nobody pays to be recommended.",
       },
     ],
+    // Goes live automatically once BUSINESSES has vetted rows; an empty
+    // list emits no script tag at all.
+    scripts:
+      BUSINESSES.length > 0 ? [jsonLdScript(directoryJsonLd(BUSINESSES))] : [],
   }),
   component: DirectoryPage,
 });
