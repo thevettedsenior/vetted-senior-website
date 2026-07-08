@@ -1,6 +1,15 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import type { ReactNode } from "react";
+import { CATEGORY_GROUPS, HELP_CATEGORIES } from "@/lib/directory-data";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 // Shield + checkmark logo as an inline SVG
 function ShieldLogo() {
@@ -25,6 +34,66 @@ function ShieldLogo() {
         strokeLinejoin="round"
       />
     </svg>
+  );
+}
+
+// Desktop "Find Help" dropdown. Categories are flat in routing; the two
+// group headings here are visual only.
+function FindHelpMenu() {
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger className="flex items-center gap-1 text-primary hover:underline data-[state=open]:underline">
+        Find Help
+        <svg
+          width="12"
+          height="12"
+          viewBox="0 0 12 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+        >
+          <path
+            d="M2.5 4.5L6 8l3.5-3.5"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="start" className="w-[560px] p-4">
+        <DropdownMenuItem asChild>
+          <Link
+            to="/help"
+            className="font-semibold text-primary no-underline"
+          >
+            Browse all help topics →
+          </Link>
+        </DropdownMenuItem>
+        <DropdownMenuSeparator />
+        <div className="grid grid-cols-2 gap-x-6">
+          {CATEGORY_GROUPS.map((group) => (
+            <div key={group}>
+              <DropdownMenuLabel className="text-xs uppercase tracking-wide text-muted-foreground">
+                {group}
+              </DropdownMenuLabel>
+              {HELP_CATEGORIES.filter((c) => c.group === group).map((c) => (
+                <DropdownMenuItem key={c.slug} asChild>
+                  <Link
+                    to="/help/$category"
+                    params={{ category: c.slug }}
+                    className="text-primary no-underline"
+                  >
+                    <span aria-hidden>{c.icon}</span>
+                    {c.name}
+                  </Link>
+                </DropdownMenuItem>
+              ))}
+            </div>
+          ))}
+        </div>
+      </DropdownMenuContent>
+    </DropdownMenu>
   );
 }
 
@@ -62,13 +131,7 @@ export function SiteHeader() {
           >
             Find Your Situation
           </Link>
-          <Link
-            to="/help"
-            className="text-primary hover:underline"
-            activeProps={{ className: "underline font-semibold" }}
-          >
-            Find Help
-          </Link>
+          <FindHelpMenu />
           <Link
             to="/directory"
             className="text-primary hover:underline"
