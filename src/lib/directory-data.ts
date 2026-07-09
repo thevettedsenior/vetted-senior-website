@@ -350,6 +350,24 @@ export const ARTICLES: Article[] = [
     image: "/images/help/dementia-support-hero.svg",
   },
   {
+    slug: "depression-in-later-life",
+    categorySlug: "mental-health-counselling",
+    title:
+      "Depression After 70 Is Not Normal Aging: Spotting It and Treating It",
+    description:
+      "Why late-life depression hides behind physical complaints, what treatment involves, and what OHIP covers.",
+    image: "/images/help/late-life-depression-hero.svg",
+  },
+  {
+    slug: "grief-and-counselling-options",
+    categorySlug: "mental-health-counselling",
+    title:
+      "Grief, Loneliness, and Finding a Counsellor: The Affordable Ways In",
+    description:
+      "Free bereavement programs, sliding-scale counselling, and how to choose among therapists, with real prices.",
+    image: "/images/help/grief-counselling-hero.svg",
+  },
+  {
     slug: "choosing-a-medical-alert-system",
     categorySlug: "medical-alert-safety",
     title:

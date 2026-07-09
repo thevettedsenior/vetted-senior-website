@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Late-life depression and recovery illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+
+  <!-- sunrise over horizon -->
+  <circle cx="920" cy="300" r="80" fill="#c9a84c" opacity="0.9"/>
+  <rect x="700" y="300" width="440" height="10" rx="5" fill="#f5efdf" opacity="0.8"/>
+  <g stroke="#c9a84c" stroke-width="7" stroke-linecap="round" opacity="0.8">
+    <path d="M920 165 v-40"/>
+    <path d="M820 195 l-28 -28"/>
+    <path d="M1020 195 l28 -28"/>
+    <path d="M775 260 l-38 -12"/>
+    <path d="M1065 260 l38 -12"/>
+  </g>
+  <circle cx="920" cy="300" r="130" fill="none" stroke="#c9a84c" stroke-width="2.5" opacity="0.35"/>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>
