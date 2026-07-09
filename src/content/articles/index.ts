@@ -13,6 +13,7 @@ import { DOCTORS_PHARMACY_MEDICATION_ARTICLES } from "./doctors-pharmacy-medicat
 import { DEMENTIA_MEMORY_SUPPORT_ARTICLES } from "./dementia-memory-support";
 import { MENTAL_HEALTH_COUNSELLING_ARTICLES } from "./mental-health-counselling";
 import { PALLIATIVE_HOSPICE_CARE_ARTICLES } from "./palliative-hospice-care";
+import { MEALS_NUTRITION_ARTICLES } from "./meals-nutrition";
 
 export type { ArticleSection, ArticleContentMap } from "./types";
 
@@ -33,4 +34,5 @@ export const ARTICLE_CONTENT: ArticleContentMap = {
   ...DEMENTIA_MEMORY_SUPPORT_ARTICLES,
   ...MENTAL_HEALTH_COUNSELLING_ARTICLES,
   ...PALLIATIVE_HOSPICE_CARE_ARTICLES,
+  ...MEALS_NUTRITION_ARTICLES,
 };

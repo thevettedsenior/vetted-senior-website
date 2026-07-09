@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Eating well illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+
+  <!-- plate with cutlery -->
+  <circle cx="920" cy="250" r="120" fill="none" stroke="#f5efdf" stroke-width="10"/>
+  <circle cx="920" cy="250" r="78" fill="none" stroke="#c9a84c" stroke-width="6" opacity="0.8"/>
+  <circle cx="920" cy="250" r="26" fill="#c9a84c" opacity="0.85"/>
+  <g stroke="#f5efdf" stroke-width="9" stroke-linecap="round" fill="none">
+    <path d="M745 175 v150"/>
+    <path d="M730 175 v45 q15 18 30 0 v-45"/>
+    <path d="M1095 175 v150"/>
+    <path d="M1095 175 q-28 12 -28 55 q0 25 28 25"/>
+  </g>
+  <circle cx="920" cy="250" r="175" fill="none" stroke="#c9a84c" stroke-width="2.5" opacity="0.3"/>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>

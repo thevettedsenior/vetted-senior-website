@@ -386,6 +386,24 @@ export const ARTICLES: Article[] = [
     image: "/images/help/hospice-options-hero.svg",
   },
   {
+    slug: "meal-delivery-options",
+    categorySlug: "meals-nutrition",
+    title:
+      "Meals on Wheels and Everything After: Every Way to Get Good Food to a Senior's Door",
+    description:
+      "Community meal programs, frozen delivery companies, grocery delivery, and dining programs, with real prices.",
+    image: "/images/help/meal-delivery-hero.svg",
+  },
+  {
+    slug: "when-a-senior-stops-eating-well",
+    categorySlug: "meals-nutrition",
+    title:
+      "Tea and Toast: When a Senior Stops Eating Well, and What Actually Helps",
+    description:
+      "The warning signs of malnutrition, the causes families miss, and the fixes that work at every budget.",
+    image: "/images/help/eating-well-hero.svg",
+  },
+  {
     slug: "choosing-a-medical-alert-system",
     categorySlug: "medical-alert-safety",
     title:
