@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Memory assessment illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="180" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.45"/>
+  <circle cx="920" cy="250" r="240" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.25"/>
+
+  <!-- head profile with thought rings -->
+  <path d="M840 360 v-40 c-40 -30 -55 -85 -30 -130 c30 -55 105 -70 155 -35 c50 35 60 110 15 155 v50"
+        fill="none" stroke="#f5efdf" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="905" cy="225" r="42" fill="none" stroke="#c9a84c" stroke-width="7"/>
+  <circle cx="905" cy="225" r="18" fill="none" stroke="#c9a84c" stroke-width="5" opacity="0.7"/>
+  <circle cx="905" cy="225" r="5" fill="#c9a84c"/>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>

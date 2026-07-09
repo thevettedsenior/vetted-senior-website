@@ -333,6 +333,23 @@ export const ARTICLES: Article[] = [
     image: "/images/help/medications-hero.svg",
   },
   {
+    slug: "getting-a-memory-assessment",
+    categorySlug: "dementia-memory-support",
+    title:
+      "Worried About a Parent's Memory: How to Get a Real Assessment, Step by Step",
+    description:
+      "What is normal aging and what is not, how the testing works, and why an early diagnosis is worth having.",
+    image: "/images/help/memory-assessment-hero.svg",
+  },
+  {
+    slug: "support-after-dementia-diagnosis",
+    categorySlug: "dementia-memory-support",
+    title: "After the Dementia Diagnosis: The Support System Nobody Hands You",
+    description:
+      "First Link, day programs, dementia-trained home care, respite, and the safety layer, assembled in the right order.",
+    image: "/images/help/dementia-support-hero.svg",
+  },
+  {
     slug: "choosing-a-medical-alert-system",
     categorySlug: "medical-alert-safety",
     title:
