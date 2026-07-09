@@ -52,6 +52,7 @@ const STATIC_META: Record<string, { changefreq: string; priority: string }> = {
   "/resources": { changefreq: "monthly", priority: "0.8" },
   "/founder": { changefreq: "monthly", priority: "0.8" },
   "/disclosure": { changefreq: "monthly", priority: "0.7" },
+  "/privacy": { changefreq: "yearly", priority: "0.5" },
   "/about": { changefreq: "monthly", priority: "0.6" },
   "/get-vetted": { changefreq: "monthly", priority: "0.6" },
   "/contact": { changefreq: "monthly", priority: "0.6" },
