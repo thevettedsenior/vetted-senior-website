@@ -14,6 +14,7 @@ import { DEMENTIA_MEMORY_SUPPORT_ARTICLES } from "./dementia-memory-support";
 import { MENTAL_HEALTH_COUNSELLING_ARTICLES } from "./mental-health-counselling";
 import { PALLIATIVE_HOSPICE_CARE_ARTICLES } from "./palliative-hospice-care";
 import { MEALS_NUTRITION_ARTICLES } from "./meals-nutrition";
+import { DOWNSIZING_MOVING_ARTICLES } from "./downsizing-moving";
 
 export type { ArticleSection, ArticleContentMap } from "./types";
 
@@ -35,4 +36,5 @@ export const ARTICLE_CONTENT: ArticleContentMap = {
   ...MENTAL_HEALTH_COUNSELLING_ARTICLES,
   ...PALLIATIVE_HOSPICE_CARE_ARTICLES,
   ...MEALS_NUTRITION_ARTICLES,
+  ...DOWNSIZING_MOVING_ARTICLES,
 };

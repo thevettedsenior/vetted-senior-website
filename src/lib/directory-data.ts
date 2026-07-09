@@ -404,6 +404,23 @@ export const ARTICLES: Article[] = [
     image: "/images/help/eating-well-hero.svg",
   },
   {
+    slug: "senior-move-managers",
+    categorySlug: "downsizing-moving",
+    title:
+      "Senior Move Managers: The Profession That Turns a Brutal Move into a Managed One",
+    description:
+      "What move managers actually do, what they cost, and the questions that find a good one.",
+    image: "/images/help/move-managers-hero.svg",
+  },
+  {
+    slug: "sorting-a-lifetime-of-belongings",
+    categorySlug: "downsizing-moving",
+    title: "Sorting a Lifetime of Belongings Without Breaking Hearts",
+    description:
+      "The ground rules that prevent family fights, what things are really worth, and where everything can honestly go.",
+    image: "/images/help/sorting-belongings-hero.svg",
+  },
+  {
     slug: "choosing-a-medical-alert-system",
     categorySlug: "medical-alert-safety",
     title:

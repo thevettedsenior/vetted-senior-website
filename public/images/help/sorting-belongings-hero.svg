@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Sorting belongings illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="185" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.4"/>
+
+  <!-- picture frames -->
+  <g fill="none" stroke="#f5efdf" stroke-width="9" stroke-linejoin="round">
+    <rect x="790" y="160" width="120" height="150" rx="6" transform="rotate(-6 850 235)"/>
+    <rect x="950" y="180" width="140" height="110" rx="6" transform="rotate(4 1020 235)"/>
+  </g>
+  <g fill="none" stroke="#c9a84c" stroke-width="6">
+    <rect x="812" y="184" width="76" height="102" transform="rotate(-6 850 235)"/>
+    <rect x="972" y="202" width="96" height="66" transform="rotate(4 1020 235)"/>
+  </g>
+  <path d="M840 350 q80 45 160 0" fill="none" stroke="#c9a84c" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="855" cy="228" r="12" fill="#c9a84c" transform="rotate(-6 850 235)"/>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>

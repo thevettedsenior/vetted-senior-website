@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Senior move manager illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="930" cy="255" r="190" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.4"/>
+
+  <!-- stacked moving boxes -->
+  <g fill="none" stroke="#f5efdf" stroke-width="9" stroke-linejoin="round">
+    <rect x="820" y="250" width="130" height="110" rx="8"/>
+    <rect x="950" y="250" width="110" height="110" rx="8"/>
+    <rect x="875" y="150" width="120" height="100" rx="8"/>
+  </g>
+  <g stroke="#c9a84c" stroke-width="7" stroke-linecap="round">
+    <path d="M820 285 h130"/>
+    <path d="M950 285 h110"/>
+    <path d="M875 182 h120"/>
+  </g>
+  <path d="M905 118 q30 -22 60 0" fill="none" stroke="#c9a84c" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>
