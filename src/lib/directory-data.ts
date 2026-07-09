@@ -368,6 +368,24 @@ export const ARTICLES: Article[] = [
     image: "/images/help/grief-counselling-hero.svg",
   },
   {
+    slug: "what-palliative-care-actually-is",
+    categorySlug: "palliative-hospice-care",
+    title:
+      "Palliative Care Is Not Giving Up: What It Actually Provides, and Why Earlier Is Better",
+    description:
+      "Symptom control, home visits, and support for the whole family, available months or years before the end.",
+    image: "/images/help/palliative-care-hero.svg",
+  },
+  {
+    slug: "hospice-at-home-or-residence",
+    categorySlug: "palliative-hospice-care",
+    title:
+      "The Last Months: Home, Residential Hospice, or Hospital, and How to Arrange Each",
+    description:
+      "What each setting really involves, why hospice is free in Ontario, and the benefits that pay family caregivers.",
+    image: "/images/help/hospice-options-hero.svg",
+  },
+  {
     slug: "choosing-a-medical-alert-system",
     categorySlug: "medical-alert-safety",
     title:

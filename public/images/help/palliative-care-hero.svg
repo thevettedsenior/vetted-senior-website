@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Palliative care illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="180" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.45"/>
+  <circle cx="920" cy="250" r="240" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.22"/>
+
+  <!-- dove -->
+  <g fill="none" stroke="#f5efdf" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M840 280 q60 -20 90 -70 q10 40 -10 75 q50 -5 85 -35 q-15 70 -85 90 q-60 15 -95 -15"/>
+  </g>
+  <circle cx="948" cy="196" r="8" fill="#c9a84c"/>
+  <path d="M955 190 l30 -12 l-24 22" fill="#c9a84c"/>
+  <g stroke="#c9a84c" stroke-width="5" stroke-linecap="round" opacity="0.7">
+    <path d="M830 340 q90 40 180 0"/>
+  </g>
+
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>
