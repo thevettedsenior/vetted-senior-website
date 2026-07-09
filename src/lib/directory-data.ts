@@ -315,6 +315,24 @@ export const ARTICLES: Article[] = [
     image: "/images/help/homecare-care-types.jpeg",
   },
   {
+    slug: "finding-a-family-doctor",
+    categorySlug: "doctors-pharmacy-medication",
+    title:
+      "Finding a Family Doctor After 65: The Waitlist, the Workarounds, and What to Do Meanwhile",
+    description:
+      "Health Care Connect, nurse practitioner clinics, and how to get real care while the search drags on.",
+    image: "/images/help/family-doctor-hero.svg",
+  },
+  {
+    slug: "managing-multiple-medications",
+    categorySlug: "doctors-pharmacy-medication",
+    title:
+      "Ten Pills a Day: Getting Medications Under Control with Services That Are Already Free",
+    description:
+      "MedsCheck reviews, blister packs, free delivery, and what drugs actually cost after 65 in Ontario.",
+    image: "/images/help/medications-hero.svg",
+  },
+  {
     slug: "choosing-a-medical-alert-system",
     categorySlug: "medical-alert-safety",
     title:
