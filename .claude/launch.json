@@ -4,15 +4,36 @@
     {
       "name": "dev",
       "runtimeExecutable": "/Users/raginidomenichini/.bun/bin/bun",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
       "port": 8080,
       "autoPort": true
     },
     {
       "name": "vetting-dashboard",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "4173", "--directory", "docs/research/vetting"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4173",
+        "--directory",
+        "docs/research/vetting"
+      ],
       "port": 4173
+    },
+    {
+      "name": "bluekey-site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8743",
+        "--directory",
+        "/Users/raginidomenichini/bluekey-leadgen/site"
+      ],
+      "port": 8743
     }
   ]
 }
