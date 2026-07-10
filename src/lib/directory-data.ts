@@ -11,6 +11,7 @@ export type Situation = {
   description: string; // one-line for card
   icon: string;
   phase: "live" | "coming-soon";
+  takeaways?: string[]; // 3 plain-language bullets for "The short version" box
 };
 
 export const SITUATIONS: Situation[] = [
@@ -21,6 +22,11 @@ export const SITUATIONS: Situation[] = [
     description: "What to do right now, and how to prevent the next one.",
     icon: "🩹",
     phase: "live",
+    takeaways: [
+      "See a doctor even if nothing seems broken, since hip fractures and head injuries are easy to miss.",
+      "Ask the doctor or pharmacist to review every medication, one of the most effective single steps against another fall.",
+      "Fix the obvious home hazards first: loose rugs, poor lighting, and missing grab bars in the bathroom.",
+    ],
   },
   {
     slug: "dementia-concerns",
@@ -29,6 +35,11 @@ export const SITUATIONS: Situation[] = [
     description: "Understanding the signs and knowing what comes next.",
     icon: "🧠",
     phase: "live",
+    takeaways: [
+      "See a doctor early, because treatable problems like thyroid issues and medication side effects can look exactly like dementia.",
+      "Set up powers of attorney for finances and personal care while the person still has legal capacity.",
+      "Connect with a local dementia support organization and line up respite options before you desperately need them.",
+    ],
   },
   {
     slug: "staying-at-home",
@@ -37,6 +48,11 @@ export const SITUATIONS: Situation[] = [
     description: "Helping a senior stay safe and independent at home.",
     icon: "🏠",
     phase: "live",
+    takeaways: [
+      "Start with an honest assessment of daily tasks, personal care, home safety, medications, finances, and social connection.",
+      "Find out what publicly funded home support exists in your area before paying for anything privately.",
+      "Staying home with paid support often costs less than a retirement residence, at least in the early stages.",
+    ],
   },
   {
     slug: "caregiver-burnout",
@@ -45,6 +61,11 @@ export const SITUATIONS: Situation[] = [
     description: "When caring for someone else is wearing you down.",
     icon: "💛",
     phase: "live",
+    takeaways: [
+      "Burnout is the predictable result of unsupported caregiving, not a personal weakness, and the fix is support, not trying harder.",
+      "See your own doctor, tell at least one person what you are carrying, and schedule regular respite before a crisis.",
+      "Caregivers who take regular breaks stay healthier and keep caregiving longer, so a break is maintenance, not abandonment.",
+    ],
   },
   {
     slug: "parent-refuses-help",
@@ -53,6 +74,11 @@ export const SITUATIONS: Situation[] = [
     description: "How to navigate pushback when help is clearly needed.",
     icon: "🤝",
     phase: "live",
+    takeaways: [
+      "Most refusals hide a fear of losing independence, so listen for the real worry before presenting your evidence.",
+      "Start with one small, low-stakes ask like weekly grocery help rather than a five-day care schedule.",
+      "A doctor, trusted friend, or geriatric care manager can often land the message a family member cannot.",
+    ],
   },
   {
     slug: "senior-living-alone",
@@ -61,6 +87,11 @@ export const SITUATIONS: Situation[] = [
     description: "Safety, connection, and peace of mind from a distance.",
     icon: "🔑",
     phase: "live",
+    takeaways: [
+      "Set the emergency plan first: who checks in, who has a key, and whether there is a medical alert device.",
+      "A medical alert device is one of the highest-impact, lowest-cost safety measures for anyone living alone.",
+      "Loneliness is a genuine health risk, so build regular calls, visits, and community activities into every week.",
+    ],
   },
   {
     slug: "recently-widowed",
@@ -69,6 +100,11 @@ export const SITUATIONS: Situation[] = [
     description: "Practical next steps during an impossibly hard time.",
     icon: "🕊️",
     phase: "live",
+    takeaways: [
+      "Do not make major irreversible decisions like selling the house in the acute phase of grief.",
+      "Get legal and financial advice early to claim survivor benefits and update accounts and documents.",
+      "See your own doctor and connect with bereavement support, because grief affects physical health too.",
+    ],
   },
   {
     slug: "hospital-discharge-planning",
@@ -77,6 +113,11 @@ export const SITUATIONS: Situation[] = [
     description: "What to arrange before and after a hospital stay.",
     icon: "🏥",
     phase: "live",
+    takeaways: [
+      "Ask to speak with the hospital discharge planner or social worker as soon as the admission happens.",
+      "Go through every medication change before leaving, since medication confusion is a leading cause of readmission.",
+      "Confirm what funded home support is arranged, get equipment in place, and book the first follow-up before discharge.",
+    ],
   },
   {
     slug: "recognizing-elder-abuse",
@@ -86,6 +127,11 @@ export const SITUATIONS: Situation[] = [
       "Understanding the signs and knowing what to do when something feels wrong",
     icon: "🛡️",
     phase: "live",
+    takeaways: [
+      "If someone is in immediate danger call emergency services now, otherwise put safety first and documentation second.",
+      "You do not need proof to act, since a concern is enough to call adult protective services or a senior helpline, often anonymously.",
+      "If the abuser is also the caregiver, plan alternative care at the same time so leaving does not mean losing support.",
+    ],
   },
 ];
 
@@ -294,6 +340,7 @@ export type Article = {
   description: string; // one-sentence summary for the card
   image: string;
   affiliate?: boolean; // true = page shows the affiliate disclosure banner at the top
+  takeaways?: string[]; // 3 plain-language bullets for "The short version" box
 };
 
 export const ARTICLES: Article[] = [
@@ -304,6 +351,11 @@ export const ARTICLES: Article[] = [
     description:
       "The questions to ask every agency or independent caregiver before you sign anything.",
     image: "/images/help/homecare-questions.jpeg",
+    takeaways: [
+      "Ask every provider whether caregivers are employees or contractors, since that changes who handles supervision, insurance, and backup.",
+      "Contact at least three providers and compare written quotes, service agreements, and references before signing anything.",
+      "Watch for red flags like pressure to sign quickly, vague answers about background checks, or no backup plan for sick caregivers.",
+    ],
   },
   {
     slug: "homecare-care-types",
@@ -313,6 +365,11 @@ export const ARTICLES: Article[] = [
     description:
       "A plain-language comparison of the three main types of home care, what they cost, and which one fits your situation.",
     image: "/images/help/homecare-care-types.jpeg",
+    takeaways: [
+      "Personal support workers handle daily tasks like bathing and meals, nurses handle clinical care, and companions provide social connection.",
+      "Nursing costs the most and companion care the least, so paying for the wrong type wastes money while real needs go unmet.",
+      "Many people need a combination, and a funded needs assessment through the family doctor or local health authority gets the match right.",
+    ],
   },
   {
     slug: "finding-a-family-doctor",
@@ -322,6 +379,11 @@ export const ARTICLES: Article[] = [
     description:
       "Health Care Connect, nurse practitioner clinics, and how to get real care while the search drags on.",
     image: "/images/help/family-doctor-hero.svg",
+    takeaways: [
+      "Register with Health Care Connect (1-800-445-1822) on day one and mention every diagnosis, since complex patients get priority.",
+      "Nurse practitioner clinics provide full OHIP-funded primary care and are a real substitute for most seniors' routine needs.",
+      "While you wait, use one walk-in clinic consistently and keep a one-page health summary and medication list in the wallet.",
+    ],
   },
   {
     slug: "managing-multiple-medications",
@@ -331,6 +393,11 @@ export const ARTICLES: Article[] = [
     description:
       "MedsCheck reviews, blister packs, free delivery, and what drugs actually cost after 65 in Ontario.",
     image: "/images/help/medications-hero.svg",
+    takeaways: [
+      "Ask the pharmacy for a MedsCheck, a free annual review for anyone taking three or more chronic medications.",
+      "Blister packs, refill synchronization, and free delivery are standard at most pharmacies and prevent most medication mistakes.",
+      "After 65 the Ontario Drug Benefit covers most drugs for a $100 deductible and up to $6.11 per prescription.",
+    ],
   },
   {
     slug: "getting-a-memory-assessment",
@@ -340,6 +407,11 @@ export const ARTICLES: Article[] = [
     description:
       "What is normal aging and what is not, how the testing works, and why an early diagnosis is worth having.",
     image: "/images/help/memory-assessment-hero.svg",
+    takeaways: [
+      "Getting lost on familiar routes or repeating questions within the hour warrants an assessment, unlike ordinary misplaced keys.",
+      "Depression, thyroid problems, B12 deficiency, and medication side effects can all mimic dementia, and several are fully reversible.",
+      "Write down specific incidents with dates, then book a dedicated appointment with the family doctor and bring a family member.",
+    ],
   },
   {
     slug: "support-after-dementia-diagnosis",
@@ -348,6 +420,11 @@ export const ARTICLES: Article[] = [
     description:
       "First Link, day programs, dementia-trained home care, respite, and the safety layer, assembled in the right order.",
     image: "/images/help/dementia-support-hero.svg",
+    takeaways: [
+      "Call the Alzheimer Society's free First Link program first, and no doctor's referral is needed.",
+      "Adult day programs cost roughly $10 to $40 a day in Ontario and give both the person and the caregiver a better week.",
+      "Apply for publicly funded respite through Ontario Health atHome (310-2222) before exhaustion, because waitlists are real.",
+    ],
   },
   {
     slug: "depression-in-later-life",
@@ -357,6 +434,11 @@ export const ARTICLES: Article[] = [
     description:
       "Why late-life depression hides behind physical complaints, what treatment involves, and what OHIP covers.",
     image: "/images/help/late-life-depression-hero.svg",
+    takeaways: [
+      "Depression is treatable at every age and often shows up as pain, fatigue, and poor sleep rather than sadness.",
+      "OHIP covers the family doctor, psychiatrists with a referral, and Ontario Structured Psychotherapy, a free program you can self-refer into.",
+      "If there is any talk of not wanting to live, call or text 988, Canada's suicide crisis line, right away.",
+    ],
   },
   {
     slug: "grief-and-counselling-options",
@@ -366,6 +448,11 @@ export const ARTICLES: Article[] = [
     description:
       "Free bereavement programs, sliding-scale counselling, and how to choose among therapists, with real prices.",
     image: "/images/help/grief-counselling-hero.svg",
+    takeaways: [
+      "Hospice bereavement programs offer free grief groups and one-on-one support, and you do not need to have used the hospice.",
+      "Registered psychotherapists and social workers charge roughly $120 to $180 a session and are usually the right private choice for grief.",
+      "Ask family service agencies about sliding-scale rates and check retiree or workplace benefits before paying full private prices.",
+    ],
   },
   {
     slug: "what-palliative-care-actually-is",
@@ -375,6 +462,11 @@ export const ARTICLES: Article[] = [
     description:
       "Symptom control, home visits, and support for the whole family, available months or years before the end.",
     image: "/images/help/palliative-care-hero.svg",
+    takeaways: [
+      "Palliative care runs alongside treatment, not instead of it, and starting early makes people feel better and sometimes live longer.",
+      "The team controls pain and other symptoms, makes home visits, arranges equipment, and leaves a plan for the 2 a.m. crisis.",
+      "Ask the doctor directly for a referral or call Ontario Health atHome at 310-2222, because families often have to raise it first.",
+    ],
   },
   {
     slug: "hospice-at-home-or-residence",
@@ -384,6 +476,11 @@ export const ARTICLES: Article[] = [
     description:
       "What each setting really involves, why hospice is free in Ontario, and the benefits that pay family caregivers.",
     image: "/images/help/hospice-options-hero.svg",
+    takeaways: [
+      "Residential hospice care is free to families in Ontario, but beds are limited, so start the referral early.",
+      "Dying at home works when the after-hours number, the symptom kit, and a signed DNR confirmation are all in place.",
+      "EI compassionate care benefits pay up to 26 weeks to family members who leave work, and the weeks can be shared.",
+    ],
   },
   {
     slug: "meal-delivery-options",
@@ -393,6 +490,11 @@ export const ARTICLES: Article[] = [
     description:
       "Community meal programs, frozen delivery companies, grocery delivery, and dining programs, with real prices.",
     image: "/images/help/meal-delivery-hero.svg",
+    takeaways: [
+      "Meals on Wheels delivers hot lunches for roughly $7 to $12 a meal, and every delivery doubles as a wellness check.",
+      "Call 211 to find the program serving your address, and delivery can often start within a week or two.",
+      "A layered plan combining Meals on Wheels, frozen delivery, and grocery delivery runs roughly $250 to $400 a month.",
+    ],
   },
   {
     slug: "when-a-senior-stops-eating-well",
@@ -402,6 +504,11 @@ export const ARTICLES: Article[] = [
     description:
       "The warning signs of malnutrition, the causes families miss, and the fixes that work at every budget.",
     image: "/images/help/eating-well-hero.svg",
+    takeaways: [
+      "Visible weight loss, an emptying fridge, and the same few foods on repeat are warning signs worth acting on now.",
+      "See the doctor and the dentist first, because medications, dental pain, and depression are the usual hidden causes.",
+      "Company at meals, delivered food, and easy protein snacks get more eaten than any lecture about nutrition.",
+    ],
   },
   {
     slug: "senior-move-managers",
@@ -411,6 +518,11 @@ export const ARTICLES: Article[] = [
     description:
       "What move managers actually do, what they cost, and the questions that find a good one.",
     image: "/images/help/move-managers-hero.svg",
+    takeaways: [
+      "Most Canadian senior move managers charge $50 to $95 an hour, and a typical downsizing runs $2,500 to $7,500 in fees.",
+      "Ask about NASMM membership, insurance, a written estimate after a home visit, and any commission on items they sell.",
+      "Services are modular, so families on a budget can buy just the floor plan, sorting sessions, and move-day supervision.",
+    ],
   },
   {
     slug: "sorting-a-lifetime-of-belongings",
@@ -419,6 +531,11 @@ export const ARTICLES: Article[] = [
     description:
       "The ground rules that prevent family fights, what things are really worth, and where everything can honestly go.",
     image: "/images/help/sorting-belongings-hero.svg",
+    takeaways: [
+      "Agree on two rules before starting: the senior decides what stays, and nothing sentimental leaves in secret.",
+      "Start with a floor plan of the new home and the least sentimental room, never with the photographs.",
+      "Most brown furniture, china, and silver-plate has little resale value, so donation is often faster and kinder than a sale.",
+    ],
   },
   {
     slug: "choosing-a-medical-alert-system",
@@ -428,6 +545,11 @@ export const ARTICLES: Article[] = [
     description:
       "What these devices do, what they cost, the questions to ask any provider before signing, and who helps pay in Ontario.",
     image: "/images/help/medical-alert-hero.svg",
+    takeaways: [
+      "Expect to pay $25 to $60 a month privately, because Ontario does not broadly fund medical alert services.",
+      "Ask every provider about all-in monthly cost, contract term, and cancellation, since billing surprises are the industry's biggest complaint.",
+      "A device only works when worn, so let your parent choose one they will actually wear.",
+    ],
   },
   {
     slug: "paying-for-care",
@@ -436,6 +558,11 @@ export const ARTICLES: Article[] = [
     description:
       "The six layers families should use in order, from public programs to the family home, and the honest case for and against each.",
     image: "/images/help/paying-for-care-hero.svg",
+    takeaways: [
+      "Use the layers in order: public programs, tax credits, unclaimed benefits, insurance, family money, and the home last.",
+      "One call to Ontario Health atHome (310-2222) or 211 opens the file on publicly funded home care and equipment.",
+      "The disability tax credit can be claimed retroactively up to ten years, and dementia frequently qualifies.",
+    ],
   },
   {
     slug: "five-legal-documents",
@@ -444,6 +571,11 @@ export const ARTICLES: Article[] = [
     description:
       "Wills, powers of attorney, and written wishes, why early is everything, and what to do if it already feels too late.",
     image: "/images/help/legal-documents-hero.svg",
+    takeaways: [
+      "Every one of these documents can only be made while the person still has mental capacity, so early is everything.",
+      "The five are a will, two powers of attorney, written medical wishes, and a personal inventory of where everything is.",
+      "Without a financial power of attorney, family must go through a slow and expensive court process to manage a parent's money.",
+    ],
   },
   {
     slug: "fall-proofing-the-home",
@@ -453,6 +585,11 @@ export const ARTICLES: Article[] = [
       "The highest-value safety fixes in every room, what each one costs, and the order to do them in.",
     image: "/images/help/fallproofing-home-hero.svg",
     affiliate: true,
+    takeaways: [
+      "Do the free fixes first: secure loose rugs, reroute cords, clear the stairs, and move daily items to waist height.",
+      "Grab bars anchored into studs cost $20 to $40 each, and towel bars are not grab bars.",
+      "Ask the doctor about OHIP-covered physiotherapy at 65 and older, since strength and balance cut fall risk more than any gadget.",
+    ],
   },
   {
     slug: "choosing-a-walker-or-rollator",
@@ -463,6 +600,11 @@ export const ARTICLES: Article[] = [
       "Which device fits which need, why the assessment must come before the purchase, and how the Assistive Devices Program covers 75 percent.",
     image: "/images/help/walker-rollator-hero.svg",
     affiliate: true,
+    takeaways: [
+      "Get the therapist assessment before buying, because Ontario's Assistive Devices Program only pays its 75 percent on prescribed devices.",
+      "Rollators suit people who can walk but tire, while standard walkers are for anyone who leans real weight on the frame.",
+      "Call the family doctor or Ontario Health atHome (310-2222) to arrange the assessment, which is often free.",
+    ],
   },
   {
     slug: "stairlifts-and-home-modifications",
@@ -472,6 +614,11 @@ export const ARTICLES: Article[] = [
     description:
       "What major accessibility work really costs, the funding that exists, and how to buy it without being taken.",
     image: "/images/help/stairlift-hero.svg",
+    takeaways: [
+      "A straight stairlift runs $3,000 to $5,500 installed, and reconditioned or rented lifts cost about half.",
+      "Get an occupational therapist's home assessment first, often free through Ontario Health atHome (310-2222), before buying anything big.",
+      "Never sign on the first visit, and get three written quotes for any job over $2,000.",
+    ],
   },
   {
     slug: "touring-retirement-residences",
@@ -481,6 +628,11 @@ export const ARTICLES: Article[] = [
     description:
       "A former bank compliance professional's guide to seeing past the lobby, with a printable tour checklist.",
     image: "/images/help/residence-tour-hero.svg",
+    takeaways: [
+      "Check the residence on the RHRA register (rhra.ca) and get the full rate card in writing before you tour.",
+      "Visit twice and make the second visit unannounced at a mealtime or weekend evening when staffing is thinnest.",
+      "Ask what care needs would force a resident to leave and get the discharge policy in writing.",
+    ],
   },
   {
     slug: "independent-assisted-memory-care",
@@ -490,6 +642,11 @@ export const ARTICLES: Article[] = [
     description:
       "The four levels explained in plain language, what each costs in Ontario, and the crucial difference between retirement homes and long-term care.",
     image: "/images/help/residence-levels-hero.svg",
+    takeaways: [
+      "Retirement residences are private pay while long-term care is publicly funded, and the two have different front doors and waitlists.",
+      "Ontario costs run roughly $2,500 to $5,000 a month for independent living and $6,000 to $9,000 or more for memory care.",
+      "Price the real care level, not the advertised base rate, because care packages can add thousands a month.",
+    ],
   },
   {
     slug: "when-driving-ends",
@@ -499,6 +656,11 @@ export const ARTICLES: Article[] = [
     description:
       "The warning signs, Ontario's licence renewal system at 80, and how to have the hardest conversation without destroying trust.",
     image: "/images/help/driving-retirement-hero.svg",
+    takeaways: [
+      "Watch patterns like new dents, getting lost on familiar routes, and family quietly declining rides, not birthdays.",
+      "At 80, Ontario drivers renew every two years with a vision test and screening, and doctors must report unsafe medical conditions.",
+      "Build the replacement ride plan before the conversation, and remember a car costs $8,000 to $12,000 a year that can fund rides.",
+    ],
   },
   {
     slug: "getting-to-appointments",
@@ -508,6 +670,11 @@ export const ARTICLES: Article[] = [
     description:
       "Community transport, para-transit, volunteer drivers, and private options, what each costs, and how to actually book them.",
     image: "/images/help/rides-appointments-hero.svg",
+    takeaways: [
+      "Call 211 first, because it is the free 24/7 line that knows which community ride programs serve your postal code.",
+      "Community agencies run door-to-door seniors' rides for free to about $20 a trip, and para-transit matches regular transit fares.",
+      "Family members can book and pay for Uber or Lyft rides for a senior from their own app, no smartphone required.",
+    ],
   },
   {
     slug: "hearing-aids-without-overpaying",
@@ -518,6 +685,11 @@ export const ARTICLES: Article[] = [
       "Why hearing aids cost thousands, what Ontario's Assistive Devices Program covers, and the questions that protect you in the clinic.",
     image: "/images/help/hearing-aids-hero.svg",
     affiliate: true,
+    takeaways: [
+      "Hearing aids run roughly $1,000 to $4,000 per ear, so ask for the unbundled price list before agreeing to anything.",
+      "Ontario's Assistive Devices Program pays $500 per hearing aid, and the clinic usually handles the paperwork.",
+      "The audiogram is yours, so take a copy and price-shop, because spreads on the same device routinely top a thousand dollars.",
+    ],
   },
   {
     slug: "vision-care-after-65",
@@ -528,6 +700,11 @@ export const ARTICLES: Article[] = [
       "Eye exams, cataracts, glasses, and the practical supports that keep low vision from becoming lost independence.",
     image: "/images/help/vision-care-hero.svg",
     affiliate: true,
+    takeaways: [
+      "OHIP covers routine eye exams for seniors 65 and older and cataract surgery, but glasses are not covered.",
+      "Book the exam even when nothing feels wrong, because glaucoma and macular degeneration steal vision silently and irreversibly.",
+      "CNIB (1-800-563-2642) offers free practical help for anyone with vision loss, and brighter lighting is the cheapest vision aid.",
+    ],
   },
   {
     slug: "funeral-preplanning-guide",
@@ -536,6 +713,11 @@ export const ARTICLES: Article[] = [
     description:
       "Recording wishes, comparing funeral homes, and the truth about prepaying, with a printable worksheet.",
     image: "/images/help/funeral-preplanning-hero.svg",
+    takeaways: [
+      "Recording wishes is free and every family should do it now, while prepaying is a separate financial decision.",
+      "Direct cremation runs $1,500 to $4,000 and traditional burial can pass $20,000, with huge price spreads between providers in the same city.",
+      "Ontario providers must give an itemized price list, and caskets and urns can legally be bought elsewhere.",
+    ],
   },
   {
     slug: "what-executors-actually-do",
@@ -545,6 +727,11 @@ export const ARTICLES: Article[] = [
     description:
       "The first two weeks, the first year, probate in plain language, and when to pay for help.",
     image: "/images/help/executor-guide-hero.svg",
+    takeaways: [
+      "In the first two weeks, find the will, order about ten death certificates, secure the house, and call the home insurer.",
+      "Never distribute money before the CRA clearance certificate, or any tax shortfall becomes personally yours.",
+      "Ontario executors can claim compensation up to about 5 percent of the estate, and declining the job is allowed.",
+    ],
   },
   {
     slug: "hiring-trades-seniors-can-trust",
@@ -554,6 +741,11 @@ export const ARTICLES: Article[] = [
     description:
       "Licence checks, insurance proof, quotes in writing, and the door-knocker scams that target seniors' homes.",
     image: "/images/help/hiring-trades-hero.svg",
+    takeaways: [
+      "Verify the licence, get insurance in writing, and check WSIB clearance free at wsib.ca before anyone starts work.",
+      "Get three written quotes for anything over $1,000 and hold back a real final payment until the work is inspected.",
+      "Agree as a family that nothing over $500 gets decided at the door, because door-knocker scams target seniors' homes.",
+    ],
   },
   {
     slug: "aging-in-place-maintenance-plan",
@@ -563,6 +755,11 @@ export const ARTICLES: Article[] = [
     description:
       "The seasonal rhythm that keeps a senior's home safe, which tasks to hand off first, and the printable walkthrough.",
     image: "/images/help/seasonal-maintenance-hero.svg",
+    takeaways: [
+      "Schedule the safety-critical tasks first: alarms tested, furnace serviced, eaves cleaned, and snow removal contracted by the end of October.",
+      "Hand off ladders and snow shovelling permanently, because roof falls and shovelling heart strain are the two big dangers.",
+      "Budget roughly $1,500 to $3,000 a year for fully delegated maintenance, far cheaper than leaving the home.",
+    ],
   },
   {
     slug: "loneliness-is-a-health-risk",
@@ -572,6 +769,11 @@ export const ARTICLES: Article[] = [
     description:
       "Adult day programs, seniors' centres, friendly visiting, and phone lines, most free or subsidized, and how to get in.",
     image: "/images/help/social-programs-hero.svg",
+    takeaways: [
+      "Loneliness carries health risks researchers compare to smoking, so treat connection as a medical need, not a nicety.",
+      "Seniors' centres cost $20 to $60 a year and adult day programs run $10 to $40 a day, often subsidized.",
+      "Go along for the first two or three visits, because walking in alone is the real barrier, not the price.",
+    ],
   },
   {
     slug: "hiring-a-companion",
@@ -581,6 +783,11 @@ export const ARTICLES: Article[] = [
     description:
       "The most flexible service in senior care, the agency-versus-independent decision, and the questions that matter.",
     image: "/images/help/companionship-hero.svg",
+    takeaways: [
+      "Companion care runs roughly $25 to $40 an hour through an Ontario agency, usually with a two-to-four hour minimum.",
+      "Insist on vulnerable sector police checks and references you actually call, because character screening matters most in this service.",
+      "Check the free options through 211 first, like friendly visiting programs and day programs, then layer paid companionship on top.",
+    ],
   },
 ];
 

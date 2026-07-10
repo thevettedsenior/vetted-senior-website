@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { Page } from "@/components/SiteShell";
 import { HandbookCTA } from "@/components/HandbookCTA";
+import { SiteSearch } from "@/components/SiteSearch";
 import { IconChip, categoryIcon, situationIcon } from "@/lib/site-icons";
 import { SITUATIONS, HELP_CATEGORIES, PROVINCES, CATEGORY_GROUPS } from "@/lib/directory-data";
 
@@ -59,7 +60,10 @@ function Home() {
             <p className="mt-3 text-lg font-medium text-muted-foreground">
               No jargon. No pressure. No paid placements.
             </p>
-            <div className="mt-9 flex flex-wrap gap-4">
+            <div className="mt-8">
+              <SiteSearch />
+            </div>
+            <div className="mt-7 flex flex-wrap gap-4">
               <a
                 href="#situations"
                 className="inline-flex min-h-14 items-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-semibold text-primary-foreground no-underline shadow-[var(--shadow-cta)] transition-all hover:-translate-y-0.5 hover:opacity-95"

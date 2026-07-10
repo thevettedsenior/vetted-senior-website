@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import { Page } from "@/components/SiteShell";
+import { ArticleTools, ShortVersion } from "@/components/ArticleTools";
 import { OntarioModule } from "@/components/OntarioModule";
 import { HandbookCTA } from "@/components/HandbookCTA";
 import { findSituation } from "@/lib/directory-data";
@@ -3527,7 +3528,7 @@ function SituationGuidePage() {
   return (
     <Page>
       <section
-        className="relative flex min-h-[300px] flex-col justify-end bg-cover bg-center md:min-h-[400px]"
+        className="article-hero relative flex min-h-[300px] flex-col justify-end bg-cover bg-center md:min-h-[400px]"
         style={{ backgroundImage: `url(/images/situations/${situation.slug}.jpeg)` }}
       >
         <div className="absolute inset-0 bg-black/60" aria-hidden />
@@ -3550,8 +3551,12 @@ function SituationGuidePage() {
       </section>
 
       {sections && (
-        <section className="mx-auto max-w-4xl px-6 py-12">
-          <div className="space-y-12">
+        <section className="mx-auto max-w-4xl px-6 py-10">
+          <div className="space-y-8">
+            <ArticleTools sourceId="guide-content" kind="guide" />
+            <ShortVersion takeaways={situation.takeaways} />
+          </div>
+          <div id="guide-content" className="mt-12 space-y-12">
             {sections.map((section) => (
               <div key={section.part}>
                 <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
@@ -3568,11 +3573,11 @@ function SituationGuidePage() {
 
       <OntarioModule slug={situation.slug} />
 
-      <section className="mx-auto max-w-4xl px-6 pb-12">
+      <section className="no-print mx-auto max-w-4xl px-6 pb-12">
         <HandbookCTA compact />
       </section>
 
-      <section className="border-t border-border bg-secondary/40">
+      <section className="no-print border-t border-border bg-secondary/40">
         <div className="mx-auto max-w-4xl px-6 py-12">
           <h2 className="font-serif text-2xl font-semibold text-primary">
             Know what kind of help you need?

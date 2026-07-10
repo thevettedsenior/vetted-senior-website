@@ -1,5 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
+import { ArticleTools, ShortVersion } from "@/components/ArticleTools";
 import { AffiliateDisclosure } from "@/components/Affiliate";
 import { findArticle, findHelpCategory } from "@/lib/directory-data";
 import { articleJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -49,7 +50,7 @@ function ArticlePage() {
     <Page>
       {article.affiliate && <AffiliateDisclosure />}
       <section
-        className="relative flex min-h-[300px] flex-col justify-end bg-cover bg-center md:min-h-[400px]"
+        className="article-hero relative flex min-h-[300px] flex-col justify-end bg-cover bg-center md:min-h-[400px]"
         style={{ backgroundImage: `url(${article.image})` }}
       >
         <div className="absolute inset-0 bg-black/60" aria-hidden />
@@ -73,8 +74,12 @@ function ArticlePage() {
       </section>
 
       {sections && (
-        <section className="mx-auto max-w-4xl px-6 py-12">
-          <div className="space-y-12">
+        <section className="mx-auto max-w-4xl px-6 py-10">
+          <div className="space-y-8">
+            <ArticleTools sourceId="article-content" kind="article" />
+            <ShortVersion takeaways={article.takeaways} />
+          </div>
+          <div id="article-content" className="mt-12 space-y-12">
             {sections.map((section) => (
               <div key={section.heading}>
                 <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
@@ -89,7 +94,7 @@ function ArticlePage() {
         </section>
       )}
 
-      <section className="border-t border-border bg-secondary/40">
+      <section className="no-print border-t border-border bg-secondary/40">
         <div className="mx-auto max-w-4xl px-6 py-12">
           <h2 className="font-serif text-2xl font-semibold text-primary">
             Looking for a vetted provider?

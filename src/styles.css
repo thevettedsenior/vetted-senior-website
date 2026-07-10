@@ -189,3 +189,48 @@
     transform: translateY(-3px);
   }
 }
+
+/* ── Print: guides and articles come out as clean large-print documents ── */
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    color: black;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  /* Article/guide hero: drop the photo and overlay, print the title in ink */
+  .article-hero {
+    background-image: none !important;
+    min-height: 0 !important;
+    padding-top: 0;
+  }
+
+  .article-hero > div[aria-hidden] {
+    display: none !important;
+  }
+
+  .article-hero h1,
+  .article-hero p,
+  .article-hero a,
+  .article-hero span {
+    color: black !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .lift-card,
+  .lift-card:hover {
+    box-shadow: none;
+    transform: none;
+  }
+}
