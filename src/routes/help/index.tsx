@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
+import { IconChip, categoryIcon } from "@/lib/site-icons";
 import { CATEGORY_GROUPS, HELP_CATEGORIES } from "@/lib/directory-data";
 
 export const Route = createFileRoute("/help/")({
@@ -45,16 +46,16 @@ function HelpPage() {
                 <Link
                   to="/help/$category"
                   params={{ category: c.slug }}
-                  className="group flex h-full flex-col rounded-2xl border-2 border-border bg-card p-7 no-underline transition-all hover:border-gold hover:shadow-sm"
+                  className="lift-card group flex h-full flex-col rounded-2xl border border-border bg-card p-7 no-underline hover:border-gold"
                 >
-                  <span aria-hidden className="text-4xl">{c.icon}</span>
+                  <IconChip icon={categoryIcon(c.slug)} />
                   <span className="mt-4 font-serif text-2xl text-primary">
                     {c.name}
                   </span>
                   <span className="mt-3 text-base text-foreground/75 flex-1 leading-relaxed">
                     {c.description}
                   </span>
-                  <span className="mt-5 text-sm font-semibold text-gold">
+                  <span className="mt-5 text-sm font-semibold text-gold-deep">
                     Guides & services →
                   </span>
                 </Link>

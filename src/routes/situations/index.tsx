@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
+import { IconChip, situationIcon } from "@/lib/site-icons";
 import { SITUATIONS } from "@/lib/directory-data";
 
 export const Route = createFileRoute("/situations/")({
@@ -46,16 +47,16 @@ function SituationsPage() {
               <Link
                 to="/situations/$slug"
                 params={{ slug: s.slug }}
-                className="group flex h-full flex-col rounded-2xl border-2 border-border bg-card p-7 no-underline transition-all hover:border-gold hover:shadow-sm"
+                className="lift-card group flex h-full flex-col rounded-2xl border border-border bg-card p-7 no-underline hover:border-gold"
               >
-                <span aria-hidden className="text-4xl">{s.icon}</span>
+                <IconChip icon={situationIcon(s.slug)} />
                 <span className="mt-4 font-serif text-2xl text-primary">
                   {s.title}
                 </span>
                 <span className="mt-3 text-base text-foreground/75 flex-1 leading-relaxed">
                   {s.description}
                 </span>
-                <span className="mt-5 text-sm font-semibold text-gold">
+                <span className="mt-5 text-sm font-semibold text-gold-deep">
                   Read the guide →
                 </span>
               </Link>
@@ -75,9 +76,9 @@ function SituationsPage() {
               {soon.map((s) => (
                 <li
                   key={s.slug}
-                  className="flex flex-col rounded-2xl border border-border/50 bg-card/50 p-6 opacity-60"
+                  className="flex flex-col rounded-2xl border border-dashed border-border bg-card/50 p-6"
                 >
-                  <span aria-hidden className="text-3xl">{s.icon}</span>
+                  <IconChip icon={situationIcon(s.slug)} className="opacity-50" />
                   <span className="mt-3 font-serif text-lg text-primary">
                     {s.title}
                   </span>
