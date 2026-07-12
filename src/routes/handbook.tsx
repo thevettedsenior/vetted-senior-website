@@ -58,7 +58,7 @@ const SECTIONS = [
     n: "5",
     title: "Making the Home Safe",
     blurb:
-      "The room-by-room walkthrough that prevents the fall instead of responding to it.",
+      "The room by room walkthrough that prevents the fall instead of responding to it.",
   },
   {
     n: "6",
@@ -133,7 +133,7 @@ function HandbookPage() {
               </a>
             </div>
             <p className="mt-4 text-base text-muted-foreground">
-              Print it. This is a fridge-and-kitchen-table document, not a
+              Print it. This is a document for the fridge door and the kitchen table, not a
               someday-file.
             </p>
           </div>

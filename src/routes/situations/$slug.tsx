@@ -734,7 +734,7 @@ const GUIDES: Record<string, Section[]> = {
           </ul>
           <h3 className="font-serif text-xl text-primary">For a memory care residence</h3>
           <ul className="list-disc space-y-2 pl-6">
-            <li>What is the staff-to-resident ratio?</li>
+            <li>What is the ratio of staff to residents?</li>
             <li>How are staff trained in dementia care?</li>
             <li>What does a typical day look like for residents?</li>
             <li>How do you handle wandering and agitation?</li>

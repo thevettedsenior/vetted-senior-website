@@ -104,7 +104,7 @@ function GetVettedPage() {
           </ol>
           <p className="mt-6 text-base text-muted-foreground">
             The full methodology, including the five criteria and the
-            four-of-five rule, is published on{" "}
+            four of five rule, is published on{" "}
             <Link to="/about" className="text-primary underline">
               How We Vet
             </Link>

@@ -140,7 +140,7 @@ export const EVERYDAY_HOWTOS: ArticleContentMap = {
             <li>
               <strong>A swivel cushion</strong> ($30 to $50): a rotating disc
               that sits on the seat and turns the swivel step into one smooth
-              motion. The single best dollar-for-dollar transfer aid.
+              motion. The most useful transfer aid you can buy for the money.
             </li>
             <li>
               <strong>A portable support handle</strong>, often sold as a car

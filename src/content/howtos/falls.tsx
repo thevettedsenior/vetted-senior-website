@@ -140,9 +140,9 @@ export const FALLS_HOWTOS: ArticleContentMap = {
           <p>
             If practising reveals that getting up is genuinely not possible even
             fresh and calm, that is vital information gained safely: it moves
-            fall detection from nice-to-have to essential, and it is worth
-            raising at the next doctor's visit along with a referral for
-            strength work like{" "}
+            fall detection from optional to essential, and it is worth raising
+            at the next doctor's visit along with a referral for strength work
+            like{" "}
             <Link
               to="/how-to/$slug"
               params={{ slug: "how-to-do-balance-exercises-at-home" }}
@@ -314,15 +314,15 @@ export const FALLS_HOWTOS: ArticleContentMap = {
             </strong>
             , controlling the speed. A slow, guided arrival on the floor with
             nothing broken is a success. Then, once you have both had a breath,
-            it becomes a calm, unhurried{" "}
+            what follows is simply{" "}
             <Link
               to="/how-to/$slug"
               params={{ slug: "how-to-get-up-after-a-fall" }}
               className="text-primary underline"
             >
-              getting-up-from-the-floor
+              getting up from the floor
             </Link>{" "}
-            situation, not an emergency.
+            at an easy pace, not an emergency.
           </p>
         </>
       ),
@@ -411,8 +411,8 @@ export const FALLS_HOWTOS: ArticleContentMap = {
               <strong>Bar one: vertical, at the tub or shower entry.</strong> An
               18-to-24-inch bar mounted vertically at the edge where you step
               in, lower end starting 32 to 36 inches off the floor. A vertical
-              bar suits hands of any height and the pull-yourself- over-the-edge
-              motion of entry.
+              bar suits hands of any height and the pulling motion of stepping
+              over the edge.
             </li>
             <li>
               <strong>Bar two: horizontal, on the long wall inside.</strong>{" "}
@@ -434,7 +434,7 @@ export const FALLS_HOWTOS: ArticleContentMap = {
             from Canadian accessibility standards, but the person outranks the
             code: have them mime stepping in, sitting, and standing, and watch
             where the hand reaches. A bar an inch from the natural grab point
-            beats a code-perfect bar six inches from it.
+            beats a textbook bar six inches from it.
           </p>
         </>
       ),
@@ -525,8 +525,8 @@ export const FALLS_HOWTOS: ArticleContentMap = {
           <p>
             Solid stainless bars run $20 to $60 each; professional installation
             typically lands at $100 to $200 per bar all-in, less per bar when
-            several are done in one visit. A complete three-bar bathroom is a
-            few-hundred-dollar project, which is rounding error next to one
+            several are done in one visit. A complete three-bar bathroom comes
+            to a few hundred dollars, which is rounding error next to one
             fall-related hospital stay.
           </p>
           <p>

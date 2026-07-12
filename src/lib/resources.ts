@@ -99,7 +99,7 @@ export const RESOURCES: Resource[] = [
     file: "/checklists/TVS_HM1_SeasonalHomeSafety.pdf",
     title: "Seasonal Home Safety Checklist",
     description:
-      "The twice-a-year walkthrough that keeps a senior's home safe, plus the fall and spring task lists and a handyperson sheet.",
+      "The twice a year walkthrough that keeps a senior's home safe, plus the fall and spring task lists and a handyperson sheet.",
     group: "Home maintenance",
     pages: "Seasonal walkthrough",
   },

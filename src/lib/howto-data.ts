@@ -260,7 +260,7 @@ export const HOW_TOS: HowTo[] = [
       "How to Do Balance Exercises at Home: The Five That Actually Prevent Falls",
     shortTitle: "Balance exercises at home",
     description:
-      "Sit-to-stands, heel raises, tandem stance, and the counter-top routine, based on the exercises proven to cut falls by about a third.",
+      "Sit-to-stands, heel raises, tandem stance, and the kitchen counter routine, based on the exercises proven to cut falls by about a third.",
     image: "/images/howto/balance-hero.svg",
     minutes: 8,
     takeaways: [
@@ -298,7 +298,7 @@ export const HOW_TOS: HowTo[] = [
       {
         question: "What are the best balance exercises for seniors?",
         answer:
-          "The exercises with the strongest evidence are functional strength and balance moves done consistently: sit-to-stands from a chair, heel and toe raises, tandem (heel-to-toe) standing and walking, single-leg stands with support, and side leg raises. These are the core of programs like Otago, which reduced falls by around 35 percent in trials. Tai chi also has strong evidence. The key is doing them two to three times a week, and progressing difficulty gradually.",
+          "The exercises with the strongest evidence are functional strength and balance moves done consistently: sit-to-stands from a chair, heel and toe raises, tandem standing and walking (one foot directly in front of the other), single-leg stands with support, and side leg raises. These are the core of programs like Otago, which reduced falls by around 35 percent in trials. Tai chi also has strong evidence. The key is doing them two to three times a week, and progressing difficulty gradually.",
       },
       {
         question: "Is walking enough to prevent falls?",
@@ -473,7 +473,7 @@ export const HOW_TOS: HowTo[] = [
       "How to Place Grab Bars: Exact Heights and Positions That Actually Help",
     shortTitle: "Where to place grab bars",
     description:
-      "The three bars every bathroom needs, the 33-to-36-inch rule, why towel bars and suction cups fail, and what installation costs.",
+      "The three bars every bathroom needs, the 33 to 36 inch rule, why towel bars and suction cups fail, and what installation costs.",
     image: "/images/howto/grab-bars-hero.svg",
     minutes: 7,
     takeaways: [
@@ -544,7 +544,7 @@ export const HOW_TOS: HowTo[] = [
     title: "How to Get In and Out of a Car Safely: Sit First, Swivel Second",
     shortTitle: "How to get in and out of a car",
     description:
-      "The backwards-in method, the nose-over-toes exit, how a helper should help, and the two cheap gadgets that make it easier.",
+      "Backing in and sitting first, the nose over toes exit, how a helper should help, and the two cheap gadgets that make it easier.",
     image: "/images/howto/car-transfer-hero.svg",
     minutes: 6,
     takeaways: [
@@ -587,7 +587,7 @@ export const HOW_TOS: HowTo[] = [
       {
         question: "What gadgets help with car transfers?",
         answer:
-          "Two cheap ones do most of the work. A swivel cushion, around 30 to 50 dollars, is a rotating disc on the seat that turns the sit-then-swivel move into one smooth motion. A portable support handle, often called a car cane, slots into the door latch and gives a solid vertical grip for pushing up, around 20 to 40 dollars. A leg lifter strap helps a weak leg in after hip surgery. For anyone in a wheelchair, transfers deserve a proper occupational therapy consult rather than gadgets.",
+          "Two cheap ones do most of the work. A swivel cushion, around 30 to 50 dollars, is a rotating disc on the seat that turns the sit and swivel into one smooth motion. A portable support handle, often called a car cane, slots into the door latch and gives a solid vertical grip for pushing up, around 20 to 40 dollars. A leg lifter strap helps a weak leg in after hip surgery. For anyone in a wheelchair, transfers deserve a proper occupational therapy consult rather than gadgets.",
       },
       {
         question: "How do you help someone out of a car without hurting them?",
@@ -680,7 +680,7 @@ export const HOW_TOS: HowTo[] = [
       "How to Spot a Scam Aimed at Seniors: The Five Red Flags and the One Rule",
     shortTitle: "How to spot a scam",
     description:
-      "The grandparent scam, fake CRA calls, bank impostors, and AI voice cloning, plus the hang-up-and-call-back rule that defeats nearly all of them.",
+      "The grandparent scam, fake CRA calls, bank impostors, and AI voice cloning, plus the one rule of hanging up and calling back that defeats nearly all of them.",
     image: "/images/howto/spot-scam-hero.svg",
     minutes: 9,
     takeaways: [

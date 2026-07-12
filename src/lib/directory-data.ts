@@ -312,7 +312,8 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     slug: "meals-nutrition",
     name: "Meals & Nutrition",
     shortName: "Meals & Nutrition",
-    description: "Meal delivery, Meals on Wheels, and help eating well at home.",
+    description:
+      "Meal delivery, Meals on Wheels, and help eating well at home.",
     icon: "🍲",
     group: "Practical & Legal",
     intro:
@@ -751,7 +752,7 @@ export const ARTICLES: Article[] = [
     slug: "aging-in-place-maintenance-plan",
     categorySlug: "home-maintenance",
     title:
-      "The Aging-in-Place Maintenance Plan: Keeping the Home an Asset, Not a Hazard",
+      "The Aging in Place Maintenance Plan: Keeping the Home an Asset, Not a Hazard",
     description:
       "The seasonal rhythm that keeps a senior's home safe, which tasks to hand off first, and the printable walkthrough.",
     image: "/images/help/seasonal-maintenance-hero.svg",
@@ -781,10 +782,10 @@ export const ARTICLES: Article[] = [
     title:
       "Hiring a Paid Companion: What They Do, What They Cost, and How to Choose Well",
     description:
-      "The most flexible service in senior care, the agency-versus-independent decision, and the questions that matter.",
+      "The most flexible service in senior care, the agency versus independent decision, and the questions that matter.",
     image: "/images/help/companionship-hero.svg",
     takeaways: [
-      "Companion care runs roughly $25 to $40 an hour through an Ontario agency, usually with a two-to-four hour minimum.",
+      "Companion care runs roughly $25 to $40 an hour through an Ontario agency, usually with a minimum visit of two to four hours.",
       "Insist on vulnerable sector police checks and references you actually call, because character screening matters most in this service.",
       "Check the free options through 211 first, like friendly visiting programs and day programs, then layer paid companionship on top.",
     ],

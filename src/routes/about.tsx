@@ -170,7 +170,7 @@ function About() {
       <section className="border-t border-border bg-secondary/40">
         <div className="mx-auto max-w-4xl px-6 py-14">
           <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
-            The five criteria, and the four-of-five rule
+            The five criteria, and the four of five rule
           </h2>
           <p className="mt-3 text-lg text-foreground/85 leading-relaxed">
             Every provider is scored pass, marginal, or fail on each of these,

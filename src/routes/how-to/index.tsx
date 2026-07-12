@@ -37,7 +37,7 @@ function HowToHubPage() {
             <span>How-To Guides</span>
           </p>
           <p className="eyebrow mt-6 !text-gold">Skills, not shopping</p>
-          <h1 className="mt-3 font-serif text-3xl font-semibold md:text-5xl">
+          <h1 className="mt-3 font-serif text-4xl font-semibold text-primary-foreground md:text-6xl">
             How-To Guides
           </h1>
           <p className="mt-4 max-w-2xl text-lg leading-relaxed opacity-90 md:text-xl">

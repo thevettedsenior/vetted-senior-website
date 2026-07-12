@@ -9,12 +9,12 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
       body: (
         <>
           <p>
-            Falls are the leading cause of injury hospitalization among
-            Canadian seniors, and between a quarter and a third of adults over
-            65 fall each year. Here is the part that should change how you
-            spend a Saturday: most of those falls happen at home, on familiar
-            ground, and a large share of them are preventable with changes
-            that cost less than a single month of home care.
+            Falls are the leading cause of injury hospitalization among Canadian
+            seniors, and between a quarter and a third of adults over 65 fall
+            each year. Here is the part that should change how you spend a
+            Saturday: most of those falls happen at home, on familiar ground,
+            and a large share of them are preventable with changes that cost
+            less than a single month of home care.
           </p>
           <p>
             This guide goes room by room, in the order of risk. Do the free
@@ -34,10 +34,10 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
             weekend.
           </p>
           <p>
-            One rule before you buy anything: walk the house with the person
-            who lives there, not around them. A safety change that gets
-            removed the day you leave protects nobody, and seniors remove
-            things that were installed at them rather than with them.
+            One rule before you buy anything: walk the house with the person who
+            lives there, not around them. A safety change that gets removed the
+            day you leave protects nobody, and seniors remove things that were
+            installed at them rather than with them.
           </p>
         </>
       ),
@@ -47,17 +47,17 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
       body: (
         <>
           <p>
-            Wet, hard, and full of awkward movements. If you only fix one
-            room, fix this one.
+            Wet, hard, and full of awkward movements. If you only fix one room,
+            fix this one.
           </p>
           <ul className="list-disc space-y-2 pl-6">
             <li>
-              <strong>Grab bars, anchored into studs</strong> (about $20 to
-              $40 each, plus an hour of installation): one vertical at the
-              shower entry, one horizontal or diagonal inside, one beside the
-              toilet. Towel bars are not grab bars; they pull out of drywall
-              under a fraction of body weight. Look for bars rated to at
-              least 250 pounds, like these{" "}
+              <strong>Grab bars, anchored into studs</strong> (about $20 to $40
+              each, plus an hour of installation): one vertical at the shower
+              entry, one horizontal or diagonal inside, one beside the toilet.
+              Towel bars are not grab bars; they pull out of drywall under a
+              fraction of body weight. Look for bars rated to at least 250
+              pounds, like these{" "}
               <AmazonSearchLink query="grab bar stainless 250 lb bathroom">
                 wall-mount grab bars on Amazon.ca
               </AmazonSearchLink>
@@ -74,17 +74,17 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
             </li>
             <li>
               <strong>A shower chair and handheld shower head</strong> ($40 to
-              $80 together) turn the highest-risk daily activity into a
-              seated one.
+              $80 together) turn the highest-risk daily activity into a seated
+              one.
             </li>
             <li>
-              <strong>A raised toilet seat with handles</strong> ($35 to $60)
-              if standing from low seats has become effortful. Watch for this
-              sign: using the towel bar or sink edge to pull up.
+              <strong>A raised toilet seat with handles</strong> ($35 to $60) if
+              standing from low seats has become effortful. Watch for this sign:
+              using the towel bar or sink edge to pull up.
             </li>
             <li>
-              <strong>Night path lighting</strong>: the bed-to-bathroom trip
-              at 2am is the classic fall.{" "}
+              <strong>Night path lighting</strong>: the trip from bed to
+              bathroom at 2am is the classic fall.{" "}
               <AmazonSearchLink query="motion sensor night light plug in warm white">
                 Plug-in motion-sensor night lights
               </AmazonSearchLink>{" "}
@@ -101,24 +101,24 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
         <>
           <ul className="list-disc space-y-2 pl-6">
             <li>
-              <strong>Railings on both sides, and actually solid.</strong>{" "}
-              Grab each railing and try to wobble it. A loose railing is
-              worse than none, because it betrays exactly when it is needed.
-              Adding a second railing costs roughly $100 to $300 installed
-              and is one of the highest-value changes on this whole list.
+              <strong>Railings on both sides, and actually solid.</strong> Grab
+              each railing and try to wobble it. A loose railing is worse than
+              none, because it betrays exactly when it is needed. Adding a
+              second railing costs roughly $100 to $300 installed and is one of
+              the highest-value changes on this whole list.
             </li>
             <li>
-              <strong>Light the stairs from both ends,</strong> with switches
-              at top and bottom. If rewiring is impractical,{" "}
+              <strong>Light the stairs from both ends,</strong> with switches at
+              top and bottom. If rewiring is impractical,{" "}
               <AmazonSearchLink query="motion sensor stair lights battery">
                 battery motion-sensor stair lights
               </AmazonSearchLink>{" "}
               stick on without an electrician.
             </li>
             <li>
-              <strong>Mark the edges.</strong> High-contrast tape on the nose
-              of each step helps aging eyes judge depth, especially on
-              carpeted stairs where edges blur together.
+              <strong>Mark the edges.</strong> High-contrast tape on the nose of
+              each step helps aging eyes judge depth, especially on carpeted
+              stairs where edges blur together.
             </li>
             <li>
               <strong>Nothing lives on the stairs. Ever.</strong> The pile of
@@ -136,14 +136,13 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
           <ul className="list-disc space-y-2 pl-6">
             <li>
               <strong>Rugs: secure them or retire them.</strong> Loose scatter
-              rugs are the single most common tripping hazard in Canadian
-              homes. Double-sided carpet tape costs $10; sentimental rugs can
-              move to low-traffic walls of the room.
+              rugs are the single most common tripping hazard in Canadian homes.
+              Double-sided carpet tape costs $10; sentimental rugs can move to
+              low-traffic walls of the room.
             </li>
             <li>
-              <strong>Cords out of walking paths</strong>, along walls,
-              secured with clips. Extension cords across a room are a
-              tripwire.
+              <strong>Cords out of walking paths</strong>, along walls, secured
+              with clips. Extension cords across a room are a tripwire.
             </li>
             <li>
               <strong>Bed height check:</strong> sitting on the edge, feet
@@ -151,7 +150,9 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
               different mattress fix a bed that has become a climb.
             </li>
             <li>
-              <strong>In the kitchen, move the daily things to waist height.</strong>{" "}
+              <strong>
+                In the kitchen, move the daily things to waist height.
+              </strong>{" "}
               The step stool in a senior's kitchen is a fall dressed as
               helpfulness. Everything used daily belongs between hip and
               shoulder.
@@ -162,8 +163,7 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
               takes two tries, the furniture is working against them.
             </li>
             <li>
-              <strong>Footwear indoors:</strong> socks on hardwood are a
-              hazard.{" "}
+              <strong>Footwear indoors:</strong> socks on hardwood are a hazard.{" "}
               <AmazonSearchLink query="non slip slippers seniors closed back">
                 Closed-back non-slip slippers
               </AmazonSearchLink>{" "}
@@ -179,8 +179,8 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
         <>
           <ul className="list-disc space-y-2 pl-6">
             <li>
-              <strong>Handrails at every entrance</strong>, even two steps.
-              Most entries have none, and entries are where hands are full.
+              <strong>Handrails at every entrance</strong>, even two steps. Most
+              entries have none, and entries are where hands are full.
             </li>
             <li>
               <strong>Motion-sensor lighting over each door.</strong>
@@ -206,9 +206,9 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
               <AmazonSearchLink query="ice cleats boots seniors">
                 slip-on ice cleats
               </AmazonSearchLink>
-              ) for anyone still walking outdoors in winter. One honest
-              caution: they must come off at the door; they are slippery on
-              indoor floors.
+              ) for anyone still walking outdoors in winter. One honest caution:
+              they must come off at the door; they are slippery on indoor
+              floors.
             </li>
           </ul>
         </>
@@ -221,9 +221,9 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
           <p>
             First, <strong>strength and balance are fall prevention</strong>,
             more than any gadget. Exercise programs designed for older adults
-            measurably cut fall risk, and in Ontario, OHIP covers
-            physiotherapy for people 65 and older at participating clinics. A
-            referral question at the next doctor's appointment costs nothing.
+            measurably cut fall risk, and in Ontario, OHIP covers physiotherapy
+            for people 65 and older at participating clinics. A referral
+            question at the next doctor's appointment costs nothing.
           </p>
           <p>
             Second, <strong>a plan for the fall that happens anyway.</strong>{" "}
@@ -238,11 +238,11 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
             >
               medical alert system
             </Link>{" "}
-            for anyone living alone with fall risk, and it means practicing
-            what to do on the floor: how to roll, crawl to sturdy furniture,
-            and get up, or stay warm and summon help if getting up is not
-            possible. Paramedics teach this in some community programs; ask
-            211 what exists locally.
+            for anyone living alone with fall risk, and it means practicing what
+            to do on the floor: how to roll, crawl to sturdy furniture, and get
+            up, or stay warm and summon help if getting up is not possible.
+            Paramedics teach this in some community programs; ask 211 what
+            exists locally.
           </p>
           <p className="italic">
             If a fall already happened, work through the{" "}
@@ -264,24 +264,37 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
       body: (
         <>
           <ol className="list-decimal space-y-2 pl-6">
-            <li>Free: rugs secured, cords rerouted, stairs cleared, daily items to waist height</li>
-            <li>About $30: motion-sensor night lights for the bed-to-bathroom path</li>
-            <li>About $60 to $120: grab bars at shower and toilet, installed into studs</li>
+            <li>
+              Free: rugs secured, cords rerouted, stairs cleared, daily items to
+              waist height
+            </li>
+            <li>
+              About $30: motion-sensor night lights for the path from bed to
+              bathroom
+            </li>
+            <li>
+              About $60 to $120: grab bars at shower and toilet, installed into
+              studs
+            </li>
             <li>About $20: non-slip strips in the tub</li>
             <li>About $40 to $80: shower chair and handheld shower head</li>
             <li>About $30: proper non-slip indoor footwear</li>
-            <li>About $100 to $300: second stair railing, professionally installed</li>
-            <li>Ask the doctor: OHIP-covered physiotherapy referral for strength and balance</li>
+            <li>
+              About $100 to $300: second stair railing, professionally installed
+            </li>
+            <li>
+              Ask the doctor: OHIP-covered physiotherapy referral for strength
+              and balance
+            </li>
           </ol>
           <p>
             Everything above, done completely, lands near $300 plus a
-            handyperson visit, and addresses the hazards behind the majority
-            of home falls. The{" "}
+            handyperson visit, and addresses the hazards behind the majority of
+            home falls. The{" "}
             <Link to="/handbook" className="text-primary underline">
               free Caregiver Handbook
             </Link>{" "}
-            includes the full room-by-room walkthrough as a printable
-            section.
+            includes the full room by room walkthrough as a printable section.
           </p>
         </>
       ),
@@ -293,27 +306,27 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
       body: (
         <>
           <p>
-            A medical alert system is a button your parent wears, connected to
-            a monitoring centre that answers when it is pressed, day or night.
-            The good ones turn a fall from a night on the floor into a
-            fifteen-minute wait for help. That is the whole product, and for
-            the right person it is one of the highest-value purchases in all
-            of senior care.
+            A medical alert system is a button your parent wears, connected to a
+            monitoring centre that answers when it is pressed, day or night. The
+            good ones turn a fall from a night on the floor into a
+            fifteen-minute wait for help. That is the whole product, and for the
+            right person it is one of the highest-value purchases in all of
+            senior care.
           </p>
           <p>
             The day to start considering one is the day two things become true
-            at once: your parent lives alone, and a fall risk exists. If a
-            fall has already happened, you are not early. Fear of falling
-            again often makes older adults move less, which weakens muscles,
-            which increases the risk of the next fall. A device your parent
-            trusts breaks part of that cycle.
+            at once: your parent lives alone, and a fall risk exists. If a fall
+            has already happened, you are not early. Fear of falling again often
+            makes older adults move less, which weakens muscles, which increases
+            the risk of the next fall. A device your parent trusts breaks part
+            of that cycle.
           </p>
           <p>
-            One honest limit before anything else: devices only work when
-            worn. The most sophisticated pendant in the world does nothing in
-            a drawer. Involve your parent in choosing one they will actually
-            wear, and treat "will you actually wear this" as the first
-            specification, ahead of every feature on the box.
+            One honest limit before anything else: devices only work when worn.
+            The most sophisticated pendant in the world does nothing in a
+            drawer. Involve your parent in choosing one they will actually wear,
+            and treat "will you actually wear this" as the first specification,
+            ahead of every feature on the box.
           </p>
         </>
       ),
@@ -324,24 +337,22 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
         <>
           <ul className="list-disc space-y-2 pl-6">
             <li>
-              <strong>Home-based systems:</strong> a base station connected to
-              a phone line or cellular network, with a wearable button that
-              works within range of the house. Simplest, usually cheapest,
-              right for someone who is mostly at home.
+              <strong>Home-based systems:</strong> a base station connected to a
+              phone line or cellular network, with a wearable button that works
+              within range of the house. Simplest, usually cheapest, right for
+              someone who is mostly at home.
             </li>
             <li>
               <strong>Mobile (GPS) systems:</strong> the button works anywhere
-              there is cellular coverage, and responders can locate the
-              wearer. Right for someone still out walking, shopping, or
-              driving.
+              there is cellular coverage, and responders can locate the wearer.
+              Right for someone still out walking, shopping, or driving.
             </li>
             <li>
               <strong>Fall detection:</strong> an add-on sensor that tries to
-              detect a fall and call for help automatically, for the
-              situations where someone cannot press the button. Useful, but
-              imperfect in both directions: it can miss real falls and trigger
-              on false ones. Treat it as a backup to the button, not a
-              replacement.
+              detect a fall and call for help automatically, for the situations
+              where someone cannot press the button. Useful, but imperfect in
+              both directions: it can miss real falls and trigger on false ones.
+              Treat it as a backup to the button, not a replacement.
             </li>
             <li>
               <strong>Smartwatch-style devices:</strong> alert functions built
@@ -367,10 +378,12 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
               Who answers, and in what languages?
             </li>
             <li>
-              What exactly happens when the button is pressed? Who is called,
-              in what order, and what happens if nobody answers?
+              What exactly happens when the button is pressed? Who is called, in
+              what order, and what happens if nobody answers?
             </li>
-            <li>Is fall auto-detection included, and what does it cost extra?</li>
+            <li>
+              Is fall auto-detection included, and what does it cost extra?
+            </li>
             <li>
               What does it cost month to month, all in: equipment, monitoring,
               activation, and any "protection plan" they add at checkout?
@@ -387,8 +400,8 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
           </ol>
           <p>
             Billing surprises and cancellation pain are this industry's most
-            common complaints. The answers to questions 4 and 5 predict
-            whether you will be writing an angry review in a year.
+            common complaints. The answers to questions 4 and 5 predict whether
+            you will be writing an angry review in a year.
           </p>
           <a
             href="/checklists/TVS_MA1_MedicalAlertComparison.pdf"
@@ -407,9 +420,9 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
         <>
           <p>
             The honest answer: mostly nobody. Ontario does not broadly fund
-            medical alert services, so this is usually a private purchase in
-            the range of $25 to $60 a month depending on features. Two
-            exceptions are worth checking before you pay full price:
+            medical alert services, so this is usually a private purchase in the
+            range of $25 to $60 a month depending on features. Two exceptions
+            are worth checking before you pay full price:
           </p>
           <ul className="list-disc space-y-2 pl-6">
             <li>
@@ -424,15 +437,15 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
             </li>
           </ul>
           <p>
-            The device may also count as a medical expense in some
-            circumstances at tax time; keep receipts and ask whoever prepares
-            your parent's return.
+            The device may also count as a medical expense in some circumstances
+            at tax time; keep receipts and ask whoever prepares your parent's
+            return.
           </p>
           <p className="italic">
             Transparency note, because this is that kind of site: this page
-            currently contains no affiliate links and no provider has paid to
-            be mentioned or omitted. If that ever changes, the disclosure will
-            be at the top of this page, per{" "}
+            currently contains no affiliate links and no provider has paid to be
+            mentioned or omitted. If that ever changes, the disclosure will be
+            at the top of this page, per{" "}
             <Link to="/disclosure" className="text-primary underline">
               our disclosure policy
             </Link>
@@ -450,7 +463,7 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
             plan. The others cost less and matter as much: loose rugs removed,
             paths lit from bed to bathroom, grab bars anchored into studs,
             non-slip footwear, and a weekly blister pack from the pharmacy for
-            medications. The full room-by-room walkthrough is in our free{" "}
+            medications. The full room by room walkthrough is in our free{" "}
             <Link to="/handbook" className="text-primary underline">
               Family Caregiver's Complete Handbook
             </Link>

@@ -361,8 +361,8 @@ export const MOBILITY_HOWTOS: ArticleContentMap = {
             what therapists call step-to gait, is the recommended method for
             anyone with a weak side, a sore joint, or any unsteadiness. It cuts
             the balance demand of stairs roughly in half. Nobody is timing you.
-            The alternating, foot-per-step climb of a forty-year-old is not the
-            goal; arriving at the top is.
+            The alternating climb of a forty-year-old is not the goal; arriving
+            at the top is.
           </p>
           <p>
             Rail first, every time, even for two steps, even carrying nothing,
@@ -382,8 +382,9 @@ export const MOBILITY_HOWTOS: ArticleContentMap = {
             hand and the cane in the other, using it as taught. Rail only on
             your weak side: hold the rail anyway, with the cane in the opposite
             hand. A rail beats correct cane-side theory on stairs, always. If
-            carrying the cane is awkward, hook it over your forearm or the
-            rail-side wrist rather than climbing with it dangling in your grip.
+            carrying the cane is awkward, hook it over your forearm or the wrist
+            of your rail hand rather than climbing with it dangling in your
+            grip.
           </p>
           <p>
             If the house has stairs used daily and only one rail, a second rail
@@ -406,13 +407,13 @@ export const MOBILITY_HOWTOS: ArticleContentMap = {
       body: (
         <>
           <p>
-            Laundry baskets, both-hand grocery hauls, the cat carrier: stairs
-            demand one hand for the rail at all times, so the cargo has to
-            adapt. A crossbody bag or small backpack carries most daily loads.
-            For everything else, the two-basket system works: one basket lives
-            at the top of the stairs, one at the bottom, things pile up in them,
-            and they travel only when someone with two free hands and steady
-            legs is passing anyway.
+            Laundry baskets, groceries carried in both hands, the cat carrier:
+            stairs demand one hand for the rail at all times, so the cargo has
+            to adapt. A crossbody bag or small backpack carries most daily
+            loads. For everything else, the two-basket system works: one basket
+            lives at the top of the stairs, one at the bottom, things pile up in
+            them, and they travel only when someone with two free hands and
+            steady legs is passing anyway.
           </p>
         </>
       ),
@@ -563,7 +564,7 @@ export const MOBILITY_HOWTOS: ArticleContentMap = {
             repetition dial: 10 becomes 12 becomes 15, or a second set after a
             rest. The surface dial, for later months: the same exercises
             standing on a firm cushion. When tandem stance with hovering hands
-            is easy, add tandem walking, ten heel-to-toe steps along the counter
+            is easy, add tandem walking, ten heel to toe steps along the counter
             edge.
           </p>
           <p>
