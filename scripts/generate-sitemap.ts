@@ -18,6 +18,7 @@ import {
   HELP_CATEGORIES,
   PROVINCES,
 } from "../src/lib/directory-data";
+import { HOW_TOS } from "../src/lib/howto-data";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ORIGIN = "https://thevettedsenior.com";
@@ -33,7 +34,8 @@ const gen = readFileSync(join(ROOT, "src/routeTree.gen.ts"), "utf8");
 const block = gen.match(
   /export interface FileRoutesByFullPath \{([\s\S]*?)\n\}/,
 );
-if (!block) throw new Error("FileRoutesByFullPath not found in routeTree.gen.ts");
+if (!block)
+  throw new Error("FileRoutesByFullPath not found in routeTree.gen.ts");
 const routePaths = [...block[1].matchAll(/'([^']+)':/g)].map((m) =>
   // Normalize trailing slashes ('/help/' -> '/help'), keep '/' itself.
   m[1] === "/" ? "/" : m[1].replace(/\/$/, ""),
@@ -47,6 +49,7 @@ const STATIC_META: Record<string, { changefreq: string; priority: string }> = {
   "/": { changefreq: "monthly", priority: "1.0" },
   "/situations": { changefreq: "monthly", priority: "0.9" },
   "/help": { changefreq: "monthly", priority: "0.9" },
+  "/how-to": { changefreq: "weekly", priority: "0.9" },
   "/directory": { changefreq: "weekly", priority: "0.9" },
   "/handbook": { changefreq: "monthly", priority: "0.9" },
   "/resources": { changefreq: "monthly", priority: "0.8" },
@@ -69,6 +72,12 @@ function expand(route: string): Entry[] {
     case "/help/$category":
       return HELP_CATEGORIES.map((c) => ({
         loc: `/help/${c.slug}`,
+        changefreq: "weekly",
+        priority: "0.8",
+      }));
+    case "/how-to/$slug":
+      return HOW_TOS.map((h) => ({
+        loc: `/how-to/${h.slug}`,
         changefreq: "weekly",
         priority: "0.8",
       }));
@@ -105,9 +114,7 @@ function expand(route: string): Entry[] {
   }
 }
 
-const entries = routePaths
-  .filter((r) => !EXCLUDED.has(r))
-  .flatMap(expand);
+const entries = routePaths.filter((r) => !EXCLUDED.has(r)).flatMap(expand);
 
 // Stable, readable ordering: by priority (high first), then path.
 entries.sort(
@@ -132,4 +139,6 @@ ${entries
 `;
 
 writeFileSync(join(ROOT, "public/sitemap.xml"), xml);
-console.log(`sitemap.xml: ${entries.length} URLs written to public/sitemap.xml`);
+console.log(
+  `sitemap.xml: ${entries.length} URLs written to public/sitemap.xml`,
+);

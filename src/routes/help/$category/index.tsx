@@ -6,6 +6,7 @@ import {
   findHelpCategory,
   PROVINCES,
 } from "@/lib/directory-data";
+import { howTosForCategory } from "@/lib/howto-data";
 
 export const Route = createFileRoute("/help/$category/")({
   loader: ({ params }) => {
@@ -42,6 +43,7 @@ export const Route = createFileRoute("/help/$category/")({
 function HelpCategoryPage() {
   const { category } = Route.useLoaderData();
   const articles = articlesForCategory(category.slug);
+  const howTos = howTosForCategory(category.slug);
 
   return (
     <Page>
@@ -152,6 +154,45 @@ function HelpCategoryPage() {
           </div>
         )}
       </section>
+
+      {/* ── HOW-TOS ──────────────────────────────────────────────────────── */}
+      {howTos.length > 0 && (
+        <section className="border-t border-border">
+          <div className="mx-auto max-w-4xl px-6 py-12">
+            <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
+              Step-by-step how-tos
+            </h2>
+            <p className="mt-2 text-base text-muted-foreground">
+              Short skills guides with diagrams, from our{" "}
+              <Link to="/how-to" className="text-primary underline">
+                How-To Guides
+              </Link>{" "}
+              collection.
+            </p>
+            <ul className="mt-6 grid gap-4 sm:grid-cols-2">
+              {howTos.map((howTo) => (
+                <li key={howTo.slug}>
+                  <Link
+                    to="/how-to/$slug"
+                    params={{ slug: howTo.slug }}
+                    className="flex h-full flex-col rounded-2xl border-2 border-border bg-card p-5 no-underline transition-all hover:border-gold hover:shadow-sm"
+                  >
+                    <span className="font-serif text-lg text-primary">
+                      {howTo.shortTitle}
+                    </span>
+                    <span className="mt-2 flex-1 text-sm text-foreground/75">
+                      {howTo.description}
+                    </span>
+                    <span className="mt-3 text-sm font-semibold text-gold">
+                      Read the steps →
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       {/* ── DIRECTORY ────────────────────────────────────────────────────── */}
       <section className="border-t border-border bg-secondary/40">

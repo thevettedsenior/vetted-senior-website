@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Two figures joined at the forearms, one helping the other rise">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="170" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.5"/>
+  <circle cx="920" cy="250" r="220" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.3"/>
+  <circle cx="920" cy="250" r="270" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.18"/>
+  <circle cx="860" cy="170" r="22" fill="#f5efdf"/>
+  <path d="M860 195 v95 M860 290 l-25 90 M860 290 l25 90 M860 225 l55 40" stroke="#f5efdf" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="1000" cy="215" r="22" fill="#c9a84c"/>
+  <path d="M1000 240 v70 M1000 310 l-22 70 M1000 310 l30 62 M1000 262 l-55 8" stroke="#c9a84c" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M915 265 l30 5" stroke="#f5efdf" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>

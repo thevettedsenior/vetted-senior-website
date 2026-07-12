@@ -1,15 +1,16 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { BookOpen, Compass, FolderOpen, Search } from "lucide-react";
+import { BookOpen, Compass, FolderOpen, ListChecks, Search } from "lucide-react";
 import {
   ARTICLES,
   HELP_CATEGORIES,
   SITUATIONS,
 } from "@/lib/directory-data";
+import { HOW_TOS } from "@/lib/howto-data";
 
 type SearchHit = {
   key: string;
-  kind: "situation" | "category" | "article";
+  kind: "situation" | "category" | "article" | "howto";
   title: string;
   description: string;
   score: number;
@@ -19,13 +20,15 @@ type SearchHit = {
     | {
         to: "/help/$category/$article";
         params: { category: string; article: string };
-      };
+      }
+    | { to: "/how-to/$slug"; params: { slug: string } };
 };
 
 const KIND_META = {
   situation: { label: "Guide", icon: Compass },
   category: { label: "Help topic", icon: FolderOpen },
   article: { label: "Article", icon: BookOpen },
+  howto: { label: "How-to", icon: ListChecks },
 } as const;
 
 function scoreEntry(query: string[], title: string, description: string): number {
@@ -85,6 +88,19 @@ function search(raw: string): SearchHit[] {
           to: "/help/$category/$article",
           params: { category: a.categorySlug, article: a.slug },
         },
+      });
+  }
+
+  for (const h of HOW_TOS) {
+    const score = scoreEntry(query, `${h.title} ${h.shortTitle}`, h.description);
+    if (score > 0)
+      hits.push({
+        key: `h-${h.slug}`,
+        kind: "howto",
+        title: h.shortTitle,
+        description: h.description,
+        score,
+        link: { to: "/how-to/$slug", params: { slug: h.slug } },
       });
   }
 

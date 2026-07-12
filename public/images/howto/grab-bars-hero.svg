@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Grab bar on a tiled wall illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="170" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.5"/>
+  <circle cx="920" cy="250" r="220" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.3"/>
+  <circle cx="920" cy="250" r="270" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.18"/>
+  <g stroke="#f5efdf" stroke-width="3" opacity="0.4">
+    <path d="M790 150 h300 M790 220 h300 M790 290 h300 M790 360 h300"/>
+    <path d="M865 150 v210 M940 150 v210 M1015 150 v210"/>
+  </g>
+  <path d="M830 320 L1050 210" stroke="#c9a84c" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="830" cy="320" r="16" fill="none" stroke="#c9a84c" stroke-width="7"/>
+  <circle cx="1050" cy="210" r="16" fill="none" stroke="#c9a84c" stroke-width="7"/>
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>

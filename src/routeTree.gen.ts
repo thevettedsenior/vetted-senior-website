@@ -21,9 +21,11 @@ import { Route as ContactRouteImport } from './routes/contact'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SituationsIndexRouteImport } from './routes/situations/index'
+import { Route as HowToIndexRouteImport } from './routes/how-to/index'
 import { Route as HelpIndexRouteImport } from './routes/help/index'
 import { Route as SituationsSlugRouteImport } from './routes/situations/$slug'
 import { Route as ProvinceProvinceRouteImport } from './routes/province.$province'
+import { Route as HowToSlugRouteImport } from './routes/how-to/$slug'
 import { Route as HelpCategoryIndexRouteImport } from './routes/help/$category/index'
 import { Route as ProvinceProvinceCityRouteImport } from './routes/province.$province.$city'
 import { Route as HelpCategoryArticleRouteImport } from './routes/help/$category/$article'
@@ -88,6 +90,11 @@ const SituationsIndexRoute = SituationsIndexRouteImport.update({
   path: '/situations/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HowToIndexRoute = HowToIndexRouteImport.update({
+  id: '/how-to/',
+  path: '/how-to/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const HelpIndexRoute = HelpIndexRouteImport.update({
   id: '/help/',
   path: '/help/',
@@ -101,6 +108,11 @@ const SituationsSlugRoute = SituationsSlugRouteImport.update({
 const ProvinceProvinceRoute = ProvinceProvinceRouteImport.update({
   id: '/province/$province',
   path: '/province/$province',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HowToSlugRoute = HowToSlugRouteImport.update({
+  id: '/how-to/$slug',
+  path: '/how-to/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const HelpCategoryIndexRoute = HelpCategoryIndexRouteImport.update({
@@ -131,9 +143,11 @@ export interface FileRoutesByFullPath {
   '/how-we-vet': typeof HowWeVetRoute
   '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
+  '/how-to/$slug': typeof HowToSlugRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help/': typeof HelpIndexRoute
+  '/how-to/': typeof HowToIndexRoute
   '/situations/': typeof SituationsIndexRoute
   '/help/$category/$article': typeof HelpCategoryArticleRoute
   '/province/$province/$city': typeof ProvinceProvinceCityRoute
@@ -151,9 +165,11 @@ export interface FileRoutesByTo {
   '/how-we-vet': typeof HowWeVetRoute
   '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
+  '/how-to/$slug': typeof HowToSlugRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help': typeof HelpIndexRoute
+  '/how-to': typeof HowToIndexRoute
   '/situations': typeof SituationsIndexRoute
   '/help/$category/$article': typeof HelpCategoryArticleRoute
   '/province/$province/$city': typeof ProvinceProvinceCityRoute
@@ -172,9 +188,11 @@ export interface FileRoutesById {
   '/how-we-vet': typeof HowWeVetRoute
   '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
+  '/how-to/$slug': typeof HowToSlugRoute
   '/province/$province': typeof ProvinceProvinceRouteWithChildren
   '/situations/$slug': typeof SituationsSlugRoute
   '/help/': typeof HelpIndexRoute
+  '/how-to/': typeof HowToIndexRoute
   '/situations/': typeof SituationsIndexRoute
   '/help/$category/$article': typeof HelpCategoryArticleRoute
   '/province/$province/$city': typeof ProvinceProvinceCityRoute
@@ -194,9 +212,11 @@ export interface FileRouteTypes {
     | '/how-we-vet'
     | '/privacy'
     | '/resources'
+    | '/how-to/$slug'
     | '/province/$province'
     | '/situations/$slug'
     | '/help/'
+    | '/how-to/'
     | '/situations/'
     | '/help/$category/$article'
     | '/province/$province/$city'
@@ -214,9 +234,11 @@ export interface FileRouteTypes {
     | '/how-we-vet'
     | '/privacy'
     | '/resources'
+    | '/how-to/$slug'
     | '/province/$province'
     | '/situations/$slug'
     | '/help'
+    | '/how-to'
     | '/situations'
     | '/help/$category/$article'
     | '/province/$province/$city'
@@ -234,9 +256,11 @@ export interface FileRouteTypes {
     | '/how-we-vet'
     | '/privacy'
     | '/resources'
+    | '/how-to/$slug'
     | '/province/$province'
     | '/situations/$slug'
     | '/help/'
+    | '/how-to/'
     | '/situations/'
     | '/help/$category/$article'
     | '/province/$province/$city'
@@ -255,9 +279,11 @@ export interface RootRouteChildren {
   HowWeVetRoute: typeof HowWeVetRoute
   PrivacyRoute: typeof PrivacyRoute
   ResourcesRoute: typeof ResourcesRoute
+  HowToSlugRoute: typeof HowToSlugRoute
   ProvinceProvinceRoute: typeof ProvinceProvinceRouteWithChildren
   SituationsSlugRoute: typeof SituationsSlugRoute
   HelpIndexRoute: typeof HelpIndexRoute
+  HowToIndexRoute: typeof HowToIndexRoute
   SituationsIndexRoute: typeof SituationsIndexRoute
   HelpCategoryArticleRoute: typeof HelpCategoryArticleRoute
   HelpCategoryIndexRoute: typeof HelpCategoryIndexRoute
@@ -349,6 +375,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SituationsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/how-to/': {
+      id: '/how-to/'
+      path: '/how-to'
+      fullPath: '/how-to/'
+      preLoaderRoute: typeof HowToIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/help/': {
       id: '/help/'
       path: '/help'
@@ -368,6 +401,13 @@ declare module '@tanstack/react-router' {
       path: '/province/$province'
       fullPath: '/province/$province'
       preLoaderRoute: typeof ProvinceProvinceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/how-to/$slug': {
+      id: '/how-to/$slug'
+      path: '/how-to/$slug'
+      fullPath: '/how-to/$slug'
+      preLoaderRoute: typeof HowToSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/help/$category/': {
@@ -417,9 +457,11 @@ const rootRouteChildren: RootRouteChildren = {
   HowWeVetRoute: HowWeVetRoute,
   PrivacyRoute: PrivacyRoute,
   ResourcesRoute: ResourcesRoute,
+  HowToSlugRoute: HowToSlugRoute,
   ProvinceProvinceRoute: ProvinceProvinceRouteWithChildren,
   SituationsSlugRoute: SituationsSlugRoute,
   HelpIndexRoute: HelpIndexRoute,
+  HowToIndexRoute: HowToIndexRoute,
   SituationsIndexRoute: SituationsIndexRoute,
   HelpCategoryArticleRoute: HelpCategoryArticleRoute,
   HelpCategoryIndexRoute: HelpCategoryIndexRoute,

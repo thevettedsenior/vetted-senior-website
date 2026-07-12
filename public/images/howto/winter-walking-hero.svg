@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Snowflake and boot print illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22315e"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="920" cy="250" r="170" fill="none" stroke="#c9a84c" stroke-width="3" opacity="0.5"/>
+  <circle cx="920" cy="250" r="220" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.3"/>
+  <circle cx="920" cy="250" r="270" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.18"/>
+  <g stroke="#f5efdf" stroke-width="7" stroke-linecap="round" opacity="0.9">
+    <path d="M920 160 v180 M842 205 l156 90 M998 205 l-156 90"/>
+    <path d="M920 160 l-16 24 M920 160 l16 24 M920 340 l-16 -24 M920 340 l16 -24"/>
+    <path d="M842 205 l28 4 M842 205 l2 28 M998 295 l-28 -4 M998 295 l-2 -28"/>
+    <path d="M998 205 l-28 4 M998 205 l-2 28 M842 295 l28 -4 M842 295 l2 -28"/>
+  </g>
+  <ellipse cx="1075" cy="385" rx="42" ry="20" fill="none" stroke="#c9a84c" stroke-width="7"/>
+  <ellipse cx="1075" cy="425" rx="26" ry="12" fill="none" stroke="#c9a84c" stroke-width="6" opacity="0.7"/>
+  <g opacity="0.35" stroke="#f5efdf" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 360 h180"/>
+    <path d="M120 320 h120"/>
+    <path d="M120 400 h240"/>
+  </g>
+</svg>
