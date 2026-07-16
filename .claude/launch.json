@@ -34,6 +34,17 @@
         "/Users/raginidomenichini/bluekey-leadgen/site"
       ],
       "port": 8743
+    },
+    {
+      "name": "taxhub",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/raginidomenichini/tax-app"
+      ],
+      "port": 4780
     }
   ]
 }
