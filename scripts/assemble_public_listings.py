@@ -45,6 +45,44 @@ CATEGORY_NAMES = {
     "retirement-residences": "Retirement Residences",
 }
 
+# Short display brand per org slug. Card headlines lead with the brand when
+# the program name alone would be ambiguous ("Meals on Wheels" x4).
+BRAND = {
+    "alzheimer-society-durham": "Alzheimer Society Durham",
+    "alzheimer-society-peel": "Alzheimer Society Peel",
+    "alzheimer-society-toronto": "Alzheimer Society of Toronto",
+    "alzheimer-society-york": "Alzheimer Society York Region",
+    "chats": "CHATS",
+    "circle-of-care": "Circle of Care",
+    "community-care-durham": "Community Care Durham",
+    "brampton-meals-on-wheels": "Brampton Meals on Wheels",
+    "cmha-durham": "CMHA Durham",
+    "cmha-toronto": "CMHA Toronto",
+    "cnib": "CNIB",
+    "canadian-hearing-services": "Canadian Hearing Services",
+    "canadian-red-cross-ontario": "Canadian Red Cross",
+    "von-canada": "VON",
+    "hospice-toronto": "Hospice Toronto",
+    "hospice-mississauga": "Hospice Mississauga",
+    "dorothy-ley-hospice": "The Dorothy Ley Hospice",
+    "temmy-latner-palliative": "Temmy Latner Centre for Palliative Care",
+    "ontario-health-athome": "Ontario Health atHome",
+    "woodgreen": "WoodGreen",
+}
+
+
+def display_name(row, slug):
+    name = clean(row["name"])
+    brand = BRAND.get(slug)
+    if not brand:
+        return name
+    # Key token test: "Alzheimer" in "Alzheimer Society of Toronto" etc.
+    key = brand.split()[0].lower().rstrip(",")
+    if key in name.lower():
+        return name
+    return f"{brand} {name}"
+
+
 ALLOWED_CITIES = {
     "Toronto", "Mississauga", "Brampton", "Oshawa", "Whitby", "Ajax",
     "Pickering", "Markham", "Vaughan", "Richmond Hill", "Newmarket",
@@ -91,7 +129,7 @@ def to_business(row, verdict):
     """Map an agent row to the Business shape in businesses.json."""
     b = {
         "id": row["id"],
-        "name": clean(row["name"]),
+        "name": display_name(row, row.get("brandGroup", "")),
         "category": CATEGORY_NAMES[row["category"]],
         "tier": row["tier"],
         "provinces": row["provinces"],
