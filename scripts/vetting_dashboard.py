@@ -154,6 +154,48 @@ def cmd_queue(name):
     print(f"Queued for vetting: {name}")
 
 
+SYNC_STATUS = {
+    # vetting-tracker.json status -> candidate-tracker.csv status vocabulary
+    "shortlisted": "shortlisted",
+    "in_vetting": "in-vetting",
+    "passed": "passed",
+    "conditional_pass": "passed",
+    "failed": "failed",
+    "declined_prescreen": "failed",
+    "withdrawn": "removed",
+    "removed": "removed",
+}
+
+
+def cmd_sync():
+    """Write vetting-tracker.json statuses back to candidate-tracker.csv.
+
+    The CSV holds one row per (name, category); a queued business updates
+    every row bearing its name. The vetting tracker is the source of truth
+    for anything queued; untouched rows keep status candidate.
+    """
+    data = load_data()
+    by_name = {b["name"]: SYNC_STATUS.get(b["status"]) for b in data["businesses"]}
+    with open(TRACKER, newline="") as f:
+        reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames
+        rows = list(reader)
+    changed = 0
+    for r in rows:
+        want = by_name.get(r["name"])
+        if want and r["status"] != want:
+            print(f"  {r['name']} [{r['category']}]: {r['status']} -> {want}")
+            r["status"] = want
+            changed += 1
+    if changed:
+        with open(TRACKER, "w", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+    print(f"Synced {changed} row(s) in candidate-tracker.csv "
+          f"from {len(by_name)} vetting record(s).")
+
+
 def esc(s):
     return (str(s or "").replace("&", "&amp;").replace("<", "&lt;")
             .replace(">", "&gt;"))
@@ -379,4 +421,6 @@ if __name__ == "__main__":
         if len(args) < 2:
             sys.exit('Usage: vetting_dashboard.py queue "Exact Business Name"')
         cmd_queue(args[1])
+    if args and args[0] == "sync":
+        cmd_sync()
     build()
