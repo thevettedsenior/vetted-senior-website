@@ -109,10 +109,11 @@ export function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-card/95 shadow-[0_1px_12px_oklch(0.25_0.07_265/0.06)] backdrop-blur">
-      {/* Utility strip: trust line + text size control */}
+    <>
+      {/* Utility strip: trust line + text size control. Deliberately NOT
+          sticky: it scrolls away so the pinned bar stays short. */}
       <div className="border-b border-border/60 bg-secondary/50">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-1.5">
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-1">
           <p className="text-sm text-muted-foreground">
             Independent and Canadian. Nobody pays to be recommended here.
           </p>
@@ -122,102 +123,104 @@ export function SiteHeader() {
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-6xl flex-nowrap items-center justify-between gap-4 px-6 py-3.5 md:flex-wrap">
-        <Link to="/" className="flex items-center gap-3 no-underline">
-          <ShieldLogo />
-          <span className="flex flex-col leading-tight">
-            <span className="whitespace-nowrap font-serif text-lg font-semibold text-primary sm:text-xl md:text-2xl">
-              The Vetted Senior
+      <header className="sticky top-0 z-40 border-b border-border bg-card/95 shadow-[0_1px_12px_oklch(0.25_0.07_265/0.06)] backdrop-blur">
+        <div className="mx-auto flex max-w-6xl flex-nowrap items-center justify-between gap-4 px-6 py-2 md:flex-wrap">
+          <Link to="/" className="flex items-center gap-2.5 no-underline">
+            <ShieldLogo size={34} />
+            <span className="flex flex-col leading-tight">
+              <span className="whitespace-nowrap font-serif text-lg font-semibold text-primary md:text-xl">
+                The Vetted Senior
+              </span>
+              <span className="hidden text-xs text-muted-foreground lg:block">
+                Trusted guidance for seniors and families
+              </span>
             </span>
-            <span className="hidden text-sm text-muted-foreground sm:block">
-              Trusted guidance for seniors and families
-            </span>
-          </span>
-        </Link>
-
-        <nav className="hidden items-center gap-1 md:flex">
-          {NAV_LINKS.slice(0, 1).map((link) => (
-            <Link
-              key={link.to}
-              to={link.to}
-              className="flex min-h-11 items-center rounded-full px-4 py-2 text-base font-medium text-primary no-underline transition-colors hover:bg-secondary"
-              activeProps={{ className: "bg-secondary font-semibold" }}
-            >
-              {link.label}
-            </Link>
-          ))}
-          <FindHelpMenu />
-          {NAV_LINKS.slice(1).map((link) => (
-            <Link
-              key={link.to}
-              to={link.to}
-              className="flex min-h-11 items-center rounded-full px-4 py-2 text-base font-medium text-primary no-underline transition-colors hover:bg-secondary"
-              activeProps={{ className: "bg-secondary font-semibold" }}
-            >
-              {link.label}
-            </Link>
-          ))}
-          <Link
-            to="/contact"
-            className="ml-2 flex min-h-11 items-center rounded-full bg-primary px-5 py-2 text-base font-semibold text-primary-foreground no-underline shadow-sm transition-opacity hover:opacity-90"
-          >
-            Ask a Question
           </Link>
-        </nav>
 
-        <button
-          type="button"
-          aria-label={menuOpen ? "Close menu" : "Open menu"}
-          aria-expanded={menuOpen}
-          onClick={() => setMenuOpen((open) => !open)}
-          className="flex h-12 w-12 items-center justify-center rounded-full border border-border text-primary md:hidden"
-        >
-          {menuOpen ? (
-            <X size={26} aria-hidden />
-          ) : (
-            <Menu size={26} aria-hidden />
-          )}
-        </button>
-      </div>
-
-      {menuOpen && (
-        <nav className="w-full border-t border-border bg-card px-6 py-5 md:hidden">
-          <div className="flex flex-col gap-2">
-            {[
-              { to: "/", label: "Home" },
-              { to: "/situations", label: "Find Your Situation" },
-              { to: "/help", label: "Find Help by Topic" },
-              { to: "/how-to", label: "How-To Guides" },
-              { to: "/directory", label: "Directory" },
-              { to: "/about", label: "How We Vet" },
-              { to: "/handbook", label: "Free Handbook" },
-              { to: "/contact", label: "Ask a Question" },
-            ].map((link) => (
+          <nav className="hidden items-center gap-1 md:flex">
+            {NAV_LINKS.slice(0, 1).map((link) => (
               <Link
                 key={link.to}
                 to={link.to}
-                className="flex min-h-12 items-center justify-between rounded-xl border border-border bg-background px-4 py-3 text-lg font-medium text-primary no-underline transition-colors hover:border-gold"
-                activeOptions={link.to === "/" ? { exact: true } : undefined}
-                activeProps={{
-                  className: "border-gold bg-gold/10 font-semibold",
-                }}
-                onClick={() => setMenuOpen(false)}
+                className="flex min-h-11 items-center rounded-full px-4 py-2 text-base font-medium text-primary no-underline transition-colors hover:bg-secondary"
+                activeProps={{ className: "bg-secondary font-semibold" }}
               >
                 {link.label}
-                <ChevronRight
-                  size={20}
-                  className="text-gold-deep"
-                  aria-hidden
-                />
               </Link>
             ))}
-            <div className="mt-3 border-t border-border pt-4">
-              <TextSizeControl />
+            <FindHelpMenu />
+            {NAV_LINKS.slice(1).map((link) => (
+              <Link
+                key={link.to}
+                to={link.to}
+                className="flex min-h-11 items-center rounded-full px-4 py-2 text-base font-medium text-primary no-underline transition-colors hover:bg-secondary"
+                activeProps={{ className: "bg-secondary font-semibold" }}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <Link
+              to="/contact"
+              className="ml-2 flex min-h-11 items-center rounded-full bg-primary px-5 py-2 text-base font-semibold text-primary-foreground no-underline shadow-sm transition-opacity hover:opacity-90"
+            >
+              Ask a Question
+            </Link>
+          </nav>
+
+          <button
+            type="button"
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((open) => !open)}
+            className="flex h-12 w-12 items-center justify-center rounded-full border border-border text-primary md:hidden"
+          >
+            {menuOpen ? (
+              <X size={26} aria-hidden />
+            ) : (
+              <Menu size={26} aria-hidden />
+            )}
+          </button>
+        </div>
+
+        {menuOpen && (
+          <nav className="w-full border-t border-border bg-card px-6 py-5 md:hidden">
+            <div className="flex flex-col gap-2">
+              {[
+                { to: "/", label: "Home" },
+                { to: "/situations", label: "Find Your Situation" },
+                { to: "/help", label: "Find Help by Topic" },
+                { to: "/how-to", label: "How-To Guides" },
+                { to: "/directory", label: "Directory" },
+                { to: "/about", label: "How We Vet" },
+                { to: "/handbook", label: "Free Handbook" },
+                { to: "/contact", label: "Ask a Question" },
+              ].map((link) => (
+                <Link
+                  key={link.to}
+                  to={link.to}
+                  className="flex min-h-12 items-center justify-between rounded-xl border border-border bg-background px-4 py-3 text-lg font-medium text-primary no-underline transition-colors hover:border-gold"
+                  activeOptions={link.to === "/" ? { exact: true } : undefined}
+                  activeProps={{
+                    className: "border-gold bg-gold/10 font-semibold",
+                  }}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  {link.label}
+                  <ChevronRight
+                    size={20}
+                    className="text-gold-deep"
+                    aria-hidden
+                  />
+                </Link>
+              ))}
+              <div className="mt-3 border-t border-border pt-4">
+                <TextSizeControl />
+              </div>
             </div>
-          </div>
-        </nav>
-      )}
-    </header>
+          </nav>
+        )}
+      </header>
+    </>
   );
 }
 

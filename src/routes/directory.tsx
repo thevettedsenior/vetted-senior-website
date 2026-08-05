@@ -82,6 +82,15 @@ function DirectoryPage() {
       },
       replace: true,
     });
+    // Picking from a dropdown must visibly do something: bring the results
+    // into view. Typing in the search box is exempt so the page holds still.
+    if ("category" in patch || "province" in patch || "city" in patch) {
+      requestAnimationFrame(() => {
+        document
+          .getElementById("directory-results")
+          ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
   }
 
   const selectClass =
@@ -91,8 +100,8 @@ function DirectoryPage() {
     <Page>
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
       <section className="border-b border-border bg-card">
-        <div className="mx-auto max-w-6xl px-6 py-10 md:py-14">
-          <h1 className="font-serif text-3xl font-semibold text-primary md:text-5xl">
+        <div className="mx-auto max-w-6xl px-6 py-6 md:py-8">
+          <h1 className="font-serif text-3xl font-semibold text-primary md:text-4xl">
             The directory
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-foreground/85 leading-relaxed md:text-xl">
@@ -108,7 +117,7 @@ function DirectoryPage() {
 
       {/* ── SEARCH & FILTERS ─────────────────────────────────────────────── */}
       <section className="border-b border-border bg-secondary/40">
-        <div className="mx-auto max-w-6xl px-6 py-6">
+        <div className="mx-auto max-w-6xl px-6 py-4">
           <div className="grid gap-3 md:grid-cols-[2fr_repeat(3,1fr)_auto]">
             <label className="block">
               <span className="sr-only">Search providers</span>
@@ -187,7 +196,10 @@ function DirectoryPage() {
       </section>
 
       {/* ── RESULTS ──────────────────────────────────────────────────────── */}
-      <section className="mx-auto max-w-6xl px-6 py-10">
+      <section
+        id="directory-results"
+        className="mx-auto max-w-6xl scroll-mt-16 px-6 py-8"
+      >
         {BUSINESSES.length === 0 ? (
           <EmptyDirectory />
         ) : results.length > 0 ? (
