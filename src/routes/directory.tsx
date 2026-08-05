@@ -10,6 +10,7 @@ import {
   findHelpCategory,
   findProvince,
   searchBusinesses,
+  type Business,
 } from "@/lib/directory-data";
 import { directoryJsonLd, jsonLdScript } from "@/lib/jsonld";
 
@@ -43,7 +44,7 @@ export const Route = createFileRoute("/directory")({
       {
         name: "description",
         content:
-          "Search the directory of personally vetted senior services by category, province, and city. Every listing is earned through our published vetting process. Nobody pays to be recommended.",
+          "Search vetted private providers and verified public services for seniors by category, province, and city. Every private listing is earned through our published vetting process. Nobody pays to be recommended.",
       },
     ],
     // Goes live automatically once BUSINESSES has vetted rows; an empty
@@ -95,11 +96,13 @@ function DirectoryPage() {
             The directory
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-foreground/85 leading-relaxed md:text-xl">
-            Every provider here passed{" "}
+            Two kinds of listings, clearly marked: private providers that
+            passed{" "}
             <Link to="/about" className="text-primary underline">
               the full vetting process
             </Link>
-            , and nobody paid to appear. Search by service, place, or both.
+            , and public or non-profit services we verified directly. Nobody
+            pays to appear, either way. Search by service, place, or both.
           </p>
         </div>
       </section>
@@ -191,9 +194,7 @@ function DirectoryPage() {
         ) : results.length > 0 ? (
           <>
             <p className="text-base text-muted-foreground">
-              {results.length} vetted{" "}
-              {results.length === 1 ? "provider" : "providers"}
-              {hasFilters ? " match your filters" : ""}
+              <ResultsSummary results={results} hasFilters={hasFilters} />
             </p>
             <div className="mt-6 grid gap-5 md:grid-cols-2">
               {results.map((b) => (
@@ -208,6 +209,43 @@ function DirectoryPage() {
           />
         )}
       </section>
+
+      {/* ── WHAT THE BADGES MEAN ─────────────────────────────────────────── */}
+      {BUSINESSES.length > 0 && (
+        <section className="border-t border-border bg-card">
+          <div className="mx-auto max-w-6xl px-6 py-12">
+            <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
+              What the badges mean
+            </h2>
+            <div className="mt-6 grid gap-5 md:grid-cols-2">
+              <div className="rounded-2xl border border-border bg-secondary/40 p-6">
+                <span className="inline-flex items-center gap-1 rounded-full bg-gold/20 px-3 py-1 text-sm font-semibold text-primary">
+                  <span aria-hidden>✓</span> Vetted
+                </span>
+                <p className="mt-3 text-base text-foreground/85 leading-relaxed">
+                  A private company that earned its place through the full
+                  vetting process: primary-source checks, a structured
+                  interview with the owner, and reference calls with real
+                  clients. Each one shows the date it was vetted, and each is
+                  re-reviewed on a schedule.
+                </p>
+              </div>
+              <div className="rounded-2xl border border-border bg-secondary/40 p-6">
+                <span className="inline-flex items-center gap-1 rounded-full border-2 border-primary/40 bg-secondary px-3 py-1 text-sm font-semibold text-primary">
+                  <span aria-hidden>🏛</span> Public service
+                </span>
+                <p className="mt-3 text-base text-foreground/85 leading-relaxed">
+                  A public program, hospital-affiliated service, or non-profit
+                  community organization. We verify it is real, currently
+                  operating, and reachable, and we record how to access it.
+                  These services do not go through the private-provider vetting
+                  process. Many are free or subsidized.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── HOW LISTINGS ARE EARNED ──────────────────────────────────────── */}
       <section className="border-t border-border bg-secondary/40">
@@ -232,6 +270,42 @@ function DirectoryPage() {
         </div>
       </section>
     </Page>
+  );
+}
+
+/** One honest sentence about what matched: vetted providers, public services, or both. */
+function ResultsSummary({
+  results,
+  hasFilters,
+}: {
+  results: Business[];
+  hasFilters: boolean;
+}) {
+  const vetted = results.filter((b) => b.listingType === "vetted").length;
+  const pub = results.length - vetted;
+  const suffix = hasFilters ? " match your filters" : "";
+  if (vetted && pub) {
+    return (
+      <>
+        {results.length} listings{suffix}: {vetted} vetted{" "}
+        {vetted === 1 ? "provider" : "providers"} and {pub} verified public{" "}
+        {pub === 1 ? "service" : "services"}
+      </>
+    );
+  }
+  if (pub) {
+    return (
+      <>
+        {pub} verified public {pub === 1 ? "service" : "services"}
+        {suffix}
+      </>
+    );
+  }
+  return (
+    <>
+      {vetted} vetted {vetted === 1 ? "provider" : "providers"}
+      {suffix}
+    </>
   );
 }
 
@@ -275,13 +349,13 @@ function NoMatches({ place, onClear }: { place: string; onClear: () => void }) {
   return (
     <div className="mx-auto max-w-3xl rounded-2xl border-2 border-gold/50 bg-card p-8">
       <p className="font-serif text-2xl text-primary">
-        No vetted providers match those filters yet.
+        No listings match those filters yet.
       </p>
       <p className="mt-3 text-lg text-foreground/80 leading-relaxed">
         That's the honest answer, not a search problem. We list only providers
-        we have personally vetted, and coverage is growing region by region.
-        Leave your email and you'll hear when vetted listings go live in {place}
-        .
+        we have personally vetted and public services we have verified, and
+        coverage is growing region by region. Leave your email and you'll hear
+        when listings go live in {place}.
       </p>
       <div className="mt-5 max-w-xl">
         <SignupForm

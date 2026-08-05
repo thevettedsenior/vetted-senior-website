@@ -147,7 +147,12 @@ export function localBusinessJsonLd(business: Business) {
           name: code === "all" ? "Canada" : code,
         }));
   return {
-    "@type": "LocalBusiness",
+    // Public bodies and non-profits are not LocalBusiness; Organization is
+    // the honest schema.org type for them.
+    "@type":
+      business.listingType === "public-service"
+        ? "Organization"
+        : "LocalBusiness",
     "@id": `${SITE_URL}/directory#${business.id}`,
     name: business.name,
     description: business.description,

@@ -831,7 +831,28 @@ export const PROVINCES: Province[] = [
   {
     code: "ON",
     name: "Ontario",
-    cities: ["Toronto", "Ottawa", "Mississauga", "Hamilton", "London"],
+    // Launch-market GTA cities plus the province's other major centres.
+    // Toronto includes Etobicoke, Scarborough, North York, and East York;
+    // listings use the amalgamated city name.
+    cities: [
+      "Ajax",
+      "Aurora",
+      "Brampton",
+      "Burlington",
+      "Hamilton",
+      "London",
+      "Markham",
+      "Mississauga",
+      "Newmarket",
+      "Oakville",
+      "Oshawa",
+      "Ottawa",
+      "Pickering",
+      "Richmond Hill",
+      "Toronto",
+      "Vaughan",
+      "Whitby",
+    ],
   },
   { code: "PE", name: "Prince Edward Island", cities: ["Charlottetown"] },
   {
@@ -913,7 +934,21 @@ export type Business = {
   phone: string;
   website?: string;
   description: string;
-  vettedSince: string;
+  /**
+   * Two kinds of listings, badged differently in the UI:
+   * - "vetted": a private provider that passed the full published vetting
+   *   process (interview, references, primary-source checks).
+   * - "public-service": a public, hospital-affiliated, or non-profit
+   *   community program verified on the lighter track described on /about.
+   *   Never a private company; the description must say what it is plainly.
+   */
+  listingType: "vetted" | "public-service";
+  /** Vetted rows only: the date the listing was earned. */
+  vettedSince?: string;
+  /** Public-service rows only: when we last verified the program (YYYY-MM-DD). */
+  verifiedDate?: string;
+  /** Public-service rows: one plain sentence on how a family starts. */
+  intakeNote?: string;
 };
 
 function loadBusinesses(): Business[] {
@@ -937,6 +972,19 @@ function loadBusinesses(): Business[] {
     }
     if (b.provinces.length === 0) {
       throw new Error(`Business "${b.name}" has no provinces listed.`);
+    }
+    if (b.listingType === "vetted" && !b.vettedSince) {
+      throw new Error(`Vetted listing "${b.name}" is missing vettedSince.`);
+    }
+    if (b.listingType === "public-service" && !b.verifiedDate) {
+      throw new Error(
+        `Public-service listing "${b.name}" is missing verifiedDate.`,
+      );
+    }
+    if (b.listingType !== "vetted" && b.listingType !== "public-service") {
+      throw new Error(
+        `Business "${b.name}" has unknown listingType "${b.listingType}".`,
+      );
     }
   }
   return data;

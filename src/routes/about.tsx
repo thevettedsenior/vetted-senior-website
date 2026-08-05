@@ -202,6 +202,35 @@ function About() {
         </div>
       </section>
 
+      {/* ── PUBLIC SERVICES, LISTED DIFFERENTLY ──────────────────────────── */}
+      <section className="mx-auto max-w-4xl px-6 py-14">
+        <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
+          Public services are listed differently
+        </h2>
+        <div className="mt-5 space-y-5 text-lg text-foreground/85 leading-relaxed">
+          <p>
+            Some of the most useful help for seniors is not a private company
+            at all: hospital programs, public home care through Ontario Health
+            atHome, Alzheimer Societies, hospices, Meals on Wheels, and other
+            non-profit community services. These organizations do not sit our
+            structured interview or hand us insurance certificates, and it
+            would be misleading to stamp them "vetted" as if they had.
+          </p>
+          <p>
+            So they carry a different badge, marked "Public service." For each
+            one we verify, against the organization's own website and records,
+            that the program actually exists today, that it is a genuine
+            public body, hospital-affiliated program, or registered non-profit,
+            how you reach it, what it costs, and who qualifies. Every check is
+            logged with a date, and these listings are re-checked on a
+            schedule just like vetted ones. What we do not do for them is the
+            full private-provider process: no interview, no reference calls,
+            no insurance file. The badge tells you which promise you are
+            getting.
+          </p>
+        </div>
+      </section>
+
       {/* ── WHEN SOMETHING GOES WRONG ────────────────────────────────────── */}
       <section className="mx-auto max-w-4xl px-6 py-14">
         <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">

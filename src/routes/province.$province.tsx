@@ -27,7 +27,7 @@ export const Route = createFileRoute("/province/$province")({
       {
         name: "description",
         content: loaderData
-          ? `Find vetted services for seniors across ${loaderData.province.name}: national providers and local businesses by city.`
+          ? `Find help for seniors across ${loaderData.province.name}: vetted providers and verified public services, national and by city.`
           : "",
       },
     ],
@@ -67,11 +67,11 @@ function ProvincePage() {
             <span>{province.name}</span>
           </nav>
           <h1 className="mt-3 font-serif text-4xl font-semibold md:text-5xl">
-            Vetted services in {province.name}
+            Services in {province.name}
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-foreground/85">
-            National and provincial providers are listed below. For local
-            businesses, choose a city.
+            Vetted providers and verified public services. National and
+            provincial listings are below. For local ones, choose a city.
           </p>
         </div>
       </section>
@@ -104,10 +104,10 @@ function ProvincePage() {
       <section className="border-t border-border bg-secondary/40">
         <div className="mx-auto max-w-6xl px-6 py-12">
           <h2 className="font-serif text-2xl font-semibold md:text-3xl">
-            National & provincial providers
+            National & provincial listings
           </h2>
           <p className="mt-2 text-lg text-muted-foreground">
-            These companies serve all of {province.name}.
+            These organizations serve all of {province.name}.
           </p>
 
           {national.length === 0 ? (

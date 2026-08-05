@@ -32,7 +32,7 @@ export const Route = createFileRoute("/province/$province/$city")({
       {
         name: "description",
         content: loaderData
-          ? `Vetted local businesses for seniors in ${loaderData.cityName}, ${loaderData.province.name}.`
+          ? `Local help for seniors in ${loaderData.cityName}, ${loaderData.province.name}: vetted providers and verified public services.`
           : "",
       },
     ],
@@ -80,17 +80,17 @@ function CityPage() {
             <span>{cityName}</span>
           </nav>
           <h1 className="mt-3 font-serif text-4xl font-semibold md:text-5xl">
-            Vetted services in {cityName}
+            Services in {cityName}
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-foreground/85">
-            Local businesses based right here in {cityName}, {province.name}.
-            Looking for a national company?{" "}
+            Vetted providers and verified public services in {cityName},{" "}
+            {province.name}. Looking for something province-wide?{" "}
             <Link
               to="/province/$province"
               params={{ province: province.code.toLowerCase() }}
               className="text-primary underline"
             >
-              See province-wide providers
+              See province-wide listings
             </Link>.
           </p>
         </div>

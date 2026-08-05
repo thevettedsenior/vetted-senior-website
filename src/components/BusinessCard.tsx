@@ -18,16 +18,31 @@ export function BusinessCard({ business }: { business: Business }) {
             {TIER_LABEL[business.tier]}
           </span>
         </div>
-        <span
-          className="inline-flex shrink-0 items-center gap-1 rounded-full bg-gold/20 px-3 py-1 text-sm font-semibold text-primary"
-          title={`Vetted since ${business.vettedSince}`}
-        >
-          <span aria-hidden>✓</span> Vetted {business.vettedSince}
-        </span>
+        {business.listingType === "public-service" ? (
+          <span
+            className="inline-flex shrink-0 items-center gap-1 rounded-full border-2 border-primary/40 bg-secondary px-3 py-1 text-sm font-semibold text-primary"
+            title={`A public or non-profit community service, verified by us on ${business.verifiedDate}. Not a privately vetted company.`}
+          >
+            <span aria-hidden>🏛</span> Public service
+          </span>
+        ) : (
+          <span
+            className="inline-flex shrink-0 items-center gap-1 rounded-full bg-gold/20 px-3 py-1 text-sm font-semibold text-primary"
+            title={`Vetted since ${business.vettedSince}`}
+          >
+            <span aria-hidden>✓</span> Vetted {business.vettedSince}
+          </span>
+        )}
       </div>
       <p className="mt-3 text-base text-foreground/90">
         {business.description}
       </p>
+      {business.listingType === "public-service" && (
+        <p className="mt-2 text-sm text-muted-foreground">
+          Verified by us {business.verifiedDate}
+          {business.intakeNote ? `. ${business.intakeNote}` : "."}
+        </p>
+      )}
       <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 text-base">
         <a
           href={`tel:${business.phone.replace(/[^+\d]/g, "")}`}
