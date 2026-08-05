@@ -12,8 +12,13 @@ export function BusinessCard({ business }: { business: Business }) {
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <h3 className="font-serif text-xl font-semibold text-primary">
-            {business.name}
+            {business.program ?? business.name}
           </h3>
+          {business.program && (
+            <p className="mt-0.5 text-sm text-muted-foreground">
+              Run by {business.runBy ?? business.name}
+            </p>
+          )}
           <span className="mt-1 inline-flex items-center rounded-full border border-primary/30 bg-secondary px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-primary/80">
             {TIER_LABEL[business.tier]}
           </span>

@@ -58,7 +58,9 @@
     "verifiedDate": "2026-08-05",
     "brandGroup": "alzheimer-society-peel",
     "website": "https://www.alzpeel.com/en/adult-day-programs.html",
-    "intakeNote": "Call 905-278-3667 ext. 307 or email direct.support@alzheimerpeel.com to reach the dementia support team; no diagnosis or doctor's referral is needed, and a doctor or agency can also refer a family using the online First Link form."
+    "intakeNote": "Call 905-278-3667 ext. 307 or email direct.support@alzheimerpeel.com to reach the dementia support team; no diagnosis or doctor's referral is needed, and a doctor or agency can also refer a family using the online First Link form.",
+    "program": "Adult Day Program",
+    "runBy": "Alzheimer Society Peel"
   },
   {
     "id": "alzheimer-society-toronto-dementia-memory-support",
@@ -126,6 +128,27 @@
     "intakeNote": "Families call 905-726-3477 (toll-free 1-888-414-5550) or reach the general inbox at info@alzheimer-york.com. Some programs, like the D.A.Y. Centre and First Link, also take direct referrals from doctors, hospitals, and family members."
   },
   {
+    "id": "brampton-meals-on-wheels-meals-nutrition",
+    "name": "Brampton Meals on Wheels",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Brampton"
+    ],
+    "phone": "1-905-453-4140 ext. 3720",
+    "description": "A registered charity that delivers hot and frozen meals to seniors and other adults in Brampton who cannot cook for themselves. Volunteers bring hot meals Monday to Friday between 11:30 a.m. and 1 p.m., and frozen meals every Friday morning, with diabetic, low sodium, pureed, minced and other diet options available.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "brampton-meals-on-wheels",
+    "website": "https://bramptonmealsonwheels.com/meal-selection",
+    "intakeNote": "Call the office Monday to Friday, 8 a.m. to 3 p.m., or use the contact form on the website to place a new order or ask questions.",
+    "program": "Meals on Wheels",
+    "runBy": "Brampton Meals on Wheels"
+  },
+  {
     "id": "canadian-hearing-services-hearing-vision",
     "name": "Canadian Hearing Services Hearing Clinics",
     "category": "Vision, Hearing, Dental & Foot Care",
@@ -141,6 +164,65 @@
     "brandGroup": "canadian-hearing-services",
     "website": "https://www.chs.ca/hearing-clinic-locations",
     "intakeNote": "Call 1-866-518-0000, email audiology@chs.ca, or book online (Ontario residents only) for a hearing test or hearing aid consultation. No referral is needed."
+  },
+  {
+    "id": "canadian-red-cross-ontario-transportation",
+    "name": "Canadian Red Cross Transportation",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto",
+      "Burlington"
+    ],
+    "phone": "416-236-3180",
+    "description": "The Canadian Red Cross drives seniors and adults with disabilities who cannot use public transit to medical appointments, shopping, and social outings, using cars, mid-sized vans, and accessible vehicles. Today this covers all of Toronto through the Toronto Ride coalition and the City of Burlington only. The Canadian Red Cross is a federally chartered registered charity, and this is a public community support service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/in-your-community/ontario/nutrition-and-transportation/transportation",
+    "intakeNote": "There is no single phone number across these programs. Families call the specific line: Toronto Transportation and Meals on Wheels at 416-236-3180, Burlington Transportation at 1-844-843-7331 ext 2, Burlington Meals on Wheels at 905-637-5664, or the national Friendly Calls Program at 1-833-979-9779."
+  },
+  {
+    "id": "canadian-red-cross-ontario-meals-nutrition",
+    "name": "Canadian Red Cross Meals on Wheels",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto",
+      "Burlington"
+    ],
+    "phone": "416-236-3180",
+    "description": "The Canadian Red Cross delivers hot, nutritious meals to people who cannot cook for themselves, with a volunteer who checks in at the door. Today this is confirmed only in Etobicoke (part of Toronto) and in the City of Burlington plus Flamborough. The Canadian Red Cross is a federally chartered registered charity, and this is a public community support service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/in-your-community/ontario/nutrition-and-transportation/meals-on-wheels",
+    "intakeNote": "There is no single phone number across these programs. Families call the specific line: Toronto Transportation and Meals on Wheels at 416-236-3180, Burlington Transportation at 1-844-843-7331 ext 2, Burlington Meals on Wheels at 905-637-5664, or the national Friendly Calls Program at 1-833-979-9779.",
+    "program": "Meals on Wheels",
+    "runBy": "Canadian Red Cross"
+  },
+  {
+    "id": "canadian-red-cross-ontario-companion-social",
+    "name": "Canadian Red Cross Friendly Calls Program",
+    "category": "Companion & Social",
+    "tier": "national",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-833-979-9779",
+    "description": "Trained Red Cross volunteers call people age 18 and up on a regular basis just to check in, talk, and share wellbeing resources, an easy way to feel less alone. It is free and available by phone anywhere in Canada, including every city in the GTA. The Canadian Red Cross is a federally chartered registered charity, and this is a public community support service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/how-we-help/community-health-services-in-canada/friendly-calls-program",
+    "intakeNote": "There is no single phone number across these programs. Families call the specific line: Toronto Transportation and Meals on Wheels at 416-236-3180, Burlington Transportation at 1-844-843-7331 ext 2, Burlington Meals on Wheels at 905-637-5664, or the national Friendly Calls Program at 1-833-979-9779."
   },
   {
     "id": "chats-home-care",
@@ -209,7 +291,9 @@
     "verifiedDate": "2026-08-05",
     "brandGroup": "chats",
     "website": "https://chats.on.ca/in-home-services/meals-on-wheels/",
-    "intakeNote": "Call 905-713-6596 or toll-free 1-877-452-4287, or email seniorshelp@chats.on.ca; CHATS follows up for an initial visit and intake assessment before building an individualized care plan."
+    "intakeNote": "Call 905-713-6596 or toll-free 1-877-452-4287, or email seniorshelp@chats.on.ca; CHATS follows up for an initial visit and intake assessment before building an individualized care plan.",
+    "program": "Meals on Wheels",
+    "runBy": "CHATS"
   },
   {
     "id": "chats-home-maintenance",
@@ -268,7 +352,9 @@
     "verifiedDate": "2026-08-05",
     "brandGroup": "circle-of-care",
     "website": "https://circleofcare.com/meals-on-wheels/",
-    "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care."
+    "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care.",
+    "program": "Meals on Wheels",
+    "runBy": "Circle of Care"
   },
   {
     "id": "circle-of-care-dementia-memory-support",
@@ -287,7 +373,9 @@
     "verifiedDate": "2026-08-05",
     "brandGroup": "circle-of-care",
     "website": "https://circleofcare.com/adp/",
-    "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care."
+    "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care.",
+    "program": "Adult Day Program",
+    "runBy": "Circle of Care"
   },
   {
     "id": "circle-of-care-mental-health-counselling",
@@ -305,6 +393,28 @@
     "brandGroup": "circle-of-care",
     "website": "https://circleofcare.com/bereavement-support/",
     "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care."
+  },
+  {
+    "id": "cmha-durham-mental-health-counselling",
+    "name": "CMHA Durham Case Management and Community Services",
+    "category": "Mental Health & Counselling",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "(905) 436-8760",
+    "description": "A registered charity offering one-to-one mental health case management and support in Durham Region, including recovery and crisis planning, medication management, life skills help, and family or caregiver support. This is a community mental health service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "cmha-durham",
+    "website": "https://cmhadurham.ca/find-help/our-services/case-management-and-community/",
+    "intakeNote": "Call, email, walk in, or use the online form at cmhadurham.ca/client-intake/ to reach Community Connection Services, the intake team that assesses anyone in Durham Region and refers them into Case Management and Community Services or other CMHA Durham programs; there is no separate senior-only intake line."
   },
   {
     "id": "cmha-toronto-mental-health-counselling",
@@ -384,7 +494,9 @@
     "verifiedDate": "2026-08-05",
     "brandGroup": "community-care-durham",
     "website": "https://www.communitycaredurham.on.ca/services/friendly-visiting/",
-    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
+    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308).",
+    "program": "Friendly Visiting",
+    "runBy": "Community Care Durham"
   },
   {
     "id": "community-care-durham-meals-nutrition",
@@ -406,7 +518,9 @@
     "verifiedDate": "2026-08-05",
     "brandGroup": "community-care-durham",
     "website": "https://www.communitycaredurham.on.ca/services/meals-on-wheels/",
-    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
+    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308).",
+    "program": "Meals on Wheels",
+    "runBy": "Community Care Durham"
   },
   {
     "id": "community-care-durham-transportation",
@@ -559,7 +673,9 @@
     "verifiedDate": "2026-08-05",
     "brandGroup": "ontario-health-athome",
     "website": "https://ontariohealthathome.ca/supportive-living/adult-day-programs/",
-    "intakeNote": "Call 1-833-515-1234, available 7 days a week 365 days a year, and the call is automatically routed to the nearest local office; anyone, including the person themselves, a family member, or a doctor, can start a referral."
+    "intakeNote": "Call 1-833-515-1234, available 7 days a week 365 days a year, and the call is automatically routed to the nearest local office; anyone, including the person themselves, a family member, or a doctor, can start a referral.",
+    "program": "Adult Day Program",
+    "runBy": "Ontario Health atHome"
   },
   {
     "id": "temmy-latner-palliative-palliative-hospice-care",
@@ -581,6 +697,69 @@
     "intakeNote": "A physician faxes a referral form to the Temmy Latner Centre; there is no self-referral route listed on Sinai Health's own site."
   },
   {
+    "id": "von-canada-home-care",
+    "name": "VON Home Support",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto",
+      "Mississauga",
+      "Brampton"
+    ],
+    "phone": "1-833-515-1234",
+    "description": "VON Home Support sends personal support workers into people's homes for bathing, dressing, light housekeeping, mobility help, and medication supervision in Mississauga, South Etobicoke (Toronto), and Brampton. VON Canada is a national registered charity, and this program is part of Ontario's public home and community care system, reached through a referral rather than a direct booking.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "von-canada",
+    "website": "https://von.ca/en/von-care/home-support",
+    "intakeNote": "Families can call VON's national toll-free line, but most of the specific programs below require a referral through Ontario Health atHome (formerly Home and Community Care Support Services) rather than a direct booking, so the fastest path is usually the regional number listed for each program."
+  },
+  {
+    "id": "von-canada-companion-social",
+    "name": "VON Seniors Lunch Bunch (Dining Programs)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Mississauga"
+    ],
+    "phone": "905-821-3254",
+    "description": "Seniors Lunch Bunch brings older adults together for a hot meal and social activities like music, games, or a guest speaker, three days a week at three Mississauga locations. VON Canada is a national registered charity, and this is a public community care service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "von-canada",
+    "website": "https://von.ca/en/von-care/dining-programs",
+    "intakeNote": "Families can call VON's national toll-free line, but most of the specific programs below require a referral through Ontario Health atHome (formerly Home and Community Care Support Services) rather than a direct booking, so the fastest path is usually the regional number listed for each program."
+  },
+  {
+    "id": "von-canada-meals-nutrition",
+    "name": "VON Meals on Wheels",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto",
+      "Mississauga",
+      "Oakville"
+    ],
+    "phone": "905-821-3254",
+    "description": "VON Meals on Wheels delivers hot or frozen meals to people who cannot cook for themselves, with a volunteer safety check at every hot delivery. Available in Mississauga (except Malton), Oakville, and South Etobicoke in Toronto. VON Canada is a national registered charity, and this is a public community care service.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "von-canada",
+    "website": "https://von.ca/en/von-care/Meals-on-Wheels-Hot",
+    "intakeNote": "Families can call VON's national toll-free line, but most of the specific programs below require a referral through Ontario Health atHome (formerly Home and Community Care Support Services) rather than a direct booking, so the fastest path is usually the regional number listed for each program.",
+    "program": "Meals on Wheels",
+    "runBy": "VON"
+  },
+  {
     "id": "woodgreen-meals-nutrition",
     "name": "WoodGreen Meals on Wheels",
     "category": "Meals & Nutrition",
@@ -597,7 +776,9 @@
     "verifiedDate": "2026-08-05",
     "brandGroup": "woodgreen",
     "website": "https://www.woodgreen.org/programs/meals-on-wheels",
-    "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting."
+    "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting.",
+    "program": "Meals on Wheels",
+    "runBy": "WoodGreen"
   },
   {
     "id": "woodgreen-transportation",
@@ -635,6 +816,8 @@
     "verifiedDate": "2026-08-05",
     "brandGroup": "woodgreen",
     "website": "https://www.woodgreen.org/programs/friendly-visiting",
-    "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting."
+    "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting.",
+    "program": "Friendly Visiting",
+    "runBy": "WoodGreen"
   }
 ]

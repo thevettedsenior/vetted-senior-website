@@ -949,6 +949,15 @@ export type Business = {
   verifiedDate?: string;
   /** Public-service rows: one plain sentence on how a family starts. */
   intakeNote?: string;
+  /**
+   * The generic service name families actually know ("Meals on Wheels",
+   * "Friendly Visiting", "Adult Day Program"). Each city's version is run
+   * by a different charity, and which charity should be a detail, not the
+   * headline: cards with a program lead with it and show runBy underneath.
+   */
+  program?: string;
+  /** Who operates this program (org display name for the "Run by" line). */
+  runBy?: string;
 };
 
 function loadBusinesses(): Business[] {
@@ -1115,6 +1124,8 @@ export function searchBusinesses(filters: DirectoryFilters): Business[] {
     if (q) {
       const haystack = [
         b.name,
+        b.program ?? "",
+        b.runBy ?? "",
         b.description,
         b.category,
         ...b.cities,

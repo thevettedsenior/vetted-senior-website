@@ -45,6 +45,22 @@ CATEGORY_NAMES = {
     "retirement-residences": "Retirement Residences",
 }
 
+# Issue-flagged orgs whose drafted rows Ragini approved for publication in
+# chat on 2026-08-05 ("All the drafted posts for the issues sections").
+# Their rows stage alongside verified orgs; any NEW issue org still holds.
+OWNER_APPROVED_ISSUE_ORGS = {
+    "brampton-meals-on-wheels",
+    "canadian-red-cross-ontario",
+    "cmha-durham",
+    "von-canada",
+}
+
+# Generic service names families know. When a row is a local flavour of one
+# of these, the card leads with the service name and shows the operating
+# charity in a "Run by" line (owner direction 2026-08-05: which charity runs
+# Meals on Wheels is a detail, not the headline).
+PROGRAMS = ["Meals on Wheels", "Friendly Visiting", "Adult Day Program"]
+
 # Short display brand per org slug. Card headlines lead with the brand when
 # the program name alone would be ambiguous ("Meals on Wheels" x4).
 BRAND = {
@@ -146,6 +162,15 @@ def to_business(row, verdict):
     note = clean(verdict.get("intakeNote") or "")
     if note:
         b["intakeNote"] = note
+    raw_name = clean(row["name"]).lower()
+    for prog in PROGRAMS:
+        # Substring match also catches plurals ("Adult Day Programs").
+        if prog.lower() in raw_name:
+            b["program"] = prog
+            b["runBy"] = BRAND.get(
+                verdict.get("slug", ""), clean(verdict.get("org", "")) or b["name"]
+            )
+            break
     return b
 
 
@@ -166,7 +191,10 @@ def main():
                 row_notes.append(f"  - SKIPPED {row.get('id')}: " + "; ".join(probs))
             else:
                 rows.append(to_business(row, v))
-        ok_to_stage = status == "verified" and rows
+        ok_to_stage = rows and (
+            status == "verified"
+            or v.get("slug") in OWNER_APPROVED_ISSUE_ORGS
+        )
         if ok_to_stage:
             staged.extend(rows)
         sec = [f"## {org}  [{status.upper()}]"]
