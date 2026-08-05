@@ -1,1 +1,640 @@
-[]
+[
+  {
+    "id": "alzheimer-society-durham-dementia-memory-support",
+    "name": "Alzheimer Society Durham First Link",
+    "category": "Dementia & Memory Support",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-888-301-1106",
+    "description": "First Link connects people living with dementia and their care partners to one on one support, education, and support groups, plus referral to the MINT Memory Clinic for memory assessment. This is a registered charity offering community based dementia support across Durham Region.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "alzheimer-society-durham",
+    "website": "https://alzheimer.ca/durham/en/help-support/programs-services/first-link",
+    "intakeNote": "Call the toll-free line, email intake@alzheimerdurham.com, or fill out the online First Link referral form on the contact page, and a First Link Coordinator will follow up; the MINT Memory Clinic needs a referral from a primary care provider."
+  },
+  {
+    "id": "alzheimer-society-peel-dementia-memory-support",
+    "name": "Alzheimer Society Peel Dementia Resource Consultants",
+    "category": "Dementia & Memory Support",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Mississauga",
+      "Brampton"
+    ],
+    "phone": "905-278-3667 ext. 307",
+    "description": "A free program run by Alzheimer Society Peel, a registered charity, offering one on one information, care strategies, and emotional support for people living with dementia and their care partners across Peel Region. No diagnosis or referral is needed to connect with a Dementia Resource Consultant, and the related First Link program also takes doctor and agency referrals.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "alzheimer-society-peel",
+    "website": "https://www.alzpeel.com/en/dementia-resource-consultants.html",
+    "intakeNote": "Call 905-278-3667 ext. 307 or email direct.support@alzheimerpeel.com to reach the dementia support team; no diagnosis or doctor's referral is needed, and a doctor or agency can also refer a family using the online First Link form."
+  },
+  {
+    "id": "alzheimer-society-peel-companion-social",
+    "name": "Alzheimer Society Peel Adult Day Programs",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Mississauga"
+    ],
+    "phone": "(905) 278-3667 ext. 307",
+    "description": "A non-profit community service run by Alzheimer Society Peel at three Mississauga locations (Sam McCallion Day Centre, Evelyn's Place, and Brunel Day Centre), offering supervised social and recreational activities, meals, music therapy, and dementia-trained staff for people living with dementia. Daily fees range from $21 for a standard day to $28 for the longest extended-hours option.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "alzheimer-society-peel",
+    "website": "https://www.alzpeel.com/en/adult-day-programs.html",
+    "intakeNote": "Call 905-278-3667 ext. 307 or email direct.support@alzheimerpeel.com to reach the dementia support team; no diagnosis or doctor's referral is needed, and a doctor or agency can also refer a family using the online First Link form."
+  },
+  {
+    "id": "alzheimer-society-toronto-dementia-memory-support",
+    "name": "Alzheimer Society of Toronto",
+    "category": "Dementia & Memory Support",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-322-6560",
+    "description": "A registered charity offering free support groups, one on one counselling, and education sessions for people with dementia and their care partners in Toronto. Support groups include options for young onset dementia, frontotemporal dementia, and Lewy body dementia, and the Society also runs the Active Minds Club day program for people diagnosed before age 65.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "alzheimer-society-toronto",
+    "website": "https://alz.to/alzheimer-programs/dementia-support-services/",
+    "intakeNote": "Call 416-322-6560, email info@alz.to, or fill out the online Get Started form, and an Intake Coordinator will follow up to plan next steps (a doctor can also send a referral)."
+  },
+  {
+    "id": "alzheimer-society-york-dementia-memory-support",
+    "name": "Alzheimer Society York Region D.A.Y. Centre",
+    "category": "Dementia & Memory Support",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "905-726-3477",
+    "description": "A registered charity's adult day program for people diagnosed with Alzheimer's disease or another dementia, running since 1985. Staff lead structured social and recreational activities at centres in Aurora, Thornhill, and Stouffville, giving caregivers a break during the day.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "alzheimer-society-york",
+    "website": "https://alzheimer.ca/york/en/help-support/programs-services/day-program",
+    "intakeNote": "Families call 905-726-3477 (toll-free 1-888-414-5550) or reach the general inbox at info@alzheimer-york.com. Some programs, like the D.A.Y. Centre and First Link, also take direct referrals from doctors, hospitals, and family members."
+  },
+  {
+    "id": "alzheimer-society-york-companion-social",
+    "name": "Alzheimer Society York Region Minds in Motion",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "905-726-3477",
+    "description": "A non-profit community program from the Alzheimer Society of York Region. A person with early or mid-stage dementia and their care partner attend eight weekly sessions together that mix gentle physical activity with social and cognitive stimulation.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "alzheimer-society-york",
+    "website": "https://alzheimer.ca/york/en/help-support/programs-services/minds-motion",
+    "intakeNote": "Families call 905-726-3477 (toll-free 1-888-414-5550) or reach the general inbox at info@alzheimer-york.com. Some programs, like the D.A.Y. Centre and First Link, also take direct referrals from doctors, hospitals, and family members."
+  },
+  {
+    "id": "canadian-hearing-services-hearing-vision",
+    "name": "Canadian Hearing Services Hearing Clinics",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-866-518-0000",
+    "description": "A registered charity running 10 hearing clinics across Ontario, including Toronto, Mississauga, and Newmarket in York Region, offering hearing tests, hearing aid consultations, and fittings with a 90 day trial. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "canadian-hearing-services",
+    "website": "https://www.chs.ca/hearing-clinic-locations",
+    "intakeNote": "Call 1-866-518-0000, email audiology@chs.ca, or book online (Ontario residents only) for a hearing test or hearing aid consultation. No referral is needed."
+  },
+  {
+    "id": "chats-home-care",
+    "name": "CHATS In-Home Services (Home Help)",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "1-877-452-4287",
+    "description": "CHATS sends trained Home Support Workers and Personal Support Workers into a senior's own home for up to eight hours a month of help with light housekeeping, meal preparation, and personal care like bathing and dressing, with in-home relief for family caregivers. CHATS is a registered charity, so this is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "chats",
+    "website": "https://chats.on.ca/in-home-services/home-help/",
+    "intakeNote": "Call 905-713-6596 or toll-free 1-877-452-4287, or email seniorshelp@chats.on.ca; CHATS follows up for an initial visit and intake assessment before building an individualized care plan."
+  },
+  {
+    "id": "chats-transportation",
+    "name": "CHATS Community Transportation (iRIDEplus)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "905-713-6596",
+    "description": "CHATS' iRIDEplus program provides local and long-distance grouped drives to medical appointments, adult day programs, errands, and social outings for residents of York Region and South Simcoe, over 3500 drives a month. CHATS is a registered charity, so this is a non-profit community service, not a private ride company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "chats",
+    "website": "https://chats.on.ca/community-transportation/",
+    "intakeNote": "Call 905-713-6596 or toll-free 1-877-452-4287, or email seniorshelp@chats.on.ca; CHATS follows up for an initial visit and intake assessment before building an individualized care plan."
+  },
+  {
+    "id": "chats-meals-nutrition",
+    "name": "CHATS Meals on Wheels",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "905-713-6596",
+    "description": "CHATS delivers more than 100 frozen entrees, soups, and desserts to seniors' homes on a weekly, order-as-needed basis, including diabetic, low fat, low salt, vegetarian, pureed, minced, and halal options, plus a friendly volunteer check-in with each delivery. CHATS is a registered charity, so this is a non-profit community service.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "chats",
+    "website": "https://chats.on.ca/in-home-services/meals-on-wheels/",
+    "intakeNote": "Call 905-713-6596 or toll-free 1-877-452-4287, or email seniorshelp@chats.on.ca; CHATS follows up for an initial visit and intake assessment before building an individualized care plan."
+  },
+  {
+    "id": "chats-home-maintenance",
+    "name": "CHATS Home Adaptation & Maintenance Program",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Newmarket"
+    ],
+    "phone": "1-866-677-9048 ext. 6240",
+    "description": "This CHATS program installs grab bars, handrails, and other minor safety renovations after a free in-home safety assessment, and offers seasonal yard care, eavestrough cleaning, window cleaning, and snow clearing. It has helped over 2,100 clients since 2009. CHATS is a registered charity, so this is a non-profit community service, not a private contractor.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "chats",
+    "website": "https://chats.on.ca/home-safety-services/home-adaption-maintenance-program/",
+    "intakeNote": "Call 905-713-6596 or toll-free 1-877-452-4287, or email seniorshelp@chats.on.ca; CHATS follows up for an initial visit and intake assessment before building an individualized care plan."
+  },
+  {
+    "id": "circle-of-care-home-care",
+    "name": "Circle of Care Personal Support at Home",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "(416) 635-2860",
+    "description": "Personal Support Workers from Circle of Care help with bathing, dressing, meal prep, and light housekeeping in the client's own home, with relief for family caregivers. Circle of Care is a registered charity and a system partner of Sinai Health, so this is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "circle-of-care",
+    "website": "https://circleofcare.com/personalsupport/",
+    "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care."
+  },
+  {
+    "id": "circle-of-care-meals-nutrition",
+    "name": "Circle of Care Meals on Wheels",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "(416) 635-2860",
+    "description": "Circle of Care's Meals on Wheels delivers nutritious frozen meals, including kosher options, to seniors and adults with disabilities across Toronto and into southern York Region. Circle of Care is a registered charity and a system partner of Sinai Health, so this is a non-profit community service.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "circle-of-care",
+    "website": "https://circleofcare.com/meals-on-wheels/",
+    "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care."
+  },
+  {
+    "id": "circle-of-care-dementia-memory-support",
+    "name": "Circle of Care Adult Day Program",
+    "category": "Dementia & Memory Support",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Vaughan"
+    ],
+    "phone": "(905) 738-1128",
+    "description": "Circle of Care's Adult Day Program in Vaughan gives adults with memory loss or physical frailty a supervised place to spend the day, with meals, activities, and caregiver respite. It is a program of a registered charity that is a system partner of Sinai Health, a non-profit community service.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "circle-of-care",
+    "website": "https://circleofcare.com/adp/",
+    "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care."
+  },
+  {
+    "id": "circle-of-care-mental-health-counselling",
+    "name": "Circle of Care Bereavement Support",
+    "category": "Mental Health & Counselling",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "416-635-2860 ext. 273",
+    "description": "Circle of Care's Bereavement Support offers free grief counselling, support groups, and art therapy for adults across Ontario grieving the death of a close family member or friend, in person, by phone, or online. This free program is run by a registered charity that is a system partner of Sinai Health, a non-profit community service.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "circle-of-care",
+    "website": "https://circleofcare.com/bereavement-support/",
+    "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care."
+  },
+  {
+    "id": "cmha-toronto-mental-health-counselling",
+    "name": "CMHA Toronto Grief Support Program",
+    "category": "Mental Health & Counselling",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "437-995-4017",
+    "description": "A registered charity's free, drop-in grief support group, held weekly online and facilitated by a registered psychotherapist. Open to adults grieving any kind of loss, including seniors coping with the loss of a spouse, friends, or independence, and to caregivers supporting someone who is grieving.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "cmha-toronto",
+    "website": "https://cmhato.org/programs/grief-support-program/",
+    "intakeNote": "Call 416-789-7957 or email info@cmhato.org to ask about any CMHA Toronto program, or self-refer straight into the Grief Support Program with its online registration form (no professional referral needed)."
+  },
+  {
+    "id": "cnib-hearing-vision",
+    "name": "CNIB Tech",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "national",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-563-2642",
+    "description": "A registered charity that helps Canadians who are blind or partially sighted use accessible technology, through free group and one-to-one training, smartphone apps, and devices like a free smartphone for registered clients. This is a national charity program, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "cnib",
+    "website": "https://www.cnib.ca/en/programs-and-services/tech",
+    "intakeNote": "Call the national line or fill out the online contact form at cnib.ca to reach a CNIB program coordinator, who can register you and connect you to programs like Tech and Peer Support, or point you to a referral for vision loss rehabilitation training."
+  },
+  {
+    "id": "community-care-durham-home-care",
+    "name": "Community Care Durham Personal Support (Caregiver Relief) In-Home Respite",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-888-255-6680",
+    "description": "A registered charity providing in-home respite through Personal Support Workers, who give personal care, help with daily living, meal preparation, and light housekeeping so family caregivers in Durham Region can take a break. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "community-care-durham",
+    "website": "https://www.communitycaredurham.on.ca/services/personal-support-caregiver-relief/",
+    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
+  },
+  {
+    "id": "community-care-durham-companion-social",
+    "name": "Community Care Durham Friendly Visiting",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-888-255-6680",
+    "description": "A registered charity that matches Durham Region seniors and adults with disabilities to a volunteer for regular, friendly social visits, usually about once a week. This is a free non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "community-care-durham",
+    "website": "https://www.communitycaredurham.on.ca/services/friendly-visiting/",
+    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
+  },
+  {
+    "id": "community-care-durham-meals-nutrition",
+    "name": "Community Care Durham Meals on Wheels",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-888-255-6680",
+    "description": "A registered charity delivering hot and frozen meals across Durham Region, with volunteers who also do a friendly safety check at the door. Meal options include Halal, vegetarian, low sodium, gluten-free, minced, and pureed. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "community-care-durham",
+    "website": "https://www.communitycaredurham.on.ca/services/meals-on-wheels/",
+    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
+  },
+  {
+    "id": "community-care-durham-transportation",
+    "name": "Community Care Durham Transportation",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-888-255-6680",
+    "description": "A registered charity offering accessible van rides, volunteer drivers, and PSW-escorted medical rides for people in Durham Region who cannot use public transportation because of age or health needs. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "community-care-durham",
+    "website": "https://www.communitycaredurham.on.ca/services/transportation/",
+    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
+  },
+  {
+    "id": "community-care-durham-mental-health-counselling",
+    "name": "Community Care Durham WeConnect Mental Health and Wellness",
+    "category": "Mental Health & Counselling",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-888-255-6680",
+    "description": "A registered charity running WeConnect, formerly called COPE Mental Health, a free community mental health program across Durham Region with support groups, workshops, and educational sessions for people 16 and older. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "community-care-durham",
+    "website": "https://www.communitycaredurham.on.ca/services/weconnect/",
+    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
+  },
+  {
+    "id": "dorothy-ley-hospice-palliative-hospice-care",
+    "name": "The Dorothy Ley Hospice",
+    "category": "Palliative & Hospice Care",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto",
+      "Mississauga"
+    ],
+    "phone": "416-626-0116",
+    "description": "A registered charity offering hospice palliative care from a 12 suite residence in Etobicoke plus a home based palliative care team. It serves Etobicoke, west Toronto and part of east Mississauga. Both the residence and the home team need a doctor's referral, and both are free to patients and families.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "dorothy-ley-hospice",
+    "website": "https://dlhospice.org/get-support/",
+    "intakeNote": "A doctor faxes a referral form for the hospice residence or the home based palliative care team, but families can also call the main line or the 24 hour helpline to ask questions, and grief and bereavement support can be self-referred online without a doctor."
+  },
+  {
+    "id": "hospice-mississauga-palliative-hospice-care",
+    "name": "Hospice Mississauga",
+    "category": "Palliative & Hospice Care",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Mississauga"
+    ],
+    "phone": "905-667-1865",
+    "description": "A registered charity that has provided community hospice care in Mississauga since 1985. Trained staff and volunteers visit people with a life limiting illness in their own homes and offer grief and bereavement support, including a youth program that also reaches grieving families in Brampton, all at no cost to patients and caregivers.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "hospice-mississauga",
+    "website": "https://hospicemississauga.ca/how-we-help/",
+    "intakeNote": "A family calls the Hospice Palliative Helpline at 905-667-1865 or fills out one of four online referral forms on the Hospice Mississauga site, no doctor referral needed."
+  },
+  {
+    "id": "hospice-toronto-palliative-hospice-care",
+    "name": "Hospice Toronto In-Home Care",
+    "category": "Palliative & Hospice Care",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-364-1666",
+    "description": "A registered charity that sends trained volunteers into a person's home to provide practical, emotional, and spiritual support for someone with a life-threatening illness, plus respite so family caregivers can rest. All services are free of charge.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "hospice-toronto",
+    "website": "https://hospicetoronto.ca/what-we-do/in-home-care/",
+    "intakeNote": "Families and individuals can self-refer by calling the office at 416-364-1666; organizations refer using the Toronto Central Palliative Care Network Common Referral Form faxed to 416-364-2231."
+  },
+  {
+    "id": "ontario-health-athome-home-care",
+    "name": "Ontario Health atHome",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-833-515-1234",
+    "description": "Ontario's public home and community care agency, a Government of Ontario Crown agency formerly known as Home and Community Care Support Services. Provides nursing, personal support, physiotherapy, occupational therapy, and other in-home care coordinated by a care coordinator, covered through OHIP for people with a valid Ontario health card.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-health-athome",
+    "website": "https://ontariohealthathome.ca/home-care/",
+    "intakeNote": "Call 1-833-515-1234, available 7 days a week 365 days a year, and the call is automatically routed to the nearest local office; anyone, including the person themselves, a family member, or a doctor, can start a referral."
+  },
+  {
+    "id": "ontario-health-athome-palliative-hospice-care",
+    "name": "Ontario Health atHome",
+    "category": "Palliative & Hospice Care",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-833-515-1234",
+    "description": "Part of Ontario's public health system. Hospice palliative care nurse practitioners provide direct clinical care, pain and symptom management, and support in the home for people with a life-limiting illness, plus referrals to respite care, visiting volunteers, hospice day programs, hospice residences, and bereavement support.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-health-athome",
+    "website": "https://ontariohealthathome.ca/home-care/palliative-care/",
+    "intakeNote": "Call 1-833-515-1234, available 7 days a week 365 days a year, and the call is automatically routed to the nearest local office; anyone, including the person themselves, a family member, or a doctor, can start a referral."
+  },
+  {
+    "id": "ontario-health-athome-companion-social",
+    "name": "Ontario Health atHome Adult Day Programs",
+    "category": "Companion & Social",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-833-515-1234",
+    "description": "A public program coordinated by Ontario Health atHome, Ontario's public home and community care agency. Adult day programs offer recreational and social activities, meals, personal care, and basic health care in a small group community setting, giving older adults social connection and giving family caregivers a break.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-health-athome",
+    "website": "https://ontariohealthathome.ca/supportive-living/adult-day-programs/",
+    "intakeNote": "Call 1-833-515-1234, available 7 days a week 365 days a year, and the call is automatically routed to the nearest local office; anyone, including the person themselves, a family member, or a doctor, can start a referral."
+  },
+  {
+    "id": "temmy-latner-palliative-palliative-hospice-care",
+    "name": "Temmy Latner Centre for Palliative Care",
+    "category": "Palliative & Hospice Care",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-586-4800 ext. 7884",
+    "description": "Physicians from the Temmy Latner Centre visit patients with serious, life-limiting illness in their own homes across Central Toronto and North York. It is a hospital-affiliated program of Sinai Health, part of the public hospital system, and a physician referral is required to start care.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "temmy-latner-palliative",
+    "website": "https://www.sinaihealth.ca/areas-of-care/palliative-care/palliative-care-in-the-home",
+    "intakeNote": "A physician faxes a referral form to the Temmy Latner Centre; there is no self-referral route listed on Sinai Health's own site."
+  },
+  {
+    "id": "woodgreen-meals-nutrition",
+    "name": "WoodGreen Meals on Wheels",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "(416) 572-3575",
+    "description": "WoodGreen delivers hot and frozen meals to seniors 55 and older and adults with disabilities who cannot prepare their own food, with a wellness check at every drop off. This is a program of a registered charity, and meals are fee based, from about $2.50 to $8.00 each depending on the type.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "woodgreen",
+    "website": "https://www.woodgreen.org/programs/meals-on-wheels",
+    "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting."
+  },
+  {
+    "id": "woodgreen-transportation",
+    "name": "WoodGreen Transportation Program",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "(416) 572-3575",
+    "description": "WoodGreen's Transportation Program gives seniors 55 and older and adults with disabilities accessible rides to medical appointments, day programs, and group shopping within east and central Toronto. This is a program of a registered charity, with fees based on distance, starting at $7.20 for a short ride.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "woodgreen",
+    "website": "https://www.woodgreen.org/programs/transportation-program",
+    "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting."
+  },
+  {
+    "id": "woodgreen-companion-social",
+    "name": "WoodGreen Friendly Visiting",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "(416) 572-3575",
+    "description": "WoodGreen's Friendly Visiting program sends trained volunteers for in person social visits and wellness checks to seniors 55 and older and adults with disabilities who are experiencing social isolation. This is a free program run by a registered charity, available year round in Toronto.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "woodgreen",
+    "website": "https://www.woodgreen.org/programs/friendly-visiting",
+    "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting."
+  }
+]
