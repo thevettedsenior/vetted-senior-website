@@ -29,8 +29,8 @@ function ResourcesPage() {
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-foreground/85 leading-relaxed md:text-xl">
             Every worksheet on this site, in one place. Print them, write on
-            them, bring them to tours and provider calls. All free, and none
-            of them ask for your email first.
+            them, bring them to tours and provider calls. All free, and none of
+            them ask for your email first.
           </p>
           <p className="mt-3 text-base text-muted-foreground">
             Each one comes from a guide on this site, so if a checklist raises

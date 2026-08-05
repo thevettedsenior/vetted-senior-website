@@ -99,8 +99,7 @@ function About() {
           <p className="mt-4 max-w-2xl text-xl text-foreground/85 leading-relaxed">
             Every referral site in this industry claims to "carefully screen"
             its listings. Here is what the words mean on ours, published in
-            full, because a process you can't read is a process you can't
-            trust.
+            full, because a process you can't read is a process you can't trust.
           </p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
             The methodology was designed by our founder,{" "}
@@ -174,8 +173,8 @@ function About() {
           </h2>
           <p className="mt-3 text-lg text-foreground/85 leading-relaxed">
             Every provider is scored pass, marginal, or fail on each of these,
-            with a written rationale. Listing requires at least four passes,
-            no fails, and no marginal score on honesty.
+            with a written rationale. Listing requires at least four passes, no
+            fails, and no marginal score on honesty.
           </p>
           <ul className="mt-8 space-y-4">
             {CRITERIA.map((c, i) => (
@@ -196,8 +195,8 @@ function About() {
             Providers who don't pass are told why, privately and specifically,
             and what a successful re-application would show. Some fix the
             deficiency and come back. That is the directory improving the
-            market, which is the mission working even when the listing does
-            not happen.
+            market, which is the mission working even when the listing does not
+            happen.
           </p>
         </div>
       </section>
@@ -209,24 +208,23 @@ function About() {
         </h2>
         <div className="mt-5 space-y-5 text-lg text-foreground/85 leading-relaxed">
           <p>
-            Some of the most useful help for seniors is not a private company
-            at all: hospital programs, public home care through Ontario Health
+            Some of the most useful help for seniors is not a private company at
+            all: hospital programs, public home care through Ontario Health
             atHome, Alzheimer Societies, hospices, Meals on Wheels, and other
             non-profit community services. These organizations do not sit our
-            structured interview or hand us insurance certificates, and it
-            would be misleading to stamp them "vetted" as if they had.
+            structured interview or hand us insurance certificates, and it would
+            be misleading to stamp them "vetted" as if they had.
           </p>
           <p>
             So they carry a different badge, marked "Public service." For each
             one we verify, against the organization's own website and records,
-            that the program actually exists today, that it is a genuine
-            public body, hospital-affiliated program, or registered non-profit,
-            how you reach it, what it costs, and who qualifies. Every check is
-            logged with a date, and these listings are re-checked on a
-            schedule just like vetted ones. What we do not do for them is the
-            full private-provider process: no interview, no reference calls,
-            no insurance file. The badge tells you which promise you are
-            getting.
+            that the program actually exists today, that it is a genuine public
+            body, hospital-affiliated program, or registered non-profit, how you
+            reach it, what it costs, and who qualifies. Every check is logged
+            with a date, and these listings are re-checked on a schedule just
+            like vetted ones. What we do not do for them is the full
+            private-provider process: no interview, no reference calls, no
+            insurance file. The badge tells you which promise you are getting.
           </p>
         </div>
       </section>
@@ -239,22 +237,22 @@ function About() {
         <div className="mt-5 space-y-5 text-lg text-foreground/85 leading-relaxed">
           <p>
             Listings are not permanent. Every report from a family is
-            acknowledged within one business day and logged. A service
-            complaint gets the provider's response and goes in the file; a
-            pattern of complaints triggers an early re-review. A serious
-            allegation, one that would fail a criterion if credible, suspends
-            the listing while we investigate: it is marked{" "}
-            <em>"Under review, temporarily not recommended,"</em> with the
-            date, until we decide.
+            acknowledged within one business day and logged. A service complaint
+            gets the provider's response and goes in the file; a pattern of
+            complaints triggers an early re-review. A serious allegation, one
+            that would fail a criterion if credible, suspends the listing while
+            we investigate: it is marked{" "}
+            <em>"Under review, temporarily not recommended,"</em> with the date,
+            until we decide.
           </p>
           <p>
             An allegation of harm, abuse, financial exploitation, or fraud
             suspends the listing the same day, before we even speak with the
             provider. And one thing we will always be clear about: we are a
-            directory, not an investigator of crimes. If a report involves
-            abuse or a crime, our first response is directing the reporter to
-            the proper authority: 911 where urgent, and Ontario's Seniors
-            Safety Line, 1-866-299-1011, which answers 24 hours a day. Our own
+            directory, not an investigator of crimes. If a report involves abuse
+            or a crime, our first response is directing the reporter to the
+            proper authority: 911 where urgent, and Ontario's Seniors Safety
+            Line, 1-866-299-1011, which answers 24 hours a day. Our own
             investigation answers one question only: does this provider still
             meet our standard for listing?
           </p>
@@ -280,16 +278,16 @@ function About() {
             review is one we believe is worth considering, with the evidence
             published. It is not a guarantee of a perfect experience. People
             change, businesses change, and that is exactly why the re-review
-            schedule exists and why we encourage you to trust your own
-            judgment alongside ours. If something feels wrong, it probably is.
+            schedule exists and why we encourage you to trust your own judgment
+            alongside ours. If something feels wrong, it probably is.
           </p>
           <p className="mt-4 text-lg text-foreground/85 leading-relaxed">
-            And the second honest limit: the directory is young. We are
-            building it region by region, starting with the Toronto area, and
-            provider by provider, at six to nine hours per file. Where we do
-            not yet have vetted providers, we say so plainly rather than pad
-            the list. On this site, an empty category is a promise being kept,
-            not a gap being hidden.
+            And the second honest limit: the directory is young. We are building
+            it region by region, starting with the Toronto area, and provider by
+            provider, at six to nine hours per file. Where we do not yet have
+            vetted providers, we say so plainly rather than pad the list. On
+            this site, an empty category is a promise being kept, not a gap
+            being hidden.
           </p>
         </div>
       </section>
@@ -303,8 +301,8 @@ function About() {
           </h2>
           <p className="text-lg text-foreground/85 leading-relaxed">
             Good or bad, tell us. That feedback loop is part of the vetting.
-            Every concern is taken seriously, investigated against our
-            published criteria, and acted on, up to and including removal.
+            Every concern is taken seriously, investigated against our published
+            criteria, and acted on, up to and including removal.
           </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <Link

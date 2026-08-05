@@ -96,8 +96,7 @@ function DirectoryPage() {
             The directory
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-foreground/85 leading-relaxed md:text-xl">
-            Two kinds of listings, clearly marked: private providers that
-            passed{" "}
+            Two kinds of listings, clearly marked: private providers that passed{" "}
             <Link to="/about" className="text-primary underline">
               the full vetting process
             </Link>
@@ -224,10 +223,10 @@ function DirectoryPage() {
                 </span>
                 <p className="mt-3 text-base text-foreground/85 leading-relaxed">
                   A private company that earned its place through the full
-                  vetting process: primary-source checks, a structured
-                  interview with the owner, and reference calls with real
-                  clients. Each one shows the date it was vetted, and each is
-                  re-reviewed on a schedule.
+                  vetting process: primary-source checks, a structured interview
+                  with the owner, and reference calls with real clients. Each
+                  one shows the date it was vetted, and each is re-reviewed on a
+                  schedule.
                 </p>
               </div>
               <div className="rounded-2xl border border-border bg-secondary/40 p-6">

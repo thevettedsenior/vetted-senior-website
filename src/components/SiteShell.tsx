@@ -54,7 +54,10 @@ function FindHelpMenu() {
         Find Help
         <ChevronDown size={16} aria-hidden />
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="start" className="w-[600px] rounded-2xl p-5 shadow-[var(--shadow-card-hover)]">
+      <DropdownMenuContent
+        align="start"
+        className="w-[600px] rounded-2xl p-5 shadow-[var(--shadow-card-hover)]"
+      >
         <DropdownMenuItem asChild>
           <Link
             to="/help"
@@ -169,7 +172,11 @@ export function SiteHeader() {
           onClick={() => setMenuOpen((open) => !open)}
           className="flex h-12 w-12 items-center justify-center rounded-full border border-border text-primary md:hidden"
         >
-          {menuOpen ? <X size={26} aria-hidden /> : <Menu size={26} aria-hidden />}
+          {menuOpen ? (
+            <X size={26} aria-hidden />
+          ) : (
+            <Menu size={26} aria-hidden />
+          )}
         </button>
       </div>
 
@@ -191,11 +198,17 @@ export function SiteHeader() {
                 to={link.to}
                 className="flex min-h-12 items-center justify-between rounded-xl border border-border bg-background px-4 py-3 text-lg font-medium text-primary no-underline transition-colors hover:border-gold"
                 activeOptions={link.to === "/" ? { exact: true } : undefined}
-                activeProps={{ className: "border-gold bg-gold/10 font-semibold" }}
+                activeProps={{
+                  className: "border-gold bg-gold/10 font-semibold",
+                }}
                 onClick={() => setMenuOpen(false)}
               >
                 {link.label}
-                <ChevronRight size={20} className="text-gold-deep" aria-hidden />
+                <ChevronRight
+                  size={20}
+                  className="text-gold-deep"
+                  aria-hidden
+                />
               </Link>
             ))}
             <div className="mt-3 border-t border-border pt-4">
@@ -238,11 +251,13 @@ export function SiteFooter() {
                   strokeLinejoin="round"
                 />
               </svg>
-              <span className="font-serif text-2xl font-semibold">The Vetted Senior</span>
+              <span className="font-serif text-2xl font-semibold">
+                The Vetted Senior
+              </span>
             </div>
             <p className="mt-4 max-w-sm leading-relaxed opacity-85">
-              Plain-language guidance for seniors, adult children, and caregivers.
-              No jargon. No pressure. No paid placements.
+              Plain-language guidance for seniors, adult children, and
+              caregivers. No jargon. No pressure. No paid placements.
             </p>
           </div>
 
@@ -291,7 +306,8 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-wrap items-center justify-between gap-4 border-t border-primary-foreground/20 pt-6">
           <p className="text-sm opacity-70">
-            © {new Date().getFullYear()} The Vetted Senior. Serving seniors and families.
+            © {new Date().getFullYear()} The Vetted Senior. Serving seniors and
+            families.
           </p>
           <p className="text-sm font-medium text-gold">
             Nobody pays to be recommended by us.
@@ -312,7 +328,9 @@ export function Page({ children }: { children: ReactNode }) {
         Skip to main content
       </a>
       <SiteHeader />
-      <main id="main-content" className="flex-1">{children}</main>
+      <main id="main-content" className="flex-1">
+        {children}
+      </main>
       <SiteFooter />
     </div>
   );

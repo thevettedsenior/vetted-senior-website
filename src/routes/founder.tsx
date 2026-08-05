@@ -97,7 +97,9 @@ function FounderPage() {
             role="img"
             aria-label="Placeholder for a photograph of Ragini with her mother"
           >
-            <span aria-hidden className="text-5xl">📷</span>
+            <span aria-hidden className="text-5xl">
+              📷
+            </span>
             <p className="font-serif text-lg text-primary">
               Photograph of Ragini
             </p>
@@ -112,9 +114,9 @@ function FounderPage() {
 
         <div className="space-y-5 text-lg text-foreground/90 leading-relaxed">
           <p>
-            My name is Ragini. I built The Vetted Senior for one
-            reason: when it was my turn to find help for my own mother, I could
-            not find a single resource I actually trusted. Not one.
+            My name is Ragini. I built The Vetted Senior for one reason: when it
+            was my turn to find help for my own mother, I could not find a
+            single resource I actually trusted. Not one.
           </p>
           <p>
             Let me tell you what I mean by trust, because I do not use the word
@@ -130,44 +132,43 @@ function FounderPage() {
             check whether people and businesses are who they say they are,
             whether the paperwork matches the reality, and whether anyone is
             quietly cutting corners. When a bank needed to figure out how to
-            verify thousands of clients, flag suspicious activity, or prove to
-            a regulator that its controls actually worked, that was my desk.
+            verify thousands of clients, flag suspicious activity, or prove to a
+            regulator that its controls actually worked, that was my desk.
           </p>
           <p>
             You develop a particular habit of mind doing that work for two
             decades. You stop accepting claims. You ask for the document. You
             call the reference. You check the licence against the registry, not
             against the website. You learn that most organizations are honest,
-            some are sloppy, and a few are counting on the fact that nobody
-            ever verifies anything.
+            some are sloppy, and a few are counting on the fact that nobody ever
+            verifies anything.
           </p>
           <p>
             Then came the point in my mother's life when I became the person
-            responsible for her wellbeing and her finances. She lives in a retirement home in
-            Mississauga. I am the one who evaluates her care, questions the
-            invoices, and makes the decisions when something changes. And when
-            I went looking for the services every family eventually needs,
-            home care, safety equipment, help with the house, honest guidance
-            about paying for it all, I found an industry that runs almost
-            entirely on unverified claims.
+            responsible for her wellbeing and her finances. She lives in a
+            retirement home in Mississauga. I am the one who evaluates her care,
+            questions the invoices, and makes the decisions when something
+            changes. And when I went looking for the services every family
+            eventually needs, home care, safety equipment, help with the house,
+            honest guidance about paying for it all, I found an industry that
+            runs almost entirely on unverified claims.
           </p>
           <p>
-            Directories where "featured" means "paid us." Referral services
-            that call themselves advisors but earn their money from the
-            facilities they recommend, sometimes a full month's rent per
-            placement. Review sites where nobody checks whether the reviewer,
-            or the business, is real. Websites whose fine print admits the
-            listings are advertising. I read that fine print. Most people never
-            do, and the industry knows it.
+            Directories where "featured" means "paid us." Referral services that
+            call themselves advisors but earn their money from the facilities
+            they recommend, sometimes a full month's rent per placement. Review
+            sites where nobody checks whether the reviewer, or the business, is
+            real. Websites whose fine print admits the listings are advertising.
+            I read that fine print. Most people never do, and the industry knows
+            it.
           </p>
           <p>
             I found this genuinely unacceptable. Not disappointing.
             Unacceptable. These are our parents. This is the money they spent a
             lifetime earning. The people navigating these decisions are often
-            exhausted, frightened, and doing it at eleven o'clock at night
-            after work and dinner and a phone call that ended in tears. They
-            deserve better than a lead-generation machine wearing a friendly
-            face.
+            exhausted, frightened, and doing it at eleven o'clock at night after
+            work and dinner and a phone call that ended in tears. They deserve
+            better than a lead-generation machine wearing a friendly face.
           </p>
           <p className="font-serif text-xl text-primary">
             So I built the thing I could not find.
@@ -180,11 +181,11 @@ function FounderPage() {
             documented, repeatable, and checked against primary sources. We
             verify licences with the regulators who issue them, not with the
             businesses that claim them. We check insurance certificates. We
-            interview owners and ask the questions families do not know to
-            ask. We call real clients. We re-review every listing on a
-            schedule, because standards slip, and when they slip, we notice.
-            When a provider stops meeting our standards, they come off the
-            list, and we say so.
+            interview owners and ask the questions families do not know to ask.
+            We call real clients. We re-review every listing on a schedule,
+            because standards slip, and when they slip, we notice. When a
+            provider stops meeting our standards, they come off the list, and we
+            say so.
           </p>
           <p>
             Vetting reduces risk. It does not eliminate it, and I will never
@@ -214,10 +215,10 @@ function FounderPage() {
           </p>
           <p>
             Second, I am still my mother's daughter first. Every guide on this
-            site is written the way I would explain it to a friend sitting at
-            my kitchen table: plainly, honestly, and without pretending
-            anything is simpler than it is. When you read something here, you
-            are reading what I would want someone to tell me.
+            site is written the way I would explain it to a friend sitting at my
+            kitchen table: plainly, honestly, and without pretending anything is
+            simpler than it is. When you read something here, you are reading
+            what I would want someone to tell me.
           </p>
           <p>
             If you are at the beginning of this, overwhelmed and not sure what
@@ -229,8 +230,8 @@ function FounderPage() {
             <Link to="/help" className="text-primary underline">
               Find Help
             </Link>
-            . And if you ever find something on this site that does not meet
-            the standard I have described,{" "}
+            . And if you ever find something on this site that does not meet the
+            standard I have described,{" "}
             <Link to="/contact" className="text-primary underline">
               tell me
             </Link>
@@ -238,9 +239,7 @@ function FounderPage() {
             actually checking.
           </p>
           <div className="pt-2">
-            <p className="font-serif text-xl text-primary">
-              Ragini
-            </p>
+            <p className="font-serif text-xl text-primary">Ragini</p>
             <p className="text-base text-muted-foreground">
               Founder, The Vetted Senior
               <br />

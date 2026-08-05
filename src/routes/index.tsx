@@ -14,12 +14,20 @@ import { Page } from "@/components/SiteShell";
 import { HandbookCTA } from "@/components/HandbookCTA";
 import { SiteSearch } from "@/components/SiteSearch";
 import { IconChip, categoryIcon, situationIcon } from "@/lib/site-icons";
-import { SITUATIONS, HELP_CATEGORIES, PROVINCES, CATEGORY_GROUPS } from "@/lib/directory-data";
+import {
+  SITUATIONS,
+  HELP_CATEGORIES,
+  PROVINCES,
+  CATEGORY_GROUPS,
+} from "@/lib/directory-data";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "The Vetted Senior: Guidance for Seniors, Families, and Caregivers" },
+      {
+        title:
+          "The Vetted Senior: Guidance for Seniors, Families, and Caregivers",
+      },
       {
         name: "description",
         content:
@@ -42,12 +50,13 @@ function Home() {
 
   return (
     <Page>
-
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
       <section className="hero-wash border-b border-border">
         <div className="mx-auto grid max-w-6xl gap-12 px-6 pb-16 pt-14 md:grid-cols-[1.35fr_1fr] md:items-center md:pb-20 md:pt-20">
           <div>
-            <p className="eyebrow">Independent · Canadian · Personally checked</p>
+            <p className="eyebrow">
+              Independent · Canadian · Personally checked
+            </p>
             <h1 className="mt-5 font-serif text-[2.75rem] font-semibold leading-[1.08] text-primary md:text-6xl lg:text-[4.25rem]">
               Getting older comes with questions.{" "}
               <span className="text-gold-deep">We have answers.</span>
@@ -157,7 +166,10 @@ function Home() {
       </section>
 
       {/* ── FIND YOUR SITUATION ───────────────────────────────────────────── */}
-      <section id="situations" className="mx-auto max-w-6xl scroll-mt-28 px-6 py-16 md:py-20">
+      <section
+        id="situations"
+        className="mx-auto max-w-6xl scroll-mt-28 px-6 py-16 md:py-20"
+      >
         <div className="mb-10">
           <p className="eyebrow">Start here</p>
           <h2 className="mt-3 font-serif text-3xl font-semibold text-primary md:text-[2.6rem] md:leading-tight">
@@ -219,7 +231,10 @@ function Home() {
       </section>
 
       {/* ── FIND HELP ─────────────────────────────────────────────────────── */}
-      <section id="find-help" className="scroll-mt-28 border-t border-border bg-cream">
+      <section
+        id="find-help"
+        className="scroll-mt-28 border-t border-border bg-cream"
+      >
         <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
           <div className="mb-10">
             <p className="eyebrow">Browse by topic</p>
@@ -227,9 +242,9 @@ function Home() {
               Find help
             </h2>
             <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-              Already know what you're looking for? Browse by service type.
-              Each section has plain-language guides, useful articles, and
-              trusted local providers as we vet them.
+              Already know what you're looking for? Browse by service type. Each
+              section has plain-language guides, useful articles, and trusted
+              local providers as we vet them.
             </p>
           </div>
 
@@ -306,13 +321,18 @@ function Home() {
                       className="flex min-h-13 items-center justify-between rounded-xl border border-border bg-card px-5 py-3.5 text-base font-medium text-primary no-underline transition-colors hover:border-gold hover:bg-gold/10"
                     >
                       <span>{p.name}</span>
-                      <ChevronRight size={18} className="text-gold-deep" aria-hidden />
+                      <ChevronRight
+                        size={18}
+                        className="text-gold-deep"
+                        aria-hidden
+                      />
                     </Link>
                   </li>
                 ))}
               </ul>
               <p className="mt-4 text-sm text-muted-foreground">
-                All territories and provinces will be listed as providers are vetted.
+                All territories and provinces will be listed as providers are
+                vetted.
               </p>
             </div>
           </div>
@@ -359,7 +379,10 @@ function Home() {
             <ul className="space-y-4">
               {[
                 { stat: "0", label: "Paid placements. Ever." },
-                { stat: "5", label: "Published criteria every listing is scored against" },
+                {
+                  stat: "5",
+                  label: "Published criteria every listing is scored against",
+                },
                 { stat: "Annual", label: "Re-review of every provider" },
                 { stat: "Real", label: "References from senior clients" },
               ].map((item) => (
@@ -406,8 +429,8 @@ function Home() {
               <p className="mt-4 max-w-2xl text-lg leading-relaxed text-foreground/80">
                 The Vetted Senior was built by Ragini, who spent two decades
                 running compliance and verification programs inside Canada's
-                largest banks, and who built this site when she could not find
-                a single resource she trusted for her own mother.
+                largest banks, and who built this site when she could not find a
+                single resource she trusted for her own mother.
               </p>
               <Link
                 to="/founder"
@@ -455,7 +478,6 @@ function Home() {
           </div>
         </div>
       </section>
-
     </Page>
   );
 }

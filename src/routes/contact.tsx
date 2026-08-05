@@ -31,9 +31,14 @@ function Contact() {
 
       <section className="mx-auto grid max-w-4xl gap-6 px-6 py-12 md:grid-cols-2">
         <div className="rounded-2xl border border-border bg-card p-6">
-          <h2 className="font-serif text-2xl text-primary">For seniors & families</h2>
+          <h2 className="font-serif text-2xl text-primary">
+            For seniors & families
+          </h2>
           <p className="mt-4 text-base text-muted-foreground">
-            Email: <a className="underline" href="mailto:info@thevettedsenior.com">info@thevettedsenior.com</a>
+            Email:{" "}
+            <a className="underline" href="mailto:info@thevettedsenior.com">
+              info@thevettedsenior.com
+            </a>
           </p>
         </div>
         <div className="rounded-2xl border border-border bg-card p-6">
@@ -47,7 +52,10 @@ function Contact() {
             first.
           </p>
           <p className="mt-3 text-base">
-            Email: <a className="underline" href="mailto:apply@thevettedsenior.com">apply@thevettedsenior.com</a>
+            Email:{" "}
+            <a className="underline" href="mailto:apply@thevettedsenior.com">
+              apply@thevettedsenior.com
+            </a>
           </p>
           <p className="mt-3 text-base text-muted-foreground">
             We do not accept paid placements. Every applicant goes through the

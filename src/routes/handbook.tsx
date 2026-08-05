@@ -133,8 +133,8 @@ function HandbookPage() {
               </a>
             </div>
             <p className="mt-4 text-base text-muted-foreground">
-              Print it. This is a document for the fridge door and the kitchen table, not a
-              someday-file.
+              Print it. This is a document for the fridge door and the kitchen
+              table, not a someday-file.
             </p>
           </div>
 

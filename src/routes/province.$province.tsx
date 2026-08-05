@@ -62,7 +62,9 @@ function ProvincePage() {
       <section className="border-b border-border bg-card">
         <div className="mx-auto max-w-6xl px-6 py-10">
           <nav className="text-base text-muted-foreground">
-            <Link to="/" className="hover:underline">Home</Link>
+            <Link to="/" className="hover:underline">
+              Home
+            </Link>
             <span aria-hidden> / </span>
             <span>{province.name}</span>
           </nav>
@@ -93,7 +95,9 @@ function ProvincePage() {
                 className="flex items-center justify-between rounded-2xl border-2 border-border bg-card px-6 py-5 text-lg font-semibold text-primary no-underline hover:border-gold hover:bg-gold/10"
               >
                 <span>{city}</span>
-                <span aria-hidden className="text-gold">→</span>
+                <span aria-hidden className="text-gold">
+                  →
+                </span>
               </Link>
             </li>
           ))}

@@ -1,11 +1,13 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { BookOpen, Compass, FolderOpen, ListChecks, Search } from "lucide-react";
 import {
-  ARTICLES,
-  HELP_CATEGORIES,
-  SITUATIONS,
-} from "@/lib/directory-data";
+  BookOpen,
+  Compass,
+  FolderOpen,
+  ListChecks,
+  Search,
+} from "lucide-react";
+import { ARTICLES, HELP_CATEGORIES, SITUATIONS } from "@/lib/directory-data";
 import { HOW_TOS } from "@/lib/howto-data";
 
 type SearchHit = {
@@ -31,7 +33,11 @@ const KIND_META = {
   howto: { label: "How-to", icon: ListChecks },
 } as const;
 
-function scoreEntry(query: string[], title: string, description: string): number {
+function scoreEntry(
+  query: string[],
+  title: string,
+  description: string,
+): number {
   const t = title.toLowerCase();
   const d = description.toLowerCase();
   let score = 0;
@@ -44,13 +50,20 @@ function scoreEntry(query: string[], title: string, description: string): number
 }
 
 function search(raw: string): SearchHit[] {
-  const query = raw.toLowerCase().split(/\s+/).filter((t) => t.length > 1);
+  const query = raw
+    .toLowerCase()
+    .split(/\s+/)
+    .filter((t) => t.length > 1);
   if (query.length === 0) return [];
 
   const hits: SearchHit[] = [];
 
   for (const s of SITUATIONS.filter((s) => s.phase === "live")) {
-    const score = scoreEntry(query, `${s.title} ${s.shortTitle}`, s.description);
+    const score = scoreEntry(
+      query,
+      `${s.title} ${s.shortTitle}`,
+      s.description,
+    );
     if (score > 0)
       hits.push({
         key: `s-${s.slug}`,
@@ -92,7 +105,11 @@ function search(raw: string): SearchHit[] {
   }
 
   for (const h of HOW_TOS) {
-    const score = scoreEntry(query, `${h.title} ${h.shortTitle}`, h.description);
+    const score = scoreEntry(
+      query,
+      `${h.title} ${h.shortTitle}`,
+      h.description,
+    );
     if (score > 0)
       hits.push({
         key: `h-${h.slug}`,
@@ -185,7 +202,10 @@ export function SiteSearch() {
               {results.map((hit) => {
                 const meta = KIND_META[hit.kind];
                 return (
-                  <li key={hit.key} className="border-b border-border/60 last:border-b-0">
+                  <li
+                    key={hit.key}
+                    className="border-b border-border/60 last:border-b-0"
+                  >
                     <Link
                       {...hit.link}
                       onClick={() => setOpen(false)}

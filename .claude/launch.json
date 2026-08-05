@@ -4,10 +4,7 @@
     {
       "name": "dev",
       "runtimeExecutable": "/Users/raginidomenichini/.bun/bin/bun",
-      "runtimeArgs": [
-        "run",
-        "dev"
-      ],
+      "runtimeArgs": ["run", "dev"],
       "port": 8080,
       "autoPort": true
     },

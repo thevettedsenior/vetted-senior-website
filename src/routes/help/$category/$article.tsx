@@ -55,11 +55,19 @@ function ArticlePage() {
       >
         <div className="absolute inset-0 bg-black/60" aria-hidden />
         <div className="relative mx-auto w-full max-w-4xl px-6 py-3 text-xs text-white/80 md:py-4 md:text-sm">
-          <Link to="/" className="hover:underline">Home</Link>
+          <Link to="/" className="hover:underline">
+            Home
+          </Link>
           <span aria-hidden> / </span>
-          <Link to="/help" className="hover:underline">Find Help</Link>
+          <Link to="/help" className="hover:underline">
+            Find Help
+          </Link>
           <span aria-hidden> / </span>
-          <Link to="/help/$category" params={{ category: category.slug }} className="hover:underline">
+          <Link
+            to="/help/$category"
+            params={{ category: category.slug }}
+            className="hover:underline"
+          >
             {category.name}
           </Link>
         </div>
@@ -100,7 +108,8 @@ function ArticlePage() {
             Looking for a vetted provider?
           </h2>
           <p className="mt-2 text-base text-muted-foreground">
-            Browse vetted {category.name.toLowerCase()} providers in the directory.
+            Browse vetted {category.name.toLowerCase()} providers in the
+            directory.
           </p>
           <Link
             to="/help/$category"

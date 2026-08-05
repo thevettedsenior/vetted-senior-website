@@ -67,11 +67,11 @@ function GetVettedPage() {
         </h2>
         <p className="mt-4 text-lg text-foreground/85 leading-relaxed">
           Families increasingly do not trust marketing claims, and they are
-          right not to. If you pass, you receive a free listing with a
-          published vetting report: what we checked, when, and what we found.
-          A listing here is third-party proof, not self-description. If you do
-          not pass, we tell you why, privately and specifically, and what
-          would change the outcome.
+          right not to. If you pass, you receive a free listing with a published
+          vetting report: what we checked, when, and what we found. A listing
+          here is third-party proof, not self-description. If you do not pass,
+          we tell you why, privately and specifically, and what would change the
+          outcome.
         </p>
       </section>
 
@@ -103,8 +103,8 @@ function GetVettedPage() {
             ))}
           </ol>
           <p className="mt-6 text-base text-muted-foreground">
-            The full methodology, including the five criteria and the
-            four of five rule, is published on{" "}
+            The full methodology, including the five criteria and the four of
+            five rule, is published on{" "}
             <Link to="/about" className="text-primary underline">
               How We Vet
             </Link>
@@ -145,8 +145,8 @@ function GetVettedPage() {
             Interested?
           </h2>
           <p className="mt-3 max-w-2xl text-lg opacity-90 leading-relaxed">
-            Email us with your business name, category, and service area, and
-            we will send the participation agreement and document list. We are
+            Email us with your business name, category, and service area, and we
+            will send the participation agreement and document list. We are
             currently vetting providers in Toronto, Mississauga, and Durham
             Region, expanding across the GTA.
           </p>
@@ -157,8 +157,8 @@ function GetVettedPage() {
             apply@thevettedsenior.com →
           </a>
           <p className="mt-4 text-sm opacity-70">
-            If it's not for you, no hard feelings, and we would welcome
-            hearing why.
+            If it's not for you, no hard feelings, and we would welcome hearing
+            why.
           </p>
         </div>
       </section>

@@ -67,7 +67,9 @@ function CityPage() {
       <section className="border-b border-border bg-card">
         <div className="mx-auto max-w-6xl px-6 py-10">
           <nav className="text-base text-muted-foreground">
-            <Link to="/" className="hover:underline">Home</Link>
+            <Link to="/" className="hover:underline">
+              Home
+            </Link>
             <span aria-hidden> / </span>
             <Link
               to="/province/$province"
@@ -91,7 +93,8 @@ function CityPage() {
               className="text-primary underline"
             >
               See province-wide listings
-            </Link>.
+            </Link>
+            .
           </p>
         </div>
       </section>

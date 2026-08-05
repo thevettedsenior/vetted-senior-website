@@ -70,8 +70,8 @@ function PrivacyPage() {
 
           <SectionHeading>What we collect, and when</SectionHeading>
           <p>
-            You can read every page of this site without giving us anything.
-            We collect personal information in exactly three situations, and in
+            You can read every page of this site without giving us anything. We
+            collect personal information in exactly three situations, and in
             every one of them you are the one who hands it to us:
           </p>
           <ul className="list-none space-y-4 pl-0">
@@ -85,8 +85,8 @@ function PrivacyPage() {
             </li>
             <li className="rounded-xl border border-border bg-card p-5">
               <strong>Email you send us.</strong> If you write to info@ or
-              apply@, we receive whatever you include in your message and use
-              it to reply and to act on your request.
+              apply@, we receive whatever you include in your message and use it
+              to reply and to act on your request.
             </li>
             <li className="rounded-xl border border-border bg-card p-5">
               <strong>Provider vetting.</strong> When a business applies to be
@@ -116,10 +116,10 @@ function PrivacyPage() {
           <SectionHeading>Where your information lives</SectionHeading>
           <p>
             Signups are stored with Brevo, the email service we use to send our
-            mailings, and a copy of each signup is forwarded to our own inbox
-            so nothing sits unseen in a dashboard. Brevo may store and process
-            data on servers outside Canada; while it is there, it is subject to
-            the laws of the country where those servers sit. The site itself is
+            mailings, and a copy of each signup is forwarded to our own inbox so
+            nothing sits unseen in a dashboard. Brevo may store and process data
+            on servers outside Canada; while it is there, it is subject to the
+            laws of the country where those servers sit. The site itself is
             hosted on Cloudflare, which, like any web host, processes standard
             technical logs such as IP addresses to serve pages and block
             attacks. We do not use those logs to identify visitors.
@@ -129,9 +129,9 @@ function PrivacyPage() {
           <p>
             We do not sell, rent, or trade your information. We do not share it
             with advertisers, because we have none. We do not share your
-            information with listed providers, and no provider will ever
-            contact you because you used this site. If you want to reach a
-            provider, you contact them; it never works the other way around.
+            information with listed providers, and no provider will ever contact
+            you because you used this site. If you want to reach a provider, you
+            contact them; it never works the other way around.
           </p>
 
           <SectionHeading>How long we keep it</SectionHeading>
@@ -144,9 +144,9 @@ function PrivacyPage() {
 
           <SectionHeading>Your rights</SectionHeading>
           <p>
-            Under Canadian privacy law (PIPEDA), you can ask us what
-            information we hold about you, ask us to correct it, withdraw your
-            consent, or ask us to delete it. Email{" "}
+            Under Canadian privacy law (PIPEDA), you can ask us what information
+            we hold about you, ask us to correct it, withdraw your consent, or
+            ask us to delete it. Email{" "}
             <a
               className="text-primary underline"
               href="mailto:info@thevettedsenior.com"
@@ -182,9 +182,8 @@ function PrivacyPage() {
 
           <SectionHeading>Changes to this policy</SectionHeading>
           <p>
-            If how we handle information changes, this page changes with it,
-            and we date every change. We will never quietly expand what we
-            collect.
+            If how we handle information changes, this page changes with it, and
+            we date every change. We will never quietly expand what we collect.
           </p>
 
           <p className="mt-8 border-t border-border pt-6 text-base text-muted-foreground">

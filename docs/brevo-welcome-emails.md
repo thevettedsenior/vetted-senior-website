@@ -11,12 +11,12 @@ Every form on the site stores the contact with an INTENT custom attribute
 (and SIGNUP_PAGE for the page they signed up on). The INTENT values in
 production today:
 
-| INTENT value | Form | Welcome email to send |
-|---|---|---|
-| `handbook and briefing` | /handbook signup | Variant 1 |
-| `briefing` | HandbookCTA briefing form (appears across the site) | Variant 2 |
-| `notify me: {place}` | Directory/city waitlists (e.g. "notify me: Toronto") | Variant 3 |
-| `notify me: {category}` | Category page waitlists (e.g. "notify me: Home Care & Nursing") | Variant 3 |
+| INTENT value            | Form                                                            | Welcome email to send |
+| ----------------------- | --------------------------------------------------------------- | --------------------- |
+| `handbook and briefing` | /handbook signup                                                | Variant 1             |
+| `briefing`              | HandbookCTA briefing form (appears across the site)             | Variant 2             |
+| `notify me: {place}`    | Directory/city waitlists (e.g. "notify me: Toronto")            | Variant 3             |
+| `notify me: {category}` | Category page waitlists (e.g. "notify me: Home Care & Nursing") | Variant 3             |
 
 Automation logic: one Brevo automation triggered on contact creation,
 branching on whether INTENT equals `handbook and briefing`, equals
@@ -84,6 +84,7 @@ The Vetted Senior
 https://thevettedsenior.com
 
 ---
+
 You are receiving this because you requested the Caregiver Handbook at
 thevettedsenior.com. The Vetted Senior, Ontario, Canada.
 info@thevettedsenior.com
@@ -134,6 +135,7 @@ The Vetted Senior
 https://thevettedsenior.com
 
 ---
+
 You are receiving this because you signed up for the weekly briefing at
 thevettedsenior.com. The Vetted Senior, Ontario, Canada.
 info@thevettedsenior.com
@@ -187,6 +189,7 @@ The Vetted Senior
 https://thevettedsenior.com
 
 ---
+
 You are receiving this because you joined a waitlist at
 thevettedsenior.com. The Vetted Senior, Ontario, Canada.
 info@thevettedsenior.com

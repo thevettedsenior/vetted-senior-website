@@ -24,25 +24,25 @@ passes the full vetting process.
 
 One spreadsheet (or CSV per category) with these columns:
 
-| Column | Notes |
-|---|---|
-| name | Legal/trade name |
-| category | One of the 16 category slugs (multi-category = one row per category, cross-referenced) |
-| tier | national / provincial / city |
-| provinces_served | Comma list of codes, or "all" |
-| cities_served | Comma list, blank if tier is national/provincial |
-| website | |
-| phone | |
-| email | If publicly listed |
-| hq_city, hq_province | |
-| years_operating | If discoverable |
-| licence_or_registry_ref | e.g. RHRA licence #, BAO licence #, ADP vendor # |
-| source_urls | Where found (registry page, search result) |
-| red_flags | Lawsuits, CBC/Marketplace stories, unresolved BBB patterns, door-knocker sales model |
-| notes | Anything a vetter should know going in |
-| priority | H/M/L for the vetting queue |
-| status | candidate / shortlisted / in-vetting / passed / failed / removed |
-| date_found, found_by | Model/person and date |
+| Column                  | Notes                                                                                  |
+| ----------------------- | -------------------------------------------------------------------------------------- |
+| name                    | Legal/trade name                                                                       |
+| category                | One of the 16 category slugs (multi-category = one row per category, cross-referenced) |
+| tier                    | national / provincial / city                                                           |
+| provinces_served        | Comma list of codes, or "all"                                                          |
+| cities_served           | Comma list, blank if tier is national/provincial                                       |
+| website                 |                                                                                        |
+| phone                   |                                                                                        |
+| email                   | If publicly listed                                                                     |
+| hq_city, hq_province    |                                                                                        |
+| years_operating         | If discoverable                                                                        |
+| licence_or_registry_ref | e.g. RHRA licence #, BAO licence #, ADP vendor #                                       |
+| source_urls             | Where found (registry page, search result)                                             |
+| red_flags               | Lawsuits, CBC/Marketplace stories, unresolved BBB patterns, door-knocker sales model   |
+| notes                   | Anything a vetter should know going in                                                 |
+| priority                | H/M/L for the vetting queue                                                            |
+| status                  | candidate / shortlisted / in-vetting / passed / failed / removed                       |
+| date_found, found_by    | Model/person and date                                                                  |
 
 ## 3. Categories (16)
 
@@ -84,24 +84,24 @@ mobility-equipment.
 `{TERMS}` in the query templates expands to each phrase below, one query per
 phrase. `{REGISTRIES}` are checked before any web search.
 
-| Category | Search terms ({TERMS}) | Key registries / structured sources ({REGISTRIES}) |
-|---|---|---|
-| home-care | "home care agency", "personal support workers", "in-home senior care", "private nursing care" | Home Care Ontario member list; CARP partner lists; provincial home & community care support services |
-| medical-alert-safety | "medical alert system", "fall detection pendant seniors", "personal emergency response system" | Mostly national brands; CSA-certified device lists |
-| mobility-equipment | "mobility equipment store", "home medical equipment", "stairlift installer", "wheelchair ramp installer", "grab bar installation", "physiotherapy seniors", "falls prevention program" | Ontario ADP registered vendor list (gold source); March of Dimes home modification providers; College of Physiotherapists of Ontario register |
-| doctors-pharmacy-medication | "family doctor accepting patients", "walk-in clinic seniors", "pharmacy blister packs", "medication review pharmacist", "home visit doctor" | CPSO doctor search (ON); Health Care Connect; Ontario College of Pharmacists pharmacy search |
-| dementia-memory-support | "memory clinic", "dementia day program", "dementia home care", "Alzheimer support program" | Alzheimer Society local chapters and First Link; regional geriatric programs; 211 |
-| mental-health-counselling | "geriatric psychiatry", "seniors counselling", "grief counselling", "seniors mental health services" | CRPO registered psychotherapist directory; College of Psychologists directory; CMHA branches; 211 |
-| palliative-hospice-care | "hospice", "palliative care at home", "residential hospice", "end of life doula" | Hospice Palliative Care Ontario member directory; provincial hospice associations |
-| retirement-residences | "retirement residence", "assisted living", "memory care residence", "independent living seniors" | RHRA public register (every licensed ON retirement home, with inspection history); ORCA member directory; comparable provincial regulators (BC assisted living registrar, AB continuing care) |
-| legal-financial | "wills and estates lawyer seniors", "elder law lawyer", "power of attorney lawyer", "senior financial planner" | Law Society of Ontario referral service / paralegal directory; FP Canada planner directory; provincial law society directories |
-| transportation | "senior transportation service", "medical transportation non-emergency", "accessible transportation seniors", "volunteer driver program" | 211 Ontario transportation listings; municipal para-transit pages; community support service agencies |
-| hearing-vision | "hearing clinic", "audiologist", "hearing aids", "optometrist home visits", "low vision services", "mobile dental hygienist seniors", "foot care nurse", "chiropodist" | ADP vendor lists (hearing devices); CASLPO register (ON audiologists); College of Optometrists directory; CNIB service locations; College of Chiropodists of Ontario register; CDHO dental hygienist register |
-| funeral-estate-planning | "funeral home", "funeral pre-planning", "cremation services", "estate executor services" | Bereavement Authority of Ontario licensee search (every licensed ON funeral establishment); provincial equivalents |
-| home-maintenance | "handyman service seniors", "snow removal service", "lawn care service seniors", "home maintenance for seniors" | Municipal snow-angel / seniors maintenance programs; 211; local business licensing where searchable |
-| companion-social | "senior companion service", "friendly visiting program", "adult day program" | 211 Ontario community support listings; local CSS agencies; Alzheimer Society day programs |
-| meals-nutrition | "meal delivery seniors", "frozen meal delivery", "Meals on Wheels", "senior meal program" | Meals on Wheels chapter directories; 211; Heart to Home coverage map |
-| downsizing-moving | "senior move manager", "downsizing service seniors", "estate sale company", "decluttering service seniors" | NASMM (National Association of Senior Move Managers) member directory, Canada chapter |
+| Category                    | Search terms ({TERMS})                                                                                                                                                                 | Key registries / structured sources ({REGISTRIES})                                                                                                                                                            |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| home-care                   | "home care agency", "personal support workers", "in-home senior care", "private nursing care"                                                                                          | Home Care Ontario member list; CARP partner lists; provincial home & community care support services                                                                                                          |
+| medical-alert-safety        | "medical alert system", "fall detection pendant seniors", "personal emergency response system"                                                                                         | Mostly national brands; CSA-certified device lists                                                                                                                                                            |
+| mobility-equipment          | "mobility equipment store", "home medical equipment", "stairlift installer", "wheelchair ramp installer", "grab bar installation", "physiotherapy seniors", "falls prevention program" | Ontario ADP registered vendor list (gold source); March of Dimes home modification providers; College of Physiotherapists of Ontario register                                                                 |
+| doctors-pharmacy-medication | "family doctor accepting patients", "walk-in clinic seniors", "pharmacy blister packs", "medication review pharmacist", "home visit doctor"                                            | CPSO doctor search (ON); Health Care Connect; Ontario College of Pharmacists pharmacy search                                                                                                                  |
+| dementia-memory-support     | "memory clinic", "dementia day program", "dementia home care", "Alzheimer support program"                                                                                             | Alzheimer Society local chapters and First Link; regional geriatric programs; 211                                                                                                                             |
+| mental-health-counselling   | "geriatric psychiatry", "seniors counselling", "grief counselling", "seniors mental health services"                                                                                   | CRPO registered psychotherapist directory; College of Psychologists directory; CMHA branches; 211                                                                                                             |
+| palliative-hospice-care     | "hospice", "palliative care at home", "residential hospice", "end of life doula"                                                                                                       | Hospice Palliative Care Ontario member directory; provincial hospice associations                                                                                                                             |
+| retirement-residences       | "retirement residence", "assisted living", "memory care residence", "independent living seniors"                                                                                       | RHRA public register (every licensed ON retirement home, with inspection history); ORCA member directory; comparable provincial regulators (BC assisted living registrar, AB continuing care)                 |
+| legal-financial             | "wills and estates lawyer seniors", "elder law lawyer", "power of attorney lawyer", "senior financial planner"                                                                         | Law Society of Ontario referral service / paralegal directory; FP Canada planner directory; provincial law society directories                                                                                |
+| transportation              | "senior transportation service", "medical transportation non-emergency", "accessible transportation seniors", "volunteer driver program"                                               | 211 Ontario transportation listings; municipal para-transit pages; community support service agencies                                                                                                         |
+| hearing-vision              | "hearing clinic", "audiologist", "hearing aids", "optometrist home visits", "low vision services", "mobile dental hygienist seniors", "foot care nurse", "chiropodist"                 | ADP vendor lists (hearing devices); CASLPO register (ON audiologists); College of Optometrists directory; CNIB service locations; College of Chiropodists of Ontario register; CDHO dental hygienist register |
+| funeral-estate-planning     | "funeral home", "funeral pre-planning", "cremation services", "estate executor services"                                                                                               | Bereavement Authority of Ontario licensee search (every licensed ON funeral establishment); provincial equivalents                                                                                            |
+| home-maintenance            | "handyman service seniors", "snow removal service", "lawn care service seniors", "home maintenance for seniors"                                                                        | Municipal snow-angel / seniors maintenance programs; 211; local business licensing where searchable                                                                                                           |
+| companion-social            | "senior companion service", "friendly visiting program", "adult day program"                                                                                                           | 211 Ontario community support listings; local CSS agencies; Alzheimer Society day programs                                                                                                                    |
+| meals-nutrition             | "meal delivery seniors", "frozen meal delivery", "Meals on Wheels", "senior meal program"                                                                                              | Meals on Wheels chapter directories; 211; Heart to Home coverage map                                                                                                                                          |
+| downsizing-moving           | "senior move manager", "downsizing service seniors", "estate sale company", "decluttering service seniors"                                                                             | NASMM (National Association of Senior Move Managers) member directory, Canada chapter                                                                                                                         |
 
 ## 4. Query templates by tier
 
@@ -181,6 +181,7 @@ BAO, ADP, law society) do most of the work here.
 
 **Phase 3: GTA cities.** City order matches the site's public promise
 ("starting with Toronto, Mississauga, and Durham Region"):
+
 1. Toronto
 2. Mississauga
 3. Durham Region (Oshawa, Whitby, Ajax, Pickering — run as one {REGION} pass plus per-city spot checks)
@@ -191,6 +192,7 @@ BAO, ADP, law society) do most of the work here.
 Category order within each city, by how local the supply actually is (local-
 heavy categories benefit most from city research; national-heavy ones are
 mostly done after Phase 1):
+
 1. home-care
 2. home-maintenance
 3. retirement-residences (registry-driven, filter RHRA by city)

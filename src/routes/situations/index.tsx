@@ -30,7 +30,8 @@ function SituationsPage() {
           </h1>
           <p className="mt-4 max-w-2xl text-xl text-foreground/85 leading-relaxed">
             Not sure what kind of help you need yet? You're in the right place.
-            Choose the situation that sounds closest to what you're dealing with.
+            Choose the situation that sounds closest to what you're dealing
+            with.
           </p>
           <p className="mt-3 text-lg text-muted-foreground">
             Each guide explains what's happening, what to do first, what options
@@ -40,7 +41,9 @@ function SituationsPage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-6 py-12">
-        <h2 className="font-serif text-2xl text-primary mb-6">Guides available now</h2>
+        <h2 className="font-serif text-2xl text-primary mb-6">
+          Guides available now
+        </h2>
         <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {live.map((s) => (
             <li key={s.slug}>
@@ -68,7 +71,9 @@ function SituationsPage() {
       {soon.length > 0 && (
         <section className="border-t border-border bg-secondary/40">
           <div className="mx-auto max-w-6xl px-6 py-12">
-            <h2 className="font-serif text-2xl text-primary mb-2">More guides on the way</h2>
+            <h2 className="font-serif text-2xl text-primary mb-2">
+              More guides on the way
+            </h2>
             <p className="text-base text-muted-foreground mb-6">
               We're writing these carefully. They'll be ready soon.
             </p>
@@ -78,7 +83,10 @@ function SituationsPage() {
                   key={s.slug}
                   className="flex flex-col rounded-2xl border border-dashed border-border bg-card/50 p-6"
                 >
-                  <IconChip icon={situationIcon(s.slug)} className="opacity-50" />
+                  <IconChip
+                    icon={situationIcon(s.slug)}
+                    className="opacity-50"
+                  />
                   <span className="mt-3 font-serif text-lg text-primary">
                     {s.title}
                   </span>

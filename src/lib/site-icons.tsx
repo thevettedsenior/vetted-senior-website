@@ -54,7 +54,7 @@ const CATEGORY_ICONS: Record<string, LucideIcon> = {
   "palliative-hospice-care": Flower2,
   "legal-financial": Scale,
   "funeral-estate-planning": FileHeart,
-  "transportation": Car,
+  transportation: Car,
   "home-maintenance": Wrench,
   "companion-social": Users,
   "meals-nutrition": UtensilsCrossed,

@@ -43,9 +43,9 @@ function DisclosurePage() {
             How this site makes money, and how it never will
           </h1>
           <p className="mt-5 max-w-2xl text-xl text-foreground/85 leading-relaxed">
-            Most websites bury this page. We link it in the footer of every
-            page on the site, and we would honestly prefer you read it before
-            you trust anything else we say.
+            Most websites bury this page. We link it in the footer of every page
+            on the site, and we would honestly prefer you read it before you
+            trust anything else we say.
           </p>
         </div>
       </section>
@@ -67,8 +67,8 @@ function DisclosurePage() {
             There is no fee to be listed, no fee to be featured, no fee to
             appear higher in a category, and no fee to make a bad review
             disappear. Providers cannot buy their way in, and they cannot buy
-            their way back in after being removed. Inclusion in our directory
-            is earned by passing our vetting process and keeping standards up
+            their way back in after being removed. Inclusion in our directory is
+            earned by passing our vetting process and keeping standards up
             between reviews. That is the only currency accepted here.
           </p>
           <p>
@@ -108,9 +108,9 @@ function DisclosurePage() {
             passes vetting. We decide what to recommend first, based on our
             research and standards. Then, and only then, we check whether an
             affiliate program exists for it. If we recommend something with no
-            affiliate program, we recommend it anyway and earn nothing, and
-            this happens regularly. If a company with a generous affiliate
-            program fails our standards, it does not appear here, full stop.
+            affiliate program, we recommend it anyway and earn nothing, and this
+            happens regularly. If a company with a generous affiliate program
+            fails our standards, it does not appear here, full stop.
           </p>
           <p>
             Every page that contains affiliate links says so at the top of the
@@ -142,11 +142,11 @@ function DisclosurePage() {
             <li className="rounded-xl border border-border bg-card p-5">
               <strong>a.</strong> Wherever mortgage products appear on this
               site, they are presented as one option among several. Government
-              programs, tax credits, insurance, family arrangements, and
-              selling or downsizing are always presented alongside them, and we
-              are direct about situations where a mortgage is the wrong choice.
-              Home equity is a serious tool with real costs, and it deserves
-              the same unsentimental scrutiny we apply to everything else.
+              programs, tax credits, insurance, family arrangements, and selling
+              or downsizing are always presented alongside them, and we are
+              direct about situations where a mortgage is the wrong choice. Home
+              equity is a serious tool with real costs, and it deserves the same
+              unsentimental scrutiny we apply to everything else.
             </li>
             <li className="rounded-xl border border-border bg-card p-5">
               <strong>b.</strong> Mortgage content never affects the directory.
@@ -165,45 +165,45 @@ function DisclosurePage() {
             </li>
           </ul>
           <p>
-            We could have hidden this connection behind a numbered company and
-            a different name. We disclosed it instead, prominently, because we
+            We could have hidden this connection behind a numbered company and a
+            different name. We disclosed it instead, prominently, because we
             think a business whose financial incentives are fully visible is
-            more trustworthy than one that pretends to have none. Every
-            business has to make money somehow. The only real question is
-            whether they will tell you how. We just did.
+            more trustworthy than one that pretends to have none. Every business
+            has to make money somehow. The only real question is whether they
+            will tell you how. We just did.
           </p>
 
           <SectionHeading>3. In the future: provider audit fees</SectionHeading>
           <p>
             As the directory grows, we expect to charge listed providers an
-            annual fee that covers the cost of their verification and
-            re-review, the way certification bodies in other industries do. If
-            and when we introduce this, three things will remain true: paying
-            the fee will never guarantee passing the audit, the fee will never
-            affect ranking or presentation order, and failed audits will result
-            in removal regardless of any fee paid. We are telling you about
-            this before it exists because that is the kind of site this is.
+            annual fee that covers the cost of their verification and re-review,
+            the way certification bodies in other industries do. If and when we
+            introduce this, three things will remain true: paying the fee will
+            never guarantee passing the audit, the fee will never affect ranking
+            or presentation order, and failed audits will result in removal
+            regardless of any fee paid. We are telling you about this before it
+            exists because that is the kind of site this is.
           </p>
 
           <SectionHeading>What we do with your information</SectionHeading>
           <p>
             If you give us your email address, we use it to send you what you
-            asked for and our newsletter, which you can leave with one click.
-            We do not sell, rent, or trade your information. When we check
-            references during provider vetting, we collect that information
-            with consent and use it only for vetting decisions.
+            asked for and our newsletter, which you can leave with one click. We
+            do not sell, rent, or trade your information. When we check
+            references during provider vetting, we collect that information with
+            consent and use it only for vetting decisions.
           </p>
 
           <SectionHeading>A closing thought</SectionHeading>
           <p>
             We named this page honestly because we are proud of the model, not
-            embarrassed by it. The test of any recommendation service is
-            simple: would they tell you the same thing if there were no money
-            in it? On this site, the recommendations come first and the money
-            is checked afterward, the directory cannot be bought, and the
-            founder's own business interests are printed in plain language
-            where everyone can see them. If you ever find anything on this site
-            that does not live up to this page,{" "}
+            embarrassed by it. The test of any recommendation service is simple:
+            would they tell you the same thing if there were no money in it? On
+            this site, the recommendations come first and the money is checked
+            afterward, the directory cannot be bought, and the founder's own
+            business interests are printed in plain language where everyone can
+            see them. If you ever find anything on this site that does not live
+            up to this page,{" "}
             <Link to="/contact" className="text-primary underline">
               write to us
             </Link>
@@ -211,8 +211,8 @@ function DisclosurePage() {
           </p>
 
           <p className="mt-8 border-t border-border pt-6 text-base text-muted-foreground">
-            Last updated: July 2026. We update this page whenever anything
-            about how we earn money changes, and we date every change.
+            Last updated: July 2026. We update this page whenever anything about
+            how we earn money changes, and we date every change.
           </p>
         </div>
       </section>

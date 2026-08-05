@@ -50,7 +50,13 @@ function pickVoice(): SpeechSynthesisVoice | null {
  * Reads the article aloud using the browser's built-in speech synthesis.
  * `sourceId` is the DOM id of the element whose text is read.
  */
-function ListenButton({ sourceId, label }: { sourceId: string; label: string }) {
+function ListenButton({
+  sourceId,
+  label,
+}: {
+  sourceId: string;
+  label: string;
+}) {
   const [supported, setSupported] = useState(false);
   const [status, setStatus] = useState<"idle" | "playing" | "paused">("idle");
   // Tracks whether this component started the current speech, so cleanup
