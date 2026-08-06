@@ -32,7 +32,7 @@ export const DOCTORS_PHARMACY_MEDICATION_ARTICLES: ArticleContentMap = {
         <>
           <p>
             Ontario's matching program is called{" "}
-            <strong>Health Care Connect</strong> (1-800-445-1822, or online
+            <strong>Health Care Connect</strong> (call 811, or online
             through ontario.ca). You register once, a nurse reviews the file,
             and the program searches for a family doctor or nurse practitioner
             accepting patients near you. Registration is free, and people with
@@ -133,7 +133,7 @@ export const DOCTORS_PHARMACY_MEDICATION_ARTICLES: ArticleContentMap = {
         <>
           <ol className="list-decimal space-y-2 pl-6">
             <li>
-              Register with Health Care Connect today (1-800-445-1822), listing
+              Register with Health Care Connect today (call 811), listing
               every diagnosis and medication, and note the confirmation number.
             </li>
             <li>

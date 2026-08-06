@@ -55,6 +55,21 @@ ALLOWED_CITIES = {
 
 PROGRAMS = ["Meals on Wheels", "Friendly Visiting", "Adult Day Program"]
 
+# Families whose file status is "issues" but whose DRAFTED rows were each
+# individually verified on official pages; the flag concerns something the
+# family did NOT draft (a dead sibling program, a missing phone on an
+# undrafted row) or our own site content. Conductor ruling 2026-08-05:
+# the flag does not taint the drafted rows, so they stage. Families whose
+# flag is about the drafted rows themselves (medscheck phone provenance,
+# OSP/BSO with no intake phone) stay held for Ragini.
+PROMOTED_ISSUE_FAMILIES = {
+    "cra-seniors",
+    "ontario-tax-benefits",
+    "ontario-energy-support",
+    "ontario-health-access",
+    "region-of-peel",
+}
+
 
 def clean(s):
     if not isinstance(s, str):
@@ -152,7 +167,8 @@ def main():
             else:
                 rows.append(to_business(row, v))
                 staged_ids.add(row["id"])
-        if rows and status == "verified":
+        promoted = v.get("slug") in PROMOTED_ISSUE_FAMILIES
+        if rows and (status == "verified" or promoted):
             staged.extend(rows)
         sec = [f"## {org}  [{status.upper()}]"]
         sec.append(f"- Intake: **{v.get('intakePhone') or 'NONE FOUND'}** | "
@@ -161,8 +177,11 @@ def main():
             sec.append("- Flags:")
             for i in v["issues"]:
                 sec.append(f"  - {clean(i)}")
-        sec.append(f"- Rows ({len(rows)} valid, "
-                   f"{'PUBLISHED' if status == 'verified' else 'HELD for your call'}):")
+        published = status == "verified" or promoted
+        label = "PUBLISHED (flag noted, rows individually verified)" if (
+            promoted and status != "verified") else (
+            "PUBLISHED" if published else "HELD for your call")
+        sec.append(f"- Rows ({len(rows)} valid, {label}):")
         for b in rows:
             sec.append(f"  - **{b['name']}** ({b['category']}, {b['tier']}"
                        + (", " + "/".join(b["cities"]) if b["cities"] else "")

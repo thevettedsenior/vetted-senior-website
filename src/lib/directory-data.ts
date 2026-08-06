@@ -381,7 +381,7 @@ export const ARTICLES: Article[] = [
       "Health Care Connect, nurse practitioner clinics, and how to get real care while the search drags on.",
     image: "/images/help/family-doctor-hero.svg",
     takeaways: [
-      "Register with Health Care Connect (1-800-445-1822) on day one and mention every diagnosis, since complex patients get priority.",
+      "Register with Health Care Connect (call 811) on day one and mention every diagnosis, since complex patients get priority.",
       "Nurse practitioner clinics provide full OHIP-funded primary care and are a real substitute for most seniors' routine needs.",
       "While you wait, use one walk-in clinic consistently and keep a one-page health summary and medication list in the wallet.",
     ],

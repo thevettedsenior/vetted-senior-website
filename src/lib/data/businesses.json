@@ -1,5 +1,85 @@
 [
   {
+    "id": "211-ontario-meals-nutrition",
+    "name": "211 Ontario (meals and food help)",
+    "category": "Meals & Nutrition",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "211",
+    "description": "A free 24/7 helpline funded by the Ontario government and United Ways that connects callers to food help near them, from Meals on Wheels programs to community dining, grocery help and food banks. Community Navigators answer in over 150 languages; dial 211, or toll free 1-877-330-3213.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "211-ontario",
+    "website": "https://211ontario.ca/",
+    "intakeNote": "Dial 211 (or toll free 1-877-330-3213) any time, 24/7; a real person answers and connects you to services near you."
+  },
+  {
+    "id": "211-ontario-transportation",
+    "name": "211 Ontario (rides and transportation help)",
+    "category": "Transportation",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "211",
+    "description": "A free 24/7 helpline funded by the Ontario government and United Ways that connects callers to local community services, including seniors' rides, accessible transit and volunteer driver programs near them. Community Navigators answer in over 150 languages; dial 211, or toll free 1-877-330-3213.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "211-ontario",
+    "website": "https://211ontario.ca/",
+    "intakeNote": "Dial 211 (or toll free 1-877-330-3213) any time, 24/7; a real person answers and connects you to services near you."
+  },
+  {
+    "id": "988-crisis-line-mental-health-counselling",
+    "name": "9-8-8 Suicide Crisis Helpline",
+    "category": "Mental Health & Counselling",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "9-8-8",
+    "description": "Canada's suicide crisis helpline, funded by the Government of Canada and led by the Centre for Addiction and Mental Health. Call or text 9-8-8 free of charge, any hour of any day, in English or French, whether you are struggling yourself or worried about someone you love.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "988-crisis-line",
+    "website": "https://988.ca/",
+    "intakeNote": "Call or text 9-8-8 at any hour; free, confidential, and no referral needed."
+  },
+  {
+    "id": "advocacy-centre-elderly-legal-financial",
+    "name": "Advocacy Centre for the Elderly (ACE)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-855-598-2656",
+    "description": "A specialty community legal clinic funded through Legal Aid Ontario that serves low-income seniors, the first of its kind in Canada. Its lawyers give free advice and representation on elder abuse, health care consent, powers of attorney, home care, retirement home and long-term care problems. Direct casework focuses on the Greater Toronto Area; callers elsewhere in Ontario get information and referrals.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "advocacy-centre-elderly",
+    "website": "https://www.acelaw.ca/",
+    "intakeNote": "Call the intake line on Monday, Wednesday or Friday, 9 a.m. to noon or 2 p.m. to 4 p.m.; intake is by phone only."
+  },
+  {
     "id": "alzheimer-society-durham-dementia-memory-support",
     "name": "Alzheimer Society Durham First Link",
     "category": "Dementia & Memory Support",
@@ -20,26 +100,6 @@
     "brandGroup": "alzheimer-society-durham",
     "website": "https://alzheimer.ca/durham/en/help-support/programs-services/first-link",
     "intakeNote": "Call the toll-free line, email intake@alzheimerdurham.com, or fill out the online First Link referral form on the contact page, and a First Link Coordinator will follow up; the MINT Memory Clinic needs a referral from a primary care provider."
-  },
-  {
-    "id": "alzheimer-society-peel-dementia-memory-support",
-    "name": "Alzheimer Society Peel Dementia Resource Consultants",
-    "category": "Dementia & Memory Support",
-    "tier": "city",
-    "provinces": [
-      "ON"
-    ],
-    "cities": [
-      "Mississauga",
-      "Brampton"
-    ],
-    "phone": "905-278-3667 ext. 307",
-    "description": "A free program run by Alzheimer Society Peel, a registered charity, offering one on one information, care strategies, and emotional support for people living with dementia and their care partners across Peel Region. No diagnosis or referral is needed to connect with a Dementia Resource Consultant, and the related First Link program also takes doctor and agency referrals.",
-    "listingType": "public-service",
-    "verifiedDate": "2026-08-05",
-    "brandGroup": "alzheimer-society-peel",
-    "website": "https://www.alzpeel.com/en/dementia-resource-consultants.html",
-    "intakeNote": "Call 905-278-3667 ext. 307 or email direct.support@alzheimerpeel.com to reach the dementia support team; no diagnosis or doctor's referral is needed, and a doctor or agency can also refer a family using the online First Link form."
   },
   {
     "id": "alzheimer-society-peel-companion-social",
@@ -63,6 +123,26 @@
     "runBy": "Alzheimer Society Peel"
   },
   {
+    "id": "alzheimer-society-peel-dementia-memory-support",
+    "name": "Alzheimer Society Peel Dementia Resource Consultants",
+    "category": "Dementia & Memory Support",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Mississauga",
+      "Brampton"
+    ],
+    "phone": "905-278-3667 ext. 307",
+    "description": "A free program run by Alzheimer Society Peel, a registered charity, offering one on one information, care strategies, and emotional support for people living with dementia and their care partners across Peel Region. No diagnosis or referral is needed to connect with a Dementia Resource Consultant, and the related First Link program also takes doctor and agency referrals.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "alzheimer-society-peel",
+    "website": "https://www.alzpeel.com/en/dementia-resource-consultants.html",
+    "intakeNote": "Call 905-278-3667 ext. 307 or email direct.support@alzheimerpeel.com to reach the dementia support team; no diagnosis or doctor's referral is needed, and a doctor or agency can also refer a family using the online First Link form."
+  },
+  {
     "id": "alzheimer-society-toronto-dementia-memory-support",
     "name": "Alzheimer Society of Toronto",
     "category": "Dementia & Memory Support",
@@ -80,29 +160,6 @@
     "brandGroup": "alzheimer-society-toronto",
     "website": "https://alz.to/alzheimer-programs/dementia-support-services/",
     "intakeNote": "Call 416-322-6560, email info@alz.to, or fill out the online Get Started form, and an Intake Coordinator will follow up to plan next steps (a doctor can also send a referral)."
-  },
-  {
-    "id": "alzheimer-society-york-dementia-memory-support",
-    "name": "Alzheimer Society York Region D.A.Y. Centre",
-    "category": "Dementia & Memory Support",
-    "tier": "city",
-    "provinces": [
-      "ON"
-    ],
-    "cities": [
-      "Markham",
-      "Vaughan",
-      "Richmond Hill",
-      "Newmarket",
-      "Aurora"
-    ],
-    "phone": "905-726-3477",
-    "description": "A registered charity's adult day program for people diagnosed with Alzheimer's disease or another dementia, running since 1985. Staff lead structured social and recreational activities at centres in Aurora, Thornhill, and Stouffville, giving caregivers a break during the day.",
-    "listingType": "public-service",
-    "verifiedDate": "2026-08-05",
-    "brandGroup": "alzheimer-society-york",
-    "website": "https://alzheimer.ca/york/en/help-support/programs-services/day-program",
-    "intakeNote": "Families call 905-726-3477 (toll-free 1-888-414-5550) or reach the general inbox at info@alzheimer-york.com. Some programs, like the D.A.Y. Centre and First Link, also take direct referrals from doctors, hospitals, and family members."
   },
   {
     "id": "alzheimer-society-york-companion-social",
@@ -128,6 +185,46 @@
     "intakeNote": "Families call 905-726-3477 (toll-free 1-888-414-5550) or reach the general inbox at info@alzheimer-york.com. Some programs, like the D.A.Y. Centre and First Link, also take direct referrals from doctors, hospitals, and family members."
   },
   {
+    "id": "alzheimer-society-york-dementia-memory-support",
+    "name": "Alzheimer Society York Region D.A.Y. Centre",
+    "category": "Dementia & Memory Support",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "905-726-3477",
+    "description": "A registered charity's adult day program for people diagnosed with Alzheimer's disease or another dementia, running since 1985. Staff lead structured social and recreational activities at centres in Aurora, Thornhill, and Stouffville, giving caregivers a break during the day.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "alzheimer-society-york",
+    "website": "https://alzheimer.ca/york/en/help-support/programs-services/day-program",
+    "intakeNote": "Families call 905-726-3477 (toll-free 1-888-414-5550) or reach the general inbox at info@alzheimer-york.com. Some programs, like the D.A.Y. Centre and First Link, also take direct referrals from doctors, hospitals, and family members."
+  },
+  {
+    "id": "bereavement-authority-ontario-funeral-estate-planning",
+    "name": "Bereavement Authority of Ontario",
+    "category": "Funeral & Estate Planning",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "647-483-2645",
+    "description": "The government delegated authority that licenses Ontario's funeral homes, cemeteries and crematoriums under provincial law. Families can check that a provider is licensed, read plain language guides on funeral costs and their rights, and file a complaint if something goes wrong (toll free 1-844-493-6356).",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "bereavement-authority-ontario",
+    "website": "https://thebao.ca/",
+    "intakeNote": "Call 647-483-2645 (toll free 1-844-493-6356) or use the public register and complaint forms at thebao.ca."
+  },
+  {
     "id": "brampton-meals-on-wheels-meals-nutrition",
     "name": "Brampton Meals on Wheels",
     "category": "Meals & Nutrition",
@@ -149,6 +246,64 @@
     "runBy": "Brampton Meals on Wheels"
   },
   {
+    "id": "canadian-anti-fraud-centre-medical-alert-safety",
+    "name": "Canadian Anti-Fraud Centre",
+    "category": "Medical Alert & Safety",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-888-495-8501",
+    "description": "The Government of Canada's central fraud reporting service, jointly managed by the RCMP, the Ontario Provincial Police and the Competition Bureau. Seniors and families can call to report a scam, check whether a call or offer is genuine, and learn what to do after money or personal information has been taken.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "canadian-anti-fraud-centre",
+    "website": "https://antifraudcentre-centreantifraude.ca/index-eng.htm",
+    "intakeNote": "Call 1-888-495-8501, Monday to Friday 10 am to 4:45 pm Eastern time, or report a scam online any time through the reporting system at reportcyberandfraud.canada.ca."
+  },
+  {
+    "id": "canadian-dental-care-plan-hearing-vision",
+    "name": "Canadian Dental Care Plan",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-833-537-4342",
+    "description": "A Government of Canada benefit, administered by Sun Life, that pays much of the cost of dental care for people without private dental insurance, including cleanings, fillings, x-rays and dentures. Seniors of any age qualify if the household income is under $90,000, last year's taxes are filed, and they live in Canada. Applications for the 2026-2027 benefit year are open.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "canadian-dental-care-plan",
+    "website": "https://www.canada.ca/en/services/benefits/dental/dental-care-plan.html",
+    "intakeNote": "Apply online through My Service Canada Account or Canada.ca, or call Service Canada at 1-833-537-4342 (TTY 1-833-677-6262); a trusted helper can apply with the senior on the line to give consent."
+  },
+  {
     "id": "canadian-hearing-services-hearing-vision",
     "name": "Canadian Hearing Services Hearing Clinics",
     "category": "Vision, Hearing, Dental & Foot Care",
@@ -164,48 +319,6 @@
     "brandGroup": "canadian-hearing-services",
     "website": "https://www.chs.ca/hearing-clinic-locations",
     "intakeNote": "Call 1-866-518-0000, email audiology@chs.ca, or book online (Ontario residents only) for a hearing test or hearing aid consultation. No referral is needed."
-  },
-  {
-    "id": "canadian-red-cross-ontario-transportation",
-    "name": "Canadian Red Cross Transportation",
-    "category": "Transportation",
-    "tier": "city",
-    "provinces": [
-      "ON"
-    ],
-    "cities": [
-      "Toronto",
-      "Burlington"
-    ],
-    "phone": "416-236-3180",
-    "description": "The Canadian Red Cross drives seniors and adults with disabilities who cannot use public transit to medical appointments, shopping, and social outings, using cars, mid-sized vans, and accessible vehicles. Today this covers all of Toronto through the Toronto Ride coalition and the City of Burlington only. The Canadian Red Cross is a federally chartered registered charity, and this is a public community support service, not a privately vetted company.",
-    "listingType": "public-service",
-    "verifiedDate": "2026-08-05",
-    "brandGroup": "canadian-red-cross-ontario",
-    "website": "https://www.redcross.ca/in-your-community/ontario/nutrition-and-transportation/transportation",
-    "intakeNote": "There is no single phone number across these programs. Families call the specific line: Toronto Transportation and Meals on Wheels at 416-236-3180, Burlington Transportation at 1-844-843-7331 ext 2, Burlington Meals on Wheels at 905-637-5664, or the national Friendly Calls Program at 1-833-979-9779."
-  },
-  {
-    "id": "canadian-red-cross-ontario-meals-nutrition",
-    "name": "Canadian Red Cross Meals on Wheels",
-    "category": "Meals & Nutrition",
-    "tier": "city",
-    "provinces": [
-      "ON"
-    ],
-    "cities": [
-      "Toronto",
-      "Burlington"
-    ],
-    "phone": "416-236-3180",
-    "description": "The Canadian Red Cross delivers hot, nutritious meals to people who cannot cook for themselves, with a volunteer who checks in at the door. Today this is confirmed only in Etobicoke (part of Toronto) and in the City of Burlington plus Flamborough. The Canadian Red Cross is a federally chartered registered charity, and this is a public community support service, not a privately vetted company.",
-    "listingType": "public-service",
-    "verifiedDate": "2026-08-05",
-    "brandGroup": "canadian-red-cross-ontario",
-    "website": "https://www.redcross.ca/in-your-community/ontario/nutrition-and-transportation/meals-on-wheels",
-    "intakeNote": "There is no single phone number across these programs. Families call the specific line: Toronto Transportation and Meals on Wheels at 416-236-3180, Burlington Transportation at 1-844-843-7331 ext 2, Burlington Meals on Wheels at 905-637-5664, or the national Friendly Calls Program at 1-833-979-9779.",
-    "program": "Meals on Wheels",
-    "runBy": "Canadian Red Cross"
   },
   {
     "id": "canadian-red-cross-ontario-companion-social",
@@ -237,6 +350,48 @@
     "intakeNote": "There is no single phone number across these programs. Families call the specific line: Toronto Transportation and Meals on Wheels at 416-236-3180, Burlington Transportation at 1-844-843-7331 ext 2, Burlington Meals on Wheels at 905-637-5664, or the national Friendly Calls Program at 1-833-979-9779."
   },
   {
+    "id": "canadian-red-cross-ontario-meals-nutrition",
+    "name": "Canadian Red Cross Meals on Wheels",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto",
+      "Burlington"
+    ],
+    "phone": "416-236-3180",
+    "description": "The Canadian Red Cross delivers hot, nutritious meals to people who cannot cook for themselves, with a volunteer who checks in at the door. Today this is confirmed only in Etobicoke (part of Toronto) and in the City of Burlington plus Flamborough. The Canadian Red Cross is a federally chartered registered charity, and this is a public community support service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/in-your-community/ontario/nutrition-and-transportation/meals-on-wheels",
+    "intakeNote": "There is no single phone number across these programs. Families call the specific line: Toronto Transportation and Meals on Wheels at 416-236-3180, Burlington Transportation at 1-844-843-7331 ext 2, Burlington Meals on Wheels at 905-637-5664, or the national Friendly Calls Program at 1-833-979-9779.",
+    "program": "Meals on Wheels",
+    "runBy": "Canadian Red Cross"
+  },
+  {
+    "id": "canadian-red-cross-ontario-transportation",
+    "name": "Canadian Red Cross Transportation",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto",
+      "Burlington"
+    ],
+    "phone": "416-236-3180",
+    "description": "The Canadian Red Cross drives seniors and adults with disabilities who cannot use public transit to medical appointments, shopping, and social outings, using cars, mid-sized vans, and accessible vehicles. Today this covers all of Toronto through the Toronto Ride coalition and the City of Burlington only. The Canadian Red Cross is a federally chartered registered charity, and this is a public community support service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/in-your-community/ontario/nutrition-and-transportation/transportation",
+    "intakeNote": "There is no single phone number across these programs. Families call the specific line: Toronto Transportation and Meals on Wheels at 416-236-3180, Burlington Transportation at 1-844-843-7331 ext 2, Burlington Meals on Wheels at 905-637-5664, or the national Friendly Calls Program at 1-833-979-9779."
+  },
+  {
     "id": "chats-home-care",
     "name": "CHATS In-Home Services (Home Help)",
     "category": "Home Care & Nursing",
@@ -260,26 +415,22 @@
     "intakeNote": "Call 905-713-6596 or toll-free 1-877-452-4287, or email seniorshelp@chats.on.ca; CHATS follows up for an initial visit and intake assessment before building an individualized care plan."
   },
   {
-    "id": "chats-transportation",
-    "name": "CHATS Community Transportation (iRIDEplus)",
-    "category": "Transportation",
+    "id": "chats-home-maintenance",
+    "name": "CHATS Home Adaptation & Maintenance Program",
+    "category": "Home Maintenance",
     "tier": "city",
     "provinces": [
       "ON"
     ],
     "cities": [
-      "Markham",
-      "Vaughan",
-      "Richmond Hill",
-      "Newmarket",
-      "Aurora"
+      "Newmarket"
     ],
-    "phone": "905-713-6596",
-    "description": "CHATS' iRIDEplus program provides local and long-distance grouped drives to medical appointments, adult day programs, errands, and social outings for residents of York Region and South Simcoe, over 3500 drives a month. CHATS is a registered charity, so this is a non-profit community service, not a private ride company.",
+    "phone": "1-866-677-9048 ext. 6240",
+    "description": "This CHATS program installs grab bars, handrails, and other minor safety renovations after a free in-home safety assessment, and offers seasonal yard care, eavestrough cleaning, window cleaning, and snow clearing. It has helped over 2,100 clients since 2009. CHATS is a registered charity, so this is a non-profit community service, not a private contractor.",
     "listingType": "public-service",
     "verifiedDate": "2026-08-05",
     "brandGroup": "chats",
-    "website": "https://chats.on.ca/community-transportation/",
+    "website": "https://chats.on.ca/home-safety-services/home-adaption-maintenance-program/",
     "intakeNote": "Call 905-713-6596 or toll-free 1-877-452-4287, or email seniorshelp@chats.on.ca; CHATS follows up for an initial visit and intake assessment before building an individualized care plan."
   },
   {
@@ -308,23 +459,48 @@
     "runBy": "CHATS"
   },
   {
-    "id": "chats-home-maintenance",
-    "name": "CHATS Home Adaptation & Maintenance Program",
-    "category": "Home Maintenance",
+    "id": "chats-transportation",
+    "name": "CHATS Community Transportation (iRIDEplus)",
+    "category": "Transportation",
     "tier": "city",
     "provinces": [
       "ON"
     ],
     "cities": [
-      "Newmarket"
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
     ],
-    "phone": "1-866-677-9048 ext. 6240",
-    "description": "This CHATS program installs grab bars, handrails, and other minor safety renovations after a free in-home safety assessment, and offers seasonal yard care, eavestrough cleaning, window cleaning, and snow clearing. It has helped over 2,100 clients since 2009. CHATS is a registered charity, so this is a non-profit community service, not a private contractor.",
+    "phone": "905-713-6596",
+    "description": "CHATS' iRIDEplus program provides local and long-distance grouped drives to medical appointments, adult day programs, errands, and social outings for residents of York Region and South Simcoe, over 3500 drives a month. CHATS is a registered charity, so this is a non-profit community service, not a private ride company.",
     "listingType": "public-service",
     "verifiedDate": "2026-08-05",
     "brandGroup": "chats",
-    "website": "https://chats.on.ca/home-safety-services/home-adaption-maintenance-program/",
+    "website": "https://chats.on.ca/community-transportation/",
     "intakeNote": "Call 905-713-6596 or toll-free 1-877-452-4287, or email seniorshelp@chats.on.ca; CHATS follows up for an initial visit and intake assessment before building an individualized care plan."
+  },
+  {
+    "id": "circle-of-care-dementia-memory-support",
+    "name": "Circle of Care Adult Day Program",
+    "category": "Dementia & Memory Support",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Vaughan"
+    ],
+    "phone": "(905) 738-1128",
+    "description": "Circle of Care's Adult Day Program in Vaughan gives adults with memory loss or physical frailty a supervised place to spend the day, with meals, activities, and caregiver respite. It is a program of a registered charity that is a system partner of Sinai Health, a non-profit community service.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "circle-of-care",
+    "website": "https://circleofcare.com/adp/",
+    "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care.",
+    "program": "Adult Day Program",
+    "runBy": "Circle of Care"
   },
   {
     "id": "circle-of-care-home-care",
@@ -369,27 +545,6 @@
     "runBy": "Circle of Care"
   },
   {
-    "id": "circle-of-care-dementia-memory-support",
-    "name": "Circle of Care Adult Day Program",
-    "category": "Dementia & Memory Support",
-    "tier": "city",
-    "provinces": [
-      "ON"
-    ],
-    "cities": [
-      "Vaughan"
-    ],
-    "phone": "(905) 738-1128",
-    "description": "Circle of Care's Adult Day Program in Vaughan gives adults with memory loss or physical frailty a supervised place to spend the day, with meals, activities, and caregiver respite. It is a program of a registered charity that is a system partner of Sinai Health, a non-profit community service.",
-    "listingType": "public-service",
-    "verifiedDate": "2026-08-05",
-    "brandGroup": "circle-of-care",
-    "website": "https://circleofcare.com/adp/",
-    "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care.",
-    "program": "Adult Day Program",
-    "runBy": "Circle of Care"
-  },
-  {
     "id": "circle-of-care-mental-health-counselling",
     "name": "Circle of Care Bereavement Support",
     "category": "Mental Health & Counselling",
@@ -405,6 +560,295 @@
     "brandGroup": "circle-of-care",
     "website": "https://circleofcare.com/bereavement-support/",
     "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care."
+  },
+  {
+    "id": "city-of-ottawa-companion-social-adult-day",
+    "name": "City of Ottawa Adult Day Programs",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ottawa"
+    ],
+    "phone": "310-2222",
+    "description": "Adult Day Programs at the City of Ottawa's Carleton Lodge and Centre d'accueil Champlain long term care homes give seniors living with dementia or other barriers a welcoming place to spend the day with activities and social time, and give family caregivers a regular break.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-ottawa",
+    "website": "https://ottawa.ca/en/family-and-social-services/housing-and-homelessness/long-term-care/care-and-services",
+    "intakeNote": "Apply through Ontario Health atHome for the Champlain region by calling 310-2222, no area code needed.",
+    "program": "Adult Day Program",
+    "runBy": "City of Ottawa"
+  },
+  {
+    "id": "city-of-ottawa-companion-social-hand-in-hand",
+    "name": "Ottawa Hand in Hand recreation fee support",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ottawa"
+    ],
+    "phone": "3-1-1",
+    "description": "A City of Ottawa subsidy that gives each qualifying resident $185 a year toward recreation and culture programs, so cost does not keep seniors from fitness classes, swimming or social programs. Seniors who receive the Guaranteed Income Supplement qualify, along with several other routes.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-ottawa",
+    "website": "https://ottawa.ca/en/city-hall/creating-equal-inclusive-and-diverse-city/accessibility-city/community-supports-healthcare-recreation/financial-support-ottawa-hand-hand",
+    "intakeNote": "Fill out the Hand in Hand application, online or at any staffed recreation facility, and bring it to your local recreation or cultural facility; call 3-1-1 with questions."
+  },
+  {
+    "id": "city-of-ottawa-funeral-estate-planning-ehss",
+    "name": "City of Ottawa funeral and burial help (EHSS)",
+    "category": "Funeral & Estate Planning",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ottawa"
+    ],
+    "phone": "3-1-1",
+    "description": "Through its Essential Health and Social Supports program, the City of Ottawa helps pay cremation and burial costs when a low income resident dies and their estate and family cannot cover a basic funeral. Families should call before finalizing arrangements with a funeral home.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-ottawa",
+    "website": "https://ottawa.ca/en/family-and-social-services/financial-and-social-assistance/apply-financial-assistance/essential-health-and-social-supports-ehss",
+    "intakeNote": "Call 3-1-1 Monday to Friday, 8:30 a.m. to 4 p.m., press 1 for English then 4 for Community and Social Services, before making funeral arrangements."
+  },
+  {
+    "id": "city-of-ottawa-home-care-home-support",
+    "name": "City of Ottawa Home Support Services",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ottawa"
+    ],
+    "phone": "3-1-1",
+    "description": "A City of Ottawa service that provides light housekeeping, including floors, bathrooms, laundry and kitchen cleaning, for low income residents who have a medical reason they cannot do the work themselves and little or no other help. A case worker confirms eligibility with a phone interview and a home visit.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-ottawa",
+    "website": "https://ottawa.ca/en/family-and-social-services/financial-and-social-assistance/apply-financial-assistance/home-support-services",
+    "intakeNote": "Call 3-1-1 Monday to Friday, 8:30 a.m. to 4:30 p.m., press 1 for English then 4 for Community and Social Services."
+  },
+  {
+    "id": "city-of-ottawa-home-maintenance-snow-go",
+    "name": "Snow Go and Snow Go Assist",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ottawa"
+    ],
+    "phone": "3-1-1",
+    "description": "A City of Ottawa program that matches older adults and people with disabilities with a screened person or contractor to clear snow from private driveways and walkways at an affordable rate. Snow Go Assist also pays up to half the cost for lower income households, to a seasonal maximum of $250, or $450 in rural areas where costs run higher.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-ottawa",
+    "website": "https://ottawa.ca/en/family-and-social-services/financial-and-social-assistance/other-supports-and-community-resources/get-help-clearing-snow",
+    "intakeNote": "Applications for each winter open in the fall through neighbourhood community support agencies; call 3-1-1 or your local community support agency to sign up before the snow flies."
+  },
+  {
+    "id": "city-of-ottawa-legal-financial-ehss",
+    "name": "Essential Health and Social Supports (EHSS)",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ottawa"
+    ],
+    "phone": "3-1-1",
+    "description": "A City of Ottawa program that pays for essentials low income residents cannot afford, including urgent dental care, dentures, eye exams and glasses, part of the cost of assistive devices, bathroom aids, surgical supplies, and help with rent or utility arrears. A case worker assesses eligibility in a phone or in-person interview.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-ottawa",
+    "website": "https://ottawa.ca/en/family-and-social-services/financial-and-social-assistance/apply-financial-assistance/essential-health-and-social-supports-ehss",
+    "intakeNote": "Call 3-1-1 Monday to Friday, 8:30 a.m. to 4 p.m., press 1 for English then 4 for Community and Social Services."
+  },
+  {
+    "id": "city-of-ottawa-legal-financial-tax-deferral",
+    "name": "Ottawa property tax deferral for low-income seniors",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ottawa"
+    ],
+    "phone": "613-580-2444",
+    "description": "A City of Ottawa program that lets low income seniors and people with disabilities put off paying all or part of their property taxes until the home is sold, with a matching deferral program for water bills. For 2026 the home must be assessed under $498,000 and gross household income under about $59,400; deferred amounts carry 5 percent yearly interest.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-ottawa",
+    "website": "https://ottawa.ca/en/living-ottawa/taxes/property-taxes/tax-adjustments-rebates-and-deferrals/full-property-tax-deferral-program",
+    "intakeNote": "Apply online, email taxdeferralprogram@ottawa.ca, or call Revenue Services at 613-580-2444 (Monday to Friday, 8 a.m. to 4:30 p.m.); renewals are due by September 30 each year."
+  },
+  {
+    "id": "city-of-ottawa-transportation-para-transpo",
+    "name": "Para Transpo (OC Transpo accessible door-to-door transit)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ottawa"
+    ],
+    "phone": "613-560-5000",
+    "description": "The City of Ottawa's shared ride public transit service for people whose disability keeps them from using regular buses, run by OC Transpo with minibuses and contracted taxis. Riders apply once, then reserve trips at least a day ahead by phone or online through My Para Transpo.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-ottawa",
+    "website": "https://www.octranspo.com/en/para-transpo/",
+    "intakeNote": "Apply online or with the application form on octranspo.com; once registered, book trips at 613-560-5000 (TTY via 7-1-1), online through My Para Transpo, or text 57272 with questions."
+  },
+  {
+    "id": "city-of-toronto-companion-social-adult-day",
+    "name": "City of Toronto Adult Day Programs",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-397-7020",
+    "description": "A City of Toronto service offering seniors a safe, social day out with activities, meals and wellness programming, Monday to Friday. It supports seniors who are frail, living with memory loss or socially isolated, and gives family caregivers a regular break.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-toronto",
+    "website": "https://www.toronto.ca/community-people/children-parenting/seniors-services/seniors-recreation-and-things-to-do/adult-day-programs/",
+    "intakeNote": "Call the location nearest you: Bendale Acres in Scarborough 416-397-7020, Cummer Lodge in North York 416-392-9502, Kipling Acres in Etobicoke 416-392-2299. A program agreement is signed before the first day.",
+    "program": "Adult Day Program",
+    "runBy": "City of Toronto"
+  },
+  {
+    "id": "city-of-toronto-funeral-estate-planning-funeral-support",
+    "name": "City of Toronto funeral support for people in financial need",
+    "category": "Funeral & Estate Planning",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-338-8888",
+    "description": "A City of Toronto program that covers basic funeral, burial or cremation costs for Toronto residents who die without enough money in their estate, when family cannot pay. Families should call before finalizing arrangements with a funeral home.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-toronto",
+    "website": "https://www.toronto.ca/community-people/employment-social-support/health-support/",
+    "intakeNote": "Call 416-338-8888 and select option 4 before making funeral arrangements."
+  },
+  {
+    "id": "city-of-toronto-home-care-homemakers",
+    "name": "Homemakers and Nurses Services (City of Toronto)",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-392-8579",
+    "description": "A City of Toronto service, funded with the Province of Ontario, that sends a homemaker to help with light housekeeping, laundry, grocery shopping and meal preparation. It is for residents with limited income and assets who cannot manage these tasks on their own, and seniors are given priority.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-toronto",
+    "website": "https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/homemakers-and-nurses-services/",
+    "intakeNote": "Call 416-392-8579 to start a referral; an intake caseworker screens by phone, then visits the home to assess finances and need. There is a wait list."
+  },
+  {
+    "id": "city-of-toronto-home-care-paramedicine",
+    "name": "Toronto Community Paramedicine Program",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-397-4322",
+    "description": "A City of Toronto service where specially trained paramedics visit seniors at home to check blood pressure and medications, spot safety risks, and connect them with health and community supports. It helps seniors who call 911 often or who struggle to reach regular care, and includes homebound vaccinations in fall and winter.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-toronto",
+    "website": "https://www.toronto.ca/community-people/public-safety-alerts/community-safety-wellbeing-programs/community-paramedicine-program/",
+    "intakeNote": "Clients and caregivers can self-refer: call 416-397-4322 and press option 1, or email cphome@toronto.ca."
+  },
+  {
+    "id": "city-of-toronto-home-care-supportive-housing",
+    "name": "City of Toronto Supportive Housing Program for seniors",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-397-7400",
+    "description": "A City of Toronto service, funded by Ontario Health, that places personal support workers inside nine designated seniors apartment buildings. Tenants get help with personal care, light housekeeping, laundry, medication reminders and safety checks, with on-site staff available around the clock.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-toronto",
+    "website": "https://www.toronto.ca/community-people/children-parenting/seniors-services/seniors-housing-services/supportive-housing-program/",
+    "intakeNote": "Tenants of a designated building can call 416-397-7400 or visit the Supportive Housing office in their building; others first need a unit in one of the nine buildings through social housing."
+  },
+  {
+    "id": "city-of-toronto-legal-financial-hardship-fund",
+    "name": "Toronto Hardship Fund (help with health expenses)",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-338-8888",
+    "description": "A City of Toronto fund that pays for health items low-income residents cannot afford, including eyeglasses and eye exams, emergency dental work and dentures, prescription medications, walkers, hearing aids and hospital beds. It serves people who are not on Ontario Works or ODSP, regardless of immigration status.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-toronto",
+    "website": "https://www.toronto.ca/community-people/employment-social-support/health-support/",
+    "intakeNote": "Call 416-338-8888 and select option 3. Apply before paying for the item, because purchases made first may not be reimbursed."
+  },
+  {
+    "id": "city-of-toronto-legal-financial-tax-relief",
+    "name": "Property Tax, Water and Solid Waste Relief Programs",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "311",
+    "description": "A City of Toronto program that cancels or defers property tax increases and rebates part of water and garbage bills for low-income seniors and low-income people with disabilities who own their home. Applications for the 2026 tax year are open until November 2, 2026.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-toronto",
+    "website": "https://www.toronto.ca/services-payments/property-taxes-utilities/property-tax/property-tax-water-solid-waste-relief-and-rebate-programs/property-tax-and-utility-relief-program/",
+    "intakeNote": "Apply online each year (the CRA verifies income automatically) or send a paper form by mail; call 311 with questions."
   },
   {
     "id": "cmha-durham-mental-health-counselling",
@@ -477,28 +921,6 @@
     "intakeNote": "Call the national line or fill out the online contact form at cnib.ca to reach a CNIB program coordinator, who can register you and connect you to programs like Tech and Peer Support, or point you to a referral for vision loss rehabilitation training."
   },
   {
-    "id": "community-care-durham-home-care",
-    "name": "Community Care Durham Personal Support (Caregiver Relief) In-Home Respite",
-    "category": "Home Care & Nursing",
-    "tier": "city",
-    "provinces": [
-      "ON"
-    ],
-    "cities": [
-      "Oshawa",
-      "Whitby",
-      "Ajax",
-      "Pickering"
-    ],
-    "phone": "1-888-255-6680",
-    "description": "A registered charity providing in-home respite through Personal Support Workers, who give personal care, help with daily living, meal preparation, and light housekeeping so family caregivers in Durham Region can take a break. This is a non-profit community service, not a privately vetted company.",
-    "listingType": "public-service",
-    "verifiedDate": "2026-08-05",
-    "brandGroup": "community-care-durham",
-    "website": "https://www.communitycaredurham.on.ca/services/personal-support-caregiver-relief/",
-    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
-  },
-  {
     "id": "community-care-durham-companion-social",
     "name": "Community Care Durham Friendly Visiting",
     "category": "Companion & Social",
@@ -521,6 +943,28 @@
     "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308).",
     "program": "Friendly Visiting",
     "runBy": "Community Care Durham"
+  },
+  {
+    "id": "community-care-durham-home-care",
+    "name": "Community Care Durham Personal Support (Caregiver Relief) In-Home Respite",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-888-255-6680",
+    "description": "A registered charity providing in-home respite through Personal Support Workers, who give personal care, help with daily living, meal preparation, and light housekeeping so family caregivers in Durham Region can take a break. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "community-care-durham",
+    "website": "https://www.communitycaredurham.on.ca/services/personal-support-caregiver-relief/",
+    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
   },
   {
     "id": "community-care-durham-meals-nutrition",
@@ -547,28 +991,6 @@
     "runBy": "Community Care Durham"
   },
   {
-    "id": "community-care-durham-transportation",
-    "name": "Community Care Durham Transportation",
-    "category": "Transportation",
-    "tier": "city",
-    "provinces": [
-      "ON"
-    ],
-    "cities": [
-      "Oshawa",
-      "Whitby",
-      "Ajax",
-      "Pickering"
-    ],
-    "phone": "1-888-255-6680",
-    "description": "A registered charity offering accessible van rides, volunteer drivers, and PSW-escorted medical rides for people in Durham Region who cannot use public transportation because of age or health needs. This is a non-profit community service, not a privately vetted company.",
-    "listingType": "public-service",
-    "verifiedDate": "2026-08-05",
-    "brandGroup": "community-care-durham",
-    "website": "https://www.communitycaredurham.on.ca/services/transportation/",
-    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
-  },
-  {
     "id": "community-care-durham-mental-health-counselling",
     "name": "Community Care Durham WeConnect Mental Health and Wellness",
     "category": "Mental Health & Counselling",
@@ -591,6 +1013,190 @@
     "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
   },
   {
+    "id": "community-care-durham-transportation",
+    "name": "Community Care Durham Transportation",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-888-255-6680",
+    "description": "A registered charity offering accessible van rides, volunteer drivers, and PSW-escorted medical rides for people in Durham Region who cannot use public transportation because of age or health needs. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "community-care-durham",
+    "website": "https://www.communitycaredurham.on.ca/services/transportation/",
+    "intakeNote": "Call 1-888-255-6680 or fill out the online Request Service form on communitycaredurham.on.ca to book an appointment with a Central Intake Coordinator; the Adult Day Program additionally requires a separate referral from Ontario Health atHome (905-430-3308)."
+  },
+  {
+    "id": "connex-ontario-mental-health-counselling",
+    "name": "ConnexOntario Mental Health and Addiction Helpline",
+    "category": "Mental Health & Counselling",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-866-531-2600",
+    "description": "A free 24/7 helpline funded by the Government of Ontario and Ontario Health that finds mental health, addiction and problem gambling services anywhere in the province. Staff look up local options with you and connect you to the right program.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "connex-ontario",
+    "website": "https://www.connexontario.ca/",
+    "intakeNote": "Call any time, text CONNEX to 247247, or use the live chat at connexontario.ca; no referral needed."
+  },
+  {
+    "id": "cra-seniors-legal-financial-benefits-finder",
+    "name": "Benefits Finder (canada.ca)",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-622-6232",
+    "description": "A free Government of Canada online tool that asks a few quick questions and builds a personal list of federal benefits, with filters for seniors and retirees aged 60 and over and for caregivers. It needs no account or personal identifying information, and it links to your province's own benefits page too.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "service-canada",
+    "website": "https://benefitsfinder.services.gc.ca/hm?GoCTemplateCulture=en-CA",
+    "intakeNote": "Use the tool online at benefitsfinder.services.gc.ca; for general help with federal programs call 1 800 O-Canada at 1-800-622-6232."
+  },
+  {
+    "id": "cra-seniors-legal-financial-credits",
+    "name": "Tax credits for seniors and family caregivers (CRA)",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-959-8281",
+    "description": "Canada Revenue Agency credits that cut the tax bill for seniors and the relatives who support them, all claimed on the yearly tax return. They include the age amount for people 65 and older, pension income splitting with a spouse, the medical expense credit that covers attendant care and many home health costs, the Canada Caregiver Credit, the Home Accessibility Tax Credit for up to $20,000 a year of safety renovations, and the Multigenerational Home Renovation Tax Credit, which refunds 14.5% of up to $50,000 spent adding a secondary suite for a senior.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "cra-seniors",
+    "website": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/changes-your-taxes-when-you-retire-turn-65-years-old.html",
+    "intakeNote": "Claim these credits when filing the yearly income tax return, or ask a tax preparer or free tax clinic to check each one; call the CRA with questions."
+  },
+  {
+    "id": "cra-seniors-legal-financial-dtc",
+    "name": "Disability Tax Credit (DTC)",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-959-8281",
+    "description": "A Government of Canada tax credit that lowers income tax for people with a severe, long-term impairment, or for the family member who supports them. Long-term conditions that affect everyday life, such as dementia, may qualify. Once approved, the credit can be claimed for past years going back up to 10 years, which can mean a large refund.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "cra-seniors",
+    "website": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html",
+    "intakeNote": "Apply using the CRA's digital DTC application or Form T2201 by mail; a medical practitioner completes the medical part, then the credit is claimed at tax time."
+  },
+  {
+    "id": "cra-seniors-legal-financial-groceries-benefit",
+    "name": "Canada Groceries and Essentials Benefit (CGEB)",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-387-1193",
+    "description": "A tax-free Government of Canada payment every three months for people with low and modest incomes, which replaced the GST/HST credit in July 2026 with a 25% higher amount. There is no application; filing your tax return each year, even with no income, automatically signs you up if you qualify.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "cra-seniors",
+    "website": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit.html",
+    "intakeNote": "File a tax return every year to be enrolled automatically; call 1-800-387-1193 with payment questions."
+  },
+  {
+    "id": "cra-seniors-legal-financial-tax-clinics",
+    "name": "Free tax clinics (Community Volunteer Income Tax Program)",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-959-8281",
+    "description": "Free tax clinics supported by the Canada Revenue Agency, where trained community volunteers complete tax returns for people with a modest income and a simple tax situation. Filing every year is what keeps benefits like the Guaranteed Income Supplement flowing, so these clinics matter even when no tax is owed. In Quebec the program runs jointly with Revenu Quebec as the Income Tax Assistance volunteer program.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "cra-seniors",
+    "website": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program.html",
+    "intakeNote": "Find a nearby clinic with the Find a free tax clinic directory on canada.ca; clinic types and dates vary by community organization."
+  },
+  {
     "id": "dorothy-ley-hospice-palliative-hospice-care",
     "name": "The Dorothy Ley Hospice",
     "category": "Palliative & Hospice Care",
@@ -609,6 +1215,52 @@
     "brandGroup": "dorothy-ley-hospice",
     "website": "https://dlhospice.org/get-support/",
     "intakeNote": "A doctor faxes a referral form for the hospice residence or the home based palliative care team, but families can also call the main line or the 24 hour helpline to ask questions, and grief and bereavement support can be self-referred online without a doctor."
+  },
+  {
+    "id": "eapo-seniors-safety-line-medical-alert-safety",
+    "name": "Seniors Safety Line",
+    "category": "Medical Alert & Safety",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-866-299-1011",
+    "description": "A free, confidential helpline open 24 hours a day for older adults who are being abused, mistreated or feel unsafe, run by Elder Abuse Prevention Ontario with Ontario government support. Counsellors offer emotional support, safety planning and referrals to local services in over 200 languages (TTY 1-866-299-0008).",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "eapo-seniors-safety-line",
+    "website": "https://eapon.ca/seniors-safety-line/",
+    "intakeNote": "Call any time, day or night; a trained counsellor answers and no referral is needed."
+  },
+  {
+    "id": "hope-for-wellness-mental-health-counselling",
+    "name": "Hope for Wellness Help Line",
+    "category": "Mental Health & Counselling",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-855-242-3310",
+    "description": "A Government of Canada helpline offering free counselling and crisis support to all Indigenous people across Canada, 24 hours a day, with culturally grounded Indigenous counsellors. Support is available by phone in English and French, with Cree, Ojibway and Inuktitut on request, and by online chat at hopeforwellness.ca.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "hope-for-wellness",
+    "website": "https://www.sac-isc.gc.ca/eng/1576089519527/1576089566478",
+    "intakeNote": "Call 1-855-242-3310 at any hour, or use the online chat at hopeforwellness.ca; no referral needed."
   },
   {
     "id": "hospice-mississauga-palliative-hospice-care",
@@ -649,6 +1301,263 @@
     "intakeNote": "Families and individuals can self-refer by calling the office at 416-364-1666; organizations refer using the Toronto Central Palliative Care Network Common Referral Form faxed to 416-364-2231."
   },
   {
+    "id": "legal-aid-ontario-legal-financial",
+    "name": "Legal Aid Ontario",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-668-8258",
+    "description": "Ontario's provincial legal aid agency gives people with low incomes free legal help, including certificates that pay for a lawyer, duty counsel at court and a province-wide network of community legal clinics. One call checks what you qualify for, with service in over 300 languages.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "legal-aid-ontario",
+    "website": "https://www.legalaid.on.ca/",
+    "intakeNote": "Call Monday to Friday, 8 a.m. to 5 p.m., to check what you qualify for and be directed to the right service or local clinic."
+  },
+  {
+    "id": "march-of-dimes-hvmp-home-maintenance",
+    "name": "Home and Vehicle Modification Program",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-877-369-4867",
+    "description": "An Ontario government funded program, delivered by March of Dimes Canada, that pays for basic home changes such as ramps, stair lifts and bathroom modifications so people whose mobility is limited can keep living safely at home. It covers up to $15,000 lifetime for home modifications and up to $15,000 every 10 years for vehicle modifications.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "march-of-dimes-canada",
+    "website": "https://www.marchofdimes.ca/en-ca/programs/am/hvmp",
+    "intakeNote": "Download the application from marchofdimes.ca and mail it in with proof of income, disability verification and a vendor quote; call 1-877-369-4867 or email hvmp@marchofdimes.ca with questions."
+  },
+  {
+    "id": "msaa-seniors-programs-companion-social-salc",
+    "name": "Seniors Active Living Centres",
+    "category": "Companion & Social",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-888-910-1999",
+    "description": "More than 400 local centre programs funded by the Ontario government where older adults join fitness classes, arts and culture programs, book clubs, social groups and lifelong learning, in person, online or by phone. Ontario has funded these centres for 60 years.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "msaa-seniors-programs",
+    "website": "https://www.ontario.ca/page/find-seniors-active-living-centre-program-near-you",
+    "intakeNote": "Use the online map to find the centre nearest you, then call that centre directly to join; the ministry's Seniors' INFOline at 1-888-910-1999 can also help you find one."
+  },
+  {
+    "id": "msaa-seniors-programs-legal-financial-infoline",
+    "name": "Seniors' INFOline",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-888-910-1999",
+    "description": "The Ontario government's free information line for anything to do with programs and services for seniors, from benefits and tax credits to housing, safety and community supports (TTY 1-800-387-5559). One call is often the fastest way to find out which provincial program fits your situation.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "msaa-seniors-programs",
+    "website": "https://www.ontario.ca/document/guide-programs-and-services-seniors",
+    "intakeNote": "Call the Seniors' INFOline for anything to do with Ontario seniors programs; no referral needed."
+  },
+  {
+    "id": "mto-senior-driver-renewal-transportation",
+    "name": "Senior driver licence renewal at 80 and over",
+    "category": "Transportation",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-396-4233",
+    "description": "The Ontario government's renewal program that keeps drivers 80 and older safely on the road. Every 2 years you watch a short senior driver education video at home, then attend a booked appointment for a vision assessment and a 5 minute screening exercise; most drivers do not need a road test.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "mto-senior-driver-renewal",
+    "website": "https://www.ontario.ca/page/renew-g-drivers-licence-80-years-and-over",
+    "intakeNote": "Wait for the renewal letter that arrives up to 90 days before the licence expires, then book online or call 1-800-396-4233 (416-235-3579 in the GTA), Monday to Friday 8:30 a.m. to 5 p.m."
+  },
+  {
+    "id": "ontario-adp-hearing-vision",
+    "name": "Assistive Devices Program: Hearing Aids and Visual Aids",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-268-6021",
+    "description": "An Ontario government program that helps pay for hearing aids and equipment for low vision. It covers 75 percent of the cost of hearing aids up to $500 per ear, and also funds approved visual aids and communication devices.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-adp",
+    "website": "https://www.ontario.ca/page/assistive-devices-program",
+    "intakeNote": "For hearing aids, get assessed by an ADP-registered audiologist or hearing instrument specialist and apply before you buy; the vendor submits the application."
+  },
+  {
+    "id": "ontario-adp-mobility-equipment",
+    "name": "Assistive Devices Program: Wheelchairs, Walkers and Mobility Aids",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-268-6021",
+    "description": "An Ontario government program that pays 75 percent of the approved price of mobility equipment such as wheelchairs, power scooters and wheeled walkers. People receiving Ontario Works or ODSP support pay nothing.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-adp",
+    "website": "https://www.ontario.ca/page/mobility-aids",
+    "intakeNote": "Get assessed by an occupational therapist or physiotherapist registered with ADP before buying; they help complete the application and the vendor submits it."
+  },
+  {
+    "id": "ontario-caregiver-organization-mental-health-counselling",
+    "name": "Ontario Caregiver Helpline",
+    "category": "Mental Health & Counselling",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-833-416-2273",
+    "description": "A free 24/7 helpline for anyone caring for a family member or friend, run by the Ontario Caregiver Organization and funded by the Government of Ontario. Callers get a listening ear plus help finding respite, support groups and community programs near them, in English and French with interpretation in 150 languages.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-caregiver-organization",
+    "website": "https://ontariocaregiver.ca/helpline/",
+    "intakeNote": "Call the helpline any time, 24/7; live chat is open weekdays 7 a.m. to 9 p.m."
+  },
+  {
+    "id": "ontario-drug-programs-doctors-pharmacy-medication-odb",
+    "name": "Ontario Drug Benefit for Seniors 65+",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-888-405-0405",
+    "description": "The Ontario government drug plan that starts automatically the month after you turn 65. Once you have paid the first $100 of prescription costs in a program year, you pay no more than $6.11 for each covered prescription.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-drug-programs",
+    "website": "https://www.ontario.ca/page/get-coverage-prescription-drugs",
+    "intakeNote": "Enrollment is automatic at 65; the province mails a letter about 3 months before your 65th birthday. Call with questions or to check a drug is covered."
+  },
+  {
+    "id": "ontario-drug-programs-doctors-pharmacy-medication-seniors-co-payment",
+    "name": "Seniors Co-Payment Program",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-888-405-0405",
+    "description": "An Ontario government top-up to the Ontario Drug Benefit for lower income seniors. It removes the $100 yearly deductible and drops the charge to no more than $2 per prescription.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-drug-programs",
+    "website": "https://www.ontario.ca/page/seniors-ontario-drug-benefit-deductible-and-prescription-co-payment",
+    "intakeNote": "Apply online at ontariodrugbenefit.ca or call to request a paper form; you can apply up to 3 months before turning 65 and renew each program year."
+  },
+  {
+    "id": "ontario-drug-programs-doctors-pharmacy-medication-trillium",
+    "name": "Trillium Drug Program",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-575-5386",
+    "description": "An Ontario government program for households that spend about 4 percent or more of their after-tax income on prescription drugs. After a deductible based on household income, you pay up to $2 per prescription, which helps spouses and family members who are under 65.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-drug-programs",
+    "website": "https://www.ontario.ca/page/get-help-high-prescription-drug-costs",
+    "intakeNote": "Apply online at forms.ontariodrugbenefit.ca or call for a paper form; enrollment renews automatically each year if you file your taxes on time."
+  },
+  {
+    "id": "ontario-energy-support-legal-financial-oesp",
+    "name": "Ontario Electricity Support Program",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-855-831-8151",
+    "description": "An Ontario Energy Board program that puts a monthly credit of $35 to $113 straight onto the electricity bill of lower income households. Apply online, by paper form or with free help from a local intake agency; if you are already behind on a bill, ask about the related Low-income Energy Assistance Program at the same time.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-energy-support",
+    "website": "https://ontarioelectricitysupport.ca/",
+    "intakeNote": "Apply online at ontarioelectricitysupport.ca, by paper form, or with free help from a local intake agency; the OESP contact centre answers questions at 1-855-831-8151."
+  },
+  {
+    "id": "ontario-health-access-doctors-pharmacy-medication-health-care-connect",
+    "name": "Health Care Connect: Find a Family Doctor",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "An Ontario government service that puts you on the list for a family doctor, nurse practitioner or primary care team accepting new patients in your community. Register online or by phone and you are matched as spots open near you.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-health-access",
+    "website": "https://www.ontario.ca/page/find-family-doctor-or-nurse-practitioner",
+    "intakeNote": "Register online through the Health Care Connect portal or call 811 (TTY: 711), available 24 hours a day; have your Ontario health card ready."
+  },
+  {
+    "id": "ontario-health-access-doctors-pharmacy-medication-health811",
+    "name": "Health811 Nurse Advice Line",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "A free Ontario government line you can call day or night to talk to a registered nurse, get health advice and find services near you. Help is available in English, French and more than 300 other languages, by phone or online chat, and you can also ask to speak with a registered dietitian.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-health-access",
+    "website": "https://health811.ontario.ca/",
+    "intakeNote": "Call 811 (TTY: 711) any time, or chat online at health811.ontario.ca."
+  },
+  {
+    "id": "ontario-health-athome-companion-social",
+    "name": "Ontario Health atHome Adult Day Programs",
+    "category": "Companion & Social",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-833-515-1234",
+    "description": "A public program coordinated by Ontario Health atHome, Ontario's public home and community care agency. Adult day programs offer recreational and social activities, meals, personal care, and basic health care in a small group community setting, giving older adults social connection and giving family caregivers a break.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-health-athome",
+    "website": "https://ontariohealthathome.ca/supportive-living/adult-day-programs/",
+    "intakeNote": "Call 1-833-515-1234, available 7 days a week 365 days a year, and the call is automatically routed to the nearest local office; anyone, including the person themselves, a family member, or a doctor, can start a referral.",
+    "program": "Adult Day Program",
+    "runBy": "Ontario Health atHome"
+  },
+  {
     "id": "ontario-health-athome-home-care",
     "name": "Ontario Health atHome",
     "category": "Home Care & Nursing",
@@ -683,23 +1592,545 @@
     "intakeNote": "Call 1-833-515-1234, available 7 days a week 365 days a year, and the call is automatically routed to the nearest local office; anyone, including the person themselves, a family member, or a doctor, can start a referral."
   },
   {
-    "id": "ontario-health-athome-companion-social",
-    "name": "Ontario Health atHome Adult Day Programs",
-    "category": "Companion & Social",
+    "id": "ontario-health-athome-retirement-residences-ltc-placement",
+    "name": "Long-Term Care Home Placement: Ontario Health atHome",
+    "category": "Retirement Residences",
     "tier": "provincial",
     "provinces": [
       "ON"
     ],
     "cities": [],
     "phone": "1-833-515-1234",
-    "description": "A public program coordinated by Ontario Health atHome, Ontario's public home and community care agency. Adult day programs offer recreational and social activities, meals, personal care, and basic health care in a small group community setting, giving older adults social connection and giving family caregivers a break.",
+    "description": "Ontario Health atHome is the Ontario government agency every family goes through to apply for a long-term care home. A care coordinator assesses eligibility, helps you compare and choose homes anywhere in Ontario, and manages the application and wait list.",
     "listingType": "public-service",
     "verifiedDate": "2026-08-05",
     "brandGroup": "ontario-health-athome",
-    "website": "https://ontariohealthathome.ca/supportive-living/adult-day-programs/",
-    "intakeNote": "Call 1-833-515-1234, available 7 days a week 365 days a year, and the call is automatically routed to the nearest local office; anyone, including the person themselves, a family member, or a doctor, can start a referral.",
-    "program": "Adult Day Program",
-    "runBy": "Ontario Health atHome"
+    "website": "https://ontariohealthathome.ca/long-term-care/",
+    "intakeNote": "Call 1-833-515-1234 or start with the online request form; a care coordinator guides the rest of the process."
+  },
+  {
+    "id": "ontario-ltc-action-line-retirement-residences",
+    "name": "Long-Term Care Family Support and Action Line",
+    "category": "Retirement Residences",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-866-434-0144",
+    "description": "The Ontario Ministry of Long-Term Care's line for concerns and complaints about long-term care homes. Call if a resident is being harmed or a problem is not being fixed; the ministry can send an inspector, and urgent complaints can get same-day action.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-ltc-action-line",
+    "website": "https://www.ontario.ca/page/long-term-care-home-complaint-process",
+    "intakeNote": "Call 1-866-434-0144, 8:30 a.m. to 7:00 p.m., 7 days a week; complaints can also be mailed or emailed to the ministry."
+  },
+  {
+    "id": "ontario-public-guardian-trustee-legal-financial",
+    "name": "Office of the Public Guardian and Trustee",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-891-0504",
+    "description": "The Ontario government office that steps in as decision maker of last resort when an adult can no longer manage their money or make care decisions and there is no family member or attorney able to act. Families can also call its investigations unit if they believe a mentally incapable person is being harmed or financially abused (TTY 1-833-813-5696).",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-public-guardian-trustee",
+    "website": "https://www.ontario.ca/page/office-public-guardian-and-trustee",
+    "intakeNote": "Call 1-800-891-0504, or email OPGT.Investigations@ontario.ca if you believe a mentally incapable adult is at risk of harm or financial abuse."
+  },
+  {
+    "id": "ontario-seniors-dental-hearing-vision",
+    "name": "Ontario Seniors Dental Care Program",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-833-207-4435",
+    "description": "Free routine dental care for lower income seniors 65 and older, run by the Ontario government through public health units and partner clinics. It covers checkups, cleanings, fillings, x-rays, extractions and gum care, and pays part of the cost of dentures.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-seniors-dental",
+    "website": "https://www.ontario.ca/page/dental-care-low-income-seniors",
+    "intakeNote": "Apply online at seniors.accerta.ca, by mail, or with help from your local public health unit; coverage runs to July 31 each year and must be renewed."
+  },
+  {
+    "id": "ontario-tax-benefits-legal-financial-care-at-home",
+    "name": "Ontario Seniors Care at Home Tax Credit",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-959-8281",
+    "description": "A refundable Ontario government tax credit that gives seniors 70 and older back up to 25 percent of eligible medical and home care expenses, to a maximum of $1,500 a year. It is claimed on Form ON479 with the income tax return.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-tax-benefits",
+    "website": "https://www.ontario.ca/page/ontario-seniors-care-home-tax-credit",
+    "intakeNote": "Claimed once a year on the senior's income tax return (ON-BEN or ON479 forms); GAINS needs no application for seniors already getting OAS and GIS."
+  },
+  {
+    "id": "ontario-tax-benefits-legal-financial-gains",
+    "name": "Guaranteed Annual Income System (GAINS)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-866-668-8297",
+    "description": "An Ontario government monthly payment that tops up the income of low-income seniors who already get Old Age Security and the Guaranteed Income Supplement. Payments of up to $92 a month for the 2026 benefit year arrive automatically; most seniors just need to file their tax return each spring to keep them coming.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-tax-benefits",
+    "website": "https://www.ontario.ca/page/guaranteed-annual-income-system-payments-seniors",
+    "intakeNote": "Automatic for seniors already receiving OAS and GIS; otherwise file your income tax return by April 30 or send a GIS application to Service Canada."
+  },
+  {
+    "id": "ontario-tax-benefits-legal-financial-property-tax-grant",
+    "name": "Ontario Senior Homeowners' Property Tax Grant",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-959-8281",
+    "description": "An Ontario government grant of up to $500 a year that helps seniors with modest incomes pay the property tax on their home. It is claimed by filling in the ON-BEN form with the yearly income tax return.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-tax-benefits",
+    "website": "https://www.ontario.ca/page/senior-homeowners-property-tax-grant",
+    "intakeNote": "Claimed once a year on the senior's income tax return (ON-BEN or ON479 forms); GAINS needs no application for seniors already getting OAS and GIS."
+  },
+  {
+    "id": "ontario-tax-benefits-legal-financial-trillium",
+    "name": "Ontario Trillium Benefit (energy and property tax help)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-877-627-6645",
+    "description": "A monthly Ontario government benefit that combines the Ontario Energy and Property Tax Credit, the Ontario Sales Tax Credit and the Northern Ontario Energy Credit into one payment. Seniors 65 and older qualify for a higher property tax credit, up to $1,488 a year.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ontario-tax-benefits",
+    "website": "https://www.ontario.ca/page/ontario-trillium-benefit",
+    "intakeNote": "File the yearly income tax return with the ON-BEN application form; payments then arrive automatically."
+  },
+  {
+    "id": "patient-ombudsman-home-care",
+    "name": "Patient Ombudsman",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-888-321-0339",
+    "description": "An independent office of the Ontario government that takes complaints about public hospitals, long-term care homes, home and community care, and surgical and diagnostic centres. It is free, and staff work to resolve concerns the organization itself could not fix.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "patient-ombudsman",
+    "website": "https://patientombudsman.ca/",
+    "intakeNote": "Use the organization's own complaint process first; then complain online at patientombudsman.ca or call. Note the office closes at 12:30 p.m. on Thursdays."
+  },
+  {
+    "id": "region-of-peel-companion-social-adult-day",
+    "name": "Peel Adult Day Services",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Mississauga",
+      "Brampton"
+    ],
+    "phone": "310-2222",
+    "description": "A Region of Peel program that gives frail seniors and adults living with dementia or chronic illness a welcoming place to spend the day, with activities, meals, and personal care at all five Peel long term care centres. It also gives family caregivers a regular daytime break. A free virtual program is available for those who cannot attend in person.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "region-of-peel",
+    "website": "https://peelregion.ca/services/adult-day-services",
+    "intakeNote": "Apply through Ontario Health atHome: call 310-2222 (or 1-877-336-9090 for Mississauga Halton, 1-888-733-1177 for Central West) and a Peel Adult Day Services coordinator will follow up."
+  },
+  {
+    "id": "region-of-peel-dementia-memory-support-thrive",
+    "name": "Thrive Program (dementia care at Peel Manor)",
+    "category": "Dementia & Memory Support",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Mississauga",
+      "Brampton"
+    ],
+    "phone": "905-791-6905",
+    "description": "A Region of Peel program, part of the Ontario government's Community Access to Long-Term Care pilot, that wraps dementia-focused primary care, geriatric specialists, social work, and adult day programming around seniors living at home in the community. Care is based at the Seniors Health and Wellness Village at Peel Manor in Brampton, with in-person and virtual visits.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "region-of-peel",
+    "website": "https://peelregion.ca/services/dementia-program-seniors-living-community",
+    "intakeNote": "Call 905-791-6905 ext. 1691 or email seniorsservices@peelregion.ca to ask about joining; the program confirms eligibility with the family."
+  },
+  {
+    "id": "region-of-peel-home-care-respite",
+    "name": "Peel overnight respite stays for caregivers",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Mississauga",
+      "Brampton"
+    ],
+    "phone": "905-791-6905",
+    "description": "A Region of Peel service that gives family caregivers a planned break: the person they care for stays overnight in a safe, staffed setting at the Seniors Health and Wellness Village at Peel Manor in Brampton (stays of about one to two weeks) or the Davis Centre in Caledon. Daily activities and personal care are included.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "region-of-peel",
+    "website": "https://peelregion.ca/services/respite-care",
+    "intakeNote": "Call the Integrated Care Coordinator at 905-791-6905 ext. 7663 or email seniorsservices@peelregion.ca; booking 6 to 8 weeks ahead is recommended, and short-notice stays are sometimes possible."
+  },
+  {
+    "id": "region-of-peel-legal-financial-tax-rebate",
+    "name": "Peel property tax rebate for low-income seniors",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Mississauga",
+      "Brampton"
+    ],
+    "phone": "905-615-4311",
+    "description": "A Region of Peel program that gives low-income senior homeowners a yearly rebate on their property taxes, covering the city, Region, and school board portions. Council sets the rebate amount each year and it does not have to be repaid.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "region-of-peel",
+    "website": "https://peelregion.ca/housing-social-support/financial-social-support/apply-rebate-your-property-taxes",
+    "intakeNote": "Apply through your city tax office before December 31 of the tax year: Mississauga 905-615-4311 or Brampton 905-874-2200. You must reapply every year."
+  },
+  {
+    "id": "region-of-peel-transportation-transhelp",
+    "name": "TransHelp (Region of Peel accessible transit)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Mississauga",
+      "Brampton"
+    ],
+    "phone": "905-791-1015",
+    "description": "TransHelp is the Region of Peel's shared-ride, door-to-door public transit for people whose disability keeps them from using regular buses some or all of the time. It serves Mississauga, Brampton, and Caledon, and there is no fee to apply. Seniors 65 and older also ride regular MiWay buses free with a senior PRESTO card, and Brampton Transit offers discounted senior fares.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "region-of-peel",
+    "website": "https://peelregion.ca/transhelp/",
+    "intakeNote": "Apply online through the Peel resident portal, or by mail, fax, or email; call 905-791-1015 and press 2 for application questions. Decisions come within 14 days."
+  },
+  {
+    "id": "rhra-retirement-residences",
+    "name": "Retirement Homes Regulatory Authority",
+    "category": "Retirement Residences",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-855-275-7472",
+    "description": "The regulator that licenses retirement homes across Ontario under the province's Retirement Homes Act. Before choosing a home, families can search its free public database for licence status and inspection history, and anyone can call to complain or report harm to a resident.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "rhra",
+    "website": "https://www.rhra.ca/",
+    "intakeNote": "Search the database online or call 1-855-ASK-RHRA (1-855-275-7472); reports of harm can be made by anyone, not just residents."
+  },
+  {
+    "id": "service-canada-legal-financial-allowance",
+    "name": "Allowance and Allowance for the Survivor (ages 60 to 64)",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-277-9914",
+    "description": "Tax-free monthly Government of Canada payments for people aged 60 to 64 with low income. The Allowance is for the spouse or common-law partner of a senior who gets the Guaranteed Income Supplement, and the Allowance for the Survivor is for someone whose spouse or partner has died. Apply 6 to 11 months before you turn 60, or right away if you are already in this age range.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "service-canada",
+    "website": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/guaranteed-income-supplement/allowance.html",
+    "intakeNote": "You must apply; call Service Canada or apply through My Service Canada Account."
+  },
+  {
+    "id": "service-canada-legal-financial-cpp",
+    "name": "Canada Pension Plan (CPP) retirement pension",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-277-9914",
+    "description": "A monthly taxable Government of Canada pension that replaces part of your income in retirement and is paid for life to people who contributed to the CPP while working. You can start it as early as 60 or wait until 70 for a larger amount. If you keep working while collecting before age 70, extra contributions earn a post-retirement benefit that raises your pension each year.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "service-canada",
+    "website": "https://www.canada.ca/en/services/benefits/publicpensions/cpp.html",
+    "intakeNote": "You must apply; apply online through My Service Canada Account or call. If you worked in another country, international social security agreements may help you qualify."
+  },
+  {
+    "id": "service-canada-legal-financial-cpp-disability",
+    "name": "CPP disability benefits",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-277-9914",
+    "description": "A monthly taxable Government of Canada benefit for people over 18 and under 65 who cannot work because of a severe and prolonged disability and who contributed to the CPP. People already collecting a CPP retirement pension who become disabled before 65 may qualify for the post-retirement disability benefit instead. At 65 it converts automatically to the regular CPP retirement pension.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "service-canada",
+    "website": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-disability-benefit.html",
+    "intakeNote": "You must apply, and a health care professional completes the medical part of the application; apply through My Service Canada Account or by paper form."
+  },
+  {
+    "id": "service-canada-legal-financial-cpp-survivor",
+    "name": "CPP survivor's pension and death benefit",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-277-9914",
+    "description": "Government of Canada payments to the family of a CPP contributor who has died. The survivor's pension is a monthly payment to the legal spouse or common-law partner, and the death benefit is a one-time payment of up to $5,000 to the estate or the person who paid the funeral costs. Apply as soon as possible after the death, because the survivor's pension can only be back-paid for 12 months.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "service-canada",
+    "website": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-survivor-pension.html",
+    "intakeNote": "Apply online through My Service Canada Account or by mail as soon as possible after the death."
+  },
+  {
+    "id": "service-canada-legal-financial-ei-caregiving",
+    "name": "EI caregiving benefits (family caregiver and compassionate care)",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-206-7218",
+    "description": "Employment Insurance benefits from the Government of Canada that replace part of your pay while you are away from work caring for someone. The family caregiver benefit covers up to 15 weeks for a critically ill or injured adult, and compassionate care benefits cover up to 26 weeks for a person who needs end-of-life care. You do not have to live with or be related to the person, and eligible caregivers can share the weeks.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "service-canada",
+    "website": "https://www.canada.ca/en/services/benefits/ei/caregiving.html",
+    "intakeNote": "Apply online at canada.ca as soon as you stop work, with a medical certificate for the person you care for; call 1-800-206-7218 for help with a claim."
+  },
+  {
+    "id": "service-canada-legal-financial-gis",
+    "name": "Guaranteed Income Supplement (GIS)",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-277-9914",
+    "description": "A tax-free monthly top-up from the Government of Canada for seniors 65 and older who receive the OAS pension and have low income. It is worth checking even if you are not sure you qualify, and you must file your income tax return every year to keep the payments coming.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "service-canada",
+    "website": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/guaranteed-income-supplement.html",
+    "intakeNote": "Many seniors are enrolled automatically and told by letter; if no letter has arrived a month after your 64th birthday, call Service Canada or apply through My Service Canada Account."
+  },
+  {
+    "id": "service-canada-legal-financial-oas",
+    "name": "Old Age Security (OAS) pension",
+    "category": "Legal & Financial",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-277-9914",
+    "description": "A monthly Government of Canada pension for people 65 and older, based on how long you have lived in Canada after age 18, whether or not you ever worked. Many seniors are enrolled automatically and get a letter from Service Canada; if no letter has arrived a month after your 64th birthday, you may need to apply. Years spent in countries that have a social security agreement with Canada can help you qualify.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "service-canada",
+    "website": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security.html",
+    "intakeNote": "Call Service Canada or apply online through My Service Canada Account; many seniors are enrolled in OAS and GIS automatically and get a letter in the mail around their 64th birthday."
+  },
+  {
+    "id": "serviceontario-seniors-funeral-estate-planning-death-certificate",
+    "name": "Ontario death certificates",
+    "category": "Funeral & Estate Planning",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-267-8097",
+    "description": "ServiceOntario, the Ontario government's service counter, is the only official source for Ontario death certificates, which families need to cancel a health card, claim insurance and settle the estate. Order online for $15, by mail or in person; regular online orders arrive in about 15 business days.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "serviceontario-seniors",
+    "website": "https://www.ontario.ca/page/get-or-replace-an-ontario-death-certificate",
+    "intakeNote": "Order online at services.ontario.ca, by mail, or in person at the Toronto and Ottawa centres; call 1-800-267-8097 with questions."
+  },
+  {
+    "id": "serviceontario-seniors-legal-financial-photo-card",
+    "name": "Ontario Photo Card",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-267-8097",
+    "description": "Government photo ID from the Ontario government for people who do not drive, handy when a senior gives up their licence but still needs official ID for banking, travel bookings and appointments. Apply in person at a ServiceOntario centre; the card is valid for 5 years.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "serviceontario-seniors",
+    "website": "https://www.ontario.ca/page/ontario-photo-card",
+    "intakeNote": "Apply in person at a ServiceOntario centre with identity documents; call 1-800-267-8097 with questions."
+  },
+  {
+    "id": "serviceontario-seniors-transportation-parking-permit",
+    "name": "Accessible Parking Permit",
+    "category": "Transportation",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "1-800-387-3445",
+    "description": "A free Ontario government permit that lets a person with a walking limitation or other qualifying condition park in accessible spaces in any vehicle they are travelling in, as driver or passenger. A doctor, nurse, physiotherapist or other listed practitioner certifies the form, then you apply online, by mail or at a ServiceOntario centre.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "serviceontario-seniors",
+    "website": "https://www.ontario.ca/page/get-accessible-parking-permit",
+    "intakeNote": "Call ServiceOntario or visit a ServiceOntario centre; many services can also be done online at ontario.ca."
+  },
+  {
+    "id": "soldiers-aid-commission-legal-financial",
+    "name": "Soldiers' Aid Commission of Ontario",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [],
+    "phone": "416-327-4674",
+    "description": "An Ontario government agency that gives veterans and their families up to $3,000 in a 12 month period for essentials such as home repairs, housing costs, health items, specialized equipment and personal needs. Many older veterans qualify; applications go through the Royal Canadian Legion or Veterans Affairs Canada.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "soldiers-aid-commission",
+    "website": "https://www.ontario.ca/page/soldiers-aid-commission",
+    "intakeNote": "Apply through the Royal Canadian Legion at 1-888-207-0939 (sac@on.legion.ca) or Veterans Affairs Canada at 1-866-522-2122, with quotes for the expense and recent bank statements."
   },
   {
     "id": "temmy-latner-palliative-palliative-hospice-care",
@@ -721,25 +2152,177 @@
     "intakeNote": "A physician faxes a referral form to the Temmy Latner Centre; there is no self-referral route listed on Sinai Health's own site."
   },
   {
-    "id": "von-canada-home-care",
-    "name": "VON Home Support",
+    "id": "toronto-public-library-companion-social-home-library",
+    "name": "Toronto Public Library Home Library Service",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-395-5557",
+    "description": "A free City of Toronto library service that delivers up to 20 books, audiobooks, magazines, CDs and DVDs to your door every month. It is for Toronto residents who cannot get to a library for three months or longer because of age, illness, mobility or disability, and staff pick items to match your reading interests.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "toronto-public-library",
+    "website": "https://tpl.ca/using-the-library/services/home-library-service/",
+    "intakeNote": "Call 416-395-5557 or email hls@tpl.ca; library staff confirm eligibility and set up the monthly delivery day."
+  },
+  {
+    "id": "toronto-seniors-helpline-home-care",
+    "name": "Toronto Seniors Helpline",
     "category": "Home Care & Nursing",
     "tier": "city",
     "provinces": [
       "ON"
     ],
     "cities": [
-      "Toronto",
-      "Mississauga",
-      "Brampton"
+      "Toronto"
     ],
-    "phone": "1-833-515-1234",
-    "description": "VON Home Support sends personal support workers into people's homes for bathing, dressing, light housekeeping, mobility help, and medication supervision in Mississauga, South Etobicoke (Toronto), and Brampton. VON Canada is a national registered charity, and this program is part of Ontario's public home and community care system, reached through a referral rather than a direct booking.",
+    "phone": "416-217-2077",
+    "description": "One phone number that connects Toronto seniors and their caregivers to home care referrals, community supports, counselling and crisis help. It is publicly funded through Ontario Health and answered by WoodGreen Community Services with partner agencies, 365 days a year, with interpretation in over 100 languages.",
     "listingType": "public-service",
     "verifiedDate": "2026-08-05",
-    "brandGroup": "von-canada",
-    "website": "https://von.ca/en/von-care/home-support",
-    "intakeNote": "Families can call VON's national toll-free line, but most of the specific programs below require a referral through Ontario Health atHome (formerly Home and Community Care Support Services) rather than a direct booking, so the fastest path is usually the regional number listed for each program."
+    "brandGroup": "woodgreen",
+    "website": "https://torontoseniorshelpline.ca/",
+    "intakeNote": "Call 416-217-2077 (or 1-877-621-2077 long distance); calls are answered 365 days a year and interpretation is available in over 100 languages."
+  },
+  {
+    "id": "ttc-wheel-trans-transportation",
+    "name": "Wheel-Trans (TTC accessible door-to-door transit)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "416-393-4111",
+    "description": "The City of Toronto's para-transit service, run by the TTC, giving door-to-door rides to people whose disability makes regular transit difficult. Riders apply once, then book trips online, in the app, or by phone, including same-day bookings.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "ttc-wheel-trans",
+    "website": "https://www.ttc.ca/wheel-trans",
+    "intakeNote": "Apply online at portal.ttc.ca or call Customer Service 416-393-4111; once registered, book trips at mywheel-trans.ttc.ca or call Reservations 416-393-4222."
+  },
+  {
+    "id": "veterans-affairs-canada-funeral-estate-planning",
+    "name": "Funeral and Burial Assistance (Last Post Fund)",
+    "category": "Funeral & Estate Planning",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-465-7113",
+    "description": "A Veterans Affairs Canada program, delivered by the nonprofit Last Post Fund, that helps pay funeral, burial and grave marker costs so eligible veterans receive a dignified funeral. Families apply through the Last Post Fund within one year of the veteran's death.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "veterans-affairs-canada",
+    "website": "https://www.veterans.gc.ca/en/financial-programs-and-services/death-and-bereavement/funeral-and-burial-assistance",
+    "intakeNote": "Call the Last Post Fund at 1-800-465-7113 to apply; applications must be submitted within one year of the veteran's death."
+  },
+  {
+    "id": "veterans-affairs-canada-home-care",
+    "name": "Veterans Independence Program (VIP)",
+    "category": "Home Care & Nursing",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-866-522-2122",
+    "description": "A Veterans Affairs Canada program that pays for housekeeping, grounds maintenance, meal preparation, personal care and other supports so veterans can keep living in their own homes. Some survivors and primary caregivers of deceased veterans can also receive housekeeping and grounds maintenance funding.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "veterans-affairs-canada",
+    "website": "https://www.veterans.gc.ca/en/housing-and-home-life/help-home/veterans-independence-program",
+    "intakeNote": "Call Veterans Affairs Canada at 1-866-522-2122, Monday to Friday 8:30 am to 4:30 pm local time, or apply online through My VAC Account."
+  },
+  {
+    "id": "veterans-affairs-canada-mental-health-counselling",
+    "name": "VAC Assistance Service",
+    "category": "Mental Health & Counselling",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-268-7708",
+    "description": "A free Veterans Affairs Canada helpline that connects veterans, former RCMP members, their families and caregivers with a mental health professional at any hour, every day of the year. Callers can receive up to 20 hours of confidential counselling and do not need an existing VAC file.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "veterans-affairs-canada",
+    "website": "https://www.veterans.gc.ca/en/contact-us/talk-mental-health-professional",
+    "intakeNote": "Call 1-800-268-7708 any time, day or night (TDD/TTY 1-800-567-5803); no referral or VAC file needed."
+  },
+  {
+    "id": "veterans-affairs-canada-retirement-residences",
+    "name": "Veterans Affairs Canada Long-term Care Support",
+    "category": "Retirement Residences",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-866-522-2122",
+    "description": "A Government of Canada program that helps pay nursing home costs for veterans who need 24-hour personal and nursing care. The veteran pays a capped monthly amount toward room and meals, currently $1,236.90, and Veterans Affairs Canada helps with eligible care costs beyond that.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "veterans-affairs-canada",
+    "website": "https://www.veterans.gc.ca/en/housing-and-home-life/long-term-care",
+    "intakeNote": "The veteran must first be admitted to a long-term care home, then the family applies through My VAC Account online or mails application package VAC1503APe; call 1-866-522-2122 for help."
   },
   {
     "id": "von-canada-companion-social",
@@ -758,6 +2341,27 @@
     "verifiedDate": "2026-08-05",
     "brandGroup": "von-canada",
     "website": "https://von.ca/en/von-care/dining-programs",
+    "intakeNote": "Families can call VON's national toll-free line, but most of the specific programs below require a referral through Ontario Health atHome (formerly Home and Community Care Support Services) rather than a direct booking, so the fastest path is usually the regional number listed for each program."
+  },
+  {
+    "id": "von-canada-home-care",
+    "name": "VON Home Support",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto",
+      "Mississauga",
+      "Brampton"
+    ],
+    "phone": "1-833-515-1234",
+    "description": "VON Home Support sends personal support workers into people's homes for bathing, dressing, light housekeeping, mobility help, and medication supervision in Mississauga, South Etobicoke (Toronto), and Brampton. VON Canada is a national registered charity, and this program is part of Ontario's public home and community care system, reached through a referral rather than a direct booking.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "von-canada",
+    "website": "https://von.ca/en/von-care/home-support",
     "intakeNote": "Families can call VON's national toll-free line, but most of the specific programs below require a referral through Ontario Health atHome (formerly Home and Community Care Support Services) rather than a direct booking, so the fastest path is usually the regional number listed for each program."
   },
   {
@@ -782,6 +2386,27 @@
     "intakeNote": "Families can call VON's national toll-free line, but most of the specific programs below require a referral through Ontario Health atHome (formerly Home and Community Care Support Services) rather than a direct booking, so the fastest path is usually the regional number listed for each program.",
     "program": "Meals on Wheels",
     "runBy": "VON"
+  },
+  {
+    "id": "woodgreen-companion-social",
+    "name": "WoodGreen Friendly Visiting",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Toronto"
+    ],
+    "phone": "(416) 572-3575",
+    "description": "WoodGreen's Friendly Visiting program sends trained volunteers for in person social visits and wellness checks to seniors 55 and older and adults with disabilities who are experiencing social isolation. This is a free program run by a registered charity, available year round in Toronto.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "woodgreen",
+    "website": "https://www.woodgreen.org/programs/friendly-visiting",
+    "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting.",
+    "program": "Friendly Visiting",
+    "runBy": "WoodGreen"
   },
   {
     "id": "woodgreen-meals-nutrition",
@@ -824,24 +2449,120 @@
     "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting."
   },
   {
-    "id": "woodgreen-companion-social",
-    "name": "WoodGreen Friendly Visiting",
+    "id": "york-region-companion-social-adult-day",
+    "name": "York Region Adult Day Programs",
     "category": "Companion & Social",
     "tier": "city",
     "provinces": [
       "ON"
     ],
     "cities": [
-      "Toronto"
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
     ],
-    "phone": "(416) 572-3575",
-    "description": "WoodGreen's Friendly Visiting program sends trained volunteers for in person social visits and wellness checks to seniors 55 and older and adults with disabilities who are experiencing social isolation. This is a free program run by a registered charity, available year round in Toronto.",
+    "phone": "1-888-470-2222",
+    "description": "York Region runs adult day programs at the Maple Health Centre in Vaughan and in Keswick, where seniors enjoy activities, social time, and a nutritious daily lunch, with dedicated programs for people living with aphasia or an acquired brain injury. Fees apply and subsidies are available for qualified participants.",
     "listingType": "public-service",
     "verifiedDate": "2026-08-05",
-    "brandGroup": "woodgreen",
-    "website": "https://www.woodgreen.org/programs/friendly-visiting",
-    "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting.",
-    "program": "Friendly Visiting",
-    "runBy": "WoodGreen"
+    "brandGroup": "york-region",
+    "website": "https://www.york.ca/health/seniors-services/adult-day-programs",
+    "intakeNote": "Referral goes through Ontario Health atHome at 1-888-470-2222; for program information call 1-877-464-9675 ext. 76079.",
+    "program": "Adult Day Program",
+    "runBy": "York Region"
+  },
+  {
+    "id": "york-region-home-care-homemakers",
+    "name": "York Region Homemakers Services",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "1-877-464-9675",
+    "description": "York Region helps cover the cost of an in-home homemaker for residents with a temporary or permanent illness or disability who meet financial need requirements. Homemakers help with laundry, meals and light housekeeping so people can keep living at home.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "york-region",
+    "website": "https://www.york.ca/support/financial-assistance/homemakers-services",
+    "intakeNote": "Call Access York at 1-877-464-9675 to apply; eligibility includes both the health need and a financial assessment."
+  },
+  {
+    "id": "york-region-legal-financial-tax-deferral",
+    "name": "York Region property tax deferral for low-income seniors",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "1-877-464-9675",
+    "description": "York Region lets low income senior homeowners defer property tax increases interest free, a program running since 1998. It is for homeowners 65 and older who receive the federal Guaranteed Income Supplement, and the deferred taxes are repaid only when the home is sold or transferred outside the family.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "york-region",
+    "website": "https://www.york.ca/york-region/regional-property-taxes",
+    "intakeNote": "Apply through your local tax office: Markham 905-477-7000, Vaughan 905-832-2281, Richmond Hill 905-771-8800, Newmarket 905-953-5300, Aurora 905-727-1375."
+  },
+  {
+    "id": "york-region-mental-health-counselling-client-intervention",
+    "name": "York Region Client Intervention and Support Services",
+    "category": "Mental Health & Counselling",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "1-877-464-9675",
+    "description": "A free, non-crisis York Region service for seniors 60 and older offering in-home assessments, counselling, referrals and advocacy on hard subjects like elder abuse, money worries, bereavement, family relationships and future planning. It is open to seniors across York Region, not just housing residents.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "york-region",
+    "website": "https://www.york.ca/health/seniors-services/support-services-seniors-and-housing-residents",
+    "intakeNote": "Call 1-877-464-9675 (TTY 711) to be connected with the seniors support team."
+  },
+  {
+    "id": "york-region-transportation-mobility-on-request",
+    "name": "YRT Mobility On-Request (accessible transit)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Markham",
+      "Vaughan",
+      "Richmond Hill",
+      "Newmarket",
+      "Aurora"
+    ],
+    "phone": "1-888-762-2950",
+    "description": "York Region Transit's door-to-door, shared ride, accessible public transit service for people whose disability prevents them from using regular buses some or all of the time. Riders apply once, then book trips by phone, live chat, online, or with the On-Request app.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "york-region",
+    "website": "https://www.yrt.ca/en/schedules-and-maps/mobility-on-request.aspx",
+    "intakeNote": "Apply with the Mobility On-Request application package on yrt.ca (a health professional completes part), or call 1-888-762-2950 (TTY 711) for help; eligibility is decided case by case."
   }
 ]
