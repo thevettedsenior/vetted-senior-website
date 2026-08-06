@@ -68,6 +68,11 @@ PROMOTED_ISSUE_FAMILIES = {
     "ontario-energy-support",
     "ontario-health-access",
     "region-of-peel",
+    # 2026-08-06 municipal completion pass, same ruling:
+    "durham-region",      # flags: programs that do NOT exist were not drafted
+    "city-of-pickering",  # flag: library service unavailable, not drafted
+    "halton-region",      # flags: HARP unverifiable + out-of-vocab MoW, not drafted
+    "city-of-london",     # flag: Dearness row uses the city's printed main line
 }
 
 
@@ -107,11 +112,8 @@ def validate_row(row, existing_ids, staged_ids):
         problems.append("missing provinces")
     if "—" in row.get("description", ""):
         problems.append("em dash in description")
-    rid = row.get("id")
-    if rid in existing_ids:
-        problems.append(f"id '{rid}' already exists in businesses.json")
-    if rid in staged_ids:
-        problems.append(f"duplicate id '{rid}' within this pass")
+    if row.get("id") in staged_ids:
+        problems.append(f"duplicate id '{row.get('id')}' within this pass")
     return problems
 
 
@@ -159,7 +161,13 @@ def main():
         counts[status] = counts.get(status, 0) + 1
         org = clean(v.get("org", f.stem))
         rows, row_notes = [], []
+        already = 0
         for row in v.get("rows", []):
+            # Rows already published in an earlier run of this pass: skip
+            # silently, they are live and need no re-staging or review noise.
+            if row.get("id") in existing_ids:
+                already += 1
+                continue
             probs = validate_row(row, existing_ids, staged_ids)
             if probs:
                 problems_all.append(f"{org} / {row.get('id')}: " + "; ".join(probs))
@@ -170,7 +178,13 @@ def main():
         promoted = v.get("slug") in PROMOTED_ISSUE_FAMILIES
         if rows and (status == "verified" or promoted):
             staged.extend(rows)
+        if already and not rows and not v.get("issues"):
+            sections.append(f"## {org}  [{status.upper()}]\n"
+                            f"- All {already} rows already published; nothing new.")
+            continue
         sec = [f"## {org}  [{status.upper()}]"]
+        if already:
+            sec.append(f"- {already} row(s) already published in an earlier run.")
         sec.append(f"- Intake: **{v.get('intakePhone') or 'NONE FOUND'}** | "
                    f"{clean(v.get('intakeNote') or '')}")
         if v.get("issues"):

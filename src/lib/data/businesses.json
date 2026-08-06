@@ -562,6 +562,428 @@
     "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care."
   },
   {
+    "id": "city-of-burlington-companion-social",
+    "name": "Burlington Seniors' Centre and 55+ Programs",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Burlington"
+    ],
+    "phone": "905-335-7777",
+    "description": "The City of Burlington runs recreation and social programs for adults 55 and over, centred on the Burlington Seniors' Centre at 2285 New Street. Options include fitness and arts programs, music, pickleball, day trips, a free bike lending program, and the Bistro Lounge serving fresh, affordable lunches on weekdays.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-burlington",
+    "website": "https://www.burlington.ca/en/recreation/adult-19-and-55-programs.aspx",
+    "intakeNote": "Register through the Live and Play portal (cityofburlington.perfectmind.com) or call 905-335-7777; a new program booklet comes out each season."
+  },
+  {
+    "id": "city-of-burlington-home-maintenance",
+    "name": "Burlington Windrow Clearing Program",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Burlington"
+    ],
+    "phone": "905-335-7777",
+    "description": "A City of Burlington service that clears the windrow, the pile of snow the plow leaves at the end of the driveway, within about 36 hours of a snowfall from December 1 to March 31. The seasonal fee is $150 plus HST, and seniors 65 and over and residents with disabilities or low incomes pay half price.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-burlington",
+    "website": "https://www.burlington.ca/en/roads-parking-and-traffic/windrow-clearing-for-persons-with-disabilities.aspx",
+    "intakeNote": "Register in the fall through your Live and Play account, at Service Burlington (426 Brant Street) or at the Burlington Seniors' Centre; 2026-27 registration details come out in September 2026."
+  },
+  {
+    "id": "city-of-burlington-legal-financial",
+    "name": "Burlington Low-Income Property Tax Reduction",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Burlington"
+    ],
+    "phone": "905-335-7777",
+    "description": "A City of Burlington program that takes $575 off the property tax bill for senior homeowners with low incomes. Seniors 65 and over receiving the Guaranteed Income Supplement qualify, as do homeowners receiving ODSP, if they have owned and lived in their Burlington home for at least a year.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-burlington",
+    "website": "https://www.burlington.ca/en/property-taxes/low-income-seniors-property-tax-rebate.aspx",
+    "intakeNote": "Apply online, by email to propertytaxprograms@burlington.ca, or in person at City Hall by December 31; reapply each year (2026 applications are open now)."
+  },
+  {
+    "id": "city-of-burlington-transportation",
+    "name": "Burlington Transit Handi-Van",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Burlington"
+    ],
+    "phone": "905-639-5158",
+    "description": "The City of Burlington's door-to-door Handi-Van service takes people who cannot use a regular bus anywhere in Burlington, including medical appointments and shopping. Fares are the same as the conventional bus, paid by PRESTO or cash, and adults 65 and over ride Burlington's conventional buses free with a PRESTO card.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-burlington",
+    "website": "https://www.burlington.ca/en/transit/specialized-transit.aspx",
+    "intakeNote": "Apply with the specialized transit form signed by a health care professional (reviewed within 14 days); once approved, book up to two weeks ahead at 905-639-5158 or online at hvbooking.burlington.ca."
+  },
+  {
+    "id": "city-of-hamilton-companion-social-adult-day",
+    "name": "Macassa Lodge Adult Day Program",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-546-2800",
+    "description": "A daily adult day program run by the City of Hamilton at Macassa Lodge, its municipal long-term care home on the Mountain. Seniors enjoy social, recreational and physical activities in a supervised group, with a hot lunch, medication reminders and help with daily living, while family caregivers get a regular break.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-hamilton",
+    "website": "https://www.hamilton.ca/people-programs/long-term-care/macassa-lodge",
+    "intakeNote": "Call Macassa Lodge at 905-546-2800 or email macassalodge@hamilton.ca to ask about joining the Adult Day Program.",
+    "program": "Adult Day Program",
+    "runBy": "City of Hamilton"
+  },
+  {
+    "id": "city-of-hamilton-companion-social-recreation-assistance",
+    "name": "Hamilton Recreation Assistance Program (RAP)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-546-2424 ext. 4569",
+    "description": "A City of Hamilton program that cuts recreation costs for residents living with a low income. Approved seniors choose 75% off an annual participation or skating pass, or 50% off Waterfit passes, valid for 12 months.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-hamilton",
+    "website": "https://www.hamilton.ca/things-do/recreation/customer-service/recreation-assistance-program",
+    "intakeNote": "Apply online with proof of home address and family net income, such as a Notice of Assessment; email rap@hamilton.ca or call 905-546-2424 ext. 4569 for help."
+  },
+  {
+    "id": "city-of-hamilton-companion-social-scww",
+    "name": "Seniors' Centre Without Walls (Hamilton)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-526-4084",
+    "description": "A free City of Hamilton recreation program that runs entirely over the phone, so older adults can join trivia, brain games, armchair travel and friendly chat sessions from home. Any phone works, calls average 5 to 10 people, and no special equipment is needed.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-hamilton",
+    "website": "https://www.hamilton.ca/things-do/recreation/programs/older-adult-55-programs",
+    "intakeNote": "Call 905-526-4084 or email scww@hamilton.ca to register and get the current program schedule."
+  },
+  {
+    "id": "city-of-hamilton-companion-social-seniors-centres",
+    "name": "Hamilton Seniors Centres and 55+ Recreation Programs",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-546-3747",
+    "description": "City of Hamilton seniors centres and clubs offering drop-in and registered fitness, arts and social programs for adults 55 and over. The main centres are the Ancaster Seniors Achievement Centre, Sackville Hill Seniors Recreation Centre and Flamborough Seniors Centre, with smaller seniors clubs across the city.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-hamilton",
+    "website": "https://www.hamilton.ca/things-do/recreation/locations/seniors-centres-clubs",
+    "intakeNote": "Call 905-546-3747 for the three main senior centres, or browse and register through the city's online Program Finder."
+  },
+  {
+    "id": "city-of-hamilton-funeral-estate-planning-assistance",
+    "name": "Hamilton Funeral, Burial and Cremation Assistance",
+    "category": "Funeral & Estate Planning",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-546-2590",
+    "description": "City of Hamilton financial help toward a basic funeral, burial or cremation when a Hamilton resident dies without enough money in their estate to cover it. The family member or friend handling arrangements must contact the city before signing any funeral home contract, because costs cannot be repaid afterward.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-hamilton",
+    "website": "https://www.hamilton.ca/people-programs/financial-stability-supports/support-programs/funerals-burials-cremations",
+    "intakeNote": "Call Special Supports at 905-546-2590 right after the death, and before signing anything with a funeral home or cemetery."
+  },
+  {
+    "id": "city-of-hamilton-home-maintenance-ontario-renovates",
+    "name": "Ontario Renovates Hamilton (Home Repair Loans)",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-546-2424 ext. 2758",
+    "description": "A home repair program delivered by the City of Hamilton that gives low income homeowners a forgivable loan of up to $25,000 for major structural, electrical, plumbing, heating or fire safety repairs, with a second stream for accessibility changes for people with disabilities. Stay in the home for 10 years and the loan is fully forgiven.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-hamilton",
+    "website": "https://www.hamilton.ca/people-programs/housing-shelter/housing-supports/ontario-renovates-programs",
+    "intakeNote": "Call 905-546-2424 ext. 2758 or email affordablehousing@hamilton.ca for information or a paper application."
+  },
+  {
+    "id": "city-of-hamilton-home-maintenance-snow-subsidy",
+    "name": "Hamilton Snow Clearing Subsidy (Snow Angels)",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-546-2590",
+    "description": "A City of Hamilton subsidy that pays seniors and residents with disabilities up to $450 each winter to hire help clearing snow from their sidewalk and the path to their front door. Applications are accepted each snow season from November 1 to March 31, or until the program is full.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-hamilton",
+    "website": "https://www.hamilton.ca/people-programs/financial-stability-supports/support-programs/snow-clearing-subsidy",
+    "intakeNote": "Apply online or submit the paper form in person, by mail or by fax starting November 1; call 905-546-2590 to have a paper application mailed to you."
+  },
+  {
+    "id": "city-of-hamilton-legal-financial-seniors-tax-rebate",
+    "name": "Hamilton Seniors (65+) Tax Rebate",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-546-2489",
+    "description": "A City of Hamilton rebate that takes $241 off the yearly property tax bill of low income homeowners aged 65 and over, plus an extra $175 Seniors Utility Rebate if the home has a metered water account. Once approved, you stay enrolled each year without reapplying.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-hamilton",
+    "website": "https://www.hamilton.ca/home-neighbourhood/property-taxes/property-tax-billing/tax-assistance-programs",
+    "intakeNote": "Complete the Seniors Tax Rebate application and submit it in person at City Hall or a Municipal Service Centre, or by mail, by the last business day of February of the following year; emailed applications are no longer accepted. Call 905-546-2489 with questions."
+  },
+  {
+    "id": "city-of-hamilton-legal-financial-tax-deferral",
+    "name": "Hamilton Property Tax Deferral for Seniors",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-546-2489",
+    "description": "City of Hamilton programs that let low income seniors and people on disability benefits put off paying property tax until the home is sold. You can defer just the yearly tax increase with no interest, or defer the full tax bill with interest and an application fee. The city also accepts compassionate appeals for tax relief in cases of extreme sickness or poverty.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-hamilton",
+    "website": "https://www.hamilton.ca/home-neighbourhood/property-taxes/property-tax-billing/tax-assistance-programs",
+    "intakeNote": "Complete the deferral application and submit it by mail or in person at City Hall or a Municipal Service Centre; a new application is required each year. Call 905-546-2489 with questions."
+  },
+  {
+    "id": "city-of-hamilton-mobility-equipment-special-supports",
+    "name": "Hamilton Special Supports Program",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-546-2590",
+    "description": "A City of Hamilton program that pays for health related equipment and services for residents with low incomes, including grab bars, bath and toilet aids, canes and walkers, emergency response systems, eyeglasses, dentures, taxi rides to medical appointments and adult day program fees. Apply before buying anything, because items already purchased cannot be funded.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-hamilton",
+    "website": "https://www.hamilton.ca/people-programs/financial-stability-supports/support-programs/special-supports-program",
+    "intakeNote": "Apply through the online Special Supports benefits application; a note or prescription from a doctor or health professional is usually required. Call 905-546-2590 or email support@hamilton.ca with questions."
+  },
+  {
+    "id": "city-of-london-companion-social-adult-day",
+    "name": "Dearness Home Adult Day Program",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "London"
+    ],
+    "phone": "519-661-2489",
+    "description": "A City of London adult day program at the Dearness Home, the city's own long-term care home. It runs Monday to Friday for seniors coping with frailty, disability or chronic illness, and the program fee covers help with personal care, all recreation and a three course lunch, with rides to and from the program available for an extra fee.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-london",
+    "website": "https://london.ca/living-london/community-services/senior-supports/dearness-home/adult-day-program",
+    "intakeNote": "Call the City of London at 519-661-2489 (or 3-1-1 inside London) and ask for the Dearness Home Adult Day Program to check space availability and current fees.",
+    "program": "Adult Day Program",
+    "runBy": "City of London"
+  },
+  {
+    "id": "city-of-london-companion-social-fee-subsidy",
+    "name": "London Recreation Fee Subsidy",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "London"
+    ],
+    "phone": "519-661-5575",
+    "description": "A City of London subsidy that lowers or fully covers recreation costs for residents in financial need, including seniors' centre memberships and program fees. Support can reach 100% of the cost depending on family income.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-london",
+    "website": "https://london.ca/living-london/recreation/seniors-recreation-opportunities",
+    "intakeNote": "Call 519-661-5575 to apply; you will need documents showing your family income."
+  },
+  {
+    "id": "city-of-london-companion-social-seniors-centres",
+    "name": "London Seniors' Centres and Satellites",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "London"
+    ],
+    "phone": "519-661-5740",
+    "description": "City of London seniors centres offering fitness, arts and social programs for older adults at the Kiwanis and Hamilton Road seniors' community centres, plus nine smaller satellite locations for adults 55 and over across the city. Yearly memberships keep costs low, and a fee subsidy is available if money is tight.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-london",
+    "website": "https://london.ca/living-london/recreation/seniors-recreation-opportunities",
+    "intakeNote": "Call the Kiwanis Seniors' Community Centre at 519-661-5740 or the Hamilton Road centre at 519-661-5758, or register online through the Play Your Way portal or by calling 519-661-5575."
+  },
+  {
+    "id": "city-of-london-home-maintenance-ontario-renovates",
+    "name": "Ontario Renovates London (Home Repair and Accessibility Funding)",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "London"
+    ],
+    "phone": "519-661-2489 x7831",
+    "description": "A home repair program delivered by the City of London with federal and provincial funding. Homeowners aged 60 or older and people with disabilities with low to moderate incomes can get a 10 year forgivable loan of up to $25,000 for essential repairs or accessibility changes, and the first $5,000 of accessibility work is a grant. Applications for 2026 are open now, first come, first served.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-london",
+    "website": "https://london.ca/living-london/building-renovating/ontario-renovates",
+    "intakeNote": "Complete the 2026 Homeowner Application Package with photo ID, your CRA Notice of Assessment, property tax documents and three contractor estimates; call 519-661-2489 x7831 or email housingprograms@london.ca with questions."
+  },
+  {
+    "id": "city-of-oshawa-companion-social-library",
+    "name": "Oshawa Public Libraries Visiting Library Services",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa"
+    ],
+    "phone": "(905) 579-6111 ext. 5267",
+    "description": "Free monthly home delivery of books and other library materials from Oshawa Public Libraries, the City of Oshawa's library system, for residents who cannot visit a branch. Staff build a personalized selection each month and deliver to homes, long-term care centres and retirement residences.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-oshawa",
+    "website": "https://oshawalibrary.ca/vls/",
+    "intakeNote": "Call (905) 579-6111 ext. 5267 or complete the Visiting Library Services application form online or at any branch."
+  },
+  {
+    "id": "city-of-oshawa-home-maintenance-grass",
+    "name": "Oshawa Grass Cutting Assistance Program",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa"
+    ],
+    "phone": "905-436-3311",
+    "description": "A City of Oshawa service that cuts the side boulevard of corner lots for seniors 65 and over and people with disabilities, up to thirteen times a season from May to mid-October. It covers only the city-owned side boulevard, not the front boulevard or private lawn.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-oshawa",
+    "website": "https://www.oshawa.ca/home-and-property/property-maintenance-and-standards/grass-cutting-assistance/",
+    "intakeNote": "Complete the application and submit it to Service Oshawa; renew before April 1 each year."
+  },
+  {
+    "id": "city-of-oshawa-home-maintenance-snow",
+    "name": "Oshawa Snow Clearing Assistance Program",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa"
+    ],
+    "phone": "905-436-3311",
+    "description": "A free City of Oshawa service that clears the city sidewalk and the windrow, the pile of snow a plow leaves at the end of the driveway, for seniors 65 and over and people with disabilities who have no one in the home able to shovel. Service starts after snowfalls of more than 2.5 cm.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-oshawa",
+    "website": "https://www.oshawa.ca/getting-around/snow-clearing/snow-clearing-help/",
+    "intakeNote": "Apply online starting September 1 for the winter season; renew each year (renewal notices go out in October)."
+  },
+  {
+    "id": "city-of-oshawa-legal-financial",
+    "name": "Oshawa Property Tax Grant for Low-Income Seniors",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa"
+    ],
+    "phone": "905-436-3311",
+    "description": "A City of Oshawa grant that lowers the property tax bill for senior homeowners with low incomes. If you are 65 or older, receive the Guaranteed Income Supplement and have owned and lived in your Oshawa home for at least a year, the grant is credited straight to your tax account. Homeowners receiving ODSP also qualify.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-oshawa",
+    "website": "https://www.oshawa.ca/living-here/property-taxes/tax-rebates-and-reductions/",
+    "intakeNote": "Apply between January 1 and April 30 each year, online or in person at Taxation Services, Oshawa City Hall, 50 Centre St. S."
+  },
+  {
     "id": "city-of-ottawa-companion-social-adult-day",
     "name": "City of Ottawa Adult Day Programs",
     "category": "Companion & Social",
@@ -714,6 +1136,63 @@
     "brandGroup": "city-of-ottawa",
     "website": "https://www.octranspo.com/en/para-transpo/",
     "intakeNote": "Apply online or with the application form on octranspo.com; once registered, book trips at 613-560-5000 (TTY via 7-1-1), online through My Para Transpo, or text 57272 with questions."
+  },
+  {
+    "id": "city-of-pickering-companion-social",
+    "name": "Pickering 55+ Recreation Services",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Pickering"
+    ],
+    "phone": "905-420-4660 ext. 6104",
+    "description": "The City of Pickering runs low-cost recreation and social programming just for adults 55 and over: group fitness, free Spotlight seminars, club activities like euchre and tai chi, band nights and an annual Aging Well information fair. Adults over 65 get half off memberships at the Chestnut Hill Developments Recreation Complex.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-pickering",
+    "website": "https://www.pickering.ca/parks-recreation-culture/55plus-recreation-services/",
+    "intakeNote": "Register online at pickering.ca/active, or call the 55+ recreation coordinator at 905-420-4660 ext. 6104."
+  },
+  {
+    "id": "city-of-pickering-home-maintenance",
+    "name": "Pickering Seniors and Persons with Disabilities Snow Clearing Program",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Pickering"
+    ],
+    "phone": "905.683.7575",
+    "description": "A City of Pickering program that arranges seasonal snow clearing at home for residents 65 and over and people with disabilities, running November 1 to April 30. The fee is based on income: free for seniors receiving GAINS, then a sliding scale starting at about $129 for the season.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-pickering",
+    "website": "https://www.pickering.ca/en/living/snowclearingprogram.aspx",
+    "intakeNote": "Apply online through forms.pickering.ca (form CSD2203) or call Customer Care at 905.683.7575; the program has 750 spots and applications are taken until full."
+  },
+  {
+    "id": "city-of-pickering-legal-financial",
+    "name": "Pickering Tax Grant for Low Income Seniors",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Pickering"
+    ],
+    "phone": "905.420.4614",
+    "description": "A City of Pickering grant of $620 in 2026 that is credited to the property tax account of senior homeowners with low incomes, offsetting the final September tax instalment. The city also runs a companion tax deferral program for the same group.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "city-of-pickering",
+    "website": "https://www.pickering.ca/property-roads-safety/property-taxes/tax-deferrals-grants-and-rebates/",
+    "intakeNote": "Apply by August 19 each year with the online form (FIN 1701) plus supporting documents, or by mail or drop-off at Pickering City Hall; reapply annually."
   },
   {
     "id": "city-of-toronto-companion-social-adult-day",
@@ -1197,6 +1676,44 @@
     "intakeNote": "Find a nearby clinic with the Find a free tax clinic directory on canada.ca; clinic types and dates vary by community organization."
   },
   {
+    "id": "darts-hamilton-transportation",
+    "name": "DARTS Accessible Transit (Hamilton)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-529-1212",
+    "description": "The City of Hamilton's accessible transit service, a shared ride, door-to-door van service for people whose disability or health condition keeps them from using regular HSR buses. The city's Accessible Transportation Services office decides who qualifies, and DARTS operates the vehicles under contract. Fares are the same as regular HSR bus fares, which include senior rates.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "darts-hamilton",
+    "website": "https://www.hamilton.ca/home-neighbourhood/hsr/accessible-transit/darts",
+    "intakeNote": "Complete the ATS application form, with one section signed by a health care professional, and submit by mail, fax or email; call 905-529-1212 and press 1 for help. Once registered, book rides with DARTS at 905-529-1717."
+  },
+  {
+    "id": "darts-hamilton-transportation-taxi-scrip",
+    "name": "Hamilton Taxi Scrip Program",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-529-1212",
+    "description": "A City of Hamilton program that sells subsidized taxi coupons to residents who qualify for DARTS accessible transit, giving them a flexible way to take taxis alongside their booked rides. Registered users carry an ATS photo ID card and show it when buying and spending the coupons.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "darts-hamilton",
+    "website": "https://www.hamilton.ca/home-neighbourhood/hsr/accessible-transit/taxi-scrip-program",
+    "intakeNote": "Apply with the same ATS application form as DARTS, mailed to Accessible Transportation Services, c/o 71 Main St. West, Hamilton, ON L8P 4Y5; eligibility decisions take up to 14 days."
+  },
+  {
     "id": "dorothy-ley-hospice-palliative-hospice-care",
     "name": "The Dorothy Ley Hospice",
     "category": "Palliative & Hospice Care",
@@ -1217,6 +1734,96 @@
     "intakeNote": "A doctor faxes a referral form for the hospice residence or the home based palliative care team, but families can also call the main line or the 24 hour helpline to ask questions, and grief and bereavement support can be self-referred online without a doctor."
   },
   {
+    "id": "durham-region-companion-social",
+    "name": "Durham Region Adult Day Programs",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-800-263-3877",
+    "description": "The Region of Durham runs supervised day programs for older adults at Hillsdale Estates in Oshawa, Lakeview Manor in Beaverton and Lakeridge Health Port Perry, with the Hillsdale program built for people living with dementia. Days include activities, exercise, a hot lunch and snacks, and give family caregivers a regular break.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "durham-region",
+    "website": "https://www.durham.ca/living-here/long-term-care-and-adult-day-programs/adult-day-programs/",
+    "intakeNote": "Referrals go through Ontario Health atHome at 1-800-263-3877; for program questions call Hillsdale Estates at 905-579-1777 ext. 6318.",
+    "program": "Adult Day Program",
+    "runBy": "Region of Durham (seniors programs and Durham Region Transit)"
+  },
+  {
+    "id": "durham-region-home-care",
+    "name": "Durham Region Community Paramedicine",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "289-404-7034",
+    "description": "A Region of Durham Paramedic Services program where specially trained paramedics visit people with high care needs at home, offering health checks, diagnostic testing, remote monitoring and help connecting to other services. The goal is to keep seniors well at home and out of the emergency department.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "durham-region",
+    "website": "https://www.durham.ca/en/living-here/community-paramedicine.aspx",
+    "intakeNote": "Intake is by referral from Ontario Health atHome, a family doctor or paramedic services; families can call 289-404-7034 with questions about a referral."
+  },
+  {
+    "id": "durham-region-home-care-respite",
+    "name": "Durham Region Respite Care (short stays at Lakeview Manor)",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-800-263-3877",
+    "description": "The Region of Durham offers short respite stays of about one week to two months at Lakeview Manor, its long-term care home in Beaverton, so family caregivers can rest or travel. Short-stay residents receive the same care and services as long-stay residents, then return home.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "durham-region",
+    "website": "https://www.durham.ca/living-here/long-term-care-and-adult-day-programs/respite-care/",
+    "intakeNote": "Apply through Ontario Health atHome Central East at 905-430-3308 or 1-800-263-3877; Lakeview Manor's local line is 705-426-7388."
+  },
+  {
+    "id": "durham-region-transportation",
+    "name": "Durham Region Transit On Demand and Specialized Services",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oshawa",
+      "Whitby",
+      "Ajax",
+      "Pickering"
+    ],
+    "phone": "1-866-247-0055",
+    "description": "Durham Region Transit runs On Demand shared rides plus Specialized Transit, a door-to-door service for people whose disability keeps them from using the regular bus for all or part of a trip. It covers the whole region, including rural areas outside Oshawa, Whitby, Ajax and Pickering. Regular DRT fares apply, and seniors 65 and over pay a reduced fare with a PRESTO card.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "durham-region",
+    "website": "https://www.durhamregiontransit.com/routes-and-schedules/on-demand-and-specialized-services/",
+    "intakeNote": "Apply for Specialized Services with a form from durhamregiontransit.com (download or request by mail), then book trips with an agent at 1-866-247-0055 or 311."
+  },
+  {
     "id": "eapo-seniors-safety-line-medical-alert-safety",
     "name": "Seniors Safety Line",
     "category": "Medical Alert & Safety",
@@ -1232,6 +1839,107 @@
     "brandGroup": "eapo-seniors-safety-line",
     "website": "https://eapon.ca/seniors-safety-line/",
     "intakeNote": "Call any time, day or night; a trained counsellor answers and no referral is needed."
+  },
+  {
+    "id": "halton-region-companion-social",
+    "name": "Halton Region Adult Day Programs",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oakville",
+      "Burlington"
+    ],
+    "phone": "905-281-4443",
+    "description": "Halton Region runs three accredited adult day programs for older adults living with frail health, physical disability or dementia, with therapeutic activities, social time, personal care help and lunch. The sites are Silver Creek Place in Georgetown plus Milton Place and Friends Landing in Milton, and they serve families from across Halton, including Oakville and Burlington.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "halton-region",
+    "website": "https://www.halton.ca/for-residents/older-adults/community-programs-older-adults",
+    "intakeNote": "Call the Central Registry at 905-281-4443 (centralregistry.ca) to start; Ontario Health atHome clients can ask their care coordinator for a referral.",
+    "program": "Adult Day Program",
+    "runBy": "Halton Region (seniors programs)"
+  },
+  {
+    "id": "halton-region-home-care",
+    "name": "Halton Region Assisted Living and Supports for Daily Living",
+    "category": "Home Care & Nursing",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oakville",
+      "Burlington"
+    ],
+    "phone": "905-281-4443",
+    "description": "A Halton Region program giving seniors in designated buildings 24-hour access to personal support workers for bathing, dressing, medication help, meals, light housekeeping and safety checks, so they can keep living independently. Sites include Wellington Terrace and Bonnie Place in Burlington, the John R. Rhodes Residence in Oakville, and Martin House in Milton.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "halton-region",
+    "website": "https://www.halton.ca/for-residents/older-adults/assisted-living-and-supports-for-daily-living-prog",
+    "intakeNote": "For Oakville and Milton sites call the Central Registry at 905-281-4443; for Burlington sites call Home and Community Care at 905-639-5228 or 1-800-810-0000."
+  },
+  {
+    "id": "halton-region-home-maintenance",
+    "name": "Halton Assisted Wheeled Cart Waste Collection",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oakville",
+      "Burlington"
+    ],
+    "phone": "311",
+    "description": "With Halton Region's new wheeled cart garbage and recycling program, residents who cannot move the carts to the curb because of age or disability can be approved for assisted collection. The collection crew walks onto the property, takes the carts from a set spot beside or in front of the house, and returns them after pickup.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "halton-region",
+    "website": "https://www.halton.ca/for-residents/recycling-waste/wheeled-cart-waste-collection-program",
+    "intakeNote": "Call 311 to explain your circumstances; staff review each request and set up the assisted service."
+  },
+  {
+    "id": "halton-region-legal-financial",
+    "name": "Halton Older Adults Property Tax Deferral Program",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oakville",
+      "Burlington"
+    ],
+    "phone": "311",
+    "description": "A Halton Region program that lets older homeowners with modest incomes put off paying their full annual property taxes, interest free, as a loan repaid when the home is sold. It applies across Halton, including Milton and Halton Hills, and is handled by each local tax office.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "halton-region",
+    "website": "https://www.halton.ca/the-region/finance-and-transparency/property-taxes/older-adults-property-tax-deferral-program",
+    "intakeNote": "Apply before September 30 with a recent Notice of Assessment at your local tax office: Oakville 905-845-6601, Burlington 905-335-7750; one-time $200 administration fee if approved."
+  },
+  {
+    "id": "hamilton-public-library-companion-social-home-library",
+    "name": "Hamilton Public Library Home Library Service",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Hamilton"
+    ],
+    "phone": "905-546-3200 x 3222",
+    "description": "A free Hamilton Public Library service, part of the City of Hamilton's library system, that mails books and other library materials to residents who cannot get to a branch. Staff pick items to match your interests, and returns go back in a postage paid envelope or with a family member at any branch.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "hamilton-public-library",
+    "website": "https://www.hpl.ca/Home-Library-Service",
+    "intakeNote": "Apply online or with a printable form from any branch; call 905-546-3200 x 3222 or email HLS@hpl.ca, and expect 4 to 6 weeks to the first delivery."
   },
   {
     "id": "hope-for-wellness-mental-health-counselling",
@@ -1316,6 +2024,44 @@
     "brandGroup": "legal-aid-ontario",
     "website": "https://www.legalaid.on.ca/",
     "intakeNote": "Call Monday to Friday, 8 a.m. to 5 p.m., to check what you qualify for and be directed to the right service or local clinic."
+  },
+  {
+    "id": "london-public-library-companion-social-visiting-library",
+    "name": "London Public Library Visiting Library Service",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "London"
+    ],
+    "phone": "519-661-6444",
+    "description": "A free London Public Library service, part of the City of London's library system, that brings library materials to residents who cannot get to a branch. Staff choose items to match your interests and deliver them to your home or long-term care residence each month, or send them to any branch for a family member or friend to pick up.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "london-public-library",
+    "website": "https://www.lpl.ca/services-spaces/services/visiting-library-service",
+    "intakeNote": "Complete the VLS application form online or at any branch; call 519-661-6444 (Monday to Friday, 9 am to 5 pm) or email visiting.library@lpl.ca."
+  },
+  {
+    "id": "london-transit-transportation-specialized",
+    "name": "London Transit Specialized Transit",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "London"
+    ],
+    "phone": "519-451-1347",
+    "description": "A shared ride, door-to-door transit service run by the London Transit Commission, the City of London's public transit agency, for Londoners whose disability keeps them from using regular buses on a regular basis. Registered riders also receive a pass for free travel on regular buses during off peak hours.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "london-transit",
+    "website": "https://www.londontransit.ca/our-services/specialized-transit/",
+    "intakeNote": "Complete the application form, with one section completed by a healthcare professional, and mail or drop it off at 450 Highbury Avenue North; call 519-451-1347 with questions. Once registered, book rides at 519-453-3444."
   },
   {
     "id": "march-of-dimes-hvmp-home-maintenance",
@@ -2188,6 +2934,253 @@
     "brandGroup": "woodgreen",
     "website": "https://torontoseniorshelpline.ca/",
     "intakeNote": "Call 416-217-2077 (or 1-877-621-2077 long distance); calls are answered 365 days a year and interpretation is available in over 100 languages."
+  },
+  {
+    "id": "town-of-ajax-companion-social",
+    "name": "Ajax 55+ Programs and Seniors Centre Without Walls",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ajax"
+    ],
+    "phone": "365-282-6025",
+    "description": "The Town of Ajax runs recreation, fitness and social programs for adults 55 and over, including Seniors Centre Without Walls, a free program of activities you can join from home by phone or Zoom. There are also social lunches, a free indoor walking program from November to March, dances and wellness fairs.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-ajax",
+    "website": "https://www.ajax.ca/55plus",
+    "intakeNote": "Call 365-282-6025 or email 55plus@ajax.ca; register for programs through the town's recreation guide at ajax.ca/55plus."
+  },
+  {
+    "id": "town-of-ajax-companion-social-library",
+    "name": "Ajax Public Library Visiting Library Service",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ajax"
+    ],
+    "phone": "905-683-4000 ext. 8850",
+    "description": "Ajax Public Library, the Town of Ajax's library system, delivers books, large print, magazines, audiobooks and DAISY talking books each month to residents who cannot visit a branch because of illness, injury or disability. Long-term, winter seasonal and temporary service options are available.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-ajax",
+    "website": "https://www.ajaxlibrary.ca/VLS",
+    "intakeNote": "Complete the Visiting Library Service application and email it to libraryinfo@ajaxlibrary.ca or drop it at any branch; call 905-683-4000 ext. 8850 with questions."
+  },
+  {
+    "id": "town-of-ajax-home-maintenance",
+    "name": "Ajax Snow Removal Program for Qualified Residents",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Ajax"
+    ],
+    "phone": "905-683-2951",
+    "description": "A Town of Ajax winter service for seniors 65 and over and residents with disabilities who have no one at home able to shovel. Crews clear snow after storms of more than 5 cm, including driveways and the pathway to the front door, starting about 24 hours after the snow stops. Runs November to April.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-ajax",
+    "website": "https://ajax.ca/life-in-ajax/town-services/winter-roads-maintenance/",
+    "intakeNote": "Fill out the Snow Removal Program application at ajax.ca/snow or call Operations and Environmental Services at 905-683-2951 (Monday to Friday, 8 a.m. to 4 p.m.) for details and pricing."
+  },
+  {
+    "id": "town-of-oakville-companion-social",
+    "name": "Oakville Seniors Services and Older Adult Centres",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oakville"
+    ],
+    "phone": "905-815-2000",
+    "description": "The Town of Oakville runs six older adult centres, including Sir John Colborne, Trafalgar Park and Sixteen Mile, with social, recreational, health and wellness programs for residents 50 and over. An annual membership of about $60 covers drop-in programs, costs less at 80, and is free from age 90.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-oakville",
+    "website": "https://www.oakville.ca/parks-recreation-culture/programs-activities/seniors-services/",
+    "intakeNote": "Buy a membership and register online, in person at any centre, or by calling 905-815-2000."
+  },
+  {
+    "id": "town-of-oakville-companion-social-library",
+    "name": "Oakville Public Library Delivery by Mail",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oakville"
+    ],
+    "phone": "905-815-2042",
+    "description": "Oakville Public Library, the Town of Oakville's library system, mails library materials free of charge to residents who cannot come into a branch. Qualifying customers can receive up to two packages of two items each month, with return postage covered.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-oakville",
+    "website": "https://opl.ca/library-services/accessibility/accessible-services",
+    "intakeNote": "Email oplbymail@oakville.ca or call your local branch (Central Branch 905-815-2042) to find out if you qualify and get set up."
+  },
+  {
+    "id": "town-of-oakville-home-maintenance",
+    "name": "Oakville Driveway Windrow Snow Clearing Program",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oakville"
+    ],
+    "phone": "905-845-6601",
+    "description": "A paid Town of Oakville service that clears part of the windrow, the snow pile the plow leaves across the driveway, within about 36 hours of a snowfall from December 1 to March 31. Seniors 65 and over and residents with disabilities get priority registration in early October before spots open to everyone.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-oakville",
+    "website": "https://www.oakville.ca/transportation-roads/roads-sidewalks/snow-clearing/driveway-windrow-snow-clearing/",
+    "intakeNote": "Register in October through ServiceOakville at 905-845-6601 or oakville.ca; priority registration for 65+ and residents with disabilities runs October 1 to 15."
+  },
+  {
+    "id": "town-of-oakville-legal-financial",
+    "name": "Oakville Senior's Property Tax Rebate",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oakville"
+    ],
+    "phone": "905-845-6601",
+    "description": "A Town of Oakville rebate of $500 in 2026 for senior homeowners with low incomes. Seniors 65 and over who receive the monthly Guaranteed Income Supplement can apply each fall and the rebate is applied to their property taxes.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-oakville",
+    "website": "https://www.oakville.ca/home-environment/property-tax-assessments/tax-rebates-assistance/",
+    "intakeNote": "Submit the Senior's Property Tax Rebate application or renewal with proof of GIS by the fall deadline printed on the form; questions to tax@oakville.ca or ServiceOakville at 905-845-6601."
+  },
+  {
+    "id": "town-of-oakville-transportation",
+    "name": "Oakville Transit care-A-van",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Oakville"
+    ],
+    "phone": "905-337-9222",
+    "description": "The Town of Oakville's door-to-door accessible transit service for people whose disability prevents them from using the regular bus. Rides are free as of May 1, 2025, and run seven days a week using accessible vehicles and partnered taxis.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-oakville",
+    "website": "https://www.oakvilletransit.ca/accessibility/care-a-van/",
+    "intakeNote": "Apply with the specialized transit form (a health care professional signs Part B), submitted by email to mobility@oakville.ca, fax or in person; once approved, book trips at 905-337-9222 or through the On Demand app."
+  },
+  {
+    "id": "town-of-whitby-companion-social",
+    "name": "Whitby 55+ Programs and Services",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Whitby"
+    ],
+    "phone": "905-668-1424",
+    "description": "The Town of Whitby runs recreation, fitness, clubs and social programs for adults 55 and over, including the Mingles Café where older adults can drop in for refreshments and company on weekday mornings. Staff can also point families to town services like the snow clearing program and tax clinic.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-whitby",
+    "website": "https://www.whitby.ca/community-and-people/55plus-programs-and-services/support-and-resources/",
+    "intakeNote": "Call 905-668-1424 or email 55plus@whitby.ca; program registration is online through the town's recreation system."
+  },
+  {
+    "id": "town-of-whitby-companion-social-library",
+    "name": "Whitby Public Library Visiting Library Service",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Whitby"
+    ],
+    "phone": "905-668-6531",
+    "description": "Whitby Public Library, the Town of Whitby's library system, delivers books and other materials to residents who cannot get to a branch because of illness, disability or other circumstances. Staff choose items to match your tastes and volunteers deliver on a regular schedule.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-whitby",
+    "website": "https://whitbylibrary.ca/adults",
+    "intakeNote": "Apply with the Patron Application Form on the library website, or call the Central Library at 905-668-6531."
+  },
+  {
+    "id": "town-of-whitby-home-maintenance",
+    "name": "Whitby Windrow and Sidewalk Snow Clearing Program",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Whitby"
+    ],
+    "phone": "905-668-1424",
+    "description": "A free Town of Whitby service for seniors 65 and over and residents with disabilities who have no one at home able to shovel. Town crews clear the ridge of snow the plow leaves at the end of the driveway and any public sidewalk beside the property, usually within about 36 hours after the snow stops.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-whitby",
+    "website": "https://www.whitby.ca/services-and-payments/parking-roads-and-transportation/snow-and-windrow-clearing-services/",
+    "intakeNote": "Register online each fall; applications for the coming winter open September 14, 2026 and close November 1, 2026."
+  },
+  {
+    "id": "town-of-whitby-legal-financial",
+    "name": "Whitby Low Income Seniors Property Tax Rebate",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Whitby"
+    ],
+    "phone": "905-430-4300",
+    "description": "A Town of Whitby rebate that takes several hundred dollars off the yearly property tax bill for senior homeowners with low incomes. You qualify if you are 65 or older, receive the Guaranteed Income Supplement, and own and live in your Whitby home. A matching program exists for low-income homeowners with disabilities on ODSP.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-whitby",
+    "website": "https://www.whitby.ca/services-and-payments/property-taxes/tax-rebate-and-relief-programs/low-income-seniors/",
+    "intakeNote": "Send the application form with a copy of your current GIS letter to tax@whitby.ca or the Tax Department at 575 Rossland Rd E by December 31; apply again each year."
+  },
+  {
+    "id": "town-of-whitby-legal-financial-taxclinic",
+    "name": "Whitby 55+ Free Income Tax Clinic",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "ON"
+    ],
+    "cities": [
+      "Whitby"
+    ],
+    "phone": "905-668-1424",
+    "description": "Each spring the Town of Whitby's 55+ Services runs a free drop-off clinic where trained volunteers prepare basic income tax returns for older adults with modest incomes. Filing every year protects benefits like GIS, the Ontario Trillium Benefit and tax credits.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-05",
+    "brandGroup": "town-of-whitby",
+    "website": "https://www.whitby.ca/community-and-people/55plus-programs-and-services/support-and-resources/",
+    "intakeNote": "Runs March 1 to April 30 each year as a drop-off clinic; call 905-668-1424 or email 55plus@whitby.ca to take part."
   },
   {
     "id": "ttc-wheel-trans-transportation",
