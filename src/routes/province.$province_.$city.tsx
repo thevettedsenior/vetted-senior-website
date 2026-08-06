@@ -8,7 +8,7 @@ import {
   groupByCategory,
 } from "@/lib/directory-data";
 
-export const Route = createFileRoute("/province/$province/$city")({
+export const Route = createFileRoute("/province/$province_/$city")({
   loader: ({ params }) => {
     const province = findProvince(params.province);
     if (!province) throw notFound();
