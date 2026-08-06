@@ -213,7 +213,19 @@
     "category": "Companion & Social",
     "tier": "national",
     "provinces": [
-      "ON"
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
     ],
     "cities": [],
     "phone": "1-833-979-9779",
@@ -441,7 +453,19 @@
     "category": "Vision, Hearing, Dental & Foot Care",
     "tier": "national",
     "provinces": [
-      "ON"
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
     ],
     "cities": [],
     "phone": "1-800-563-2642",
