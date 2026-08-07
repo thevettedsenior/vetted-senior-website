@@ -102,21 +102,20 @@ export function HandbookCTA({ compact = false }: { compact?: boolean }) {
           </div>
         </div>
         <div className="rounded-2xl bg-secondary/60 p-6">
-          <p className="font-semibold text-primary">
-            Want the weekly briefing too?
-          </p>
+          <p className="font-semibold text-primary">Want the briefing too?</p>
           <p className="mt-2 text-base text-foreground/75 leading-relaxed">
-            One short email from Ragini on Thursdays: one thing worth knowing,
-            one reader question answered, and directory news. Leaving is one
-            click, no hard feelings.
+            One short email from Ragini, most weeks: one thing worth knowing,
+            one reader question answered, and directory news. If a week has
+            nothing worth your time, we skip it. Leaving is one click, no hard
+            feelings.
           </p>
           <div className="mt-4">
             <SignupForm
               compact
               intent="briefing"
-              signupFor="the weekly briefing, one email on Thursdays"
+              signupFor="the briefing, one short email most weeks"
               buttonLabel="Email me the briefing"
-              successMessage="You're on the list. The next briefing goes out Thursday morning."
+              successMessage="You're on the list. The next briefing is on its way soon."
             />
           </div>
         </div>

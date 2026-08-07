@@ -213,22 +213,21 @@ function HandbookPage() {
       <section className="mx-auto max-w-4xl px-6 py-14">
         <div className="rounded-3xl border-2 border-gold/50 bg-card p-8 md:p-10">
           <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
-            Want the weekly briefing with it?
+            Want the briefing with it?
           </h2>
           <p className="mt-3 text-lg text-foreground/85 leading-relaxed">
-            One email from Ragini a week, on Thursday mornings: one thing worth
-            knowing (a program, a deadline, a warning), one question from a
-            reader answered properly, and news from the directory, including
-            removals, because you deserve to see both directions. No daily
-            emails, no countdown timers. If a week has nothing worth your time,
-            we skip the week.
+            One short email from Ragini, most weeks: one thing worth knowing (a
+            program, a deadline, a warning), one question from a reader answered
+            properly, and news from the directory, including removals, because
+            you deserve to see both directions. No daily emails, no countdown
+            timers. If a week has nothing worth your time, we skip the week.
           </p>
           <div className="mt-6 max-w-xl">
             <SignupForm
               intent="handbook and briefing"
-              signupFor="the weekly briefing, one email on Thursdays"
+              signupFor="the briefing, one short email most weeks"
               buttonLabel="Email me the briefing →"
-              successMessage="You're on the list. The next briefing goes out Thursday morning, and leaving is one click, no hard feelings."
+              successMessage="You're on the list. The next briefing is on its way soon, and leaving is one click, no hard feelings."
             />
           </div>
         </div>

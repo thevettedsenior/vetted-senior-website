@@ -26,6 +26,15 @@ export const Route = createFileRoute("/situations/$slug")({
           ? `${loaderData.situation.description} Plain language guidance from The Vetted Senior.`
           : "",
       },
+      { property: "og:type", content: "article" },
+      {
+        property: "og:title",
+        content: loaderData ? loaderData.situation.title : "Guide",
+      },
+      {
+        property: "og:description",
+        content: loaderData ? loaderData.situation.description : "",
+      },
     ],
   }),
   component: SituationGuidePage,
@@ -436,8 +445,11 @@ const GUIDES: Record<string, Section[]> = {
             features and monthly costs across providers helps with the decision.
           </p>
           <p className="italic">
-            Downloadable resources will be added to this section as the site
-            develops.
+            Printable checklists for many of these steps are on the{" "}
+            <Link to="/resources" className="text-primary underline">
+              resources page
+            </Link>
+            .
           </p>
         </>
       ),
@@ -886,8 +898,11 @@ const GUIDES: Record<string, Section[]> = {
             will.
           </p>
           <p className="italic">
-            Downloadable resources will be added to this section as the site
-            develops.
+            Printable checklists for many of these steps are on the{" "}
+            <Link to="/resources" className="text-primary underline">
+              resources page
+            </Link>
+            .
           </p>
         </>
       ),
@@ -1344,8 +1359,11 @@ const GUIDES: Record<string, Section[]> = {
             what happens in emergencies.
           </p>
           <p className="italic">
-            Downloadable resources will be added to this section as the site
-            develops.
+            Printable checklists for many of these steps are on the{" "}
+            <Link to="/resources" className="text-primary underline">
+              resources page
+            </Link>
+            .
           </p>
         </>
       ),
@@ -1753,8 +1771,11 @@ const GUIDES: Record<string, Section[]> = {
             sustainable caregiving.
           </p>
           <p className="italic">
-            Downloadable resources will be added to this section as the site
-            develops.
+            Printable checklists for many of these steps are on the{" "}
+            <Link to="/resources" className="text-primary underline">
+              resources page
+            </Link>
+            .
           </p>
         </>
       ),
@@ -2169,8 +2190,11 @@ const GUIDES: Record<string, Section[]> = {
             reading before the next conversation.
           </p>
           <p className="italic">
-            Downloadable resources will be added to this section as the site
-            develops.
+            Printable checklists for many of these steps are on the{" "}
+            <Link to="/resources" className="text-primary underline">
+              resources page
+            </Link>
+            .
           </p>
         </>
       ),
@@ -2569,8 +2593,11 @@ const GUIDES: Record<string, Section[]> = {
             not develop by default.
           </p>
           <p className="italic">
-            Downloadable resources will be added to this section as the site
-            develops.
+            Printable checklists for many of these steps are on the{" "}
+            <Link to="/resources" className="text-primary underline">
+              resources page
+            </Link>
+            .
           </p>
         </>
       ),
@@ -2974,8 +3001,11 @@ const GUIDES: Record<string, Section[]> = {
             shape to the day.
           </p>
           <p className="italic">
-            Downloadable resources will be added to this section as the site
-            develops.
+            Printable checklists for many of these steps are on the{" "}
+            <Link to="/resources" className="text-primary underline">
+              resources page
+            </Link>
+            .
           </p>
         </>
       ),
@@ -3352,8 +3382,11 @@ const GUIDES: Record<string, Section[]> = {
             contact numbers should be posted somewhere visible at home.
           </p>
           <p className="italic">
-            Downloadable resources will be added to this section as the site
-            develops.
+            Printable checklists for many of these steps are on the{" "}
+            <Link to="/resources" className="text-primary underline">
+              resources page
+            </Link>
+            .
           </p>
         </>
       ),

@@ -9,7 +9,7 @@ export const Route = createFileRoute("/founder")({
       {
         name: "description",
         content:
-          "Ragini spent twenty years running verification and compliance programs for Canada's largest banks. Now she applies that discipline to the businesses that care for our parents. This is her story, in her own words.",
+          "Ragini spent twenty years as the business analyst inside verification and compliance programs at Canada's largest banks. Now she applies that discipline to the businesses that care for our parents. This is her story, in her own words.",
       },
       {
         property: "og:title",
@@ -18,7 +18,7 @@ export const Route = createFileRoute("/founder")({
       {
         property: "og:description",
         content:
-          "After twenty years verifying banks, she started verifying the people who care for our parents.",
+          "After twenty years inside bank compliance, she now verifies the people who care for our parents.",
       },
     ],
     scripts: [
@@ -34,7 +34,7 @@ export const Route = createFileRoute("/founder")({
               jobTitle: "Founder",
               worksFor: { "@id": "https://thevettedsenior.com/#org" },
               description:
-                "Founder of The Vetted Senior. 20+ years in regulatory compliance and verification for CIBC, BMO, Scotiabank, and First Caribbean International Bank. Specialties: anti-money-laundering programs, know-your-client verification, enterprise risk assessment. Licensed Ontario mortgage agent (BRX Mortgage Inc., FSRA #13549).",
+                "Founder of The Vetted Senior. 20+ years as a business analyst inside compliance and regulatory programs at CIBC, BMO, Scotiabank, and First Caribbean International Bank. Licensed Ontario mortgage agent (BRX Mortgage Inc., FSRA #13549).",
               knowsAbout: [
                 "regulatory compliance",
                 "anti-money-laundering",
@@ -110,17 +110,19 @@ function FounderPage() {
             loosely.
           </p>
           <p>
-            For more than twenty years, I worked inside Canada's largest banks.
-            CIBC. BMO. Scotiabank. First Caribbean International Bank, across
-            twelve countries. My specialty was the unglamorous work that keeps
-            financial systems honest: anti-money-laundering programs,
-            know-your-client verification, regulatory compliance, enterprise
-            risk. My job, in plain language, was to design the systems that
-            check whether people and businesses are who they say they are,
-            whether the paperwork matches the reality, and whether anyone is
-            quietly cutting corners. When a bank needed to figure out how to
-            verify thousands of clients, flag suspicious activity, or prove to a
-            regulator that its controls actually worked, that was my desk.
+            For more than twenty years, I was the business analyst inside
+            compliance and regulatory programs at Canada's largest banks. CIBC.
+            BMO. Scotiabank. First Caribbean International Bank, across twelve
+            countries. Anti-money-laundering monitoring, know-your-client
+            verification, enterprise risk, securities irregularities: the
+            unglamorous work that keeps financial systems honest. I was the
+            person between the regulator's requirement and the people who had to
+            actually carry it out. My job was to write down exactly what had to
+            be verified, define what counted as evidence, and design the process
+            so it produced the same answer no matter who ran it. I did not set
+            the standard. I built the machine that proved the standard was being
+            met, and then I watched what happened when nobody checked the
+            machine.
           </p>
           <p>
             You develop a particular habit of mind doing that work for two
@@ -163,16 +165,16 @@ function FounderPage() {
           <p>
             The Vetted Senior works on one rule: nobody can pay to be listed
             here. Not with money, not with favours, not with anything. Every
-            provider in our directory has been through a verification process I
-            designed the way I designed compliance programs for banks:
-            documented, repeatable, and checked against primary sources. We
-            verify licences with the regulators who issue them, not with the
-            businesses that claim them. We check insurance certificates. We
-            interview owners and ask the questions families do not know to ask.
-            We call real clients. We re-review every listing on a schedule,
-            because standards slip, and when they slip, we notice. When a
-            provider stops meeting our standards, they come off the list, and we
-            say so.
+            provider in our directory has been through a verification process
+            built the way twenty years of bank compliance work taught me to
+            build one: documented, repeatable, and checked against primary
+            sources. We verify licences with the regulators who issue them, not
+            with the businesses that claim them. We check insurance
+            certificates. We interview owners and ask the questions families do
+            not know to ask. We call real clients. We re-review every listing on
+            a schedule, because standards slip, and when they slip, we notice.
+            When a provider stops meeting our standards, they come off the list,
+            and we say so.
           </p>
           <p>
             Vetting reduces risk. It does not eliminate it, and I will never
@@ -243,12 +245,12 @@ function FounderPage() {
             Credentials
           </p>
           <p className="mt-3 text-base text-foreground/80 leading-relaxed">
-            20+ years in regulatory compliance and verification for CIBC, BMO,
-            Scotiabank, and First Caribbean International Bank. Specialties:
-            anti-money-laundering programs, know-your-client verification,
-            enterprise risk assessment. Licensed Ontario mortgage agent (BRX
-            Mortgage Inc., FSRA #13549). Primary caregiver and decision-maker
-            for her mother.
+            20+ years as a business analyst inside compliance and regulatory
+            programs at CIBC, BMO, Scotiabank, and First Caribbean International
+            Bank: anti-money-laundering monitoring, know-your-client
+            verification, enterprise risk assessment, securities irregularities.
+            Licensed Ontario mortgage agent (BRX Mortgage Inc., FSRA #13549).
+            Primary caregiver and decision-maker for her mother.
           </p>
         </div>
       </section>

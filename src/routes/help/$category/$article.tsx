@@ -24,6 +24,15 @@ export const Route = createFileRoute("/help/$category/$article")({
         name: "description",
         content: loaderData ? loaderData.article.description : "",
       },
+      { property: "og:type", content: "article" },
+      {
+        property: "og:title",
+        content: loaderData ? loaderData.article.title : "Article",
+      },
+      {
+        property: "og:description",
+        content: loaderData ? loaderData.article.description : "",
+      },
     ],
     scripts: loaderData
       ? [jsonLdScript(articleJsonLd(loaderData.article, loaderData.category))]

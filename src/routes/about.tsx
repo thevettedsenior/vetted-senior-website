@@ -106,9 +106,9 @@ function About() {
             <Link to="/founder" className="text-primary underline">
               Ragini
             </Link>
-            , the way she designed compliance programs for Canada's largest
-            banks for twenty years: documented, repeatable, and checked against
-            primary sources.
+            , who spent twenty years as the business analyst inside bank
+            compliance programs writing exactly this kind of process:
+            documented, repeatable, and checked against primary sources.
           </p>
         </div>
       </section>
@@ -174,7 +174,10 @@ function About() {
           <p className="mt-3 text-lg text-foreground/85 leading-relaxed">
             Every provider is scored pass, marginal, or fail on each of these,
             with a written rationale. Listing requires at least four passes, no
-            fails, and no marginal score on honesty.
+            fails, and no marginal score on honesty. A single marginal anywhere
+            else makes the listing a conditional pass: we name the needed
+            improvement privately to the provider, and the next re-review moves
+            up to six months.
           </p>
           <ul className="mt-8 space-y-4">
             {CRITERIA.map((c, i) => (

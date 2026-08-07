@@ -14,6 +14,7 @@ import { HandbookCTA } from "@/components/HandbookCTA";
 import { SiteSearch } from "@/components/SiteSearch";
 import { IconChip, categoryIcon, situationIcon } from "@/lib/site-icons";
 import {
+  BUSINESSES,
   SITUATIONS,
   HELP_CATEGORIES,
   PROVINCES,
@@ -103,7 +104,7 @@ function Home() {
                 "We speak to the owner or service provider directly.",
                 "We confirm licences, insurance, and credentials.",
                 "We check references from real clients or families.",
-                "We re-review every year. Standards slip. We notice.",
+                "Every listing gets a scheduled re-review. Standards slip. We notice.",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <BadgeCheck
@@ -289,22 +290,31 @@ function Home() {
             <div>
               <span className="mb-5 inline-flex items-center gap-2 rounded-full bg-gold/20 px-4 py-1.5 text-sm font-semibold text-gold-foreground">
                 <CalendarCheck size={16} aria-hidden />
-                Directory: Coming Soon
+                Directory: {BUSINESSES.length} verified services live
               </span>
               <h2 className="font-serif text-3xl font-semibold text-primary md:text-[2.6rem] md:leading-tight">
-                Find vetted services near you
+                Find verified services near you
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-                We're personally vetting senior-serving businesses, starting
-                with Toronto, Mississauga, and Durham Region and expanding
-                across the GTA, then the country. Every provider is reviewed,
-                never paid to appear.
+                {BUSINESSES.length} public and non-profit services are live
+                today, in every province and territory: government programs,
+                charities, seniors centres, meals, rides, and help at home. Each
+                one was checked directly against official sources and carries
+                the date we verified it.
               </p>
               <p className="mt-3 text-base text-muted-foreground">
-                Where we don't yet have vetted providers, we say so plainly
-                rather than pad the list. An empty category here is a promise
-                being kept, not a gap being hidden.
+                Private providers are next, personally vetted starting with
+                Toronto, Mississauga, and Durham Region. Nobody pays to appear,
+                and where we don't yet have a vetted provider, we say so plainly
+                rather than pad the list.
               </p>
+              <Link
+                to="/directory"
+                className="mt-6 inline-flex min-h-13 items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-base font-semibold text-primary-foreground no-underline transition-all hover:-translate-y-0.5 hover:opacity-95"
+              >
+                Browse the directory
+                <ChevronRight size={18} aria-hidden />
+              </Link>
             </div>
 
             <div>
@@ -330,8 +340,11 @@ function Home() {
                 ))}
               </ul>
               <p className="mt-4 text-sm text-muted-foreground">
-                All territories and provinces will be listed as providers are
-                vetted.
+                Every province and territory has verified listings today.{" "}
+                <Link to="/directory" className="text-primary underline">
+                  See the full directory
+                </Link>{" "}
+                for all of them.
               </p>
             </div>
           </div>
@@ -380,10 +393,17 @@ function Home() {
                 { stat: "0", label: "Paid placements. Ever." },
                 {
                   stat: "5",
-                  label: "Published criteria every listing is scored against",
+                  label:
+                    "Published criteria every vetted provider is scored against",
                 },
-                { stat: "Annual", label: "Re-review of every provider" },
-                { stat: "Real", label: "References from senior clients" },
+                {
+                  stat: "Dated",
+                  label: "Re-review scheduled for every listing",
+                },
+                {
+                  stat: "Real",
+                  label: "References from senior clients required to pass",
+                },
               ].map((item) => (
                 <li
                   key={item.stat}
@@ -421,14 +441,14 @@ function Home() {
                 aria-hidden
               />
               <p className="font-serif text-2xl font-semibold leading-snug text-primary md:text-3xl">
-                After twenty years verifying banks, she started verifying the
+                After twenty years inside bank compliance, she now verifies the
                 people who care for our parents.
               </p>
               <p className="mt-4 max-w-2xl text-lg leading-relaxed text-foreground/80">
-                The Vetted Senior was built by Ragini, who spent two decades
-                running compliance and verification programs inside Canada's
-                largest banks, and who built this site when she could not find a
-                single resource she trusted for her own mother.
+                The Vetted Senior was built by Ragini, who spent two decades as
+                the business analyst inside compliance and verification programs
+                at Canada's largest banks, and who built this site when she
+                could not find a single resource she trusted for her own mother.
               </p>
               <Link
                 to="/founder"
