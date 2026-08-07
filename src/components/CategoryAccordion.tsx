@@ -8,8 +8,11 @@ import type { Business } from "@/lib/directory-data";
  */
 export function CategoryAccordion({
   grouped,
+  openAll = false,
 }: {
   grouped: Record<string, Business[]>;
+  /** Expand every section (e.g. active search: matches must be visible). */
+  openAll?: boolean;
 }) {
   const entries = Object.entries(grouped);
   return (
@@ -17,7 +20,7 @@ export function CategoryAccordion({
       {entries.map(([cat, items]) => (
         <details
           key={cat}
-          open={entries.length === 1}
+          open={openAll || entries.length === 1}
           className="group rounded-2xl border border-border bg-card shadow-sm"
         >
           <summary className="flex cursor-pointer list-none items-center justify-between gap-3 rounded-2xl px-6 py-5 hover:bg-gold/10 [&::-webkit-details-marker]:hidden">

@@ -1,6 +1,6 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
-import { BusinessCard } from "@/components/BusinessCard";
+import { CategoryAccordion } from "@/components/CategoryAccordion";
 import { LaunchNotice } from "@/components/HandbookCTA";
 import { SignupForm } from "@/components/SignupForm";
 import {
@@ -9,6 +9,7 @@ import {
   PROVINCES,
   findHelpCategory,
   findProvince,
+  groupByCategory,
   searchBusinesses,
   type Business,
 } from "@/lib/directory-data";
@@ -207,10 +208,11 @@ function DirectoryPage() {
             <p className="text-base text-muted-foreground">
               <ResultsSummary results={results} hasFilters={hasFilters} />
             </p>
-            <div className="mt-6 grid gap-5 md:grid-cols-2">
-              {results.map((b) => (
-                <BusinessCard key={b.id} business={b} />
-              ))}
+            <div className="mt-6">
+              <CategoryAccordion
+                grouped={groupByCategory(results)}
+                openAll={Boolean(filters.q || filters.category)}
+              />
             </div>
           </>
         ) : (

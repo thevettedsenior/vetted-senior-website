@@ -170,7 +170,6 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     group: "Medical & Health",
     intro:
       "Home care helps seniors live safely and independently in the place they know best. Services range from a few hours of personal support each week to around-the-clock nursing care. Understanding what's available, and how to pay for it, is the first step.",
-    image: "/images/help/homecare-hero.svg",
   },
   {
     slug: "doctors-pharmacy-medication",
