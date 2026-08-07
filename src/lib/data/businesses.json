@@ -267,6 +267,35 @@
     "intakeNote": "Call 1-888-357-9339 to make a report; anyone who witnesses or suspects abuse of an adult in care can call."
   },
   {
+    "id": "alzheimer-society-canada-dementia-memory-support",
+    "name": "Alzheimer Society of Canada",
+    "category": "Dementia & Memory Support",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-616-8816",
+    "description": "The national office of the Alzheimer Society, a registered charity. It is a first point of contact after a dementia diagnosis: staff answer the line Monday to Friday and connect families to the Alzheimer Society in their own province, where local societies deliver the programs such as First Link, support groups and education.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "alzheimer-society-canada",
+    "website": "https://alzheimer.ca/en/contact-us",
+    "intakeNote": "Call 1-800-616-8816, Monday to Friday 9am to 5pm Eastern, or use the contact form at alzheimer.ca; for dementia programs the national office connects families to their local Alzheimer Society through alzheimer.ca/find."
+  },
+  {
     "id": "alzheimer-society-durham-dementia-memory-support",
     "name": "Alzheimer Society Durham First Link",
     "category": "Dementia & Memory Support",
@@ -393,6 +422,35 @@
     "brandGroup": "alzheimer-society-york",
     "website": "https://alzheimer.ca/york/en/help-support/programs-services/day-program",
     "intakeNote": "Families call 905-726-3477 (toll-free 1-888-414-5550) or reach the general inbox at info@alzheimer-york.com. Some programs, like the D.A.Y. Centre and First Link, also take direct referrals from doctors, hospitals, and family members."
+  },
+  {
+    "id": "arthritis-society-canada-doctors-pharmacy-medication",
+    "name": "Arthritis Line (Arthritis Society Canada)",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-321-1433",
+    "description": "A free phone and email information service from Arthritis Society Canada, a registered charity. Trained volunteers answer questions about arthritis, treatment options and coping day to day, and can connect callers with a Peer Listener for one-on-one emotional support.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "arthritis-society-canada",
+    "website": "https://arthritis.ca/support-education/arthritis-resources/arthritis-line",
+    "intakeNote": "Call 1-800-321-1433 and press 2 for the Arthritis Line, Monday to Friday in English or French; you can leave a message any time and they aim to reply within 24 hours."
   },
   {
     "id": "bc-provincial-doctors-pharmacy-medication-fair-pharmacare",
@@ -780,6 +838,35 @@
     "intakeNote": "Call 1-888-495-8501, Monday to Friday 10 am to 4:45 pm Eastern time, or report a scam online any time through the reporting system at reportcyberandfraud.canada.ca."
   },
   {
+    "id": "canadian-cancer-society-doctors-pharmacy-medication",
+    "name": "Cancer Information Helpline (Canadian Cancer Society)",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-888-939-3333",
+    "description": "A free helpline from the Canadian Cancer Society, a registered charity. Trained information specialists answer questions about cancer, treatments and side effects, and help find support services and community resources near you, Monday to Friday, with an interpreter service for other languages.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "canadian-cancer-society",
+    "website": "https://cancer.ca/en/living-with-cancer/how-we-can-help/talk-to-an-information-specialist",
+    "intakeNote": "Call 1-888-939-3333, Monday to Friday, or use live chat or the online form at cancer.ca; interpreters are available for languages other than English and French."
+  },
+  {
     "id": "canadian-dental-care-plan-hearing-vision",
     "name": "Canadian Dental Care Plan",
     "category": "Vision, Hearing, Dental & Foot Care",
@@ -824,6 +911,108 @@
     "brandGroup": "canadian-hearing-services",
     "website": "https://www.chs.ca/hearing-clinic-locations",
     "intakeNote": "Call 1-866-518-0000, email audiology@chs.ca, or book online (Ontario residents only) for a hearing test or hearing aid consultation. No referral is needed."
+  },
+  {
+    "id": "canadian-red-cross-help-mobility-equipment-ab",
+    "name": "Red Cross Health Equipment Loan Program (Alberta)",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "(780) 702-8073",
+    "description": "The Canadian Red Cross, a registered charity, lends wheelchairs, walkers, bath seats, commodes, crutches, and canes to Albertans recovering at home or receiving palliative care, usually for about three months. Depots operate in Edmonton, Medicine Hat, and Grande Prairie. This is a charity service, not a government office and not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/in-your-community/alberta/health-equipment-loans",
+    "intakeNote": "A referral from a health care professional is required. The Alberta program asks families to email ABHELPProgram@redcross.ca to reach any depot; the phone shown is the Edmonton HELP Depot."
+  },
+  {
+    "id": "canadian-red-cross-help-mobility-equipment-bc",
+    "name": "Red Cross Health Equipment Loan Program (BC)",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "604.270.4224",
+    "description": "The Canadian Red Cross, a registered charity, lends wheelchairs, walkers, bath seats, commodes, and other home health equipment across British Columbia, usually for about three months while someone recovers or receives palliative care at home. This is a charity service run with the province's health authorities, not a government office and not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/in-your-community/british-columbia/health-equipment-loans",
+    "intakeNote": "A referral from a doctor, nurse, occupational therapist, physiotherapist, or chiropractor is required; call the regional HELP line to arrange the loan."
+  },
+  {
+    "id": "canadian-red-cross-help-mobility-equipment-nl",
+    "name": "Red Cross Health Equipment Loan Program (Newfoundland and Labrador)",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "(709) 758-8400",
+    "description": "The Canadian Red Cross, a registered charity, lends wheelchairs, walkers, bath safety gear, and other home health equipment to Newfoundland and Labrador residents for about three months while they recover at home, with hospital bed delivery available in some areas. This is a charity service, not a government office and not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/in-your-community/newfoundland-and-labrador/health-equipment-loans",
+    "intakeNote": "A referral from a health care professional is required; call the NL Provincial Office in St. John's at (709) 758-8400."
+  },
+  {
+    "id": "canadian-red-cross-help-mobility-equipment-ns",
+    "name": "Red Cross Health Equipment Loan Program (Nova Scotia)",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "(902) 423-3680",
+    "description": "The Canadian Red Cross, a registered charity, lends wheelchairs, walkers, bath safety gear, and commodes to Nova Scotians for about three months, and also runs a Bed Loan Program that delivers and installs home-use hospital beds for as long as they are needed, plus specialized mobility aids for seniors in long-term care. This is a charity service, not a government office and not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/in-your-community/nova-scotia/health-equipment-loans",
+    "intakeNote": "A recommendation form from a health care professional is required; the Dartmouth Service Centre at (902) 423-3680 is the main depot, with others findable through redcross.ca."
+  },
+  {
+    "id": "canadian-red-cross-help-mobility-equipment-pe",
+    "name": "Red Cross Health Equipment Loan Program (PEI)",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "(902) 628-6262",
+    "description": "The Canadian Red Cross, a registered charity, lends wheelchairs, walkers, bath seats, and other home health equipment to Island residents for about three months, and runs a hospital bed loan program with delivery to some parts of PEI. This is a charity service, not a government office and not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/in-your-community/prince-edward-island/health-equipment-loans",
+    "intakeNote": "A referral from a health care professional is required; call the Prince Edward Island Branch in Charlottetown at (902) 628-6262."
+  },
+  {
+    "id": "canadian-red-cross-help-mobility-equipment-yt",
+    "name": "Red Cross Health Equipment Loan Program (Yukon)",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [],
+    "phone": "250.564.6566",
+    "description": "The Canadian Red Cross, a registered charity, lends wheelchairs, walkers, bath safety gear, and other home health equipment to Yukon residents through its Northern BC and Yukon region, usually for about three months during recovery or palliative care at home. This is a charity service, not a government office and not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "canadian-red-cross-ontario",
+    "website": "https://www.redcross.ca/how-we-help/community-health-services-in-canada/bc-health-equipment-loan-program",
+    "intakeNote": "A referral from a health care professional is required; call the Northern BC and Yukon regional line at 250.564.6566."
   },
   {
     "id": "canadian-red-cross-ontario-companion-social",
@@ -2941,6 +3130,35 @@
     "intakeNote": "Apply with the same ATS application form as DARTS, mailed to Accessible Transportation Services, c/o 71 Main St. West, Hamilton, ON L8P 4Y5; eligibility decisions take up to 14 days."
   },
   {
+    "id": "diabetes-canada-doctors-pharmacy-medication",
+    "name": "Diabetes Canada Information & Referral Helpline",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-BANTING (226-8464)",
+    "description": "A free, confidential helpline from Diabetes Canada, a registered charity. Staff answer questions about living with diabetes and managing it day to day, share trusted resources and point callers to programs in their province. They do not give medical advice or make appointments.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "diabetes-canada",
+    "website": "https://www.diabetes.ca/campaigns/information-referral-helpline",
+    "intakeNote": "Call 1-800-BANTING (226-8464), Monday to Friday 9 a.m. to 5 p.m. Eastern, or email info@diabetes.ca; conversations are confidential."
+  },
+  {
     "id": "dorothy-ley-hospice-palliative-hospice-care",
     "name": "The Dorothy Ley Hospice",
     "category": "Palliative & Hospice Care",
@@ -3049,6 +3267,35 @@
     "brandGroup": "durham-region",
     "website": "https://www.durhamregiontransit.com/routes-and-schedules/on-demand-and-specialized-services/",
     "intakeNote": "Apply for Specialized Services with a form from durhamregiontransit.com (download or request by mail), then book trips with an agent at 1-866-247-0055 or 311."
+  },
+  {
+    "id": "dying-with-dignity-funeral-estate-planning",
+    "name": "Dying With Dignity Canada",
+    "category": "Funeral & Estate Planning",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-844-395-3640",
+    "description": "A registered national charity that helps families put end-of-life wishes in writing and understand their legal options. It offers free downloadable Advance Care Planning kits for every province, a support team that answers questions about end-of-life rights and medical assistance in dying, and trained volunteers who serve as the independent witness the law requires on a MAID request, including by video call. This is a charity, not a government agency and not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "dying-with-dignity",
+    "website": "https://www.dyingwithdignity.ca/end-of-life-support/",
+    "intakeNote": "Call the Support Team at 1-844-395-3640 or email support@dyingwithdignity.ca for end-of-life questions; request an independent witness through the online form, and download free province-specific Advance Care Planning kits from the website."
   },
   {
     "id": "eapo-seniors-safety-line-medical-alert-safety",
@@ -3369,6 +3616,35 @@
     "intakeNote": "Families and individuals can self-refer by calling the office at 416-364-1666; organizations refer using the Toronto Central Palliative Care Network Common Referral Form faxed to 416-364-2231."
   },
   {
+    "id": "kidney-foundation-canada-mental-health-counselling",
+    "name": "Kidney Connect Peer Support (Kidney Foundation of Canada)",
+    "category": "Mental Health & Counselling",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-866-390-PEER (7337)",
+    "description": "Free one-on-one peer support from The Kidney Foundation of Canada, a registered charity. It matches people living with kidney disease, and their family members, with a trained volunteer who has lived through it themselves, for confidential support by phone.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "kidney-foundation-canada",
+    "website": "https://kidney.ca/en/support/peer-support/one-on-one-peer-support",
+    "intakeNote": "Call 1-866-390-PEER (7337) to speak with a program coordinator, or complete the online request form on the peer support page."
+  },
+  {
     "id": "legal-aid-ontario-legal-financial",
     "name": "Legal Aid Ontario",
     "category": "Legal & Financial",
@@ -3611,6 +3887,35 @@
     "intakeNote": "Call 204-788-6366 in Winnipeg or 1-866-440-6366 toll free, or email protection@gov.mb.ca; in an emergency call 911 first and report to the office when safe."
   },
   {
+    "id": "march-of-dimes-after-stroke-mental-health-counselling",
+    "name": "After Stroke (March of Dimes Canada)",
+    "category": "Mental Health & Counselling",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-888-540-6666",
+    "description": "A free stroke recovery program from March of Dimes Canada, a registered charity. An After Stroke coordinator works one-on-one with the survivor and their family, connects them to peer support and support groups, and stays with them from hospital to home and beyond. In-person teams are concentrated in Ontario, British Columbia and Atlantic Canada, with phone and online support across the rest of Canada.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "march-of-dimes-canada",
+    "website": "https://afterstroke.ca/",
+    "intakeNote": "Call the After Stroke Support Line at 1-888-540-6666, email afterstroke@marchofdimes.ca, or complete the online form at afterstroke.ca to be matched with an After Stroke coordinator."
+  },
+  {
     "id": "march-of-dimes-hvmp-home-maintenance",
     "name": "Home and Vehicle Modification Program",
     "category": "Home Maintenance",
@@ -3626,6 +3931,35 @@
     "brandGroup": "march-of-dimes-canada",
     "website": "https://www.marchofdimes.ca/en-ca/programs/am/hvmp",
     "intakeNote": "Download the application from marchofdimes.ca and mail it in with proof of income, disability verification and a vendor quote; call 1-877-369-4867 or email hvmp@marchofdimes.ca with questions."
+  },
+  {
+    "id": "medicalert-foundation-dementia-memory-support",
+    "name": "MedicAlert Safe & Found",
+    "category": "Dementia & Memory Support",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-877-217-7449",
+    "description": "A program of MedicAlert Foundation Canada, a registered charity, for people living with dementia who may wander or go missing. The subscriber wears a distinctive blue MedicAlert ID, and through the charity's Connect Protect partnership, 9-1-1 dispatchers, police, and paramedics across Canada can pull up the person's health record, wandering history, and caregiver contacts to bring them home safely. This is a charity subscription service, not a government program and not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "medicalert-foundation",
+    "website": "https://www.medicalert.ca/safe-and-found",
+    "intakeNote": "Call 1-877-217-7449 to subscribe to Safe & Found, or sign up online at medicalert.ca/safe-and-found; general inquiries 1.800.668.1507, Monday to Friday 9 am to 6 pm Eastern."
   },
   {
     "id": "montreal-libraries-companion-social",
@@ -4841,6 +5175,64 @@
     "intakeNote": "File the yearly income tax return with the ON-BEN application form; payments then arrive automatically."
   },
   {
+    "id": "osteoporosis-canada-mobility-equipment",
+    "name": "Osteoporosis Canada Information Line",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-463-6842",
+    "description": "A free information line from Osteoporosis Canada, a registered charity. Trained volunteer counsellors answer questions about bone health, osteoporosis and preventing broken bones, send helpful information and point callers to resources near them. A good call after a fracture or a fall risk warning.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "osteoporosis-canada",
+    "website": "https://osteoporosis.ca/support-line/",
+    "intakeNote": "Call the toll-free information line at 1-800-463-6842 (in Canada only) and leave a message if no one picks up; a trained volunteer counsellor will help."
+  },
+  {
+    "id": "parkinson-canada-doctors-pharmacy-medication",
+    "name": "Parkinson Canada Information and Referral",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-565-3000",
+    "description": "A free, confidential information and referral line from Parkinson Canada, a registered charity. Staff give one-on-one help with questions about symptoms, medications and treatment options, and connect people with Parkinson's, their families and care partners to support groups and services in their community.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "parkinson-canada",
+    "website": "https://www.parkinson.ca/help-i-need-somebody/",
+    "intakeNote": "Call 1-800-565-3000 or email info@parkinson.ca, Monday to Friday 9 a.m. to 4 p.m. Eastern; the contact page also lists 1-888-664-1974 and support@parkinson.ca for Parkinson's information."
+  },
+  {
     "id": "patient-ombudsman-home-care",
     "name": "Patient Ombudsman",
     "category": "Home Care & Nursing",
@@ -5898,6 +6290,35 @@
     "brandGroup": "soldiers-aid-commission",
     "website": "https://www.ontario.ca/page/soldiers-aid-commission",
     "intakeNote": "Apply through the Royal Canadian Legion at 1-888-207-0939 (sac@on.legion.ca) or Veterans Affairs Canada at 1-866-522-2122, with quotes for the expense and recent bank statements."
+  },
+  {
+    "id": "st-john-ambulance-therapy-dogs-companion-social",
+    "name": "St. John Ambulance Therapy Dog Program",
+    "category": "Companion & Social",
+    "tier": "national",
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "NT",
+      "NU",
+      "YT"
+    ],
+    "cities": [],
+    "phone": "1-800-989-3787",
+    "description": "St. John Ambulance, one of Canada's oldest registered charities, sends volunteer handlers and their gentle, screened dogs into seniors residences, care facilities, and hospitals for regular visits that ease loneliness and lift spirits. Over 2,500 dog teams volunteer across Canada, and there is one national online form to request visits for a facility or event. This is a charity program, not a government service and not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "st-john-ambulance",
+    "website": "https://sja.ca/en/st-john-ambulance-therapy-dog-program",
+    "intakeNote": "A seniors residence, care facility, or event organizer requests visits through the national online request form linked from the Therapy Dog Program page, or calls 1-800-989-3787; visits are then arranged with the local volunteer dog teams."
   },
   {
     "id": "st-johns-gobus-transportation",

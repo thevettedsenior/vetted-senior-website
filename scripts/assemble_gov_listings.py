@@ -105,6 +105,13 @@ PROMOTED_ISSUE_FAMILIES = {
     "montreal-libraries",
     "ville-de-montreal",
     "ville-de-laval",
+    # 2026-08-07 national charities pass, same ruling. NOT promoted:
+    # canadian-virtual-hospice (only printed phone is a tech-support line;
+    # Ragini to judge) and medicalert-foundation-canada (superseded, below).
+    "canadian-cancer-society",     # flag concerns undrafted Wheels of Hope
+    "kidney-foundation-canada",    # flag concerns undrafted financial-aid row
+    "canadian-red-cross-help",     # flags: NB program ended (not drafted);
+                                   # org-level job cuts noted for re-check
 }
 
 # Row-level exclusions within otherwise-staged families: {id: reason}.
@@ -116,6 +123,10 @@ EXCLUDED_ROWS = {
     "nunavut-territorial-legal-financial-supplementary-benefit":
         "phone is a regional Income Assistance office number, not printed on "
         "the program page; needs Ragini's sign-off",
+    "medicalert-foundation-canada-medical-alert-safety":
+        "duplicate of the verified medicalert-foundation Safe & Found row, "
+        "which resolved this file's fee and branding flags; the Charity "
+        "Intelligence overhead note stays here for Ragini's awareness",
 }
 
 
