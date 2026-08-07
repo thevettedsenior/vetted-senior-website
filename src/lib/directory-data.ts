@@ -170,7 +170,7 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     group: "Medical & Health",
     intro:
       "Home care helps seniors live safely and independently in the place they know best. Services range from a few hours of personal support each week to around-the-clock nursing care. Understanding what's available, and how to pay for it, is the first step.",
-    image: "/images/help/homecare-hero.jpeg",
+    image: "/images/help/homecare-hero.svg",
   },
   {
     slug: "doctors-pharmacy-medication",
@@ -351,7 +351,7 @@ export const ARTICLES: Article[] = [
     title: "What to Ask Before Hiring a Home Care Provider",
     description:
       "The questions to ask every agency or independent caregiver before you sign anything.",
-    image: "/images/help/homecare-questions.jpeg",
+    image: "/images/help/homecare-questions.svg",
     takeaways: [
       "Ask every provider whether caregivers are employees or contractors, since that changes who handles supervision, insurance, and backup.",
       "Contact at least three providers and compare written quotes, service agreements, and references before signing anything.",
@@ -365,7 +365,7 @@ export const ARTICLES: Article[] = [
       "Personal Support, Nursing, or Companion Care: Which Type of Home Care Do You Actually Need?",
     description:
       "A plain language comparison of the three main types of home care, what they cost, and which one fits your situation.",
-    image: "/images/help/homecare-care-types.jpeg",
+    image: "/images/help/homecare-care-types.svg",
     takeaways: [
       "Personal support workers handle daily tasks like bathing and meals, nurses handle clinical care, and companions provide social connection.",
       "Nursing costs the most and companion care the least, so paying for the wrong type wastes money while real needs go unmet.",
@@ -434,7 +434,7 @@ export const ARTICLES: Article[] = [
       "Depression After 70 Is Not Normal Aging: Spotting It and Treating It",
     description:
       "Why late life depression hides behind physical complaints, what treatment involves, and what OHIP covers.",
-    image: "/images/help/late life-depression-hero.svg",
+    image: "/images/help/late-life-depression-hero.svg",
     takeaways: [
       "Depression is treatable at every age and often shows up as pain, fatigue, and poor sleep rather than sadness.",
       "OHIP covers the family doctor, psychiatrists with a referral, and Ontario Structured Psychotherapy, a free program you can self-refer into.",
