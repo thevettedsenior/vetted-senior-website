@@ -87,7 +87,7 @@ export const HEARING_VISION_ARTICLES: ArticleContentMap = {
               (so $1,000 for a pair), for any Ontario resident with a valid
               health card and a prescribed hearing aid, every three to five
               years. The clinic usually handles the paperwork and deducts it
-              from the bill; confirm they are ADP-registered before testing.
+              from the bill; confirm they are ADP registered before testing.
             </li>
             <li>
               <strong>Veterans, current and former:</strong> Veterans Affairs
@@ -380,7 +380,7 @@ export const HEARING_VISION_ARTICLES: ArticleContentMap = {
               }}
               className="text-primary underline"
             >
-              fall-proofing guide
+              fall proofing guide
             </Link>
             , done with vision specifically in mind. Second, driving: Ontario's
             vision standard for a licence includes acuity and visual field

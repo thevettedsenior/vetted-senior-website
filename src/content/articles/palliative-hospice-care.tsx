@@ -256,7 +256,7 @@ export const PALLIATIVE_HOSPICE_CARE_ARTICLES: ArticleContentMap = {
           <p>
             The core care itself costs less than families fear: palliative home
             care and residential hospice are publicly funded, and hospital care
-            is OHIP-covered. Where money goes is private care topping up home
+            is OHIP covered. Where money goes is private care topping up home
             support, and lost income when family steps back from work. Two
             federal programs help with the second.{" "}
             <strong>EI compassionate care benefits</strong> pay up to 26 weeks

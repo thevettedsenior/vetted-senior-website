@@ -8,7 +8,6 @@ import {
   PhoneCall,
   Quote,
   ShieldCheck,
-  Users,
 } from "lucide-react";
 import { Page } from "@/components/SiteShell";
 import { HandbookCTA } from "@/components/HandbookCTA";
@@ -31,7 +30,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Getting older comes with questions. We have answers. Plain-language guidance on care, housing, safety, money, and support for seniors, adult children, and caregivers.",
+          "Getting older comes with questions. We have answers. Plain language guidance on care, housing, safety, money, and support for seniors, adult children, and caregivers.",
       },
       { property: "og:title", content: "The Vetted Senior" },
       {
@@ -62,7 +61,7 @@ function Home() {
               <span className="text-gold-deep">We have answers.</span>
             </h1>
             <p className="mt-6 max-w-xl text-xl leading-relaxed text-foreground/85">
-              Plain-language guidance on care, housing, safety, money, and
+              Plain language guidance on care, housing, safety, money, and
               support for seniors, adult children, and caregivers who need to
               know what to do next.
             </p>
@@ -136,7 +135,7 @@ function Home() {
               {
                 icon: MapPin,
                 title: "Find the right kind of help",
-                text: "Browse 16 plain-language help topics, from home care to legal matters, with trusted providers as we vet them.",
+                text: "Browse 16 plain language help topics, from home care to legal matters, with trusted providers as we vet them.",
               },
               {
                 icon: PhoneCall,
@@ -243,7 +242,7 @@ function Home() {
             </h2>
             <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
               Already know what you're looking for? Browse by service type. Each
-              section has plain-language guides, useful articles, and trusted
+              section has plain language guides, useful articles, and trusted
               local providers as we vet them.
             </p>
           </div>
@@ -405,17 +404,16 @@ function Home() {
       <section className="border-t border-border bg-card">
         <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
           <div className="grid gap-10 md:grid-cols-[auto_1fr] md:items-center">
-            {/* Founder photo placeholder: swap for a real, warm photo of Ragini */}
-            <div
-              className="mx-auto flex h-44 w-44 shrink-0 flex-col items-center justify-center gap-1 rounded-full border-2 border-dashed border-gold/60 bg-cream text-center md:mx-0"
-              role="img"
-              aria-label="Placeholder for a photo of founder Ragini"
-            >
-              <Users size={36} className="text-gold-deep" aria-hidden />
-              <span className="px-4 text-xs text-muted-foreground">
-                Photo of Ragini
-              </span>
+            <div className="mx-auto h-44 w-44 shrink-0 overflow-hidden rounded-full border-2 border-gold/60 md:mx-0">
+              <img
+                src="/images/ragini-home.jpg"
+                alt="Ragini, founder of The Vetted Senior"
+                className="h-full w-full object-cover object-top"
+                width={480}
+                height={600}
+              />
             </div>
+
             <div className="relative">
               <Quote
                 size={44}

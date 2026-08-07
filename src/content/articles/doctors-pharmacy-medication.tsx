@@ -32,11 +32,11 @@ export const DOCTORS_PHARMACY_MEDICATION_ARTICLES: ArticleContentMap = {
         <>
           <p>
             Ontario's matching program is called{" "}
-            <strong>Health Care Connect</strong> (call 811, or online
-            through ontario.ca). You register once, a nurse reviews the file,
-            and the program searches for a family doctor or nurse practitioner
-            accepting patients near you. Registration is free, and people with
-            complex health needs are given higher priority, which is why the
+            <strong>Health Care Connect</strong> (call 811, or online through
+            ontario.ca). You register once, a nurse reviews the file, and the
+            program searches for a family doctor or nurse practitioner accepting
+            patients near you. Registration is free, and people with complex
+            health needs are given higher priority, which is why the
             registration call should mention every diagnosis, not summarize
             politely.
           </p>
@@ -72,7 +72,7 @@ export const DOCTORS_PHARMACY_MEDICATION_ARTICLES: ArticleContentMap = {
             <li>
               <strong>Consider a nurse practitioner.</strong> Nurse practitioner
               clinics provide ongoing primary care, prescribe, order tests, and
-              refer to specialists, all OHIP-funded. For most seniors' routine
+              refer to specialists, all OHIP funded. For most seniors' routine
               care they are a full substitute, not a consolation prize.
             </li>
             <li>
@@ -120,7 +120,7 @@ export const DOCTORS_PHARMACY_MEDICATION_ARTICLES: ArticleContentMap = {
             departing doctor for renewals long enough to bridge the gap, and
             know that Ontario pharmacists can extend most ongoing prescriptions
             when a renewal falls through. Keep a current medication list and a
-            one-page health summary (conditions, surgeries, allergies,
+            one page health summary (conditions, surgeries, allergies,
             specialists) in the senior's wallet; it makes every walk-in visit
             twice as useful and it is the first thing a new doctor will want.
           </p>
@@ -133,8 +133,8 @@ export const DOCTORS_PHARMACY_MEDICATION_ARTICLES: ArticleContentMap = {
         <>
           <ol className="list-decimal space-y-2 pl-6">
             <li>
-              Register with Health Care Connect today (call 811), listing
-              every diagnosis and medication, and note the confirmation number.
+              Register with Health Care Connect today (call 811), listing every
+              diagnosis and medication, and note the confirmation number.
             </li>
             <li>
               Ask the senior's pharmacist, and every specialist at the next
@@ -146,7 +146,7 @@ export const DOCTORS_PHARMACY_MEDICATION_ARTICLES: ArticleContentMap = {
               on websites.
             </li>
             <li>
-              Write the one-page health summary and current medication list, and
+              Write the one page health summary and current medication list, and
               put a copy in the wallet and one on the fridge.
             </li>
             <li>
@@ -231,7 +231,7 @@ export const DOCTORS_PHARMACY_MEDICATION_ARTICLES: ArticleContentMap = {
               <strong>Compliance packaging</strong> (blister packs or pouch
               rolls) organizes every pill by day and time slot, so "did I take
               it?" has a visible answer. Most pharmacies provide it free or for
-              a few dollars a week, and it is the single highest-value change
+              a few dollars a week, and it is the single highest value change
               for anyone juggling five or more medications, or anyone with early
               memory change.
             </li>

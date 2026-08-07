@@ -23,7 +23,7 @@ export const Route = createFileRoute("/situations/$slug")({
       {
         name: "description",
         content: loaderData
-          ? `${loaderData.situation.description} Plain-language guidance from The Vetted Senior.`
+          ? `${loaderData.situation.description} Plain language guidance from The Vetted Senior.`
           : "",
       },
     ],
@@ -3974,7 +3974,7 @@ function SituationGuidePage() {
             {situation.description}
           </p>
           <p className="mt-3 text-sm text-white/75 md:text-base">
-            Plain-language guidance. No jargon. No pressure.
+            Plain language guidance. No jargon. No pressure.
           </p>
         </div>
       </section>

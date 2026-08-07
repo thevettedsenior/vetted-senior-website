@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
-import { BusinessCard } from "@/components/BusinessCard";
+import { CategoryAccordion } from "@/components/CategoryAccordion";
 import { LaunchNotice } from "@/components/HandbookCTA";
 import {
   findProvince,
@@ -119,17 +119,8 @@ function ProvincePage() {
               <LaunchNotice place={province.name} />
             </div>
           ) : (
-            <div className="mt-8 space-y-10">
-              {Object.entries(grouped).map(([cat, items]) => (
-                <div key={cat}>
-                  <h3 className="font-serif text-xl text-primary">{cat}</h3>
-                  <div className="mt-4 grid gap-5 md:grid-cols-2">
-                    {items.map((b) => (
-                      <BusinessCard key={b.id} business={b} />
-                    ))}
-                  </div>
-                </div>
-              ))}
+            <div className="mt-8">
+              <CategoryAccordion grouped={grouped} />
             </div>
           )}
         </div>

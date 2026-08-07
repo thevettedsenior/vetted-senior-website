@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-// Instructional diagrams for the how-to guides. All drawn inline so they
+// Instructional diagrams for the how to guides. All drawn inline so they
 // inherit site colors, scale to any screen, print cleanly, and cost no
 // network requests. Figures are deliberately schematic: stick people with
 // generous labels beat anatomical drawings for clarity at every text size.

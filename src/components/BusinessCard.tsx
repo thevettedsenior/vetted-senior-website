@@ -9,8 +9,8 @@ const TIER_LABEL: Record<Business["tier"], string> = {
 export function BusinessCard({ business }: { business: Business }) {
   return (
     <article className="rounded-2xl border border-border bg-card p-6 shadow-sm transition-shadow hover:shadow-md">
-      <div className="flex flex-wrap items-start justify-between gap-3">
-        <div>
+      <div className="flex items-start justify-between gap-3">
+        <div className="min-w-0 flex-1">
           <h3 className="font-serif text-xl font-semibold text-primary">
             {business.program ?? business.name}
           </h3>
@@ -19,25 +19,27 @@ export function BusinessCard({ business }: { business: Business }) {
               Run by {business.runBy ?? business.name}
             </p>
           )}
-          <span className="mt-1 inline-flex items-center rounded-full border border-primary/30 bg-secondary px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-primary/80">
+        </div>
+        <div className="flex shrink-0 flex-col items-end gap-1.5">
+          {business.listingType === "public-service" ? (
+            <span
+              className="inline-flex shrink-0 items-center gap-1 rounded-full border-2 border-primary/40 bg-secondary px-3 py-1 text-sm font-semibold text-primary"
+              title={`A public or non-profit community service, verified by us on ${business.verifiedDate}. Not a privately vetted company.`}
+            >
+              <span aria-hidden>🏛</span> Public service
+            </span>
+          ) : (
+            <span
+              className="inline-flex shrink-0 items-center gap-1 rounded-full bg-gold/20 px-3 py-1 text-sm font-semibold text-primary"
+              title={`Vetted since ${business.vettedSince}`}
+            >
+              <span aria-hidden>✓</span> Vetted {business.vettedSince}
+            </span>
+          )}
+          <span className="inline-flex items-center rounded-full border border-primary/30 bg-secondary px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-primary/80">
             {TIER_LABEL[business.tier]}
           </span>
         </div>
-        {business.listingType === "public-service" ? (
-          <span
-            className="inline-flex shrink-0 items-center gap-1 rounded-full border-2 border-primary/40 bg-secondary px-3 py-1 text-sm font-semibold text-primary"
-            title={`A public or non-profit community service, verified by us on ${business.verifiedDate}. Not a privately vetted company.`}
-          >
-            <span aria-hidden>🏛</span> Public service
-          </span>
-        ) : (
-          <span
-            className="inline-flex shrink-0 items-center gap-1 rounded-full bg-gold/20 px-3 py-1 text-sm font-semibold text-primary"
-            title={`Vetted since ${business.vettedSince}`}
-          >
-            <span aria-hidden>✓</span> Vetted {business.vettedSince}
-          </span>
-        )}
       </div>
       <p className="mt-3 text-base text-foreground/90">
         {business.description}

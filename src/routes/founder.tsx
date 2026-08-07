@@ -86,29 +86,16 @@ function FounderPage() {
 
       {/* ── LETTER + PHOTO ───────────────────────────────────────────────── */}
       <section className="mx-auto max-w-4xl px-6 py-12">
-        {/*
-          Photo placeholder. Replace with a real photograph of Ragini:
-          warm and direct, not a corporate headshot against grey. The photo
-          with her mother, if her mother consents, is the strongest option.
-        */}
         <figure className="float-none mx-auto mb-10 w-full max-w-sm md:float-right md:ml-10 md:mb-6">
-          <div
-            className="flex aspect-[4/5] w-full flex-col items-center justify-center gap-3 rounded-2xl border-2 border-dashed border-gold/60 bg-secondary/50 p-6 text-center"
-            role="img"
-            aria-label="Placeholder for a photograph of Ragini with her mother"
-          >
-            <span aria-hidden className="text-5xl">
-              📷
-            </span>
-            <p className="font-serif text-lg text-primary">
-              Photograph of Ragini
-            </p>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              A warm, direct photo goes here, ideally Ragini with her mother.
-            </p>
-          </div>
+          <img
+            src="/images/ragini-founder.jpg"
+            alt="Ragini, founder of The Vetted Senior, smiling warmly"
+            className="w-full rounded-2xl border border-border shadow-sm"
+            width={900}
+            height={1355}
+          />
           <figcaption className="mt-3 text-center text-sm italic text-muted-foreground">
-            With my mother, the reason this site exists.
+            Ragini, founder of The Vetted Senior.
           </figcaption>
         </figure>
 

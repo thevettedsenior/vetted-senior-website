@@ -27,7 +27,7 @@ export const RESOURCES: Resource[] = [
     file: "/handbook/TVS_Family_Caregivers_Complete_Handbook.pdf",
     title: "The Family Caregiver's Complete Handbook",
     description:
-      "What to do, in what order, when someone you love starts needing help. Twelve plain-language sections, from the first 72 hours to the 2am pages.",
+      "What to do, in what order, when someone you love starts needing help. Twelve plain language sections, from the first 72 hours to the 2am pages.",
     group: "Start here",
     pages: "Full handbook",
   },

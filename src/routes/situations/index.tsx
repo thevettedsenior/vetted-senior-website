@@ -10,7 +10,7 @@ export const Route = createFileRoute("/situations/")({
       {
         name: "description",
         content:
-          "Not sure where to start? Choose the situation that sounds closest to what you're dealing with. Plain-language guides for seniors, adult children, and caregivers.",
+          "Not sure where to start? Choose the situation that sounds closest to what you're dealing with. Plain language guides for seniors, adult children, and caregivers.",
       },
     ],
   }),

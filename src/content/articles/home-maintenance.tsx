@@ -164,7 +164,7 @@ export const HOME_MAINTENANCE_ARTICLES: ArticleContentMap = {
       ),
     },
     {
-      heading: "The one-page version for the fridge",
+      heading: "The one page version for the fridge",
       body: (
         <>
           <ul className="list-disc space-y-2 pl-6">

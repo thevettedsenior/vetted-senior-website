@@ -43,7 +43,7 @@ export const LEGAL_FINANCIAL_ARTICLES: ArticleContentMap = {
             thousands of dollars a year: publicly funded home care hours,
             equipment funding that covers 75 percent of a walker or wheelchair
             through the Assistive Devices Program (assessment before purchase,
-            in that order), subsidized adult day programs, and OHIP-funded
+            in that order), subsidized adult day programs, and OHIP funded
             physiotherapy for people 65 and older.
           </p>
         </>
@@ -383,8 +383,8 @@ export const LEGAL_FINANCIAL_ARTICLES: ArticleContentMap = {
             >
               Dementia Concerns guide
             </Link>{" "}
-            covers the whole path, including the Ontario-specific steps that are
-            time-sensitive.
+            covers the whole path, including the steps specific to Ontario that
+            are time-sensitive.
           </p>
         </>
       ),

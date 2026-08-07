@@ -95,7 +95,7 @@ export function faqPageJsonLd(howTo: HowTo) {
   };
 }
 
-/** BreadcrumbList for how-to pages: Home / How-To Guides / this guide. */
+/** BreadcrumbList for how to pages: Home / How To Guides / this guide. */
 export function howToBreadcrumbJsonLd(howTo: HowTo) {
   return {
     "@type": "BreadcrumbList",
@@ -104,7 +104,7 @@ export function howToBreadcrumbJsonLd(howTo: HowTo) {
       {
         "@type": "ListItem",
         position: 2,
-        name: "How-To Guides",
+        name: "How To Guides",
         item: `${SITE_URL}/how-to`,
       },
       {
@@ -122,7 +122,7 @@ export function howToListJsonLd(howTos: HowTo[]) {
   return {
     "@type": "ItemList",
     "@id": `${SITE_URL}/how-to#list`,
-    name: "Step-by-step how-to guides for seniors and caregivers",
+    name: "Step-by-step how to guides for seniors and caregivers",
     numberOfItems: howTos.length,
     itemListElement: howTos.map((h, i) => ({
       "@type": "ListItem",

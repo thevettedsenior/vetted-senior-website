@@ -13,7 +13,7 @@ export const Route = createFileRoute("/handbook")({
       {
         name: "description",
         content:
-          "What to do, in what order, when someone you love starts needing help. A free, plain-language handbook for family caregivers: the first 72 hours, the conversations, the money, the legal basics, and the 2am pages. No email required.",
+          "What to do, in what order, when someone you love starts needing help. A free, plain language handbook for family caregivers: the first 72 hours, the conversations, the money, the legal basics, and the 2am pages. No email required.",
       },
       {
         property: "og:title",
@@ -22,7 +22,7 @@ export const Route = createFileRoute("/handbook")({
       {
         property: "og:description",
         content:
-          "The guide Ragini wishes someone had handed her. Twelve plain-language sections for family caregivers. Free download, no email required.",
+          "The guide Ragini wishes someone had handed her. Twelve plain language sections for family caregivers. Free download, no email required.",
       },
     ],
   }),
@@ -64,7 +64,7 @@ const SECTIONS = [
     n: "6",
     title: "Understanding the Kinds of Help",
     blurb:
-      "A plain-language map of a confusing industry: six kinds of help, the housing spectrum, and the questions that separate good providers from good marketing.",
+      "A plain language map of a confusing industry: six kinds of help, the housing spectrum, and the questions that separate good providers from good marketing.",
   },
   {
     n: "7",

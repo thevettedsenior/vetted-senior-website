@@ -83,7 +83,7 @@ const FALL_MODULE = (
 
     <Sub title="If the fall put your parent in hospital">
       <p>
-        Three Ontario-specific things to know before discharge day, because
+        Three things specific to Ontario to know before discharge day, because
         discharge day is when families get steamrolled.
       </p>
       <ol className="list-decimal space-y-3 pl-6">
@@ -124,7 +124,7 @@ const FALL_MODULE = (
       </p>
       <ol className="list-decimal space-y-3 pl-6">
         <li>
-          OHIP-funded community physiotherapy clinics: people 65 and older (and
+          OHIP funded community physiotherapy clinics: people 65 and older (and
           19 and under, and anyone after an overnight hospital stay for a
           condition needing physio) qualify for episodes of care at designated
           clinics across the province at no charge. Search "OHIP funded
@@ -149,9 +149,9 @@ const FALL_MODULE = (
           <strong>Assistive Devices Program (ADP)</strong>, Ontario Ministry of
           Health. Pays 75 percent of the approved price for eligible mobility
           equipment: walkers, wheelchairs, and other listed devices. The catch
-          families miss: the device must be prescribed through an ADP-registered
+          families miss: the device must be prescribed through an ADP registered
           assessor (usually an occupational therapist or physiotherapist) and
-          bought from an ADP-registered vendor. Buy the walker first and apply
+          bought from an ADP registered vendor. Buy the walker first and apply
           after, and you get nothing. Sequence matters: assessment,
           authorization, then purchase. Info: ontario.ca, search "Assistive
           Devices Program," or call ServiceOntario at 1-800-268-1154.
@@ -394,7 +394,7 @@ const DEMENTIA_MODULE = (
         this means for your family: the licence conversation is not optional or
         infinitely postponable in Ontario, and it is better had at the kitchen
         table than triggered by a ministry letter. Our universal guidance on the
-        driving conversation applies; the Ontario-specific fact is that the
+        driving conversation applies; the fact specific to Ontario is that the
         system will eventually force the issue whether you have prepared or not.
       </p>
     </Sub>
@@ -601,7 +601,7 @@ const HOME_MODULE = (
             Ontario community physiotherapy clinics and falls prevention classes
           </strong>{" "}
           keep strength and balance up, which is the cheapest home care there
-          is. People 65 and older qualify for OHIP-funded episodes of care at
+          is. People 65 and older qualify for OHIP funded episodes of care at
           designated clinics at no charge.
         </li>
         <li>
@@ -696,11 +696,10 @@ export function OntarioModule({ slug }: { slug: string }) {
               If you are in Ontario
             </h2>
             <p className="mt-2 text-base text-muted-foreground leading-relaxed">
-              The guide above applies anywhere. This section carries the
-              Ontario-specific programs, phone numbers, and dollar figures,
-              verified against official Ontario government and Ontario Health
-              atHome sources as of July 2026. Rates marked "adjusted each July"
-              change annually.
+              The guide above applies anywhere. This section carries the Ontario
+              programs, phone numbers, and dollar figures, verified against
+              official Ontario government and Ontario Health atHome sources as
+              of July 2026. Rates marked "adjusted each July" change annually.
             </p>
           </div>
         </div>

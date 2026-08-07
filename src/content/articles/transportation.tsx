@@ -236,7 +236,7 @@ export const TRANSPORTATION_ARTICLES: ArticleContentMap = {
             in Toronto, DARTS in Hamilton, Para Transpo in Ottawa, and
             equivalents elsewhere. Fares match regular transit (a few dollars a
             ride). Two honest caveats: there is an application with eligibility
-            criteria (functional, not age-based), and trips must be booked ahead
+            criteria (based on need, not age), and trips must be booked ahead
             and shared with other riders, so it suits appointments better than
             spontaneity. Apply before the need is urgent; approval takes weeks,
             and having it in place is like a spare key.
@@ -303,7 +303,7 @@ export const TRANSPORTATION_ARTICLES: ArticleContentMap = {
       ),
     },
     {
-      heading: "Putting it together: the one-page ride plan",
+      heading: "Putting it together: the one page ride plan",
       body: (
         <>
           <p>

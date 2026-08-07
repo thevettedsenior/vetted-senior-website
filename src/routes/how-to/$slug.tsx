@@ -40,7 +40,7 @@ export const Route = createFileRoute("/how-to/$slug")({
             content: `${SITE_URL}${loaderData.howTo.image}`,
           },
         ]
-      : [{ title: "How-To Guide" }],
+      : [{ title: "How To Guide" }],
     scripts: loaderData
       ? [
           jsonLdScript(howToJsonLd(loaderData.howTo)),
@@ -55,7 +55,7 @@ export const Route = createFileRoute("/how-to/$slug")({
       <div className="mx-auto max-w-3xl px-6 py-20 text-center">
         <h1 className="font-serif text-3xl text-primary">Guide not found</h1>
         <Link to="/how-to" className="mt-4 inline-block text-primary underline">
-          Back to How-To Guides
+          Back to How To Guides
         </Link>
       </div>
     </Page>
@@ -83,7 +83,7 @@ function HowToPage() {
           </Link>
           <span aria-hidden> / </span>
           <Link to="/how-to" className="hover:underline">
-            How-To Guides
+            How To Guides
           </Link>
         </div>
         <div className="relative mx-auto w-full max-w-4xl px-6 pb-6 md:pb-10">

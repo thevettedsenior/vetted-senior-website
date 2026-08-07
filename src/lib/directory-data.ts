@@ -11,7 +11,7 @@ export type Situation = {
   description: string; // one-line for card
   icon: string;
   phase: "live" | "coming-soon";
-  takeaways?: string[]; // 3 plain-language bullets for "The short version" box
+  takeaways?: string[]; // 3 plain language bullets for "The short version" box
 };
 
 export const SITUATIONS: Situation[] = [
@@ -188,11 +188,11 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     name: "Mobility, Physio & Falls Prevention",
     shortName: "Mobility & Physio",
     description:
-      "Walkers, stairlifts, physiotherapy, and falls-prevention programs.",
+      "Walkers, stairlifts, physiotherapy, and falls prevention programs.",
     icon: "🦽",
     group: "Medical & Health",
     intro:
-      "The right equipment and the right therapy can keep a senior safe at home for years longer than they might otherwise manage. From grab bars and stairlifts to physiotherapy and falls-prevention assessments, this category covers both the gear and the services that make a real difference.",
+      "The right equipment and the right therapy can keep a senior safe at home for years longer than they might otherwise manage. From grab bars and stairlifts to physiotherapy and falls prevention assessments, this category covers both the gear and the services that make a real difference.",
   },
   {
     slug: "hearing-vision",
@@ -229,11 +229,11 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     slug: "mental-health-counselling",
     name: "Mental Health & Counselling",
     shortName: "Mental Health",
-    description: "Counselling for late-life depression, grief, and isolation.",
+    description: "Counselling for late life depression, grief, and isolation.",
     icon: "💬",
     group: "Medical & Health",
     intro:
-      "Depression and anxiety are not a normal part of aging, and they are treatable at any age. From grief counselling to therapists who understand late-life transitions, real help exists. Asking for it is a sign of strength, not weakness.",
+      "Depression and anxiety are not a normal part of aging, and they are treatable at any age. From grief counselling to therapists who understand late life transitions, real help exists. Asking for it is a sign of strength, not weakness.",
   },
   {
     slug: "retirement-residences",
@@ -250,7 +250,7 @@ export const HELP_CATEGORIES: HelpCategory[] = [
     name: "Palliative & Hospice Care",
     shortName: "Palliative Care",
     description:
-      "Comfort-focused care at the end of life, at home or in hospice.",
+      "Care focused on comfort at the end of life, at home or in hospice.",
     icon: "🕊️",
     group: "Medical & Health",
     intro:
@@ -341,7 +341,7 @@ export type Article = {
   description: string; // one-sentence summary for the card
   image: string;
   affiliate?: boolean; // true = page shows the affiliate disclosure banner at the top
-  takeaways?: string[]; // 3 plain-language bullets for "The short version" box
+  takeaways?: string[]; // 3 plain language bullets for "The short version" box
 };
 
 export const ARTICLES: Article[] = [
@@ -364,7 +364,7 @@ export const ARTICLES: Article[] = [
     title:
       "Personal Support, Nursing, or Companion Care: Which Type of Home Care Do You Actually Need?",
     description:
-      "A plain-language comparison of the three main types of home care, what they cost, and which one fits your situation.",
+      "A plain language comparison of the three main types of home care, what they cost, and which one fits your situation.",
     image: "/images/help/homecare-care-types.jpeg",
     takeaways: [
       "Personal support workers handle daily tasks like bathing and meals, nurses handle clinical care, and companions provide social connection.",
@@ -382,8 +382,8 @@ export const ARTICLES: Article[] = [
     image: "/images/help/family-doctor-hero.svg",
     takeaways: [
       "Register with Health Care Connect (call 811) on day one and mention every diagnosis, since complex patients get priority.",
-      "Nurse practitioner clinics provide full OHIP-funded primary care and are a real substitute for most seniors' routine needs.",
-      "While you wait, use one walk-in clinic consistently and keep a one-page health summary and medication list in the wallet.",
+      "Nurse practitioner clinics provide full OHIP funded primary care and are a real substitute for most seniors' routine needs.",
+      "While you wait, use one walk-in clinic consistently and keep a one page health summary and medication list in the wallet.",
     ],
   },
   {
@@ -433,8 +433,8 @@ export const ARTICLES: Article[] = [
     title:
       "Depression After 70 Is Not Normal Aging: Spotting It and Treating It",
     description:
-      "Why late-life depression hides behind physical complaints, what treatment involves, and what OHIP covers.",
-    image: "/images/help/late-life-depression-hero.svg",
+      "Why late life depression hides behind physical complaints, what treatment involves, and what OHIP covers.",
+    image: "/images/help/late life-depression-hero.svg",
     takeaways: [
       "Depression is treatable at every age and often shows up as pain, fatigue, and poor sleep rather than sadness.",
       "OHIP covers the family doctor, psychiatrists with a referral, and Ontario Structured Psychotherapy, a free program you can self-refer into.",
@@ -581,15 +581,15 @@ export const ARTICLES: Article[] = [
   {
     slug: "fall-proofing-the-home",
     categorySlug: "medical-alert-safety",
-    title: "Fall-Proofing a Home, Room by Room, for Under $300",
+    title: "Fall Proofing a Home, Room by Room, for Under $300",
     description:
-      "The highest-value safety fixes in every room, what each one costs, and the order to do them in.",
+      "The highest value safety fixes in every room, what each one costs, and the order to do them in.",
     image: "/images/help/fallproofing-home-hero.svg",
     affiliate: true,
     takeaways: [
       "Do the free fixes first: secure loose rugs, reroute cords, clear the stairs, and move daily items to waist height.",
       "Grab bars anchored into studs cost $20 to $40 each, and towel bars are not grab bars.",
-      "Ask the doctor about OHIP-covered physiotherapy at 65 and older, since strength and balance cut fall risk more than any gadget.",
+      "Ask the doctor about OHIP covered physiotherapy at 65 and older, since strength and balance cut fall risk more than any gadget.",
     ],
   },
   {

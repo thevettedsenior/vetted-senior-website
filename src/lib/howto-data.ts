@@ -43,7 +43,7 @@ export type HowTo = {
   description: string; // one-sentence summary; also the meta description
   image: string;
   minutes: number; // honest read time, shown on cards
-  takeaways: string[]; // 3 plain-language bullets for "The short version"
+  takeaways: string[]; // 3 plain language bullets for "The short version"
   steps: HowToStep[]; // emitted as schema.org HowTo steps
   faqs: HowToFaq[]; // emitted as schema.org FAQPage and rendered on-page
   related: string[]; // slugs of related how-tos, shown at the bottom
@@ -312,9 +312,9 @@ export const HOW_TOS: HowTo[] = [
       },
       {
         question:
-          "Are there free falls-prevention classes for seniors in Canada?",
+          "Are there free falls prevention classes for seniors in Canada?",
         answer:
-          "Yes. Most Ontario communities have publicly funded falls-prevention or exercise classes for older adults, run through community health centres, seniors' active living centres, and programs like SMART exercises. Call 211 and ask for falls-prevention classes near you, or ask your doctor or Ontario Health atHome at 310-2222 for a referral. A physiotherapist can also build a personal program, which is worth it after any fall.",
+          "Yes. Most Ontario communities have publicly funded falls prevention or exercise classes for older adults, run through community health centres, seniors' active living centres, and programs like SMART exercises. Call 211 and ask for falls prevention classes near you, or ask your doctor or Ontario Health atHome at 310-2222 for a referral. A physiotherapist can also build a personal program, which is worth it after any fall.",
       },
     ],
     related: [

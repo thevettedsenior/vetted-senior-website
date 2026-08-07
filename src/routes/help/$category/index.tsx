@@ -144,7 +144,7 @@ function HelpCategoryPage() {
               Articles coming soon
             </p>
             <p className="mt-2 text-base text-muted-foreground">
-              We're writing plain-language guides for this section. Check back
+              We're writing plain language guides for this section. Check back
               shortly, or{" "}
               <Link to="/contact" className="underline">
                 contact us
@@ -165,7 +165,7 @@ function HelpCategoryPage() {
             <p className="mt-2 text-base text-muted-foreground">
               Short skills guides with diagrams, from our{" "}
               <Link to="/how-to" className="text-primary underline">
-                How-To Guides
+                How To Guides
               </Link>{" "}
               collection.
             </p>

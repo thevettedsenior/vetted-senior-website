@@ -389,7 +389,7 @@ export const MOBILITY_HOWTOS: ArticleContentMap = {
           <p>
             If the house has stairs used daily and only one rail, a second rail
             on the other wall costs a few hundred dollars installed and is among
-            the highest-value safety spends in the whole house, alongside{" "}
+            the highest value safety spends in the whole house, alongside{" "}
             <Link
               to="/how-to/$slug"
               params={{ slug: "how-to-place-grab-bars" }}
@@ -495,7 +495,7 @@ export const MOBILITY_HOWTOS: ArticleContentMap = {
           <p>
             One safety note before starting: if there has already been a fall,
             or standing exercises feel frightening rather than merely effortful,
-            start with a physiotherapist or a community falls-prevention class
+            start with a physiotherapist or a community falls prevention class
             instead of alone at the counter. Call 211 and ask what runs near
             you; most Ontario communities have free or cheap options.
           </p>

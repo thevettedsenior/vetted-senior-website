@@ -82,7 +82,7 @@ export function HandbookCTA({ compact = false }: { compact?: boolean }) {
           </p>
           <p className="mt-3 text-lg text-foreground/80 leading-relaxed">
             What to do, in what order, when someone you love starts needing
-            help. Twelve plain-language sections, from the first 72 hours to the
+            help. Twelve plain language sections, from the first 72 hours to the
             2am pages. Free, and no email address required.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">

@@ -11,7 +11,7 @@ export const MENTAL_HEALTH_COUNSELLING_ARTICLES: ArticleContentMap = {
             The most harmful idea in seniors' mental health is that feeling low
             is simply what old age is like. It is not. Depression is a treatable
             illness at every age, and treatment works about as well at 80 as it
-            does at 40. What is true is that late-life depression is
+            does at 40. What is true is that late life depression is
             underdiagnosed, partly because seniors themselves grew up in a
             generation that did not discuss it, and partly because it wears
             disguises: it shows up at the doctor's office as back pain, poor
@@ -95,7 +95,7 @@ export const MENTAL_HEALTH_COUNSELLING_ARTICLES: ArticleContentMap = {
       body: (
         <>
           <p>
-            The evidence for late-life depression supports the same two pillars
+            The evidence for late life depression supports the same two pillars
             as at any age: talk therapy and medication, alone or together. For
             mild to moderate depression, structured talk therapy (especially
             cognitive behavioural therapy) performs as well as medication and
@@ -106,13 +106,13 @@ export const MENTAL_HEALTH_COUNSELLING_ARTICLES: ArticleContentMap = {
           </p>
           <p>
             On coverage: visits to the <strong>family doctor</strong> and to a{" "}
-            <strong>psychiatrist</strong> (with a referral) are OHIP-covered,
+            <strong>psychiatrist</strong> (with a referral) are OHIP covered,
             and so is <strong>Ontario Structured Psychotherapy</strong>, a free
-            program of CBT-based therapy you can self-refer into. What OHIP does
-            not cover is private psychologists and registered psychotherapists,
-            who charge roughly $130 to $220 a session. The affordable routes
-            into therapy, including the free and sliding-scale ones, are the
-            subject of{" "}
+            program of CBT therapy you can self-refer into. What OHIP does not
+            cover is private psychologists and registered psychotherapists, who
+            charge roughly $130 to $220 a session. The affordable routes into
+            therapy, including the free and sliding-scale ones, are the subject
+            of{" "}
             <Link
               to="/help/$category/$article"
               params={{
@@ -128,7 +128,7 @@ export const MENTAL_HEALTH_COUNSELLING_ARTICLES: ArticleContentMap = {
           <p>
             And do not discount the non-clinical layer, because the evidence for
             it is real: exercise programs, daylight, social contact, and
-            treating hearing loss all move the needle on late-life mood. A
+            treating hearing loss all move the needle on late life mood. A
             parent who is isolated needs connection alongside treatment, not
             instead of it; the free programs in our{" "}
             <Link
@@ -253,7 +253,7 @@ export const MENTAL_HEALTH_COUNSELLING_ARTICLES: ArticleContentMap = {
             </li>
             <li>
               <strong>Ontario Structured Psychotherapy</strong> provides free,
-              OHIP-funded courses of cognitive behavioural therapy for
+              OHIP funded courses of cognitive behavioural therapy for
               depression and anxiety, with self-referral.
             </li>
             <li>
@@ -285,7 +285,7 @@ export const MENTAL_HEALTH_COUNSELLING_ARTICLES: ArticleContentMap = {
         <>
           <p>
             Ontario's talk-therapy professionals come with an alphabet.{" "}
-            <strong>Psychiatrists</strong> are physicians, OHIP-covered with a
+            <strong>Psychiatrists</strong> are physicians, OHIP covered with a
             referral, best reserved for complex or severe cases and for
             medication decisions; waits are long. <strong>Psychologists</strong>{" "}
             (roughly $180 to $250 a session) assess and treat, and can do formal

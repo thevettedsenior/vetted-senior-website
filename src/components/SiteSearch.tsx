@@ -125,7 +125,7 @@ function search(raw: string): SearchHit[] {
 }
 
 /**
- * Plain-language site search for the homepage hero. Matches situations,
+ * Plain language site search for the homepage hero. Matches situations,
  * help topics, and articles; results are ordinary links in a listbox.
  */
 export function SiteSearch() {

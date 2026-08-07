@@ -75,7 +75,7 @@ const CRITERIA = [
   },
   {
     name: "Competence and safety",
-    body: "Screening, training, and supervision practices that are real and evidenced, not described. Scope limits understood. Category-specific safety practices in place.",
+    body: "Screening, training, and supervision practices that are real and evidenced, not described. Scope limits understood. Safety practices that fit the category in place.",
   },
   {
     name: "Reliability",

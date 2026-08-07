@@ -17,12 +17,12 @@ export const MOBILITY_EQUIPMENT_ARTICLES: ArticleContentMap = {
             health professional, usually an occupational therapist or
             physiotherapist, assesses the person and prescribes the device
             <em> before</em> it is purchased, and only when it is bought from an
-            ADP-registered vendor. Buy first, and the funding is gone.
+            ADP registered vendor. Buy first, and the funding is gone.
             Permanently, for that device.
           </p>
           <p>
             So the order is: doctor or Ontario Health atHome (310-2222) for a
-            therapist assessment, then prescription, then an ADP-registered
+            therapist assessment, then prescription, then an ADP registered
             vendor. The assessment itself is often free through the public
             system. Yes, it adds two or three weeks. It also cuts the price of a
             $500 rollator to $125, and it means the device actually fits, which
@@ -126,7 +126,7 @@ export const MOBILITY_EQUIPMENT_ARTICLES: ArticleContentMap = {
         <>
           <p>
             We will be straight with you about the boundary. The funded device
-            itself should come from an ADP-registered vendor after an
+            itself should come from an ADP registered vendor after an
             assessment, so we link nothing there. The accessories that make a
             device work day to day are a different story: they are cheap,
             unfunded, and genuinely useful, and ours are affiliate links per{" "}
@@ -212,7 +212,7 @@ export const MOBILITY_EQUIPMENT_ARTICLES: ArticleContentMap = {
             shopping, winter.
           </li>
           <li>
-            Buy the prescribed device from an ADP-registered vendor so the 75
+            Buy the prescribed device from an ADP registered vendor so the 75
             percent funding applies.
           </li>
           <li>Set a reminder to check the tips and brakes every six months.</li>
@@ -342,7 +342,7 @@ export const MOBILITY_EQUIPMENT_ARTICLES: ArticleContentMap = {
                 }}
                 className="text-primary underline"
               >
-                fall-proofing guide
+                fall proofing guide
               </Link>
               . Exhaust the modest version first.
             </li>

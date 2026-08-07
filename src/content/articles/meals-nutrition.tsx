@@ -84,7 +84,7 @@ export const MEALS_NUTRITION_ARTICLES: ArticleContentMap = {
                 Mainstream meal kits and prepared-meal subscriptions
               </strong>{" "}
               are built for busy workers, not seniors: portions, packaging, and
-              app-based ordering all fit poorly. Usually the wrong tool.
+              ordering through an app all fit poorly. Usually the wrong tool.
             </li>
             <li>
               <strong>Grocery delivery</strong> from the major chains runs $5 to
@@ -196,7 +196,7 @@ export const MEALS_NUTRITION_ARTICLES: ArticleContentMap = {
               }}
               className="text-primary underline"
             >
-              fall-proofing guide
+              fall proofing guide
             </Link>{" "}
             matters, but food is the root cause to fix.
           </p>

@@ -188,7 +188,7 @@ export const FALLS_HOWTOS: ArticleContentMap = {
               }}
               className="text-primary underline"
             >
-              fall-proofing guide
+              fall proofing guide
             </Link>
             .
           </p>
@@ -564,7 +564,7 @@ export const FALLS_HOWTOS: ArticleContentMap = {
               }}
               className="text-primary underline"
             >
-              our fall-proofing guide
+              our fall proofing guide
             </Link>
             .
           </p>

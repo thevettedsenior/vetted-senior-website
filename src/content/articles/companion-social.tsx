@@ -74,7 +74,7 @@ export const COMPANION_SOCIAL_ARTICLES: ArticleContentMap = {
           </p>
           <p className="italic">
             If the caregiver's exhaustion is the acute problem, day programs are
-            the single highest-value respite tool; the{" "}
+            the single highest value respite tool; the{" "}
             <Link
               to="/situations/$slug"
               params={{ slug: "caregiver-burnout" }}

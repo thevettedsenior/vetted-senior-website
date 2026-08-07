@@ -105,7 +105,7 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
               each railing and try to wobble it. A loose railing is worse than
               none, because it betrays exactly when it is needed. Adding a
               second railing costs roughly $100 to $300 installed and is one of
-              the highest-value changes on this whole list.
+              the highest value changes on this whole list.
             </li>
             <li>
               <strong>Light the stairs from both ends,</strong> with switches at
@@ -283,7 +283,7 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
               About $100 to $300: second stair railing, professionally installed
             </li>
             <li>
-              Ask the doctor: OHIP-covered physiotherapy referral for strength
+              Ask the doctor: OHIP covered physiotherapy referral for strength
               and balance
             </li>
           </ol>
@@ -310,7 +310,7 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
             monitoring centre that answers when it is pressed, day or night. The
             good ones turn a fall from a night on the floor into a
             fifteen-minute wait for help. That is the whole product, and for the
-            right person it is one of the highest-value purchases in all of
+            right person it is one of the highest value purchases in all of
             senior care.
           </p>
           <p>
@@ -355,9 +355,9 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
               Treat it as a backup to the button, not a replacement.
             </li>
             <li>
-              <strong>Smartwatch-style devices:</strong> alert functions built
-              into a watch form. Some seniors who refuse a pendant will wear a
-              watch. The trade-offs are battery life and smaller buttons.
+              <strong>Smartwatch devices:</strong> alert functions built into a
+              watch form. Some seniors who refuse a pendant will wear a watch.
+              The trade-offs are battery life and smaller buttons.
             </li>
           </ul>
         </>

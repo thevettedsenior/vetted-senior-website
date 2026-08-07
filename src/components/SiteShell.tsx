@@ -99,7 +99,7 @@ function FindHelpMenu() {
 
 const NAV_LINKS = [
   { to: "/situations", label: "Find Your Situation" },
-  { to: "/how-to", label: "How-To Guides" },
+  { to: "/how-to", label: "How To Guides" },
   { to: "/directory", label: "Directory" },
   { to: "/about", label: "How We Vet" },
   { to: "/handbook", label: "Free Handbook" },
@@ -189,7 +189,7 @@ export function SiteHeader() {
                 { to: "/", label: "Home" },
                 { to: "/situations", label: "Find Your Situation" },
                 { to: "/help", label: "Find Help by Topic" },
-                { to: "/how-to", label: "How-To Guides" },
+                { to: "/how-to", label: "How To Guides" },
                 { to: "/directory", label: "Directory" },
                 { to: "/about", label: "How We Vet" },
                 { to: "/handbook", label: "Free Handbook" },
@@ -259,7 +259,7 @@ export function SiteFooter() {
               </span>
             </div>
             <p className="mt-4 max-w-sm leading-relaxed opacity-85">
-              Plain-language guidance for seniors, adult children, and
+              Plain language guidance for seniors, adult children, and
               caregivers. No jargon. No pressure. No paid placements.
             </p>
           </div>
@@ -270,7 +270,7 @@ export function SiteFooter() {
               {[
                 { to: "/situations", label: "Find Your Situation" },
                 { to: "/help", label: "Find Help" },
-                { to: "/how-to", label: "How-To Guides" },
+                { to: "/how-to", label: "How To Guides" },
                 { to: "/directory", label: "Directory" },
                 { to: "/handbook", label: "Free Caregiver Handbook" },
                 { to: "/resources", label: "Checklists & Printables" },

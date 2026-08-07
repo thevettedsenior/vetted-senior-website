@@ -110,10 +110,10 @@ export const RETIREMENT_RESIDENCES_ARTICLES: ArticleContentMap = {
             Because the residents cannot report problems reliably, this is the
             tier where your own eyes matter most. Visit at different times,
             unannounced. Watch whether staff talk to residents or over them. Ask
-            what dementia-specific training staff actually receive, in hours,
-            not adjectives. Ask how they handle responsive behaviours (the
-            sector's term for agitation, wandering, and aggression), and be wary
-            of any answer that sounds like sedation as a first resort.
+            what dementia training staff actually receive, in hours, not
+            adjectives. Ask how they handle responsive behaviours (the sector's
+            term for agitation, wandering, and aggression), and be wary of any
+            answer that sounds like sedation as a first resort.
           </p>
           <p className="italic">
             If dementia is new territory for your family, start with the{" "}
