@@ -63,6 +63,25 @@
     "intakeNote": "Call or text 9-8-8 at any hour; free, confidential, and no referral needed."
   },
   {
+    "id": "acces-loisirs-quebec-companion-social",
+    "name": "Acces-Loisirs Quebec (Free Recreation for Low Income)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Quebec City"
+    ],
+    "phone": "418 657-4821",
+    "description": "A registered charity, not a government program or a private company, that gives people with low income, including seniors, a free spot in a sports, culture or outdoor leisure activity. Families sign up in person with proof of income at a partner location in Quebec City (and in L'Ancienne-Lorette) during the September or January registration window. This charity's website is in French only.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "acces-loisirs-quebec",
+    "website": "https://accesloisirsquebec.com/",
+    "intakeNote": "Call 418 657-4821 for information, then register in person with proof of income at a partner point of service during the September or January registration window."
+  },
+  {
     "id": "advocacy-centre-elderly-legal-financial",
     "name": "Advocacy Centre for the Elderly (ACE)",
     "category": "Legal & Financial",
@@ -1122,6 +1141,25 @@
     "brandGroup": "cbrm",
     "website": "https://cbrm.ns.ca/low-income-property-tax-exemption-application-deadline-extended-to-march-31-2026/",
     "intakeNote": "Pick up or request the application form by calling 311, complete and swear it, and return it to the Citizen Service Centre at City Hall, 320 Esplanade, Sydney, before the yearly deadline."
+  },
+  {
+    "id": "central-lions-seniors-association-companion-social",
+    "name": "Central Lions Seniors Association",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Edmonton"
+    ],
+    "phone": "780-496-7369",
+    "description": "A registered charity that runs daytime social, fitness, arts and education programs for people 55 and older at the Central Lions Recreation Centre in Edmonton. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "central-lions-seniors-association",
+    "website": "https://www.centrallions.org/",
+    "intakeNote": "Call 780-496-7369 or email info@centrallions.org, or visit the registration desk at the Central Lions Recreation Centre, Monday to Friday 8:30am to 4pm, to sign up for a membership."
   },
   {
     "id": "chats-home-care",
@@ -2947,6 +2985,44 @@
     "intakeNote": "Call any time, text CONNEX to 247247, or use the live chat at connexontario.ca; no referral needed."
   },
   {
+    "id": "cook-street-activity-centre-companion-social",
+    "name": "Cook Street Village Activity Centre",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Victoria"
+    ],
+    "phone": "(250) 384-6542",
+    "description": "Cook Street Village Activity Centre Society, known as New Horizons, is a registered charity offering social, educational, wellness and recreational programs for adults 50 and better in Victoria's Cook Street Village. A non-profit community service, not a privately vetted company, it also runs free Cycling Without Age trishaw bike rides for members who cannot get out and about on their own.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "cook-street-activity-centre",
+    "website": "https://cookstreetvillageactivitycentre.com/",
+    "intakeNote": "Call (250) 384-6542, email executivedir@csvac.ca, or visit the centre at 1-380 Cook Street, Victoria."
+  },
+  {
+    "id": "cook-street-activity-centre-meals-nutrition",
+    "name": "Grab & Go Meals",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Victoria"
+    ],
+    "phone": "(250) 384-6542",
+    "description": "A weekly homecooked meal program at Cook Street Village Activity Centre Society, a registered charity, where volunteer cooks prepare a seasonal meal to order by Thursday for Saturday pickup. The centre's Rendezvous Cafe also serves baked goods and hot drinks on weekdays. A non-profit community service, not a private cafe.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "cook-street-activity-centre",
+    "website": "https://cookstreetvillageactivitycentre.com/food-services",
+    "intakeNote": "Call (250) 384-6542, email executivedir@csvac.ca, or visit the centre at 1-380 Cook Street, Victoria."
+  },
+  {
     "id": "cra-seniors-legal-financial-benefits-finder",
     "name": "Benefits Finder (canada.ca)",
     "category": "Legal & Financial",
@@ -3353,6 +3429,82 @@
     "intakeNote": "Call 780-496-7000 or contact your local branch to register; a friend or family member can also pick up chosen materials for you."
   },
   {
+    "id": "golden-circle-red-deer-companion-social",
+    "name": "Golden Circle Senior Resource Centre",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Red Deer"
+    ],
+    "phone": "403-343-6074",
+    "description": "A registered charity and long-running seniors resource centre in Red Deer, running clubs, classes and social activities for older adults, including cards and games, fitness, music and community dining. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "golden-circle-red-deer",
+    "website": "https://goldencircle.ca/programs/",
+    "intakeNote": "Call 403-343-6074 (Monday to Friday, 8:30am to 4:30pm) to ask about any program; outreach services (home maintenance, transportation) generally start with an intake appointment with an Outreach Coordinator, which can follow a referral from the person themselves, a family member, or a professional."
+  },
+  {
+    "id": "golden-circle-red-deer-home-maintenance",
+    "name": "Golden Circle Home Maintenance",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Red Deer"
+    ],
+    "phone": "403-343-6074",
+    "description": "A non-profit community service where Golden Circle Outreach Coordinators take a senior's home maintenance request, such as housekeeping, yard work, minor repairs or snow shoveling, and match it with a screened brokered worker at a set hourly rate. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "golden-circle-red-deer",
+    "website": "https://goldencircle.ca/outreach/home-maintenance/",
+    "intakeNote": "Call 403-343-6074 (Monday to Friday, 8:30am to 4:30pm) to ask about any program; outreach services (home maintenance, transportation) generally start with an intake appointment with an Outreach Coordinator, which can follow a referral from the person themselves, a family member, or a professional."
+  },
+  {
+    "id": "golden-circle-red-deer-meals-nutrition",
+    "name": "Golden Circle Homestyle Frozen Meals",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Red Deer"
+    ],
+    "phone": "403-343-6074",
+    "description": "A non-profit community service from the Golden Circle Senior Resource Centre, offering affordable, ready-to-eat frozen meals delivered in Red Deer, open to everyone in the community whether or not they are a member. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "golden-circle-red-deer",
+    "website": "https://goldencircle.ca/services/homestyle-frozen-meals/",
+    "intakeNote": "Call 403-343-6074 (Monday to Friday, 8:30am to 4:30pm) to ask about any program; outreach services (home maintenance, transportation) generally start with an intake appointment with an Outreach Coordinator, which can follow a referral from the person themselves, a family member, or a professional."
+  },
+  {
+    "id": "golden-circle-red-deer-transportation",
+    "name": "Golden Circle Supportive Transportation",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Red Deer"
+    ],
+    "phone": "403-343-6074",
+    "description": "A non-profit community service that provides volunteer drivers for non-emergency medical appointments and grocery shopping trips, for older adults in and around Red Deer. This is a non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "golden-circle-red-deer",
+    "website": "https://goldencircle.ca/outreach/supportive-transportation/",
+    "intakeNote": "Call 403-343-6074 (Monday to Friday, 8:30am to 4:30pm) to ask about any program; outreach services (home maintenance, transportation) generally start with an intake appointment with an Outreach Coordinator, which can follow a referral from the person themselves, a family member, or a professional."
+  },
+  {
     "id": "halifax-access-a-bus-transportation",
     "name": "Access-A-Bus (Halifax Transit)",
     "category": "Transportation",
@@ -3614,6 +3766,101 @@
     "brandGroup": "hospice-toronto",
     "website": "https://hospicetoronto.ca/what-we-do/in-home-care/",
     "intakeNote": "Families and individuals can self-refer by calling the office at 416-364-1666; organizations refer using the Toronto Central Palliative Care Network Common Referral Form faxed to 416-364-2231."
+  },
+  {
+    "id": "independence-plus-saint-john-transportation",
+    "name": "Saint John Accessible Transit (Independence Plus)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [
+      "Saint John"
+    ],
+    "phone": "506-648-0609",
+    "description": "Saint John Accessible Transit provides door to door rides for people with disabilities who cannot use the regular city bus. It is run by Independence Plus Inc., a registered charity, on behalf of Saint John Transit, so this is a non-profit community service, not a private company. Attendants ride free, and rides run most days, though there is no Sunday service.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "independence-plus-saint-john",
+    "website": "https://saintjohn.ca/en/transit/accessibility/saint-john-accessible-transit",
+    "intakeNote": "Call 506-648-0609 to book or cancel a ride (at least 60 minutes notice needed), or 506-643-7004 for administration questions."
+  },
+  {
+    "id": "james-bay-new-horizons-companion-social",
+    "name": "James Bay New Horizons Society",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Victoria"
+    ],
+    "phone": "250-386-3035",
+    "description": "James Bay New Horizons is a not for profit society, started in 1974, that runs drop-in classes and social events for seniors from its centre in Victoria's James Bay neighbourhood, including a garden and beekeeping project and an Out to Lunch group that visits local restaurants. A non-profit community service, not a private company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "james-bay-new-horizons",
+    "website": "https://www.jamesbaynewhorizons.ca/",
+    "intakeNote": "Call 250-386-3035 or visit 234 Menzies Street in Victoria, Monday to Friday 9:00 am to 4:00 pm."
+  },
+  {
+    "id": "james-bay-new-horizons-meals-nutrition",
+    "name": "Community Meal Programs",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Victoria"
+    ],
+    "phone": "250-386-3035",
+    "description": "James Bay New Horizons, a not for profit society, serves a members' Tuesday hot lunch and a free Sunday supper for frail, isolated or lower income seniors, plus a free monthly soup. Its More Than Meals program also delivers three meals a week, right to the door, for seniors referred through partner volunteer agencies. A non-profit community service.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "james-bay-new-horizons",
+    "website": "https://www.jamesbaynewhorizons.ca/meals.html",
+    "intakeNote": "For the Tuesday lunch, register with reception by Monday at noon. For More Than Meals home delivery, contact Sherri at 250-386-3035."
+  },
+  {
+    "id": "james-bay-new-horizons-medical-alert-safety",
+    "name": "Seniors' Reassurance Program",
+    "category": "Medical Alert & Safety",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Victoria"
+    ],
+    "phone": "250-386-4432",
+    "description": "A free program from James Bay New Horizons, a not for profit society, where a volunteer calls a senior who lives alone each weekday morning to make sure they are safe and well, then follows up with emergency contacts if there is no answer. A non-profit community service, not a paid monitoring company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "james-bay-new-horizons",
+    "website": "https://www.jamesbaynewhorizons.ca/community-outreach",
+    "intakeNote": "Call 250-386-4432 to start an intake interview, or ask a staff member at the centre."
+  },
+  {
+    "id": "james-bay-new-horizons-mobility-equipment",
+    "name": "Health Equipment Loan",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Victoria"
+    ],
+    "phone": "250-386-3035",
+    "description": "James Bay New Horizons, a not for profit society, lends mobility scooters, walkers, raised toilet seats and wheelchairs to members for short or long term use. A non-profit community service.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "james-bay-new-horizons",
+    "website": "https://www.jamesbaynewhorizons.ca/community-outreach",
+    "intakeNote": "Call 250-386-3035 or visit 234 Menzies Street in Victoria, Monday to Friday 9:00 am to 4:00 pm."
   },
   {
     "id": "kidney-foundation-canada-mental-health-counselling",
@@ -3931,6 +4178,27 @@
     "brandGroup": "march-of-dimes-canada",
     "website": "https://www.marchofdimes.ca/en-ca/programs/am/hvmp",
     "intakeNote": "Download the application from marchofdimes.ca and mail it in with proof of income, disability verification and a vendor quote; call 1-877-369-4867 or email hvmp@marchofdimes.ca with questions."
+  },
+  {
+    "id": "meals-on-wheels-fredericton-meals-nutrition",
+    "name": "Meals on Wheels of Fredericton",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [
+      "Fredericton"
+    ],
+    "phone": "(506) 458-9482",
+    "description": "A registered charity that delivers meals every day of the year to seniors, people with disabilities, and people recovering from illness, surgery or injury in Fredericton, Hanwell and New Maryland, with frozen meals also reaching Harvey and Queens County. This is a non-profit community service, not a private company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "meals-on-wheels-fredericton",
+    "website": "https://frederictonmealsonwheels.ca/",
+    "intakeNote": "Call (506) 458-9482 or email info@frederictonmealsonwheels.ca; office hours are Monday to Thursday 8 am to 2:30 pm and Friday 8 am to 11:30 am.",
+    "program": "Meals on Wheels",
+    "runBy": "Meals on Wheels of Fredericton Inc."
   },
   {
     "id": "medicalert-foundation-dementia-memory-support",
@@ -4833,6 +5101,25 @@
     "intakeNote": "Automatic once federal GIS or Spouse's Allowance is in place; questions to ECE income security at 867-767-9355 or toll-free 866-973-7252."
   },
   {
+    "id": "okanagan-mission-seniors-society-companion-social",
+    "name": "Okanagan Mission Seniors Society",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Kelowna"
+    ],
+    "phone": "250-763-2781",
+    "description": "The Okanagan Mission Seniors Society is a non-profit community service that runs social programs, including painting, singing and pot lucks, for older adults at the Sarsons Activity Centre on the Kelowna waterfront. It partners with the City of Kelowna, which uses the same building for evening and weekend programs.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "okanagan-mission-seniors-society",
+    "website": "https://www.okmissionseniors.com/",
+    "intakeNote": "Call 250-763-2781, email okmissionseniors@gmail.com, or visit the Sarsons Activity Centre at 4398 Hobson Road, Kelowna."
+  },
+  {
     "id": "ontario-adp-hearing-vision",
     "name": "Assistive Devices Program: Hearing Aids and Visual Aids",
     "category": "Vision, Hearing, Dental & Foot Care",
@@ -5231,6 +5518,63 @@
     "brandGroup": "parkinson-canada",
     "website": "https://www.parkinson.ca/help-i-need-somebody/",
     "intakeNote": "Call 1-800-565-3000 or email info@parkinson.ca, Monday to Friday 9 a.m. to 4 p.m. Eastern; the contact page also lists 1-888-664-1974 and support@parkinson.ca for Parkinson's information."
+  },
+  {
+    "id": "parkinson-seniors-society-kelowna-companion-social",
+    "name": "Parkinson Senior Society (Parkinson Activity Centre)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Kelowna"
+    ],
+    "phone": "250-762-4108",
+    "description": "The Parkinson Senior Society is a registered charity that runs drop-in fitness, arts, games and computer classes for adults 50 and active at the Parkinson Activity Centre in Kelowna. The centre takes its name from its street, Parkinson Way, and has no connection to Parkinson's disease. A non-profit community service, not a private company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "parkinson-seniors-society-kelowna",
+    "website": "https://parkinsonseniors.com/",
+    "intakeNote": "Call 250-762-4108 or visit the Parkinson Activity Centre at 1700 Parkinson Way, Kelowna."
+  },
+  {
+    "id": "parkinson-seniors-society-kelowna-meals-nutrition",
+    "name": "The Bistro at Parkinson Activity Centre",
+    "category": "Meals & Nutrition",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Kelowna"
+    ],
+    "phone": "250-762-4108",
+    "description": "A registered charity's onsite Bistro at the Parkinson Activity Centre in Kelowna, serving breakfast, soup, sandwiches and a daily main cooked by a chef, plus frozen meals and soups made to take home. A non-profit community service, not a private restaurant.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "parkinson-seniors-society-kelowna",
+    "website": "https://parkinsonseniors.com/about-us/bistro/",
+    "intakeNote": "Drop in Monday to Friday, 9:00 am to 1:00 pm, or call 250-762-4108."
+  },
+  {
+    "id": "pat-and-the-elephant-transportation",
+    "name": "Pat and the Elephant",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [
+      "Charlottetown"
+    ],
+    "phone": "(902) 894-3339",
+    "description": "A registered charity that has provided accessible transportation across Prince Edward Island since 1975. Wheelchair vans take people to appointments, school, work and family visits, and the service also offers stretcher transport for medical trips that are not emergencies. This is a non-profit community service, not a private company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "pat-and-the-elephant",
+    "website": "https://patandtheelephant.org/",
+    "intakeNote": "Call (902) 894-3339 to book, 7 am to 11 pm daily; after hours, leave a message at 902-388-8211."
   },
   {
     "id": "patient-ombudsman-home-care",
@@ -5900,6 +6244,82 @@
     "intakeNote": "Download the admission form from rtcquebec.ca or call 418 687-2641, option 2 to have it mailed; a health professional completes part of it, and the admission committee answers within 45 days. Once admitted, book trips by phone or online."
   },
   {
+    "id": "rutland-seniors-society-companion-social",
+    "name": "Rutland Seniors Centre",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Kelowna"
+    ],
+    "phone": "(250)765-3723",
+    "description": "The Rutland Senior Centre Society is a registered charity offering recreation and social programs for adults 50 and older at the Rutland Activity Centre in Kelowna, including badminton, pickleball, carpet bowling, cards, line dancing and fitness classes. A non-profit community service, not a privately vetted company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "rutland-seniors-society",
+    "website": "https://rutlandseniors.com/",
+    "intakeNote": "Call (250)765-3723, email rsac@telus.net, or visit 765 Dodd Road, Kelowna."
+  },
+  {
+    "id": "saint-john-seniors-centre-companion-social",
+    "name": "Saint John Seniors' Centre",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [
+      "Saint John"
+    ],
+    "phone": "1-506-633-8781",
+    "description": "A registered charity where seniors can drop in to play board games and socialize, join day trips, hear speakers on topics like fraud awareness and nutrition, and get information and referral on housing, home care, recreation and finances. This is a non-profit community service, not a private company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "saint-john-seniors-centre",
+    "website": "https://seniorshelpsj.ca/services",
+    "intakeNote": "Call 1-506-633-8781 or drop in at Brunswick Square, 3rd Level, 39 King Street, Saint John."
+  },
+  {
+    "id": "saint-john-seniors-centre-legal-financial",
+    "name": "Saint John Seniors' Centre Free Income Tax Clinic",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [
+      "Saint John"
+    ],
+    "phone": "1-506-633-8781",
+    "description": "The Saint John Seniors' Centre, a registered charity, offers free income tax preparation for low-income seniors each tax season, helping about 600 people file their returns. This is a non-profit community service, not a private company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "saint-john-seniors-centre",
+    "website": "https://seniorshelpsj.ca/services",
+    "intakeNote": "Call 1-506-633-8781 or drop in at Brunswick Square, 3rd Level, 39 King Street, Saint John."
+  },
+  {
+    "id": "saint-john-seniors-centre-mobility-equipment",
+    "name": "Saint John Seniors' Centre Assistive Device Loan Library",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "city",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [
+      "Saint John"
+    ],
+    "phone": "1-506-633-8781",
+    "description": "A registered charity that lends assistive devices for daily living, so a senior can try one out before deciding whether to buy it. This is a non-profit community service, not a private company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "saint-john-seniors-centre",
+    "website": "https://seniorshelpsj.ca/services",
+    "intakeNote": "Call 1-506-633-8781 or drop in at Brunswick Square, 3rd Level, 39 King Street, Saint John."
+  },
+  {
     "id": "saskatchewan-provincial-doctors-pharmacy-medication-healthline-811",
     "name": "HealthLine 811",
     "category": "Doctors, Pharmacy & Medication",
@@ -6338,6 +6758,25 @@
     "brandGroup": "st-johns-gobus",
     "website": "https://www.metrobus.com/ALF/gobus_info.asp",
     "intakeNote": "Submit the GoBus application form, with one section completed by a healthcare professional, to Accessible Transit Services at 25 Messenger Drive; a Metrobus-funded transit assessment follows, then registered riders book at (709) 368-8887."
+  },
+  {
+    "id": "stepping-stone-senior-centre-companion-social",
+    "name": "Stepping Stone Senior Centre",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [
+      "Fredericton"
+    ],
+    "phone": "506-450-7849",
+    "description": "A registered charity that runs a seniors centre in Fredericton with arts and theatre, fitness activities, card and game groups, nutrition education and social events for people aged 50 and up. It works on a membership basis. This is a non-profit community service, not a private company.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "stepping-stone-senior-centre",
+    "website": "https://www.steppingstoneseniorcentre.com/",
+    "intakeNote": "Call 506-450-7849, Monday to Friday 9 am to 4 pm, or visit 15 Saunders Street, Fredericton."
   },
   {
     "id": "stl-laval-transportation",
@@ -7129,6 +7568,25 @@
     "brandGroup": "woodgreen",
     "website": "https://www.woodgreen.org/programs/transportation-program",
     "intakeNote": "A family calls WoodGreen's Central Intake line, Monday to Friday 9 a.m. to 5 p.m., to register for Meals on Wheels, the Transportation Program, or Friendly Visiting."
+  },
+  {
+    "id": "ymca-halifax-snow-removal-home-maintenance",
+    "name": "YMCA Senior Snow Removal",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [
+      "Halifax"
+    ],
+    "phone": "(902) 483-3678",
+    "description": "A non-profit community service, run each winter by the YMCA of Greater Halifax/Dartmouth in partnership with Halifax Regional Municipality. The YMCA pays a contractor to clear snow from steps, walkways, ramps and fuel tank access, so it costs the participant nothing, though driveways are not included. The YMCA of Greater Halifax/Dartmouth is a registered charity, and spots are limited and filled first come, first served each season.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-07",
+    "brandGroup": "ymca-halifax-snow-removal",
+    "website": "https://ymcahfx.ca/snowremoval/",
+    "intakeNote": "Call (902) 483-3678 or email ssr@halifax.ymca.ca; an application package can be dropped off, mailed or emailed to the Community YMCA, 2269 Gottingen Street, Halifax, NS B3K 3B7."
   },
   {
     "id": "york-region-companion-social-adult-day",
