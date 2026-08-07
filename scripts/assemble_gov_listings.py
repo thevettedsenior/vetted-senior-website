@@ -48,9 +48,21 @@ ALL_PROVINCES = ["AB", "BC", "MB", "NB", "NL", "NS", "ON", "PE", "QC",
                  "SK", "NT", "NU", "YT"]
 
 ALLOWED_CITIES = {
+    # Ontario launch market
     "Toronto", "Mississauga", "Brampton", "Oshawa", "Whitby", "Ajax",
     "Pickering", "Markham", "Vaughan", "Richmond Hill", "Newmarket",
     "Aurora", "Oakville", "Burlington", "Hamilton", "London", "Ottawa",
+    # Rest-of-Canada cities (must match PROVINCES in directory-data.ts)
+    "Calgary", "Edmonton", "Red Deer",
+    "Vancouver", "Victoria", "Kelowna",
+    "Winnipeg", "Brandon",
+    "Moncton", "Fredericton", "Saint John",
+    "St. John's",
+    "Halifax", "Sydney",
+    "Charlottetown",
+    "Montreal", "Quebec City", "Laval", "Gatineau",
+    "Saskatoon", "Regina",
+    "Yellowknife", "Iqaluit", "Whitehorse",
 }
 
 PROGRAMS = ["Meals on Wheels", "Friendly Visiting", "Adult Day Program"]
@@ -85,6 +97,14 @@ PROMOTED_ISSUE_FAMILIES = {
     "nova-scotia-provincial",
     "newfoundland-provincial",
     "nunavut-territorial",
+    # 2026-08-07 rest-of-Canada cities pass, same ruling (flags are honest
+    # intake quirks stated in the row text, or concern undrafted programs):
+    "city-of-brandon",
+    "city-of-whitehorse",
+    "city-of-winnipeg",
+    "montreal-libraries",
+    "ville-de-montreal",
+    "ville-de-laval",
 }
 
 # Row-level exclusions within otherwise-staged families: {id: reason}.

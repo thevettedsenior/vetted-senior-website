@@ -599,6 +599,82 @@
     "intakeNote": "Apply online at myselfserve.gov.bc.ca/BusPass or call 1-866-866-0800, Monday to Friday 9 am to 4 pm."
   },
   {
+    "id": "bctransit-kelowna-transportation-handydart",
+    "name": "handyDART (Kelowna Regional Transit)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Kelowna"
+    ],
+    "phone": "250-762-3278",
+    "description": "A BC Transit service that gives door-to-door, shared rides in the Kelowna area for people with a permanent or temporary disability that keeps them from using regular buses on their own. Drivers help riders board and exit, picking up and dropping off at an accessible door.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "bctransit-kelowna",
+    "website": "https://www.bctransit.com/kelowna/handydart/",
+    "intakeNote": "Register first with the free handyDART application form, then book trips through the handyDART office at 250-762-3278."
+  },
+  {
+    "id": "bctransit-kelowna-transportation-taxi-saver",
+    "name": "Taxi Saver (Kelowna)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Kelowna"
+    ],
+    "phone": "250-762-3278",
+    "description": "A BC Transit program that sells half-price taxi voucher books to registered handyDART riders in Kelowna, covering 50 percent of the taxi fare for one-time trips when handyDART is not available. Riders call a participating local taxi company and pay with the vouchers.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "bctransit-kelowna",
+    "website": "https://www.bctransit.com/kelowna/handydart/taxi-saver/",
+    "intakeNote": "Enroll through handyDART registration (include a passport photo with the application); the Kelowna handyDART office at 250-762-3278 handles registration."
+  },
+  {
+    "id": "bctransit-victoria-transportation-handydart",
+    "name": "handyDART (Victoria Regional Transit)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Victoria"
+    ],
+    "phone": "250-727-7811",
+    "description": "A BC Transit service that gives door-to-door, shared rides around the Victoria region for people whose disability keeps them from using regular buses. Fares are the same as regular Victoria buses, including a senior rate on monthly passes.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "bctransit-victoria",
+    "website": "https://www.bctransit.com/victoria/handydart/",
+    "intakeNote": "Complete the handyDART application form first (a medical verification form from a health professional can support it); once registered, book trips up to 14 days ahead at 250-727-7811, press 0, or online. To cancel, call 250-479-0004."
+  },
+  {
+    "id": "bctransit-victoria-transportation-taxi-saver",
+    "name": "Taxi Saver (Victoria)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Victoria"
+    ],
+    "phone": "250-995-5618",
+    "description": "A BC Transit program that sells half-price taxi voucher books to registered handyDART riders in the Victoria region, covering 50 percent of the taxi fare for trips handyDART cannot serve. Riders book with a participating taxi company and pay with the vouchers.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "bctransit-victoria",
+    "website": "https://www.bctransit.com/victoria/handydart/taxi-saver/",
+    "intakeNote": "Mail your handyPASS number, return address and a $40 cheque payable to BC Transit to the Taxi Saver Program, 520 Gorge Road East, PO Box 9861, Victoria, BC V8W 9T5; call the Taxi Saver Office at 250-995-5618 with questions."
+  },
+  {
     "id": "bereavement-authority-ontario-funeral-estate-planning",
     "name": "Bereavement Authority of Ontario",
     "category": "Funeral & Estate Planning",
@@ -635,6 +711,44 @@
     "intakeNote": "Call the office Monday to Friday, 8 a.m. to 3 p.m., or use the contact form on the website to place a new order or ask questions.",
     "program": "Meals on Wheels",
     "runBy": "Brampton Meals on Wheels"
+  },
+  {
+    "id": "calgary-public-library-companion-social-homebound",
+    "name": "Calgary Public Library Homebound Readers",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Calgary"
+    ],
+    "phone": "403-260-2702",
+    "description": "A free service from Calgary Public Library, the city's public library system, where trained volunteers choose, deliver and exchange library materials for people who cannot get to a branch because of health or mobility issues. Deliveries often come with a friendly visit, and through Libraries in Residence the library also rotates collections through care centres, lodges and seniors residences across Calgary.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "calgary-public-library",
+    "website": "https://www.calgarylibrary.ca/your-library/accessibility/special-services",
+    "intakeNote": "Call 403-260-2702 to sign up for Homebound Readers; a care home's wellness or recreation coordinator can call the same number to arrange Libraries in Residence."
+  },
+  {
+    "id": "calgary-transit-access-transportation",
+    "name": "Calgary Transit Access",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Calgary"
+    ],
+    "phone": "403-537-7770",
+    "description": "Calgary Transit's shared ride, door-to-door bus service, a City of Calgary service for people whose disability keeps them from using regular buses and CTrains. Once registered, riders book trips by phone or online. Seniors 65 and over can also buy a reduced-price annual seniors pass for regular transit, with a lower-price low-income seniors option for those who qualify by income.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "calgary-transit-access",
+    "website": "https://www.calgarytransit.com/calgary-transit-access.html",
+    "intakeNote": "Call 403-537-7770 to check eligibility and request an application; a medical professional completes one section, then an in-person interview is scheduled within about 5 to 10 business days. Registered riders book trips at 403-537-7777."
   },
   {
     "id": "canadian-anti-fraud-centre-medical-alert-safety",
@@ -781,6 +895,44 @@
     "brandGroup": "canadian-red-cross-ontario",
     "website": "https://www.redcross.ca/in-your-community/ontario/nutrition-and-transportation/transportation",
     "intakeNote": "There is no single phone number across these programs. Families call the specific line: Toronto Transportation and Meals on Wheels at 416-236-3180, Burlington Transportation at 1-844-843-7331 ext 2, Burlington Meals on Wheels at 905-637-5664, or the national Friendly Calls Program at 1-833-979-9779."
+  },
+  {
+    "id": "cbrm-access-a-bus-transportation",
+    "name": "Access-A-Bus (Transit Cape Breton, formerly Handi-Trans)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [
+      "Sydney"
+    ],
+    "phone": "902-539-4336",
+    "description": "Access-A-Bus, long known locally as Handi-Trans, is the Cape Breton Regional Municipality's door-to-door bus service run by Transit Cape Breton for riders whose disabilities keep them off the regular buses. It serves all communities in the CBRM and is meant for social outings, shopping, and recreation as well as medical appointments. Register once by phone, then book rides on the same line.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "cbrm-access-a-bus",
+    "website": "https://cbrm.ns.ca/transportation/transit-cape-breton/access-a-bus/",
+    "intakeNote": "Call the Access-A-Bus line at 902-539-4336, Monday to Friday 8:30 a.m. to 4 p.m., to register and then to book rides."
+  },
+  {
+    "id": "cbrm-legal-financial",
+    "name": "Low-Income Property Tax Exemption (CBRM)",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [
+      "Sydney"
+    ],
+    "phone": "311 or 902-563-2276",
+    "description": "The Cape Breton Regional Municipality takes up to $300 a year off the property tax bill for lower-income homeowners, including many seniors on fixed incomes. If the home is your primary residence and your household income is under $40,800, you can apply with a short sworn form each tax year. Call 311 to have the form mailed or emailed to you.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "cbrm",
+    "website": "https://cbrm.ns.ca/low-income-property-tax-exemption-application-deadline-extended-to-march-31-2026/",
+    "intakeNote": "Pick up or request the application form by calling 311, complete and swear it, and return it to the Citizen Service Centre at City Hall, 320 Esplanade, Sydney, before the yearly deadline."
   },
   {
     "id": "chats-home-care",
@@ -953,6 +1105,44 @@
     "intakeNote": "Call the main line at (416) 635-2860, or Ontario Health atHome at 1-833-515-1234 to be referred for government-funded home care."
   },
   {
+    "id": "city-of-brandon-medical-alert-safety-lock-box",
+    "name": "Senior Fire Safety and Lock Box Program",
+    "category": "Medical Alert & Safety",
+    "tier": "city",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [
+      "Brandon"
+    ],
+    "phone": "204-571-2050",
+    "description": "A City of Brandon fire department program that mounts a small locked key box outside a senior's home so firefighters and paramedics can get in during an emergency without breaking the door. Brandon Fire and Emergency Services inspects and secures each box after it is installed, and pairs the program with fire safety education for older adults.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-brandon",
+    "website": "https://www.brandon.ca/emergency-services/fire-and-emergency-services/public-education-and-fire-safety/senior-fire-safety-and-lock-box-program/",
+    "intakeNote": "Buy the lock box through Seniors for Seniors at 204-571-2050, install it, then email fire@brandon.ca to book the fire department inspection."
+  },
+  {
+    "id": "city-of-brandon-transportation-access-transit",
+    "name": "Brandon Access Transit",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [
+      "Brandon"
+    ],
+    "phone": "204-729-2437",
+    "description": "Brandon Access Transit is a City of Brandon service that gives door-to-door rides within Brandon to people with disabilities who cannot use the regular bus, including a call-back service for medical appointments. Trips are booked by phone with the dispatch office. Fares match regular Brandon Transit, where seniors 60 and older already pay a reduced fare.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-brandon",
+    "website": "https://brandontransit.ca/brandon-access-transit",
+    "intakeNote": "Complete the two application forms, both signed by your family doctor, and email them to accesstransit@brandon.ca or drop them at 723 Rosser Ave Unit A; book trips at 204-729-2437, Monday to Friday."
+  },
+  {
     "id": "city-of-burlington-companion-social",
     "name": "Burlington Seniors' Centre and 55+ Programs",
     "category": "Companion & Social",
@@ -1027,6 +1217,158 @@
     "brandGroup": "city-of-burlington",
     "website": "https://www.burlington.ca/en/transit/specialized-transit.aspx",
     "intakeNote": "Apply with the specialized transit form signed by a health care professional (reviewed within 14 days); once approved, book up to two weeks ahead at 905-639-5158 or online at hvbooking.burlington.ca."
+  },
+  {
+    "id": "city-of-calgary-companion-social-fair-entry",
+    "name": "Fair Entry and Recreation Fee Assistance (Calgary)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Calgary"
+    ],
+    "phone": "311",
+    "description": "A City of Calgary program where one Fair Entry application lets lower-income Calgarians, including seniors, use city services at a reduced cost. Recreation Fee Assistance lowers the price of city pools, fitness centres, golf courses, classes and partner facilities, and the same application also covers the low-income transit pass and the Property Tax Assistance Program.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-calgary",
+    "website": "https://www.calgary.ca/social-services/low-income/fair-entry-subsidy.html",
+    "intakeNote": "Apply online, by mail, or in person at a Fair Entry location (appointments can be booked online); one application a year covers all Fair Entry programs. Call 311 with questions."
+  },
+  {
+    "id": "city-of-calgary-legal-financial-property-tax-assistance",
+    "name": "Calgary Property Tax Assistance Program",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Calgary"
+    ],
+    "phone": "311",
+    "description": "A City of Calgary program that gives lower-income homeowners, including many seniors, a credit for the year-over-year increase on their property tax bill. It runs through the same Fair Entry application as other city subsidies, and is separate from the Alberta government's Seniors Property Tax Deferral loan.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-calgary",
+    "website": "https://www.calgary.ca/social-services/seniors/property-tax-assistance.html",
+    "intakeNote": "Apply through Fair Entry between June 1 and December 31; call 311 (403-268-2489 from outside Calgary) with questions. Processing takes about 4 to 6 weeks."
+  },
+  {
+    "id": "city-of-charlottetown-companion-social",
+    "name": "Parks and Recreation Seniors Programs (City of Charlottetown)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [
+      "Charlottetown"
+    ],
+    "phone": "902-368-1025",
+    "description": "The City of Charlottetown's Parks and Recreation Department publishes a seasonal program brochure with something for everyone from preschoolers to seniors, including seniors fitness classes delivered directly by the department. New brochures come out each spring and fall, and you can register online or by phone. It is a City of Charlottetown service.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-charlottetown",
+    "website": "https://www.charlottetown.ca/leisure___recreation/programs_and_activities/program_brochure",
+    "intakeNote": "Browse the seasonal Parks and Recreation program brochure on charlottetown.ca, then register online through the city's registration system or call 902-368-1025."
+  },
+  {
+    "id": "city-of-edmonton-companion-social-leisure-access",
+    "name": "Leisure Access Program (Edmonton)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Edmonton"
+    ],
+    "phone": "311",
+    "description": "A City of Edmonton program that gives lower-income Edmontonians, including seniors, free or discounted entry to city recreation centres, pools and attractions, plus 75 percent off registered programs. The same application is automatically considered for the Ride Transit Program's discounted monthly bus pass. Any senior can also use the Senior Matinee Hour, $3.50 admission to city fitness centres, pools and gyms on weekdays from 11:30am to 1pm.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-edmonton",
+    "website": "https://www.edmonton.ca/programs_services/leisure-access-program",
+    "intakeNote": "Complete the combined Leisure Access and Ride Transit application and submit it with income documents by mail, at the Edmonton Service Centre, or at a city recreation centre; emailed applications are not accepted. Call 311 for help."
+  },
+  {
+    "id": "city-of-edmonton-home-maintenance-assisted-waste",
+    "name": "Assisted Waste Collection (Edmonton)",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Edmonton"
+    ],
+    "phone": "311",
+    "description": "A City of Edmonton service where collection staff pick up garbage and recycling from outside the front or back door for residents who cannot move their carts to the curb or lane. It covers temporary or long-term mobility challenges, at no extra charge.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-edmonton",
+    "website": "https://www.edmonton.ca/programs_services/garbage_waste/garbage-collection-assisted",
+    "intakeNote": "Have a healthcare professional sign the program form, then apply online or call 311 (780-442-5311 outside Edmonton); staff contact you within about 10 business days to arrange a home visit."
+  },
+  {
+    "id": "city-of-fredericton-companion-social",
+    "name": "Fredericton Senior Centre and Seniors Recreation",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [
+      "Fredericton"
+    ],
+    "phone": "506-260-0605",
+    "description": "The Fredericton Senior Centre is owned and run by the City of Fredericton as a home base for activities and events for adults 50 and over. The city also offers free Senior Skates for 65+, seniors swims with $2.80 pool admission for 60+, free indoor walking tracks at the Grant Harvey Centre and Willie O'Ree Place, and a free Wednesday walking club from May to October.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-fredericton",
+    "website": "https://www.fredericton.ca/en/resident-services/resources-seniors-older-adults",
+    "intakeNote": "Call Service Fredericton at 506-460-2020 to get started with any city program."
+  },
+  {
+    "id": "city-of-fredericton-medical-alert-safety",
+    "name": "Vulnerable Persons Registry (Fredericton Police)",
+    "category": "Medical Alert & Safety",
+    "tier": "city",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [
+      "Fredericton"
+    ],
+    "phone": "506-460-2300",
+    "description": "The Vulnerable Persons Registry is a free City of Fredericton police program that keeps vital information and a photo of a vulnerable person on file, so officers can respond quickly and gently if that person goes missing or needs help. Families caring for someone with Alzheimer's disease or another condition that leads to wandering or communication difficulty can register their loved one, and people can also register themselves.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-fredericton",
+    "website": "https://www.fredericton.ca/resident-services/public-safety/police-force/patrols/vulnerable-persons-registry",
+    "intakeNote": "Print and complete the registration form with a colour photo and mail or drop it off at the Fredericton Police Force, 311 Queen Street; renew each year."
+  },
+  {
+    "id": "city-of-fredericton-transportation",
+    "name": "Para Transit (Fredericton Transit)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [
+      "Fredericton"
+    ],
+    "phone": "506-460-2020",
+    "description": "Para Transit is the City of Fredericton's door-to-door accessible bus service for people whose disabilities keep them from riding regular Fredericton Transit buses. A separate fleet of accessible vehicles runs seven days a week, and regular riders can set up standing bookings for things like dialysis or day programs. Register through Service Fredericton, then book trips a day ahead by phone or app.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-fredericton",
+    "website": "https://www.fredericton.ca/resident-services/fredericton-transit/para-transit",
+    "intakeNote": "Apply through Service Fredericton at 506-460-2020 with the Para Transit Registration and Consent Form; once registered, call 506-460-2212 to book rides."
   },
   {
     "id": "city-of-hamilton-companion-social-adult-day",
@@ -1221,6 +1563,44 @@
     "intakeNote": "Apply through the online Special Supports benefits application; a note or prescription from a doctor or health professional is usually required. Call 905-546-2590 or email support@hamilton.ca with questions."
   },
   {
+    "id": "city-of-iqaluit-companion-social-elders-qammaq",
+    "name": "Elder's Qammaq",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "NU"
+    ],
+    "cities": [
+      "Iqaluit"
+    ],
+    "phone": "(867) 979-5611",
+    "description": "The Elder's Qammaq is a City of Iqaluit drop-in centre where Elders gather to socialize, join organized activities, and mark special events. Afternoons bring a cooking club, workshops, and arts and crafts, in a recently renovated space run by the city's Recreation Department.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-iqaluit",
+    "website": "https://iqaluit.ca/residents/recreation/facilities/elders-qammaq",
+    "intakeNote": "Call Recreation Reception at (867) 979-5611 or email recreation@iqaluit.ca; elders can simply drop in on weekday afternoons."
+  },
+  {
+    "id": "city-of-kelowna-companion-social-financial-assistance",
+    "name": "Financial Assistance for Recreation (Kelowna)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Kelowna"
+    ],
+    "phone": "250-469-8759",
+    "description": "A City of Kelowna program that gives residents with low incomes, including seniors, a credit toward a Parkinson Recreation Centre pass or city recreation programs, such as the Move for your Health exercise classes for people with chronic health conditions. Separately, the city offers a reduced rate on admission and fitness classes for customers 65 and older who show a Pharmacare card.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-kelowna",
+    "website": "https://www.kelowna.ca/parks-recreation/recreation-sport/recreation-programs-registration/financial-assistance-recreation",
+    "intakeNote": "Email accesstorecreation@kelowna.ca to apply; assessment takes up to two weeks. Questions: 250-469-8759, or visit the Access to Recreation Office in Parkinson Recreation Centre (Tuesday 10 a.m. to 1 p.m., Wednesday 4 p.m. to 7 p.m.)."
+  },
+  {
     "id": "city-of-london-companion-social-adult-day",
     "name": "Dearness Home Adult Day Program",
     "category": "Companion & Social",
@@ -1297,6 +1677,25 @@
     "brandGroup": "city-of-london",
     "website": "https://london.ca/living-london/building-renovating/ontario-renovates",
     "intakeNote": "Complete the 2026 Homeowner Application Package with photo ID, your CRA Notice of Assessment, property tax documents and three contractor estimates; call 519-661-2489 x7831 or email housingprograms@london.ca with questions."
+  },
+  {
+    "id": "city-of-moncton-companion-social",
+    "name": "Seniors in the City (City of Moncton seniors programs)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [
+      "Moncton"
+    ],
+    "phone": "506-853-3333",
+    "description": "The City of Moncton runs a full slate of low-cost activities for older adults, including a monthly Seniors Social, free daily walking sessions at the Crossman Community Centre and Moncton Coliseum, tai chi, shuffleboard, seniors aquafit for $3, and skating by donation. A monthly Seniors in the City calendar pulls everything together, and seniors 65 and older also ride Codiac Transpo buses free every Wednesday. It is a City of Moncton service, with most activities drop-in.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-moncton",
+    "website": "https://www.moncton.ca/en/my-services/seniors",
+    "intakeNote": "Most activities are drop-in at city facilities; call 506-853-3333 or check the monthly Seniors in the City calendar on moncton.ca for times and locations."
   },
   {
     "id": "city-of-oshawa-companion-social-library",
@@ -1586,6 +1985,215 @@
     "intakeNote": "Apply by August 19 each year with the online form (FIN 1701) plus supporting documents, or by mail or drop-off at Pickering City Hall; reapply annually."
   },
   {
+    "id": "city-of-red-deer-companion-social-fee-assistance",
+    "name": "Red Deer Fee Assistance Program",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Red Deer"
+    ],
+    "phone": "403-309-8411",
+    "description": "A City of Red Deer program that helps residents facing financial challenges, including seniors on a low income, use city recreation facilities and programs. Approved members get a Recreation Pass Card for drop-in visits and up to $200 a year toward program registrations, and they also qualify for the city's $34 a month Transit Fare Assistance bus pass.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-red-deer",
+    "website": "https://www.reddeer.ca/recreation-and-culture/recreation/facility-admission-fees--pass-prices/fee-assistance-program/",
+    "intakeNote": "Bring your qualifying documents, government ID and proof of residence to customer service at the Collicutt Centre, G.H. Dawe Community Centre, Don Moore Recreation Centre or Michener Aquatic Centre for same-day enrollment, or apply online with your CRA Notice of Assessment; call 403-309-8411 or email feeassistance@reddeer.ca."
+  },
+  {
+    "id": "city-of-red-deer-transportation-action-bus",
+    "name": "Red Deer Action Bus",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Red Deer"
+    ],
+    "phone": "403-309-8400",
+    "description": "Red Deer Transit's door-to-door shared ride bus, a City of Red Deer service for trips that cannot be made on regular transit because of a physical or cognitive disability. Lift-equipped buses carry registered riders across the city, with trips booked up to 14 days ahead.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-red-deer",
+    "website": "https://www.reddeer.ca/city-services/transit/action-bus-paratransit-transportation/",
+    "intakeNote": "Call 403-309-8400 to ask about the Action Bus and request the application form, or download it from the city website; all riders must be registered clients before booking."
+  },
+  {
+    "id": "city-of-regina-companion-social-affordable-access",
+    "name": "Affordable Access Program",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [
+      "Regina"
+    ],
+    "phone": "306-777-7733",
+    "description": "A City of Regina program that cuts the cost of staying active for residents with low incomes, including seniors. Approval brings 50 percent off single admissions, 80 percent off leisure passes and registered classes, and a 20 percent discount on adult transit passes.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-regina",
+    "website": "https://www.regina.ca/parks-recreation-culture/classes-programs/affordable-access-program/",
+    "intakeNote": "Send the application form and income verification to affordableaccess@regina.ca or drop it off at the North West Leisure Centre, Sportplex, or Sandra Schmirler Leisure Centre; approval lasts to the end of the year and you re-apply annually."
+  },
+  {
+    "id": "city-of-regina-legal-financial-affordability",
+    "name": "Water, Waste and Municipal Tax Affordability Programs",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [
+      "Regina"
+    ],
+    "phone": "306-510-3998",
+    "description": "A City of Regina program for low income households that include a senior or a person with a disability. One application covers two kinds of help: deferring 600 or 1,200 dollars of municipal property tax, or the yearly increase, until the home is sold, plus monthly rebates of roughly 25 dollars on water and 4.50 dollars on waste bills, doubled for very low incomes.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-regina",
+    "website": "https://www.regina.ca/home-property/water/water-tax-affordability-programs/",
+    "intakeNote": "Send the affordability application form with your CRA Notice of Assessment and ID to APRSprograms@regina.ca or apply in person at City Hall or a leisure centre; tax deferral applications for 2026 close August 1."
+  },
+  {
+    "id": "city-of-regina-transportation-paratransit",
+    "name": "Regina Paratransit",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [
+      "Regina"
+    ],
+    "phone": "306-777-7007",
+    "description": "Regina Paratransit is a City of Regina shared ride, door-to-door bus service for people whose disability keeps them from consistently using the regular bus, including riders at risk of falling or who tire easily. Winter-only registration is available for people who manage fine in summer but not on ice and snow. Fares and passes match regular Regina Transit.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-regina",
+    "website": "https://www.regina.ca/transportation-roads-parking/transit/paratransit/",
+    "intakeNote": "Register with the online Paratransit Application Form or call 306-777-7726 for help; once approved, book trips at 306-777-7007."
+  },
+  {
+    "id": "city-of-saskatoon-companion-social-leisure-access",
+    "name": "Leisure Access Program",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [
+      "Saskatoon"
+    ],
+    "phone": "306-975-3378",
+    "description": "A City of Saskatoon program that lets residents with low incomes, including seniors, use city leisure centres free of charge. An approved Leisure Access Card gives unlimited entry to drop-in programs plus one registered recreation program each year, and the same application can also unlock a discounted low income bus pass.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-saskatoon",
+    "website": "https://www.saskatoon.ca/parks-recreation-attractions/recreational-programs-activities/leisure-access-program",
+    "intakeNote": "Apply online or with a paper form from any indoor leisure centre, attaching last year's CRA Notice of Assessment and proof of your Saskatoon address; decisions come by email in three to six weeks."
+  },
+  {
+    "id": "city-of-saskatoon-legal-financial-tax-deferral",
+    "name": "Seniors Property Tax Deferral Program",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [
+      "Saskatoon"
+    ],
+    "phone": "306-975-2400",
+    "description": "A City of Saskatoon program that lets homeowners 65 and older with low incomes put off paying some or all of the city and library portion of their property taxes so rising bills do not push them out of their home. One option simply freezes the yearly amount, and the deferred taxes are repaid only when the home is sold or transferred.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-saskatoon",
+    "website": "https://www.saskatoon.ca/services-residents/property-tax-assessment/tax-payment/seniors-property-tax-deferral-program",
+    "intakeNote": "Apply fresh each year by October 31 using the current application form, available at City Hall, leisure centres, and libraries or mailed on request; call 306-975-2400 for help."
+  },
+  {
+    "id": "city-of-saskatoon-transportation-access-transit",
+    "name": "Saskatoon Access Transit",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [
+      "Saskatoon"
+    ],
+    "phone": "306-975-3555",
+    "description": "Access Transit is the City of Saskatoon's shared ride, door-to-door bus service for people whose temporary or permanent disability keeps them from using the regular bus. Lift-equipped buses run seven days a week within Saskatoon, and trips can be booked by phone up to seven days ahead. Regular Saskatoon Transit fares apply.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-saskatoon",
+    "website": "https://saskatoontransit.ca/access-transit/about-access-transit",
+    "intakeNote": "Register first: submit application Part A plus Part B completed by your health care practitioner, by email or mail; call 306-975-3555 with questions or to book trips once registered."
+  },
+  {
+    "id": "city-of-st-johns-companion-social-programs",
+    "name": "Seniors' Programs 50+ (City of St. John's Recreation)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [
+      "St. John's"
+    ],
+    "phone": "709-576-8594",
+    "description": "The City of St. John's runs a year-round lineup for adults 50 and over: Active for Life fall prevention fitness, Social Time afternoons at rec centres, Lifelong Learners courses, and summer bus tours around the Avalon Peninsula with lunch and admission included. A Seniors in the Community stream brings gentle fitness and games right into seniors' apartment buildings so transportation is not a barrier. Register online through RECconnect or by phone.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-st-johns",
+    "website": "https://www.stjohns.ca/en/recreation-culture/seniors_-programs.aspx",
+    "intakeNote": "Each program has its own line: 709-576-8251 for the seniors tax reduction, 709-576-8594 for seniors programs and bus tours, 709-576-8684 for the recreation subsidy."
+  },
+  {
+    "id": "city-of-st-johns-companion-social-subsidy",
+    "name": "Recreation Financial Support (adult program subsidy)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [
+      "St. John's"
+    ],
+    "phone": "709-576-8684",
+    "description": "This City of St. John's program pays part or all of the cost of city recreation programs for residents who could not otherwise afford them, including older adults on fixed incomes. Support is based on income using Statistics Canada's low income cut-off. Apply any time with proof of residency and your CRA Notice of Assessment; decisions take 7 to 10 business days.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-st-johns",
+    "website": "https://www.stjohns.ca/en/recreation-culture/financial-support-programs.aspx",
+    "intakeNote": "Each program has its own line: 709-576-8251 for the seniors tax reduction, 709-576-8594 for seniors programs and bus tours, 709-576-8684 for the recreation subsidy."
+  },
+  {
+    "id": "city-of-st-johns-legal-financial",
+    "name": "Seniors Tax Reduction (City of St. John's)",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [
+      "St. John's"
+    ],
+    "phone": "709-576-8251",
+    "description": "The City of St. John's reduces the property tax bill for lower-income senior homeowners. You qualify if you are 65 or older and receive the federal Guaranteed Income Supplement, or 60 to 64 and receive the Allowance for the Survivor, and the home is registered in your name as your main residence. Apply to the city with a confirmation letter from Service Canada.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-st-johns",
+    "website": "https://www.stjohns.ca/en/living-in-st-johns/seniors-reduction.aspx",
+    "intakeNote": "Complete the Senior Citizens Tax Reduction Application and include a Government of Canada letter confirming GIS or Allowance for the Survivor (request one at 1-800-277-9914); questions to 709-576-8251."
+  },
+  {
     "id": "city-of-toronto-companion-social-adult-day",
     "name": "City of Toronto Adult Day Programs",
     "category": "Companion & Social",
@@ -1719,6 +2327,234 @@
     "brandGroup": "city-of-toronto",
     "website": "https://www.toronto.ca/services-payments/property-taxes-utilities/property-tax/property-tax-water-solid-waste-relief-and-rebate-programs/property-tax-and-utility-relief-program/",
     "intakeNote": "Apply online each year (the CRA verifies income automatically) or send a paper form by mail; call 311 with questions."
+  },
+  {
+    "id": "city-of-vancouver-companion-social-arts-health",
+    "name": "Arts & Health: Healthy Aging through the Arts",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Vancouver"
+    ],
+    "phone": "604-404-8273",
+    "description": "A Vancouver Board of Parks and Recreation program, run with Vancouver Coastal Health, where professional artists lead weekly arts workshops for seniors and Elders at community sites across the city. Groups dance, sing, write, paint and weave together for about 30 weeks between October and June, with a year-end showcase of their work.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-vancouver",
+    "website": "https://vancouver.ca/people-programs/arts-and-health.aspx",
+    "intakeNote": "Call the Park Board's community arts programmer at 604-404-8273 or email info@artsandhealth.ca to find a participating site near you."
+  },
+  {
+    "id": "city-of-vancouver-companion-social-leisure-access",
+    "name": "Leisure Access Program (Vancouver)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Vancouver"
+    ],
+    "phone": "3-1-1 (604-873-7000)",
+    "description": "A City of Vancouver program that gives low-income residents, including seniors, free or reduced-cost access to Park Board pools, ice rinks, fitness centres and community centre programs. Passes issued in 2026 are valid for 3 years.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-vancouver",
+    "website": "https://vancouver.ca/parks-recreation-culture/leisure-access-card.aspx",
+    "intakeNote": "Fill out the self-refer application form from the program page and submit it with proof of income; questions go to lap@vancouver.ca, or phone the city at 3-1-1."
+  },
+  {
+    "id": "city-of-vancouver-home-maintenance-snow-angels",
+    "name": "Snow Angels (Vancouver)",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Vancouver"
+    ],
+    "phone": "3-1-1",
+    "description": "A City of Vancouver program that matches seniors and people with limited mobility with volunteer neighbours who clear the snow and ice from their sidewalk. When snow is sticking, phone 3-1-1 and the city will try to connect you with a Snow Angel in your area.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-vancouver",
+    "website": "https://vancouver.ca/streets-transportation/snow-angel.aspx",
+    "intakeNote": "Phone 3-1-1 to request a Snow Angel when it is snowing and sticking at least 1 centimetre on the sidewalk."
+  },
+  {
+    "id": "city-of-victoria-companion-social-life",
+    "name": "L.I.F.E. Program (Victoria)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Victoria"
+    ],
+    "phone": "250.361.0732",
+    "description": "A City of Victoria program that gives residents with low incomes, including seniors, a free two year pass with unlimited drop-ins at Crystal Pool and Fitness Centre, free public skating at Save-On-Foods Memorial Arena, and 52 drop-in visits a year at partner recreation centres around the region. Pass holders also get a program credit and can buy an annual Regional Recreation Pass at half price.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-victoria",
+    "website": "https://www.victoria.ca/parks-recreation/recreation/accessibility-inclusion/life-program",
+    "intakeNote": "Submit the L.I.F.E. application form with proof of residency (a recent bill or rental agreement) and your CRA Notice of Assessment; applications go through Crystal Pool and Fitness Centre, 250.361.0732."
+  },
+  {
+    "id": "city-of-whitehorse-legal-financial-senior-utility-rebate",
+    "name": "Senior Utility Rebate",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [
+      "Whitehorse"
+    ],
+    "phone": "867-667-6401",
+    "description": "A City of Whitehorse rebate that pays seniors back for city utility bills. Residents 65 and older, and qualifying surviving spouses, can get up to 500 dollars a year back on water, sewer, and curbside collection fees for their home.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-whitehorse",
+    "website": "https://www.whitehorse.ca/our-government/budget/council-grants/senior-utility-rebate/",
+    "intakeNote": "Apply with the city's rebate form at City Hall, 2121 Second Avenue, during the annual application window; processing takes two to three weeks, and 867-667-6401 can confirm current dates and amounts."
+  },
+  {
+    "id": "city-of-whitehorse-transportation-handy-bus",
+    "name": "Handy Bus",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [
+      "Whitehorse"
+    ],
+    "phone": "867-668-8394",
+    "description": "The Handy Bus is the City of Whitehorse's accessible door-to-door bus, funded with the Yukon government, for people who have difficulty riding the regular bus. It runs seven days a week on both a scheduled and casual basis, with weekend trips booked by Friday afternoon.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-whitehorse",
+    "website": "https://www.whitehorse.ca/living-in-whitehorse/transit/special-services/",
+    "intakeNote": "Complete the application form, including the medical provider section, and drop it at City Hall or the Whitehorse Transit office at 187 Range Road; approval word comes within 15 business days, then book at 867-668-8394."
+  },
+  {
+    "id": "city-of-winnipeg-companion-social-library-home-service",
+    "name": "Winnipeg Public Library Home Service",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [
+      "Winnipeg"
+    ],
+    "phone": "204-986-2738",
+    "description": "A City of Winnipeg library service that brings books, audiobooks, large print, movies, and magazines each month to Winnipeggers who cannot get to a branch because of long-term illness or disability. Staff learn your tastes and pick titles for you. A companion Selection Service at 204-986-6489 chooses audiobooks and large print for pickup at any branch.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-winnipeg",
+    "website": "https://wpl.winnipeg.ca/library/ourservices/accessible/selectdeliver.asp",
+    "intakeNote": "Call the Home Service Coordinator at 204-986-2738 at the Millennium Library to get started."
+  },
+  {
+    "id": "city-of-winnipeg-companion-social-rec-fee",
+    "name": "Recreation Fee Assistance Program",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [
+      "Winnipeg"
+    ],
+    "phone": "311",
+    "description": "A City of Winnipeg program that helps residents with low incomes stay active at city recreation centres. Approved adults, including seniors, get a free pass for city pools and fitness centres plus a 300 dollar yearly credit for registered programs like aquafit and skating.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-winnipeg",
+    "website": "https://www.winnipeg.ca/recreation-leisure/recreation-facility-admission-passes-rentals/recreation-fee-assistance-program",
+    "intakeNote": "Send the application form and proof of income to RecFeeAssist@winnipeg.ca, or drop it off at 395 Main St. or any indoor pool or fitness centre; call 311 with questions."
+  },
+  {
+    "id": "city-of-winnipeg-home-maintenance-boulevard-snow",
+    "name": "Boulevard snow clearing for residents with disabilities",
+    "category": "Home Maintenance",
+    "tier": "city",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [
+      "Winnipeg"
+    ],
+    "phone": "204-986-5018",
+    "description": "A City of Winnipeg public works service that clears a 1.5 metre path through boulevard snow between the curb and the sidewalk after major snowfalls, so approved residents can safely reach a vehicle at the street. It is meant for homeowners with no front driveway who cannot shovel for medical reasons and cannot afford to hire help.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-winnipeg",
+    "website": "https://legacy.winnipeg.ca/publicworks/snow/boulevard-access.stm",
+    "intakeNote": "Apply with the city form plus a medical professional's verification by email to PWD-Customer-Service@winnipeg.ca or by mail to the Public Works Customer Service Branch."
+  },
+  {
+    "id": "city-of-yellowknife-companion-social-access-for-all",
+    "name": "Access for All",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [
+      "Yellowknife"
+    ],
+    "phone": "(867) 920-5686",
+    "description": "A City of Yellowknife program that gives residents with low incomes, including seniors, free city transit and free drop-in recreation. Approved households get a three-year pass covering YKTransit, YKFlex, and public drop-in activities at the ATCO Aquatic Centre, Multiplex, and Fieldhouse.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-yellowknife",
+    "website": "https://www.yellowknife.ca/admission-and-passes/access-for-all",
+    "intakeNote": "Drop the application form and your GNWT Income Assistance report or CRA Notice of Assessment at City Hall, or email it; call (867) 920-5686 with questions."
+  },
+  {
+    "id": "city-of-yellowknife-legal-financial-tax-relief",
+    "name": "Senior and Disabled Tax Relief",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [
+      "Yellowknife"
+    ],
+    "phone": "867-920-5600",
+    "description": "A City of Yellowknife rebate of up to 2,000 dollars a year on property tax for homeowners who are 65 or older, or living with a disability, and who own and live in the home. You apply each year with the city's Tax Relief Form, and rebates are not granted for past years.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-yellowknife",
+    "website": "https://www.yellowknife.ca/property-assessment-and-taxes/senior-and-disabled-tax-relief",
+    "intakeNote": "Download the Tax Relief Form from yellowknife.ca or pick one up at City Hall, attach the supporting documents, and submit annually; call 867-920-5600 weekdays 8 to 4:30."
+  },
+  {
+    "id": "city-of-yellowknife-transportation-ykflex",
+    "name": "YKFlex accessible transit (formerly YATS)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [
+      "Yellowknife"
+    ],
+    "phone": "(867) 873-8901",
+    "description": "YKFlex is the City of Yellowknife's door-to-door bus service, formerly called YATS, for registered riders whose disability keeps them from using the regular bus safely. Trips run Monday to Saturday and can be booked up to seven days ahead. Registered riders and seniors 60 and older pay discounted transit fares.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "city-of-yellowknife",
+    "website": "https://www.yellowknife.ca/transit/accessible-transit",
+    "intakeNote": "Complete the YKFlex application form, have a health care professional sign it, and submit it to the NWT Disabilities Council; once approved, book trips at (867) 873-8901, 8 a.m. to 5 p.m. weekdays and Saturdays."
   },
   {
     "id": "cmha-durham-mental-health-counselling",
@@ -2232,6 +3068,139 @@
     "intakeNote": "Call any time, day or night; a trained counsellor answers and no referral is needed."
   },
   {
+    "id": "edmonton-dats-transportation",
+    "name": "DATS, Dedicated Accessible Transit Service",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Edmonton"
+    ],
+    "phone": "780-496-4567",
+    "description": "Edmonton Transit Service's door-to-door shared ride buses, a City of Edmonton service for residents who cannot use regular buses or the LRT for some or all trips because of a physical or cognitive disability. Registered riders book trips up to 3 days ahead by phone or online and pay regular transit fares.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "edmonton-dats",
+    "website": "https://www.edmonton.ca/ets/dedicated-accessible-transit-service",
+    "intakeNote": "Call 780-496-4567 and choose option 3 to check eligibility and register; DATS confirms which forms to send you. Registered riders book trips at the same number, option 2, or online."
+  },
+  {
+    "id": "epl-companion-social-home-delivery",
+    "name": "EPL Home Delivery",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [
+      "Edmonton"
+    ],
+    "phone": "780-496-7000",
+    "description": "A free service from Edmonton Public Library, the city's public library system, for people who cannot visit a branch for three months or more because of disability, illness or age. Library staff help pick out books, large print, DAISY and audio materials and deliver them right to the door, with longer loan periods, and EPL also serves extended care facilities and seniors lodges.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "epl",
+    "website": "https://www.epl.ca/homedelivery/",
+    "intakeNote": "Call 780-496-7000 or contact your local branch to register; a friend or family member can also pick up chosen materials for you."
+  },
+  {
+    "id": "halifax-access-a-bus-transportation",
+    "name": "Access-A-Bus (Halifax Transit)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [
+      "Halifax"
+    ],
+    "phone": "902-490-6999",
+    "description": "Access-A-Bus is Halifax Transit's shared ride, door-to-door bus service, a Halifax Regional Municipality program for people who cannot use regular transit because of a physical or cognitive disability. Apply with a form signed by a health professional, then book trips by phone up to 24 hours ahead for medical appointments, errands, and social outings. Seniors 65 and older also ride regular Halifax Transit buses and ferries free every Tuesday from 10 a.m. to 3:30 p.m. and after 6 p.m.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "halifax-access-a-bus",
+    "website": "https://www.halifax.ca/transportation/halifax-transit/access-a-bus",
+    "intakeNote": "Mail the three-part application form, with one section completed by a doctor, nurse practitioner, occupational therapist, or physiotherapist, to Halifax Transit; once registered, call 902-490-6999 to book trips."
+  },
+  {
+    "id": "halifax-public-libraries-companion-social",
+    "name": "Library Home Delivery and Borrow by Mail",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [
+      "Halifax"
+    ],
+    "phone": "(902) 490-5725",
+    "description": "Home Delivery is a free service from Halifax Public Libraries, the Halifax Regional Municipality's library system. If a disability, long-term illness, or caregiving duties keep you from getting to a branch, library staff or volunteers bring books, audiobooks, and other items to your door every three weeks, and can even pick titles based on your interests. People outside the delivery areas are signed up for Borrow by Mail instead, and nobody pays late fees.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "halifax-public-libraries",
+    "website": "https://www.halifaxpubliclibraries.ca/services/home-delivery/",
+    "intakeNote": "Sign up online at halifaxpubliclibraries.ca, email hd@halifaxlibrary.ca, or call (902) 490-5725; no medical note is needed."
+  },
+  {
+    "id": "halifax-regional-municipality-companion-social",
+    "name": "Recreation Access Program (subsidized recreation)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [
+      "Halifax"
+    ],
+    "phone": "311 or 1-800-835-6428",
+    "description": "The Recreation Access Program is a Halifax Regional Municipality subsidy that covers 25, 50, or 100 percent of the cost of city recreation programs and rec centre memberships for residents in financial need, including older adults. Since January 2026 it also covers one-month memberships at the big multi-district facilities like the Canada Games Centre and Zatzman Sportsplex. Apply with proof of income before you pay for a program.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "halifax-regional-municipality",
+    "website": "https://www.halifax.ca/about-halifax/affordable-access-program/recreation-funding-access-application",
+    "intakeNote": "Call 311 (1-800-835-6428 outside Halifax) or send one Affordable Access Program application by email to AffordableAccess@halifax.ca, by mail, or in person at a municipal recreation centre or customer contact centre."
+  },
+  {
+    "id": "halifax-regional-municipality-legal-financial",
+    "name": "Property Tax Rebate, Deferral, and Payment Help (Affordable Access Program)",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [
+      "Halifax"
+    ],
+    "phone": "311 or 1-800-835-6428",
+    "description": "If the property tax bill is a struggle, Halifax Regional Municipality can pay part of it for you. This municipal program gives homeowners with a household income of $59,000 or less a rebate, and lets you defer the rest of the bill or switch to smaller monthly payments. The same Affordable Access application can also get you 50 percent off a monthly transit pass.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "halifax-regional-municipality",
+    "website": "https://www.halifax.ca/home-property/property-taxes/affordable-access-tax-program",
+    "intakeNote": "Call 311 (1-800-835-6428 outside Halifax) or send one Affordable Access Program application by email to AffordableAccess@halifax.ca, by mail, or in person at a municipal recreation centre or customer contact centre."
+  },
+  {
+    "id": "halifax-regional-municipality-medical-alert-safety",
+    "name": "Voluntary Vulnerable Persons Registry",
+    "category": "Medical Alert & Safety",
+    "tier": "city",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [
+      "Halifax"
+    ],
+    "phone": "311 or 1-800-835-6428",
+    "description": "The Voluntary Vulnerable Persons Registry is a Halifax Regional Municipality emergency management list for residents who may need extra help during storms, long power outages, or evacuations. Seniors without round-the-clock support who have mobility, vision, hearing, or memory difficulties, or who rely on electricity for medical equipment, can join so emergency staff know to reach out and check on them.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "halifax-regional-municipality",
+    "website": "https://www.halifax.ca/safety-security/emergency-management/voluntary-vulnerable-persons-registry",
+    "intakeNote": "Complete the online intake form on halifax.ca or call 311; the registry coordinator follows up within three days to confirm eligibility."
+  },
+  {
     "id": "halton-region-companion-social",
     "name": "Halton Region Adult Day Programs",
     "category": "Companion & Social",
@@ -2657,6 +3626,25 @@
     "brandGroup": "march-of-dimes-canada",
     "website": "https://www.marchofdimes.ca/en-ca/programs/am/hvmp",
     "intakeNote": "Download the application from marchofdimes.ca and mail it in with proof of income, disability verification and a vendor quote; call 1-877-369-4867 or email hvmp@marchofdimes.ca with questions."
+  },
+  {
+    "id": "montreal-libraries-companion-social",
+    "name": "Montreal Libraries Home Book Delivery",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Montreal"
+    ],
+    "phone": "311",
+    "description": "Free home delivery of library books, films and other items for people 65 and over or with limited mobility, a Ville de Montreal public library service (Bibliotheques de Montreal). Available in several boroughs; each borough library registers its own readers, so call 311 or check the city page to find the service in your area.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "montreal-libraries",
+    "website": "https://montreal.ca/en/services/home-book-loan-service",
+    "intakeNote": "Call 311 (514 872-0311 from outside Montreal) or use the steps page at montreal.ca to find your borough library's home delivery contact and register; a library card is needed and can be set up at registration."
   },
   {
     "id": "msaa-seniors-programs-companion-social-salc",
@@ -4365,6 +5353,25 @@
     "intakeNote": "Placement is arranged through your CISSS or CIUSSS assessment; once admitted, RAMQ mails the notice of decision and you can file an Application for Exemption or Re-Evaluation to lower the amount."
   },
   {
+    "id": "regina-public-library-companion-social-home-library",
+    "name": "Regina Public Library Home Library Service",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [
+      "Regina"
+    ],
+    "phone": "306.777.6048",
+    "description": "A Regina Public Library service, part of the city's public library system, for people who cannot get to a branch for three months or more because of age, illness, or disability. Library staff pick books and other items to match your tastes and have them delivered right to your home. Residents of Regina care facilities and seniors' care homes can use it too.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "regina-public-library",
+    "website": "https://www.reginalibrary.ca/services/outreach",
+    "intakeNote": "Call Accessibility Services at 306.777.6048 or email accessibilityservices@reginalibrary.ca to enroll."
+  },
+  {
     "id": "region-of-peel-companion-social-adult-day",
     "name": "Peel Adult Day Services",
     "category": "Companion & Social",
@@ -4482,6 +5489,25 @@
     "intakeNote": "Search the database online or call 1-855-ASK-RHRA (1-855-275-7472); reports of harm can be made by anyone, not just residents."
   },
   {
+    "id": "rtc-stac-transportation",
+    "name": "STAC Paratransit Quebec City (Transport adapte de la Capitale)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Quebec City"
+    ],
+    "phone": "418 627-2511 option 1",
+    "description": "Door-to-door adapted transit for Quebec City residents whose disability keeps them off the regular bus, run by the RTC transit authority as the STAC (Service de transport adapte de la Capitale). Admission is by a form your health professional helps complete, then trips are booked by phone or online. Seniors who can use the regular bus pay reduced fares with the RTC's OPUS Aine photo card instead.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "rtc-stac",
+    "website": "https://www.rtcquebec.ca/stac",
+    "intakeNote": "Download the admission form from rtcquebec.ca or call 418 687-2641, option 2 to have it mailed; a health professional completes part of it, and the admission committee answers within 45 days. Once admitted, book trips by phone or online."
+  },
+  {
     "id": "saskatchewan-provincial-doctors-pharmacy-medication-healthline-811",
     "name": "HealthLine 811",
     "category": "Doctors, Pharmacy & Medication",
@@ -4582,6 +5608,25 @@
     "brandGroup": "sk-ministry-social-services",
     "website": "https://www.saskatchewan.ca/residents/family-and-social-support/seniors-services/seniors-living-in-personal-care-homes",
     "intakeNote": "Download the application form and send it with your GIS entitlement letter or recent tax return to the Ministry of Social Services Client Service Centre in Regina by mail, email, or fax; call 1-855-544-7242 with questions."
+  },
+  {
+    "id": "saskatoon-public-library-companion-social-home-delivery",
+    "name": "Saskatoon Public Library Accessibility Services (home delivery)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [
+      "Saskatoon"
+    ],
+    "phone": "306.975.7565",
+    "description": "A Saskatoon Public Library service, part of the city's public library system, that gets books and other materials to Saskatoon residents who cannot come to a branch because of age, disability, or extended illness. Items can be delivered to your home or sent to your nearest branch for easy pickup. The same team runs a talking book service for people with print disabilities and lends DAISY audiobook players to try at home.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "saskatoon-public-library",
+    "website": "https://saskatoonlibrary.ca/services/accessibility-services/",
+    "intakeNote": "Call Accessibility Services at 306.975.7565 or email access@saskatoonlibrary.ca and complete the short loan application form."
   },
   {
     "id": "service-canada-legal-financial-allowance",
@@ -4853,6 +5898,101 @@
     "brandGroup": "soldiers-aid-commission",
     "website": "https://www.ontario.ca/page/soldiers-aid-commission",
     "intakeNote": "Apply through the Royal Canadian Legion at 1-888-207-0939 (sac@on.legion.ca) or Veterans Affairs Canada at 1-866-522-2122, with quotes for the expense and recent bank statements."
+  },
+  {
+    "id": "st-johns-gobus-transportation",
+    "name": "GoBus Accessible Transit (Metrobus)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [
+      "St. John's"
+    ],
+    "phone": "709-570-2131",
+    "description": "GoBus is the accessible, door-to-door transit service run by Metrobus under the St. John's Transportation Commission, a municipal public agency, for people whose disabilities keep them off regular buses. It serves St. John's and neighbouring Mount Pearl, with service seven days a week into the late evening. Apply with a form partly completed by a healthcare professional, take a short transit assessment paid for by Metrobus, then book rides by phone.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "st-johns-gobus",
+    "website": "https://www.metrobus.com/ALF/gobus_info.asp",
+    "intakeNote": "Submit the GoBus application form, with one section completed by a healthcare professional, to Accessible Transit Services at 25 Messenger Drive; a Metrobus-funded transit assessment follows, then registered riders book at (709) 368-8887."
+  },
+  {
+    "id": "stl-laval-transportation",
+    "name": "STL Transport adapte (Laval paratransit)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Laval"
+    ],
+    "phone": "450-688-6520",
+    "description": "Door-to-door adapted transit for Laval residents whose disability significantly limits their mobility, an STL (Societe de transport de Laval) service. STL reviews applications and manages rider files, and approved riders book trips through the reservation centre. Seniors 65 and over who can ride the regular bus travel free anywhere in Laval with the STL's Horizon 65+ photo OPUS card.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "stl-laval",
+    "website": "https://stlaval.ca/en/info-pt",
+    "intakeNote": "Apply through STL at 450-688-6520 or transportadapte@stl.laval.qc.ca; once admitted, reserve trips at 450-973-3111."
+  },
+  {
+    "id": "stl-laval-transportation-residence-shuttles",
+    "name": "STL Seniors Residence Shuttle Lines",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Laval"
+    ],
+    "phone": "450 688-6520",
+    "description": "Weekly bus shuttles that pick seniors up at participating Laval residences and bring them to nearby shopping centres for the morning, an STL (Societe de transport de Laval) service. Four lines each run one day a week in Chomedey, Vimont, Sainte-Rose and Laval-des-Rapides, and the ride is free for seniors 65 and over with the Horizon 65+ card.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "stl-laval",
+    "website": "https://stlaval.ca/residences",
+    "intakeNote": "No registration needed; board at your residence's scheduled stop, or call 450 688-6520 for schedules."
+  },
+  {
+    "id": "stm-montreal-transportation",
+    "name": "STM Paratransit (Transport adapte)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Montreal"
+    ],
+    "phone": "514 280-8211",
+    "description": "Door-to-door shared rides across the island of Montreal for people whose disability keeps them off the regular bus and metro, an STM (Societe de transport de Montreal) service. After a one-time application, riders book trips by phone or online and pay regular transit fares. Seniors 65 and over who live in the Montreal agglomeration also ride the regular STM network free with a 65+ photo OPUS card.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "stm-montreal",
+    "website": "https://www.stm.info/en/paratransit",
+    "intakeNote": "Apply with the Transport adapte admission form on stm.info, or call 514 280-8211 (option 4, customer service, Monday to Friday 8:30 a.m. to 4:30 p.m.) to get started; approved riders book trips by phone, online, or in the Mon transport adapte portal."
+  },
+  {
+    "id": "sto-gatineau-transportation",
+    "name": "STO Transport adapte (Gatineau paratransit)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Gatineau"
+    ],
+    "phone": "819 773-2222",
+    "description": "Door-to-door adapted transit for Gatineau residents whose disability keeps them off the regular bus, an STO (Societe de transport de l'Outaouais) service run through a contracted carrier. Admission uses a form your health professional helps complete, then trips are booked by phone or online, seven days a week. Seniors 65 and over who can use the regular bus pay reduced STO senior fares instead.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "sto-gatineau",
+    "website": "https://www.sto.ca/en/paratransit/",
+    "intakeNote": "Call 819 773-2222, option 3, or download the eligibility form from sto.ca; a health professional completes part 2, you send it to admission.ta@sto.ca or by mail, and STO answers within 45 days. Admitted riders book trips at the same number, option 1."
   },
   {
     "id": "temmy-latner-palliative-palliative-hospice-care",
@@ -5159,6 +6299,25 @@
     "intakeNote": "Runs March 1 to April 30 each year as a drop-off clinic; call 905-668-1424 or email 55plus@whitby.ca to take part."
   },
   {
+    "id": "translink-handydart-transportation",
+    "name": "HandyDART (TransLink, Metro Vancouver)",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Vancouver"
+    ],
+    "phone": "604.575.6600",
+    "description": "A TransLink service that gives door-to-door, shared rides across Metro Vancouver, including the City of Vancouver, for people who cannot use regular buses or SkyTrain without help. Drivers assist riders to and from the vehicle. Fares are the same as regular transit, with a lower concession fare for riders 65 and older.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "translink-handydart",
+    "website": "https://www.translink.ca/rider-guide/transit-accessibility/handydart",
+    "intakeNote": "Apply first with the HandyDART application form (approval takes about 10 days); call 604.953.3680 for help applying. Once registered, book trips at 604.575.6600 or toll-free 1.844.475.6600."
+  },
+  {
     "id": "ttc-wheel-trans-transportation",
     "name": "Wheel-Trans (TTC accessible door-to-door transit)",
     "category": "Transportation",
@@ -5294,6 +6453,101 @@
     "intakeNote": "The veteran must first be admitted to a long-term care home, then the family applies through My VAC Account online or mails application package VAC1503APe; call 1-866-522-2122 for help."
   },
   {
+    "id": "ville-de-gatineau-companion-social-library-delivery",
+    "name": "Gatineau Library Home Delivery",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Gatineau"
+    ],
+    "phone": "819-595-7460",
+    "description": "Free delivery of library books and other documents to your home for library subscribers aged 70 and over or with reduced mobility, a Ville de Gatineau municipal library service (livraison de documents a domicile). Call the library to sign up and materials come to your door at no charge.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ville-de-gatineau",
+    "website": "https://www.gatineau.ca/portail/default.aspx?p=guichet_municipal/bibliotheque/adultes",
+    "intakeNote": "Call the Bibliotheque municipale de Gatineau at 819-595-7460 or use the contact form on gatineau.ca to register for home delivery."
+  },
+  {
+    "id": "ville-de-laval-companion-social-pret-a-domicile",
+    "name": "Laval Libraries Home Delivery (Pret a domicile)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Laval"
+    ],
+    "phone": "311",
+    "description": "Free delivery of library books and other items to your home, five times a year, for people with reduced mobility or loss of autonomy and for family caregivers, a Ville de Laval public library service (Bibliotheques de Laval, Pret a domicile). Register through your neighbourhood library in person or by phone, or by emailing bibliomobile@laval.ca.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ville-de-laval",
+    "website": "https://biblio.laval.ca/prets-et-reservations",
+    "intakeNote": "Call 311 (450 978-8000 from outside Laval) or use the Mon dossier portal on laval.ca; the 65+ subsidy is applied for online or by mail, and the library home delivery is arranged through your neighbourhood library."
+  },
+  {
+    "id": "ville-de-laval-legal-financial-subsidy-65",
+    "name": "Laval Subsidy for People 65 and Over",
+    "category": "Legal & Financial",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Laval"
+    ],
+    "phone": "311",
+    "description": "A yearly cash subsidy from the Ville de Laval for households with a resident aged 65 or over (Subvention pour favoriser le soutien des personnes agees de 65 ans et plus): $150 per dwelling, or $300 when the applicant receives the federal Guaranteed Income Supplement. Owners, tenants and occupants can all apply online through Mon dossier or by mail, and it is separate from Quebec's provincial municipal tax grant.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ville-de-laval",
+    "website": "https://www.laval.ca/aides-subventions/programmes-subventions/personnes-agees-65-ans-et-plus/",
+    "intakeNote": "Call 311 (450 978-8000 from outside Laval) or use the Mon dossier portal on laval.ca; the 65+ subsidy is applied for online or by mail, and the library home delivery is arranged through your neighbourhood library."
+  },
+  {
+    "id": "ville-de-montreal-companion-social-acces-loisirs",
+    "name": "Acces-Loisirs Montreal (Free Recreation for Low Income)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Montreal"
+    ],
+    "phone": "311",
+    "description": "Free spots in sports, culture and leisure activities for Montrealers with a modest income, seniors included, a Ville de Montreal program run with local community groups (Acces-Loisirs). You sign up in person during registration periods held each season in 14 participating boroughs.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ville-de-montreal",
+    "website": "https://montreal.ca/demarches/sinscrire-gratuitement-une-activite-acces-loisirs",
+    "intakeNote": "Call 311 (514 872-0311 from outside Montreal) or email acces-loisirs@montreal.ca, then register in person at your borough's posted registration dates."
+  },
+  {
+    "id": "ville-de-quebec-companion-social-bibliomobile",
+    "name": "Bibliomobile Home Library Delivery (Quebec City)",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [
+      "Quebec City"
+    ],
+    "phone": "418 641-6789",
+    "description": "Free home delivery of books, films and other library items for subscribers 75 and over or with reduced mobility, a Ville de Quebec public library service (Bibliotheque de Quebec, called Bibliomobile). A security-checked volunteer from your neighbourhood borrows the items, brings them to your home and returns them, and it works from every library in the network.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ville-de-quebec",
+    "website": "https://www.bibliothequedequebec.qc.ca/services/bibliomobile/index.aspx",
+    "intakeNote": "Fill in the Bibliomobile form on bibliothequedequebec.qc.ca, or call 418 641-6789 or your neighbourhood library to register; a security-checked volunteer from your sector then brings library items to your door."
+  },
+  {
     "id": "von-canada-companion-social",
     "name": "VON Seniors Lunch Bunch (Dining Programs)",
     "category": "Companion & Social",
@@ -5355,6 +6609,44 @@
     "intakeNote": "Families can call VON's national toll-free line, but most of the specific programs below require a referral through Ontario Health atHome (formerly Home and Community Care Support Services) rather than a direct booking, so the fastest path is usually the regional number listed for each program.",
     "program": "Meals on Wheels",
     "runBy": "VON"
+  },
+  {
+    "id": "vpl-companion-social-home-delivery",
+    "name": "VPL Accessible Services and Home Delivery",
+    "category": "Companion & Social",
+    "tier": "city",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [
+      "Vancouver"
+    ],
+    "phone": "604.331.4100",
+    "description": "A Vancouver Public Library service, run by the city's own library staff, that delivers books and other library materials to the door of Vancouver residents who cannot get to a branch because of illness, injury or disability. Deliveries come every 4 weeks, and a special audiobook collection is available for people who cannot read regular print.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "vpl",
+    "website": "https://www.vpl.ca/branches/central/level-3/accessible-services",
+    "intakeNote": "Fill out the Accessible Services registration form and email it to accessible@vpl.ca or bring it to any branch; call 604.331.4100 with questions."
+  },
+  {
+    "id": "winnipeg-transit-plus-transportation",
+    "name": "Winnipeg Transit Plus",
+    "category": "Transportation",
+    "tier": "city",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [
+      "Winnipeg"
+    ],
+    "phone": "204-986-5722",
+    "description": "Winnipeg Transit Plus is a City of Winnipeg service that gives pre-booked, door-to-door shared rides to people who cannot regularly use regular buses because of a disability. Drivers help riders between a ground floor doorway and the vehicle, and trips can be booked by phone, app, or online. Seniors 65 and older who can still ride regular buses pay a reduced seniors fare on Winnipeg Transit.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "winnipeg-transit-plus",
+    "website": "https://info.winnipegtransit.com/en/winnipeg-transit-plus/winnipeg-transit-plus/",
+    "intakeNote": "Apply online or with the printable form, then Winnipeg Transit may invite you to a functional assessment; call 204-986-5722 daily 8 a.m. to 10 p.m. with questions or to book trips."
   },
   {
     "id": "woodgreen-companion-social",
