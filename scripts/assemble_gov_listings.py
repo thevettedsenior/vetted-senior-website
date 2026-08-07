@@ -73,6 +73,29 @@ PROMOTED_ISSUE_FAMILIES = {
     "city-of-pickering",  # flag: library service unavailable, not drafted
     "halton-region",      # flags: HARP unverifiable + out-of-vocab MoW, not drafted
     "city-of-london",     # flag: Dearness row uses the city's printed main line
+    # 2026-08-06 other-provinces pass, same ruling (flags concern undrafted
+    # programs, seasonal application windows stated in the rows, or phone
+    # lines taken from the delivering department's own printed contact page):
+    "bc-provincial",
+    "alberta-provincial",
+    "saskatchewan-provincial",
+    "manitoba-provincial",
+    "quebec-provincial",
+    "new-brunswick-provincial",
+    "nova-scotia-provincial",
+    "newfoundland-provincial",
+    "nunavut-territorial",
+}
+
+# Row-level exclusions within otherwise-staged families: {id: reason}.
+# Excluded rows are listed in the review sheet, never staged.
+EXCLUDED_ROWS = {
+    "quebec-provincial-legal-financial-volunteer-tax-clinics":
+        "duplicate: the national CVITP row already covers Quebec and names "
+        "the Income Tax Assistance volunteer program",
+    "nunavut-territorial-legal-financial-supplementary-benefit":
+        "phone is a regional Income Assistance office number, not printed on "
+        "the program page; needs Ragini's sign-off",
 }
 
 
@@ -167,6 +190,10 @@ def main():
             # silently, they are live and need no re-staging or review noise.
             if row.get("id") in existing_ids:
                 already += 1
+                continue
+            if row.get("id") in EXCLUDED_ROWS:
+                row_notes.append(f"  - EXCLUDED {row.get('id')}: "
+                                 + EXCLUDED_ROWS[row.get("id")])
                 continue
             probs = validate_row(row, existing_ids, staged_ids)
             if probs:

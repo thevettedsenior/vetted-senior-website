@@ -80,6 +80,193 @@
     "intakeNote": "Call the intake line on Monday, Wednesday or Friday, 9 a.m. to noon or 2 p.m. to 4 p.m.; intake is by phone only."
   },
   {
+    "id": "alberta-provincial-doctors-pharmacy-medication-coverage-for-seniors",
+    "name": "Coverage for Seniors (Alberta Blue Cross)",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "1-800-661-6995",
+    "description": "A Government of Alberta benefit, administered by Alberta Blue Cross, that gives every senior 65 and over premium-free coverage for prescription drugs, diabetes supplies, ambulance trips and some other health services. It is added to your Alberta Health Care Insurance Plan automatically the month after you turn 65.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-alberta",
+    "website": "https://www.alberta.ca/coverage-for-seniors-program",
+    "intakeNote": "No application needed; coverage starts automatically once your age is validated with AHCIP. Claims questions go to Alberta Blue Cross at 1-800-661-6995."
+  },
+  {
+    "id": "alberta-provincial-doctors-pharmacy-medication-health-link-811",
+    "name": "Health Link 811 (Alberta)",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "Alberta's free 24-hour health advice line, run by Primary Care Alberta, a provincial health agency, in partnership with Alberta Health Services. Dial 811 to reach a registered nurse any time; the line can also connect you with dietitians, dementia specialists, and mental health and rehabilitation clinicians.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "primary-care-alberta",
+    "website": "https://www.primarycarealberta.ca/page14176.aspx",
+    "intakeNote": "Dial 811 from anywhere in Alberta, any time; online nurse chat and callback requests are available at primarycarealberta.ca."
+  },
+  {
+    "id": "alberta-provincial-hearing-vision-dental-optical",
+    "name": "Dental and Optical Assistance for Seniors",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "1-877-644-9992",
+    "description": "A Government of Alberta program that pays up to $5,000 every 5 years for basic dental care and up to $230 every 3 years toward prescription eyeglasses for lower-income seniors 65 and over. Your eligibility is assessed automatically once you apply for Seniors Financial Assistance.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-alberta",
+    "website": "https://www.alberta.ca/dental-optical-assistance-seniors",
+    "intakeNote": "Apply through the Seniors Financial Assistance application at sfa.alberta.ca; claims are handled by Alberta Blue Cross at 1-800-661-6995."
+  },
+  {
+    "id": "alberta-provincial-home-maintenance-sharp",
+    "name": "Seniors Home Adaptation and Repair Program (SHARP)",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "1-877-644-9992",
+    "description": "A Government of Alberta loan program that lends seniors up to $40,000 at low interest for home repairs, adaptations and renovations such as stair lifts, bathroom upgrades or a new furnace. The loan is secured against the home and repaid when it is sold.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-alberta",
+    "website": "https://www.alberta.ca/seniors-home-adaptation-repair-program",
+    "intakeNote": "Complete the Loan Application and Agreement form with your property tax assessment and cost estimates or receipts, then submit online, by fax or by mail."
+  },
+  {
+    "id": "alberta-provincial-legal-financial-alberta-supports",
+    "name": "Alberta Supports Contact Centre",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "1-877-644-9992",
+    "description": "The Government of Alberta's front door to more than 30 programs and 120 services, including all of the seniors financial assistance programs. One call connects seniors and family caregivers to benefits and local offices, and staff can also explain the automatic 25 percent seniors discount on registry services such as driver's licence renewals.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-alberta",
+    "website": "https://www.alberta.ca/alberta-supports",
+    "intakeNote": "Call 1-877-644-9992 (780-644-9992 in Edmonton), Monday to Friday 7:30 am to 8 pm, or visit a local Alberta Supports office."
+  },
+  {
+    "id": "alberta-provincial-legal-financial-property-tax-deferral",
+    "name": "Seniors Property Tax Deferral Program",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "1-877-644-9992",
+    "description": "A Government of Alberta program that pays your residential property taxes for you through a low-interest home equity loan, repaid when the home is sold. Homeowners 65 and over with at least 25 percent equity in their home can apply.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-alberta",
+    "website": "https://www.alberta.ca/seniors-property-tax-deferral-program",
+    "intakeNote": "Apply with the loan application form and submit online at seniors.alberta.ca/submit-documents, by fax or by mail; call 1-877-644-9992 for help."
+  },
+  {
+    "id": "alberta-provincial-legal-financial-seniors-benefit",
+    "name": "Alberta Seniors Benefit",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "1-877-644-9992",
+    "description": "A monthly Government of Alberta benefit that tops up income for seniors 65 and over with lower incomes. One Seniors Financial Assistance application, which you can file up to a year before your 65th birthday, also connects you to Alberta's other seniors benefits.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-alberta",
+    "website": "https://www.alberta.ca/alberta-seniors-benefit",
+    "intakeNote": "Apply online at sfa.alberta.ca, by printed form, or call 1-877-644-9992 to have one mailed."
+  },
+  {
+    "id": "alberta-provincial-legal-financial-special-needs",
+    "name": "Special Needs Assistance for Seniors",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "1-877-644-9992",
+    "description": "A Government of Alberta benefit that gives low-income seniors a lump sum, up to $5,872 in a benefit year, toward items like appliances, a bed, some medical equipment and prescription co-payments. You send in receipts or estimates and the province pays its share.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-alberta",
+    "website": "https://www.alberta.ca/seniors-special-needs-assistance",
+    "intakeNote": "Apply for Seniors Financial Assistance first, then submit receipts or estimates through your MyAlberta Seniors account, by upload, fax or mail."
+  },
+  {
+    "id": "alberta-provincial-legal-financial-supplementary-accommodation",
+    "name": "Supplementary Accommodation Benefit",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "1-877-644-9992",
+    "description": "A Government of Alberta benefit that helps low-income seniors pay the monthly accommodation charge in a continuing care home, while leaving at least $373 a month for personal costs. It arrives combined with the Alberta Seniors Benefit in one monthly payment.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-alberta",
+    "website": "https://www.alberta.ca/alberta-seniors-benefit",
+    "intakeNote": "Covered by the same Seniors Financial Assistance application at sfa.alberta.ca; call 1-877-644-9992 with questions."
+  },
+  {
+    "id": "alberta-provincial-medical-alert-safety-family-violence-info-line",
+    "name": "Family Violence Info Line (elder abuse help)",
+    "category": "Medical Alert & Safety",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "310-1818",
+    "description": "A 24-hour Government of Alberta line for anyone worried about elder abuse or family violence. Call or text 310-1818 for information, advice and referrals in more than 170 languages.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-alberta",
+    "website": "https://www.alberta.ca/get-help-elder-abuse",
+    "intakeNote": "Call or text 310-1818 any time, day or night; no area code needed inside Alberta."
+  },
+  {
+    "id": "alberta-provincial-medical-alert-safety-protection-persons-in-care",
+    "name": "Protection for Persons in Care reporting line",
+    "category": "Medical Alert & Safety",
+    "tier": "provincial",
+    "provinces": [
+      "AB"
+    ],
+    "cities": [],
+    "phone": "1-888-357-9339",
+    "description": "A Government of Alberta reporting line for abuse of adults who receive publicly funded care or support services, including seniors in continuing care homes. Anyone can call to report a concern and the province follows up under the Protection for Persons in Care Act.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-alberta",
+    "website": "https://www.alberta.ca/get-help-elder-abuse",
+    "intakeNote": "Call 1-888-357-9339 to make a report; anyone who witnesses or suspects abuse of an adult in care can call."
+  },
+  {
     "id": "alzheimer-society-durham-dementia-memory-support",
     "name": "Alzheimer Society Durham First Link",
     "category": "Dementia & Memory Support",
@@ -206,6 +393,210 @@
     "brandGroup": "alzheimer-society-york",
     "website": "https://alzheimer.ca/york/en/help-support/programs-services/day-program",
     "intakeNote": "Families call 905-726-3477 (toll-free 1-888-414-5550) or reach the general inbox at info@alzheimer-york.com. Some programs, like the D.A.Y. Centre and First Link, also take direct referrals from doctors, hospitals, and family members."
+  },
+  {
+    "id": "bc-provincial-doctors-pharmacy-medication-fair-pharmacare",
+    "name": "Fair PharmaCare",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "1-800-663-7100",
+    "description": "Income-based drug coverage from the Government of British Columbia that helps families pay for prescription drugs, dispensing fees and some medical supplies. You register once and are covered for life, and the less your household earns the more the plan pays.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-bc",
+    "website": "https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/pharmacare-for-bc-residents/who-we-cover/fair-pharmacare-plan",
+    "intakeNote": "Register once online at my.gov.bc.ca/ahdc or call 1-800-663-7100; you must be enrolled in MSP."
+  },
+  {
+    "id": "bc-provincial-doctors-pharmacy-medication-healthlink-811",
+    "name": "HealthLink BC 811",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "The Government of British Columbia's free health information line. Dial 811 any time, day or night, to speak with a registered nurse, and reach dietitians, exercise professionals or an overnight pharmacist at set hours, with translation in more than 130 languages.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-bc",
+    "website": "https://www.healthlinkbc.ca/",
+    "intakeNote": "Just dial 811 from anywhere in BC; nurses answer 24/7."
+  },
+  {
+    "id": "bc-provincial-home-care-better-at-home",
+    "name": "Better at Home",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "604-268-1312",
+    "description": "Non-medical home support funded by the Government of BC and managed by United Way British Columbia. Local community agencies offer light housekeeping, grocery shopping, rides to appointments, friendly visits, yard work and snow shovelling so seniors can keep living at home.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "united-way-bc",
+    "website": "https://betterathome.ca/",
+    "intakeNote": "Find your local Better at Home program with the map at betterathome.ca and contact it directly; the provincial office is 604-268-1312."
+  },
+  {
+    "id": "bc-provincial-home-maintenance-bc-raha",
+    "name": "BC Rebate for Accessible Home Adaptations (BC RAHA)",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "1-800-257-7756",
+    "description": "A BC Housing program, formerly called HAFI, that gives lower-income homeowners and renters rebates for accessibility adaptations such as grab bars, ramps, stair rails and walk-in showers. Applications are taken first come, first served, and funding renews every April 1.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "bc-housing",
+    "website": "https://www.bchousing.org/housing-assistance/BC-RAHA",
+    "intakeNote": "Download the homeowner or tenant application from BC Housing or call 1-800-257-7756; submit through the program upload form."
+  },
+  {
+    "id": "bc-provincial-home-maintenance-renovation-tax-credit",
+    "name": "BC Home Renovation Tax Credit for Seniors",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "1-877-387-3332",
+    "description": "A Government of British Columbia refundable tax credit of up to $1,000 a year for people 65 and over, and for persons with disabilities, who renovate their home to make it safer or easier to get around. It returns 10 percent of eligible renovation costs, up to $10,000 in expenses a year.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-bc",
+    "website": "https://www2.gov.bc.ca/gov/content/taxes/income-taxes/personal/credits/seniors-renovation",
+    "intakeNote": "Claim it on your income tax return using Schedule BC(S12); call 1-877-387-3332 with questions."
+  },
+  {
+    "id": "bc-provincial-legal-financial-home-owner-grant",
+    "name": "BC Home Owner Grant (higher amount for 65+)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "1-888-355-2700",
+    "description": "A Government of British Columbia grant that lowers the annual property tax bill on your principal home, with a higher grant amount for owners aged 65 and over. You apply again each year after your tax notice arrives.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-bc",
+    "website": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/annual-property-tax/home-owner-grant",
+    "intakeNote": "Apply each year online or by phone at 1-888-355-2700 once you get your property tax notice."
+  },
+  {
+    "id": "bc-provincial-legal-financial-safer",
+    "name": "SAFER (Shelter Aid for Elderly Renters)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "1-800-257-7756",
+    "description": "A BC Housing program that pays monthly cash toward rent for British Columbians aged 60 and over whose rent takes more than 30 percent of their income. The province funds it so lower-income seniors can stay in their own rental homes.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "bc-housing",
+    "website": "https://www.bchousing.org/housing-assistance/rental-assistance-programs/SAFER",
+    "intakeNote": "Download the application from BC Housing or call 1-800-257-7756; submit by online upload, mail, fax or in person."
+  },
+  {
+    "id": "bc-provincial-legal-financial-seniors-advocate",
+    "name": "Office of the Seniors Advocate BC information line",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "1-877-952-3181",
+    "description": "An independent office of the BC provincial government that watches over seniors services and runs a toll-free information line. Senior service specialists help seniors and family caregivers find the right programs and work through problems with health care, housing, income and transportation.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "seniors-advocate-bc",
+    "website": "https://www.seniorsadvocatebc.ca/",
+    "intakeNote": "Call 1-877-952-3181, Monday to Friday 8:30 am to 4:30 pm."
+  },
+  {
+    "id": "bc-provincial-legal-financial-seniors-supplement",
+    "name": "BC Seniors Supplement",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "1-866-866-0800",
+    "description": "An automatic monthly top-up from the Government of British Columbia for low-income seniors who receive Old Age Security and the Guaranteed Income Supplement. There is no application; payments start on their own about a month after your federal benefits begin.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-bc",
+    "website": "https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/financial-legal-matters/income-security-programs/seniors-supplement",
+    "intakeNote": "No application needed; payment is automatic for eligible seniors. Call 1-866-866-0800 with questions."
+  },
+  {
+    "id": "bc-provincial-legal-financial-tax-deferment",
+    "name": "BC Property Tax Deferment Program (55+)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "1-888-355-2700",
+    "description": "A Government of British Columbia loan program that lets homeowners aged 55 and over put off paying their annual property taxes until the home is sold or transferred. The province pays the tax bill for you and charges low interest on the balance.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-bc",
+    "website": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/annual-property-tax/defer-taxes",
+    "intakeNote": "Apply and renew online through eTaxBC; call 1-888-355-2700 for help."
+  },
+  {
+    "id": "bc-provincial-palliative-hospice-care-plan-p",
+    "name": "BC Palliative Care Benefits (Plan P)",
+    "category": "Palliative & Hospice Care",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "1-800-663-7100",
+    "description": "A Government of British Columbia PharmaCare plan for people who choose to receive end-of-life care at home. It covers 100 percent of palliative medications on the Plan P list, and medical supplies and equipment come through your health authority.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-bc",
+    "website": "https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/pharmacare-for-bc-residents/who-we-cover/palliative-care-plan-p",
+    "intakeNote": "Your doctor or nurse practitioner registers you; coverage is usually in place within a day. PharmaCare questions: 1-800-663-7100."
+  },
+  {
+    "id": "bc-provincial-transportation-bus-pass",
+    "name": "BC Bus Pass Program",
+    "category": "Transportation",
+    "tier": "provincial",
+    "provinces": [
+      "BC"
+    ],
+    "cities": [],
+    "phone": "1-866-866-0800",
+    "description": "A Government of British Columbia program that sells a subsidized annual transit pass to low-income seniors, including those receiving the Guaranteed Income Supplement or its Allowances. The pass costs $45 for the year and works on BC Transit and TransLink services.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-bc",
+    "website": "https://www2.gov.bc.ca/gov/content/transportation/passenger-travel/buses-taxis-limos/bus-pass",
+    "intakeNote": "Apply online at myselfserve.gov.bc.ca/BusPass or call 1-866-866-0800, Monday to Friday 9 am to 4 pm."
   },
   {
     "id": "bereavement-authority-ontario-funeral-estate-planning",
@@ -2064,6 +2455,193 @@
     "intakeNote": "Complete the application form, with one section completed by a healthcare professional, and mail or drop it off at 450 Highbury Avenue North; call 519-451-1347 with questions. Once registered, book rides at 519-453-3444."
   },
   {
+    "id": "manitoba-provincial-doctors-pharmacy-medication-health-links",
+    "name": "Health Links - Info Sante",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "1-888-315-9257",
+    "description": "Manitoba's government-funded provincial health advice line, answered by registered nurses 24 hours a day, every day. Call to talk through symptoms and get guidance on whether to treat at home, see a doctor, or go to emergency, in English or French with interpreters in more than 200 languages.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "mb-health-links",
+    "website": "https://misericordia.mb.ca/programs/phcc/health-links-info-sante/",
+    "intakeNote": "Just call any time: 204-788-8200 in Winnipeg or 1-888-315-9257 toll free."
+  },
+  {
+    "id": "manitoba-provincial-doctors-pharmacy-medication-pharmacare",
+    "name": "Manitoba Pharmacare Program",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "1-800-297-8099",
+    "description": "A Government of Manitoba drug benefit for residents of any age whose income is seriously affected by high prescription drug costs. Once your income-based annual deductible is reached, eligible prescription drugs are covered for the rest of the benefit year, and since April 2025 the Enhanced Pharmacare Program also covers most diabetes and hormone replacement medications at no cost.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "mb-health",
+    "website": "https://www.gov.mb.ca/health/pharmacare/index.html",
+    "intakeNote": "Enrol once with the Pharmacare Application and Consent Authorization Form so the Canada Revenue Agency can confirm your income each year; call 204-786-7141 or 1-800-297-8099 with questions."
+  },
+  {
+    "id": "manitoba-provincial-hearing-vision-seniors-eyeglass-program",
+    "name": "Seniors Eyeglass Program",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "204-786-7365",
+    "description": "A Government of Manitoba benefit that helps seniors 65 and older with the cost of eyeglasses. It reimburses set amounts for dispensing fees, frames, and lenses after a $50 deductible, for one pair every three years or sooner if your prescription changes.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "mb-health",
+    "website": "https://www.gov.mb.ca/health/mhsip/healthcoverage.html",
+    "intakeNote": "Pay for your glasses, then send in the claim form from your supplier, or ask the supplier to submit it for you; call 204-786-7365 or 204-786-7366 (toll free 1-800-297-8099 ext 7365 or 7366) with questions."
+  },
+  {
+    "id": "manitoba-provincial-hearing-vision-seniors-hearing-aid-program",
+    "name": "Manitoba Seniors Hearing Aid Program",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "1-844-403-4327",
+    "description": "A Government of Manitoba program that pays up to $2,000 toward hearing aids for seniors, including the hearing assessment and fitting. One claim can be made every five years, and the amount is applied right at the point of sale once you are approved.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "mb-provincial-services",
+    "website": "https://www.gov.mb.ca/seniors/hearing_aid_program.html",
+    "intakeNote": "Apply first, before buying: mail, fax, or drop off the application form with a CRA Proof of Income statement and a hearing assessment from a licensed Manitoba hearing aid dealer to Provincial Services in Winnipeg; call 204-945-5588 or 1-844-403-4327 (HEAR) with questions."
+  },
+  {
+    "id": "manitoba-provincial-home-maintenance-safe-and-healthy-home",
+    "name": "Manitoba Safe and Healthy Home for Seniors Program",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "1-866-906-6006",
+    "description": "A Government of Manitoba funded program, delivered by March of Dimes Canada, that pays up to $5,000 ($6,500 in rural and remote areas) for home accessibility and safety upgrades so seniors can stay in their homes longer. Grab bars, ramps, and other basic adaptations essential for daily living all qualify.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "march-of-dimes-canada",
+    "website": "https://www.marchofdimes.ca/en-ca/programs/am/mshhs/Pages/SHHS.aspx",
+    "intakeNote": "Apply through March of Dimes Canada online or call 1-866-906-6006 for help completing the application."
+  },
+  {
+    "id": "manitoba-provincial-legal-financial-55-plus",
+    "name": "55 PLUS Program (Manitoba Income Supplement)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "1-877-587-6224",
+    "description": "A Government of Manitoba benefit that pays lower-income Manitobans aged 55 and over a supplement four times a year, currently up to $161.80 per quarter for a single person and $173.90 for each eligible person in a couple. It helps stretch a fixed income between pension cheques.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "mb-provincial-services",
+    "website": "https://www.gov.mb.ca/fs/eia/55plus.html",
+    "intakeNote": "If you receive Old Age Security, eligibility is set automatically from your GIS or Allowance; otherwise mail or fax the printable application to Provincial Services any time of year, or call 204-948-7368 or 1-877-587-6224."
+  },
+  {
+    "id": "manitoba-provincial-legal-financial-primary-caregiver-tax-credit",
+    "name": "Primary Caregiver Tax Credit",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "204-948-2115",
+    "description": "A Government of Manitoba refundable tax credit of $1,400 a year for people who give unpaid care to a family member, neighbour, or friend living at home with significant care needs. It is not income tested, so caregivers can claim it even with no taxable income, helping cover costs like shopping, transport, and respite.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "mb-finance-tao",
+    "website": "https://www.gov.mb.ca/finance/tao/caregiver.html",
+    "intakeNote": "Register online or by paper form (a doctor or nurse practitioner completes the Level of Care Equivalency form if needed), then claim the credit on your income tax return; call the Manitoba Tax Assistance Office at 204-948-2115 or 1-800-782-0771 with questions."
+  },
+  {
+    "id": "manitoba-provincial-legal-financial-seniors-advocate",
+    "name": "Manitoba Seniors' Advocate",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "204-583-0187",
+    "description": "Manitoba's independent Seniors' Advocate, an office created by the Government of Manitoba that opened in November 2025. The advocate looks into the problems seniors and their families face with health care, housing, and government programs, and reports to the legislature with recommendations for change.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "mb-seniors-advocate",
+    "website": "https://www.gov.mb.ca/seniors/seniors-advocate.html",
+    "intakeNote": "Call 204-583-0187 or email seniorsadvocate@seniorsadvocatemb.ca to raise a concern."
+  },
+  {
+    "id": "manitoba-provincial-legal-financial-seniors-school-tax-rebate",
+    "name": "Seniors' School Tax Rebate",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "204-948-2115",
+    "description": "A Government of Manitoba rebate of up to $235 a year on the school taxes senior homeowners pay on their principal residence. It continues alongside the new Homeowners Affordability Tax Credit, which gives all homeowners up to $1,600 in school tax savings in 2026.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "mb-finance-tao",
+    "website": "https://www.gov.mb.ca/finance/tao/sstrebate.html",
+    "intakeNote": "Claim it on your personal income tax return; for questions call the Manitoba Tax Assistance Office at 204-948-2115 or toll free 1-800-782-0771."
+  },
+  {
+    "id": "manitoba-provincial-legal-financial-stat-55-plus",
+    "name": "School Tax Assistance for Tenants 55 Plus (STAT 55+)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "1-877-587-6224",
+    "description": "A Government of Manitoba rebate of up to $175 a year that helps renters aged 55 and over with the school tax portion of their rent. Lower-income tenants can even apply retroactively for up to four past years.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "mb-provincial-services",
+    "website": "https://www.gov.mb.ca/housing/stat55.html",
+    "intakeNote": "Mail or drop off the application form (printable or fillable versions online) to Provincial Services; call 204-948-7368 or 1-877-587-6224 with questions."
+  },
+  {
+    "id": "manitoba-provincial-retirement-residences-protection-persons-in-care",
+    "name": "Protection for Persons in Care Office",
+    "category": "Retirement Residences",
+    "tier": "provincial",
+    "provinces": [
+      "MB"
+    ],
+    "cities": [],
+    "phone": "1-866-440-6366",
+    "description": "A Government of Manitoba office that receives and investigates reports of abuse or neglect of adults in personal care homes, hospitals, and other designated health facilities. Families who are worried about how a loved one is being treated in care can report their concerns here.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "mb-health",
+    "website": "https://www.gov.mb.ca/health/protection/index.html",
+    "intakeNote": "Call 204-788-6366 in Winnipeg or 1-866-440-6366 toll free, or email protection@gov.mb.ca; in an emergency call 911 first and report to the office when safe."
+  },
+  {
     "id": "march-of-dimes-hvmp-home-maintenance",
     "name": "Home and Vehicle Modification Program",
     "category": "Home Maintenance",
@@ -2130,6 +2708,807 @@
     "brandGroup": "mto-senior-driver-renewal",
     "website": "https://www.ontario.ca/page/renew-g-drivers-licence-80-years-and-over",
     "intakeNote": "Wait for the renewal letter that arrives up to 90 days before the licence expires, then book online or call 1-800-396-4233 (416-235-3579 in the GTA), Monday to Friday 8:30 a.m. to 5 p.m."
+  },
+  {
+    "id": "new-brunswick-provincial-companion-social-day-activity",
+    "name": "Day Activity Services for Seniors",
+    "category": "Companion & Social",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-833-733-7835",
+    "description": "A Government of New Brunswick service where seniors spend the day in a group setting with planned social and recreational activities, meals, and gentle health monitoring, which also gives family caregivers a break. Access is arranged through a Social Development long-term care service plan.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "gnb-social-development",
+    "website": "https://www2.gnb.ca/content/gnb/en/departments/social_development/seniors/content/services-seniors/services_renderer.200708.Day_Activity_Services_for_Seniors.html",
+    "intakeNote": "Call Social Development at 1-833-733-7835; day activity services are added to a senior's long-term care service plan."
+  },
+  {
+    "id": "new-brunswick-provincial-doctors-pharmacy-medication-drug-plans",
+    "name": "New Brunswick Drug Plans for Seniors",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-800-332-3692",
+    "description": "A Government of New Brunswick program that gives seniors prescription drug coverage. Seniors who receive the Guaranteed Income Supplement join the New Brunswick Prescription Drug Program, and other seniors can enrol in the New Brunswick Drug Plan, where premiums and co-payments are based on household income.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "gnb-health",
+    "website": "https://www.gnb.ca/en/topic/health-wellness/nb-drug-plans/eligibility-prescription.html",
+    "intakeNote": "An application package is mailed automatically about 60 days before your 65th birthday; you can also call 1-800-332-3692 or mail the form to New Brunswick Drug Plans, PO Box 690, Moncton."
+  },
+  {
+    "id": "new-brunswick-provincial-doctors-pharmacy-medication-tele-care",
+    "name": "Tele-Care 811",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "A free, bilingual, and confidential Government of New Brunswick health line. Call 811 any time, day or night, to speak with a registered nurse who can assess symptoms, give advice, and book a virtual appointment with a nurse practitioner.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "gnb-health",
+    "website": "https://www.gnb.ca/en/topic/health-wellness/access-health-care/tele-care-811.html",
+    "intakeNote": "Dial 811 from anywhere in New Brunswick, 24 hours a day."
+  },
+  {
+    "id": "new-brunswick-provincial-hearing-vision-hearing-aid-program",
+    "name": "Health Services Hearing Aid Program",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-833-733-7835",
+    "description": "A Government of New Brunswick program that pays for hearing aids, repairs, and ear molds for Department of Social Development clients who have no other coverage. It covers up to $1,000 per hearing aid once every five years, at no cost to eligible clients.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "gnb-social-development",
+    "website": "https://www2.gnb.ca/content/gnb/en/departments/social_development/seniors/content/services-seniors/services_renderer.8035.Health_Services_Hearing_Aid_Program_.html",
+    "intakeNote": "Call Social Development at 1-833-733-7835; you need a valid Health Services card showing hearing aid eligibility."
+  },
+  {
+    "id": "new-brunswick-provincial-home-care-extra-mural",
+    "name": "Extra-Mural Program (home health care)",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-844-982-7367",
+    "description": "New Brunswick's home health care program, a Government of New Brunswick service that brings nurses, rehabilitation therapists, and other health professionals to your home. You, a family member, or any health care provider can send a request, and the Care Coordination Centre contacts the patient within two workdays.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "extra-mural-nb",
+    "website": "https://extramuralnb.ca/en/contact/request-for-services/",
+    "intakeNote": "Submit the online or printable request form at extramuralnb.ca, or call the Care Coordination Centre at 1-844-982-7367."
+  },
+  {
+    "id": "new-brunswick-provincial-home-care-home-support",
+    "name": "Home Support Services (Long Term Care Program)",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-833-733-7835",
+    "description": "A Government of New Brunswick program that helps seniors stay independent at home with personal care such as bathing and grooming, light housekeeping, meal preparation, and relief for family caregivers. A Social Development social worker visits to assess what services are needed.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "gnb-social-development",
+    "website": "https://www.gnb.ca/en/topic/health-wellness/manage-health-disease/dementia/applying-for-care.html",
+    "intakeNote": "Call the Department of Social Development at 1-833-733-7835 to ask for a long-term care assessment."
+  },
+  {
+    "id": "new-brunswick-provincial-home-maintenance-homeowner-repair",
+    "name": "Homeowner Repair Program",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-833-733-7835",
+    "description": "A home repair program funded by the Government of Canada and the Government of New Brunswick and delivered by Housing NB. Low-income homeowners can get forgivable loans of up to $18,000 for urgent repairs, and seniors can get up to $7,000 for adaptations that make daily living at home easier.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "housing-nb",
+    "website": "https://www.gnb.ca/en/topic/family-home-community/housing-property/home-repair.html",
+    "intakeNote": "Call Housing NB through Social Development at 1-833-733-7835 to apply."
+  },
+  {
+    "id": "new-brunswick-provincial-legal-financial-lisb",
+    "name": "Low-Income Seniors' Benefit",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-833-796-0944",
+    "description": "A Government of New Brunswick benefit that pays low-income seniors $629 a year (2026 amount). If you receive the Guaranteed Income Supplement or the federal Allowance, you can apply online, by mail, or at a Service New Brunswick centre by December 31 each year.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "gnb-finance",
+    "website": "https://www2.gnb.ca/content/gnb/en/corporate/promo/new-brunswick-low-income-seniors-benefit.html",
+    "intakeNote": "Apply online, by mail, or in person at Service New Brunswick between April 1 and December 31; call 1-833-796-0944 with questions."
+  },
+  {
+    "id": "new-brunswick-provincial-legal-financial-property-tax-deferral",
+    "name": "Property Tax Deferral Program for Seniors",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-800-669-7070",
+    "description": "A Government of New Brunswick program that lets homeowners 65 and older put off paying the yearly increases in property tax on their main home. The deferred amount, plus interest, is only repaid when the home is sold or transferred.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "snb",
+    "website": "https://www.gnb.ca/en/topic/family-home-community/housing-property/property-tax/property-tax-deferral-program-seniors.html",
+    "intakeNote": "Apply online, by mail, or at any Service New Brunswick centre by December 31 of the tax year; call 1-800-669-7070 with questions."
+  },
+  {
+    "id": "new-brunswick-provincial-legal-financial-seniors-advocate",
+    "name": "New Brunswick Seniors' Advocate (Office of the NB Advocate)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-833-453-8653",
+    "description": "An independent office of New Brunswick's Legislative Assembly that advocates for people 65 and older. Its case specialists help seniors who feel treated unfairly by provincial programs, including nursing home and special care home costs, refused home repairs, and access to services, at no charge and in confidence.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nb-advocate",
+    "website": "https://www.defenseur-nb-advocate.ca/older-adults",
+    "intakeNote": "Call 1-833-453-8653, email advocate-defenseur@gnb.ca, or send a message through the website; an Individual Case Specialist follows up."
+  },
+  {
+    "id": "new-brunswick-provincial-medical-alert-safety-adult-protection",
+    "name": "Adult Protection (elder abuse and neglect)",
+    "category": "Medical Alert & Safety",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-833-733-7835",
+    "description": "A Government of New Brunswick service that investigates and responds when a senior is being abused or neglected, including self-neglect. Anyone can make a referral to the Department of Social Development, 24 hours a day, 7 days a week.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "gnb-social-development",
+    "website": "https://www2.gnb.ca/content/gnb/en/departments/social_development/seniors/content/services-seniors/services_renderer.9335.Adult_Protection.html",
+    "intakeNote": "Call Social Development at 1-833-733-7835; referrals can be made day or night through the nearest regional office."
+  },
+  {
+    "id": "new-brunswick-provincial-retirement-residences-nursing-homes",
+    "name": "Nursing Home Services (Social Development)",
+    "category": "Retirement Residences",
+    "tier": "provincial",
+    "provinces": [
+      "NB"
+    ],
+    "cities": [],
+    "phone": "1-833-733-7835",
+    "description": "The Government of New Brunswick's front door to nursing home care. The Department of Social Development approves all nursing home admissions after assessing a person's health and social needs, and families who cannot afford the full cost can apply for financial assistance.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "gnb-social-development",
+    "website": "https://www2.gnb.ca/content/gnb/en/departments/social_development/seniors/content/services-seniors/services_renderer.9615.Nursing_Home_Services.html",
+    "intakeNote": "Call the Department of Social Development at 1-833-733-7835 to start a long-term care assessment."
+  },
+  {
+    "id": "newfoundland-provincial-doctors-pharmacy-medication-65plus",
+    "name": "65Plus Plan (NL Prescription Drug Program)",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "1-888-859-3535",
+    "description": "Government of Newfoundland and Labrador drug coverage for seniors who receive Old Age Security and the Guaranteed Income Supplement. Enrolment is automatic, and members pay only the dispensing fee, up to $6 per prescription, for covered drugs.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nl-health-community-services",
+    "website": "https://www.gov.nl.ca/hcs/prescription/nlpdp-plan-overview/",
+    "intakeNote": "No application needed; a drug card is mailed automatically once Service Canada confirms you receive OAS and GIS. Call 1-888-859-3535 with questions."
+  },
+  {
+    "id": "newfoundland-provincial-doctors-pharmacy-medication-811",
+    "name": "811 HealthLine (Newfoundland and Labrador)",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "The Government of Newfoundland and Labrador's free, confidential health line. Registered nurses answer 24 hours a day to help you decide what to do about symptoms, answer questions about topics like dementia care, and point you to services, with dietitian and mental health support also available.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nl-health-services",
+    "website": "https://www.811healthline.ca/",
+    "intakeNote": "Dial 811 any time; call 1-888-709-2929 if 811 does not work from your phone or internet phone service."
+  },
+  {
+    "id": "newfoundland-provincial-home-care-home-support",
+    "name": "Home Support Program (NL Health Services)",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "709-752-4835",
+    "description": "The Government of Newfoundland and Labrador's home support program for seniors who need help with daily living. After a clinical assessment, families choose agency-managed care, self-managed care, or paid family caregiving, covering personal care, housekeeping, meals, and respite for caregivers.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nl-health-services",
+    "website": "https://www.gov.nl.ca/seniors/seniors-health-care/home-support-program/",
+    "intakeNote": "Call the NL Health Services intake line for your zone: Eastern Urban 709-752-4835, Eastern Rural 709-786-5217, Central 1-833-210-8491, Western 1-866-566-3787, Labrador-Grenfell 1-833-284-4751; an income-based assessment decides how much the province pays."
+  },
+  {
+    "id": "newfoundland-provincial-home-maintenance-home-modification",
+    "name": "Home Modification Program (NL Housing)",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "(709) 724-3196",
+    "description": "A Government of Newfoundland and Labrador program, delivered by NL Housing, that helps lower-income homeowners pay for accessibility changes like ramps, grab bars, and roll-in showers so seniors can stay home longer. Forgivable loans reach $7,500 now and double to $15,000 when the updated program reopens in Fall 2026.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nl-housing",
+    "website": "https://www.nlhc.nl.ca/housing-programs/home-modification-program-hmp/",
+    "intakeNote": "New applications are paused until Fall 2026 except urgent cases identified by an occupational therapist; call the Avalon office at (709) 724-3196 or your regional NL Housing office to ask about timing."
+  },
+  {
+    "id": "newfoundland-provincial-legal-financial-aging-well-grant",
+    "name": "Aging Well at Home Grant ($400)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "709-651-6273",
+    "description": "A Government of Newfoundland and Labrador grant of $400 per household that repays low-income seniors for everyday services like snow clearing, lawn care, house cleaning, grocery and prescription delivery, foot care, dental work, and rides to appointments. Applications run on a yearly cycle with a March 31 deadline.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nl-health-services",
+    "website": "https://nlhealthservices.ca/key-information/the-aging-well-at-home-grant/",
+    "intakeNote": "Apply by email to Aging.Well@nlhealthservices.ca or by mail to NL Health Services Central Zone in Gander; call 709-651-6273 for help. The 2026-27 application was not yet posted as of August 2026."
+  },
+  {
+    "id": "newfoundland-provincial-legal-financial-caregiver-benefit",
+    "name": "Caregiver Benefit ($400 a month, NL)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "709-752-4361",
+    "description": "A Government of Newfoundland and Labrador benefit that pays $400 a month to an unpaid caregiver, such as a family member or friend, who regularly cares for a lower-income senior with high care needs. It recognizes the caregiver's role and helps keep the senior at home.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nl-health-services",
+    "website": "https://nlhealthservices.ca/key-information/caregiver-benefit-2/",
+    "intakeNote": "Download the application from the NL Health Services page and contact the Caregiver Benefit coordinator for your zone (Eastern Urban 709-752-4361); the care recipient needs a current NL Health Services assessment."
+  },
+  {
+    "id": "newfoundland-provincial-legal-financial-seniors-advocate",
+    "name": "Office of the Seniors' Advocate NL",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "1-833-729-6603",
+    "description": "An independent office of Newfoundland and Labrador's House of Assembly that speaks up for seniors across the province. It reviews seniors' concerns about provincial programs, identifies systemic problems, and pushes government for change, and any senior or family member can contact it directly.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nl-seniors-advocate",
+    "website": "https://www.seniorsadvocatenl.ca/",
+    "intakeNote": "Call (709) 729-6603 or toll-free 1-833-729-6603, or email SeniorsAdvocate@SeniorsAdvocateNL.ca."
+  },
+  {
+    "id": "newfoundland-provincial-legal-financial-seniors-benefit",
+    "name": "Newfoundland and Labrador Seniors' Benefit",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "(709) 729-3166",
+    "description": "A Government of Newfoundland and Labrador refundable tax credit that pays low-income seniors up to $1,882 a year. There is no application: file your income tax return each year and the money arrives in quarterly instalments with the federal GST Credit payments in January, April, July, and October.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nl-finance",
+    "website": "https://www.gov.nl.ca/fin/tax-programs-incentives/personal/income-supplement/",
+    "intakeNote": "File your annual income tax return; the CRA pays the benefit automatically. Call (709) 729-3166 with questions."
+  },
+  {
+    "id": "newfoundland-provincial-mobility-equipment-special-assistance",
+    "name": "Special Assistance Program (medical equipment and supplies)",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "709-752-4835",
+    "description": "A Government of Newfoundland and Labrador program that provides basic medical equipment and supplies, such as wheelchairs, walkers, oxygen equipment, and orthotics, to people living at home who meet income rules.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nl-health-services",
+    "website": "https://www.gov.nl.ca/seniors/seniors-health-care/special-assistance-program/",
+    "intakeNote": "Apply through the NL Health Services intake line for your zone (Eastern Urban 709-752-4835); a financial assessment checks eligibility."
+  },
+  {
+    "id": "newfoundland-provincial-retirement-residences-long-term-care",
+    "name": "Long-Term Care and Personal Care Home Placement",
+    "category": "Retirement Residences",
+    "tier": "provincial",
+    "provinces": [
+      "NL"
+    ],
+    "cities": [],
+    "phone": "709-752-4835",
+    "description": "The Government of Newfoundland and Labrador's route into long-term care homes, which provide 24-hour nursing, and personal care homes, which provide supervision and support. One clinical assessment through NL Health Services starts the placement process, with an income-based subsidy for those who cannot pay the full cost.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nl-health-services",
+    "website": "https://www.gov.nl.ca/seniors/seniors-health-care/long-term-care-services/",
+    "intakeNote": "Call your zone's NL Health Services intake line (Eastern Urban 709-752-4835) to request an assessment; the same call covers home support, personal care homes, and long-term care."
+  },
+  {
+    "id": "nova-scotia-provincial-companion-social-adult-day",
+    "name": "Adult Day Programs (Continuing Care)",
+    "category": "Companion & Social",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-225-7225",
+    "description": "Government of Nova Scotia day programs, arranged through Nova Scotia Health Continuing Care, where seniors spend the day in a supervised group with activities and company. They also give family caregivers regular daytime relief.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-continuing-care",
+    "website": "https://www.nshealth.ca/clinics-programs-and-services/respite-and-caregiver-support",
+    "intakeNote": "Call Continuing Care at 1-800-225-7225 to ask about adult day programs in your area.",
+    "program": "Adult Day Program",
+    "runBy": "Government of Nova Scotia"
+  },
+  {
+    "id": "nova-scotia-provincial-doctors-pharmacy-medication-811",
+    "name": "811 Nurse Line (Nova Scotia)",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "A free Government of Nova Scotia health line. Call 811 around the clock to talk to a registered nurse about symptoms, medications, or where to find care, with interpretation available in over 125 languages.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-health-wellness",
+    "website": "https://811.novascotia.ca/",
+    "intakeNote": "Dial 811 any time; call 1-866-770-7763 if you cannot reach 811."
+  },
+  {
+    "id": "nova-scotia-provincial-doctors-pharmacy-medication-seniors-pharmacare",
+    "name": "Seniors' Pharmacare Program",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-544-6191",
+    "description": "The Government of Nova Scotia's drug plan for seniors without other coverage. Members pay an annual premium based on household income, plus a copayment with yearly maximums, and the province covers the rest; low-income seniors can have the premium reduced or waived.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-health-wellness",
+    "website": "https://www.novascotia.ca/apply-seniors-pharmacare-program",
+    "intakeNote": "An application package is mailed before your 65th birthday; apply online or on paper, and call 1-800-544-6191 for help. Renew by April 1 each year."
+  },
+  {
+    "id": "nova-scotia-provincial-home-care-continuing-care",
+    "name": "Continuing Care Home Care (Nova Scotia Health)",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-225-7225",
+    "description": "The Government of Nova Scotia's home care program, delivered through Nova Scotia Health. One call starts an assessment for nursing visits, personal care, essential housekeeping, and respite that gives family caregivers a break, either at home or in a licensed facility.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-continuing-care",
+    "website": "https://novascotia.ca/dhw/ccs/home-care.asp",
+    "intakeNote": "Call 1-800-225-7225 (8:30 am to 4:30 pm, seven days a week); a Care Coordinator arranges an in-home assessment."
+  },
+  {
+    "id": "nova-scotia-provincial-home-maintenance-housing-repair",
+    "name": "Housing Repair and Accessibility Program",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-844-424-5110",
+    "description": "A Government of Nova Scotia program that helps low- and moderate-income homeowners, including seniors, pay for urgent health and safety repairs and accessibility adaptations so they can stay in their homes. It funds up to $18,000 as a grant and forgivable loan, with more available as a repayable loan for big jobs.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-growth-development",
+    "website": "https://beta.novascotia.ca/programs-and-services/housing-repair-and-accessibility-program",
+    "intakeNote": "Call 1-844-424-5110 or mail the application to a regional housing office; emergency repairs are reviewed in 1 to 3 days."
+  },
+  {
+    "id": "nova-scotia-provincial-legal-financial-caregiver-benefit",
+    "name": "Caregiver Benefit ($400 a month)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-225-7225",
+    "description": "A Government of Nova Scotia benefit that pays $400 a month to a family member or friend who gives 20 or more hours a week of unpaid care to a low-income person with high care needs. It recognizes the caregiver's work and helps them keep going.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-continuing-care",
+    "website": "https://novascotia.ca/dhw/ccs/caregiver-benefit.asp",
+    "intakeNote": "Call Continuing Care at 1-800-225-7225; both caregiver and care recipient are assessed."
+  },
+  {
+    "id": "nova-scotia-provincial-legal-financial-property-tax-rebate",
+    "name": "Property Tax Rebate for Seniors",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-670-4357",
+    "description": "A Government of Nova Scotia rebate that returns half of the municipal property taxes a low-income senior paid last year, up to $800. If you receive the Guaranteed Income Supplement or the Allowance and your taxes are paid, you can apply until December 31 each year.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-service-nova-scotia",
+    "website": "https://www.novascotia.ca/apply-property-tax-rebate-property-tax-rebate-seniors",
+    "intakeNote": "Mail the application with supporting documents or drop it off at Access Nova Scotia by December 31; rebates take 8 to 10 weeks."
+  },
+  {
+    "id": "nova-scotia-provincial-legal-financial-seniors-care-grant",
+    "name": "Seniors Care Grant ($750)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-670-4357",
+    "description": "A Government of Nova Scotia grant of $750 per household that repays low-income seniors for everyday help they buy, like snow removal, lawn care, house cleaning, grocery delivery, taxis, foot care, physiotherapy, small home repairs, and home heating. Applications open each fall and close March 31.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-service-nova-scotia",
+    "website": "https://www.novascotia.ca/apply-help-household-costs-seniors-care-grant",
+    "intakeNote": "Apply online or by mail when the yearly window opens (recent rounds opened in September); call 1-800-670-4357 with questions. The 2026-27 round had not opened as of August 2026."
+  },
+  {
+    "id": "nova-scotia-provincial-medical-alert-safety-adult-protection",
+    "name": "Adult Protection (report abuse or neglect)",
+    "category": "Medical Alert & Safety",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-225-7225",
+    "description": "The Government of Nova Scotia's service for adults who are being abused or neglected and cannot protect themselves. In Nova Scotia reporting is required by law, and anyone can call to report a concern about a senior; call 911 if a life is in danger.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-continuing-care",
+    "website": "https://novascotia.ca/dhw/ccs/protecting-vulnerable-adults.asp",
+    "intakeNote": "Call 1-800-225-7225 to make a report; an Adult Protection worker investigates."
+  },
+  {
+    "id": "nova-scotia-provincial-medical-alert-safety-personal-alert",
+    "name": "Personal Alert Assistance Program",
+    "category": "Medical Alert & Safety",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-225-7225",
+    "description": "A Government of Nova Scotia program that helps low-income seniors pay for a personal alert device or emergency response service, the kind you press for help after a fall. An assessment through Nova Scotia Health Continuing Care decides eligibility.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-continuing-care",
+    "website": "https://www.nshealth.ca/continuing-care",
+    "intakeNote": "Call Continuing Care at 1-800-225-7225 to ask for a Personal Alert Assistance Program assessment."
+  },
+  {
+    "id": "nova-scotia-provincial-mobility-equipment-bed-loan",
+    "name": "Health Equipment Loan Program (hospital beds at home)",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-225-7225",
+    "description": "A Government of Nova Scotia program that loans fully electric hospital-style beds, pressure reduction mattresses, and bed rails to people who need them at home, free of charge.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-continuing-care",
+    "website": "https://novascotia.ca/dhw/ccs/health-equipment.asp",
+    "intakeNote": "Call Continuing Care at 1-800-225-7225; a Care Coordinator assesses whether a specialized bed is appropriate."
+  },
+  {
+    "id": "nova-scotia-provincial-mobility-equipment-wheelchair-loan",
+    "name": "Seniors Community Wheelchair Loan Program",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-225-7225",
+    "description": "A Government of Nova Scotia program that provides manual and electric wheelchairs, new and recycled, to low-income seniors who need one for daily activities at home and in the community.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-continuing-care",
+    "website": "https://novascotia.ca/dhw/ccs/wheelchair-loan-program.asp",
+    "intakeNote": "Call Continuing Care at 1-800-225-7225 to check eligibility and book an assessment."
+  },
+  {
+    "id": "nova-scotia-provincial-retirement-residences-long-term-care",
+    "name": "Long-Term Care Placement (Continuing Care)",
+    "category": "Retirement Residences",
+    "tier": "provincial",
+    "provinces": [
+      "NS"
+    ],
+    "cities": [],
+    "phone": "1-800-225-7225",
+    "description": "The Government of Nova Scotia's front door to nursing homes and residential care facilities. A Continuing Care Coordinator assesses your needs, helps choose the right option, and handles the application and wait list.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ns-continuing-care",
+    "website": "https://novascotia.ca/dhw/ccs/long-term-care.asp",
+    "intakeNote": "Call Continuing Care at 1-800-225-7225 to arrange an assessment."
+  },
+  {
+    "id": "nunavut-territorial-doctors-pharmacy-medication-ehb",
+    "name": "Extended Health Benefits Seniors' Coverage",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "NU"
+    ],
+    "cities": [],
+    "phone": "867-645-8029",
+    "description": "A Government of Nunavut health plan for residents 65 and older who are not covered through the federal Non-Insured Health Benefits program for Inuit and First Nations. It pays for formulary prescription drugs, up to $1,000 of dental care a year, vision care, hearing services, medical supplies and in-territory ambulance charges. Phone the Extended Health Benefits office to register.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nunavut-health",
+    "website": "https://www.gov.nu.ca/en/health/extended-health-benefits-ehb-seniors-coverage",
+    "intakeNote": "Contact the EHB team to register and get claim forms: 867-645-8029, toll-free 1-800-661-0833, or ehb@gov.nu.ca."
+  },
+  {
+    "id": "nunavut-territorial-home-care",
+    "name": "Nunavut Home and Community Care",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "NU"
+    ],
+    "cities": [],
+    "phone": "867-975-5941",
+    "description": "A Government of Nunavut program that sends helpers and nurses into the home for house cleaning, meals, personal care, wound care, respite for family caregivers and rehabilitation. Anyone enrolled in the Nunavut Health Care Plan can ask for it themselves through their community health centre, no doctor's referral needed.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nunavut-health",
+    "website": "https://www.gov.nu.ca/en/health/home-community-and-continuing-care",
+    "intakeNote": "Ask at your community health centre or local home care office, or phone the Territorial Home and Continuing Care Program at 867-975-5941; you can refer yourself or a family member."
+  },
+  {
+    "id": "nunavut-territorial-legal-financial-fuel-subsidy",
+    "name": "Seniors Fuel Subsidy",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NU"
+    ],
+    "cities": [],
+    "phone": "1-800-567-1514",
+    "description": "A Government of Nunavut program that pays for up to 4,000 litres of heating fuel a year for seniors 60 and older who own and live in their home. Households with net income up to $75,000 get the full subsidy and those up to $100,000 get half. Your local Income Assistance Worker helps you apply each year.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nunavut-family-services",
+    "website": "https://www.gov.nu.ca/en/department-family-services/seniors-fuel-subsidy",
+    "intakeNote": "Apply through your local Income Assistance Worker with proof of age, home ownership and last year's Notice of Assessment; regional offices: Qikiqtani 867-473-2600 or 1-800-567-1514, Kivalliq 867-645-5040 ext. 1604 or 1-800-953-8516, Kitikmeot 867-983-4032 or 1-800-661-0845."
+  },
+  {
+    "id": "nwt-territorial-doctors-pharmacy-medication-811",
+    "name": "NWT 811",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "A Government of the Northwest Territories phone service where registered nurses give health advice 24 hours a day, every day, in all NWT communities. The same line now includes mental wellness support and coaching to quit smoking or vaping. Dial 811, or 1-844-259-1793.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nwt-health-social-services",
+    "website": "https://www.hss.gov.nt.ca/en/services/811",
+    "intakeNote": "Dial 811 any time; alternate number 1-844-259-1793."
+  },
+  {
+    "id": "nwt-territorial-doctors-pharmacy-medication-ehb",
+    "name": "Extended Health Benefits for Seniors",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [],
+    "phone": "1-800-661-0830",
+    "description": "A Government of the Northwest Territories health plan that gives seniors 60 and older no cost coverage for prescription drugs, dental care, vision care, medical supplies and equipment, and approved medical travel. It serves residents who are not covered by the federal Non-Insured Health Benefits program or Metis Health Benefits, and Alberta Blue Cross handles the claims.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nwt-health-social-services",
+    "website": "https://www.hss.gov.nt.ca/en/services/supplementary-health-benefits/extended-health-benefits-seniors-program",
+    "intakeNote": "Apply once with the Extended Health Benefits form through the Health Benefits Program; seniors do not re-apply each year; toll-free 1-800-661-0830 ext. 49462 or 867-777-7400."
+  },
+  {
+    "id": "nwt-territorial-home-care",
+    "name": "NWT Home and Community Care",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [],
+    "phone": "867-767-9030",
+    "description": "A Government of the Northwest Territories service that provides nursing, personal care, homemaking, respite, equipment loans and palliative support so people can stay in their own homes. Anyone with a valid NWT health care card can be referred for an assessment through their regional home care office or community health centre.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nwt-health-social-services",
+    "website": "https://www.hss.gov.nt.ca/en/services/continuing-care-services/home-and-community-care",
+    "intakeNote": "Phone your regional home care office: Yellowknife 867-920-3338, Beaufort-Delta 867-777-8150, Dehcho 867-695-7075, Fort Smith 867-872-6222, Hay River 867-874-7208, Sahtu 867-587-3650, Tlicho 867-392-6612; territorial office 867-767-9030."
+  },
+  {
+    "id": "nwt-territorial-home-maintenance-aging-in-place",
+    "name": "Seniors Aging in Place (Housing NWT)",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [],
+    "phone": "867-767-9332",
+    "description": "A Housing NWT program, part of the Government of the Northwest Territories, that gives homeowners 60 and older a forgivable loan of up to $15,000 for minor repairs, energy upgrades and small adaptations such as grab bars. Applications for 2026 are open April 1 to October 31 through your Housing NWT district office.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "housing-nwt",
+    "website": "https://www.nwthc.gov.nt.ca/en/services/minor-home-repair-seniors",
+    "intakeNote": "Phone your Housing NWT district office to start: North Slave (Yellowknife) 867-767-9332 ext. 85481, Beaufort Delta 867-678-8060, Nahendeh 867-695-7700, Sahtu 867-587-5100, South Slave 867-874-7600; a housing representative completes the application with you."
+  },
+  {
+    "id": "nwt-territorial-home-maintenance-seniors-home-repair",
+    "name": "Seniors Home Repair (Housing NWT)",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [],
+    "phone": "867-767-9332",
+    "description": "A Housing NWT program, part of the Government of the Northwest Territories, that provides a forgivable loan of up to $50,000 for major health and safety repairs to homes owned by seniors 60 and older. Applications for 2026 are open April 1 to October 31 through your Housing NWT district office.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "housing-nwt",
+    "website": "https://www.nwthc.gov.nt.ca/en/services/seniors-home-repair",
+    "intakeNote": "Phone your Housing NWT district office to start: North Slave (Yellowknife) 867-767-9332 ext. 85481, Beaufort Delta 867-678-8060, Nahendeh 867-695-7700, Sahtu 867-587-5100, South Slave 867-874-7600; a 10 percent co-pay applies if household income is over $59,999."
+  },
+  {
+    "id": "nwt-territorial-legal-financial-home-heating",
+    "name": "Senior Home Heating Subsidy",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [],
+    "phone": "867-767-9355",
+    "description": "A Government of the Northwest Territories subsidy that helps seniors 60 and older pay for heat in the home they own or a rented unit where heat is not included. Depending on community and income, eligible seniors receive $460 to $750 a month from September through April. Apply again each year.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nwt-education-culture-employment",
+    "website": "https://www.ece.gov.nt.ca/en/services/income-security-programs/senior-home-heating-subsidy",
+    "intakeNote": "Apply at your local ECE Service Centre with proof of age, household income and homeownership or rental; deadline March 15 for the current season; 867-767-9355 or toll-free 866-973-7252."
+  },
+  {
+    "id": "nwt-territorial-legal-financial-income-assistance",
+    "name": "Income Assistance for Seniors and Persons with Disabilities",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [],
+    "phone": "867-767-9355",
+    "description": "A Government of the Northwest Territories income program for residents 60 and older whose income does not cover their basic needs. It pays actual shelter and utility costs plus set amounts for food and other basics, based on family size and community. Client Navigators at ECE Service Centres help with the application.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nwt-education-culture-employment",
+    "website": "https://www.ece.gov.nt.ca/en/services/income-security-programs/income-assistance-seniors-and-persons-disabilities",
+    "intakeNote": "Complete the application at your local ECE Service Centre with ID and financial information; main line 867-767-9355 or toll-free 866-973-7252."
+  },
+  {
+    "id": "nwt-territorial-legal-financial-property-tax-relief",
+    "name": "Senior Citizens and Disabled Persons Property Tax Relief",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [],
+    "phone": "867-392-6900",
+    "description": "A Government of the Northwest Territories program that removes all property tax for homeowners 65 and older in the General Taxation Area, which covers NWT communities outside the cities, towns and villages. Owners file a short sworn declaration form every year. Inside municipalities such as Yellowknife, the local government runs its own version of the relief.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nwt-municipal-community-affairs",
+    "website": "https://www.maca.gov.nt.ca/en/services/seniors-and-disabled-persons-property-tax-relief",
+    "intakeNote": "Get the application form from maca.gov.nt.ca, a MACA office or your community government and file it each year; MACA regional offices: North Slave 867-392-6900, South Slave 867-872-6525, Deh Cho 867-695-7226, Inuvik 867-678-8045 ext. 21652, Sahtu 867-587-7100."
+  },
+  {
+    "id": "nwt-territorial-legal-financial-supplementary-benefit",
+    "name": "NWT Senior Citizen Supplementary Benefit",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "NT"
+    ],
+    "cities": [],
+    "phone": "867-767-9355",
+    "description": "A Government of the Northwest Territories benefit that adds $196 a month to the income of low income seniors. Anyone receiving Old Age Security plus the Guaranteed Income Supplement or the Spouse's Allowance gets it automatically with their federal payment. Filing taxes each year keeps it coming.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "nwt-education-culture-employment",
+    "website": "https://www.ece.gov.nt.ca/en/services/income-security-programs/nwt-senior-citizen-supplementary-benefit",
+    "intakeNote": "Automatic once federal GIS or Spouse's Allowance is in place; questions to ECE income security at 867-767-9355 or toll-free 866-973-7252."
   },
   {
     "id": "ontario-adp-hearing-vision",
@@ -2491,6 +3870,501 @@
     "intakeNote": "Use the organization's own complaint process first; then complain online at patientombudsman.ca or call. Note the office closes at 12:30 p.m. on Thursdays."
   },
   {
+    "id": "pei-provincial-companion-social-adult-day",
+    "name": "Adult Day Programs (Health PEI)",
+    "category": "Companion & Social",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "(902) 368-4790",
+    "description": "Government of Prince Edward Island day programs where seniors enjoy games, crafts, exercise, and company in a safe, supervised setting, with a hot lunch and snacks included. Locations run across the Island, including a French program in Abram Village, and caregivers get a real break.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "health-pei",
+    "website": "https://www.princeedwardisland.ca/en/information/health-pei/adult-day-programs",
+    "intakeNote": "Contact the Home Care office in your area to be assessed (Charlottetown (902) 368-4790, Summerside (902) 888-8440, Montague (902) 838-0786, Souris (902) 687-7096, O'Leary (902) 859-8730); you arrange your own transportation.",
+    "program": "Adult Day Program",
+    "runBy": "Government of Prince Edward Island"
+  },
+  {
+    "id": "pei-provincial-doctors-pharmacy-medication-811",
+    "name": "811 Telehealth (PEI)",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "The Government of Prince Edward Island's free health line. A registered nurse answers 24 hours a day to help you decide whether something needs urgent care, answer health questions, and point you to services on the Island.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "pei-health-wellness",
+    "website": "https://www.princeedwardisland.ca/en/information/health-and-wellness/811-telehealth",
+    "intakeNote": "Dial 811 any time (TTY 711); if 811 does not work from your phone, call 1-866-770-7724 from a PEI-registered line."
+  },
+  {
+    "id": "pei-provincial-doctors-pharmacy-medication-seniors-drug",
+    "name": "Seniors' Drug Program (PEI Pharmacare)",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "1-877-577-3737",
+    "description": "A Government of Prince Edward Island drug plan for everyone 65 and older with a PEI Health Card. There is no application; you are enrolled automatically at 65 and pay $8.25 plus a $7.69 pharmacy fee for each covered prescription, and the program pays the rest.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "pei-health-wellness",
+    "website": "https://www.princeedwardisland.ca/en/information/health-and-wellness/seniors-drug-program",
+    "intakeNote": "Enrolment is automatic at age 65; call PEI Pharmacare at 1-877-577-3737 with questions about coverage."
+  },
+  {
+    "id": "pei-provincial-home-care-coach",
+    "name": "COACH Program (frail seniors at home)",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "(902) 368-4790",
+    "description": "A Government of Prince Edward Island program, run by Health PEI, that wraps a geriatric care team around frail seniors with complex health needs so they can stay at home longer and leave hospital sooner. A nurse practitioner coordinates care with your doctor and Home Care.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "health-pei",
+    "website": "https://www.princeedwardisland.ca/en/information/health-pei/caring-for-older-adults-in-the-community-and-at-home-coach-program",
+    "intakeNote": "A referral is required from your doctor, nurse practitioner, geriatrician, or Home Care Coordinator; questions go to your local Home Care office (Charlottetown (902) 368-4790)."
+  },
+  {
+    "id": "pei-provincial-home-care-home-care-program",
+    "name": "Home Care Program (Health PEI)",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "(902) 368-4790",
+    "description": "The Government of Prince Edward Island's public home care service, run by Health PEI. Nurses, home support workers, physiotherapists, occupational therapists, dietitians, and social workers come to your home, and the same team handles palliative care and long-term care assessments.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "health-pei",
+    "website": "https://www.princeedwardisland.ca/en/information/health-pei/home-care-program",
+    "intakeNote": "You, family, or your doctor can send the Home Care Referral form to your local office: Charlottetown (902) 368-4790, Summerside (902) 888-8440, Montague (902) 838-0786, Souris (902) 687-7096, O'Leary (902) 859-8730."
+  },
+  {
+    "id": "pei-provincial-home-maintenance-home-renovation",
+    "name": "Seniors Home Repair and Seniors Safe @ Home Programs",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "1-855-374-7366",
+    "description": "Government of Prince Edward Island grants that help homeowners 60 and older fix and adapt their homes. One application covers up to $4,000 for essential repairs like a roof, windows, doors, or furnace, and up to $10,000 for accessibility changes so a senior can keep living at home safely.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "pei-housing",
+    "website": "https://www.princeedwardisland.ca/en/service/pei-home-renovation-programs",
+    "intakeNote": "Apply once online or on paper to the PEI Home Renovation Programs (902-368-4889 or toll-free 1-855-374-7366); seniors are automatically assessed for both seniors streams."
+  },
+  {
+    "id": "pei-provincial-legal-financial-at-home-caregiver-benefit",
+    "name": "At Home Caregiver Benefit",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "1-800-371-8245",
+    "description": "A Government of Prince Edward Island benefit for seniors with high care needs who stay at home thanks to an unpaid family caregiver, friend, or neighbour. The person receiving care gets $250 to $1,500 a month depending on household income.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "pei-health-wellness",
+    "website": "https://www.princeedwardisland.ca/en/information/health-and-wellness/at-home-caregiver-benefit",
+    "intakeNote": "Call 1-800-371-8245 to start; Home Care completes an assessment, then the Department of Social Development and Seniors enrols you and sets the monthly amount."
+  },
+  {
+    "id": "pei-provincial-legal-financial-property-tax-deferral",
+    "name": "Seniors Property Tax Deferral Program",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "(902) 368-4070",
+    "description": "A Government of Prince Edward Island program that lets lower-income seniors stop paying property tax on their home for as long as they live there, with no interest charged on the deferred amount. The taxes are only repaid when the home is sold or from the estate.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "pei-finance",
+    "website": "https://www.princeedwardisland.ca/en/information/finance/seniors-property-tax-deferral-program",
+    "intakeNote": "Send the application form to Taxation and Property Records with last year's Notice of Assessment for everyone in the home; call (902) 368-4070 with questions."
+  },
+  {
+    "id": "pei-provincial-legal-financial-seniors-independence",
+    "name": "Seniors Independence Initiative",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "1-877-569-0546",
+    "description": "A Government of Prince Edward Island program that gives low-income seniors up to $1,800 a year to pay for practical help at home, such as light housekeeping, meal preparation, snow removal, grass cutting, transportation, internet, and a medical alert system.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "pei-social-development-seniors",
+    "website": "https://www.princeedwardisland.ca/en/service/seniors-independence-initiative",
+    "intakeNote": "Apply online, download the form, or pick one up at Access PEI; call 1-877-569-0546 for help completing it, then staff visit to assess your needs."
+  },
+  {
+    "id": "pei-provincial-legal-financial-seniors-navigators",
+    "name": "Seniors Navigators",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "1-866-770-0588",
+    "description": "A free Government of Prince Edward Island service where two provincial navigators help seniors, family members, and caregivers figure out which programs they qualify for, fill in applications, and reach the right office. They also hold drop-in outreach sessions in communities across the Island.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "pei-social-development-seniors",
+    "website": "https://www.princeedwardisland.ca/en/information/social-development-and-seniors/seniors-navigators",
+    "intakeNote": "Call 1-866-770-0588 or email seniors@gov.pe.ca; you can also meet a navigator at a community outreach session or book an appointment."
+  },
+  {
+    "id": "pei-provincial-retirement-residences-long-term-care",
+    "name": "Long-Term Care Placement (Health PEI)",
+    "category": "Retirement Residences",
+    "tier": "provincial",
+    "provinces": [
+      "PE"
+    ],
+    "cities": [],
+    "phone": "(902) 368-4790",
+    "description": "The Government of Prince Edward Island's route into public and private nursing homes. A Health PEI Care Coordinator assesses whether nursing home care is needed, then you choose up to three homes for the wait list.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "health-pei",
+    "website": "https://www.princeedwardisland.ca/en/information/health-pei/long-term-care",
+    "intakeNote": "Start with your local Home Care office (Charlottetown (902) 368-4790); a Care Coordinator completes the assessment and manages the wait list."
+  },
+  {
+    "id": "quebec-provincial-doctors-pharmacy-medication-drug-insurance",
+    "name": "Public Prescription Drug Insurance Plan (RAMQ)",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 561-9749",
+    "description": "The public drug plan run by RAMQ, the Government of Quebec's health insurance board, covering more than 8,000 prescription drugs. When you turn 65 you are registered automatically unless you choose to keep a private plan, and the annual premium is collected through your Quebec income tax return.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ramq",
+    "website": "https://www.ramq.gouv.qc.ca/en/citizens/prescription-drug-insurance",
+    "intakeNote": "Registration at 65 is automatic; call RAMQ before turning 65 only if you are keeping private insurance."
+  },
+  {
+    "id": "quebec-provincial-doctors-pharmacy-medication-info-sante",
+    "name": "Info-Sante 811",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "The Government of Quebec's free 24-hour health line. Dial 811 and choose option 1 to speak with a nurse about any non-urgent health problem, for yourself or a family member, every day of the year. It can spare a senior an unneeded trip to a clinic or emergency room.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-quebec",
+    "website": "https://www.quebec.ca/en/health/finding-a-resource/info-sante-811",
+    "intakeNote": "Dial 811, option 1, any time, from anywhere in Quebec."
+  },
+  {
+    "id": "quebec-provincial-hearing-vision-eye-exams",
+    "name": "Free Eye Exams for Seniors 65+ (RAMQ)",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 561-9749",
+    "description": "Quebec Health Insurance Plan coverage, paid by the Government of Quebec through RAMQ, that gives adults 65 and over one free complete eye exam per year at the optometrist. Emergency eye exams are covered for everyone. Eyeglasses and contact lenses are not covered for adults.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ramq",
+    "website": "https://www.ramq.gouv.qc.ca/en/citizens/health-insurance/optometric-services",
+    "intakeNote": "Book with any Quebec optometrist and show a valid Health Insurance Card."
+  },
+  {
+    "id": "quebec-provincial-hearing-vision-hearing-devices",
+    "name": "Hearing Devices Program (RAMQ)",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 561-9749",
+    "description": "A RAMQ program (Government of Quebec) that pays for hearing aids and assistive listening devices, including repair and replacement, for insured Quebecers with a qualifying hearing loss. Adults qualify with an average loss of at least 35 decibels in the better ear, confirmed by a hearing test.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ramq",
+    "website": "https://www.ramq.gouv.qc.ca/en/citizens/aid-programs/hearing-aids",
+    "intakeNote": "See a Quebec audioprosthetist for a hearing aid, or a recognized specialized facility for assistive listening devices, with the required audiology documents."
+  },
+  {
+    "id": "quebec-provincial-hearing-vision-visual-devices",
+    "name": "Visual Devices Program (RAMQ)",
+    "category": "Vision, Hearing, Dental & Foot Care",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 561-9749",
+    "description": "A RAMQ program (Government of Quebec) that lends visual aids such as reading machines, braille devices and white canes to people with a permanent visual impairment, and pays set amounts toward getting and keeping a guide dog. The needs assessment is free with your health insurance card.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ramq",
+    "website": "https://www.ramq.gouv.qc.ca/en/citizens/aid-programs/visual-aids",
+    "intakeNote": "Apply through an accredited facility specializing in vision rehabilitation; the facility assesses your needs and lends the devices."
+  },
+  {
+    "id": "quebec-provincial-home-maintenance-domestic-help",
+    "name": "Financial Assistance Program for Domestic Help Services (RAMQ)",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 888 594-5155",
+    "description": "A Government of Quebec program managed by RAMQ that lowers the hourly rate you pay a recognized domestic help business for housekeeping, heavy cleaning, snow clearing at the entrance, laundry, meal preparation and accompanied errands. Everyone 18 and over with Quebec health insurance gets $4 off each hour, and up to $22.08 more per hour depending on age, income and family situation.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ramq",
+    "website": "https://www.ramq.gouv.qc.ca/en/citizens/aid-programs/domestic-help",
+    "intakeNote": "Contact a recognized domestic help social economy business; it gives you the application form and sends it to RAMQ for you."
+  },
+  {
+    "id": "quebec-provincial-home-maintenance-home-adaptation",
+    "name": "Residential Adaptation Assistance Program (Programme d'adaptation de domicile)",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 463-4315",
+    "description": "A Societe d'habitation du Quebec program (Government of Quebec) that pays homeowners to adapt the home of a person with a significant, lasting disability, such as ramps, stair aids and accessible bathrooms, so they can stay home safely. Registrations reopen online on August 12, 2026 after a pause that began in April 2025. The program page is currently available in French only.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "shq",
+    "website": "https://www.quebec.ca/habitation-territoire/construction-renovation/adapter-etablissement-domicile-personnes-handicapees/programme-adaptation-domicile/a-propos-programme-adaptation-domicile",
+    "intakeNote": "From August 12, 2026 at 8:30 a.m., register online through the Quebec.ca program page; call 1 800 463-4315, option 1 with questions."
+  },
+  {
+    "id": "quebec-provincial-legal-financial-home-support-credit",
+    "name": "Tax Credit for Home-Support Services for Seniors (70+)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 267-6299",
+    "description": "A Revenu Quebec refundable tax credit that gives Quebecers 70 and over money back on home support expenses such as housekeeping, personal care and meal services, whatever their level of autonomy. It applies whether the senior owns a house, rents an apartment, lives with family or lives in a private seniors' residence, and it can be paid in advance through the year instead of at tax time.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "revenu-quebec",
+    "website": "https://www.revenuquebec.ca/en/citizens/tax-credits/tax-credit-for-home-support-services-for-seniors/",
+    "intakeNote": "Claim it in the Quebec income tax return (Schedule J), or register with Revenu Quebec for advance payments."
+  },
+  {
+    "id": "quebec-provincial-legal-financial-municipal-tax-grant",
+    "name": "Grant for Seniors to Offset a Municipal Tax Increase",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 267-6299",
+    "description": "A Revenu Quebec grant that softens a sharp municipal tax increase caused by a jump in home value, for seniors 65 and over who have owned their home for at least 15 consecutive years. The home must be their principal residence and family income must be $64,200 or less.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "revenu-quebec",
+    "website": "https://www.revenuquebec.ca/en/citizens/tax-credits/grant-for-seniors-to-offset-a-municipal-tax-increase/",
+    "intakeNote": "Claim it on line 462 of the Quebec income tax return using form TP-1029.TM-V."
+  },
+  {
+    "id": "quebec-provincial-legal-financial-qpp-retirement-pension",
+    "name": "Quebec Pension Plan Retirement Pension (Retraite Quebec)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 463-5185",
+    "description": "The Government of Quebec's public retirement pension, managed by Retraite Quebec, for anyone who contributed to the Quebec Pension Plan while working. You can start it as early as 60 at a reduced amount, take 100 percent at 65, or wait as late as 72 for a higher pension for life.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "retraite-quebec",
+    "website": "https://www.retraitequebec.gouv.qc.ca/en/citizens/retirement-planning/applying-your-retirement-pension/retirement-pension-quebec-pension-plan",
+    "intakeNote": "Apply online through My Account or with a paper form a few months before you want payments to start; you can cancel within six months of the first payment."
+  },
+  {
+    "id": "quebec-provincial-legal-financial-senior-assistance-credit",
+    "name": "Senior Assistance Tax Credit",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 267-6299",
+    "description": "A Revenu Quebec refundable tax credit of up to $2,000 for a single senior or $4,000 for a couple where both spouses qualify, for lower-income Quebecers 70 and over. There is nothing to claim: Revenu Quebec calculates it automatically when the senior files a Quebec income tax return.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "revenu-quebec",
+    "website": "https://www.revenuquebec.ca/en/citizens/tax-credits/senior-assistance-tax-credit/",
+    "intakeNote": "File a Quebec income tax return; the credit is calculated automatically."
+  },
+  {
+    "id": "quebec-provincial-legal-financial-shelter-allowance",
+    "name": "Shelter Allowance Program",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 267-6299",
+    "description": "A Government of Quebec housing benefit, managed by Revenu Quebec for the Societe d'habitation du Quebec, that pays up to $170 a month to low-income renters, boarders and homeowners who spend 30 percent or more of their income on housing. People 50 and over living alone or as a couple can qualify, subject to income limits.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "revenu-quebec",
+    "website": "https://www.revenuquebec.ca/en/citizens/your-situation/low-income/shelter-allowance-program/",
+    "intakeNote": "Apply online in My Account for individuals or with the paper application; both spouses must have filed Quebec tax returns."
+  },
+  {
+    "id": "quebec-provincial-medical-alert-safety-mistreatment-helpline",
+    "name": "Mistreatment Helpline (Ligne Aide Maltraitance)",
+    "category": "Medical Alert & Safety",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1-888-489-2287",
+    "description": "A confidential provincial helpline for older adults facing abuse, neglect or financial exploitation, and for worried family members. It is funded by the Government of Quebec's Secretariat for Seniors and staffed by counsellors who specialize in mistreatment, 8 a.m. to 8 p.m. every day. Formerly known as the Elder Mistreatment Helpline (Ligne Aide Abus Aines).",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-quebec",
+    "website": "https://lignemaltraitance.ca/en",
+    "intakeNote": "Call 1-888-489-2287 any day between 8 a.m. and 8 p.m.; anonymous and bilingual."
+  },
+  {
+    "id": "quebec-provincial-mental-health-counselling-caregiver-helpline",
+    "name": "Caregiver Support Helpline (Info-aidant)",
+    "category": "Mental Health & Counselling",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 855 852-7784",
+    "description": "A free professional listening and referral line for family caregivers, run by L'Appui pour les proches aidants, a nonprofit funded by the Government of Quebec. Trained counsellors help caregivers find respite, local services and financial aid in their region, Monday to Friday 8 a.m. to 6 p.m., by phone or online chat.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "lappui",
+    "website": "https://www.lappui.org/en/about-us/contact-our-caregiver-support-helpline/",
+    "intakeNote": "Call 1 855 852-7784 or use the website chat, Monday to Friday 8 a.m. to 6 p.m."
+  },
+  {
+    "id": "quebec-provincial-mental-health-counselling-info-social",
+    "name": "Info-Social 811",
+    "category": "Mental Health & Counselling",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "The Government of Quebec's free 24-hour psychosocial help line. Dial 811 and choose option 2 to speak confidentially with a professional about worry, grief, loneliness, family conflict or a mental health concern, for yourself or someone you care for.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "government-of-quebec",
+    "website": "https://www.quebec.ca/en/health/finding-a-resource/info-social-811",
+    "intakeNote": "Dial 811, option 2, any time, from anywhere in Quebec."
+  },
+  {
+    "id": "quebec-provincial-mobility-equipment-devices-physical-deficiency",
+    "name": "Devices That Compensate for a Physical Deficiency (RAMQ)",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 561-9749",
+    "description": "A RAMQ program (Government of Quebec) that pays for wheelchairs, walking aids, orthoses, prostheses and posture aids for insured Quebecers with a physical impairment. Devices come through authorized public rehabilitation facilities and approved laboratories. Scooters and walkers fall under separate government assistive device programs.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ramq",
+    "website": "https://www.ramq.gouv.qc.ca/en/citizens/aid-programs/devices-compensate-a-physical-deficiency",
+    "intakeNote": "Go to an authorized public rehabilitation facility (or an authorized laboratory for orthoses and prostheses); a medical prescription is sometimes required."
+  },
+  {
+    "id": "quebec-provincial-mobility-equipment-independent-living-credit",
+    "name": "Independent Living Tax Credit for Seniors",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 267-6299",
+    "description": "A Revenu Quebec refundable tax credit for people 70 and over that pays back part of the cost of buying, leasing and installing equipment that helps them keep living at home, and of stays in a functional rehabilitation transition unit after a hospital stay. It is a Government of Quebec benefit claimed through the income tax return.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "revenu-quebec",
+    "website": "https://www.revenuquebec.ca/en/citizens/tax-credits/independent-living-tax-credit-for-seniors/",
+    "intakeNote": "Keep receipts and claim the credit at line 462 of the Quebec income tax return."
+  },
+  {
+    "id": "quebec-provincial-retirement-residences-public-accommodation-contribution",
+    "name": "Financial Contribution Program for Accommodated Adults (RAMQ)",
+    "category": "Retirement Residences",
+    "tier": "provincial",
+    "provinces": [
+      "QC"
+    ],
+    "cities": [],
+    "phone": "1 800 265-0765",
+    "description": "RAMQ, the Government of Quebec's health insurance board, sets the monthly amount you pay for room and board in a public long-term care home (CHSLD) or other public facility. Care itself is free; the room costs up to $2,242.20 a month for a private room, and families who cannot afford the set amount can apply for a reduction based on ability to pay.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "ramq",
+    "website": "https://www.ramq.gouv.qc.ca/en/citizens/aid-programs/accommodation-a-public-facility",
+    "intakeNote": "Placement is arranged through your CISSS or CIUSSS assessment; once admitted, RAMQ mails the notice of decision and you can file an Application for Exemption or Re-Evaluation to lower the amount."
+  },
+  {
     "id": "region-of-peel-companion-social-adult-day",
     "name": "Peel Adult Day Services",
     "category": "Companion & Social",
@@ -2606,6 +4480,108 @@
     "brandGroup": "rhra",
     "website": "https://www.rhra.ca/",
     "intakeNote": "Search the database online or call 1-855-ASK-RHRA (1-855-275-7472); reports of harm can be made by anyone, not just residents."
+  },
+  {
+    "id": "saskatchewan-provincial-doctors-pharmacy-medication-healthline-811",
+    "name": "HealthLine 811",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "A free Government of Saskatchewan health advice line answered 24 hours a day by registered nurses, registered psychiatric nurses, and registered social workers. Call 811 for help deciding what to do about symptoms, or for mental health and addictions support, with translation available in over 100 languages.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "sk-health-authority",
+    "website": "https://www.saskatchewan.ca/residents/health/accessing-health-care-services/healthline",
+    "intakeNote": "Just dial 811 any time, day or night; if 811 does not connect, call 1-877-800-0002, and deaf or hard of hearing callers can use SaskTel Relay at 1-800-855-0511."
+  },
+  {
+    "id": "saskatchewan-provincial-doctors-pharmacy-medication-seniors-drug-plan",
+    "name": "Seniors' Drug Plan",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [],
+    "phone": "1-800-667-7581",
+    "description": "A Government of Saskatchewan program that caps what seniors 65 and older pay for eligible prescription drugs at $25 per prescription. Drugs must be on the Saskatchewan Formulary or approved under Exception Drug Status, and eligibility is based on the net income on your tax return.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "sk-ministry-health",
+    "website": "https://www.saskatchewan.ca/residents/health/prescription-drug-plans-and-health-coverage/extended-benefits-and-drug-plan/seniors-drug-plan",
+    "intakeNote": "Apply once by mail, fax, or email using Form A, which lets the Canada Revenue Agency confirm your income so coverage renews automatically every year; you can apply up to two months before you turn 65. Call 1-800-667-7581 or 306-787-3317 with questions."
+  },
+  {
+    "id": "saskatchewan-provincial-legal-financial-education-property-tax-deferral",
+    "name": "Seniors Education Property Tax Deferral Program",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [],
+    "phone": "1-800-667-7567",
+    "description": "A Government of Saskatchewan program, run by Saskatchewan Housing Corporation, that lets senior homeowners put off paying the education portion of their property taxes through a repayable loan. It helps seniors on fixed incomes stay in their homes without falling behind on tax bills.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "sk-housing-corporation",
+    "website": "https://www.saskatchewan.ca/residents/taxes-and-investments/property-taxes/seniors-education-property-tax-deferral-program",
+    "intakeNote": "Complete the application form and send it to Saskatchewan Housing Corporation in Regina by email or mail, or apply in person at 1920 Broad Street; call 1-800-667-7567 or 306-787-4177 with questions."
+  },
+  {
+    "id": "saskatchewan-provincial-legal-financial-seniors-income-plan",
+    "name": "Seniors Income Plan (SIP)",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [],
+    "phone": "1-800-667-7161",
+    "description": "A Government of Saskatchewan program that adds a monthly payment of up to $360 to the income of seniors who have little or no income besides Old Age Security and the Guaranteed Income Supplement. There is no application form. If you qualify, the benefit starts automatically once you file your income tax return and receive OAS and GIS, and clients also get extra provincial health benefits.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "sk-ministry-social-services",
+    "website": "https://www.saskatchewan.ca/residents/family-and-social-support/seniors-services/seniors-income-plan",
+    "intakeNote": "No application needed; eligibility is set automatically from your income tax return and your OAS/GIS from Service Canada, and is reassessed each July. Call 306-787-2681 or 1-800-667-7161 with questions."
+  },
+  {
+    "id": "saskatchewan-provincial-mobility-equipment-sail",
+    "name": "Saskatchewan Aids to Independent Living (SAIL)",
+    "category": "Mobility, Physio & Falls Prevention",
+    "tier": "provincial",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [],
+    "phone": "1-888-787-8996",
+    "description": "A Government of Saskatchewan program that provides equipment and supplies to people with physical disabilities and certain chronic conditions so they can live independently at home. It includes wheelchair and special needs equipment loans plus programs for prosthetics, orthotics, home oxygen, CPAP machines, and compression garments.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "sk-ministry-health",
+    "website": "https://www.saskatchewan.ca/residents/health/accessing-health-care-services/health-services-for-people-with-disabilities/sail",
+    "intakeNote": "You need a referral from an authorized health care professional such as a doctor or therapist; call SAIL toll-free at 1-888-787-8996 or 306-787-7121 with questions."
+  },
+  {
+    "id": "saskatchewan-provincial-retirement-residences-personal-care-home-benefit",
+    "name": "Personal Care Home Benefit",
+    "category": "Retirement Residences",
+    "tier": "provincial",
+    "provinces": [
+      "SK"
+    ],
+    "cities": [],
+    "phone": "1-855-544-7242",
+    "description": "A Government of Saskatchewan benefit that gives seniors monthly financial help with the cost of living in a licensed personal care home. It tops up a resident's monthly income toward a $3,500 threshold, based on income and marital status.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "sk-ministry-social-services",
+    "website": "https://www.saskatchewan.ca/residents/family-and-social-support/seniors-services/seniors-living-in-personal-care-homes",
+    "intakeNote": "Download the application form and send it with your GIS entitlement letter or recent tax return to the Ministry of Social Services Client Service Centre in Regina by mail, email, or fax; call 1-855-544-7242 with questions."
   },
   {
     "id": "service-canada-legal-financial-allowance",
@@ -3557,5 +5533,158 @@
     "brandGroup": "york-region",
     "website": "https://www.yrt.ca/en/schedules-and-maps/mobility-on-request.aspx",
     "intakeNote": "Apply with the Mobility On-Request application package on yrt.ca (a health professional completes part), or call 1-888-762-2950 (TTY 711) for help; eligibility is decided case by case."
+  },
+  {
+    "id": "yukon-territorial-dementia-memory-support-day-program",
+    "name": "Seniors and Elders Community Day Program",
+    "category": "Dementia & Memory Support",
+    "tier": "provincial",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [],
+    "phone": "867-456-6806",
+    "description": "A Government of Yukon day program at Whistle Bend Place in Whitehorse for seniors and Elders with mild to moderate memory loss, such as dementia. It offers group activities, meals, help with personal care and a break for family caregivers, Monday to Friday from 8:30 am to 4:30 pm.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "yukon-health-social-services",
+    "website": "https://yukon.ca/en/health-and-wellness/care-services/learn-about-seniors-and-elders-community-day-program",
+    "intakeNote": "Phone the admissions and assessment coordinator at 867-456-6806 or toll-free 1-800-661-0408 extension 6806; the coordinator completes the referral and arranges a tour."
+  },
+  {
+    "id": "yukon-territorial-doctors-pharmacy-medication-811",
+    "name": "Yukon HealthLine 811",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [],
+    "phone": "811",
+    "description": "Yukon HealthLine is a 24-hour phone service provided through the Government of Yukon. Registered nurses answer health questions any time of day, and an after-hours pharmacist is available from 5 pm to 9 am. Dial 811 from anywhere in the Yukon.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "yukon-health-social-services",
+    "website": "https://yukon.ca/en/health-and-wellness/care-services/access-24-hour-health-advice-811",
+    "intakeNote": "Dial 811 any time; from a satellite phone call 1-604-215-4700."
+  },
+  {
+    "id": "yukon-territorial-doctors-pharmacy-medication-pharmacare",
+    "name": "Yukon Pharmacare and Extended Health Care Benefits for Seniors",
+    "category": "Doctors, Pharmacy & Medication",
+    "tier": "provincial",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [],
+    "phone": "867-667-5403",
+    "description": "A Government of Yukon benefit that helps seniors 65 and older pay for prescription drugs, dental care, eye care and medical supplies and equipment. Eligible seniors are enrolled automatically and receive the sign-up form in the mail. Spouses aged 60 to 64 who are married to an eligible senior can also qualify.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "yukon-health-social-services",
+    "website": "https://yukon.ca/en/health-and-wellness/care-services/apply-extended-health-care-benefits-and-pharmacare-seniors",
+    "intakeNote": "Enrolment is automatic; the application arrives by mail. Questions: 867-667-5403 or toll-free 1-800-661-0408."
+  },
+  {
+    "id": "yukon-territorial-home-care",
+    "name": "Yukon Home Care Program",
+    "category": "Home Care & Nursing",
+    "tier": "provincial",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [],
+    "phone": "867-667-5774",
+    "description": "A Government of Yukon program that brings nursing, home support, therapy, palliative, rehabilitation and respite care into homes across the territory. You can refer yourself or a family member by phone, and home care staff visit to assess what is needed.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "yukon-health-social-services",
+    "website": "https://yukon.ca/en/health-and-wellness/care-services/learn-about-home-care-program",
+    "intakeNote": "Phone to arrange an assessment: Whitehorse 867-667-5774 (toll-free 1-877-667-5774), Dawson City 867-993-5029, Haines Junction 867-634-7510, Watson Lake 867-536-5256; staff complete the referral form with you over the phone."
+  },
+  {
+    "id": "yukon-territorial-home-maintenance-home-repair",
+    "name": "Home Repair Program (Yukon Housing Corporation)",
+    "category": "Home Maintenance",
+    "tier": "provincial",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [],
+    "phone": "867-667-5759",
+    "description": "A Government of Yukon program run by the Yukon Housing Corporation that funds repairs for low and moderate income homeowners. It includes an Accessibility Grant of up to $30,000 to retrofit a home for someone with mobility challenges, an Emergency Repair Grant of up to $10,000 and a repair loan of up to $70,000. Applications are open all year while funding lasts.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "yukon-housing-corporation",
+    "website": "https://yukon.ca/en/housing-and-property/funding-and-loans/apply-loan-repair-your-home",
+    "intakeNote": "Submit the application with documents in person at 410 Jarvis Street in Whitehorse or by email to ykhouse@yukon.ca; questions 867-667-5759 or toll-free 1-800-661-0408; wait for written approval before starting work."
+  },
+  {
+    "id": "yukon-territorial-legal-financial-pioneer-utility-grant",
+    "name": "Pioneer Utility Grant",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [],
+    "phone": "867-667-8772",
+    "description": "A Government of Yukon grant that helps seniors 65 and older with the cost of heating their home, whether they own or rent. The amount depends on income, marital status and address, up to $1,382.58 inside Whitehorse and $1,466.50 outside for 2026. Apply each year between July 1 and December 31.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "yukon-health-social-services",
+    "website": "https://yukon.ca/en/pug",
+    "intakeNote": "Apply online through the Pioneer Utility Grant portal, in person at the Income Support Unit in Whitehorse, or by mail; toll-free 1-800-661-0408 extension 4."
+  },
+  {
+    "id": "yukon-territorial-legal-financial-property-tax-deferment",
+    "name": "Seniors' Property Tax Deferment",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [],
+    "phone": "867-667-5268",
+    "description": "A Government of Yukon program that lets homeowners 65 and older postpone paying property taxes on the home they live in. It applies outside municipalities, in areas where the Government of Yukon collects property tax. You can defer all or part of each year's taxes, up to 75 percent of the home's assessed value.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "yukon-community-services",
+    "website": "https://yukon.ca/en/housing-and-property/property-tax-and-assessments/apply-seniors-property-tax-deferment",
+    "intakeNote": "Contact the Property Assessment and Taxation office or a Territorial Agent for an application; 867-667-5268 or toll-free in Yukon 1-800-661-0408 ext. 5268; apply any time after January 1, before July 2 to avoid penalties."
+  },
+  {
+    "id": "yukon-territorial-legal-financial-seniors-income-supplement",
+    "name": "Yukon Seniors Income Supplement",
+    "category": "Legal & Financial",
+    "tier": "provincial",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [],
+    "phone": "867-667-5674",
+    "description": "A Government of Yukon top-up of up to $323.26 a month for low income seniors who receive Old Age Security and the Guaranteed Income Supplement. There is no application form; payments start automatically once the federal government shares your GIS information with Yukon. Filing your taxes every year keeps the supplement coming.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "yukon-health-social-services",
+    "website": "https://yukon.ca/en/legal-and-social-supports/supports-adults-and-seniors/apply-low-income-seniors-income-supplement",
+    "intakeNote": "Automatic for Yukon seniors receiving GIS; for questions call 867-667-5674 or toll-free 1-800-661-0408 extension 5674."
+  },
+  {
+    "id": "yukon-territorial-medical-alert-safety-adult-protection",
+    "name": "Adult Protection Services",
+    "category": "Medical Alert & Safety",
+    "tier": "provincial",
+    "provinces": [
+      "YT"
+    ],
+    "cities": [],
+    "phone": "867-456-3946",
+    "description": "A Government of Yukon service that responds when a senior or other adult is being abused, neglected or unable to care for themselves. Social workers plan next steps with the adult to reduce harm and improve safety, and callers can stay anonymous. Phone 911 if someone is in immediate danger.",
+    "listingType": "public-service",
+    "verifiedDate": "2026-08-06",
+    "brandGroup": "yukon-health-social-services",
+    "website": "https://yukon.ca/en/legal-and-social-supports/supports-adults-and-seniors/get-help-adult-being-abused-or-neglected",
+    "intakeNote": "Phone 867-456-3946 or toll-free 1-800-661-0408 extension 3946, Monday to Friday 8:30 am to 4:30 pm; all reports are handled by Adult Protection Services in Whitehorse."
   }
 ]
