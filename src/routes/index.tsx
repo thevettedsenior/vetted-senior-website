@@ -170,16 +170,26 @@ function Home() {
         id="situations"
         className="mx-auto max-w-6xl scroll-mt-28 px-6 py-16 md:py-20"
       >
-        <div className="mb-10">
-          <p className="eyebrow">Start here</p>
-          <h2 className="mt-3 font-serif text-3xl font-semibold text-primary md:text-[2.6rem] md:leading-tight">
-            Find your situation
-          </h2>
-          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Not sure where to start? Choose the situation that sounds closest to
-            what you're dealing with. Each guide walks you through what's
-            happening, what to do first, and what help exists.
-          </p>
+        <div className="mb-10 grid gap-8 md:grid-cols-[1.15fr_1fr] md:items-center md:gap-12">
+          <div>
+            <p className="eyebrow">Start here</p>
+            <h2 className="mt-3 font-serif text-3xl font-semibold text-primary md:text-[2.6rem] md:leading-tight">
+              Find your situation
+            </h2>
+            <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+              Not sure where to start? Choose the situation that sounds closest
+              to what you're dealing with. Each guide walks you through what's
+              happening, what to do first, and what help exists.
+            </p>
+          </div>
+          <img
+            src="/images/home/find-your-situation.svg"
+            alt=""
+            loading="lazy"
+            width={560}
+            height={420}
+            className="w-full rounded-3xl shadow-[var(--shadow-card)]"
+          />
         </div>
 
         {/* Live guides */}
