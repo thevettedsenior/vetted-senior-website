@@ -188,7 +188,7 @@ function Home() {
             loading="lazy"
             width={560}
             height={420}
-            className="mx-auto w-full max-w-[420px] rounded-3xl shadow-[var(--shadow-card)] md:mx-0"
+            className="mx-auto w-full max-w-[20rem] rounded-3xl shadow-[var(--shadow-card)] md:mx-0"
           />
         </div>
 
