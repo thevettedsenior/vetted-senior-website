@@ -170,7 +170,7 @@ function Home() {
         id="situations"
         className="mx-auto max-w-6xl scroll-mt-28 px-6 py-16 md:py-20"
       >
-        <div className="mb-10 grid gap-8 md:grid-cols-[1.15fr_1fr] md:items-center md:gap-12">
+        <div className="mb-10 grid gap-8 md:grid-cols-[1.6fr_1fr] md:items-center md:gap-12">
           <div>
             <p className="eyebrow">Start here</p>
             <h2 className="mt-3 font-serif text-3xl font-semibold text-primary md:text-[2.6rem] md:leading-tight">
@@ -188,7 +188,7 @@ function Home() {
             loading="lazy"
             width={560}
             height={420}
-            className="w-full rounded-3xl shadow-[var(--shadow-card)]"
+            className="mx-auto w-full max-w-[420px] rounded-3xl shadow-[var(--shadow-card)] md:mx-0"
           />
         </div>
 
