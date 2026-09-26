@@ -116,6 +116,8 @@ export function SiteHeader() {
                   { to: "/", label: "Home" },
                   ...nav,
                   { to: "/guides", label: "Family guides" },
+                  { to: "/starter-pack", label: "Free Starter Pack" },
+                  { to: "/family-care-kit", label: "Family Care Planning Kit" },
                   { to: "/my-plan", label: "My next steps" },
                 ].map((n) => (
                   <Link key={n.to} to={n.to} onClick={() => setOpen(false)}>
@@ -150,6 +152,8 @@ export function SiteFooter() {
               <Link to="/situations">Start with your situation</Link>
               <Link to="/care-costs">Plan the cost of care</Link>
               <Link to="/local-help">Find local help</Link>
+              <Link to="/starter-pack">Free Family Care Starter Pack</Link>
+              <Link to="/family-care-kit">Family Care Planning Kit</Link>
               <Link to="/resources">Checklists & resources</Link>
               <Link to="/guides">Family guides</Link>
             </div>

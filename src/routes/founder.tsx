@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
-import { HandbookCTA } from "@/components/HandbookCTA";
+import { StarterPackCTA } from "@/components/StarterPackCTA";
 
 export const Route = createFileRoute("/founder")({
   head: () => ({
@@ -111,15 +111,15 @@ function FounderPage() {
           </p>
           <p>
             For more than twenty years, I was the business analyst inside
-            compliance and regulatory programs at Canada's largest banks.
-            Anti money laundering monitoring, know your client
-            verification, enterprise risk, securities irregularities: the
-            unglamorous work that keeps financial systems honest. I was the
-            person between the regulator's requirement and the people who had to
-            actually carry it out. My job was to write down exactly what had to
-            be verified, define what counted as evidence, and design the process
-            so it produced the same answer no matter who ran it. I did not set
-            the standard. I built the machine that proved the standard was being
+            compliance and regulatory programs at Canada's largest banks. Anti
+            money laundering monitoring, know your client verification,
+            enterprise risk, securities irregularities: the unglamorous work
+            that keeps financial systems honest. I was the person between the
+            regulator's requirement and the people who had to actually carry it
+            out. My job was to write down exactly what had to be verified,
+            define what counted as evidence, and design the process so it
+            produced the same answer no matter who ran it. I did not set the
+            standard. I built the machine that proved the standard was being
             met, and then I watched what happened when nobody checked the
             machine.
           </p>
@@ -134,12 +134,12 @@ function FounderPage() {
           <p>
             Then came the point in my mother's life when I became the person
             responsible for her wellbeing and her finances. She lives in a
-            retirement home in Mississauga. I am the one who evaluates her well being,
-            questions the invoices, and makes the decisions when something
-            changes. And when I went looking for the services every family
-            eventually needs, home care, safety equipment, help with the house,
-            honest guidance about paying for it all, I found an industry that
-            runs almost entirely on unverified claims.
+            retirement home in Mississauga. I am the one who evaluates her well
+            being, questions the invoices, and makes the decisions when
+            something changes. And when I went looking for the services every
+            family eventually needs, home care, safety equipment, help with the
+            house, honest guidance about paying for it all, I found an industry
+            that runs almost entirely on unverified claims.
           </p>
           <p>
             Directories where "featured" means "paid us." Referral services that
@@ -151,21 +151,22 @@ function FounderPage() {
             it.
           </p>
           <p>
-            I found this genuinely unacceptable. These are our parents. This is the money they spent a
-            lifetime earning. The people navigating these decisions are often
-            exhausted, frightened, and doing it at eleven o'clock at night after
-            work and dinner and a phone call that ended in tears. They deserve
-            better than a lead generation machine wearing a friendly face.
+            I found this genuinely unacceptable. These are our parents. This is
+            the money they spent a lifetime earning. The people navigating these
+            decisions are often exhausted, frightened, and doing it at eleven
+            o'clock at night after work and dinner and a phone call that ended
+            in tears. They deserve better than a lead generation machine wearing
+            a friendly face.
           </p>
           <p className="font-serif text-xl text-primary">
             So I built the thing I could not find.
           </p>
           <p>
-            The Vetted Senior works on one rule: nobody can buy a
-            recommendation here. Not with money, not with favours, not with
-            anything. Public and community services are a starting point, with
-            links to the original source and dates showing when records were
-            checked. That is different from a full provider audit.
+            The Vetted Senior works on one rule: nobody can buy a recommendation
+            here. Not with money, not with favours, not with anything. Public
+            and community services are a starting point, with links to the
+            original source and dates showing when records were checked. That is
+            different from a full provider audit.
           </p>
           <p>
             Deeper vetting must be documented, repeatable, and checked against
@@ -177,17 +178,17 @@ function FounderPage() {
           <p>
             Vetting reduces risk. It does not eliminate it, and I will never
             tell you otherwise. What I can tell you is exactly what we checked,
-            when we checked it, and what we found, where that evidence is available. If
-            you have ever wished someone with a compliance auditor's suspicion
-            and a daughter's stake in the answer had already done the homework,
-            that is what this site is.
+            when we checked it, and what we found, where that evidence is
+            available. If you have ever wished someone with a compliance
+            auditor's suspicion and a daughter's stake in the answer had already
+            done the homework, that is what this site is.
           </p>
           <p>
-            I am still my mother's daughter first. Every guide on this
-            site is written the way I would explain it to a friend sitting at my
-            kitchen table: plainly, honestly, and without pretending anything is
-            simpler than it is. When you read something here, you are reading
-            what I would want someone to tell me.
+            I am still my mother's daughter first. Every guide on this site is
+            written the way I would explain it to a friend sitting at my kitchen
+            table: plainly, honestly, and without pretending anything is simpler
+            than it is. When you read something here, you are reading what I
+            would want someone to tell me.
           </p>
           <p>
             If you are at the beginning of this, overwhelmed and not sure what
@@ -226,9 +227,10 @@ function FounderPage() {
           </p>
           <p className="mt-3 text-base text-foreground/80 leading-relaxed">
             20+ years as a business analyst inside compliance and regulatory
-            programs at Canada's largest banks: anti money laundering monitoring,
-            know your client verification, enterprise risk assessment, securities
-            irregularities. Primary caregiver and decision maker for her mother.
+            programs at Canada's largest banks: anti money laundering
+            monitoring, know your client verification, enterprise risk
+            assessment, securities irregularities. Primary caregiver and
+            decision maker for her mother.
           </p>
         </div>
       </section>
@@ -240,8 +242,8 @@ function FounderPage() {
             Want to see the checking itself?
           </h2>
           <p className="mt-3 text-lg text-foreground/85 leading-relaxed">
-            Our approach explains how we distinguish official resources,
-            checked facts and deeper provider vetting.
+            Our approach explains how we distinguish official resources, checked
+            facts and deeper provider vetting.
           </p>
           <div className="mt-5 flex flex-wrap gap-4">
             <Link
@@ -262,7 +264,7 @@ function FounderPage() {
 
       {/* ── EMAIL CAPTURE ────────────────────────────────────────────────── */}
       <section className="mx-auto max-w-4xl px-6 py-12">
-        <HandbookCTA compact />
+        <StarterPackCTA compact />
       </section>
     </Page>
   );

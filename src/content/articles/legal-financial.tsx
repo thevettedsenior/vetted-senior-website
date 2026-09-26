@@ -199,9 +199,9 @@ export const LEGAL_FINANCIAL_ARTICLES: ArticleContentMap = {
             >
               The Five Legal Documents Every Family Needs
             </Link>
-            , and the full money map is Section 7 of the free{" "}
-            <Link to="/handbook" className="text-primary underline">
-              Family Caregiver's Complete Handbook
+            , and practical worksheets are in the free{" "}
+            <Link to="/starter-pack" className="text-primary underline">
+              Family Care Starter Pack
             </Link>
             .
           </p>
@@ -262,10 +262,10 @@ export const LEGAL_FINANCIAL_ARTICLES: ArticleContentMap = {
             <li>
               <strong>The personal inventory.</strong> Not a legal document, but
               the map that makes all the legal documents usable: where
-              everything is, who to call, how things are paid. The fill-in
-              version is Section 2 of our free{" "}
-              <Link to="/handbook" className="text-primary underline">
-                Family Caregiver's Complete Handbook
+              everything is, who to call, how things are paid. Start with the
+              document locator in our free{" "}
+              <Link to="/starter-pack" className="text-primary underline">
+                Family Care Starter Pack
               </Link>
               .
             </li>

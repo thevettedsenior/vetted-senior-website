@@ -67,7 +67,10 @@ function DisclosurePage() {
             There is no fee to be listed, no fee to be featured, no fee to
             appear higher in a category, and no fee to make a bad review
             disappear. Providers cannot buy their way in, and they cannot buy
-            their way back in after being removed. Public resources, verified provider facts and deeper TVS vetting are distinct. A listing is not a blanket endorsement; the scope and evidence behind each label matter.
+            their way back in after being removed. Public resources, verified
+            provider facts and deeper TVS vetting are distinct. A listing is not
+            a blanket endorsement; the scope and evidence behind each label
+            matter.
           </p>
           <p>
             This matters because it is not how this industry usually works. The
@@ -149,11 +152,30 @@ function DisclosurePage() {
             exists because that is the kind of site this is.
           </p>
 
+          <SectionHeading>4. Optional family planning tools</SectionHeading>
+          <p>
+            The Family Care Starter Pack, our individual checklists, website
+            guides and online care-cost worksheet are free. The{" "}
+            <Link to="/family-care-kit" className="text-primary underline">
+              Family Care Planning Kit
+            </Link>{" "}
+            is a separate C$29 digital product: a revised complete handbook,
+            fillable hospital-to-home organiser and editable spreadsheet. Its
+            page shows exactly what is included and whether purchases are open.
+          </p>
+          <p>
+            When you buy a TVS kit, you pay for the planning materials. It does
+            not buy a consultation, care assessment, preferential provider
+            access or a subscription. Selling our own tools does not affect
+            provider rankings or the guidance available for free.
+          </p>
+
           <SectionHeading>What we do with your information</SectionHeading>
           <p>
             If you give us your email address, we use it to send you what you
-            asked for and our newsletter, which you can leave with one click. We
-            do not sell, rent, or trade your information. When we check
+            asked for. Our newsletter requires its own signup, and you can leave
+            it with one click. Downloading a free pack does not subscribe you.
+            We do not sell, rent, or trade your information. When we check
             references during provider vetting, we collect that information with
             consent and use it only for vetting decisions.
           </p>
@@ -165,8 +187,8 @@ function DisclosurePage() {
             would they tell you the same thing if there were no money in it? On
             this site, the recommendations come first and the money is checked
             afterward, the directory cannot be bought, and commercial
-            relationships are disclosed in plain language. If you ever find anything on this site that does not live
-            up to this page,{" "}
+            relationships are disclosed in plain language. If you ever find
+            anything on this site that does not live up to this page,{" "}
             <Link to="/contact" className="text-primary underline">
               write to us
             </Link>
@@ -174,8 +196,8 @@ function DisclosurePage() {
           </p>
 
           <p className="mt-8 border-t border-border pt-6 text-base text-muted-foreground">
-            Last updated: September 25, 2026. We update this page whenever anything about
-            how we earn money changes, and we date every change.
+            Last updated: September 26, 2026. We update this page whenever
+            anything about how we earn money changes, and we date every change.
           </p>
         </div>
       </section>

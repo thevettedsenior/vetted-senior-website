@@ -291,10 +291,10 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
             Everything above, done completely, lands near $300 plus a
             handyperson visit, and addresses the hazards behind the majority of
             home falls. The{" "}
-            <Link to="/handbook" className="text-primary underline">
-              free Caregiver Handbook
+            <Link to="/starter-pack" className="text-primary underline">
+              free Family Care Starter Pack
             </Link>{" "}
-            includes the full room by room walkthrough as a printable section.
+            includes the printable Seasonal Home Safety Checklist.
           </p>
         </>
       ),
@@ -463,9 +463,9 @@ export const MEDICAL_ALERT_SAFETY_ARTICLES: ArticleContentMap = {
             plan. The others cost less and matter as much: loose rugs removed,
             paths lit from bed to bathroom, grab bars anchored into studs,
             non-slip footwear, and a weekly blister pack from the pharmacy for
-            medications. The full room by room walkthrough is in our free{" "}
-            <Link to="/handbook" className="text-primary underline">
-              Family Caregiver's Complete Handbook
+            medications. The Seasonal Home Safety Checklist is in our free{" "}
+            <Link to="/starter-pack" className="text-primary underline">
+              Family Care Starter Pack
             </Link>
             , and if a fall has already happened, start with the{" "}
             <Link

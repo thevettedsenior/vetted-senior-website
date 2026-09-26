@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, ArrowUpRight, Check, MapPin } from "lucide-react";
 import { Page } from "@/components/SiteShell";
+import { StarterPackCTA } from "@/components/StarterPackCTA";
 import { JourneyCards } from "@/components/JourneyCards";
 import { homeJsonLd, jsonLdScript } from "@/lib/jsonld";
 export const Route = createFileRoute("/")({
@@ -194,6 +195,9 @@ function Home() {
         <Link to="/guides" className="tvs-button secondary">
           Explore the family guides <ArrowRight size={19} aria-hidden="true" />
         </Link>
+      </section>
+      <section className="tvs-wrap tvs-section">
+        <StarterPackCTA compact />
       </section>
       <section className="tvs-trust-section">
         <div className="tvs-wrap tvs-trust-inner">

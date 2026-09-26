@@ -27,7 +27,12 @@ const ORIGIN = "https://thevettedsenior.com";
 // content changed. Omit it until the data layer tracks truthful per-page dates.
 
 // Routes that must not be indexed (redirects, error pages).
-const EXCLUDED = new Set(["/how-we-vet", "/directory/$listingId", "/my-plan"]);
+const EXCLUDED = new Set([
+  "/how-we-vet",
+  "/directory/$listingId",
+  "/my-plan",
+  "/handbook",
+]);
 
 type Entry = { loc: string; changefreq: string; priority: string };
 
@@ -56,7 +61,8 @@ const STATIC_META: Record<string, { changefreq: string; priority: string }> = {
   "/help": { changefreq: "monthly", priority: "0.9" },
   "/how-to": { changefreq: "weekly", priority: "0.9" },
   "/directory": { changefreq: "weekly", priority: "0.9" },
-  "/handbook": { changefreq: "monthly", priority: "0.9" },
+  "/starter-pack": { changefreq: "monthly", priority: "0.9" },
+  "/family-care-kit": { changefreq: "monthly", priority: "0.8" },
   "/resources": { changefreq: "monthly", priority: "0.8" },
   "/founder": { changefreq: "monthly", priority: "0.8" },
   "/disclosure": { changefreq: "monthly", priority: "0.7" },

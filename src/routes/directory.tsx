@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import { ChevronDown, SlidersHorizontal } from "lucide-react";
 import { Page } from "@/components/SiteShell";
 import { CategoryAccordion } from "@/components/CategoryAccordion";
-import { LaunchNotice } from "@/components/HandbookCTA";
+import { LaunchNotice } from "@/components/StarterPackCTA";
 import { SignupForm } from "@/components/SignupForm";
 import {
   BUSINESSES,
@@ -118,7 +118,9 @@ function DirectoryPage() {
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
       <section className="border-b border-border bg-card">
         <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 md:py-8">
-          <Link to="/local-help" className="tvs-text-link">← Back to Ontario starting points</Link>
+          <Link to="/local-help" className="tvs-text-link">
+            ← Back to Ontario starting points
+          </Link>
           <h1 className="font-serif text-3xl font-semibold text-primary md:text-4xl">
             Local service records
           </h1>
@@ -321,7 +323,10 @@ function DirectoryPage() {
                   <span aria-hidden>🏛</span> Public service
                 </span>
                 <p className="mt-3 text-base text-foreground/85 leading-relaxed">
-                  A public program, hospital-affiliated service or non-profit community organization. Records retain their original check dates. Confirm current fees, eligibility and availability directly; this label is not a private-provider endorsement.
+                  A public program, hospital-affiliated service or non-profit
+                  community organization. Records retain their original check
+                  dates. Confirm current fees, eligibility and availability
+                  directly; this label is not a private-provider endorsement.
                 </p>
               </div>
             </div>
@@ -336,7 +341,13 @@ function DirectoryPage() {
             Facts with context. Choices that stay yours.
           </h2>
           <p className="mt-3 max-w-3xl text-lg text-foreground/85 leading-relaxed">
-            Service records support a care decision; they do not make it for you. Public resources, verified facts and deeper vetting carry different evidence. Read <Link to="/about" className="text-primary underline">our approach</Link> and ask providers to confirm the details that matter to your family.
+            Service records support a care decision; they do not make it for
+            you. Public resources, verified facts and deeper vetting carry
+            different evidence. Read{" "}
+            <Link to="/about" className="text-primary underline">
+              our approach
+            </Link>{" "}
+            and ask providers to confirm the details that matter to your family.
           </p>
         </div>
       </section>

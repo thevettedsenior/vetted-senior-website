@@ -282,12 +282,12 @@ export const FUNERAL_ESTATE_PLANNING_ARTICLES: ArticleContentMap = {
               <strong>Inventory everything:</strong> accounts, property,
               investments, insurance, debts, subscriptions, and the increasingly
               real category of digital assets (email, photos, crypto, loyalty
-              points). The personal inventory in Section 2 of our{" "}
-              <Link to="/handbook" className="text-primary underline">
-                free Handbook
+              points). The document locator in our{" "}
+              <Link to="/starter-pack" className="text-primary underline">
+                free Starter Pack
               </Link>
-              , if the person filled it in, turns this month of detective work
-              into an afternoon.
+              , if the person completed it, can help you find the right records
+              and contacts.
             </li>
             <li>
               <strong>Pay debts and taxes before distributing anything.</strong>{" "}

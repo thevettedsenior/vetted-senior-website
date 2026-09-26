@@ -1,213 +1,66 @@
-# Brevo Welcome Email Copy
+# Welcome email copy after the Starter Pack change
 
-Internal ops document, not published. Copy for the welcome/autoresponder
-emails sent when someone signs up through any form on the site. The actual
-Brevo automation setup is a separate step; this doc is the copy plus the
-routing logic the automation needs.
+Revised September 26, 2026. This document prepares copy and routing; it does not confirm that any Brevo automation has been edited or activated. No email was sent as part of the website update.
 
-## How signups arrive in Brevo
+## Current offers and consent
 
-Every form on the site stores the contact with an INTENT custom attribute
-(and SIGNUP_PAGE for the page they signed up on). The INTENT values in
-production today:
+- Main free offer: https://thevettedsenior.com/starter-pack
+- Direct free PDF: https://thevettedsenior.com/downloads/TVS-Family-Care-Starter-Pack.pdf
+- Paid kit preview: https://thevettedsenior.com/family-care-kit
+- Downloading the free PDF is ungated and does not create a contact or subscribe anyone.
+- Current form intents are `briefing` and `notify me: {place or category}`. Preserve the waitlist-only promise: do not automatically subscribe those contacts to the briefing.
+- The retired `handbook and briefing` intent may exist on historical contacts. Do not treat this as a new signup, send a new campaign to that segment or overwrite its consent history. The original PDF link remains accessible for prior recipients.
+- A future purchase is transactional consent for delivery and order support, not automatic marketing consent. Any newsletter opt-in must be separate and optional.
 
-| INTENT value            | Form                                                            | Welcome email to send |
-| ----------------------- | --------------------------------------------------------------- | --------------------- |
-| `handbook and briefing` | /handbook signup                                                | Variant 1             |
-| `briefing`              | HandbookCTA briefing form (appears across the site)             | Variant 2             |
-| `notify me: {place}`    | Directory/city waitlists (e.g. "notify me: Toronto")            | Variant 3             |
-| `notify me: {category}` | Category page waitlists (e.g. "notify me: Home Care & Nursing") | Variant 3             |
+## Briefing welcome: draft for the existing automation
 
-Automation logic: one Brevo automation triggered on contact creation,
-branching on whether INTENT equals `handbook and briefing`, equals
-`briefing`, or starts with `notify me:`. If INTENT is missing (the server
-falls back to storing the contact without custom attributes when the
-attribute write fails), send Variant 2, since it promises the least.
+Subject: A little clarity, in your inbox.
+Preheader: What to expect, and a useful place to start.
 
-Sender for all variants: The Vetted Senior <info@thevettedsenior.com>.
-Reply-to: info@thevettedsenior.com (replies are read by Ragini).
-Personalization: use {{ contact.FIRSTNAME }} with a fallback to no name,
-i.e. "Hi Margaret," becomes just "Hello," when FIRSTNAME is empty. In
-Brevo template syntax: `{% if contact.FIRSTNAME %}Hi {{ contact.FIRSTNAME }},{% else %}Hello,{% endif %}`
+Hello,
 
-CASL notes baked into the copy: every email identifies who we are and why
-they are receiving it, includes our mailing contact, and Brevo's
-unsubscribe link must be present in the footer. Do not remove the footer
-block when pasting into Brevo.
+You are signed up for The Vetted Senior briefing: one short email most weeks, with a useful update for Ontario families helping an ageing parent. If there is nothing worth your time, we skip the week.
 
-Site conventions apply: no em dashes, plain language, 18px+ base font in
-the Brevo template, navy #1F2A52 headings if styled.
+While you wait, the free Family Care Starter Pack brings ten practical guides together with a next-steps page and Ontario help contacts. Start with the page that fits your situation:
 
----
+https://thevettedsenior.com/starter-pack
 
-## Variant 1: Handbook signup (INTENT = "handbook and briefing")
+The download is free for everyone, with no email required. You can send that link to another family.
 
-**Subject:** Your Caregiver Handbook is attached (plus what to expect from us)
+Our guides and tools keep your parent's wishes at the centre. Here is how the site is funded: https://thevettedsenior.com/disclosure
 
-**Preheader:** The handbook, one Thursday email, and a promise about your inbox.
-
-Hi {{FIRSTNAME}},
-
-Here is your copy of The Family Caregiver's Complete Handbook. You can
-download it any time from this link, so there is no need to hunt for this
-email later:
-
-https://thevettedsenior.com/handbook/TVS_Family_Caregivers_Complete_Handbook.pdf
-
-A suggestion from experience: do not try to read it cover to cover. Skim
-the table of contents, find the chapter that matches the week you are
-having, and start there. It is written to be picked up in the middle.
-
-Since you asked for the handbook, you are also signed up for our briefing:
-one email on Thursdays with what changed for Ontario seniors and families
-that week, in plain language. Rates, programs, deadlines, and anything we
-found that a family should know. No filler. If a week has nothing worth
-your time, we skip the week.
-
-Two things you should know about us, because you just gave us your email
-address:
-
-1. Nobody pays to be recommended by us. No provider can buy a listing, an
-   ad, or a ranking on our site. Our full disclosure of how the site makes
-   money is here: https://thevettedsenior.com/disclosure
-
-2. Your email stays here. We never sell, rent, or share it, and every
-   email we send has a one-click unsubscribe. Our privacy policy:
-   https://thevettedsenior.com/privacy
-
-If anything in the handbook raises a question about your family's
-situation, just reply to this email. A person reads these, usually me.
+You can leave the briefing using the unsubscribe link in every email. Our privacy information is here: https://thevettedsenior.com/privacy
 
 Warmly,
 Ragini
 The Vetted Senior
-https://thevettedsenior.com
-
----
-
-You are receiving this because you requested the Caregiver Handbook at
-thevettedsenior.com. The Vetted Senior, Ontario, Canada.
 info@thevettedsenior.com
-[Unsubscribe] (Brevo unsubscribe link, mandatory)
 
----
+Include the verified sender's required contact details and Brevo's working unsubscribe link. Retain supported first-name personalisation with a neutral fallback. Do not send this draft without a separate sending instruction.
 
-## Variant 2: Briefing signup (INTENT = "briefing")
+## Waitlist acknowledgement: draft for the existing automation
 
-**Subject:** You're in. Here is what Thursdays will look like.
+Subject: We will let you know when those vetted listings are ready.
 
-**Preheader:** One email a week, plain language, easy to leave.
+Hello,
 
-Hi {{FIRSTNAME}},
+You asked for a note when vetted listings are ready for the area or category you selected. We will send that update when the relevant work is complete.
 
-You are signed up for The Vetted Senior briefing. Here is the deal, so
-there are no surprises:
+Public resources, verified provider facts and deeper TVS vetting are different. Each listing's label explains what has been checked; a listing is not a blanket endorsement.
 
-One email, on Thursdays. What changed for Ontario seniors and families
-that week: program changes, rate updates, deadlines worth knowing, and
-anything we found that a family should hear about before it becomes a
-problem. Plain language, no jargon, no filler. If a week has nothing worth
-your time, we skip the week rather than pad one out.
+In the meantime, the free Family Care Starter Pack is ready now:
+https://thevettedsenior.com/starter-pack
 
-While you wait for your first issue, the most useful thing on our site is
-the free Family Caregiver's Complete Handbook. No signup wall for you,
-you are already here:
-
-https://thevettedsenior.com/handbook/TVS_Family_Caregivers_Complete_Handbook.pdf
-
-Two things you should know about us, because you just gave us your email
-address:
-
-1. Nobody pays to be recommended by us. No provider can buy a listing, an
-   ad, or a ranking on our site. Full disclosure of how the site makes
-   money: https://thevettedsenior.com/disclosure
-
-2. Your email stays here. We never sell, rent, or share it, and every
-   email has a one-click unsubscribe. Privacy policy:
-   https://thevettedsenior.com/privacy
-
-Questions about anything senior-care related? Reply to this email. A
-person reads these, usually me.
+You can also start with public and community services:
+https://thevettedsenior.com/local-help
 
 Warmly,
 Ragini
 The Vetted Senior
-https://thevettedsenior.com
-
----
-
-You are receiving this because you signed up for the weekly briefing at
-thevettedsenior.com. The Vetted Senior, Ontario, Canada.
 info@thevettedsenior.com
-[Unsubscribe] (Brevo unsubscribe link, mandatory)
 
----
+Use the actual selected area/category where supported. Include the verified sender's required contact details and unsubscribe link. Keep this audience separate from the briefing unless it has independently opted in.
 
-## Variant 3: Waitlist signup (INTENT starts with "notify me:")
+## Before changing a live automation
 
-Works for both city waitlists ("notify me: Toronto") and category
-waitlists ("notify me: Home Care & Nursing"). The copy references what
-they asked for generically; if Brevo templating is set up to echo the
-INTENT value, use the bracketed line instead.
-
-**Subject:** Got it. We will email you the day your listings go live.
-
-**Preheader:** One email when it is ready, and why the wait exists.
-
-Hi {{FIRSTNAME}},
-
-You asked us to tell you when vetted listings go live
-[for {{ INTENT with "notify me: " stripped }}], and we will: one email,
-the day it happens.
-
-Here is why there is a wait, because it is the whole point of this site.
-Every provider in our directory is vetted personally before listing:
-licences checked, complaint history reviewed, references called. That
-takes six to nine hours per provider, and nobody can pay to skip the line
-or buy their way in. An empty category means we have not finished the
-work yet, not that we forgot about you.
-
-While you wait, two things on the site are already useful:
-
-- The free Family Caregiver's Complete Handbook:
-  https://thevettedsenior.com/handbook/TVS_Family_Caregivers_Complete_Handbook.pdf
-- Printable checklists for comparing providers, touring residences, and
-  getting legal documents in order: https://thevettedsenior.com/resources
-
-If your situation cannot wait for the directory, reply to this email and
-tell us what you are looking for. We cannot recommend unvetted providers,
-but we can usually point you to the right questions to ask and the
-official registries to check.
-
-Two promises, since you just gave us your email address: nobody pays to be
-recommended by us (https://thevettedsenior.com/disclosure), and your email
-is never sold or shared (https://thevettedsenior.com/privacy).
-
-Warmly,
-Ragini
-The Vetted Senior
-https://thevettedsenior.com
-
----
-
-You are receiving this because you joined a waitlist at
-thevettedsenior.com. The Vetted Senior, Ontario, Canada.
-info@thevettedsenior.com
-[Unsubscribe] (Brevo unsubscribe link, mandatory)
-
----
-
-## Setup checklist (for the separate Brevo step, not part of this packet)
-
-1. Verify the sending domain thevettedsenior.com in Brevo (SPF + DKIM),
-   or welcome emails will land in spam or fail to send.
-2. Create one automation: trigger on contact created, branch on INTENT
-   (equals "handbook and briefing" / equals "briefing" / starts with
-   "notify me:" / fallback to Variant 2).
-3. Waitlist contacts should also receive the Thursday briefing only if
-   that is disclosed; current form copy says they signed up for "one email
-   the day listings go live", so do NOT add them to the briefing list
-   automatically. Keep them on a waitlist-only segment.
-4. Confirm the unsubscribe link renders in all three templates before
-   activating.
-5. Send a test of each variant to info@ and read them on a phone.
+Inspect the existing routing and copy in the signed-in Brevo account. Update the appropriate existing templates rather than creating duplicates. Verify consent segments, personalisation, destination URLs, sender details and unsubscribe behaviour. Do not resend welcome emails to existing contacts simply because these drafts changed.

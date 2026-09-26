@@ -1943,6 +1943,172 @@ img {
   justify-content: space-between;
   gap: 2.5rem;
 }
+
+/* Family downloads: the same calm, editorial language as the field guide. */
+.tvs-offer-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: center;
+  padding-block: 3.5rem 4rem;
+  border-bottom: 1px solid var(--border);
+}
+.tvs-offer-hero h1 {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(2.3rem, 4.3vw, 3.8rem);
+  line-height: 1.12;
+  margin: 1rem 0 1.5rem;
+}
+.tvs-offer-hero h1 em {
+  color: #657451;
+  font-weight: 400;
+}
+.tvs-offer-hero p {
+  line-height: 1.8;
+}
+.tvs-offer-hero .tvs-offer-intro {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  max-width: 33rem;
+}
+.tvs-offer-hero .tvs-actions {
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+.tvs-offer-note {
+  color: #596552;
+  font-size: 0.83rem;
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+.tvs-offer-note a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.tvs-offer-cover {
+  margin: 0;
+  padding: 1.4rem 1.4rem 1rem;
+  background: #e6e5d8;
+  border-radius: 60% 60% 0 0 / 17% 17% 0 0;
+}
+.tvs-offer-cover img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 12px 25px #2e473b19;
+  transform: rotate(1.5deg);
+  margin-top: 1rem;
+}
+.tvs-offer-cover figcaption {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: #46523c;
+}
+.tvs-pack-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 3rem;
+}
+.tvs-pack-list li {
+  display: grid;
+  grid-template-columns: 1.8rem minmax(0, 1fr) 2.75rem;
+  gap: 0.75rem;
+  padding: 1.6rem 0;
+  border-top: 1px solid var(--border);
+}
+.tvs-pack-list h3,
+.tvs-kit-contents h3,
+.tvs-offer-options h3 {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+.tvs-pack-list p,
+.tvs-kit-contents p,
+.tvs-offer-options p:not(.tvs-kicker) {
+  margin-top: 0.75rem;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+.tvs-pack-list li > a {
+  display: grid;
+  place-items: center;
+  align-self: start;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+}
+.tvs-pack-list li > a:hover {
+  background: var(--secondary);
+}
+.tvs-offer-band {
+  background: #eeeee4;
+  padding-block: 3.5rem;
+}
+.tvs-offer-price {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 2rem;
+  margin-top: 1.25rem;
+}
+.tvs-offer-price span {
+  display: block;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.85rem;
+}
+.tvs-kit-contents {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem;
+}
+.tvs-kit-contents article {
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+}
+.tvs-kit-contents h3 {
+  margin-top: 1rem;
+}
+.tvs-offer-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem;
+}
+.tvs-offer-options h3 {
+  margin-top: 0.75rem;
+}
+.tvs-offer-options .tvs-text-link {
+  margin-top: 1.4rem;
+}
+.tvs-kit-faq h2 {
+  margin-top: 0.6rem;
+}
+@media (max-width: 800px) {
+  .tvs-offer-hero {
+    grid-template-columns: minmax(0, 1fr);
+    padding-block: 2rem 3rem;
+  }
+  .tvs-offer-cover {
+    max-width: 24rem;
+    width: 100%;
+    margin-inline: auto;
+  }
+  .tvs-pack-list,
+  .tvs-kit-contents,
+  .tvs-offer-options {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .tvs-offer-hero .tvs-button {
+    white-space: normal;
+    text-align: left;
+  }
+  .tvs-offer-hero .tvs-button svg {
+    flex-shrink: 0;
+  }
+}
 .tvs-guide-feature > div:first-child {
   max-width: 41rem;
 }

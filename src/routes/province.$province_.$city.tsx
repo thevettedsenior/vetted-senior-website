@@ -1,7 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
 import { CategoryAccordion } from "@/components/CategoryAccordion";
-import { LaunchNotice } from "@/components/HandbookCTA";
+import { LaunchNotice } from "@/components/StarterPackCTA";
 import {
   findProvince,
   cityBusinesses,

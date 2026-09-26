@@ -188,7 +188,7 @@ function GuidesPage() {
               Plan the costs <ArrowRight size={18} aria-hidden="true" />
             </Link>
             <Link className="tvs-text-link" to="/resources">
-              Free checklists & handbook →
+              Free Starter Pack & checklists →
             </Link>
             <Link className="tvs-text-link" to="/help">
               All topics →

@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/SiteShell";
-import { HandbookCTA } from "@/components/HandbookCTA";
+import { StarterPackCTA } from "@/components/StarterPackCTA";
 import { resourcesByGroup } from "@/lib/resources";
 
 export const Route = createFileRoute("/resources")({
@@ -10,7 +10,7 @@ export const Route = createFileRoute("/resources")({
       {
         name: "description",
         content:
-          "Every free printable checklist and worksheet from The Vetted Senior in one place: home care questions, residence tours, legal documents, medical alerts, seasonal home safety, and the full Caregiver Handbook. No email required.",
+          "Every free printable checklist and worksheet from The Vetted Senior in one place: home care questions, residence tours, legal documents, medical alerts, seasonal home safety, and the Family Care Starter Pack. No email required.",
       },
     ],
   }),
@@ -28,10 +28,13 @@ function ResourcesPage() {
             Checklists &amp; printables
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-foreground/85 leading-relaxed md:text-xl">
-            Every worksheet on this site, in one place. Print them, write on
-            them, bring them to tours and provider calls. All free, and none of
-            them ask for your email first.
+            Our free practical guides, in one place. Print them, write on them,
+            bring them to tours and provider calls. All free, and none of them
+            ask for your email first.
           </p>
+          <div className="mt-7">
+            <StarterPackCTA compact />
+          </div>
           <p className="mt-3 text-base text-muted-foreground">
             Each one comes from a guide on this site, so if a checklist raises
             questions, the guide it belongs to has the answers.
@@ -64,7 +67,7 @@ function ResourcesPage() {
                       <span className="mt-2 flex-1 text-base text-foreground/75 leading-relaxed">
                         {r.description}
                       </span>
-                      <span className="mt-4 text-sm font-semibold text-gold">
+                      <span className="mt-4 text-sm font-semibold text-primary">
                         Download PDF →
                       </span>
                     </a>
@@ -93,7 +96,20 @@ function ResourcesPage() {
             .
           </p>
           <div className="mt-8">
-            <HandbookCTA compact />
+            <h2 className="font-serif text-2xl text-primary">
+              Want a fuller working plan?
+            </h2>
+            <p className="mt-3 text-lg">
+              The C$29 Family Care Planning Kit adds the revised complete
+              handbook, a fillable organiser and an editable planning
+              spreadsheet.
+            </p>
+            <Link
+              to="/family-care-kit"
+              className="mt-4 inline-block text-primary underline"
+            >
+              See the kit and free sample →
+            </Link>
           </div>
         </div>
       </section>

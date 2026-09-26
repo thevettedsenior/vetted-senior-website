@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as StarterPackRouteImport } from './routes/starter-pack'
 import { Route as ResourcesRouteImport } from './routes/resources'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as MyPlanRouteImport } from './routes/my-plan'
@@ -18,6 +19,7 @@ import { Route as HandbookRouteImport } from './routes/handbook'
 import { Route as GuidesRouteImport } from './routes/guides'
 import { Route as GetVettedRouteImport } from './routes/get-vetted'
 import { Route as FounderRouteImport } from './routes/founder'
+import { Route as FamilyCareKitRouteImport } from './routes/family-care-kit'
 import { Route as DisclosureRouteImport } from './routes/disclosure'
 import { Route as DirectoryRouteImport } from './routes/directory'
 import { Route as ContactRouteImport } from './routes/contact'
@@ -35,6 +37,11 @@ import { Route as HelpCategoryIndexRouteImport } from './routes/help/$category/i
 import { Route as ProvinceProvinceCityRouteImport } from './routes/province.$province_.$city'
 import { Route as HelpCategoryArticleRouteImport } from './routes/help/$category/$article'
 
+const StarterPackRoute = StarterPackRouteImport.update({
+  id: '/starter-pack',
+  path: '/starter-pack',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ResourcesRoute = ResourcesRouteImport.update({
   id: '/resources',
   path: '/resources',
@@ -78,6 +85,11 @@ const GetVettedRoute = GetVettedRouteImport.update({
 const FounderRoute = FounderRouteImport.update({
   id: '/founder',
   path: '/founder',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FamilyCareKitRoute = FamilyCareKitRouteImport.update({
+  id: '/family-care-kit',
+  path: '/family-care-kit',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DisclosureRoute = DisclosureRouteImport.update({
@@ -168,6 +180,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/directory': typeof DirectoryRoute
   '/disclosure': typeof DisclosureRoute
+  '/family-care-kit': typeof FamilyCareKitRoute
   '/founder': typeof FounderRoute
   '/get-vetted': typeof GetVettedRoute
   '/guides': typeof GuidesRoute
@@ -177,6 +190,7 @@ export interface FileRoutesByFullPath {
   '/my-plan': typeof MyPlanRoute
   '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
+  '/starter-pack': typeof StarterPackRoute
   '/directory/$listingId': typeof DirectoryListingIdRoute
   '/how-to/$slug': typeof HowToSlugRoute
   '/province/$province': typeof ProvinceProvinceRoute
@@ -195,6 +209,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/directory': typeof DirectoryRoute
   '/disclosure': typeof DisclosureRoute
+  '/family-care-kit': typeof FamilyCareKitRoute
   '/founder': typeof FounderRoute
   '/get-vetted': typeof GetVettedRoute
   '/guides': typeof GuidesRoute
@@ -204,6 +219,7 @@ export interface FileRoutesByTo {
   '/my-plan': typeof MyPlanRoute
   '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
+  '/starter-pack': typeof StarterPackRoute
   '/directory/$listingId': typeof DirectoryListingIdRoute
   '/how-to/$slug': typeof HowToSlugRoute
   '/province/$province': typeof ProvinceProvinceRoute
@@ -223,6 +239,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/directory': typeof DirectoryRoute
   '/disclosure': typeof DisclosureRoute
+  '/family-care-kit': typeof FamilyCareKitRoute
   '/founder': typeof FounderRoute
   '/get-vetted': typeof GetVettedRoute
   '/guides': typeof GuidesRoute
@@ -232,6 +249,7 @@ export interface FileRoutesById {
   '/my-plan': typeof MyPlanRoute
   '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
+  '/starter-pack': typeof StarterPackRoute
   '/directory_/$listingId': typeof DirectoryListingIdRoute
   '/how-to/$slug': typeof HowToSlugRoute
   '/province/$province': typeof ProvinceProvinceRoute
@@ -252,6 +270,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/directory'
     | '/disclosure'
+    | '/family-care-kit'
     | '/founder'
     | '/get-vetted'
     | '/guides'
@@ -261,6 +280,7 @@ export interface FileRouteTypes {
     | '/my-plan'
     | '/privacy'
     | '/resources'
+    | '/starter-pack'
     | '/directory/$listingId'
     | '/how-to/$slug'
     | '/province/$province'
@@ -279,6 +299,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/directory'
     | '/disclosure'
+    | '/family-care-kit'
     | '/founder'
     | '/get-vetted'
     | '/guides'
@@ -288,6 +309,7 @@ export interface FileRouteTypes {
     | '/my-plan'
     | '/privacy'
     | '/resources'
+    | '/starter-pack'
     | '/directory/$listingId'
     | '/how-to/$slug'
     | '/province/$province'
@@ -306,6 +328,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/directory'
     | '/disclosure'
+    | '/family-care-kit'
     | '/founder'
     | '/get-vetted'
     | '/guides'
@@ -315,6 +338,7 @@ export interface FileRouteTypes {
     | '/my-plan'
     | '/privacy'
     | '/resources'
+    | '/starter-pack'
     | '/directory_/$listingId'
     | '/how-to/$slug'
     | '/province/$province'
@@ -334,6 +358,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   DirectoryRoute: typeof DirectoryRoute
   DisclosureRoute: typeof DisclosureRoute
+  FamilyCareKitRoute: typeof FamilyCareKitRoute
   FounderRoute: typeof FounderRoute
   GetVettedRoute: typeof GetVettedRoute
   GuidesRoute: typeof GuidesRoute
@@ -343,6 +368,7 @@ export interface RootRouteChildren {
   MyPlanRoute: typeof MyPlanRoute
   PrivacyRoute: typeof PrivacyRoute
   ResourcesRoute: typeof ResourcesRoute
+  StarterPackRoute: typeof StarterPackRoute
   DirectoryListingIdRoute: typeof DirectoryListingIdRoute
   HowToSlugRoute: typeof HowToSlugRoute
   ProvinceProvinceRoute: typeof ProvinceProvinceRoute
@@ -357,6 +383,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/starter-pack': {
+      id: '/starter-pack'
+      path: '/starter-pack'
+      fullPath: '/starter-pack'
+      preLoaderRoute: typeof StarterPackRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/resources': {
       id: '/resources'
       path: '/resources'
@@ -418,6 +451,13 @@ declare module '@tanstack/react-router' {
       path: '/founder'
       fullPath: '/founder'
       preLoaderRoute: typeof FounderRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/family-care-kit': {
+      id: '/family-care-kit'
+      path: '/family-care-kit'
+      fullPath: '/family-care-kit'
+      preLoaderRoute: typeof FamilyCareKitRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/disclosure': {
@@ -542,6 +582,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   DirectoryRoute: DirectoryRoute,
   DisclosureRoute: DisclosureRoute,
+  FamilyCareKitRoute: FamilyCareKitRoute,
   FounderRoute: FounderRoute,
   GetVettedRoute: GetVettedRoute,
   GuidesRoute: GuidesRoute,
@@ -551,6 +592,7 @@ const rootRouteChildren: RootRouteChildren = {
   MyPlanRoute: MyPlanRoute,
   PrivacyRoute: PrivacyRoute,
   ResourcesRoute: ResourcesRoute,
+  StarterPackRoute: StarterPackRoute,
   DirectoryListingIdRoute: DirectoryListingIdRoute,
   HowToSlugRoute: HowToSlugRoute,
   ProvinceProvinceRoute: ProvinceProvinceRoute,

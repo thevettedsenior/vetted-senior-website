@@ -2,8 +2,7 @@ import { Link } from "@tanstack/react-router";
 
 import { SignupForm } from "@/components/SignupForm";
 
-export const HANDBOOK_PDF =
-  "/handbook/TVS_Family_Caregivers_Complete_Handbook.pdf";
+import { STARTER_PACK_PDF } from "@/lib/family-offers";
 
 /**
  * Dead-end converter for directory pages with no vetted listings yet.
@@ -31,39 +30,36 @@ export function LaunchNotice({ place }: { place: string }) {
         />
       </div>
       <div className="mt-4">
-        <Link to="/handbook" className="text-base text-primary underline">
-          Meanwhile, the free Caregiver Handbook
+        <Link to="/starter-pack" className="text-base text-primary underline">
+          Meanwhile, the free Family Care Starter Pack
         </Link>
       </div>
     </div>
   );
 }
 
-/**
- * The site-wide email capture / handbook block. Used at the end of the founder
- * page, on guides, and on the homepage. The handbook download is free and
- * ungated; the subscribe ask sits beside it, never in front of it.
- */
-export function HandbookCTA({ compact = false }: { compact?: boolean }) {
+/** The main free offer. Downloading does not subscribe someone to emails. */
+export function StarterPackCTA({ compact = false }: { compact?: boolean }) {
   if (compact) {
     return (
       <div className="rounded-2xl border-2 border-gold/50 bg-card p-6 md:p-8">
         <p className="font-serif text-2xl text-primary">
-          Get the Family Caregiver's Complete Handbook, free.
+          Start with the free Family Care Starter Pack.
         </p>
         <p className="mt-2 text-lg text-foreground/80 leading-relaxed">
-          It is the guide I wish someone had handed me. No email required.
+          Ten practical guides, a family next-steps page and Ontario help
+          contacts, together in one PDF. No email required.
         </p>
         <div className="mt-5 flex flex-wrap gap-3">
           <a
-            href={HANDBOOK_PDF}
+            href={STARTER_PACK_PDF}
             download
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-base font-semibold text-primary-foreground no-underline hover:opacity-90 transition-opacity"
           >
-            Download the handbook (PDF) →
+            Download the free Starter Pack (PDF) →
           </a>
           <Link
-            to="/handbook"
+            to="/starter-pack"
             className="inline-flex items-center gap-2 rounded-full border-2 border-primary px-6 py-3 text-base font-semibold text-primary no-underline hover:bg-primary/5 transition-colors"
           >
             What's inside
@@ -78,23 +74,23 @@ export function HandbookCTA({ compact = false }: { compact?: boolean }) {
       <div className="grid gap-8 md:grid-cols-[1.4fr_1fr] md:items-center">
         <div>
           <p className="font-serif text-3xl text-primary leading-snug">
-            The Family Caregiver's Complete Handbook
+            A small beginning. A clearer next step.
           </p>
           <p className="mt-3 text-lg text-foreground/80 leading-relaxed">
-            What to do, in what order, when someone you love starts needing
-            help. Twelve plain language sections, from the first 72 hours to the
-            2am pages. Free, and no email address required.
+            The free Family Care Starter Pack brings all ten of our practical
+            guides together, with a family next-steps page and Ontario contacts.
+            Keep the pack, print what you need and begin with one question.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a
-              href={HANDBOOK_PDF}
+              href={STARTER_PACK_PDF}
               download
               className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-lg font-semibold text-primary-foreground no-underline hover:opacity-90 transition-opacity"
             >
               Download free (PDF) →
             </a>
             <Link
-              to="/handbook"
+              to="/starter-pack"
               className="inline-flex items-center gap-2 rounded-full border-2 border-primary px-7 py-4 text-lg font-semibold text-primary no-underline hover:bg-primary/5 transition-colors"
             >
               See what's inside

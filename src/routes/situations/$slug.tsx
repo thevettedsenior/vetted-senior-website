@@ -5,7 +5,7 @@ import { JOURNEYS } from "@/lib/journeys";
 import { Page } from "@/components/SiteShell";
 import { ArticleTools, ShortVersion } from "@/components/ArticleTools";
 import { OntarioModule } from "@/components/OntarioModule";
-import { HandbookCTA } from "@/components/HandbookCTA";
+import { StarterPackCTA } from "@/components/StarterPackCTA";
 import { findSituation } from "@/lib/directory-data";
 import { breadcrumbJsonLd, guideJsonLd, jsonLdScript } from "@/lib/jsonld";
 
@@ -4068,7 +4068,7 @@ function SituationGuidePage() {
       <OntarioModule slug={situation.slug} />
 
       <section className="no-print mx-auto max-w-4xl px-6 pb-12">
-        <HandbookCTA compact />
+        <StarterPackCTA compact />
       </section>
 
       <section className="no-print border-t border-border bg-secondary/40">

@@ -8,7 +8,7 @@ type Status = "idle" | "sending" | "done" | "error";
  * The inline email-capture form used everywhere the site used to open a
  * mailto draft. Name optional, email required. The intent travels with the
  * submission as a hidden field, so info@ knows exactly what was asked for:
- * "briefing", "handbook", or "notify me: <place or category>".
+ * "briefing" or "notify me: <place or category>".
  *
  * Success and error states are honest: success only shows after Brevo
  * accepts the signup, and the error state says nothing was saved and

@@ -68,9 +68,30 @@ function PrivacyPage() {
             and gets answered by a person.
           </p>
 
-          <SectionHeading>Your next-steps plan and cost worksheet</SectionHeading>
-          <p>The next-steps checklist is stored in this browser on this device. It does not create an account or a cloud backup. Anyone using this browser may see it. Clearing browser data removes the plan. If storage is blocked, the list lasts only for the current visit. You can print it or remove individual steps.</p>
-          <p>The care-cost worksheet runs in your browser. Its figures are added to your device-local plan only when you choose “Add budget to my plan.” Keep identifying health or financial details out of the plan. Your text-size preference is also stored on this device.</p>
+          <SectionHeading>
+            Your next-steps plan and cost worksheet
+          </SectionHeading>
+          <p>
+            The next-steps checklist is stored in this browser on this device.
+            It does not create an account or a cloud backup. Anyone using this
+            browser may see it. Clearing browser data removes the plan. If
+            storage is blocked, the list lasts only for the current visit. You
+            can print it or remove individual steps.
+          </p>
+          <p>
+            The care-cost worksheet runs in your browser. Its figures are added
+            to your device-local plan only when you choose “Add budget to my
+            plan.” Keep identifying health or financial details out of the plan.
+            Your text-size preference is also stored on this device.
+          </p>
+          <SectionHeading>Your downloaded planning files</SectionHeading>
+          <p>
+            The PDFs and spreadsheet work on your device. They do not send
+            entries to TVS or sync between family members. Keep completed copies
+            private and share only with the people your parent wants involved.
+            Use a secure location for health identifiers, passwords and banking
+            details, rather than these planning files.
+          </p>
           <SectionHeading>What we collect, and when</SectionHeading>
           <p>
             You can read every page of this site without giving us anything. We
@@ -79,12 +100,12 @@ function PrivacyPage() {
           </p>
           <ul className="list-none space-y-4 pl-0">
             <li className="rounded-xl border border-border bg-card p-5">
-              <strong>Signup forms.</strong> When you sign up for the Caregiver
-              Handbook, our email briefing, or a waitlist for a city or
-              category, we collect your email address, your first name if you
-              choose to give it, what you signed up for, and which page you
-              signed up on. That last part exists so we send you the thing you
-              actually asked for and nothing else.
+              <strong>Signup forms.</strong> When you sign up for our email
+              briefing or a waitlist for a city or category, we collect your
+              email address, your first name if you choose to give it, what you
+              signed up for, and which page you signed up on. That last part
+              exists so we send you the thing you actually asked for and nothing
+              else.
             </li>
             <li className="rounded-xl border border-border bg-card p-5">
               <strong>Email you send us.</strong> If you write to info@ or
@@ -106,8 +127,9 @@ function PrivacyPage() {
 
           <SectionHeading>Why we collect it</SectionHeading>
           <p>
-            One purpose: to send you what you asked for. A handbook signup gets
-            the handbook and our related updates for caregivers. A waitlist
+            One purpose: to send you what you asked for. The free Family Care
+            Starter Pack and individual checklists do not require an email
+            address and downloading them does not subscribe you. A waitlist
             signup gets a note when that city or category goes live. A briefing
             signup gets the briefing. Signing up is your express consent to
             receive those emails, and every email we send identifies us and

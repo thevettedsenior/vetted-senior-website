@@ -1,3 +1,5 @@
+import { STARTER_PACK_PDF } from "@/lib/family-offers";
+
 // ─── DOWNLOADABLE RESOURCES ─────────────────────────────────────────────────
 // Everything printable the site offers, in one place. The /resources page
 // renders this array grouped by `group`; adding a PDF here makes it live
@@ -24,12 +26,12 @@ export const RESOURCE_GROUPS: string[] = [
 
 export const RESOURCES: Resource[] = [
   {
-    file: "/handbook/TVS_Family_Caregivers_Complete_Handbook.pdf",
-    title: "The Family Caregiver's Complete Handbook",
+    file: STARTER_PACK_PDF,
+    title: "The Family Care Starter Pack",
     description:
-      "What to do, in what order, when someone you love starts needing help. Twelve plain language sections, from the first 72 hours to the 2am pages.",
+      "All ten practical guides in one PDF, plus a family next-steps page and Ontario help contacts. Start with the question in front of you.",
     group: "Start here",
-    pages: "Full handbook",
+    pages: "34-page free pack",
   },
   {
     file: "/checklists/TVS_HC1_SupportTasksPlanner.pdf",
@@ -59,9 +61,9 @@ export const RESOURCES: Resource[] = [
     file: "/checklists/TVS_CareTypeGrid.pdf",
     title: "Care Type Grid",
     description:
-      "Personal support, nursing, or companion care? Check off what is actually needed and see which type fits.",
+      "Describe the tasks that need support, then ask the care team which type of help fits. A starting point for a conversation.",
     group: "Home care",
-    pages: "Self-assessment grid",
+    pages: "Care conversation guide",
   },
   {
     file: "/checklists/TVS_RR1_ResidenceTourChecklist.pdf",
@@ -83,7 +85,7 @@ export const RESOURCES: Resource[] = [
     file: "/checklists/TVS_LF1_LegalDocumentsChecklist.pdf",
     title: "Legal Documents Checklist",
     description:
-      "The five documents every family needs, and whether yours are actually usable: found, current, and known to the right people.",
+      "Locate important documents, identify the right contacts and note questions for an Ontario lawyer or the care team.",
     group: "Legal & financial",
     pages: "Readiness checklist",
   },
@@ -99,7 +101,7 @@ export const RESOURCES: Resource[] = [
     file: "/checklists/TVS_HM1_SeasonalHomeSafety.pdf",
     title: "Seasonal Home Safety Checklist",
     description:
-      "The twice a year walkthrough that keeps a senior's home safe, plus the fall and spring task lists and a handyperson sheet.",
+      "A practical home walkthrough, seasonal task lists and space to assign follow-up with the right professional.",
     group: "Home maintenance",
     pages: "Seasonal walkthrough",
   },
