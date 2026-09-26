@@ -1,5 +1,6 @@
 import type { ArticleContentMap } from "./types";
 import { HOME_CARE_ARTICLES } from "./home-care";
+import { HOME_CARE_COST_ARTICLES } from "./home-care-costs";
 import { MEDICAL_ALERT_SAFETY_ARTICLES } from "./medical-alert-safety";
 import { MOBILITY_EQUIPMENT_ARTICLES } from "./mobility-equipment";
 import { RETIREMENT_RESIDENCES_ARTICLES } from "./retirement-residences";
@@ -22,6 +23,7 @@ export type { ArticleSection, ArticleContentMap } from "./types";
 // add the new module's spread here when a category gets its first article.
 export const ARTICLE_CONTENT: ArticleContentMap = {
   ...HOME_CARE_ARTICLES,
+  ...HOME_CARE_COST_ARTICLES,
   ...MEDICAL_ALERT_SAFETY_ARTICLES,
   ...MOBILITY_EQUIPMENT_ARTICLES,
   ...RETIREMENT_RESIDENCES_ARTICLES,

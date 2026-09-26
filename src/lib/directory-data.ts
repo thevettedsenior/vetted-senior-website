@@ -340,10 +340,26 @@ export type Article = {
   description: string; // one-sentence summary for the card
   image: string;
   affiliate?: boolean; // true = page shows the affiliate disclosure banner at the top
+  updated?: string; // ISO date, only when visible content was actually revised
   takeaways?: string[]; // 3 plain language bullets for "The short version" box
 };
 
 export const ARTICLES: Article[] = [
+  {
+    slug: "home-care-costs-ontario",
+    categorySlug: "home-care",
+    title:
+      "Home Care Costs in Ontario: Public Support, Private Quotes and Your Budget",
+    description:
+      "Understand publicly funded home care, compare private quotes and account for minimum visits and extra fees. Build a budget from your family's actual needs.",
+    image: "/images/situations/staying-at-home.jpeg",
+    updated: "2026-09-26",
+    takeaways: [
+      "Ontario pays for home care you qualify for. An Ontario Health atHome assessment determines eligibility and the services in your care plan.",
+      "Private care needs a written quote for the actual tasks, visit lengths and schedule. An hourly rate alone is not the full cost.",
+      "Count only confirmed public visits and sustainable family help. Keep support you are waiting for separate from support already arranged.",
+    ],
+  },
   {
     slug: "homecare-questions",
     categorySlug: "home-care",

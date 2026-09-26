@@ -15,6 +15,7 @@ import { Route as MyPlanRouteImport } from './routes/my-plan'
 import { Route as LocalHelpRouteImport } from './routes/local-help'
 import { Route as HowWeVetRouteImport } from './routes/how-we-vet'
 import { Route as HandbookRouteImport } from './routes/handbook'
+import { Route as GuidesRouteImport } from './routes/guides'
 import { Route as GetVettedRouteImport } from './routes/get-vetted'
 import { Route as FounderRouteImport } from './routes/founder'
 import { Route as DisclosureRouteImport } from './routes/disclosure'
@@ -62,6 +63,11 @@ const HowWeVetRoute = HowWeVetRouteImport.update({
 const HandbookRoute = HandbookRouteImport.update({
   id: '/handbook',
   path: '/handbook',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GuidesRoute = GuidesRouteImport.update({
+  id: '/guides',
+  path: '/guides',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GetVettedRoute = GetVettedRouteImport.update({
@@ -164,6 +170,7 @@ export interface FileRoutesByFullPath {
   '/disclosure': typeof DisclosureRoute
   '/founder': typeof FounderRoute
   '/get-vetted': typeof GetVettedRoute
+  '/guides': typeof GuidesRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
   '/local-help': typeof LocalHelpRoute
@@ -190,6 +197,7 @@ export interface FileRoutesByTo {
   '/disclosure': typeof DisclosureRoute
   '/founder': typeof FounderRoute
   '/get-vetted': typeof GetVettedRoute
+  '/guides': typeof GuidesRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
   '/local-help': typeof LocalHelpRoute
@@ -217,6 +225,7 @@ export interface FileRoutesById {
   '/disclosure': typeof DisclosureRoute
   '/founder': typeof FounderRoute
   '/get-vetted': typeof GetVettedRoute
+  '/guides': typeof GuidesRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
   '/local-help': typeof LocalHelpRoute
@@ -245,6 +254,7 @@ export interface FileRouteTypes {
     | '/disclosure'
     | '/founder'
     | '/get-vetted'
+    | '/guides'
     | '/handbook'
     | '/how-we-vet'
     | '/local-help'
@@ -271,6 +281,7 @@ export interface FileRouteTypes {
     | '/disclosure'
     | '/founder'
     | '/get-vetted'
+    | '/guides'
     | '/handbook'
     | '/how-we-vet'
     | '/local-help'
@@ -297,6 +308,7 @@ export interface FileRouteTypes {
     | '/disclosure'
     | '/founder'
     | '/get-vetted'
+    | '/guides'
     | '/handbook'
     | '/how-we-vet'
     | '/local-help'
@@ -324,6 +336,7 @@ export interface RootRouteChildren {
   DisclosureRoute: typeof DisclosureRoute
   FounderRoute: typeof FounderRoute
   GetVettedRoute: typeof GetVettedRoute
+  GuidesRoute: typeof GuidesRoute
   HandbookRoute: typeof HandbookRoute
   HowWeVetRoute: typeof HowWeVetRoute
   LocalHelpRoute: typeof LocalHelpRoute
@@ -384,6 +397,13 @@ declare module '@tanstack/react-router' {
       path: '/handbook'
       fullPath: '/handbook'
       preLoaderRoute: typeof HandbookRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/guides': {
+      id: '/guides'
+      path: '/guides'
+      fullPath: '/guides'
+      preLoaderRoute: typeof GuidesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/get-vetted': {
@@ -524,6 +544,7 @@ const rootRouteChildren: RootRouteChildren = {
   DisclosureRoute: DisclosureRoute,
   FounderRoute: FounderRoute,
   GetVettedRoute: GetVettedRoute,
+  GuidesRoute: GuidesRoute,
   HandbookRoute: HandbookRoute,
   HowWeVetRoute: HowWeVetRoute,
   LocalHelpRoute: LocalHelpRoute,

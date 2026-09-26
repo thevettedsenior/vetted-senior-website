@@ -10,7 +10,7 @@ export const Route = createFileRoute("/help/")({
       {
         name: "description",
         content:
-          "Already know what kind of help you need? Browse by service type: home care, legal, mobility, transportation, and more. Guides, articles, and vetted local providers.",
+          "Browse practical guides about home care, family decisions, mobility and transportation. Explore public resources and clearly labelled local service information.",
       },
     ],
   }),

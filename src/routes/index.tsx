@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, ArrowUpRight, Check, MapPin } from "lucide-react";
 import { Page } from "@/components/SiteShell";
 import { JourneyCards } from "@/components/JourneyCards";
+import { homeJsonLd, jsonLdScript } from "@/lib/jsonld";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -12,6 +13,7 @@ export const Route = createFileRoute("/")({
           "Practical Ontario guidance for adult children helping ageing parents. Start with your situation, plan care costs and find local help.",
       },
     ],
+    scripts: [jsonLdScript(homeJsonLd())],
   }),
   component: Home,
 });
@@ -178,6 +180,20 @@ function Home() {
           </Link>
           <p>Official resources first. Provider facts clearly labelled.</p>
         </div>
+      </section>
+      <section className="tvs-wrap tvs-section tvs-guide-feature">
+        <div>
+          <p className="tvs-kicker">A little more clarity</p>
+          <h2>Good questions deserve useful answers.</h2>
+          <p>
+            Public home care, private costs, memory concerns and the
+            conversations in between. Find the guide that helps with today’s
+            question.
+          </p>
+        </div>
+        <Link to="/guides" className="tvs-button secondary">
+          Explore the family guides <ArrowRight size={19} aria-hidden="true" />
+        </Link>
       </section>
       <section className="tvs-trust-section">
         <div className="tvs-wrap tvs-trust-inner">

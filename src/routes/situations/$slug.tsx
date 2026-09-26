@@ -7,6 +7,7 @@ import { ArticleTools, ShortVersion } from "@/components/ArticleTools";
 import { OntarioModule } from "@/components/OntarioModule";
 import { HandbookCTA } from "@/components/HandbookCTA";
 import { findSituation } from "@/lib/directory-data";
+import { breadcrumbJsonLd, guideJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const Route = createFileRoute("/situations/$slug")({
   loader: ({ params }) => {
@@ -38,6 +39,33 @@ export const Route = createFileRoute("/situations/$slug")({
         content: loaderData ? loaderData.situation.description : "",
       },
     ],
+    scripts: loaderData
+      ? [
+          jsonLdScript(
+            breadcrumbJsonLd([
+              { name: "Home", path: "/" },
+              { name: "Start here", path: "/situations" },
+              {
+                name: loaderData.situation.title,
+                path: `/situations/${loaderData.situation.slug}`,
+              },
+            ]),
+          ),
+          ...(JOURNEYS.some((j) => j.slug === loaderData.situation.slug)
+            ? [
+                jsonLdScript(
+                  guideJsonLd({
+                    path: `/situations/${loaderData.situation.slug}`,
+                    title: JOURNEYS.find(
+                      (j) => j.slug === loaderData.situation.slug,
+                    )!.title,
+                    description: loaderData.situation.description,
+                  }),
+                ),
+              ]
+            : []),
+        ]
+      : [],
   }),
   component: SituationGuidePage,
   notFoundComponent: () => (
@@ -3982,7 +4010,8 @@ const GUIDES: Record<string, Section[]> = {
 function SituationGuidePage() {
   const { situation } = Route.useLoaderData();
   const sections = GUIDES[situation.slug];
-  if (JOURNEYS.some(j => j.slug === situation.slug)) return <JourneyGuide key={situation.slug} slug={situation.slug} />;
+  if (JOURNEYS.some((j) => j.slug === situation.slug))
+    return <JourneyGuide key={situation.slug} slug={situation.slug} />;
 
   return (
     <Page>

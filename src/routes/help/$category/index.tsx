@@ -18,12 +18,18 @@ export const Route = createFileRoute("/help/$category/")({
     meta: [
       {
         title: loaderData
-          ? `${loaderData.category.name} | Find Help | The Vetted Senior`
+          ? loaderData.category.slug === "home-care"
+            ? "Home Care for Seniors in Ontario: Services & Costs | The Vetted Senior"
+            : `${loaderData.category.name} | Find Help | The Vetted Senior`
           : "Find Help",
       },
       {
         name: "description",
-        content: loaderData ? loaderData.category.intro.slice(0, 160) : "",
+        content: loaderData
+          ? loaderData.category.slug === "home-care"
+            ? "Understand home care for seniors in Ontario. Explore public support, private care costs, service types and questions to ask before arranging help."
+            : loaderData.category.intro.slice(0, 160)
+          : "",
       },
     ],
   }),
@@ -102,6 +108,24 @@ function HelpCategoryPage() {
       )}
 
       {/* ── ARTICLES ─────────────────────────────────────────────────────── */}
+      {category.slug === "home-care" && (
+        <div className="mx-auto max-w-4xl px-6 pt-10">
+          <div className="tvs-callout">
+            <strong>Home care for seniors in Ontario</strong>
+            <p>
+              Start with the tasks your parent needs help with. Ontario Health
+              atHome assesses eligibility for public home care. If private
+              support is needed, compare written quotes for the same schedule.
+            </p>
+            <p>
+              <Link to="/situations/$slug" params={{ slug: "staying-at-home" }}>
+                Make a plan for help at home
+              </Link>{" "}
+              · <Link to="/care-costs">Use the free cost worksheet</Link>
+            </p>
+          </div>
+        </div>
+      )}
       <section className="mx-auto max-w-4xl px-6 py-12">
         <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
           Guides & articles
@@ -201,9 +225,10 @@ function HelpCategoryPage() {
             Find local services and support
           </h2>
           <p className="mt-2 text-base text-muted-foreground">
-            Explore public and community services related to {category.name.toLowerCase()}.
-            Select your province to see the records available in your area.
-            A public service listing is not a full provider audit.
+            Explore public and community services related to{" "}
+            {category.name.toLowerCase()}. Select your province to see the
+            records available in your area. A public service listing is not a
+            full provider audit.
           </p>
 
           <div className="mt-8">
@@ -236,8 +261,8 @@ function HelpCategoryPage() {
               <p className="text-base text-muted-foreground">
                 Deeper vetting of {category.name.toLowerCase()} providers is a
                 separate layer, starting with the Toronto area. Only completed,
-                documented reviews qualify for that label. No business can buy
-                a recommendation.
+                documented reviews qualify for that label. No business can buy a
+                recommendation.
               </p>
               <div className="mt-4 max-w-xl">
                 <SignupForm

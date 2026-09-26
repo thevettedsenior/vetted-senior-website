@@ -16,6 +16,11 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://thevettedsenior.com/guides</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://thevettedsenior.com/handbook</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -287,6 +292,11 @@
   </url>
   <url>
     <loc>https://thevettedsenior.com/help/hearing-vision/vision-care-after-65</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thevettedsenior.com/help/home-care/home-care-costs-ontario</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

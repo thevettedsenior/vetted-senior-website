@@ -48,6 +48,7 @@ const citySlug = (city: string) =>
   city.toLowerCase().replace(/\s+/g, "-").replace(/'/g, "%27");
 
 const STATIC_META: Record<string, { changefreq: string; priority: string }> = {
+  "/guides": { changefreq: "monthly", priority: "0.9" },
   "/care-costs": { changefreq: "monthly", priority: "0.9" },
   "/local-help": { changefreq: "monthly", priority: "0.8" },
   "/": { changefreq: "monthly", priority: "1.0" },

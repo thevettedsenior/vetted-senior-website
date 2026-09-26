@@ -12,6 +12,7 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { ONELINK_SCRIPT_SRC } from "../lib/affiliates";
+import { identityJsonLd, jsonLdScript, SITE_URL } from "../lib/jsonld";
 
 function NotFoundComponent() {
   return (
@@ -78,7 +79,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   {
-    head: () => ({
+    head: ({ matches }) => ({
       meta: [
         { charSet: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -96,8 +97,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         },
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary" },
+        { property: "og:locale", content: "en_CA" },
+        { property: "og:site_name", content: "The Vetted Senior" },
+        {
+          property: "og:image",
+          content: `${SITE_URL}/images/situations/staying-at-home.jpeg`,
+        },
       ],
       links: [
+        {
+          rel: "canonical",
+          href: `${SITE_URL}${(matches.at(-1)?.pathname ?? "/").replace(/\/$/, "") || "/"}`,
+        },
         { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         {
@@ -113,9 +124,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       ],
       // Amazon OneLink: routes affiliate links to each visitor's local Amazon
       // store. Injected only once ONELINK_INSTANCE_ID is set in lib/affiliates.ts.
-      scripts: ONELINK_SCRIPT_SRC
-        ? [{ src: ONELINK_SCRIPT_SRC, async: true }]
-        : [],
+      scripts: [
+        jsonLdScript(identityJsonLd()),
+        ...(ONELINK_SCRIPT_SRC
+          ? [{ src: ONELINK_SCRIPT_SRC, async: true }]
+          : []),
+      ],
     }),
     shellComponent: RootShell,
     component: RootComponent,
@@ -126,7 +140,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en-CA">
       <head>
         <HeadContent />
       </head>

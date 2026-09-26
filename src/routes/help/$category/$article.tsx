@@ -3,7 +3,12 @@ import { Page } from "@/components/SiteShell";
 import { ArticleTools, ShortVersion } from "@/components/ArticleTools";
 import { AffiliateDisclosure } from "@/components/Affiliate";
 import { findArticle, findHelpCategory } from "@/lib/directory-data";
-import { articleJsonLd, jsonLdScript } from "@/lib/jsonld";
+import {
+  articleJsonLd,
+  breadcrumbJsonLd,
+  jsonLdScript,
+  SITE_URL,
+} from "@/lib/jsonld";
 import { ARTICLE_CONTENT } from "@/content/articles";
 export const Route = createFileRoute("/help/$category/$article")({
   loader: ({ params }) => {
@@ -26,6 +31,10 @@ export const Route = createFileRoute("/help/$category/$article")({
       },
       { property: "og:type", content: "article" },
       {
+        property: "og:image",
+        content: loaderData ? `${SITE_URL}${loaderData.article.image}` : "",
+      },
+      {
         property: "og:title",
         content: loaderData ? loaderData.article.title : "Article",
       },
@@ -35,7 +44,23 @@ export const Route = createFileRoute("/help/$category/$article")({
       },
     ],
     scripts: loaderData
-      ? [jsonLdScript(articleJsonLd(loaderData.article, loaderData.category))]
+      ? [
+          jsonLdScript(articleJsonLd(loaderData.article, loaderData.category)),
+          jsonLdScript(
+            breadcrumbJsonLd([
+              { name: "Home", path: "/" },
+              { name: "Find help", path: "/help" },
+              {
+                name: loaderData.category.name,
+                path: `/help/${loaderData.category.slug}`,
+              },
+              {
+                name: loaderData.article.title,
+                path: `/help/${loaderData.category.slug}/${loaderData.article.slug}`,
+              },
+            ]),
+          ),
+        ]
       : [],
   }),
   component: ArticlePage,
@@ -92,6 +117,27 @@ function ArticlePage() {
 
       {sections && (
         <section className="mx-auto max-w-4xl px-6 py-10">
+          <p className="tvs-byline">
+            Published by The Vetted Senior ·{" "}
+            <Link to="/founder">Meet Ragini, our founder</Link>
+            {article.updated && (
+              <>
+                {" "}
+                · Updated{" "}
+                <time dateTime={article.updated}>
+                  {new Date(`${article.updated}T12:00:00Z`).toLocaleDateString(
+                    "en-CA",
+                    {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                      timeZone: "UTC",
+                    },
+                  )}
+                </time>
+              </>
+            )}
+          </p>
           <div className="space-y-8">
             <ArticleTools sourceId="article-content" kind="article" />
             <ShortVersion takeaways={article.takeaways} />
@@ -114,11 +160,12 @@ function ArticlePage() {
       <section className="no-print border-t border-border bg-secondary/40">
         <div className="mx-auto max-w-4xl px-6 py-12">
           <h2 className="font-serif text-2xl font-semibold text-primary">
-            Looking for a vetted provider?
+            Put this into your family’s plan.
           </h2>
           <p className="mt-2 text-base text-muted-foreground">
-            Browse vetted {category.name.toLowerCase()} providers in the
-            directory.
+            Explore related guidance, work through care costs, or find public
+            and community services. Provider records explain what has been
+            checked.
           </p>
           <Link
             to="/help/$category"
@@ -127,6 +174,17 @@ function ArticlePage() {
           >
             Back to {category.name} →
           </Link>
+          <div className="mt-5 flex flex-wrap gap-6">
+            <Link to="/guides" className="tvs-text-link">
+              All family guides →
+            </Link>
+            <Link to="/care-costs" className="tvs-text-link">
+              Care cost worksheet →
+            </Link>
+            <Link to="/local-help" className="tvs-text-link">
+              Find local help →
+            </Link>
+          </div>
         </div>
       </section>
     </Page>

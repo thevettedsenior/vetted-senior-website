@@ -138,6 +138,10 @@ export function JourneyGuide({ slug }: { slug: string }) {
           </p>
           <h1>{journey.title}</h1>
           <p>{guide.intro}</p>
+          <p className="tvs-byline">
+            Published by The Vetted Senior ·{" "}
+            <Link to="/founder">Meet our founder</Link>
+          </p>
           <div className="tvs-actions no-print">
             <Link className="tvs-text-link" to="/my-plan">
               See my next steps
@@ -202,6 +206,22 @@ export function JourneyGuide({ slug }: { slug: string }) {
                   : "Browser storage is unavailable. Your steps will last for this visit only; print them before leaving.")}
             </p>
             <SourceNote sources={guide.sources} />
+            <div className="tvs-callout no-print">
+              <strong>Keep going, at your own pace.</strong>
+              <p>
+                Read the{" "}
+                <Link
+                  to="/help/$category/$article"
+                  params={{
+                    category: "home-care",
+                    article: "home-care-costs-ontario",
+                  }}
+                >
+                  Ontario home care cost guide
+                </Link>{" "}
+                or <Link to="/guides">browse the family guides</Link>.
+              </p>
+            </div>
           </div>
           <aside className="tvs-aside">
             <p className="tvs-kicker">Words to get you started</p>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="160" viewBox="0 0 480 160" role="img" aria-labelledby="title">
+<title id="title">The Vetted Senior</title>
+<rect width="480" height="160" fill="#f8f6f0"/>
+<g transform="translate(26 26) scale(2.2)" fill="none" stroke="#2e473b" stroke-width="1.6">
+<path d="M6 40V18C6 9 12 4 20 4s14 5 14 14v22H6Z"/>
+<path d="M12 24l6 6 12-15M20 4V0M1 40h38"/>
+</g>
+<g fill="#2e473b"><text x="138" y="62" font-family="Arial,sans-serif" font-size="16" letter-spacing="5">THE</text><text x="136" y="110" font-family="Georgia,serif" font-size="40">Vetted Senior.</text></g>
+</svg>

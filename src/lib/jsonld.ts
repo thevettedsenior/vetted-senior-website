@@ -18,12 +18,108 @@ import type { HowTo } from "@/lib/howto-data";
 
 export const SITE_URL = "https://thevettedsenior.com";
 export const ORG_ID = `${SITE_URL}/#org`;
+export const WEBSITE_ID = `${SITE_URL}/#website`;
+export const LOGO_URL = `${SITE_URL}/images/tvs-logo.svg`;
+
+export function identityJsonLd() {
+  return {
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": ORG_ID,
+        name: "The Vetted Senior",
+        url: `${SITE_URL}/`,
+        description:
+          "Practical Ontario guidance for adult children helping ageing parents. Start with your situation, plan care costs and find local help.",
+        logo: {
+          "@type": "ImageObject",
+          "@id": `${SITE_URL}/#logo`,
+          url: LOGO_URL,
+          contentUrl: LOGO_URL,
+          width: 480,
+          height: 160,
+        },
+      },
+      {
+        "@type": "WebSite",
+        "@id": WEBSITE_ID,
+        url: `${SITE_URL}/`,
+        name: "The Vetted Senior",
+        inLanguage: "en-CA",
+        publisher: { "@id": ORG_ID },
+      },
+    ],
+  };
+}
+
+export function homeJsonLd() {
+  return {
+    "@graph": [
+      {
+        "@type": "ImageObject",
+        "@id": `${SITE_URL}/#primaryimage`,
+        url: `${SITE_URL}/images/situations/staying-at-home.jpeg`,
+        contentUrl: `${SITE_URL}/images/situations/staying-at-home.jpeg`,
+        width: 1920,
+        height: 1071,
+        caption: "An older woman making tea in her own kitchen",
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${SITE_URL}/#webpage`,
+        url: `${SITE_URL}/`,
+        name: "The Vetted Senior | A clearer next step for your family",
+        description:
+          "Practical Ontario guidance for adult children helping ageing parents. Start with your situation, plan care costs and find local help.",
+        inLanguage: "en-CA",
+        isPartOf: { "@id": WEBSITE_ID },
+        publisher: { "@id": ORG_ID },
+        primaryImageOfPage: { "@id": `${SITE_URL}/#primaryimage` },
+        about: { "@id": ORG_ID },
+      },
+    ],
+  };
+}
+
+export function breadcrumbJsonLd(items: { name: string; path: string }[]) {
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      item: `${SITE_URL}${item.path}`,
+    })),
+  };
+}
+
+export function guideJsonLd(guide: {
+  path: string;
+  title: string;
+  description: string;
+}) {
+  const url = `${SITE_URL}${guide.path}`;
+  return {
+    "@type": "Article",
+    "@id": `${url}#article`,
+    url,
+    headline: guide.title,
+    description: guide.description,
+    inLanguage: "en-CA",
+    author: { "@id": ORG_ID },
+    publisher: { "@id": ORG_ID },
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+  };
+}
 
 /** Wraps a schema.org object for TanStack Start's head({ scripts }). */
 export function jsonLdScript(data: object) {
   return {
     type: "application/ld+json",
-    children: JSON.stringify({ "@context": "https://schema.org", ...data }),
+    children: JSON.stringify({
+      "@context": "https://schema.org",
+      ...data,
+    }).replace(/</g, "\\u003c"),
   };
 }
 
@@ -43,6 +139,7 @@ export function articleJsonLd(article: Article, category: HelpCategory) {
     url,
     inLanguage: "en-CA",
     articleSection: category.name,
+    ...(article.updated ? { dateModified: article.updated } : {}),
     author: { "@id": ORG_ID },
     publisher: { "@id": ORG_ID },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
@@ -63,7 +160,7 @@ export function howToJsonLd(howTo: HowTo) {
     description: howTo.description,
     image: `${SITE_URL}${howTo.image}`,
     inLanguage: "en-CA",
-    totalTime: `PT${howTo.minutes}M`,
+    // `minutes` is reading time, not the time needed to carry out the task.
     step: howTo.steps.map((step, i) => ({
       "@type": "HowToStep",
       position: i + 1,
