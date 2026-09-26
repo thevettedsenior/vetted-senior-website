@@ -67,9 +67,7 @@ function DisclosurePage() {
             There is no fee to be listed, no fee to be featured, no fee to
             appear higher in a category, and no fee to make a bad review
             disappear. Providers cannot buy their way in, and they cannot buy
-            their way back in after being removed. Inclusion in our directory is
-            earned by passing our vetting process and keeping standards up
-            between reviews. That is the only currency accepted here.
+            their way back in after being removed. Public resources, verified provider facts and deeper TVS vetting are distinct. A listing is not a blanket endorsement; the scope and evidence behind each label matter.
           </p>
           <p>
             This matters because it is not how this industry usually works. The
@@ -91,7 +89,8 @@ function DisclosurePage() {
 
           <p className="pt-4 font-serif text-xl text-primary">
             Now, the honest part. This site does cost money to run, and the
-            vetting work takes real time. Here is how we pay for it.
+            vetting work takes real time. Here is how we fund it and keep our
+            guidance independent.
           </p>
 
           <SectionHeading>
@@ -117,60 +116,25 @@ function DisclosurePage() {
             page, not hidden at the bottom. You will never have to guess.
           </p>
 
-          <SectionHeading>
-            2. The founder is a licensed mortgage agent. Here is exactly what
-            that means.
-          </SectionHeading>
+          <SectionHeading>2. Guidance on paying for care</SectionHeading>
           <p>
-            The Vetted Senior was founded by{" "}
-            <Link to="/founder" className="text-primary underline">
-              Ragini
-            </Link>
-            , who is a licensed mortgage agent in Ontario operating under BRX
-            Mortgage Inc. (FSRA licence #13549). Some content on this site
-            discusses paying for care, and home equity, including reverse
-            mortgages, is genuinely one of the tools some families use. When
-            Ragini arranges a mortgage for a client, she earns compensation
-            through BRX Mortgage Inc., the way any licensed mortgage
-            professional does.
+            Some guides discuss ways to pay for care, including public programs,
+            tax credits, insurance, savings, family support and housing choices.
+            Our aim is to help you understand the options, the questions to ask
+            and the costs to consider before making a decision.
           </p>
           <p>
-            You should hold this site to a hard standard on that point, so here
-            is the standard we hold ourselves to:
+            This information is general education. It does not replace advice
+            from a qualified professional who understands your family's
+            circumstances. The planning tools help you organise the numbers you
+            enter; they do not recommend a financial product or decide what is
+            right for your family.
           </p>
-          <ul className="list-none space-y-4 pl-0">
-            <li className="rounded-xl border border-border bg-card p-5">
-              <strong>a.</strong> Wherever mortgage products appear on this
-              site, they are presented as one option among several. Government
-              programs, tax credits, insurance, family arrangements, and selling
-              or downsizing are always presented alongside them, and we are
-              direct about situations where a mortgage is the wrong choice. Home
-              equity is a serious tool with real costs, and it deserves the same
-              unsentimental scrutiny we apply to everything else.
-            </li>
-            <li className="rounded-xl border border-border bg-card p-5">
-              <strong>b.</strong> Mortgage content never affects the directory.
-              Providers are not vetted differently, ranked differently, or
-              treated differently based on anything related to the mortgage
-              practice.
-            </li>
-            <li className="rounded-xl border border-border bg-card p-5">
-              <strong>c.</strong> This relationship is disclosed on every page
-              where mortgage products are discussed, not only here.
-            </li>
-            <li className="rounded-xl border border-border bg-card p-5">
-              <strong>d.</strong> Nobody at The Vetted Senior will ever contact
-              you about a mortgage unless you ask. Reading our guides puts you
-              on no list and triggers no sales call.
-            </li>
-          </ul>
           <p>
-            We could have hidden this connection behind a numbered company and a
-            different name. We disclosed it instead, prominently, because we
-            think a business whose financial incentives are fully visible is
-            more trustworthy than one that pretends to have none. Every business
-            has to make money somehow. The only real question is whether they
-            will tell you how. We just did.
+            Any commercial relationship must be disclosed clearly where it is
+            relevant. It must not determine which options we explain, what we
+            recommend or how providers are assessed. Reading a guide or using a
+            planning tool does not sign you up for a sales call.
           </p>
 
           <SectionHeading>3. In the future: provider audit fees</SectionHeading>
@@ -200,9 +164,8 @@ function DisclosurePage() {
             embarrassed by it. The test of any recommendation service is simple:
             would they tell you the same thing if there were no money in it? On
             this site, the recommendations come first and the money is checked
-            afterward, the directory cannot be bought, and the founder's own
-            business interests are printed in plain language where everyone can
-            see them. If you ever find anything on this site that does not live
+            afterward, the directory cannot be bought, and commercial
+            relationships are disclosed in plain language. If you ever find anything on this site that does not live
             up to this page,{" "}
             <Link to="/contact" className="text-primary underline">
               write to us
@@ -211,7 +174,7 @@ function DisclosurePage() {
           </p>
 
           <p className="mt-8 border-t border-border pt-6 text-base text-muted-foreground">
-            Last updated: July 2026. We update this page whenever anything about
+            Last updated: September 25, 2026. We update this page whenever anything about
             how we earn money changes, and we date every change.
           </p>
         </div>

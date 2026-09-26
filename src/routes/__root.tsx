@@ -82,17 +82,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       meta: [
         { charSet: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { title: "The Vetted Senior: Trusted Services for Canadian Seniors" },
+        { title: "The Vetted Senior | Ontario guidance for your family" },
         {
           name: "description",
           content:
-            "A Canadian directory of personally vetted services for seniors, by province and city.",
+            "Practical Ontario guidance for adult children navigating an ageing parent’s changing needs.",
         },
         { property: "og:title", content: "The Vetted Senior" },
         {
           property: "og:description",
           content:
-            "A trusted directory of vetted services for seniors across Canada.",
+            "Clear next steps, transparent care costs and local help for Ontario families.",
         },
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary" },

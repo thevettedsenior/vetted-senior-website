@@ -116,7 +116,7 @@ function ListenButton({
   }
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex min-w-0 flex-wrap items-center gap-2">
       <button
         type="button"
         onClick={toggle}

@@ -1,5 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import type { ReactNode } from "react";
+import { JourneyGuide } from "@/components/JourneyGuide";
+import { JOURNEYS } from "@/lib/journeys";
 import { Page } from "@/components/SiteShell";
 import { ArticleTools, ShortVersion } from "@/components/ArticleTools";
 import { OntarioModule } from "@/components/OntarioModule";
@@ -3980,6 +3982,7 @@ const GUIDES: Record<string, Section[]> = {
 function SituationGuidePage() {
   const { situation } = Route.useLoaderData();
   const sections = GUIDES[situation.slug];
+  if (JOURNEYS.some(j => j.slug === situation.slug)) return <JourneyGuide key={situation.slug} slug={situation.slug} />;
 
   return (
     <Page>

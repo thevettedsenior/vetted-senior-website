@@ -1,4 +1,5 @@
-import type { Business } from "@/lib/directory-data";
+import { Link } from "@tanstack/react-router";
+import { isListingPagePilot, type Business } from "@/lib/directory-data";
 
 const TIER_LABEL: Record<Business["tier"], string> = {
   city: "Local",
@@ -46,12 +47,25 @@ export function telLinks(phone: string): { label: string; href: string }[] {
 }
 
 export function BusinessCard({ business }: { business: Business }) {
+  const hasDetailPage = isListingPagePilot(business.id);
+  const displayName = business.program ?? business.name;
+
   return (
-    <article className="rounded-2xl border border-border bg-card p-6 shadow-sm transition-shadow hover:shadow-md">
-      <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0 flex-1">
+    <article className="business-card min-w-0 rounded-2xl border border-border bg-card p-4 shadow-sm transition-shadow hover:shadow-md sm:p-6">
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <div className="min-w-0 flex-[1_1_12rem]">
           <h3 className="font-serif text-xl font-semibold text-primary">
-            {business.program ?? business.name}
+            {hasDetailPage ? (
+              <Link
+                to="/directory/$listingId"
+                params={{ listingId: business.id }}
+                className="text-primary underline decoration-gold/60 underline-offset-4"
+              >
+                {displayName}
+              </Link>
+            ) : (
+              displayName
+            )}
           </h3>
           {business.program && (
             <p className="mt-0.5 text-sm text-muted-foreground">
@@ -59,17 +73,17 @@ export function BusinessCard({ business }: { business: Business }) {
             </p>
           )}
         </div>
-        <div className="flex shrink-0 flex-col items-end gap-1.5">
+        <div className="ml-auto flex max-w-full flex-col items-end gap-1.5">
           {business.listingType === "public-service" ? (
             <span
-              className="inline-flex shrink-0 items-center gap-1 rounded-full border-2 border-primary/40 bg-secondary px-3 py-1 text-sm font-semibold text-primary"
+              className="inline-flex max-w-full items-center gap-1 rounded-full border-2 border-primary/40 bg-secondary px-3 py-1 text-sm font-semibold text-primary"
               title={`A public or non-profit community service, verified by us on ${business.verifiedDate}. Not a privately vetted company.`}
             >
               <span aria-hidden>🏛</span> Public service
             </span>
           ) : (
             <span
-              className="inline-flex shrink-0 items-center gap-1 rounded-full bg-gold/20 px-3 py-1 text-sm font-semibold text-primary"
+              className="inline-flex max-w-full items-center gap-1 rounded-full bg-gold/20 px-3 py-1 text-sm font-semibold text-primary"
               title={`Vetted since ${business.vettedSince}`}
             >
               <span aria-hidden>✓</span> Vetted {business.vettedSince}
@@ -85,18 +99,20 @@ export function BusinessCard({ business }: { business: Business }) {
       </p>
       {business.listingType === "public-service" && (
         <p className="mt-2 text-sm text-muted-foreground">
-          Verified by us {business.verifiedDate}
+          Record checked {business.verifiedDate}
           {business.intakeNote ? `. ${business.intakeNote}` : "."}
         </p>
       )}
-      <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 text-base">
+      <div className="mt-4 flex flex-wrap items-center gap-2 text-base">
         {telLinks(business.phone).map((link) => (
           <a
             key={link.href}
             href={link.href}
-            className="font-semibold text-primary underline"
+            className="inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-primary px-4 py-2 text-center font-semibold text-primary-foreground no-underline hover:opacity-90 sm:w-auto"
           >
-            📞 {link.label}
+            <span>
+              <span aria-hidden>📞 </span>Call {link.label}
+            </span>
           </a>
         ))}
         {business.website && (
@@ -104,7 +120,7 @@ export function BusinessCard({ business }: { business: Business }) {
             href={business.website}
             target="_blank"
             rel="noreferrer"
-            className="text-primary underline"
+            className="inline-flex min-h-12 w-full items-center justify-center rounded-xl border border-primary/30 px-4 py-2 text-center font-semibold text-primary no-underline hover:bg-secondary sm:w-auto"
           >
             Visit website ↗
           </a>

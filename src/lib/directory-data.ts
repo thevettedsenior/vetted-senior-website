@@ -1001,6 +1001,22 @@ function loadBusinesses(): Business[] {
 export const BUSINESSES: Business[] = loadBusinesses();
 // Listings will be added as providers are vetted.
 
+/**
+ * The first individual-listing-page slice is deliberately small. These five
+ * rows exercise national, provincial, municipal, charity, and named-program
+ * cases without making every directory record indexable before the template
+ * has been reviewed in production.
+ */
+export const LISTING_PAGE_PILOT_IDS = [
+  "988-crisis-line-mental-health-counselling",
+  "211-ontario-meals-nutrition",
+  "bc-provincial-home-maintenance-bc-raha",
+  "alzheimer-society-peel-companion-social",
+  "city-of-hamilton-home-maintenance-snow-subsidy",
+] as const;
+
+const LISTING_PAGE_PILOT_ID_SET = new Set<string>(LISTING_PAGE_PILOT_IDS);
+
 // ─── HELPER FUNCTIONS ────────────────────────────────────────────────────────────
 
 export function findProvince(code: string): Province | undefined {
@@ -1013,6 +1029,26 @@ export function findSituation(slug: string): Situation | undefined {
 
 export function findHelpCategory(slug: string): HelpCategory | undefined {
   return HELP_CATEGORIES.find((c) => c.slug === slug);
+}
+
+export function findBusiness(id: string): Business | undefined {
+  return BUSINESSES.find((business) => business.id === id);
+}
+
+export function isListingPagePilot(id: string): boolean {
+  return LISTING_PAGE_PILOT_ID_SET.has(id);
+}
+
+export function findListingPagePilot(id: string): Business | undefined {
+  return isListingPagePilot(id) ? findBusiness(id) : undefined;
+}
+
+export function findCategoryForBusiness(
+  business: Business,
+): HelpCategory | undefined {
+  return HELP_CATEGORIES.find(
+    (category) => category.name === business.category,
+  );
 }
 
 function hasProvince(b: Business, provinceCode: string): boolean {

@@ -1,107 +1,69 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowUpRight } from "lucide-react";
 import { Page } from "@/components/SiteShell";
-import { IconChip, situationIcon } from "@/lib/site-icons";
+import { JourneyCards } from "@/components/JourneyCards";
 import { SITUATIONS } from "@/lib/directory-data";
-
+import { JOURNEYS } from "@/lib/journeys";
 export const Route = createFileRoute("/situations/")({
   head: () => ({
     meta: [
-      { title: "Find Your Situation | The Vetted Senior" },
+      { title: "Start with your situation | The Vetted Senior" },
       {
         name: "description",
         content:
-          "Not sure where to start? Choose the situation that sounds closest to what you're dealing with. Plain language guides for seniors, adult children, and caregivers.",
+          "Hospital to home, more help at home, or memory changes. Find practical next steps for your Ontario family.",
       },
     ],
   }),
-  component: SituationsPage,
+  component: Situations,
 });
-
-function SituationsPage() {
-  const live = SITUATIONS.filter((s) => s.phase === "live");
-  const soon = SITUATIONS.filter((s) => s.phase === "coming-soon");
-
+function Situations() {
+  const others = SITUATIONS.filter(
+    (s) => s.phase === "live" && !JOURNEYS.some((j) => j.slug === s.slug),
+  );
   return (
     <Page>
-      <section className="border-b border-border bg-card">
-        <div className="mx-auto max-w-4xl px-6 py-16">
-          <h1 className="font-serif text-4xl font-semibold text-primary md:text-5xl">
-            Find your situation
+      <div className="tvs-wrap">
+        <div className="tvs-page-intro">
+          <p className="tvs-kicker">Start where you are</p>
+          <h1>
+            One situation.
+            <br />A clearer way forward.
           </h1>
-          <p className="mt-4 max-w-2xl text-xl text-foreground/85 leading-relaxed">
-            Not sure what kind of help you need yet? You're in the right place.
-            Choose the situation that sounds closest to what you're dealing
-            with.
-          </p>
-          <p className="mt-3 text-lg text-muted-foreground">
-            Each guide explains what's happening, what to do first, what options
-            exist, and where to find real help without the jargon.
+          <p>
+            Pick the one that sounds like your family. You’ll find a short
+            sequence of actions, useful questions and the Ontario services to
+            start with.
           </p>
         </div>
-      </section>
-
-      <section className="mx-auto max-w-6xl px-6 py-12">
-        <h2 className="font-serif text-2xl text-primary mb-6">
-          Guides available now
-        </h2>
-        <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {live.map((s) => (
-            <li key={s.slug}>
+        <JourneyCards />
+        <section className="tvs-section">
+          <div className="tvs-section-heading">
+            <div>
+              <p className="tvs-kicker">
+                There’s room for the other questions, too
+              </p>
+              <h2>More family situations</h2>
+            </div>
+          </div>
+          <div className="tvs-link-list">
+            {others.map((s) => (
               <Link
+                key={s.slug}
                 to="/situations/$slug"
                 params={{ slug: s.slug }}
-                className="lift-card group flex h-full flex-col rounded-2xl border border-border bg-card p-7 no-underline hover:border-gold"
               >
-                <IconChip icon={situationIcon(s.slug)} />
-                <span className="mt-4 font-serif text-2xl text-primary">
-                  {s.title}
-                </span>
-                <span className="mt-3 text-base text-foreground/75 flex-1 leading-relaxed">
-                  {s.description}
-                </span>
-                <span className="mt-5 text-sm font-semibold text-gold-deep">
-                  Read the guide →
-                </span>
+                {s.title}
+                <ArrowUpRight size={20} aria-hidden="true" />
               </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {soon.length > 0 && (
-        <section className="border-t border-border bg-secondary/40">
-          <div className="mx-auto max-w-6xl px-6 py-12">
-            <h2 className="font-serif text-2xl text-primary mb-2">
-              More guides on the way
-            </h2>
-            <p className="text-base text-muted-foreground mb-6">
-              We're writing these carefully. They'll be ready soon.
-            </p>
-            <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {soon.map((s) => (
-                <li
-                  key={s.slug}
-                  className="flex flex-col rounded-2xl border border-dashed border-border bg-card/50 p-6"
-                >
-                  <IconChip
-                    icon={situationIcon(s.slug)}
-                    className="opacity-50"
-                  />
-                  <span className="mt-3 font-serif text-lg text-primary">
-                    {s.title}
-                  </span>
-                  <span className="mt-2 text-sm text-foreground/65 flex-1">
-                    {s.description}
-                  </span>
-                  <span className="mt-4 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                    Coming soon
-                  </span>
-                </li>
-              ))}
-            </ul>
+            ))}
           </div>
+          <p className="tvs-help-note">
+            These additional guides are from our existing resource library. The
+            three paths above contain the new Ontario navigation format.
+          </p>
         </section>
-      )}
+      </div>
     </Page>
   );
 }

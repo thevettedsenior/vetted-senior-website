@@ -198,12 +198,12 @@ function HelpCategoryPage() {
       <section className="border-t border-border bg-secondary/40">
         <div className="mx-auto max-w-4xl px-6 py-12">
           <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
-            Find vetted providers near you
+            Find local services and support
           </h2>
           <p className="mt-2 text-base text-muted-foreground">
-            We're personally vetting {category.name.toLowerCase()} providers
-            across the country. Select your province to see what's available in
-            your area.
+            Explore public and community services related to {category.name.toLowerCase()}.
+            Select your province to see the records available in your area.
+            A public service listing is not a full provider audit.
           </p>
 
           <div className="mt-8">
@@ -234,9 +234,10 @@ function HelpCategoryPage() {
                 Directory building in progress
               </p>
               <p className="text-base text-muted-foreground">
-                We're adding vetted {category.name.toLowerCase()} providers as
-                they pass our review process, starting with the Toronto area. No
-                business can buy their way in. Every listing is earned.
+                Deeper vetting of {category.name.toLowerCase()} providers is a
+                separate layer, starting with the Toronto area. Only completed,
+                documented reviews qualify for that label. No business can buy
+                a recommendation.
               </p>
               <div className="mt-4 max-w-xl">
                 <SignupForm

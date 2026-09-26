@@ -562,10 +562,7 @@ const HOME_MODULE = (
           resource available for staying at home, through downsizing, a secured
           line of credit, or a reverse mortgage. Each has real costs and real
           risks, none is right for everyone, and anyone who presents one of them
-          as the obvious answer is selling something. Disclosure, because we
-          mean what we say on our disclosure page: our founder is a licensed
-          mortgage agent under BRX Mortgage Inc., and that relationship never
-          changes what appears in our directory or our guides.
+          as the obvious answer is selling something.
         </li>
       </ol>
     </Sub>

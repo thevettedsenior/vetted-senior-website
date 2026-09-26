@@ -16,16 +16,18 @@ import {
   SITUATIONS,
   ARTICLES,
   HELP_CATEGORIES,
+  LISTING_PAGE_PILOT_IDS,
   PROVINCES,
 } from "../src/lib/directory-data";
 import { HOW_TOS } from "../src/lib/howto-data";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ORIGIN = "https://thevettedsenior.com";
-const TODAY = new Date().toISOString().slice(0, 10);
+// Do not emit a blanket <lastmod>: a build date is not the date every page's
+// content changed. Omit it until the data layer tracks truthful per-page dates.
 
 // Routes that must not be indexed (redirects, error pages).
-const EXCLUDED = new Set(["/how-we-vet"]);
+const EXCLUDED = new Set(["/how-we-vet", "/directory/$listingId", "/my-plan"]);
 
 type Entry = { loc: string; changefreq: string; priority: string };
 
@@ -46,6 +48,8 @@ const citySlug = (city: string) =>
   city.toLowerCase().replace(/\s+/g, "-").replace(/'/g, "%27");
 
 const STATIC_META: Record<string, { changefreq: string; priority: string }> = {
+  "/care-costs": { changefreq: "monthly", priority: "0.9" },
+  "/local-help": { changefreq: "monthly", priority: "0.8" },
   "/": { changefreq: "monthly", priority: "1.0" },
   "/situations": { changefreq: "monthly", priority: "0.9" },
   "/help": { changefreq: "monthly", priority: "0.9" },
@@ -114,7 +118,14 @@ function expand(route: string): Entry[] {
   }
 }
 
-const entries = routePaths.filter((r) => !EXCLUDED.has(r)).flatMap(expand);
+const entries = [
+  ...routePaths.filter((r) => !EXCLUDED.has(r)).flatMap(expand),
+  ...LISTING_PAGE_PILOT_IDS.map((id) => ({
+    loc: `/directory/${id}`,
+    changefreq: "monthly",
+    priority: "0.6",
+  })),
+];
 
 // Stable, readable ordering: by priority (high first), then path.
 entries.sort(
@@ -129,7 +140,6 @@ ${entries
   .map(
     (e) => `  <url>
     <loc>${ORIGIN}${e.loc}</loc>
-    <lastmod>${TODAY}</lastmod>
     <changefreq>${e.changefreq}</changefreq>
     <priority>${e.priority}</priority>
   </url>`,

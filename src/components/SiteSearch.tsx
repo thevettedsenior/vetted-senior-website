@@ -126,7 +126,7 @@ function search(raw: string): SearchHit[] {
 
 /**
  * Plain language site search for the homepage hero. Matches situations,
- * help topics, and articles; results are ordinary links in a listbox.
+ * help topics, and articles; results are ordinary keyboard-accessible links.
  */
 export function SiteSearch() {
   const [query, setQuery] = useState("");
@@ -148,7 +148,19 @@ export function SiteSearch() {
   const showPanel = open && query.trim().length > 1;
 
   return (
-    <div ref={rootRef} className="relative max-w-xl">
+    <div
+      ref={rootRef}
+      className="relative max-w-xl"
+      onBlur={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
+      }}
+      onKeyDown={(event) => {
+        if (event.key === "Escape") {
+          rootRef.current?.querySelector("input")?.focus();
+          setOpen(false);
+        }
+      }}
+    >
       <label
         htmlFor="site-search"
         className="text-base font-semibold text-primary"
@@ -164,6 +176,9 @@ export function SiteSearch() {
         <input
           id="site-search"
           type="search"
+          inputMode="search"
+          enterKeyHint="search"
+          aria-controls={showPanel ? "site-search-results" : undefined}
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
@@ -171,27 +186,35 @@ export function SiteSearch() {
           }}
           onFocus={() => setOpen(true)}
           onKeyDown={(e) => {
-            if (e.key === "Escape") setOpen(false);
+            if (e.key === "ArrowDown" && showPanel) {
+              e.preventDefault();
+              rootRef.current
+                ?.querySelector<HTMLAnchorElement>("#site-search-results a")
+                ?.focus();
+            }
           }}
-          placeholder="Try: mom had a fall, meal delivery, power of attorney"
+          placeholder="Try meals, falls, or home care"
           autoComplete="off"
-          className="min-h-14 w-full rounded-full border-2 border-border bg-card py-3 pl-13 pr-5 text-lg text-foreground shadow-[var(--shadow-card)] placeholder:text-muted-foreground/70 focus:border-gold"
+          className="min-h-14 min-w-0 w-full rounded-full border-2 border-border bg-card py-3 pl-13 pr-5 text-base text-foreground shadow-[var(--shadow-card)] placeholder:text-muted-foreground focus:border-gold"
         />
       </div>
 
       <p aria-live="polite" className="sr-only">
         {showPanel
           ? results.length === 0
-            ? "No results found"
-            : `${results.length} results found`
+            ? "No guidance matches. You can also search the service directory."
+            : `${results.length} guidance matches. You can also search the service directory.`
           : ""}
       </p>
 
       {showPanel && (
-        <div className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-2xl border border-border bg-card shadow-[var(--shadow-card-hover)]">
+        <div
+          id="site-search-results"
+          className="relative z-30 mt-2 max-h-[50dvh] overflow-y-auto overscroll-contain rounded-2xl border border-border bg-card shadow-[var(--shadow-card-hover)] md:absolute md:left-0 md:right-0 md:top-full"
+        >
           {results.length === 0 ? (
             <div className="px-6 py-5 text-base text-muted-foreground">
-              No matches for "{query.trim()}". Try a simpler word, or{" "}
+              No guidance matches for "{query.trim()}". Try a simpler word, or{" "}
               <Link to="/help" className="text-primary underline">
                 browse all help topics
               </Link>
@@ -218,10 +241,10 @@ export function SiteSearch() {
                         <meta.icon size={20} />
                       </span>
                       <span className="min-w-0">
-                        <span className="block truncate text-base font-semibold text-primary">
+                        <span className="block text-base font-semibold text-primary">
                           {hit.title}
                         </span>
-                        <span className="block truncate text-sm text-muted-foreground">
+                        <span className="line-clamp-2 text-sm text-muted-foreground">
                           {meta.label} · {hit.description}
                         </span>
                       </span>
@@ -231,6 +254,15 @@ export function SiteSearch() {
               })}
             </ul>
           )}
+          <Link
+            to="/directory"
+            search={{ q: query.trim() }}
+            onClick={() => setOpen(false)}
+            className="flex min-h-14 items-center gap-3 border-t border-border bg-secondary/50 px-5 py-3 text-base font-semibold text-primary no-underline hover:bg-secondary"
+          >
+            <Search size={20} className="shrink-0" aria-hidden />
+            <span>Search the service directory for “{query.trim()}”</span>
+          </Link>
         </div>
       )}
     </div>

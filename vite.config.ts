@@ -7,6 +7,12 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
+  // Build the Pages worker as well as the browser assets, including outside
+  // Lovable. A Vite-only build cannot serve these server-rendered routes.
+  nitro: {
+    preset: "cloudflare-pages",
+    cloudflare: { nodeCompat: true },
+  },
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this

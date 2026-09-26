@@ -132,18 +132,6 @@ export const LEGAL_FINANCIAL_ARTICLES: ArticleContentMap = {
       heading: "Layer 6: The home, last and carefully",
       body: (
         <>
-          <p className="rounded-xl border border-gold/50 bg-secondary/40 p-4 text-base">
-            <strong>Disclosure, before this section, not after it:</strong> The
-            Vetted Senior's founder, Ragini, is a licensed mortgage agent in
-            Ontario operating under BRX Mortgage Inc. (FSRA #13549). That
-            relationship never changes what appears in our directory or our
-            guides, nobody here will ever contact you about a mortgage unless
-            you ask, and the full picture is on{" "}
-            <Link to="/disclosure" className="text-primary underline">
-              our disclosure page
-            </Link>
-            . Read this section knowing exactly who wrote it.
-          </p>
           <p>
             For homeowners, the house is often the largest resource available,
             and there are exactly four honest ways to use it:

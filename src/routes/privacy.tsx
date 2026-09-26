@@ -68,6 +68,9 @@ function PrivacyPage() {
             and gets answered by a person.
           </p>
 
+          <SectionHeading>Your next-steps plan and cost worksheet</SectionHeading>
+          <p>The next-steps checklist is stored in this browser on this device. It does not create an account or a cloud backup. Anyone using this browser may see it. Clearing browser data removes the plan. If storage is blocked, the list lasts only for the current visit. You can print it or remove individual steps.</p>
+          <p>The care-cost worksheet runs in your browser. Its figures are added to your device-local plan only when you choose “Add budget to my plan.” Keep identifying health or financial details out of the plan. Your text-size preference is also stored on this device.</p>
           <SectionHeading>What we collect, and when</SectionHeading>
           <p>
             You can read every page of this site without giving us anything. We
@@ -187,7 +190,7 @@ function PrivacyPage() {
           </p>
 
           <p className="mt-8 border-t border-border pt-6 text-base text-muted-foreground">
-            Last updated: July 2026. Questions? Write to{" "}
+            Last updated: September 26, 2026. Questions? Write to{" "}
             <a className="underline" href="mailto:info@thevettedsenior.com">
               info@thevettedsenior.com
             </a>

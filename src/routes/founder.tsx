@@ -34,11 +34,11 @@ export const Route = createFileRoute("/founder")({
               jobTitle: "Founder",
               worksFor: { "@id": "https://thevettedsenior.com/#org" },
               description:
-                "Founder of The Vetted Senior. 20+ years as a business analyst inside compliance and regulatory programs at CIBC, BMO, Scotiabank, and First Caribbean International Bank. Licensed Ontario mortgage agent (BRX Mortgage Inc., FSRA #13549).",
+                "Founder of The Vetted Senior. 20+ years as a business analyst inside compliance and regulatory programs at Canada's largest banks.",
               knowsAbout: [
                 "regulatory compliance",
-                "anti-money-laundering",
-                "know-your-client verification",
+                "anti money laundering",
+                "know your client verification",
                 "enterprise risk assessment",
                 "senior care provider vetting",
               ],
@@ -56,7 +56,7 @@ export const Route = createFileRoute("/founder")({
               url: "https://thevettedsenior.com",
               founder: { "@id": "https://thevettedsenior.com/founder#ragini" },
               description:
-                "A directory of senior-care providers where nobody can pay to be listed. Every provider is verified against primary sources and re-reviewed on a schedule.",
+                "Ontario guidance, planning tools and local service information for families helping an ageing parent. Public resources, checked provider facts and deeper provider vetting are clearly distinguished.",
               areaServed: "Greater Toronto Area, Ontario, Canada",
               slogan: "Nobody pays to be recommended by us.",
             },
@@ -111,9 +111,8 @@ function FounderPage() {
           </p>
           <p>
             For more than twenty years, I was the business analyst inside
-            compliance and regulatory programs at Canada's largest banks. CIBC.
-            BMO. Scotiabank. First Caribbean International Bank, across twelve
-            countries. Anti-money-laundering monitoring, know-your-client
+            compliance and regulatory programs at Canada's largest banks.
+            Anti money laundering monitoring, know your client
             verification, enterprise risk, securities irregularities: the
             unglamorous work that keeps financial systems honest. I was the
             person between the regulator's requirement and the people who had to
@@ -135,7 +134,7 @@ function FounderPage() {
           <p>
             Then came the point in my mother's life when I became the person
             responsible for her wellbeing and her finances. She lives in a
-            retirement home in Mississauga. I am the one who evaluates her care,
+            retirement home in Mississauga. I am the one who evaluates her well being,
             questions the invoices, and makes the decisions when something
             changes. And when I went looking for the services every family
             eventually needs, home care, safety equipment, help with the house,
@@ -152,58 +151,39 @@ function FounderPage() {
             it.
           </p>
           <p>
-            I found this genuinely unacceptable. Not disappointing.
-            Unacceptable. These are our parents. This is the money they spent a
+            I found this genuinely unacceptable. These are our parents. This is the money they spent a
             lifetime earning. The people navigating these decisions are often
             exhausted, frightened, and doing it at eleven o'clock at night after
             work and dinner and a phone call that ended in tears. They deserve
-            better than a lead-generation machine wearing a friendly face.
+            better than a lead generation machine wearing a friendly face.
           </p>
           <p className="font-serif text-xl text-primary">
             So I built the thing I could not find.
           </p>
           <p>
-            The Vetted Senior works on one rule: nobody can pay to be listed
-            here. Not with money, not with favours, not with anything. Every
-            provider in our directory has been through a verification process
-            built the way twenty years of bank compliance work taught me to
-            build one: documented, repeatable, and checked against primary
-            sources. We verify licences with the regulators who issue them, not
-            with the businesses that claim them. We check insurance
-            certificates. We interview owners and ask the questions families do
-            not know to ask. We call real clients. We re-review every listing on
-            a schedule, because standards slip, and when they slip, we notice.
-            When a provider stops meeting our standards, they come off the list,
-            and we say so.
+            The Vetted Senior works on one rule: nobody can buy a
+            recommendation here. Not with money, not with favours, not with
+            anything. Public and community services are a starting point, with
+            links to the original source and dates showing when records were
+            checked. That is different from a full provider audit.
+          </p>
+          <p>
+            Deeper vetting must be documented, repeatable, and checked against
+            primary sources, the way twenty years of bank compliance work taught
+            me to build it. A provider only earns that label when the required
+            checks are complete. We explain the scope of each check so families
+            can see what a listing does, and does not, establish.
           </p>
           <p>
             Vetting reduces risk. It does not eliminate it, and I will never
             tell you otherwise. What I can tell you is exactly what we checked,
-            when we checked it, and what we found, for every single listing. If
+            when we checked it, and what we found, where that evidence is available. If
             you have ever wished someone with a compliance auditor's suspicion
             and a daughter's stake in the answer had already done the homework,
             that is what this site is.
           </p>
           <p>
-            Two more things you should know about me, because you deserve to
-            know how this site makes money and who is behind it.
-          </p>
-          <p>
-            First, I am a licensed mortgage agent in Ontario, operating under
-            BRX Mortgage Inc. Some of the guidance on this site touches on
-            paying for care, and sometimes home equity is part of that
-            conversation. When it is, I will always show you every option,
-            government programs, tax credits, insurance, family arrangements,
-            downsizing, alongside any mortgage product, and I will tell you
-            plainly when a mortgage is the wrong tool. You can read exactly how
-            this works, and how every dollar on this site is earned, on our{" "}
-            <Link to="/disclosure" className="text-primary underline">
-              disclosure page
-            </Link>
-            . I wrote it to be read, not skimmed.
-          </p>
-          <p>
-            Second, I am still my mother's daughter first. Every guide on this
+            I am still my mother's daughter first. Every guide on this
             site is written the way I would explain it to a friend sitting at my
             kitchen table: plainly, honestly, and without pretending anything is
             simpler than it is. When you read something here, you are reading
@@ -246,11 +226,9 @@ function FounderPage() {
           </p>
           <p className="mt-3 text-base text-foreground/80 leading-relaxed">
             20+ years as a business analyst inside compliance and regulatory
-            programs at CIBC, BMO, Scotiabank, and First Caribbean International
-            Bank: anti-money-laundering monitoring, know-your-client
-            verification, enterprise risk assessment, securities irregularities.
-            Licensed Ontario mortgage agent (BRX Mortgage Inc., FSRA #13549).
-            Primary caregiver and decision-maker for her mother.
+            programs at Canada's largest banks: anti money laundering monitoring,
+            know your client verification, enterprise risk assessment, securities
+            irregularities. Primary caregiver and decision maker for her mother.
           </p>
         </div>
       </section>
@@ -262,15 +240,15 @@ function FounderPage() {
             Want to see the checking itself?
           </h2>
           <p className="mt-3 text-lg text-foreground/85 leading-relaxed">
-            The vetting process is published in full: what we verify, how we
-            score it, and what gets a provider removed.
+            Our approach explains how we distinguish official resources,
+            checked facts and deeper provider vetting.
           </p>
           <div className="mt-5 flex flex-wrap gap-4">
             <Link
               to="/about"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-base font-semibold text-primary-foreground no-underline hover:opacity-90 transition-opacity"
             >
-              How we vet →
+              Read our approach →
             </Link>
             <Link
               to="/disclosure"

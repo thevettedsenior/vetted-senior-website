@@ -165,12 +165,77 @@ export function localBusinessJsonLd(business: Business) {
   };
 }
 
+/** Main entity for one individual directory listing page. */
+export function directoryListingJsonLd(business: Business) {
+  const url = `${SITE_URL}/directory/${business.id}`;
+  const areaServed =
+    business.tier === "city"
+      ? business.cities.map((city) => ({ "@type": "City", name: city }))
+      : business.provinces.map((code) => ({
+          "@type": "AdministrativeArea",
+          name: code === "all" ? "Canada" : code,
+        }));
+
+  if (business.program) {
+    return {
+      "@type": "Service",
+      "@id": `${url}#service`,
+      name: business.program,
+      description: business.description,
+      areaServed,
+      provider: {
+        "@type": "Organization",
+        name: business.runBy ?? business.name,
+        ...(business.website ? { url: business.website } : {}),
+        telephone: business.phone,
+      },
+      mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    };
+  }
+
+  return {
+    "@type":
+      business.listingType === "public-service"
+        ? "Organization"
+        : "LocalBusiness",
+    "@id": `${url}#listing`,
+    name: business.name,
+    description: business.description,
+    telephone: business.phone,
+    ...(business.website ? { url: business.website } : {}),
+    areaServed,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+  };
+}
+
+export function directoryListingBreadcrumbJsonLd(business: Business) {
+  const name = business.program ?? business.name;
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Directory",
+        item: `${SITE_URL}/directory`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name,
+        item: `${SITE_URL}/directory/${business.id}`,
+      },
+    ],
+  };
+}
+
 /** ItemList of every vetted business, for the /directory route head. */
 export function directoryJsonLd(businesses: Business[]) {
   return {
     "@type": "ItemList",
     "@id": `${SITE_URL}/directory#list`,
-    name: "The Vetted Senior directory of vetted providers",
+    name: "The Vetted Senior local service records",
     numberOfItems: businesses.length,
     itemListElement: businesses.map((business, i) => ({
       "@type": "ListItem",

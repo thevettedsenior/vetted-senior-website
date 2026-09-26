@@ -11,6 +11,8 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as ResourcesRouteImport } from './routes/resources'
 import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as MyPlanRouteImport } from './routes/my-plan'
+import { Route as LocalHelpRouteImport } from './routes/local-help'
 import { Route as HowWeVetRouteImport } from './routes/how-we-vet'
 import { Route as HandbookRouteImport } from './routes/handbook'
 import { Route as GetVettedRouteImport } from './routes/get-vetted'
@@ -18,6 +20,7 @@ import { Route as FounderRouteImport } from './routes/founder'
 import { Route as DisclosureRouteImport } from './routes/disclosure'
 import { Route as DirectoryRouteImport } from './routes/directory'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as CareCostsRouteImport } from './routes/care-costs'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SituationsIndexRouteImport } from './routes/situations/index'
@@ -26,6 +29,7 @@ import { Route as HelpIndexRouteImport } from './routes/help/index'
 import { Route as SituationsSlugRouteImport } from './routes/situations/$slug'
 import { Route as ProvinceProvinceRouteImport } from './routes/province.$province'
 import { Route as HowToSlugRouteImport } from './routes/how-to/$slug'
+import { Route as DirectoryListingIdRouteImport } from './routes/directory_.$listingId'
 import { Route as HelpCategoryIndexRouteImport } from './routes/help/$category/index'
 import { Route as ProvinceProvinceCityRouteImport } from './routes/province.$province_.$city'
 import { Route as HelpCategoryArticleRouteImport } from './routes/help/$category/$article'
@@ -38,6 +42,16 @@ const ResourcesRoute = ResourcesRouteImport.update({
 const PrivacyRoute = PrivacyRouteImport.update({
   id: '/privacy',
   path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MyPlanRoute = MyPlanRouteImport.update({
+  id: '/my-plan',
+  path: '/my-plan',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LocalHelpRoute = LocalHelpRouteImport.update({
+  id: '/local-help',
+  path: '/local-help',
   getParentRoute: () => rootRouteImport,
 } as any)
 const HowWeVetRoute = HowWeVetRouteImport.update({
@@ -73,6 +87,11 @@ const DirectoryRoute = DirectoryRouteImport.update({
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CareCostsRoute = CareCostsRouteImport.update({
+  id: '/care-costs',
+  path: '/care-costs',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutRoute = AboutRouteImport.update({
@@ -115,6 +134,11 @@ const HowToSlugRoute = HowToSlugRouteImport.update({
   path: '/how-to/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DirectoryListingIdRoute = DirectoryListingIdRouteImport.update({
+  id: '/directory_/$listingId',
+  path: '/directory/$listingId',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const HelpCategoryIndexRoute = HelpCategoryIndexRouteImport.update({
   id: '/help/$category/',
   path: '/help/$category/',
@@ -134,6 +158,7 @@ const HelpCategoryArticleRoute = HelpCategoryArticleRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/care-costs': typeof CareCostsRoute
   '/contact': typeof ContactRoute
   '/directory': typeof DirectoryRoute
   '/disclosure': typeof DisclosureRoute
@@ -141,8 +166,11 @@ export interface FileRoutesByFullPath {
   '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
+  '/local-help': typeof LocalHelpRoute
+  '/my-plan': typeof MyPlanRoute
   '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
+  '/directory/$listingId': typeof DirectoryListingIdRoute
   '/how-to/$slug': typeof HowToSlugRoute
   '/province/$province': typeof ProvinceProvinceRoute
   '/situations/$slug': typeof SituationsSlugRoute
@@ -156,6 +184,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/care-costs': typeof CareCostsRoute
   '/contact': typeof ContactRoute
   '/directory': typeof DirectoryRoute
   '/disclosure': typeof DisclosureRoute
@@ -163,8 +192,11 @@ export interface FileRoutesByTo {
   '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
+  '/local-help': typeof LocalHelpRoute
+  '/my-plan': typeof MyPlanRoute
   '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
+  '/directory/$listingId': typeof DirectoryListingIdRoute
   '/how-to/$slug': typeof HowToSlugRoute
   '/province/$province': typeof ProvinceProvinceRoute
   '/situations/$slug': typeof SituationsSlugRoute
@@ -179,6 +211,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/care-costs': typeof CareCostsRoute
   '/contact': typeof ContactRoute
   '/directory': typeof DirectoryRoute
   '/disclosure': typeof DisclosureRoute
@@ -186,8 +219,11 @@ export interface FileRoutesById {
   '/get-vetted': typeof GetVettedRoute
   '/handbook': typeof HandbookRoute
   '/how-we-vet': typeof HowWeVetRoute
+  '/local-help': typeof LocalHelpRoute
+  '/my-plan': typeof MyPlanRoute
   '/privacy': typeof PrivacyRoute
   '/resources': typeof ResourcesRoute
+  '/directory_/$listingId': typeof DirectoryListingIdRoute
   '/how-to/$slug': typeof HowToSlugRoute
   '/province/$province': typeof ProvinceProvinceRoute
   '/situations/$slug': typeof SituationsSlugRoute
@@ -203,6 +239,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/care-costs'
     | '/contact'
     | '/directory'
     | '/disclosure'
@@ -210,8 +247,11 @@ export interface FileRouteTypes {
     | '/get-vetted'
     | '/handbook'
     | '/how-we-vet'
+    | '/local-help'
+    | '/my-plan'
     | '/privacy'
     | '/resources'
+    | '/directory/$listingId'
     | '/how-to/$slug'
     | '/province/$province'
     | '/situations/$slug'
@@ -225,6 +265,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/about'
+    | '/care-costs'
     | '/contact'
     | '/directory'
     | '/disclosure'
@@ -232,8 +273,11 @@ export interface FileRouteTypes {
     | '/get-vetted'
     | '/handbook'
     | '/how-we-vet'
+    | '/local-help'
+    | '/my-plan'
     | '/privacy'
     | '/resources'
+    | '/directory/$listingId'
     | '/how-to/$slug'
     | '/province/$province'
     | '/situations/$slug'
@@ -247,6 +291,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
+    | '/care-costs'
     | '/contact'
     | '/directory'
     | '/disclosure'
@@ -254,8 +299,11 @@ export interface FileRouteTypes {
     | '/get-vetted'
     | '/handbook'
     | '/how-we-vet'
+    | '/local-help'
+    | '/my-plan'
     | '/privacy'
     | '/resources'
+    | '/directory_/$listingId'
     | '/how-to/$slug'
     | '/province/$province'
     | '/situations/$slug'
@@ -270,6 +318,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  CareCostsRoute: typeof CareCostsRoute
   ContactRoute: typeof ContactRoute
   DirectoryRoute: typeof DirectoryRoute
   DisclosureRoute: typeof DisclosureRoute
@@ -277,8 +326,11 @@ export interface RootRouteChildren {
   GetVettedRoute: typeof GetVettedRoute
   HandbookRoute: typeof HandbookRoute
   HowWeVetRoute: typeof HowWeVetRoute
+  LocalHelpRoute: typeof LocalHelpRoute
+  MyPlanRoute: typeof MyPlanRoute
   PrivacyRoute: typeof PrivacyRoute
   ResourcesRoute: typeof ResourcesRoute
+  DirectoryListingIdRoute: typeof DirectoryListingIdRoute
   HowToSlugRoute: typeof HowToSlugRoute
   ProvinceProvinceRoute: typeof ProvinceProvinceRoute
   SituationsSlugRoute: typeof SituationsSlugRoute
@@ -304,6 +356,20 @@ declare module '@tanstack/react-router' {
       path: '/privacy'
       fullPath: '/privacy'
       preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/my-plan': {
+      id: '/my-plan'
+      path: '/my-plan'
+      fullPath: '/my-plan'
+      preLoaderRoute: typeof MyPlanRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/local-help': {
+      id: '/local-help'
+      path: '/local-help'
+      fullPath: '/local-help'
+      preLoaderRoute: typeof LocalHelpRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/how-we-vet': {
@@ -353,6 +419,13 @@ declare module '@tanstack/react-router' {
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/care-costs': {
+      id: '/care-costs'
+      path: '/care-costs'
+      fullPath: '/care-costs'
+      preLoaderRoute: typeof CareCostsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/about': {
@@ -411,6 +484,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HowToSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/directory_/$listingId': {
+      id: '/directory_/$listingId'
+      path: '/directory/$listingId'
+      fullPath: '/directory/$listingId'
+      preLoaderRoute: typeof DirectoryListingIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/help/$category/': {
       id: '/help/$category/'
       path: '/help/$category'
@@ -438,6 +518,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  CareCostsRoute: CareCostsRoute,
   ContactRoute: ContactRoute,
   DirectoryRoute: DirectoryRoute,
   DisclosureRoute: DisclosureRoute,
@@ -445,8 +526,11 @@ const rootRouteChildren: RootRouteChildren = {
   GetVettedRoute: GetVettedRoute,
   HandbookRoute: HandbookRoute,
   HowWeVetRoute: HowWeVetRoute,
+  LocalHelpRoute: LocalHelpRoute,
+  MyPlanRoute: MyPlanRoute,
   PrivacyRoute: PrivacyRoute,
   ResourcesRoute: ResourcesRoute,
+  DirectoryListingIdRoute: DirectoryListingIdRoute,
   HowToSlugRoute: HowToSlugRoute,
   ProvinceProvinceRoute: ProvinceProvinceRoute,
   SituationsSlugRoute: SituationsSlugRoute,

@@ -1,4 +1,6 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { useRef, useState } from "react";
+import { ChevronDown, SlidersHorizontal } from "lucide-react";
 import { Page } from "@/components/SiteShell";
 import { CategoryAccordion } from "@/components/CategoryAccordion";
 import { LaunchNotice } from "@/components/HandbookCTA";
@@ -41,11 +43,11 @@ export const Route = createFileRoute("/directory")({
   },
   head: () => ({
     meta: [
-      { title: "Directory of Vetted Providers | The Vetted Senior" },
+      { title: "Local service records | The Vetted Senior" },
       {
         name: "description",
         content:
-          "Search vetted private providers and verified public services for seniors by category, province, and city. Every private listing is earned through our published vetting process. Nobody pays to be recommended.",
+          "Explore existing public-service and provider records by service and location. Review the evidence shown and confirm current details with the organization.",
       },
     ],
     // Goes live automatically once BUSINESSES has vetted rows; an empty
@@ -59,6 +61,8 @@ export const Route = createFileRoute("/directory")({
 function DirectoryPage() {
   const filters = Route.useSearch();
   const navigate = useNavigate({ from: Route.fullPath });
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const filterButton = useRef<HTMLButtonElement>(null);
 
   const results = searchBusinesses(filters);
   const activeProvince = filters.province
@@ -68,6 +72,9 @@ function DirectoryPage() {
   const hasFilters = Boolean(
     filters.q || filters.category || filters.province || filters.city,
   );
+  const filterCount = [filters.category, filters.province, filters.city].filter(
+    Boolean,
+  ).length;
 
   // One updater for every control; empty values fall out of the URL.
   function setFilter(patch: Partial<DirectorySearch>) {
@@ -82,58 +89,104 @@ function DirectoryPage() {
         return next;
       },
       replace: true,
+      resetScroll: false,
     });
-    // Picking from a dropdown must visibly do something: bring the results
-    // into view. Typing in the search box is exempt so the page holds still.
-    if ("category" in patch || "province" in patch || "city" in patch) {
-      requestAnimationFrame(() => {
-        document
-          .getElementById("directory-results")
-          ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function clearFilters() {
+    navigate({ search: {}, replace: true, resetScroll: false });
+  }
+
+  function showResults() {
+    setFiltersOpen(false);
+    filterButton.current?.focus({ preventScroll: true });
+    requestAnimationFrame(() => {
+      document.getElementById("directory-results")?.scrollIntoView({
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "instant"
+          : "smooth",
+        block: "start",
       });
-    }
+    });
   }
 
   const selectClass =
-    "w-full rounded-xl border-2 border-border bg-card px-4 py-3 text-base text-primary focus:border-gold focus:outline-none";
+    "min-h-12 min-w-0 w-full rounded-xl border-2 border-border bg-card px-3 py-3 text-base text-primary focus:border-gold";
 
   return (
     <Page>
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
       <section className="border-b border-border bg-card">
-        <div className="mx-auto max-w-6xl px-6 py-6 md:py-8">
+        <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 md:py-8">
+          <Link to="/local-help" className="tvs-text-link">← Back to Ontario starting points</Link>
           <h1 className="font-serif text-3xl font-semibold text-primary md:text-4xl">
-            The directory
+            Local service records
           </h1>
-          <p className="mt-3 max-w-2xl text-lg text-foreground/85 leading-relaxed md:text-xl">
-            Two kinds of listings, clearly marked: private providers that passed{" "}
-            <Link to="/about" className="text-primary underline">
-              the full vetting process
-            </Link>
-            , and public or non-profit services we verified directly. Nobody
-            pays to appear, either way. Search by service, place, or both.
+          <p className="mt-3 max-w-2xl text-base text-foreground/85 leading-relaxed md:text-lg">
+            Explore existing service research by name, service, or location.
+            Confirm current details and suitability with each organization.{" "}
+            <a href="#directory-badges" className="text-primary underline">
+              What the badges mean
+            </a>
           </p>
         </div>
       </section>
 
       {/* ── SEARCH & FILTERS ─────────────────────────────────────────────── */}
       <section className="border-b border-border bg-secondary/40">
-        <div className="mx-auto max-w-6xl px-6 py-4">
-          <div className="grid gap-3 md:grid-cols-[2fr_repeat(3,1fr)_auto]">
-            <label className="block">
-              <span className="sr-only">Search providers</span>
+        <div className="mx-auto max-w-6xl px-4 py-4 sm:px-6">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
+            <label className="block min-w-0 flex-1">
+              <span className="mb-1 block text-sm font-semibold text-primary">
+                Search providers
+              </span>
               <input
                 type="search"
                 inputMode="search"
+                enterKeyHint="search"
                 placeholder="Search by name or service…"
                 value={filters.q ?? ""}
                 onChange={(e) => setFilter({ q: e.target.value })}
                 className={selectClass}
               />
             </label>
+            <div className="flex gap-2">
+              <button
+                ref={filterButton}
+                type="button"
+                aria-expanded={filtersOpen}
+                aria-controls="directory-filters"
+                onClick={() => setFiltersOpen((open) => !open)}
+                className="flex min-h-12 flex-1 items-center justify-center gap-2 rounded-xl border-2 border-primary bg-card px-4 py-3 text-base font-semibold text-primary md:hidden"
+              >
+                <SlidersHorizontal size={20} aria-hidden />
+                Filters{filterCount > 0 ? ` (${filterCount})` : ""}
+                <ChevronDown
+                  size={18}
+                  aria-hidden
+                  className={filtersOpen ? "rotate-180" : ""}
+                />
+              </button>
+              {hasFilters && (
+                <button
+                  type="button"
+                  onClick={clearFilters}
+                  className="min-h-12 rounded-xl border-2 border-border px-4 py-3 text-base font-semibold text-primary hover:bg-primary/5"
+                >
+                  Clear all
+                </button>
+              )}
+            </div>
+          </div>
 
-            <label className="block">
-              <span className="sr-only">Filter by category</span>
+          <div
+            id="directory-filters"
+            className={`${filtersOpen ? "grid" : "hidden"} mt-4 gap-3 md:grid md:grid-cols-3`}
+          >
+            <label className="block min-w-0">
+              <span className="mb-1 block text-sm font-semibold text-primary">
+                Filter by category
+              </span>
               <select
                 value={filters.category ?? ""}
                 onChange={(e) => setFilter({ category: e.target.value })}
@@ -148,8 +201,10 @@ function DirectoryPage() {
               </select>
             </label>
 
-            <label className="block">
-              <span className="sr-only">Filter by province</span>
+            <label className="block min-w-0">
+              <span className="mb-1 block text-sm font-semibold text-primary">
+                Filter by province
+              </span>
               <select
                 value={filters.province ?? ""}
                 onChange={(e) => setFilter({ province: e.target.value })}
@@ -164,8 +219,10 @@ function DirectoryPage() {
               </select>
             </label>
 
-            <label className="block">
-              <span className="sr-only">Filter by city</span>
+            <label className="block min-w-0">
+              <span className="mb-1 block text-sm font-semibold text-primary">
+                Filter by city
+              </span>
               <select
                 value={filters.city ?? ""}
                 onChange={(e) => setFilter({ city: e.target.value })}
@@ -183,29 +240,42 @@ function DirectoryPage() {
               </select>
             </label>
 
-            {hasFilters && (
-              <button
-                type="button"
-                onClick={() => navigate({ search: {}, replace: true })}
-                className="rounded-xl border-2 border-primary px-4 py-3 text-base font-semibold text-primary transition-colors hover:bg-primary/5"
-              >
-                Clear
-              </button>
-            )}
+            <button
+              type="button"
+              onClick={showResults}
+              className="min-h-12 rounded-xl bg-primary px-4 py-3 text-base font-semibold text-primary-foreground md:hidden"
+            >
+              {`Show ${results.length} ${results.length === 1 ? "result" : "results"}`}
+            </button>
           </div>
+
+          {filterCount > 0 && (
+            <p className="mt-3 text-sm text-muted-foreground">
+              Showing:{" "}
+              {[
+                filters.category
+                  ? findHelpCategory(filters.category)?.name
+                  : undefined,
+                activeProvince?.name,
+                filters.city,
+              ]
+                .filter(Boolean)
+                .join(" · ")}
+            </p>
+          )}
         </div>
       </section>
 
       {/* ── RESULTS ──────────────────────────────────────────────────────── */}
       <section
         id="directory-results"
-        className="mx-auto max-w-6xl scroll-mt-16 px-6 py-8"
+        className="mx-auto max-w-6xl scroll-mt-24 px-4 py-6 sm:px-6 md:py-8"
       >
         {BUSINESSES.length === 0 ? (
           <EmptyDirectory />
         ) : results.length > 0 ? (
           <>
-            <p className="text-base text-muted-foreground">
+            <p role="status" className="text-base text-muted-foreground">
               <ResultsSummary results={results} hasFilters={hasFilters} />
             </p>
             <div className="mt-6">
@@ -218,14 +288,17 @@ function DirectoryPage() {
         ) : (
           <NoMatches
             place={filters.city ?? activeProvince?.name ?? "your area"}
-            onClear={() => navigate({ search: {}, replace: true })}
+            onClear={clearFilters}
           />
         )}
       </section>
 
       {/* ── WHAT THE BADGES MEAN ─────────────────────────────────────────── */}
       {BUSINESSES.length > 0 && (
-        <section className="border-t border-border bg-card">
+        <section
+          id="directory-badges"
+          className="border-t border-border bg-card"
+        >
           <div className="mx-auto max-w-6xl px-6 py-12">
             <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
               What the badges mean
@@ -248,11 +321,7 @@ function DirectoryPage() {
                   <span aria-hidden>🏛</span> Public service
                 </span>
                 <p className="mt-3 text-base text-foreground/85 leading-relaxed">
-                  A public program, hospital-affiliated service, or non-profit
-                  community organization. We verify it is real, currently
-                  operating, and reachable, and we record how to access it.
-                  These services do not go through the private-provider vetting
-                  process. Many are free or subsidized.
+                  A public program, hospital-affiliated service or non-profit community organization. Records retain their original check dates. Confirm current fees, eligibility and availability directly; this label is not a private-provider endorsement.
                 </p>
               </div>
             </div>
@@ -264,21 +333,10 @@ function DirectoryPage() {
       <section className="border-t border-border bg-secondary/40">
         <div className="mx-auto max-w-6xl px-6 py-12">
           <h2 className="font-serif text-2xl font-semibold text-primary md:text-3xl">
-            Why this directory is small on purpose
+            Facts with context. Choices that stay yours.
           </h2>
           <p className="mt-3 max-w-3xl text-lg text-foreground/85 leading-relaxed">
-            Six to nine hours of verification per provider, re-reviewed every
-            year, removals published rather than hidden. We would rather show
-            you three providers we checked than three hundred we didn't. The
-            whole methodology is public on{" "}
-            <Link to="/about" className="text-primary underline">
-              How We Vet
-            </Link>
-            , and providers can{" "}
-            <Link to="/get-vetted" className="text-primary underline">
-              apply to be vetted
-            </Link>{" "}
-            at no cost.
+            Service records support a care decision; they do not make it for you. Public resources, verified facts and deeper vetting carry different evidence. Read <Link to="/about" className="text-primary underline">our approach</Link> and ask providers to confirm the details that matter to your family.
           </p>
         </div>
       </section>
@@ -360,16 +418,21 @@ function EmptyDirectory() {
 /** Shown when listings exist but the current filters match none of them. */
 function NoMatches({ place, onClear }: { place: string; onClear: () => void }) {
   return (
-    <div className="mx-auto max-w-3xl rounded-2xl border-2 border-gold/50 bg-card p-8">
-      <p className="font-serif text-2xl text-primary">
+    <div className="mx-auto max-w-3xl rounded-2xl border-2 border-gold/50 bg-card p-5 sm:p-8">
+      <p role="status" className="font-serif text-2xl text-primary">
         No listings match those filters yet.
       </p>
       <p className="mt-3 text-lg text-foreground/80 leading-relaxed">
-        That's the honest answer, not a search problem. We list only providers
-        we have personally vetted and public services we have verified, and
-        coverage is growing region by region. Leave your email and you'll hear
-        when listings go live in {place}.
+        Try a broader service name or remove a filter. Coverage varies by
+        service and location, and we only list services we have checked.
       </p>
+      <button
+        type="button"
+        onClick={onClear}
+        className="mt-4 min-h-12 w-full rounded-xl bg-primary px-4 py-3 text-base font-semibold text-primary-foreground hover:opacity-90 sm:w-auto"
+      >
+        Clear filters and show everything
+      </button>
       <div className="mt-5 max-w-xl">
         <SignupForm
           intent={`notify me: ${place}`}
@@ -377,15 +440,6 @@ function NoMatches({ place, onClear }: { place: string; onClear: () => void }) {
           buttonLabel={`Tell me when ${place} is live →`}
           successMessage={`Done. The day vetted listings go live in ${place}, you'll hear it from us first.`}
         />
-      </div>
-      <div className="mt-4">
-        <button
-          type="button"
-          onClick={onClear}
-          className="text-base text-primary underline"
-        >
-          Clear filters and show everything
-        </button>
       </div>
     </div>
   );
