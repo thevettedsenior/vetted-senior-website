@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
-import { amazonSearchUrl } from "@/lib/affiliates";
+import { AMAZON_ASSOCIATE_TAG, amazonSearchUrl } from "@/lib/affiliates";
 
 /**
  * The top-of-page banner promised on /disclosure: every page that contains
@@ -13,13 +13,15 @@ export function AffiliateDisclosure() {
       <div className="mx-auto max-w-4xl px-6 py-3">
         <p className="text-sm text-foreground/80 leading-relaxed">
           <span className="font-semibold text-primary">
-            This page contains affiliate links.
+            {AMAZON_ASSOCIATE_TAG
+              ? "This page contains affiliate links."
+              : "About the product links on this page."}
           </span>{" "}
-          If you buy through one, we may earn a commission at no extra cost to
-          you. Commissions never decide what we recommend; we choose first and
-          check for a program afterward.{" "}
+          {AMAZON_ASSOCIATE_TAG
+            ? "If you buy through one, we may earn a commission. Commissions do not decide what we recommend."
+            : "Amazon Canada links are currently ordinary product-search links. TVS does not earn an affiliate commission from them."}{" "}
           <Link to="/disclosure" className="text-primary underline">
-            How this site makes money
+            Read our disclosure
           </Link>
         </p>
       </div>
@@ -43,7 +45,11 @@ export function AmazonSearchLink({
     <a
       href={amazonSearchUrl(query)}
       target="_blank"
-      rel="sponsored noopener noreferrer"
+      rel={
+        AMAZON_ASSOCIATE_TAG
+          ? "sponsored noopener noreferrer"
+          : "noopener noreferrer"
+      }
       className="text-primary underline"
     >
       {children}

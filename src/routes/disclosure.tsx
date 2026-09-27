@@ -1,206 +1,280 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowRight } from "lucide-react";
 import { Page } from "@/components/SiteShell";
+import { AMAZON_ASSOCIATE_TAG } from "@/lib/affiliates";
+import {
+  FAMILY_KIT_CHECKOUT_URL,
+  FAMILY_KIT_CONTENTS,
+} from "@/lib/family-offers";
+import {
+  breadcrumbJsonLd,
+  jsonLdScript,
+  SITE_URL,
+  WEBSITE_ID,
+} from "@/lib/jsonld";
 
 export const Route = createFileRoute("/disclosure")({
   head: () => ({
     meta: [
-      {
-        title:
-          "How This Site Makes Money, and How It Never Will | The Vetted Senior",
-      },
+      { title: "Disclosure & Transparency | The Vetted Senior" },
       {
         name: "description",
         content:
-          "Every way The Vetted Senior earns money, every way it refuses to, and why. No business can pay to be in our directory. No advertising. Every conflict disclosed in plain language.",
+          "What is free, what the optional C$29 Family Care Planning Kit includes, and how The Vetted Senior handles commercial links, provider listings and your information.",
       },
       {
         property: "og:title",
-        content: "How this site makes money, and how it never will",
+        content: "Disclosure & transparency | The Vetted Senior",
       },
+      {
+        property: "og:description",
+        content:
+          "Free guidance, optional paid planning materials, and the standards behind our recommendations. Explained in plain language.",
+      },
+    ],
+    scripts: [
+      jsonLdScript({
+        "@type": "WebPage",
+        "@id": `${SITE_URL}/disclosure#webpage`,
+        url: `${SITE_URL}/disclosure`,
+        name: "Disclosure & transparency",
+        inLanguage: "en-CA",
+        isPartOf: { "@id": WEBSITE_ID },
+      }),
+      jsonLdScript(
+        breadcrumbJsonLd([
+          { name: "Home", path: "/" },
+          { name: "Disclosure & transparency", path: "/disclosure" },
+        ]),
+      ),
     ],
   }),
   component: DisclosurePage,
 });
 
-function SectionHeading({ children }: { children: React.ReactNode }) {
-  return (
-    <h2 className="mt-12 font-serif text-2xl font-semibold text-primary md:text-3xl">
-      {children}
-    </h2>
-  );
-}
-
 function DisclosurePage() {
   return (
     <Page>
-      {/* ── HERO ─────────────────────────────────────────────────────────── */}
-      <section className="border-b border-border bg-card">
-        <div className="mx-auto max-w-4xl px-6 py-16">
-          <p className="text-sm font-semibold uppercase tracking-wide text-gold">
-            Disclosure and transparency
-          </p>
-          <h1 className="mt-4 font-serif text-4xl font-semibold leading-tight text-primary md:text-5xl">
-            How this site makes money, and how it never will
+      <div className="tvs-wrap">
+        <div className="tvs-page-intro">
+          <div className="tvs-breadcrumb">
+            <Link to="/">Home</Link>
+            <span>/ Disclosure &amp; transparency</span>
+          </div>
+          <p className="tvs-kicker">Disclosure &amp; transparency</p>
+          <h1>
+            What’s free. What’s paid.
+            <br />
+            What you can expect.
           </h1>
-          <p className="mt-5 max-w-2xl text-xl text-foreground/85 leading-relaxed">
-            Most websites bury this page. We link it in the footer of every page
-            on the site, and we would honestly prefer you read it before you
-            trust anything else we say.
+          <p>
+            The Vetted Senior helps Ontario families figure out what to do next
+            when an ageing parent’s needs change. You deserve to know how we
+            support this work, what a purchase buys, and what money cannot
+            influence.
           </p>
         </div>
-      </section>
 
-      <section className="mx-auto max-w-4xl px-6 py-10">
-        <div className="space-y-5 text-lg text-foreground/90 leading-relaxed">
-          <p>
-            Here is every way The Vetted Senior earns money, every way it
-            refuses to, and why the structure is built the way it is.
-          </p>
-          <p className="font-serif text-xl text-primary">
-            Start with the refusals, because they define us.
-          </p>
+        <div className="tvs-page-layout">
+          <article className="tvs-prose" aria-label="Our disclosure">
+            <div className="tvs-callout">
+              <strong>The essentials</strong>
+              <p>
+                The Starter Pack and website guidance are free. The optional
+                Planning Kit is C$29, one time.
+                {!FAMILY_KIT_CHECKOUT_URL &&
+                  " Purchases are not open yet."}{" "}
+                Providers cannot buy a recommendation, a higher position or a
+                vetting result.
+              </p>
+            </div>
 
-          <SectionHeading>
-            No business can pay to be in our directory. Ever.
-          </SectionHeading>
-          <p>
-            There is no fee to be listed, no fee to be featured, no fee to
-            appear higher in a category, and no fee to make a bad review
-            disappear. Providers cannot buy their way in, and they cannot buy
-            their way back in after being removed. Public resources, verified
-            provider facts and deeper TVS vetting are distinct. A listing is not
-            a blanket endorsement; the scope and evidence behind each label
-            matter.
-          </p>
-          <p>
-            This matters because it is not how this industry usually works. The
-            largest senior care referral services in North America are paid by
-            the facilities and agencies they recommend, often a substantial
-            percentage of the first month's fees. Many well-known "directories"
-            are, by their own fine print, paid advertising. We built The Vetted
-            Senior specifically as the opposite of that model. If we ever
-            compromise this rule, we would deserve to lose your trust
-            completely, and we would.
-          </p>
+            <section aria-labelledby="free-guidance">
+              <h2 id="free-guidance">
+                01 / A useful place to begin, for free.
+              </h2>
+              <p>
+                The <Link to="/starter-pack">Family Care Starter Pack</Link>{" "}
+                combines ten practical guides, a family next-steps page and
+                Ontario help contacts. No email address or purchase is needed to
+                download it.
+              </p>
+              <p>
+                Our website guides, individual checklists,{" "}
+                <Link to="/care-costs">care-cost planner</Link>, saved
+                next-steps list and <Link to="/local-help">Local Help</Link> are
+                also free to use. Buying a kit is optional.
+              </p>
+            </section>
 
-          <SectionHeading>We do not run advertising.</SectionHeading>
-          <p>
-            No banner ads, no sponsored posts, no "presented by" content.
-            Nothing on this site is here because someone paid for your
-            attention.
-          </p>
+            <section aria-labelledby="paid-tools">
+              <h2 id="paid-tools">02 / The optional C$29 Planning Kit.</h2>
+              <p>
+                The <Link to="/family-care-kit">Family Care Planning Kit</Link>{" "}
+                brings the fuller reference guide and reusable planning
+                materials together in one package:
+              </p>
+              <ul>
+                {FAMILY_KIT_CONTENTS.map((item) => (
+                  <li key={item.number}>
+                    <strong>{item.title}</strong> — {item.format}.
+                  </li>
+                ))}
+              </ul>
+              <p>
+                It is a one-time purchase of digital files, with no recurring
+                subscription. It does not include a consultation, a care
+                assessment, personalised professional advice or preferential
+                access to a provider. These files help you organise your own
+                conversations, schedules and decisions.
+              </p>
+              <p>
+                {FAMILY_KIT_CHECKOUT_URL
+                  ? "Purchases are open through the kit page. Review the checkout total and purchase terms before paying."
+                  : "Purchases are not open yet. You can see the contents and download a free sample on the kit page. Checkout and automatic file delivery must be ready before we accept payment."}{" "}
+                The free Starter Pack is available now.
+              </p>
+              <p>
+                Sales of our own planning materials are intended to help fund
+                the site. They do not determine what our free guidance says or
+                which services appear in Local Help.
+              </p>
+            </section>
 
-          <p className="pt-4 font-serif text-xl text-primary">
-            Now, the honest part. This site does cost money to run, and the
-            vetting work takes real time. Here is how we fund it and keep our
-            guidance independent.
-          </p>
+            <section aria-labelledby="independent-guidance">
+              <h2 id="independent-guidance">
+                03 / Recommendations cannot be bought.
+              </h2>
+              <p>
+                There is no fee to be listed, featured or placed higher in Local
+                Help. A provider cannot pay for a favourable assessment or to
+                have a concern removed. We do not sell provider leads, run
+                banner advertising or publish sponsored posts.
+              </p>
+              <p>
+                Public and official resources, verified provider facts and
+                deeper TVS vetting are different levels of information. A
+                listing alone is not an endorsement. Any verification claim
+                needs to say what was checked, when and against which evidence.
+                Our <Link to="/about">approach to trust</Link> explains the
+                distinctions.
+              </p>
+            </section>
 
-          <SectionHeading>
-            1. Affiliate commissions on some products and services
-          </SectionHeading>
-          <p>
-            Some links on this site are affiliate links. If you click one and
-            buy something, the company pays us a commission. It costs you
-            nothing extra, and often nothing at all changes about your price.
-          </p>
-          <p>
-            Here is our rule, and it is absolute: commissions never influence
-            what we recommend, how we rank anything, or whether a provider
-            passes vetting. We decide what to recommend first, based on our
-            research and standards. Then, and only then, we check whether an
-            affiliate program exists for it. If we recommend something with no
-            affiliate program, we recommend it anyway and earn nothing, and this
-            happens regularly. If a company with a generous affiliate program
-            fails our standards, it does not appear here, full stop.
-          </p>
-          <p>
-            Every page that contains affiliate links says so at the top of the
-            page, not hidden at the bottom. You will never have to guess.
-          </p>
+            <section aria-labelledby="commercial-links">
+              <h2 id="commercial-links">04 / Product links and commissions.</h2>
+              <p>
+                {AMAZON_ASSOCIATE_TAG
+                  ? "Some product links on the site are Amazon affiliate links. If you make a qualifying purchase through one, we may earn a commission."
+                  : "Some guides link to product searches on Amazon Canada. Those links currently have no affiliate tracking tag, so TVS does not earn an affiliate commission from them."}
+              </p>
+              <p>
+                If we introduce a commission-bearing link, we will identify it
+                clearly on the relevant page and explain the relationship.
+                Commercial arrangements must not decide what we recommend or how
+                we assess a provider. An ordinary source link does not imply a
+                paid relationship.
+              </p>
+            </section>
 
-          <SectionHeading>2. Guidance on paying for care</SectionHeading>
-          <p>
-            Some guides discuss ways to pay for care, including public programs,
-            tax credits, insurance, savings, family support and housing choices.
-            Our aim is to help you understand the options, the questions to ask
-            and the costs to consider before making a decision.
-          </p>
-          <p>
-            This information is general education. It does not replace advice
-            from a qualified professional who understands your family's
-            circumstances. The planning tools help you organise the numbers you
-            enter; they do not recommend a financial product or decide what is
-            right for your family.
-          </p>
-          <p>
-            Any commercial relationship must be disclosed clearly where it is
-            relevant. It must not determine which options we explain, what we
-            recommend or how providers are assessed. Reading a guide or using a
-            planning tool does not sign you up for a sales call.
-          </p>
+            <section aria-labelledby="scope-of-guidance">
+              <h2 id="scope-of-guidance">05 / What our guidance can do.</h2>
+              <p>
+                TVS is an independent information and planning resource, not a
+                care provider or a government service. Our founder,{" "}
+                <Link to="/founder">Ragini</Link>, brings personal caregiving
+                experience and a background in compliance and regulatory
+                programs. That does not make these guides a clinical assessment
+                or individual medical, legal or financial advice.
+              </p>
+              <p>
+                Guidance on paying for care explains options and questions to
+                explore. The cost planner uses the numbers you enter; examples
+                are labelled. It cannot decide eligibility for public care,
+                guarantee available hours or recommend a financial product.
+                Confirm services, prices and eligibility with the relevant
+                organisation or professional.
+              </p>
+              <p>
+                Source-check dates tell you when we reviewed source pages. They
+                do not mean a clinician has reviewed the guidance. If something
+                has changed, please tell us which page needs checking.
+              </p>
+            </section>
 
-          <SectionHeading>3. In the future: provider audit fees</SectionHeading>
-          <p>
-            As the directory grows, we expect to charge listed providers an
-            annual fee that covers the cost of their verification and re-review,
-            the way certification bodies in other industries do. If and when we
-            introduce this, three things will remain true: paying the fee will
-            never guarantee passing the audit, the fee will never affect ranking
-            or presentation order, and failed audits will result in removal
-            regardless of any fee paid. We are telling you about this before it
-            exists because that is the kind of site this is.
-          </p>
+            <section aria-labelledby="your-information">
+              <h2 id="your-information">
+                06 / Your information stays your choice.
+              </h2>
+              <p>
+                A free download does not subscribe you to a newsletter. Email
+                updates require a separate signup, and you can unsubscribe.
+                Reading a guide or using a planning tool does not sign you up
+                for a sales call. We do not sell, rent or trade your information
+                or pass it to a listed provider.
+              </p>
+              <p>
+                Your saved next steps stay in this browser on this device. Cost
+                figures join that plan only when you choose to save them.
+                Downloaded PDFs and spreadsheets do not send your entries to TVS
+                or sync between family members. Keep completed copies private,
+                especially on a shared device.
+              </p>
+              <p>
+                The <Link to="/privacy">privacy policy</Link> explains signup
+                information, our email service, hosting and browser storage in
+                more detail.
+              </p>
+            </section>
 
-          <SectionHeading>4. Optional family planning tools</SectionHeading>
-          <p>
-            The Family Care Starter Pack, our individual checklists, website
-            guides and online care-cost worksheet are free. The{" "}
-            <Link to="/family-care-kit" className="text-primary underline">
-              Family Care Planning Kit
-            </Link>{" "}
-            is a separate C$29 digital product: a revised complete handbook,
-            fillable hospital-to-home organiser and editable spreadsheet. Its
-            page shows exactly what is included and whether purchases are open.
-          </p>
-          <p>
-            When you buy a TVS kit, you pay for the planning materials. It does
-            not buy a consultation, care assessment, preferential provider
-            access or a subscription. Selling our own tools does not affect
-            provider rankings or the guidance available for free.
-          </p>
+            <section aria-labelledby="questions-and-changes">
+              <h2 id="questions-and-changes">
+                07 / Questions, corrections and changes.
+              </h2>
+              <p>
+                If a recommendation, commercial link or service description
+                seems unclear, <Link to="/contact">contact us</Link>. Include
+                the page so we can check it. We update this disclosure when our
+                offers or commercial relationships change and show the date
+                below.
+              </p>
+              <p className="tvs-offer-note">
+                Last updated: September 27, 2026.
+              </p>
+            </section>
+          </article>
 
-          <SectionHeading>What we do with your information</SectionHeading>
-          <p>
-            If you give us your email address, we use it to send you what you
-            asked for. Our newsletter requires its own signup, and you can leave
-            it with one click. Downloading a free pack does not subscribe you.
-            We do not sell, rent, or trade your information. When we check
-            references during provider vetting, we collect that information with
-            consent and use it only for vetting decisions.
-          </p>
-
-          <SectionHeading>A closing thought</SectionHeading>
-          <p>
-            We named this page honestly because we are proud of the model, not
-            embarrassed by it. The test of any recommendation service is simple:
-            would they tell you the same thing if there were no money in it? On
-            this site, the recommendations come first and the money is checked
-            afterward, the directory cannot be bought, and commercial
-            relationships are disclosed in plain language. If you ever find
-            anything on this site that does not live up to this page,{" "}
-            <Link to="/contact" className="text-primary underline">
-              write to us
+          <aside
+            className="tvs-aside"
+            aria-label="Explore our resources and standards"
+          >
+            <p className="tvs-kicker">Start where it helps</p>
+            <h2>A little clarity first.</h2>
+            <p>
+              You can use the free resources at your own pace. No purchase is
+              needed to take your next step.
+            </p>
+            <Link to="/starter-pack" className="tvs-text-link">
+              Get the free Starter Pack{" "}
+              <ArrowRight size={17} aria-hidden="true" />
             </Link>
-            . This page is the contract.
-          </p>
-
-          <p className="mt-8 border-t border-border pt-6 text-base text-muted-foreground">
-            Last updated: September 26, 2026. We update this page whenever
-            anything about how we earn money changes, and we date every change.
-          </p>
+            <Link to="/family-care-kit" className="tvs-text-link">
+              See the Planning Kit <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+            <hr />
+            <p className="tvs-kicker">The details behind the guidance</p>
+            <Link to="/about" className="tvs-text-link">
+              Our approach to trust <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+            <Link to="/privacy" className="tvs-text-link">
+              Your privacy <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+            <Link to="/contact" className="tvs-text-link">
+              Contact us <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+          </aside>
         </div>
-      </section>
+      </div>
     </Page>
   );
 }
