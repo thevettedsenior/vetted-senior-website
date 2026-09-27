@@ -1,10 +1,16 @@
 import { ExternalLink } from "lucide-react";
 import { REVIEWED, SOURCES } from "@/lib/journeys";
-export function SourceNote({ sources }: { sources: (keyof typeof SOURCES)[] }) {
+export function SourceNote({
+  sources,
+  reviewed = REVIEWED,
+}: {
+  sources: (keyof typeof SOURCES)[];
+  reviewed?: string;
+}) {
   return (
     <div className="tvs-source-note">
       <p>
-        <strong>Follow the sources.</strong> Source pages checked {REVIEWED}.
+        <strong>Follow the sources.</strong> Source pages checked {reviewed}.
         This is navigation guidance, not a clinical assessment.
       </p>
       <ul>

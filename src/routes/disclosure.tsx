@@ -214,11 +214,11 @@ function DisclosurePage() {
                 or pass it to a listed provider.
               </p>
               <p>
-                Your saved next steps stay in this browser on this device. Cost
-                figures join that plan only when you choose to save them.
-                Downloaded PDFs and spreadsheets do not send your entries to TVS
-                or sync between family members. Keep completed copies private,
-                especially on a shared device.
+                Your saved next steps and Help at home worksheet stay in this
+                browser on this device. Cost figures join that plan only when
+                you choose to save them. Downloaded PDFs and spreadsheets do not
+                send your entries to TVS or sync between family members. Keep
+                completed copies private, especially on a shared device.
               </p>
               <p>
                 The <Link to="/privacy">privacy policy</Link> explains signup

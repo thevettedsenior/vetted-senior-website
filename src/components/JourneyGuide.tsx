@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, Check, Plus, Printer } from "lucide-react";
 import { Page } from "@/components/SiteShell";
 import { SourceNote } from "@/components/SourceNote";
+import { HomeSupportGuide } from "@/components/HomeSupportGuide";
 import { JOURNEYS, SOURCES } from "@/lib/journeys";
 import { useCarePlan } from "@/lib/care-plan";
 type Step = { title: string; detail: string };
@@ -48,41 +49,6 @@ const GUIDES: Record<string, Guide> = {
     ],
     sources: ["discharge", "athome", "homecare"],
   },
-  "staying-at-home": {
-    intro:
-      "Start with the everyday: meals, getting dressed, getting out and being comfortable at home. The right mix of help begins with your parent’s preferences.",
-    note: "Public support is assessed individually. Eligibility, service type and available hours must be confirmed by the care coordinator; a calculator cannot decide what someone qualifies for.",
-    question:
-      "“Which tasks are getting harder, what help would feel acceptable, and what would make the biggest difference?”",
-    steps: [
-      {
-        title: "Map the tasks, together.",
-        detail:
-          "Talk through a usual day with your parent. Note what they do comfortably, where help would be welcome and when support is needed. Ask a health professional about tasks that need clinical or specialist input.",
-      },
-      {
-        title: "Ask about a home-care assessment.",
-        detail:
-          "Contact Ontario Health atHome. A care coordinator assesses needs and eligibility and can discuss appropriate services. If support is already in place and needs have changed, ask for a reassessment.",
-      },
-      {
-        title: "Look for community support.",
-        detail:
-          "Use 211 Ontario to explore local meals, transportation, social programs and other practical support. Ask the service directly about eligibility, fees, availability and how to apply.",
-      },
-      {
-        title: "Be realistic about family help.",
-        detail:
-          "Agree on specific tasks and times each person can sustain. Include travel, work and rest. Build in a backup, and avoid counting two people as covering the same hour twice.",
-      },
-      {
-        title: "Price the remaining gap.",
-        detail:
-          "Request written quotes for the tasks and hours still needed. Confirm minimum visit lengths, travel, weekend fees, tax if applicable and cancellation terms. Compare the same service schedule across providers.",
-      },
-    ],
-    sources: ["homecare", "athome", "community"],
-  },
   "dementia-concerns": {
     intro:
       "Changes in memory deserve a conversation, not an assumption. Your first job is to notice, listen and help prepare for a professional assessment.",
@@ -120,6 +86,13 @@ const GUIDES: Record<string, Guide> = {
   },
 };
 export function JourneyGuide({ slug }: { slug: string }) {
+  return slug === "staying-at-home" ? (
+    <HomeSupportGuide />
+  ) : (
+    <StandardJourneyGuide slug={slug} />
+  );
+}
+function StandardJourneyGuide({ slug }: { slug: string }) {
   const journey = JOURNEYS.find((j) => j.slug === slug)!;
   const guide = GUIDES[slug];
   const plan = useCarePlan();

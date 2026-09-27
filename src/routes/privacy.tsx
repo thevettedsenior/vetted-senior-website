@@ -68,9 +68,7 @@ function PrivacyPage() {
             and gets answered by a person.
           </p>
 
-          <SectionHeading>
-            Your next-steps plan and cost worksheet
-          </SectionHeading>
+          <SectionHeading>Your plans and cost worksheet</SectionHeading>
           <p>
             The next-steps checklist is stored in this browser on this device.
             It does not create an account or a cloud backup. Anyone using this
@@ -83,6 +81,17 @@ function PrivacyPage() {
             to your device-local plan only when you choose “Add budget to my
             plan.” Keep identifying health or financial details out of the plan.
             Your text-size preference is also stored on this device.
+          </p>
+          <p>
+            The Help at home worksheet saves your selected tasks, visit days,
+            times, durations and support arrangements in this browser as you
+            edit. It does not upload those entries to TVS or sync with family
+            members. Anyone using this browser may see them. Use roles instead
+            of full names and leave out private health and financial details.
+            You can remove entries, clear the worksheet or print a copy. If
+            storage is blocked, it lasts only for the current visit. The cost
+            planner can read a selected entry from this device; the link does
+            not contain the worksheet's contents.
           </p>
           <SectionHeading>Your downloaded planning files</SectionHeading>
           <p>
@@ -212,7 +221,7 @@ function PrivacyPage() {
           </p>
 
           <p className="mt-8 border-t border-border pt-6 text-base text-muted-foreground">
-            Last updated: September 26, 2026. Questions? Write to{" "}
+            Last updated: September 27, 2026. Questions? Write to{" "}
             <a className="underline" href="mailto:info@thevettedsenior.com">
               info@thevettedsenior.com
             </a>

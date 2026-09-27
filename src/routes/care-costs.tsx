@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ArrowRight, Bookmark, Printer } from "lucide-react";
 import { Page } from "@/components/SiteShell";
 import { SourceNote } from "@/components/SourceNote";
@@ -11,7 +11,18 @@ import {
   type CostInputs,
 } from "@/lib/care-costs";
 import { useCarePlan } from "@/lib/care-plan";
+import { useHomeSupportPlan } from "@/hooks/useHomeSupportPlan";
+import {
+  costInputsForEntry,
+  entrySchedule,
+  isSupportId,
+  taskFor,
+  type SupportEntry,
+} from "@/lib/home-support";
 export const Route = createFileRoute("/care-costs")({
+  validateSearch: (search: Record<string, unknown>): { support?: string } => ({
+    support: isSupportId(search.support) ? search.support : undefined,
+  }),
   head: () => ({
     meta: [
       { title: "Care cost planner | The Vetted Senior" },
@@ -25,10 +36,36 @@ export const Route = createFileRoute("/care-costs")({
   component: CareCosts,
 });
 function CareCosts() {
-  const [input, setInput] = useState<CostInputs>(EXAMPLE);
+  const { support } = Route.useSearch();
+  const home = useHomeSupportPlan();
+  const imported = useRef<string | null>(null);
+  const [sourceEntry, setSourceEntry] = useState<SupportEntry | null>(null);
+  const [input, setInput] = useState<CostInputs>(() =>
+    support ? { ...EMPTY } : EXAMPLE,
+  );
+  const [importState, setImportState] = useState<
+    "none" | "loading" | "ready" | "missing"
+  >(support ? "loading" : "none");
   const [status, setStatus] = useState("");
   const plan = useCarePlan();
   const result = calculateCareCost(input);
+  useEffect(() => {
+    const key = support ?? "standalone";
+    if ((support && !home.ready) || imported.current === key) return;
+    imported.current = key;
+    setStatus("");
+    if (!support) {
+      setInput(EXAMPLE);
+      setSourceEntry(null);
+      setImportState("none");
+      return;
+    }
+    const entry = home.draft.entries.find((e) => e.id === support);
+    const values = entry ? costInputsForEntry(entry) : null;
+    setInput(values ?? { ...EMPTY });
+    setSourceEntry(values && entry ? entry : null);
+    setImportState(values ? "ready" : "missing");
+  }, [support, home.ready, home.draft.entries]);
   const field = (
     key: keyof CostInputs,
     label: string,
@@ -73,10 +110,48 @@ function CareCosts() {
         <div className="tvs-page-layout">
           <div>
             <div className="tvs-callout">
-              <strong>Start with an example, then use your own numbers.</strong>{" "}
-              The $40 hourly rate and all starting figures are illustrative
-              assumptions, not researched Ontario averages. Ask providers for
-              written quotes.
+              {support ? (
+                <>
+                  <strong>
+                    {importState === "loading"
+                      ? "Opening your weekly entry…"
+                      : sourceEntry
+                        ? `From your weekly plan: ${taskFor(sourceEntry.task).title}.`
+                        : "This weekly entry is not available for an estimate."}
+                  </strong>
+                  <p>
+                    {sourceEntry
+                      ? `${entrySchedule(sourceEntry)} · ${sourceEntry.minutes} minutes per visit. Only this entry is included. Enter its hourly quote and minimum billed visit length; use 0 only if the provider confirms no minimum. Different services need their own quotes.`
+                      : importState === "loading"
+                        ? "Reading the worksheet kept on this device."
+                        : "It may have been removed, be incomplete, or be covered by family, public care or a community service. Return to your week to check it, or enter your own figures here. Worksheet entries are not shared between devices."}
+                  </p>
+                  <Link
+                    className="tvs-text-link no-print"
+                    to="/situations/$slug"
+                    params={{ slug: "staying-at-home" }}
+                    hash="weekly-plan"
+                  >
+                    Back to my weekly plan{" "}
+                    <ArrowRight size={17} aria-hidden="true" />
+                  </Link>
+                  {!home.persistent && (
+                    <p>
+                      Your browser is blocking storage. Keep this visit open or
+                      print the worksheet.
+                    </p>
+                  )}
+                </>
+              ) : (
+                <>
+                  <strong>
+                    Start with an example, then use your own numbers.
+                  </strong>{" "}
+                  The $40 hourly rate and all starting figures are illustrative
+                  assumptions, not researched Ontario averages. Ask providers
+                  for written quotes.
+                </>
+              )}
             </div>
             <div className="tvs-tool-box">
               <div className="tvs-tool-heading">
@@ -92,7 +167,7 @@ function CareCosts() {
                     setStatus("Fields cleared. Enter your own numbers.");
                   }}
                 >
-                  Clear example
+                  {support ? "Clear figures" : "Clear example"}
                 </button>
               </div>
               <div className="tvs-form-section">
@@ -159,7 +234,11 @@ function CareCosts() {
               aria-atomic="true"
             >
               <p className="tvs-kicker">Your planning estimate</p>
-              <h2>Monthly paid support</h2>
+              <h2>
+                {support
+                  ? "Monthly cost for this entry"
+                  : "Monthly paid support"}
+              </h2>
               {result.valid ? (
                 <>
                   <output aria-label="Estimated monthly cost">
@@ -227,9 +306,11 @@ function CareCosts() {
                 disabled={!result.valid || !plan.ready}
                 onClick={() => {
                   plan.add({
-                    id: "care-budget",
-                    title: `Review a care budget of ${cad(result.monthly)} per month`,
-                    detail: `Planning assumption: ${input.needed} total hr/wk, ${input.publicHours} confirmed public, ${input.familyHours} family; ${Number(result.billed.toFixed(2))} billed hr/wk at $${input.rate}/hr; $${input.extras}/month extras and ${input.tax}% added tax. Confirm all quotes, tasks and availability.`,
+                    id: sourceEntry
+                      ? `care-budget-home-${sourceEntry.id}`
+                      : "care-budget",
+                    title: `Review ${sourceEntry ? taskFor(sourceEntry.task).title.toLowerCase() + ": " : "a care budget of "}${cad(result.monthly)} per month`,
+                    detail: `${sourceEntry ? `Snapshot for one weekly entry (${entrySchedule(sourceEntry)}), not the whole plan. ` : ""}Planning assumption: ${input.needed} total hr/wk, ${input.publicHours} confirmed public, ${input.familyHours} family; ${Number(result.billed.toFixed(2))} billed hr/wk at $${input.rate}/hr; $${input.extras}/month extras and ${input.tax}% added tax. Confirm all quotes, tasks and availability.`,
                   });
                   setStatus("Budget added to My next steps.");
                 }}

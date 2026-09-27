@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Printer, Trash2 } from "lucide-react";
 import { Page } from "@/components/SiteShell";
 import { useCarePlan } from "@/lib/care-plan";
+import { useHomeSupportPlan } from "@/hooks/useHomeSupportPlan";
 export const Route = createFileRoute("/my-plan")({
   head: () => ({
     meta: [
@@ -13,6 +14,7 @@ export const Route = createFileRoute("/my-plan")({
 });
 function MyPlan() {
   const plan = useCarePlan();
+  const home = useHomeSupportPlan();
   const completed = plan.items.filter((x) => x.done).length;
   return (
     <Page>
@@ -31,6 +33,31 @@ function MyPlan() {
         </div>
         <div className="tvs-page-layout">
           <div>
+            {home.ready && home.draft.entries.length > 0 && (
+              <div className="tvs-callout">
+                <strong>Your weekly support worksheet is here too.</strong>
+                <p>
+                  {home.draft.entries.length}{" "}
+                  {home.draft.entries.length === 1 ? "entry" : "entries"} ·{" "}
+                  {
+                    home.draft.entries.filter(
+                      (e) => e.coverage === "unarranged",
+                    ).length
+                  }{" "}
+                  still to arrange. Saved budgets are snapshots; revisit the
+                  cost planner when your schedule or quotes change.
+                </p>
+                <Link
+                  to="/situations/$slug"
+                  params={{ slug: "staying-at-home" }}
+                  hash="weekly-plan"
+                  className="tvs-text-link"
+                >
+                  Open my weekly support plan{" "}
+                  <ArrowRight size={17} aria-hidden="true" />
+                </Link>
+              </div>
+            )}
             {!plan.ready ? (
               <p role="status">Loading your saved steps…</p>
             ) : plan.items.length === 0 ? (

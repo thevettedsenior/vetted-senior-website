@@ -52,6 +52,10 @@ export const SOURCES = {
     url: "https://alzheimer.ca/en/help-support/im-healthcare-provider/making-referral-first-link",
   },
   community: { name: "211 Ontario", url: "https://211ontario.ca/" },
+  communityServices: {
+    name: "Ontario — community support services",
+    url: "https://www.ontario.ca/page/community-support-services",
+  },
   assessment: {
     name: "Alzheimer Society — preparing for a doctor’s visit",
     url: "https://alzheimer.ca/sites/default/files/documents/getting-a-diagnosis-toolkit.pdf",

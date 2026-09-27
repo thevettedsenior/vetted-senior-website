@@ -43,15 +43,16 @@ export const SITUATIONS: Situation[] = [
   },
   {
     slug: "staying-at-home",
-    title: "Staying at Home",
+    title: "Help at Home in Ontario: Build a Weekly Support Plan",
     shortTitle: "Staying at home",
-    description: "Helping a senior stay safe and independent at home.",
+    description:
+      "Choose everyday tasks, compare public, community, family and paid support, then build a free weekly plan and estimate costs one service at a time.",
     icon: "🏠",
     phase: "live",
     takeaways: [
-      "Start with an honest assessment of daily tasks, personal care, home safety, medications, finances, and social connection.",
-      "Find out what publicly funded home support exists in your area before paying for anything privately.",
-      "Staying home with paid support often costs less than a retirement residence, at least in the early stages.",
+      "Start with your parent’s preferences and the tasks where help would be welcome.",
+      "Compare public care, community programmes, sustainable family help and paid support.",
+      "Map confirmed visits and remaining gaps, then price each hourly service using its own quote.",
     ],
   },
   {
